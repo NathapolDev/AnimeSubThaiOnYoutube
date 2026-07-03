@@ -1,0 +1,952 @@
+{
+  "generatedAt": "2026-07-03T10:47:12.873Z",
+  "year": 2026,
+  "unmatchedAnimeCount": 230,
+  "candidateShowCount": 134,
+  "instructions": [
+    "Each entry is a show name (extracted from real episode uploads) not yet linked to any anime.json entry.",
+    "Cross-reference showName against unmatched anime titleOriginal/titleThai using translation knowledge.",
+    "When confident of a match, add showName (or a distinctive substring) to that anime's youtubeAliases in anime.json.",
+    "Then rerun: node tools/discover-youtube.js --backfill (with YOUTUBE_API_KEY set) to pull in the episodes."
+  ],
+  "candidates": [
+    {
+      "showName": "วาดเรื่องนี้ก่อนแล้วค่อยตาย -",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-03T06:06:21Z",
+      "sampleTitle": "วาดเรื่องนี้ก่อนแล้วค่อยตาย - ตอนที่ 01 [ซับไทย]"
+    },
+    {
+      "showName": "สู้เค้านายน้อย | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-03T06:00:10Z",
+      "sampleTitle": "สู้เค้านายน้อย | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
+    },
+    {
+      "showName": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย -",
+      "channel": "Muse Thailand",
+      "episodeCount": 16,
+      "latestPublishedAt": "2026-07-03T05:58:06Z",
+      "sampleTitle": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 14 [ซับไทย]"
+    },
+    {
+      "showName": "OVERLORD 2",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-03T05:13:49Z",
+      "sampleTitle": "OVERLORD 2 ตอนที่ 1  [ซับไทย] 【Ani-One Thailand】"
+    },
+    {
+      "showName": "My Hero Academia Season 6",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 2,
+      "latestPublishedAt": "2026-07-03T05:10:02Z",
+      "sampleTitle": "My Hero Academia Season 6 ตอนที่ 2 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "PV2ซับไทย",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-03T05:00:31Z",
+      "sampleTitle": "PV2ซับไทย 【สาวน้อยไคจู คาราเมไลซ์】"
+    },
+    {
+      "showName": "อย่าให้โมโหนะ | Mob Psycho 100",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-03T02:00:09Z",
+      "sampleTitle": "อย่าให้โมโหนะ | Mob Psycho 100 ตอนที่ 8"
+    },
+    {
+      "showName": "อนิเมะ",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-02T18:00:21Z",
+      "sampleTitle": "อนิเมะ【 เกิดใหม่เป็นอัศวินเกราะหนักผู้ถูกขับไล่แต่ใช้ความรู้จากเกมจนไร้เทียมทาน ตอนที่ 1 พร้อมรับชม】"
+    },
+    {
+      "showName": "TRIBE NINE",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 6,
+      "latestPublishedAt": "2026-07-02T15:00:06Z",
+      "sampleTitle": "TRIBE NINE ตอนที่ 5 [ซับไทย] 【Ani-One Thailand】"
+    },
+    {
+      "showName": "Miss KUROITSU from the Monster Development Department",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 12,
+      "latestPublishedAt": "2026-07-02T14:00:06Z",
+      "sampleTitle": "Miss KUROITSU from the Monster Development Department ตอนที่ 11  [ซับไทย] 【Ani-One Thailand】"
+    },
+    {
+      "showName": "👘จำกัดเวลา 1 เดือน👘",
+      "channel": "Muse Thailand",
+      "episodeCount": 3,
+      "latestPublishedAt": "2026-07-02T12:30:06Z",
+      "sampleTitle": "👘จำกัดเวลา 1 เดือน👘 [พากย์ไทย] นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ - ตอนที่ 02"
+    },
+    {
+      "showName": "👘จำกัดเวลา 1 เดือน👘 นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ -",
+      "channel": "Muse Thailand",
+      "episodeCount": 3,
+      "latestPublishedAt": "2026-07-02T11:30:06Z",
+      "sampleTitle": "👘จำกัดเวลา 1 เดือน👘 นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ - ตอนที่ 02 [ซับไทย]"
+    },
+    {
+      "showName": "เค้ากำลังจ้องคุณอยู่ | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-02T10:10:07Z",
+      "sampleTitle": "เค้ากำลังจ้องคุณอยู่ | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
+    },
+    {
+      "showName": "PV1ซับไทย",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-02T05:30:14Z",
+      "sampleTitle": "PV1ซับไทย 【สาวน้อยไคจู คาราเมไลซ์】"
+    },
+    {
+      "showName": "ทำไมพูดห้วน ๆ | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-02T05:00:30Z",
+      "sampleTitle": "ทำไมพูดห้วน ๆ | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
+    },
+    {
+      "showName": "สองนักพากย์ชวนแฟนๆรับชม",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-02T04:00:25Z",
+      "sampleTitle": "สองนักพากย์ชวนแฟนๆรับชม【 เกิดใหม่เป็นอัศวินเกราะหนักผู้ถูกขับไล่แต่ใช้ความรู้จากเกมจนไร้เทียมทาน】"
+    },
+    {
+      "showName": "อย่ามาสั่งผมนะ | Mob Psycho 100",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-02T02:00:30Z",
+      "sampleTitle": "อย่ามาสั่งผมนะ | Mob Psycho 100 ตอนที่ 5"
+    },
+    {
+      "showName": "PV2 ซับไทย",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-02T02:00:15Z",
+      "sampleTitle": "PV2 ซับไทย 【BanG Dream！YUME∞MITA】"
+    },
+    {
+      "showName": "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 -",
+      "channel": "Muse Thailand",
+      "episodeCount": 12,
+      "latestPublishedAt": "2026-07-01T12:30:06Z",
+      "sampleTitle": "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 - ตอนที่ 15 [ซับไทย]"
+    },
+    {
+      "showName": "Harem in the Labyrinth of Another World",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 6,
+      "latestPublishedAt": "2026-07-01T11:30:06Z",
+      "sampleTitle": "Harem in the Labyrinth of Another World ตอนที่ 6 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "PV1 ซับไทย",
+      "channel": "Muse Thailand",
+      "episodeCount": 2,
+      "latestPublishedAt": "2026-07-01T09:18:43Z",
+      "sampleTitle": "PV1 ซับไทย 【BanG Dream！YUME∞MITA】"
+    },
+    {
+      "showName": "ฉันจะไม่หักหลังเด็ดขาด | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-01T05:00:21Z",
+      "sampleTitle": "ฉันจะไม่หักหลังเด็ดขาด | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
+    },
+    {
+      "showName": "ออกมาตามคำขอแล้วนะ | Mob Psycho 100",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-01T02:00:23Z",
+      "sampleTitle": "ออกมาตามคำขอแล้วนะ | Mob Psycho 100 ตอนที่ 3"
+    },
+    {
+      "showName": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 11,
+      "latestPublishedAt": "2026-06-30T13:00:06Z",
+      "sampleTitle": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล ตอนที่ 11  [ซับไทย] 【Ani-One Thailand】"
+    },
+    {
+      "showName": "โทโกะ ชิบะ (พากย์เสียงโดย คัตสึยูกิ โคนิชิ)",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-30T12:00:07Z",
+      "sampleTitle": "โทโกะ ชิบะ (พากย์เสียงโดย คัตสึยูกิ โคนิชิ)"
+    },
+    {
+      "showName": "จุดโมเอะโว้ย | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-30T07:00:08Z",
+      "sampleTitle": "จุดโมเอะโว้ย | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
+    },
+    {
+      "showName": "แฝงตัวเนียน ๆ  | Mob Psycho 100",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-30T02:00:24Z",
+      "sampleTitle": "แฝงตัวเนียน ๆ  | Mob Psycho 100 ตอนที่ 2"
+    },
+    {
+      "showName": "เมดคนนี้มีพิรุธ",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 9,
+      "latestPublishedAt": "2026-06-29T14:00:06Z",
+      "sampleTitle": "เมดคนนี้มีพิรุธ ตอนที่ 9 [ซับไทย] 【Ani-One Thailand】"
+    },
+    {
+      "showName": "เขาคือคาเงยามะ ชิเงโอะ | Mob Psycho 100",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-29T07:18:04Z",
+      "sampleTitle": "เขาคือคาเงยามะ ชิเงโอะ | Mob Psycho 100 ตอนที่ 1"
+    },
+    {
+      "showName": "แค่ชื่อนี้ก็หายหมดเลย | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-29T07:00:26Z",
+      "sampleTitle": "แค่ชื่อนี้ก็หายหมดเลย | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
+    },
+    {
+      "showName": "พวกเราเหมือนกันนะ | ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-29T05:00:14Z",
+      "sampleTitle": "พวกเราเหมือนกันนะ | ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา"
+    },
+    {
+      "showName": "บอกรักทุกคนครบไปเลยแหละ | รักรักรักรักรักรัก เธอหมดหัวใจแฟนสาว 100 คน ซีซั่น 2",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-29T02:48:58Z",
+      "sampleTitle": "บอกรักทุกคนครบไปเลยแหละ | รักรักรักรักรักรัก เธอหมดหัวใจแฟนสาว 100 คน ซีซั่น 2"
+    },
+    {
+      "showName": "สองนักพากย์ตัวหลักชวนแฟน ๆ มารอรับชม《บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2》",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-29T02:16:24Z",
+      "sampleTitle": "สองนักพากย์ตัวหลักชวนแฟน ๆ มารอรับชม《บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2》"
+    },
+    {
+      "showName": "ตัวแทนฤดูหนาวเท่มาก | ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-29T01:44:20Z",
+      "sampleTitle": "ตัวแทนฤดูหนาวเท่มาก | ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา"
+    },
+    {
+      "showName": "OVERLORD",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 13,
+      "latestPublishedAt": "2026-06-28T12:00:06Z",
+      "sampleTitle": "OVERLORD  ตอนที่ 13  [ซับไทย] 【Ani-One Thailand】"
+    },
+    {
+      "showName": "Love All Play",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 11,
+      "latestPublishedAt": "2026-06-28T10:00:06Z",
+      "sampleTitle": "Love All Play  ตอนที่ 10  [ซับไทย] 【Ani-One Thailand】"
+    },
+    {
+      "showName": "เป็นนายน้อยก็ต้องหัดซ้อม | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-28T05:00:09Z",
+      "sampleTitle": "เป็นนายน้อยก็ต้องหัดซ้อม | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
+    },
+    {
+      "showName": "ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา -",
+      "channel": "Muse Thailand",
+      "episodeCount": 4,
+      "latestPublishedAt": "2026-06-27T16:30:06Z",
+      "sampleTitle": "ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา - ตอนที่ 12  [ซับไทย]"
+    },
+    {
+      "showName": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 12,
+      "latestPublishedAt": "2026-06-27T13:00:06Z",
+      "sampleTitle": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】"
+    },
+    {
+      "showName": "มาเลยเจ้าหนู | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-27T10:57:00Z",
+      "sampleTitle": "มาเลยเจ้าหนู | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
+    },
+    {
+      "showName": "ก็อบลิน สเลเยอร์ - ฉบับมัดรวมทุกตอน",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-27T05:00:06Z",
+      "sampleTitle": "ก็อบลิน สเลเยอร์ - ฉบับมัดรวมทุกตอน [ซับไทย]"
+    },
+    {
+      "showName": "TeaserPV  ซับไทย",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-27T05:00:01Z",
+      "sampleTitle": "TeaserPV  ซับไทย【 THE WORLD IS DANCING 】"
+    },
+    {
+      "showName": "Main PV2 ซับไทย",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-26T12:30:34Z",
+      "sampleTitle": "Main PV2 ซับไทย 【 BLACK TORCH 】"
+    },
+    {
+      "showName": "ทำพิธีแบบนี้ปลุกใจมาก | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-26T06:30:17Z",
+      "sampleTitle": "ทำพิธีแบบนี้ปลุกใจมาก | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
+    },
+    {
+      "showName": "MainPV2",
+      "channel": "Muse Thailand",
+      "episodeCount": 2,
+      "latestPublishedAt": "2026-06-26T03:04:36Z",
+      "sampleTitle": "MainPV2  【บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2】"
+    },
+    {
+      "showName": "MainPV ซับไทย",
+      "channel": "Muse Thailand",
+      "episodeCount": 4,
+      "latestPublishedAt": "2026-06-26T02:46:46Z",
+      "sampleTitle": "MainPV ซับไทย【 THE WORLD IS DANCING 】"
+    },
+    {
+      "showName": "มหาศึกวีรชนข้ามภพ",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 13,
+      "latestPublishedAt": "2026-06-25T16:30:06Z",
+      "sampleTitle": "มหาศึกวีรชนข้ามภพ  ตอนที่ 13  [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "Special MV - ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-25T09:00:35Z",
+      "sampleTitle": "Special MV - ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา"
+    },
+    {
+      "showName": "ความคิดอ่อนหัดนะ  | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-25T04:00:32Z",
+      "sampleTitle": "ความคิดอ่อนหัดนะ  | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1"
+    },
+    {
+      "showName": "ถ้าโดนทำให้ไล่ออกไม่ตลกเลยนะ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-25T03:30:11Z",
+      "sampleTitle": "ถ้าโดนทำให้ไล่ออกไม่ตลกเลยนะ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1"
+    },
+    {
+      "showName": "ไม่ต้องวางแผนแล้ว | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-25T03:00:32Z",
+      "sampleTitle": "ไม่ต้องวางแผนแล้ว | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1"
+    },
+    {
+      "showName": "ศัตรูตัวอันตราย | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-25T03:00:28Z",
+      "sampleTitle": "ศัตรูตัวอันตราย | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
+    },
+    {
+      "showName": "เรียกว่ามาได้จังหวะพอดีหรือเปล่า | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-25T01:30:09Z",
+      "sampleTitle": "เรียกว่ามาได้จังหวะพอดีหรือเปล่า | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1"
+    },
+    {
+      "showName": "อย่างตึงเลยลูกพี่ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-25T01:27:00Z",
+      "sampleTitle": "อย่างตึงเลยลูกพี่ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1"
+    },
+    {
+      "showName": "TeaserPV ซับไทย",
+      "channel": "Muse Thailand",
+      "episodeCount": 5,
+      "latestPublishedAt": "2026-06-24T08:00:33Z",
+      "sampleTitle": "TeaserPV ซับไทย【Grow Up Show】"
+    },
+    {
+      "showName": "จะเชื่อถือได้มั้ยเนี่ย | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-24T03:00:38Z",
+      "sampleTitle": "จะเชื่อถือได้มั้ยเนี่ย | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
+    },
+    {
+      "showName": "ก็บอกเองว่าอยากตุยเลยผลักลงเหวไปเลย | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-23T06:22:34Z",
+      "sampleTitle": "ก็บอกเองว่าอยากตุยเลยผลักลงเหวไปเลย | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
+    },
+    {
+      "showName": "หนุ่มบัญชีบ้างานกุมชะตาชาวต่างโลก - ฉบับมัดรวมทุกตอน",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-20T05:00:33Z",
+      "sampleTitle": "หนุ่มบัญชีบ้างานกุมชะตาชาวต่างโลก - ฉบับมัดรวมทุกตอน [ซับไทย]"
+    },
+    {
+      "showName": "น้ำแดงกระจาย | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-18T06:50:32Z",
+      "sampleTitle": "น้ำแดงกระจาย | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1"
+    },
+    {
+      "showName": "❤️ Ani-One Thailand ขอบคุณทุกการซัพพอร์ต... 2,000,000 Subscribers แล้วนะ! 🌸✨",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-17T05:00:24Z",
+      "sampleTitle": "❤️ Ani-One Thailand ขอบคุณทุกการซัพพอร์ต... 2,000,000 Subscribers แล้วนะ! 🌸✨"
+    },
+    {
+      "showName": "ทรงนี้แรงจูงใจเยอะแน่นอน | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-17T02:00:24Z",
+      "sampleTitle": "ทรงนี้แรงจูงใจเยอะแน่นอน | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1"
+    },
+    {
+      "showName": "จิฮิโระ โรคุฮิระ | คากุระบาจิ",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-16T12:00:11Z",
+      "sampleTitle": "จิฮิโระ โรคุฮิระ | คากุระบาจิ"
+    },
+    {
+      "showName": "ไม่ใช่ผมหรอกนะ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-16T02:00:20Z",
+      "sampleTitle": "ไม่ใช่ผมหรอกนะ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1"
+    },
+    {
+      "showName": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 13,
+      "latestPublishedAt": "2026-06-15T11:00:39Z",
+      "sampleTitle": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก ตอนที่ 25 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "เจอกันอีกแล้วนะคะ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-15T03:44:11Z",
+      "sampleTitle": "เจอกันอีกแล้วนะคะ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1"
+    },
+    {
+      "showName": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง - ฉบับมัดรวมทุกตอน",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-13T05:00:04Z",
+      "sampleTitle": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง - ฉบับมัดรวมทุกตอน [ซับไทย]"
+    },
+    {
+      "showName": "น้องยื่นสัญญาอย่างดุ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-12T03:50:27Z",
+      "sampleTitle": "น้องยื่นสัญญาอย่างดุ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4"
+    },
+    {
+      "showName": "ถ้าไม่เข้ามาเดี๋ยวทางนี้จะไปหาเอง | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-12T03:40:51Z",
+      "sampleTitle": "ถ้าไม่เข้ามาเดี๋ยวทางนี้จะไปหาเอง | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4"
+    },
+    {
+      "showName": "CharacterPV《คากุระบาจิ》- จิฮิโระ โรคุฮิระ (พากย์เสียงโดย ไทฮิ คิมูระ)",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-12T03:11:01Z",
+      "sampleTitle": "CharacterPV《คากุระบาจิ》- จิฮิโระ โรคุฮิระ (พากย์เสียงโดย ไทฮิ คิมูระ)"
+    },
+    {
+      "showName": "ไม่กินแถมเล่นอีก|ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-10T18:17:07Z",
+      "sampleTitle": "ไม่กินแถมเล่นอีก|ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1 ตอนที่ 8"
+    },
+    {
+      "showName": "ทุกฉาก ทุกการเคลื่อนไหว—AGON by AOC ทำให้มันมีชีวิตชีวา",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-06T05:00:00Z",
+      "sampleTitle": "ทุกฉาก ทุกการเคลื่อนไหว—AGON by AOC ทำให้มันมีชีวิตชีวา"
+    },
+    {
+      "showName": "DAN DA DAN | CASETiFY พา Turbo Granny ตัวป่วนสุดที่ทุกคนชอบกลับมา",
+      "channel": "Muse Thailand",
+      "episodeCount": 2,
+      "latestPublishedAt": "2026-05-31T13:00:32Z",
+      "sampleTitle": "DAN DA DAN | CASETiFY พา Turbo Granny ตัวป่วนสุดที่ทุกคนชอบกลับมา"
+    },
+    {
+      "showName": "Song of Winter :  ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-31T05:00:04Z",
+      "sampleTitle": "Song of Winter :  ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา"
+    },
+    {
+      "showName": "ห้องเรียนลอบสังหาร ช่วงเวลา 365 วัน",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-30T11:00:06Z",
+      "sampleTitle": "ห้องเรียนลอบสังหาร ช่วงเวลา 365 วัน [ซับไทย]"
+    },
+    {
+      "showName": "ทาสสุดแกร่งแห่งหน่วยป้องกันอสูร ซีซั่น 2 - ฉบับมัดรวมทุกตอน",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-30T05:30:28Z",
+      "sampleTitle": "ทาสสุดแกร่งแห่งหน่วยป้องกันอสูร ซีซั่น 2 - ฉบับมัดรวมทุกตอน [ซับไทย]"
+    },
+    {
+      "showName": "อยู่มาวันหนึ่ง ฉันก็กลายเป็นเจ้าหญิง - ฉบับมัดรวมทุกตอน",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-29T12:00:34Z",
+      "sampleTitle": "อยู่มาวันหนึ่ง ฉันก็กลายเป็นเจ้าหญิง - ฉบับมัดรวมทุกตอน [ซับไทย]"
+    },
+    {
+      "showName": "Song of Spring : ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-29T06:00:31Z",
+      "sampleTitle": "Song of Spring : ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา"
+    },
+    {
+      "showName": "DAN DA DAN | CASETiFY มาแล้ว 🔮👽❤️‍🔥",
+      "channel": "Muse Thailand",
+      "episodeCount": 3,
+      "latestPublishedAt": "2026-05-27T13:00:14Z",
+      "sampleTitle": "DAN DA DAN | CASETiFY มาแล้ว 🔮👽❤️‍🔥"
+    },
+    {
+      "showName": "หนุ่มบัญชีบ้างานกุมชะตาชาวต่างโลก - OVA",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-27T13:00:07Z",
+      "sampleTitle": "หนุ่มบัญชีบ้างานกุมชะตาชาวต่างโลก - OVA [ซับไทย]"
+    },
+    {
+      "showName": "เคียวกะ - วาลคีรีที่เคยเป็นหัวหน้าของอาริฮิโตะ",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-26T10:00:23Z",
+      "sampleTitle": "เคียวกะ - วาลคีรีที่เคยเป็นหัวหน้าของอาริฮิโตะ"
+    },
+    {
+      "showName": "Gintama ตอนที 201",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-26T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 201 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "Gintama ตอนที 200",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-25T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 200 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "Gintama ตอนที 199",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-24T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 199 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "เทเรเซีย - ผู้ซื่อสัตย์แต่ลึกลับ",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-24T08:00:29Z",
+      "sampleTitle": "เทเรเซีย - ผู้ซื่อสัตย์แต่ลึกลับ"
+    },
+    {
+      "showName": "Gintama ตอนที 198",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-23T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 198 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "SPY×FAMILY ซีซั่น 3 - ฉบับมัดรวมทุกตอน",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-23T05:00:07Z",
+      "sampleTitle": "SPY×FAMILY ซีซั่น 3 - ฉบับมัดรวมทุกตอน [ซับไทย]"
+    },
+    {
+      "showName": "One-Punch Man วันพันช์แมน ซีซั่น 3 - ฉบับมัดรวมทุกตอน",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-22T12:00:40Z",
+      "sampleTitle": "One-Punch Man วันพันช์แมน ซีซั่น 3 - ฉบับมัดรวมทุกตอน [ซับไทย]"
+    },
+    {
+      "showName": "อาริฮิโตะ - ลีดเดอร์ที่สนับสนุนพวกพ้องในฐานะกองหลัง",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-22T11:19:56Z",
+      "sampleTitle": "อาริฮิโตะ - ลีดเดอร์ที่สนับสนุนพวกพ้องในฐานะกองหลัง"
+    },
+    {
+      "showName": "Gintama ตอนที 197",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-22T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 197 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "『Hanaikada』- Orangestar feat. KaseSpecial MV ประกอบอนิเมะ ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-22T09:00:07Z",
+      "sampleTitle": "『Hanaikada』- Orangestar feat. KaseSpecial MV ประกอบอนิเมะ ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา"
+    },
+    {
+      "showName": "สิ่งแปลกประหลาดกำลังจะมาเยือน 🎴👁️ Dandadan |  CASETiFY",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-21T13:00:11Z",
+      "sampleTitle": "สิ่งแปลกประหลาดกำลังจะมาเยือน 🎴👁️ Dandadan |  CASETiFY"
+    },
+    {
+      "showName": "Gintama ตอนที 196",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-21T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 196 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "Gintama ตอนที 195",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-20T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 195 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "Gintama ตอนที 194",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-19T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 194 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "Gintama ตอนที 193",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-18T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 193 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "Gintama ตอนที 192",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-17T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 192 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "Gintama ตอนที 191",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-16T10:00:07Z",
+      "sampleTitle": "Gintama ตอนที 191 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "เส้นทางพลิกผันของราชันอมตะ - ฉบับมัดรวมทุกตอน",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-16T05:00:20Z",
+      "sampleTitle": "เส้นทางพลิกผันของราชันอมตะ - ฉบับมัดรวมทุกตอน [ซับไทย]"
+    },
+    {
+      "showName": "สะดุดรักยัยแฟนเช่า - ฉบับมัดรวมทุกตอน",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-15T12:00:15Z",
+      "sampleTitle": "สะดุดรักยัยแฟนเช่า - ฉบับมัดรวมทุกตอน [ซับไทย]"
+    },
+    {
+      "showName": "Gintama ตอนที 190",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-15T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 190 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "Gintama ตอนที 189",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-14T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 189 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "《Bereinkarnasi Menjadi Bangsawan ~dengan Kekuatan Tiada Tanding sejak Terlahir~》｜",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 12,
+      "latestPublishedAt": "2026-05-13T13:00:06Z",
+      "sampleTitle": "《Bereinkarnasi Menjadi Bangsawan ~dengan Kekuatan Tiada Tanding sejak Terlahir~》｜Episode 12｜TROPICS"
+    },
+    {
+      "showName": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 12｜TROPICS",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-13T13:00:06Z",
+      "sampleTitle": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 12｜TROPICS"
+    },
+    {
+      "showName": "Gintama ตอนที 188",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-13T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 188 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 11｜TROPICS",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-12T13:00:06Z",
+      "sampleTitle": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 11｜TROPICS"
+    },
+    {
+      "showName": "Gintama ตอนที 187",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-12T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 187 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "💧《เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้วเดอะมูฟวี่ ภาคน้ำตาแห่งห้วงทะเลคราม》💧📅14 พฤษภาคม 2569",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-12T06:25:14Z",
+      "sampleTitle": "💧《เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้วเดอะมูฟวี่ ภาคน้ำตาแห่งห้วงทะเลคราม》💧📅14 พฤษภาคม 2569"
+    },
+    {
+      "showName": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 10｜TROPICS",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-11T13:00:07Z",
+      "sampleTitle": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 10｜TROPICS"
+    },
+    {
+      "showName": "Gintama ตอนที 186",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-11T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 186 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 09｜TROPICS",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-10T13:00:06Z",
+      "sampleTitle": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 09｜TROPICS"
+    },
+    {
+      "showName": "Gintama ตอนที 185",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-10T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 185 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 08｜TROPICS",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-09T13:00:06Z",
+      "sampleTitle": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 08｜TROPICS"
+    },
+    {
+      "showName": "Gintama ตอนที 184",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-09T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 184 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "สตรีศักดิ์สิทธิ์อิทธิฤทธิ์สารพัดอย่าง ซีซั่น 2 - ฉบับมัดรวมทุกตอน",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-09T05:00:34Z",
+      "sampleTitle": "สตรีศักดิ์สิทธิ์อิทธิฤทธิ์สารพัดอย่าง ซีซั่น 2 - ฉบับมัดรวมทุกตอน [ซับไทย]"
+    },
+    {
+      "showName": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 07｜TROPICS",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-08T13:00:06Z",
+      "sampleTitle": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 07｜TROPICS"
+    },
+    {
+      "showName": "สุ่มกาชา - ฉบับมัดรวมทุกตอน",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-08T12:00:00Z",
+      "sampleTitle": "สุ่มกาชา - ฉบับมัดรวมทุกตอน [ซับไทย]"
+    },
+    {
+      "showName": "Gintama ตอนที 183",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-08T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 183 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "《สืบมรดกข้ามชาติ หยาดเทวะ》｜PV01｜TROPICS ENTERTAINMENT",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-08T05:00:00Z",
+      "sampleTitle": "《สืบมรดกข้ามชาติ หยาดเทวะ》｜PV01｜TROPICS ENTERTAINMENT"
+    },
+    {
+      "showName": "《Giọt Rượu của Thần》｜PV01｜TROPICS ENTERTAINMENT",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-08T05:00:00Z",
+      "sampleTitle": "《Giọt Rượu của Thần》｜PV01｜TROPICS ENTERTAINMENT"
+    },
+    {
+      "showName": "MainPVอนิเมะ",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-08T02:39:19Z",
+      "sampleTitle": "MainPVอนิเมะ【 อิรุมะคุง ผจญในแดนปีศาจ! ซีซั่น 4 】"
+    },
+    {
+      "showName": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 06｜TROPICS",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-07T13:00:06Z",
+      "sampleTitle": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 06｜TROPICS"
+    },
+    {
+      "showName": "《สืบมรดกข้ามชาติ หยาดเทวะ》｜TS01｜TROPICS ENTERTAINMENT",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-07T11:00:00Z",
+      "sampleTitle": "《สืบมรดกข้ามชาติ หยาดเทวะ》｜TS01｜TROPICS ENTERTAINMENT"
+    },
+    {
+      "showName": "《Giọt Rượu của Thần》｜TS01｜TROPICS ENTERTAINMENT",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-07T11:00:00Z",
+      "sampleTitle": "《Giọt Rượu của Thần》｜TS01｜TROPICS ENTERTAINMENT"
+    },
+    {
+      "showName": "Gintama ตอนที 182",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-07T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 182 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 05｜TROPICS",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-06T13:00:07Z",
+      "sampleTitle": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 05｜TROPICS"
+    },
+    {
+      "showName": "Gintama ตอนที 181",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-06T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 181 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "《ท่านเทพธิดาจัดมา ผมก็จัดไป ขอเกิดใหม่เป็นซี่โครงผู้กล้าละกันครับ》｜PV01｜TROPICS ENTERTAINMENT",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-06T05:00:00Z",
+      "sampleTitle": "《ท่านเทพธิดาจัดมา ผมก็จัดไป ขอเกิดใหม่เป็นซี่โครงผู้กล้าละกันครับ》｜PV01｜TROPICS ENTERTAINMENT"
+    },
+    {
+      "showName": "《Chuyển Sinh Thành Xương Sườn của Dũng Sĩ》｜PV01｜TROPICS ENTERTAINMENT",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-06T05:00:00Z",
+      "sampleTitle": "《Chuyển Sinh Thành Xương Sườn của Dũng Sĩ》｜PV01｜TROPICS ENTERTAINMENT"
+    },
+    {
+      "showName": "《Reinkarnasiku... Ingin Jadi Tulang Rusuk Pahlawan!》｜PV01｜TROPICS ENTERTAINMENT",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-06T05:00:00Z",
+      "sampleTitle": "《Reinkarnasiku... Ingin Jadi Tulang Rusuk Pahlawan!》｜PV01｜TROPICS ENTERTAINMENT"
+    },
+    {
+      "showName": "TRIGUN STAMPEDE",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 12,
+      "latestPublishedAt": "2026-05-05T15:00:27Z",
+      "sampleTitle": "TRIGUN STAMPEDE  ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】"
+    },
+    {
+      "showName": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 04｜TROPICS",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-05T13:00:06Z",
+      "sampleTitle": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 04｜TROPICS"
+    },
+    {
+      "showName": "PV2อนิเมะซับไทย",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-05T11:18:13Z",
+      "sampleTitle": "PV2อนิเมะซับไทย【วิวาห์แต้มพิษ 】"
+    },
+    {
+      "showName": "Gintama ตอนที 180",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-05T10:00:06Z",
+      "sampleTitle": "Gintama ตอนที 180 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 03｜TROPICS",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-04T13:00:06Z",
+      "sampleTitle": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 03｜TROPICS"
+    }
+  ]
+}

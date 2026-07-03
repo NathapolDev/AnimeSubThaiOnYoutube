@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-03T09:35:50.744Z",
+  "generatedAt": "2026-07-03T10:13:21.026Z",
   "year": 2026,
   "itemCount": 269,
   "instructions": [
@@ -161,11 +161,9 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [
-        "https://www.anime-masters.com/cardfight-vanguard-divinez/"
-      ],
-      "notes": "พบชื่อไทยจากเว็บอนิเมะไทยหลายแห่ง (Anime-Suba, Anime-Masters)",
-      "confidence": "probable"
+      "sourceUrls": [],
+      "notes": "",
+      "confidence": ""
     },
     {
       "id": "choujun-choujou-senpai",
@@ -589,11 +587,9 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [
-        "https://th.wikipedia.org/wiki/เคโรโระ_ขบวนการอ๊บอ๊บป่วนโลก"
-      ],
-      "notes": "ชื่อไทยมาตรฐานของแฟรนไชส์ Keroro Gunsou",
-      "confidence": "probable"
+      "sourceUrls": [],
+      "notes": "",
+      "confidence": ""
     },
     {
       "id": "kikansha-no-mahou-wa-tokubetsu-desu-2nd-season",
@@ -805,11 +801,9 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [
-        "https://www.phoenixnext.com/book-series/magical-explorer.html"
-      ],
-      "notes": "ชื่อไทยนี้มาจากฉบับนิยาย/มังงะที่วางขายในไทย ยังไม่ยืนยันว่าฉบับอนิเมะใช้ชื่อเดียวกัน",
-      "confidence": "unconfirmed"
+      "sourceUrls": [],
+      "notes": "",
+      "confidence": ""
     },
     {
       "id": "magic-knight-rayearth-2026",
@@ -840,11 +834,9 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [
-        "https://th.wikipedia.org/wiki/เมจิกไนท์_เรย์เอิร์ธ"
-      ],
-      "notes": "ชื่อไทยนี้ใช้กับซีรีส์ต้นฉบับปี 1994 คาดว่าฉบับรีเมค 2026 จะใช้ชื่อเดียวกัน แต่ยังไม่มีการยืนยันอย่างเป็นทางการ",
-      "confidence": "unconfirmed"
+      "sourceUrls": [],
+      "notes": "",
+      "confidence": ""
     },
     {
       "id": "mahou-no-shimai-lulutto-lilly-part-2",
@@ -1031,11 +1023,9 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [
-        "https://www.online-station.net/anime/994838"
-      ],
-      "notes": "ชื่อไทยใกล้เคียงชื่ออังกฤษเดิมมาก อาจไม่ช่วยการจับคู่มากนัก",
-      "confidence": "probable"
+      "sourceUrls": [],
+      "notes": "",
+      "confidence": ""
     },
     {
       "id": "ranma-1-2-2024-3rd-season",
@@ -1401,8 +1391,8 @@
       "officialChannelName": "",
       "officialChannelUrl": "",
       "sourceUrls": [],
-      "notes": "ชื่อไทยนี้มาจากฉบับมังงะ ยังไม่ยืนยันว่าฉบับอนิเมะใช้ชื่อเดียวกัน",
-      "confidence": "unconfirmed"
+      "notes": "",
+      "confidence": ""
     },
     {
       "id": "tensei-kizoku-kantei-skill-de-nariagaru-3rd-season",
@@ -1859,11 +1849,9 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [
-        "https://www.youtube.com/watch?v=1HdJV751MwE"
-      ],
-      "notes": "ยืนยันแล้วว่าอัปโหลดจริงบน Ani-One Thailand ใช้ชื่อไทยนี้",
-      "confidence": "confirmed"
+      "sourceUrls": [],
+      "notes": "",
+      "confidence": ""
     },
     {
       "id": "awajima-hyakkei",
@@ -2113,11 +2101,9 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [
-        "https://www.youtube.com/watch?v=S1Mb4fDpsC8"
-      ],
-      "notes": "ยืนยันแล้วว่าอัปโหลดจริงบน Ani-One Thailand ULTRA แต่ใช้ชื่อ \"Dr. STONE Season 4\" แทน \"Science Future Part 3\"",
-      "confidence": "confirmed"
+      "sourceUrls": [],
+      "notes": "",
+      "confidence": ""
     },
     {
       "id": "ganbare-nakamura-kun",
@@ -2637,17 +2623,36 @@
         "Adult Cast",
         "Seinen"
       ],
-      "knownChannel": "ยังไม่ประกาศช่องทางไทย",
-      "knownChannelId": "",
+      "knownChannel": "Tropics Anime Asia",
+      "knownChannelId": "UCC-g5hWSvCbdB8HQQIA0_pg",
       "playlistUrl": "",
-      "episodeUrls": [],
-      "latestVideoUrl": "",
-      "researchStatus": "needs_research",
-      "officialChannelName": "",
-      "officialChannelUrl": "",
+      "episodeUrls": [
+        "https://www.youtube.com/watch?v=Yvgjx4MzEsM",
+        "https://www.youtube.com/watch?v=ihUGW9vl4TM",
+        "https://www.youtube.com/watch?v=cpE6wtOzSMc",
+        "https://www.youtube.com/watch?v=n1a2-A1F_xQ",
+        "https://www.youtube.com/watch?v=7E11jhv4A_U",
+        "https://www.youtube.com/watch?v=gEamxR8mOQU",
+        "https://www.youtube.com/watch?v=ahJu9TjxXmM",
+        "https://www.youtube.com/watch?v=tjjKQqlCYj0",
+        "https://www.youtube.com/watch?v=grbeUg_W2tI",
+        "https://www.youtube.com/watch?v=zhIaVGmaXyM",
+        "https://www.youtube.com/watch?v=BROGO1UMHzo",
+        "https://www.youtube.com/watch?v=lB9-MyewUO4",
+        "https://www.youtube.com/watch?v=5r4pwQPvi7Q",
+        "https://www.youtube.com/watch?v=aEaQ_jJI99g",
+        "https://www.youtube.com/watch?v=M9VpX-Jn5vo",
+        "https://www.youtube.com/watch?v=ic8_j5Hc5gg",
+        "https://www.youtube.com/watch?v=0DaULKSAUhc",
+        "https://www.youtube.com/watch?v=R1zfPiB1TOc"
+      ],
+      "latestVideoUrl": "https://www.youtube.com/watch?v=Yvgjx4MzEsM",
+      "researchStatus": "has_known_youtube_source",
+      "officialChannelName": "Tropics Anime Asia",
+      "officialChannelUrl": "https://www.youtube.com/channel/UCC-g5hWSvCbdB8HQQIA0_pg",
       "sourceUrls": [],
       "notes": "",
-      "confidence": ""
+      "confidence": "strong_unique_title_match"
     },
     {
       "id": "kanan-sama-wa-akumade-choroi",
@@ -3100,11 +3105,9 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [
-        "https://www.anime108.com/mao/"
-      ],
-      "notes": "พบชื่อไทยจากเว็บอนิเมะไทย (anime108, iQIYI TH)",
-      "confidence": "probable"
+      "sourceUrls": [],
+      "notes": "",
+      "confidence": ""
     },
     {
       "id": "marika-chan-no-koukando-wa-bukkowareteiru",
@@ -3165,11 +3168,9 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [
-        "https://th.wikipedia.org/wiki/วิวาห์แต้มพิษ"
-      ],
-      "notes": "พบชื่อไทยจาก TrueID/Crunchyroll TH/Wikipedia",
-      "confidence": "probable"
+      "sourceUrls": [],
+      "notes": "",
+      "confidence": ""
     },
     {
       "id": "mata-korosarete-shimatta-no-desu-ne-tantei-sama",
@@ -3220,17 +3221,27 @@
         "Parody",
         "Reincarnation"
       ],
-      "knownChannel": "ยังไม่ประกาศช่องทางไทย",
-      "knownChannelId": "",
+      "knownChannel": "Tropics Anime Asia",
+      "knownChannelId": "UCC-g5hWSvCbdB8HQQIA0_pg",
       "playlistUrl": "",
-      "episodeUrls": [],
-      "latestVideoUrl": "",
-      "researchStatus": "needs_research",
-      "officialChannelName": "",
-      "officialChannelUrl": "",
+      "episodeUrls": [
+        "https://www.youtube.com/watch?v=7Mi8mnw7Wxo",
+        "https://www.youtube.com/watch?v=2H71bGKp_Nk",
+        "https://www.youtube.com/watch?v=JgHtLLCa8io",
+        "https://www.youtube.com/watch?v=GI3YNT-mFJE",
+        "https://www.youtube.com/watch?v=XzAGGVvtTT0",
+        "https://www.youtube.com/watch?v=8ZJbymdP4mU",
+        "https://www.youtube.com/watch?v=S_shFrm8eoQ",
+        "https://www.youtube.com/watch?v=sqBmAOJxw6c",
+        "https://www.youtube.com/watch?v=HB_z2dkSKmo"
+      ],
+      "latestVideoUrl": "https://www.youtube.com/watch?v=7Mi8mnw7Wxo",
+      "researchStatus": "has_known_youtube_source",
+      "officialChannelName": "Tropics Anime Asia",
+      "officialChannelUrl": "https://www.youtube.com/channel/UCC-g5hWSvCbdB8HQQIA0_pg",
       "sourceUrls": [],
       "notes": "",
-      "confidence": ""
+      "confidence": "strong_unique_title_match"
     },
     {
       "id": "needy-girl-overdose",
@@ -4155,7 +4166,7 @@
       "officialChannelUrl": "",
       "sourceUrls": [],
       "notes": "",
-      "confidence": ""
+      "confidence": "confirmed_playlist"
     },
     {
       "id": "black-torch",
@@ -4273,7 +4284,7 @@
       "knownChannelId": "",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLCR1_rvbIAHE",
       "episodeUrls": [
-        "https://www.youtube.com/watch?v=MQuFqeslReM"
+        "https://www.youtube.com/watch?v=MQuFqeslReM&list=PLCR1_rvbIAHE"
       ],
       "latestVideoUrl": "https://www.youtube.com/watch?v=MQuFqeslReM&list=PLCR1_rvbIAHE",
       "researchStatus": "has_known_youtube_source",
@@ -4325,7 +4336,7 @@
       "officialChannelUrl": "",
       "sourceUrls": [],
       "notes": "",
-      "confidence": ""
+      "confidence": "confirmed_playlist"
     },
     {
       "id": "tomb-raider-king",
@@ -5088,11 +5099,9 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [
-        "https://yumeyaclub.com/post/86351"
-      ],
-      "notes": "พบชื่อไทยจากเว็บข่าวอนิเมะไทย",
-      "confidence": "probable"
+      "sourceUrls": [],
+      "notes": "",
+      "confidence": ""
     },
     {
       "id": "migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita",
@@ -5217,7 +5226,7 @@
       "officialChannelUrl": "",
       "sourceUrls": [],
       "notes": "",
-      "confidence": ""
+      "confidence": "confirmed_playlist"
     },
     {
       "id": "nige-jouzu-no-wakagimi-2nd-season",
@@ -5680,7 +5689,7 @@
       "officialChannelUrl": "",
       "sourceUrls": [],
       "notes": "",
-      "confidence": ""
+      "confidence": "confirmed_playlist"
     },
     {
       "id": "worlds-strongest-rearguard",
@@ -6086,7 +6095,7 @@
       "officialChannelUrl": "",
       "sourceUrls": [],
       "notes": "",
-      "confidence": ""
+      "confidence": "confirmed_playlist"
     },
     {
       "id": "uchi-no-otouto-domo-ga-sumimasen",
@@ -6178,7 +6187,7 @@
       "officialChannelUrl": "",
       "sourceUrls": [],
       "notes": "",
-      "confidence": ""
+      "confidence": "confirmed_playlist"
     },
     {
       "id": "yami-shibai-17",
@@ -6240,7 +6249,7 @@
       "officialChannelUrl": "",
       "sourceUrls": [],
       "notes": "",
-      "confidence": ""
+      "confidence": "confirmed_playlist"
     },
     {
       "id": "yoroi-shin-den-samurai-troopers-part-2",
@@ -6603,11 +6612,9 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [
-        "https://th.wikipedia.org/wiki/เดดแอ็กเคานต์_พิฆาตบัญชีมรณะ"
-      ],
-      "notes": "พบชื่อไทยจากเว็บอนิเมะไทย/Wikipedia ระบุว่ามีจำหน่ายผ่าน Ani-One Thailand ด้วย",
-      "confidence": "probable"
+      "sourceUrls": [],
+      "notes": "",
+      "confidence": ""
     },
     {
       "id": "douse-koishite-shimaunda-2nd-season",
@@ -7256,11 +7263,9 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [
-        "https://www.anime-os.com/info/a15816/"
-      ],
-      "notes": "พบชื่อไทยจาก anime-os.com",
-      "confidence": "probable"
+      "sourceUrls": [],
+      "notes": "",
+      "confidence": ""
     },
     {
       "id": "kaya-chan-wa-kowakunai",
@@ -7340,17 +7345,30 @@
         "Fantasy",
         "Reincarnation"
       ],
-      "knownChannel": "ยังไม่ประกาศช่องทางไทย",
-      "knownChannelId": "",
+      "knownChannel": "Tropics Anime Asia",
+      "knownChannelId": "UCC-g5hWSvCbdB8HQQIA0_pg",
       "playlistUrl": "",
-      "episodeUrls": [],
-      "latestVideoUrl": "",
-      "researchStatus": "needs_research",
-      "officialChannelName": "",
-      "officialChannelUrl": "",
+      "episodeUrls": [
+        "https://www.youtube.com/watch?v=3ehTiMbhJ_0",
+        "https://www.youtube.com/watch?v=AmmLiVlKZOU",
+        "https://www.youtube.com/watch?v=RijvSNbFyzM",
+        "https://www.youtube.com/watch?v=_ODPJIfmM_c",
+        "https://www.youtube.com/watch?v=aFkAKNlBI1o",
+        "https://www.youtube.com/watch?v=RUmr-YGWGSk",
+        "https://www.youtube.com/watch?v=tGqBBLdAzmE",
+        "https://www.youtube.com/watch?v=JCMLuw86cgQ",
+        "https://www.youtube.com/watch?v=DuTUAiRjOcQ",
+        "https://www.youtube.com/watch?v=pzHOcbG3YYY",
+        "https://www.youtube.com/watch?v=JpBx4oUDgug",
+        "https://www.youtube.com/watch?v=Uis-XYueJiI"
+      ],
+      "latestVideoUrl": "https://www.youtube.com/watch?v=3ehTiMbhJ_0",
+      "researchStatus": "has_known_youtube_source",
+      "officialChannelName": "Tropics Anime Asia",
+      "officialChannelUrl": "https://www.youtube.com/channel/UCC-g5hWSvCbdB8HQQIA0_pg",
       "sourceUrls": [],
       "notes": "",
-      "confidence": ""
+      "confidence": "strong_unique_title_match"
     },
     {
       "id": "majutsushi-kunon-wa-mieteiru",
@@ -8176,8 +8194,8 @@
       "officialChannelName": "",
       "officialChannelUrl": "",
       "sourceUrls": [],
-      "notes": "ชื่อไทยของแฟรนไชส์ Pleasant Goat and Big Big Wolf โดยรวม ยังไม่ยืนยันว่าใช้กับภาคนี้โดยเฉพาะ",
-      "confidence": "unconfirmed"
+      "notes": "",
+      "confidence": ""
     },
     {
       "id": "yami-shibai-16",
@@ -8350,17 +8368,21 @@
         "Adventure",
         "Fantasy"
       ],
-      "knownChannel": "ยังไม่ประกาศช่องทางไทย",
-      "knownChannelId": "",
+      "knownChannel": "Tropics Anime Asia",
+      "knownChannelId": "UCC-g5hWSvCbdB8HQQIA0_pg",
       "playlistUrl": "",
-      "episodeUrls": [],
-      "latestVideoUrl": "",
-      "researchStatus": "needs_research",
-      "officialChannelName": "",
-      "officialChannelUrl": "",
+      "episodeUrls": [
+        "https://www.youtube.com/watch?v=QNvXlkskMRQ",
+        "https://www.youtube.com/watch?v=oEJSX4J2lXg",
+        "https://www.youtube.com/watch?v=ALQf3J1dvRI"
+      ],
+      "latestVideoUrl": "https://www.youtube.com/watch?v=QNvXlkskMRQ",
+      "researchStatus": "has_known_youtube_source",
+      "officialChannelName": "Tropics Anime Asia",
+      "officialChannelUrl": "https://www.youtube.com/channel/UCC-g5hWSvCbdB8HQQIA0_pg",
       "sourceUrls": [],
       "notes": "",
-      "confidence": ""
+      "confidence": "strong_unique_title_match"
     }
   ]
 }
