@@ -65,7 +65,7 @@ The data pipeline writes two parallel files after every update:
 
 ## GitHub Actions
 
-`update-anime` workflow runs daily at 05:17 Bangkok time (22:17 UTC). Manual dispatch accepts a `backfill` boolean. On success it commits changed data files then chains `deploy-pages.yml`.
+`update-anime` workflow runs 3x/day at 06:00, 12:00, and 23:00 Bangkok time (23:00, 05:00, 16:00 UTC). Manual dispatch accepts a `backfill` boolean. On success it commits changed data files then chains `deploy-pages.yml`.
 
 Required secret: `YOUTUBE_API_KEY` (YouTube Data API v3). Never commit the key.
 
