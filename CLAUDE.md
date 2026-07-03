@@ -35,8 +35,10 @@ node tools/import-youtube-research.js "path\to\youtube-research-queue.updated.js
 ## Architecture
 
 The data pipeline writes two parallel files after every update:
-- `data/anime.json` — canonical source of truth (read/written by all tools)
-- `data/anime.js` — `window.ANIME_DATA = <same JSON>` for `file://` use without a server
+- `data/anime.json` — canonical source of truth (read/written by all tools), pretty-printed for reviewable diffs
+- `data/anime.js` — `window.ANIME_DATA = <same data, minified>` for `file://` use without a server
+
+Both files are written through `tools/write-data.js`; don't write them by hand from a tool. `tools/build-site-data.js` builds the GitHub Pages payload (`_site/data/`) with pipeline-only fields stripped — if `app.js` starts reading a new field, add it to `ITEM_FIELDS`/`EPISODE_FIELDS` there.
 
 **Tool chain (run in this order by the GitHub Actions workflow):**
 1. `tools/update-jikan.js` — fetches all TV anime for the current Bangkok year from Jikan API across all four seasons; enriches existing entries, inserts new ones, preserves YouTube data
@@ -65,7 +67,7 @@ The data pipeline writes two parallel files after every update:
 
 ## GitHub Actions
 
-`update-anime` workflow runs 3x/day at 06:17, 12:17, and 23:17 Bangkok time (23:17, 05:17, 16:17 UTC) — offset from the top of the hour to avoid GitHub Actions' high-load minute-zero scheduling window. Manual dispatch accepts a `backfill` boolean. On success it commits changed data files then chains `deploy-pages.yml`.
+`update-anime` workflow runs 3x/day at 06:17, 12:17, and 23:17 Bangkok time (23:17, 05:17, 16:17 UTC) — offset from the top of the hour to avoid GitHub Actions' high-load minute-zero scheduling window. Manual dispatch accepts a `backfill` boolean. On success it commits changed data files (rebasing and retrying if main moved during the run) then chains `deploy-pages.yml`, which assembles `_site/` with the slimmed data payload from `tools/build-site-data.js`.
 
 Required secret: `YOUTUBE_API_KEY` (YouTube Data API v3). Never commit the key.
 
