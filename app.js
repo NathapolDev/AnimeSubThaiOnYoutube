@@ -5,7 +5,7 @@ const currentSeason = ['winter', 'spring', 'summer', 'fall'][Math.floor(currentB
 const tvYears = [...new Set(data.filter(item => item.jikanType === 'TV').map(item => Number(item.catalogYear || item.year)).filter(Boolean))].sort((a, b) => b - a);
 let selectedYear = tvYears.includes(currentYear) ? currentYear : (tvYears[0] || currentYear);
 let activeSeason = currentSeason;
-let activeFilter = 'all', query = '';
+let activeFilter = 'all', activeChannel = 'all', query = '';
 let catalogLimit = 48;
 const grid = document.querySelector('#grid');
 const resultText = document.querySelector('#resultText');
@@ -40,7 +40,7 @@ function hasPremiered(item) { return !item.premiere || new Date(item.premiere) <
 function isInCatalogScope(item) { return isTvInYear(item) && (activeSeason === 'all' || item.season === activeSeason); }
 function isMatch(item) {
   const haystack = normalize([item.titleThai, item.titleOriginal, item.altTitle, item.channel, item.studio, item.source, ...(item.genres || [])].join(' '));
-  return isInCatalogScope(item) && (!query || haystack.includes(normalize(query))) && (activeFilter === 'all' || item.status === activeFilter || item.channel === activeFilter);
+  return isInCatalogScope(item) && (!query || haystack.includes(normalize(query))) && (activeFilter === 'all' || item.status === activeFilter) && (activeChannel === 'all' || item.channel === activeChannel);
 }
 function thaiToday() {
   const now = new Date();
@@ -73,7 +73,7 @@ function cardTemplate(item) {
   const watchUrl = safeExternalUrl(item.latestVideoUrl || item.link);
   return `<article class="anime-card" tabindex="0" data-id="${escapeHtml(item.id)}">
     <div class="poster-wrap"><img class="poster" src="${escapeHtml(item.poster)}" alt="${escapeHtml(item.titleThai)}" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('is-missing')" /><span class="poster-fallback" aria-hidden="true">ไม่มีรูป</span></div>
-    <div class="status"><span class="dot ${st.dot}"></span>${st.label}</div><div class="channel">${item.channel.includes('Ani') ? 'Ani-One' : item.channel.includes('Muse') ? 'Muse' : 'รอช่องทางไทย'}</div>
+    <div class="status"><span class="dot ${st.dot}"></span>${st.label}</div><div class="channel">${item.channel.includes('Ani') ? 'Ani-One' : item.channel.includes('Muse') ? 'Muse' : item.channel.includes('Tropics') ? 'Tropics' : 'รอช่องทางไทย'}</div>
     <div class="card-body"><h3>${escapeHtml(item.titleThai)}</h3><p class="original">${escapeHtml(item.titleOriginal)}</p>
       <div class="episode-row"><strong>${latestText(item)}</strong><span class="update-badge ${update[1]}">${update[0]}</span></div>
       ${item.lastCheckedAt ? `<p class="checked-at">ตรวจสอบล่าสุด ${formatDate(item.lastCheckedAt)}</p>` : ''}
@@ -96,7 +96,7 @@ function render() {
   });
 }
 function renderSchedule() {
-  const sorted = data.filter(item => isInCatalogScope(item) && isCurrentlyAiring(item)).sort((a, b) => a.airTimeThai.localeCompare(b.airTimeThai, 'th'));
+  const sorted = data.filter(item => isInCatalogScope(item) && isCurrentlyAiring(item) && hasPremiered(item)).sort((a, b) => a.airTimeThai.localeCompare(b.airTimeThai, 'th'));
   scheduleList.innerHTML = sorted.map(item => `<div class="schedule-item"><div class="schedule-date">${escapeHtml(item.airTimeThai.split(' ')[0])}</div><div><strong>${escapeHtml(item.titleThai)}</strong><span>${escapeHtml(item.airTimeThai)} • ${escapeHtml(item.channel)} • ${latestText(item)}</span></div></div>`).join('');
 }
 function episodeRowsTemplate(episodes) {
@@ -134,8 +134,7 @@ function showDetail(id) {
       <div class="info"><small>ตอนล่าสุด</small><strong>${Number(item.currentEpisode) > 0 ? `ตอนที่ ${item.currentEpisode}` : '—'}</strong></div>
       <div class="info"><small>ชื่อตอนล่าสุด</small><strong>${escapeHtml(item.latestEpisodeTitle || '—')}</strong></div>
       <div class="info"><small>เผยแพร่เมื่อ</small><strong>${formatDate(item.latestPublishedAt)}</strong></div>
-      <div class="info"><small>ตรวจสอบล่าสุด</small><strong>${formatDate(item.lastCheckedAt)}</strong></div>
-      <div class="info"><small>ความมั่นใจ</small><strong>${escapeHtml(item.confidence || '—')}</strong></div>
+      <div class="info info-wide"><small>ตรวจสอบล่าสุด</small><strong>${formatDate(item.lastCheckedAt)}</strong></div>
     </div>${item.updateError ? `<p class="update-error-text">${escapeHtml(item.updateError)}</p>` : ''}
     <section class="episode-section" aria-labelledby="episodeHeading">
       <div class="episode-heading"><div><p class="eyebrow">YouTube Episodes</p><h3 id="episodeHeading">ตอนที่รับชมได้</h3></div><span>${Array.isArray(item.availableEpisodes) ? item.availableEpisodes.length : 0} ตอน</span></div>
@@ -169,6 +168,7 @@ document.querySelectorAll('[data-season]').forEach(chip => {
   });
 });
 document.querySelectorAll('.status-filters .chip').forEach(chip => chip.addEventListener('click', () => { document.querySelectorAll('.status-filters .chip').forEach(c => c.classList.remove('active')); chip.classList.add('active'); activeFilter = chip.dataset.filter; catalogLimit = 48; render(); }));
+document.querySelectorAll('.channel-filters .chip').forEach(chip => chip.addEventListener('click', () => { document.querySelectorAll('.channel-filters .chip').forEach(c => c.classList.remove('active')); chip.classList.add('active'); activeChannel = chip.dataset.channel; catalogLimit = 48; render(); }));
 document.querySelector('#loadMoreCatalog').addEventListener('click', () => { catalogLimit += 48; render(); });
 document.querySelector('#closeDialog').addEventListener('click', () => dialog.close());
 dialog.addEventListener('click', e => { if (e.target === dialog) dialog.close(); });

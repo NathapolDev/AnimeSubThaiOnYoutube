@@ -55,12 +55,18 @@
           <button class="chip" data-season="all">ทั้งปี</button>
         </div>
       </div>
-      <div class="filters status-filters" role="group" aria-label="ตัวกรองสถานะและช่องทาง">
+      <div class="filters status-filters" role="group" aria-label="ตัวกรองสถานะ">
+        <span class="filter-group-label">สถานะ</span>
         <button class="chip active" data-filter="all">ทั้งหมด</button>
         <button class="chip" data-filter="available">ดูได้แล้ว</button>
         <button class="chip" data-filter="upcoming">รอเริ่มฉาย</button>
-        <button class="chip" data-filter="Ani-One Thailand">Ani-One</button>
-        <button class="chip" data-filter="Muse Thailand">Muse</button>
+      </div>
+      <div class="filters channel-filters" role="group" aria-label="ตัวกรองช่องทาง">
+        <span class="filter-group-label">ช่องทาง</span>
+        <button class="chip active" data-channel="all">ทุกช่องทาง</button>
+        <button class="chip" data-channel="Ani-One Thailand">Ani-One Thailand</button>
+        <button class="chip" data-channel="Muse Thailand">Muse Thailand</button>
+        <button class="chip" data-channel="Tropics Anime Asia">Tropics Anime Asia</button>
       </div>
     </section>
 
@@ -79,21 +85,12 @@
       </div>
       <div id="scheduleList" class="schedule-list"></div>
     </section>
-
-    <section class="data-note glass">
-      <h2>หมายเหตุเรื่องข้อมูล</h2>
-      <p>รายชื่ออนิเมะ TV และโปสเตอร์ดึงจาก Jikan ส่วนสถานะรับชมอ้างอิงเฉพาะ Playlist ที่ยืนยันแล้วหรือวิดีโอตอนเต็มที่จับคู่จากช่อง YouTube ลิขสิทธิ์ใน allowlist ผลการจับคู่ที่กำกวมจะไม่เผยแพร่อัตโนมัติ</p>
-    </section>
   </main>
 
   <dialog id="detailDialog" class="detail-dialog">
     <button id="closeDialog" class="close-btn" aria-label="ปิดรายละเอียด">×</button>
     <div id="dialogContent"></div>
   </dialog>
-
-  <footer>
-    <p>Built as a static web app. Data file: <code>data/anime.json</code></p>
-  </footer>
 
   <script src="safe-url.js"></script>
   <script src="data/anime.js"></script>
