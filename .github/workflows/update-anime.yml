@@ -45,7 +45,15 @@ jobs:
           git config user.name "anime-update-bot"
           git config user.email "anime-update-bot@users.noreply.github.com"
           git add data/anime.json data/anime.js data/youtube-discovery-state.json data/youtube-candidates.json
-          git diff --cached --quiet || git commit -m "chore: update latest anime episodes"
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: update latest anime episodes"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase origin main
+          done
           git push
 
   deploy:

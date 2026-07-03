@@ -23,12 +23,19 @@ function youtubeVideoId(value = '') {
 function importResearch(anime, queue) {
   if (queue?.schemaVersion !== 1 || !Array.isArray(queue.items)) throw new Error('Unsupported or invalid research queue.');
   const byId = new Map(anime.map(item => [item.id, item]));
-  const byMalId = new Map(anime.map(item => [Number(item.malId), item]));
+  const byMalId = new Map();
+  for (const item of anime) {
+    const malId = Number(item.malId);
+    if (Number.isFinite(malId)) byMalId.set(malId, item);
+  }
   const result = { updated: 0, skipped: 0, conflicts: [], invalidEpisodeUrls: [] };
 
   for (const research of queue.items) {
     const idMatch = byId.get(research.id);
-    const malMatch = byMalId.get(Number(research.malId));
+    const incomingMalId = Number(research.malId);
+    const malMatch = Number.isFinite(incomingMalId)
+      ? byMalId.get(incomingMalId)
+      : (idMatch && !idMatch.malId ? idMatch : undefined);
     if (!idMatch || idMatch !== malMatch) {
       result.conflicts.push(`${research.id} (MAL ${research.malId})`);
       continue;

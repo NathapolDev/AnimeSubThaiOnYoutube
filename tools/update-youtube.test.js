@@ -15,6 +15,27 @@ test('extracts Thai and English episode numbers', () => {
   assert.equal(episodeNumber('Series #4'), 4);
 });
 
+test('ignores year-like hashtag numbers', () => {
+  assert.equal(episodeNumber('Anime แนะนำ #2026'), null);
+  assert.equal(episodeNumber('Anime ตอนที่ 3 #2026'), 3);
+});
+
+test('retries transient YouTube API failures before succeeding', { concurrency: false }, async () => {
+  const originalFetch = global.fetch;
+  let calls = 0;
+  global.fetch = async () => {
+    calls += 1;
+    if (calls === 1) return { ok: false, status: 500, json: async () => ({}) };
+    return { ok: true, status: 200, json: async () => ({ items: [{ id: 1 }] }) };
+  };
+  try {
+    assert.deepEqual(await fetchPlaylist('playlist', 'key'), [{ id: 1 }]);
+    assert.equal(calls, 2);
+  } finally {
+    global.fetch = originalFetch;
+  }
+});
+
 test('converts Jikan JST broadcasts to Thailand day and time', () => {
   assert.equal(thaiBroadcastTime({ day: 'Fridays', time: '21:30' }), 'ศุกร์ 19:30');
   assert.equal(thaiBroadcastTime({ day: 'Mondays', time: '01:00' }), 'อาทิตย์ 23:00');
