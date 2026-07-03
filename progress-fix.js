@@ -15,14 +15,17 @@
     return { current, total };
   }
 
+  function hideInvalidProgress(progress) {
+    const value = parseProgressValue(progress.textContent);
+    if (value && value.total > 0 && value.current > value.total) {
+      progress.hidden = true;
+      progress.setAttribute('aria-hidden', 'true');
+    }
+  }
+
   function fixProgressBars(root = document) {
-    root.querySelectorAll?.('.progress').forEach(progress => {
-      const value = parseProgressValue(progress.textContent);
-      if (value && value.total > 0 && value.current > value.total) {
-        progress.hidden = true;
-        progress.setAttribute('aria-hidden', 'true');
-      }
-    });
+    if (root.matches?.('.progress')) hideInvalidProgress(root);
+    root.querySelectorAll?.('.progress').forEach(hideInvalidProgress);
   }
 
   function scheduleFix(root = document) {
