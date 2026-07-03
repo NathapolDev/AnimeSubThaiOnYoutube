@@ -3749,11 +3749,21 @@ window.ANIME_DATA = [
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "โมเบียสดัส"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "youtubeResearchStatus": "needs_research",
+    "youtubeResearchConfidence": "probable",
+    "youtubeResearchNotes": "พบชื่อไทยจากเว็บข่าวอนิเมะไทย",
+    "youtubeResearchSourceUrls": [
+      "https://yumeyaclub.com/post/86351"
+    ],
+    "youtubeLastResearchedAt": "",
+    "youtubeOfficialChannelUrl": ""
   },
   {
     "id": "wareware-wa-uchuujin",
@@ -6773,7 +6783,9 @@ window.ANIME_DATA = [
     "updateStatus": "no_playlist",
     "updateError": "",
     "availableEpisodes": [],
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "เดดแอ็กเคานต์ พิฆาตบัญชีมรณะ"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -6787,7 +6799,15 @@ window.ANIME_DATA = [
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeResearchStatus": "needs_research",
+    "youtubeResearchConfidence": "probable",
+    "youtubeResearchNotes": "พบชื่อไทยจากเว็บอนิเมะไทย/Wikipedia ระบุว่ามีจำหน่ายผ่าน Ani-One Thailand ด้วย",
+    "youtubeResearchSourceUrls": [
+      "https://th.wikipedia.org/wiki/เดดแอ็กเคานต์_พิฆาตบัญชีมรณะ"
+    ],
+    "youtubeLastResearchedAt": "",
+    "youtubeOfficialChannelUrl": ""
   },
   {
     "id": "darwin-jihen",
@@ -8179,7 +8199,9 @@ window.ANIME_DATA = [
     "updateStatus": "no_playlist",
     "updateError": "",
     "availableEpisodes": [],
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "ขอต้อนรับสู่ญี่ปุ่นนะ คุณเอลฟ์"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -8193,7 +8215,15 @@ window.ANIME_DATA = [
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeResearchStatus": "needs_research",
+    "youtubeResearchConfidence": "probable",
+    "youtubeResearchNotes": "พบชื่อไทยจาก anime-os.com",
+    "youtubeResearchSourceUrls": [
+      "https://www.anime-os.com/info/a15816/"
+    ],
+    "youtubeLastResearchedAt": "",
+    "youtubeOfficialChannelUrl": ""
   },
   {
     "id": "cardfight-vanguard-divinez-genma-seisen-hen",
@@ -8416,7 +8446,9 @@ window.ANIME_DATA = [
     "updateStatus": "no_playlist",
     "updateError": "",
     "availableEpisodes": [],
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "หมาป่าไจไจ"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -8430,7 +8462,13 @@ window.ANIME_DATA = [
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeResearchStatus": "needs_research",
+    "youtubeResearchConfidence": "unconfirmed",
+    "youtubeResearchNotes": "ชื่อไทยของแฟรนไชส์ Pleasant Goat and Big Big Wolf โดยรวม ยังไม่ยืนยันว่าใช้กับภาคนี้โดยเฉพาะ",
+    "youtubeResearchSourceUrls": [],
+    "youtubeLastResearchedAt": "",
+    "youtubeOfficialChannelUrl": ""
   },
   {
     "id": "xiong-chumo-xiongxiong-bang-bang-tuan-4",
@@ -8809,7 +8847,9 @@ window.ANIME_DATA = [
     "updateStatus": "no_playlist",
     "updateError": "",
     "availableEpisodes": [],
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "Dr. STONE Season 4"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -8823,7 +8863,15 @@ window.ANIME_DATA = [
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeResearchStatus": "needs_research",
+    "youtubeResearchConfidence": "confirmed",
+    "youtubeResearchNotes": "ยืนยันแล้วว่าอัปโหลดจริงบน Ani-One Thailand ULTRA แต่ใช้ชื่อ \"Dr. STONE Season 4\" แทน \"Science Future Part 3\"",
+    "youtubeResearchSourceUrls": [
+      "https://www.youtube.com/watch?v=S1Mb4fDpsC8"
+    ],
+    "youtubeLastResearchedAt": "",
+    "youtubeOfficialChannelUrl": ""
   },
   {
     "id": "otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-2",
@@ -8952,7 +9000,9 @@ window.ANIME_DATA = [
     "updateStatus": "no_playlist",
     "updateError": "",
     "availableEpisodes": [],
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "วิวาห์แต้มพิษ"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -8966,7 +9016,15 @@ window.ANIME_DATA = [
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeResearchStatus": "needs_research",
+    "youtubeResearchConfidence": "probable",
+    "youtubeResearchNotes": "พบชื่อไทยจาก TrueID/Crunchyroll TH/Wikipedia",
+    "youtubeResearchSourceUrls": [
+      "https://th.wikipedia.org/wiki/วิวาห์แต้มพิษ"
+    ],
+    "youtubeLastResearchedAt": "",
+    "youtubeOfficialChannelUrl": ""
   },
   {
     "id": "otaku-ni-yasashii-gal-wa-inai",
@@ -9635,7 +9693,9 @@ window.ANIME_DATA = [
     "updateStatus": "no_playlist",
     "updateError": "",
     "availableEpisodes": [],
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "อาคาเนะ พลิกตำนานวงการราคุโกะ"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -9649,7 +9709,15 @@ window.ANIME_DATA = [
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeResearchStatus": "needs_research",
+    "youtubeResearchConfidence": "confirmed",
+    "youtubeResearchNotes": "ยืนยันแล้วว่าอัปโหลดจริงบน Ani-One Thailand ใช้ชื่อไทยนี้",
+    "youtubeResearchSourceUrls": [
+      "https://www.youtube.com/watch?v=1HdJV751MwE"
+    ],
+    "youtubeLastResearchedAt": "",
+    "youtubeOfficialChannelUrl": ""
   },
   {
     "id": "needy-girl-overdose",
@@ -10420,7 +10488,9 @@ window.ANIME_DATA = [
     "updateStatus": "no_playlist",
     "updateError": "",
     "availableEpisodes": [],
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "หาญสู้พลิกชะตาอาถรรพณ์"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -10434,7 +10504,15 @@ window.ANIME_DATA = [
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeResearchStatus": "needs_research",
+    "youtubeResearchConfidence": "probable",
+    "youtubeResearchNotes": "พบชื่อไทยจากเว็บอนิเมะไทย (anime108, iQIYI TH)",
+    "youtubeResearchSourceUrls": [
+      "https://www.anime108.com/mao/"
+    ],
+    "youtubeLastResearchedAt": "",
+    "youtubeOfficialChannelUrl": ""
   },
   {
     "id": "kami-no-niwatsuki-kusunoki-tei",
@@ -12939,7 +13017,9 @@ window.ANIME_DATA = [
     "updateStatus": "no_playlist",
     "updateError": "",
     "availableEpisodes": [],
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "เมจิกไนท์ เรย์เอิร์ธ"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -12953,7 +13033,15 @@ window.ANIME_DATA = [
     "season": "fall",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeResearchStatus": "needs_research",
+    "youtubeResearchConfidence": "unconfirmed",
+    "youtubeResearchNotes": "ชื่อไทยนี้ใช้กับซีรีส์ต้นฉบับปี 1994 คาดว่าฉบับรีเมค 2026 จะใช้ชื่อเดียวกัน แต่ยังไม่มีการยืนยันอย่างเป็นทางการ",
+    "youtubeResearchSourceUrls": [
+      "https://th.wikipedia.org/wiki/เมจิกไนท์_เรย์เอิร์ธ"
+    ],
+    "youtubeLastResearchedAt": "",
+    "youtubeOfficialChannelUrl": ""
   },
   {
     "id": "psyren",
@@ -12994,7 +13082,9 @@ window.ANIME_DATA = [
     "updateStatus": "no_playlist",
     "updateError": "",
     "availableEpisodes": [],
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "PSYREN ไซเรน"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -13008,7 +13098,15 @@ window.ANIME_DATA = [
     "season": "fall",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeResearchStatus": "needs_research",
+    "youtubeResearchConfidence": "probable",
+    "youtubeResearchNotes": "ชื่อไทยใกล้เคียงชื่ออังกฤษเดิมมาก อาจไม่ช่วยการจับคู่มากนัก",
+    "youtubeResearchSourceUrls": [
+      "https://www.online-station.net/anime/994838"
+    ],
+    "youtubeLastResearchedAt": "",
+    "youtubeOfficialChannelUrl": ""
   },
   {
     "id": "mahou-shoujo-ikusei-keikaku-restart",
@@ -13336,7 +13434,9 @@ window.ANIME_DATA = [
     "updateStatus": "no_playlist",
     "updateError": "",
     "availableEpisodes": [],
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "แมจิคัล★เอกซ์พลอเรอร์ เซียนเกมตัวฉกาจจุติมาผงาดในเกมจีบสาว"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -13350,7 +13450,15 @@ window.ANIME_DATA = [
     "season": "fall",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeResearchStatus": "needs_research",
+    "youtubeResearchConfidence": "unconfirmed",
+    "youtubeResearchNotes": "ชื่อไทยนี้มาจากฉบับนิยาย/มังงะที่วางขายในไทย ยังไม่ยืนยันว่าฉบับอนิเมะใช้ชื่อเดียวกัน",
+    "youtubeResearchSourceUrls": [
+      "https://www.phoenixnext.com/book-series/magical-explorer.html"
+    ],
+    "youtubeLastResearchedAt": "",
+    "youtubeOfficialChannelUrl": ""
   },
   {
     "id": "shiotaiou-no-satou-san-ga-ore-ni-dake-amai",
@@ -14156,7 +14264,9 @@ window.ANIME_DATA = [
     "updateStatus": "no_playlist",
     "updateError": "",
     "availableEpisodes": [],
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "เกิดใหม่เป็นก็อบลินแล้วไง มีคำถามอะไรไหม?"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -14170,7 +14280,13 @@ window.ANIME_DATA = [
     "season": "fall",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeResearchStatus": "needs_research",
+    "youtubeResearchConfidence": "unconfirmed",
+    "youtubeResearchNotes": "ชื่อไทยนี้มาจากฉบับมังงะ ยังไม่ยืนยันว่าฉบับอนิเมะใช้ชื่อเดียวกัน",
+    "youtubeResearchSourceUrls": [],
+    "youtubeLastResearchedAt": "",
+    "youtubeOfficialChannelUrl": ""
   },
   {
     "id": "tetsuryou-meet-with-tetsudou-musume",
@@ -14301,7 +14417,9 @@ window.ANIME_DATA = [
     "updateStatus": "no_playlist",
     "updateError": "",
     "availableEpisodes": [],
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "เคโรโระ ขบวนการอ๊บอ๊บป่วนโลก"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -14315,7 +14433,15 @@ window.ANIME_DATA = [
     "season": "fall",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeResearchStatus": "needs_research",
+    "youtubeResearchConfidence": "probable",
+    "youtubeResearchNotes": "ชื่อไทยมาตรฐานของแฟรนไชส์ Keroro Gunsou",
+    "youtubeResearchSourceUrls": [
+      "https://th.wikipedia.org/wiki/เคโรโระ_ขบวนการอ๊บอ๊บป่วนโลก"
+    ],
+    "youtubeLastResearchedAt": "",
+    "youtubeOfficialChannelUrl": ""
   },
   {
     "id": "dark-summoner-to-dekiteiru",
@@ -14725,7 +14851,9 @@ window.ANIME_DATA = [
     "updateStatus": "no_playlist",
     "updateError": "",
     "availableEpisodes": [],
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "การ์ดไฟท์!! แวนการ์ด ดีไวนซ์"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -14739,7 +14867,15 @@ window.ANIME_DATA = [
     "season": "fall",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeResearchStatus": "needs_research",
+    "youtubeResearchConfidence": "probable",
+    "youtubeResearchNotes": "พบชื่อไทยจากเว็บอนิเมะไทยหลายแห่ง (Anime-Suba, Anime-Masters)",
+    "youtubeResearchSourceUrls": [
+      "https://www.anime-masters.com/cardfight-vanguard-divinez/"
+    ],
+    "youtubeLastResearchedAt": "",
+    "youtubeOfficialChannelUrl": ""
   },
   {
     "id": "tanuki-to-kitsune-tv",

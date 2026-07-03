@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-03T06:02:58.222Z",
+  "generatedAt": "2026-07-03T09:35:50.744Z",
   "year": 2026,
   "itemCount": 269,
   "instructions": [
@@ -141,7 +141,9 @@
       "titleThai": "Cardfight!! Vanguard: Divinez Unmei Seisen-hen",
       "titleOriginal": "Cardfight!! Vanguard: Divinez Unmei Seisen-hen",
       "altTitle": "カードファイト!! ヴァンガード DivineZ 運命星戦編",
-      "youtubeAliases": [],
+      "youtubeAliases": [
+        "การ์ดไฟท์!! แวนการ์ด ดีไวนซ์"
+      ],
       "year": 2026,
       "season": "fall",
       "premiere": "2026-11-07T00:00:00+00:00",
@@ -159,9 +161,11 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [],
-      "notes": "",
-      "confidence": ""
+      "sourceUrls": [
+        "https://www.anime-masters.com/cardfight-vanguard-divinez/"
+      ],
+      "notes": "พบชื่อไทยจากเว็บอนิเมะไทยหลายแห่ง (Anime-Suba, Anime-Masters)",
+      "confidence": "probable"
     },
     {
       "id": "choujun-choujou-senpai",
@@ -563,7 +567,9 @@
       "titleThai": "Keroro Gunsou☆",
       "titleOriginal": "Keroro Gunsou☆",
       "altTitle": "Sergeant Frog / Sgt. Frog / ケロロ軍曹☆",
-      "youtubeAliases": [],
+      "youtubeAliases": [
+        "เคโรโระ ขบวนการอ๊บอ๊บป่วนโลก"
+      ],
       "year": 2026,
       "season": "fall",
       "premiere": "2026-10-01T00:00:00+00:00",
@@ -583,9 +589,11 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [],
-      "notes": "",
-      "confidence": ""
+      "sourceUrls": [
+        "https://th.wikipedia.org/wiki/เคโรโระ_ขบวนการอ๊บอ๊บป่วนโลก"
+      ],
+      "notes": "ชื่อไทยมาตรฐานของแฟรนไชส์ Keroro Gunsou",
+      "confidence": "probable"
     },
     {
       "id": "kikansha-no-mahou-wa-tokubetsu-desu-2nd-season",
@@ -775,7 +783,9 @@
       "titleThai": "Magical★Explorer",
       "titleOriginal": "Magical★Explorer",
       "altTitle": "Magical Explorer: Reborn as a Side Character in a Fantasy Dating Sim / Magical Explorer: Reincarnated as an Eroge Hero's Friend / I'll Live Freely With My Eroge Knowledge.",
-      "youtubeAliases": [],
+      "youtubeAliases": [
+        "แมจิคัล★เอกซ์พลอเรอร์ เซียนเกมตัวฉกาจจุติมาผงาดในเกมจีบสาว"
+      ],
       "year": 2026,
       "season": "fall",
       "premiere": "2026-10-01T00:00:00+00:00",
@@ -795,9 +805,11 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [],
-      "notes": "",
-      "confidence": ""
+      "sourceUrls": [
+        "https://www.phoenixnext.com/book-series/magical-explorer.html"
+      ],
+      "notes": "ชื่อไทยนี้มาจากฉบับนิยาย/มังงะที่วางขายในไทย ยังไม่ยืนยันว่าฉบับอนิเมะใช้ชื่อเดียวกัน",
+      "confidence": "unconfirmed"
     },
     {
       "id": "magic-knight-rayearth-2026",
@@ -806,7 +818,9 @@
       "titleThai": "Magic Knight Rayearth (2026)",
       "titleOriginal": "Magic Knight Rayearth (2026)",
       "altTitle": "Mahou Kishi Rayearth / 魔法騎士レイアース",
-      "youtubeAliases": [],
+      "youtubeAliases": [
+        "เมจิกไนท์ เรย์เอิร์ธ"
+      ],
       "year": 2026,
       "season": "fall",
       "premiere": "2026-10-01T00:00:00+00:00",
@@ -826,9 +840,11 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [],
-      "notes": "",
-      "confidence": ""
+      "sourceUrls": [
+        "https://th.wikipedia.org/wiki/เมจิกไนท์_เรย์เอิร์ธ"
+      ],
+      "notes": "ชื่อไทยนี้ใช้กับซีรีส์ต้นฉบับปี 1994 คาดว่าฉบับรีเมค 2026 จะใช้ชื่อเดียวกัน แต่ยังไม่มีการยืนยันอย่างเป็นทางการ",
+      "confidence": "unconfirmed"
     },
     {
       "id": "mahou-no-shimai-lulutto-lilly-part-2",
@@ -987,7 +1003,9 @@
       "titleThai": "Psyren",
       "titleOriginal": "Psyren",
       "altTitle": "Siren / PSYЯEN -サイレン-",
-      "youtubeAliases": [],
+      "youtubeAliases": [
+        "PSYREN ไซเรน"
+      ],
       "year": 2026,
       "season": "fall",
       "premiere": "2026-10-01T00:00:00+00:00",
@@ -1013,9 +1031,11 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [],
-      "notes": "",
-      "confidence": ""
+      "sourceUrls": [
+        "https://www.online-station.net/anime/994838"
+      ],
+      "notes": "ชื่อไทยใกล้เคียงชื่ออังกฤษเดิมมาก อาจไม่ช่วยการจับคู่มากนัก",
+      "confidence": "probable"
     },
     {
       "id": "ranma-1-2-2024-3rd-season",
@@ -1358,7 +1378,9 @@
       "titleThai": "Tensei Goblin dakedo Shitsumon Aru?",
       "titleOriginal": "Tensei Goblin dakedo Shitsumon Aru?",
       "altTitle": "So What's Wrong with Getting Reborn as a Goblin? / 転生ゴブリンだけど質問ある？",
-      "youtubeAliases": [],
+      "youtubeAliases": [
+        "เกิดใหม่เป็นก็อบลินแล้วไง มีคำถามอะไรไหม?"
+      ],
       "year": 2026,
       "season": "fall",
       "premiere": "2026-10-01T00:00:00+00:00",
@@ -1379,8 +1401,8 @@
       "officialChannelName": "",
       "officialChannelUrl": "",
       "sourceUrls": [],
-      "notes": "",
-      "confidence": ""
+      "notes": "ชื่อไทยนี้มาจากฉบับมังงะ ยังไม่ยืนยันว่าฉบับอนิเมะใช้ชื่อเดียวกัน",
+      "confidence": "unconfirmed"
     },
     {
       "id": "tensei-kizoku-kantei-skill-de-nariagaru-3rd-season",
@@ -1816,7 +1838,9 @@
       "titleThai": "Akane-banashi",
       "titleOriginal": "Akane-banashi",
       "altTitle": "あかね噺",
-      "youtubeAliases": [],
+      "youtubeAliases": [
+        "อาคาเนะ พลิกตำนานวงการราคุโกะ"
+      ],
       "year": 2026,
       "season": "spring",
       "premiere": "2026-04-04T00:00:00+00:00",
@@ -1835,9 +1859,11 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [],
-      "notes": "",
-      "confidence": ""
+      "sourceUrls": [
+        "https://www.youtube.com/watch?v=1HdJV751MwE"
+      ],
+      "notes": "ยืนยันแล้วว่าอัปโหลดจริงบน Ani-One Thailand ใช้ชื่อไทยนี้",
+      "confidence": "confirmed"
     },
     {
       "id": "awajima-hyakkei",
@@ -2066,7 +2092,9 @@
       "titleThai": "Dr. Stone: Science Future Part 3",
       "titleOriginal": "Dr. Stone: Science Future Part 3",
       "altTitle": "Dr. Stone 4th Season Part 3 / Dr.STONE SCIENCE FUTURE 第3クール",
-      "youtubeAliases": [],
+      "youtubeAliases": [
+        "Dr. STONE Season 4"
+      ],
       "year": 2026,
       "season": "spring",
       "premiere": "2026-04-02T00:00:00+00:00",
@@ -2085,9 +2113,11 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [],
-      "notes": "",
-      "confidence": ""
+      "sourceUrls": [
+        "https://www.youtube.com/watch?v=S1Mb4fDpsC8"
+      ],
+      "notes": "ยืนยันแล้วว่าอัปโหลดจริงบน Ani-One Thailand ULTRA แต่ใช้ชื่อ \"Dr. STONE Season 4\" แทน \"Science Future Part 3\"",
+      "confidence": "confirmed"
     },
     {
       "id": "ganbare-nakamura-kun",
@@ -3046,7 +3076,9 @@
       "titleThai": "Mao",
       "titleOriginal": "Mao",
       "altTitle": "マオ / MAO",
-      "youtubeAliases": [],
+      "youtubeAliases": [
+        "หาญสู้พลิกชะตาอาถรรพณ์"
+      ],
       "year": 2026,
       "season": "spring",
       "premiere": "2026-04-04T00:00:00+00:00",
@@ -3068,9 +3100,11 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [],
-      "notes": "",
-      "confidence": ""
+      "sourceUrls": [
+        "https://www.anime108.com/mao/"
+      ],
+      "notes": "พบชื่อไทยจากเว็บอนิเมะไทย (anime108, iQIYI TH)",
+      "confidence": "probable"
     },
     {
       "id": "marika-chan-no-koukando-wa-bukkowareteiru",
@@ -3109,7 +3143,9 @@
       "titleThai": "Marriagetoxin",
       "titleOriginal": "Marriagetoxin",
       "altTitle": "Marriage Toxin / マリッジトキシン",
-      "youtubeAliases": [],
+      "youtubeAliases": [
+        "วิวาห์แต้มพิษ"
+      ],
       "year": 2026,
       "season": "spring",
       "premiere": "2026-04-07T00:00:00+00:00",
@@ -3129,9 +3165,11 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [],
-      "notes": "",
-      "confidence": ""
+      "sourceUrls": [
+        "https://th.wikipedia.org/wiki/วิวาห์แต้มพิษ"
+      ],
+      "notes": "พบชื่อไทยจาก TrueID/Crunchyroll TH/Wikipedia",
+      "confidence": "probable"
     },
     {
       "id": "mata-korosarete-shimatta-no-desu-ne-tantei-sama",
@@ -4146,18 +4184,12 @@
       "playlistUrl": "",
       "episodeUrls": [],
       "latestVideoUrl": "",
-      "researchStatus": "official_channel_announced_no_episode",
+      "researchStatus": "needs_research",
       "officialChannelName": "Muse Thailand",
-      "officialChannelUrl": "https://www.youtube.com/@MuseThailand",
-      "sourceUrls": [
-        "https://wiki.anime-os.com/chart/summer-2026/",
-        "https://www.youtube.com/watch?v=mCgp60OFBCw",
-        "https://www.youtube.com/watch?v=Wfz-5vv6Gp0",
-        "https://www.youtube.com/watch?v=_pP2jMWkR98"
-      ],
-      "notes": "พบหลักฐานว่า Muse Thailand ได้ลิขสิทธิ์/ประกาศเรื่องนี้แล้ว แต่ ณ วันที่ค้นหา (2026-07-03) พบเฉพาะ PV/teaser บน YouTube ยังไม่พบ playlist หรือตอนเต็มซับไทย เพราะกำหนดฉายญี่ปุ่นเริ่ม 2026-07-04.",
-      "confidence": "probable",
-      "lastResearchedAt": "2026-07-03T06:43:41.253078+00:00"
+      "officialChannelUrl": "https://www.youtube.com/channel/UCn8hjQOnGYR1AZtYYMYP5jQ",
+      "sourceUrls": [],
+      "notes": "",
+      "confidence": ""
     },
     {
       "id": "bleach-sennen-kessen-hen-kashin-tan",
@@ -4323,18 +4355,12 @@
       "playlistUrl": "",
       "episodeUrls": [],
       "latestVideoUrl": "",
-      "researchStatus": "official_channel_announced_no_episode",
+      "researchStatus": "needs_research",
       "officialChannelName": "Ani-One Thailand",
-      "officialChannelUrl": "https://www.youtube.com/@AniOneThailand",
-      "sourceUrls": [
-        "https://wiki.anime-os.com/chart/summer-2026/",
-        "https://www.instagram.com/p/DZXUdiXFDVG/",
-        "https://www.instagram.com/p/DZ4CsAEAfup/",
-        "https://www.facebook.com/AniOneThailand/posts/-tomb-raider-king-online-premiere-screening%E0%B8%AA%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%AD%E0%B8%84%E0%B8%AD%E0%B8%A2-%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87%E0%B9%83%E0%B8%99%E0%B8%AD%E0%B8%99%E0%B8%B4%E0%B9%80%E0%B8%A1%E0%B8%B0%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B9%81%E0%B8%AD%E0%B9%87%E0%B8%81%E0%B8%8A/994784206801114/"
-      ],
-      "notes": "พบหลักฐานจาก Ani-One/Medialink ว่ามีรอบ Online Premiere Screening ตอนที่ 1-2 และช่อง YouTube คือ Ani-One Thailand แต่ยังไม่พบ playlist หรือตอนเต็มสาธารณะสำหรับใส่ episodeUrls ในวันที่ค้นหา; กำหนดฉายปกติ 2026-07-08/09 เวลาไทยประมาณ 00:20.",
-      "confidence": "probable",
-      "lastResearchedAt": "2026-07-03T06:43:41.253078+00:00"
+      "officialChannelUrl": "",
+      "sourceUrls": [],
+      "notes": "",
+      "confidence": ""
     },
     {
       "id": "futsutsuka-na-akujo-dewa-gozaimasu-ga-suuguu-chouso-torikae-den",
@@ -5045,7 +5071,9 @@
       "titleThai": "Mebius Dust",
       "titleOriginal": "Mebius Dust",
       "altTitle": "Möbius Dust / Mobius Dust",
-      "youtubeAliases": [],
+      "youtubeAliases": [
+        "โมเบียสดัส"
+      ],
       "year": 2026,
       "season": "summer",
       "premiere": "2026-07-09T00:00:00+00:00",
@@ -5060,9 +5088,11 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [],
-      "notes": "",
-      "confidence": ""
+      "sourceUrls": [
+        "https://yumeyaclub.com/post/86351"
+      ],
+      "notes": "พบชื่อไทยจากเว็บข่าวอนิเมะไทย",
+      "confidence": "probable"
     },
     {
       "id": "migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita",
@@ -5150,17 +5180,12 @@
       "playlistUrl": "",
       "episodeUrls": [],
       "latestVideoUrl": "",
-      "researchStatus": "official_channel_announced_no_episode",
+      "researchStatus": "needs_research",
       "officialChannelName": "Muse Thailand",
-      "officialChannelUrl": "https://www.youtube.com/@MuseThailand",
-      "sourceUrls": [
-        "https://wiki.anime-os.com/chart/summer-2026/",
-        "https://www.youtube.com/watch?v=JCFvBiuNLus",
-        "https://www.youtube.com/watch?v=oIeXIKNkMwE"
-      ],
-      "notes": "พบหลักฐานว่า Muse Thailand ได้ลิขสิทธิ์/ประกาศซีซั่น 3 ผ่าน PV ซับไทยแล้ว แต่ยังไม่พบ playlist หรือตอนเต็มบน YouTube ณ วันที่ค้นหา; Anime-OS ระบุเริ่มตอนแรก 2026-07-04 และตารางปกติวันอาทิตย์ 22:00.",
-      "confidence": "probable",
-      "lastResearchedAt": "2026-07-03T06:43:41.253078+00:00"
+      "officialChannelUrl": "https://www.youtube.com/channel/UCn8hjQOnGYR1AZtYYMYP5jQ",
+      "sourceUrls": [],
+      "notes": "",
+      "confidence": ""
     },
     {
       "id": "neko-to-ryuu",
@@ -5686,18 +5711,12 @@
       "playlistUrl": "",
       "episodeUrls": [],
       "latestVideoUrl": "",
-      "researchStatus": "official_channel_announced_no_episode",
+      "researchStatus": "needs_research",
       "officialChannelName": "Muse Thailand",
-      "officialChannelUrl": "https://www.youtube.com/@MuseThailand",
-      "sourceUrls": [
-        "https://wiki.anime-os.com/chart/summer-2026/",
-        "https://www.instagram.com/p/DaM9oVHjKJu/",
-        "https://www.instagram.com/reel/DZufpj8jSDo/",
-        "https://www.instagram.com/reel/DVqUoAbj5PC/"
-      ],
-      "notes": "พบหลักฐานจาก Muse Thailand/Anime-OS ว่ามีตารางฉายซับไทยทาง Muse Thailand วันที่ 2026-07-05 เวลา 20:00 แต่ยังไม่พบ playlist หรือตอนเต็มบน YouTube ณ วันที่ค้นหา.",
-      "confidence": "probable",
-      "lastResearchedAt": "2026-07-03T06:43:41.253078+00:00"
+      "officialChannelUrl": "https://www.youtube.com/channel/UCn8hjQOnGYR1AZtYYMYP5jQ",
+      "sourceUrls": [],
+      "notes": "",
+      "confidence": ""
     },
     {
       "id": "sora-wa-akai-kawa-no-hotori",
@@ -6563,7 +6582,9 @@
       "titleThai": "Dead Account",
       "titleOriginal": "Dead Account",
       "altTitle": "デッドアカウント",
-      "youtubeAliases": [],
+      "youtubeAliases": [
+        "เดดแอ็กเคานต์ พิฆาตบัญชีมรณะ"
+      ],
       "year": 2026,
       "season": "winter",
       "premiere": "2026-01-10T00:00:00+00:00",
@@ -6582,9 +6603,11 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [],
-      "notes": "",
-      "confidence": ""
+      "sourceUrls": [
+        "https://th.wikipedia.org/wiki/เดดแอ็กเคานต์_พิฆาตบัญชีมรณะ"
+      ],
+      "notes": "พบชื่อไทยจากเว็บอนิเมะไทย/Wikipedia ระบุว่ามีจำหน่ายผ่าน Ani-One Thailand ด้วย",
+      "confidence": "probable"
     },
     {
       "id": "douse-koishite-shimaunda-2nd-season",
@@ -7213,7 +7236,9 @@
       "titleThai": "#Kanagawa ni Sunderu Elf",
       "titleOriginal": "#Kanagawa ni Sunderu Elf",
       "altTitle": "#Kanagawa ni Sunderu Elves / Kanagawa Elves / #神奈川に住んでるエルフ",
-      "youtubeAliases": [],
+      "youtubeAliases": [
+        "ขอต้อนรับสู่ญี่ปุ่นนะ คุณเอลฟ์"
+      ],
       "year": 2026,
       "season": "winter",
       "premiere": "2025-12-09T00:00:00+00:00",
@@ -7231,9 +7256,11 @@
       "researchStatus": "needs_research",
       "officialChannelName": "",
       "officialChannelUrl": "",
-      "sourceUrls": [],
-      "notes": "",
-      "confidence": ""
+      "sourceUrls": [
+        "https://www.anime-os.com/info/a15816/"
+      ],
+      "notes": "พบชื่อไทยจาก anime-os.com",
+      "confidence": "probable"
     },
     {
       "id": "kaya-chan-wa-kowakunai",
@@ -8127,7 +8154,9 @@
       "titleThai": "Xi Yangyang Yu Hui Tailang: Gu Guguai Jie You Guguai",
       "titleOriginal": "Xi Yangyang Yu Hui Tailang: Gu Guguai Jie You Guguai",
       "altTitle": "喜羊羊与灰太狼之古古怪界有古怪",
-      "youtubeAliases": [],
+      "youtubeAliases": [
+        "หมาป่าไจไจ"
+      ],
       "year": 2026,
       "season": "winter",
       "premiere": "2026-01-23T00:00:00+00:00",
@@ -8147,8 +8176,8 @@
       "officialChannelName": "",
       "officialChannelUrl": "",
       "sourceUrls": [],
-      "notes": "",
-      "confidence": ""
+      "notes": "ชื่อไทยของแฟรนไชส์ Pleasant Goat and Big Big Wolf โดยรวม ยังไม่ยืนยันว่าใช้กับภาคนี้โดยเฉพาะ",
+      "confidence": "unconfirmed"
     },
     {
       "id": "yami-shibai-16",
@@ -8333,7 +8362,5 @@
       "notes": "",
       "confidence": ""
     }
-  ],
-  "lastManualResearchAt": "2026-07-03T06:43:41.253078+00:00",
-  "manualResearchNote": "Updated only entries with official/licensed YouTube channel evidence but no public full-episode playlist found yet."
+  ]
 }
