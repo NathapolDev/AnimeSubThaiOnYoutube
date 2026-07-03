@@ -27,7 +27,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "The Cat and the Dragon  ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=2PbUt7g06TU&list=PLYA5C3ueQ-1g",
     "latestPublishedAt": "2026-06-27T13:00:06Z",
-    "lastCheckedAt": "2026-07-03T03:53:53.832Z",
+    "lastCheckedAt": "2026-07-03T08:37:37.468Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 61048,
@@ -53,7 +53,7 @@ window.ANIME_DATA = [
     "youtubeSourceType": "playlist",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeMatchConfidence": "confirmed_playlist",
     "youtubeResearchStatus": "has_known_youtube_source",
     "youtubeResearchConfidence": "",
     "youtubeResearchNotes": "",
@@ -89,7 +89,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "THE WORLD IS DANCING - ตอนที่ 01 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=sGFz693H8Kw&list=PLIa05JMgYhhaMTMBupRCsNXAvD1l3PSNr",
     "latestPublishedAt": "2026-06-29T13:30:07Z",
-    "lastCheckedAt": "2026-07-03T03:53:54.433Z",
+    "lastCheckedAt": "2026-07-03T08:37:37.663Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63347,
@@ -115,7 +115,7 @@ window.ANIME_DATA = [
     "youtubeSourceType": "playlist",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeMatchConfidence": "confirmed_playlist",
     "youtubeResearchStatus": "has_known_youtube_source",
     "youtubeResearchConfidence": "",
     "youtubeResearchNotes": "",
@@ -151,7 +151,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "Bungo Stray Dogs WAN! 2 ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=MQuFqeslReM&list=PLCR1_rvbIAHE",
     "latestPublishedAt": "2026-07-02T12:40:06Z",
-    "lastCheckedAt": "2026-07-03T03:53:54.720Z",
+    "lastCheckedAt": "2026-07-03T08:37:37.804Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62883,
@@ -168,7 +168,7 @@ window.ANIME_DATA = [
         "number": 1,
         "title": "Bungo Stray Dogs WAN! 2 ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
         "videoId": "MQuFqeslReM",
-        "videoUrl": "https://www.youtube.com/watch?v=MQuFqeslReM",
+        "videoUrl": "https://www.youtube.com/watch?v=MQuFqeslReM&list=PLCR1_rvbIAHE",
         "publishedAt": "2026-07-02T12:40:06Z"
       }
     ],
@@ -213,7 +213,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "BanG Dream! YUME∞MITA - ตอนที่ 03 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=9PBuMcx0VQM&list=PLEP6Ull2yaCo",
     "latestPublishedAt": "2026-07-02T15:00:06Z",
-    "lastCheckedAt": "2026-07-03T03:53:55.001Z",
+    "lastCheckedAt": "2026-07-03T08:37:37.872Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62430,
@@ -253,7 +253,7 @@ window.ANIME_DATA = [
     "youtubeSourceType": "playlist",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeMatchConfidence": "confirmed_playlist",
     "youtubeResearchStatus": "has_known_youtube_source",
     "youtubeResearchConfidence": "",
     "youtubeResearchNotes": "",
@@ -289,7 +289,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "เกิดใหม่เป็นอัศวินเกราะหนักผู้ถูกขับไล่แต่ใช้ความรู้จากเกมจนไร้เทียมทาน - ตอนที่ 01 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=dkqRpEJTIpk&list=PLIa05JMgYhhb4BS6WEyTjKyuwJtWF_2U7",
     "latestPublishedAt": "2026-07-02T15:56:06Z",
-    "lastCheckedAt": "2026-07-03T03:53:55.308Z",
+    "lastCheckedAt": "2026-07-03T08:37:37.974Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 59741,
@@ -315,7 +315,7 @@ window.ANIME_DATA = [
     "youtubeSourceType": "playlist",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeMatchConfidence": "confirmed_playlist",
     "youtubeResearchStatus": "has_known_youtube_source",
     "youtubeResearchConfidence": "",
     "youtubeResearchNotes": "",
@@ -351,7 +351,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "Chainsmoker Cat  ตอนที่ 1  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=cAUTNr0Kia4&list=PLQ4xe_hu1gxw",
     "latestPublishedAt": "2026-07-02T16:00:06Z",
-    "lastCheckedAt": "2026-07-03T03:53:55.573Z",
+    "lastCheckedAt": "2026-07-03T08:37:38.058Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63403,
@@ -377,7 +377,7 @@ window.ANIME_DATA = [
     "youtubeSourceType": "playlist",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeMatchConfidence": "confirmed_playlist",
     "youtubeResearchStatus": "has_known_youtube_source",
     "youtubeResearchConfidence": "",
     "youtubeResearchNotes": "",
@@ -539,7 +539,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=oHy-No_sVhE&list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
     "latestPublishedAt": "2026-05-03T08:30:06Z",
-    "lastCheckedAt": "2026-07-03T03:53:55.901Z",
+    "lastCheckedAt": "2026-07-03T08:37:38.135Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 54000,
@@ -642,7 +642,7 @@ window.ANIME_DATA = [
     "youtubeSourceType": "playlist",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeMatchConfidence": "confirmed_playlist",
     "youtubeResearchStatus": "has_known_youtube_source",
     "youtubeResearchConfidence": "",
     "youtubeResearchNotes": "",
@@ -743,7 +743,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "เคลวาเทส อสูรจอมราชัน ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=hlS1nS4qQEA&list=PL_YV8EWtbQXESnuuBlZrdFMaqcuK5jr3F",
     "latestPublishedAt": "2025-09-17T11:30:07Z",
-    "lastCheckedAt": "2026-07-03T03:53:56.188Z",
+    "lastCheckedAt": "2026-07-03T08:37:38.234Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62513,
@@ -853,7 +853,7 @@ window.ANIME_DATA = [
     "youtubeSourceType": "playlist",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeMatchConfidence": "confirmed_playlist",
     "youtubeResearchStatus": "has_known_youtube_source",
     "youtubeResearchConfidence": "",
     "youtubeResearchNotes": "",
@@ -965,7 +965,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "youjo-senki-ii",
@@ -1156,7 +1161,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "grand-blue-season-3",
@@ -1595,7 +1605,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "tenmaku-no-jaadugar",
@@ -1734,7 +1749,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "futsutsuka-na-akujo-dewa-gozaimasu-ga-suuguu-chouso-torikae-den",
@@ -2211,7 +2231,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "boku-no-hero-academia-i-am-a-hero-too",
@@ -2254,7 +2279,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "sayonara-lara",
@@ -2683,7 +2713,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "sora-wa-akai-kawa-no-hotori",
@@ -2919,7 +2954,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "suterare-seijo-no-isekai-gohan-tabi-kakure-skill-de-camping-car-wo-shoukan-shima",
@@ -3058,7 +3098,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "ibitte-konai-gibo-to-gishi",
@@ -3246,7 +3291,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "iwamoto-senpai-no-suisen",
@@ -3385,7 +3435,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "grow-up-show-himawari-no-circus-dan",
@@ -3471,7 +3526,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "tetsunabe-no-jan",
@@ -3801,7 +3861,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "chiikawa-movie-ningyo-no-shima-no-himitsu",
@@ -3841,7 +3906,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "yi-nian-yong-heng-wanjie-ji",
@@ -3885,7 +3955,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "cyborg-009-nemesis",
@@ -3928,7 +4003,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "shiranuhi",
@@ -3970,7 +4050,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "honoo-no-toukyuujo-dodge-danko",
@@ -4061,7 +4146,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "yami-shibai-17",
@@ -4151,7 +4241,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "wanmei-shijie-movie-jiu-jie-fen-tian",
@@ -4195,7 +4290,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "crayon-shin-chan-movie-34-kikikaikai-ora-no-youkai-bake-shon",
@@ -4237,7 +4337,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "bananya-at-home-party",
@@ -4280,7 +4385,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "majo-no-tani-no-yoru",
@@ -4320,7 +4430,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "planosaurus-gachi-koseibutsu-bu",
@@ -4412,7 +4527,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "you-shou-yan-6th-season",
@@ -4453,7 +4573,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "jiaonang-jihua-qiji",
@@ -4494,7 +4619,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "da-tang-yao-tan",
@@ -4537,7 +4667,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "baxian",
@@ -4580,7 +4715,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "aware-meisaku-kun-2026",
@@ -4718,7 +4858,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "ruguo-lishi-shi-yiqun-miao-daming-huangchao-pian",
@@ -4761,7 +4906,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "qu-ni-de-dao",
@@ -4803,7 +4953,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "seihantai-na-kimi-to-boku-2nd-season",
@@ -5044,7 +5199,12 @@ window.ANIME_DATA = [
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": []
+    "availableEpisodes": [],
+    "youtubeAliases": [],
+    "youtubeSourceType": "",
+    "youtubeChannelId": "",
+    "youtubeChannelTitle": "",
+    "youtubeMatchConfidence": ""
   },
   {
     "id": "hokuto-no-ken-kenougun-zako-tachi-no-banka-part-2",
@@ -5497,10 +5657,10 @@ window.ANIME_DATA = [
     "episodes": "12",
     "premiere": "2026-01-04T00:00:00+00:00",
     "airTimeThai": "อาทิตย์ 20:30",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "Tropics Anime Asia",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/61128/Yuusha_Party_wo_Oidasareta_Kiyoubinbou",
     "genres": [
       "Action",
@@ -5511,19 +5671,41 @@ window.ANIME_DATA = [
     "note": "นำเข้าจาก Jikan winter 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1486/153135l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 3,
+    "latestEpisodeTitle": "【English Sub】《Jack-of-All-Trades, Party of None》｜Episode 03｜TROPICS ENTERTAINMENT",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=QNvXlkskMRQ",
+    "latestPublishedAt": "2026-04-09T03:28:34Z",
+    "lastCheckedAt": "2026-07-03T08:38:02.733Z",
+    "updateStatus": "ok",
     "updateError": "",
-    "availableEpisodes": [],
+    "availableEpisodes": [
+      {
+        "number": 3,
+        "title": "【English Sub】《Jack-of-All-Trades, Party of None》｜Episode 03｜TROPICS ENTERTAINMENT",
+        "videoId": "QNvXlkskMRQ",
+        "videoUrl": "https://www.youtube.com/watch?v=QNvXlkskMRQ",
+        "publishedAt": "2026-04-09T03:28:34Z"
+      },
+      {
+        "number": 2,
+        "title": "【English Sub】《Jack-of-All-Trades, Party of None》｜Episode 02｜TROPICS ENTERTAINMENT",
+        "videoId": "oEJSX4J2lXg",
+        "videoUrl": "https://www.youtube.com/watch?v=oEJSX4J2lXg",
+        "publishedAt": "2026-04-09T03:23:47Z"
+      },
+      {
+        "number": 1,
+        "title": "【English Sub】《Jack-of-All-Trades, Party of None》｜Episode 01｜TROPICS ENTERTAINMENT",
+        "videoId": "ALQf3J1dvRI",
+        "videoUrl": "https://www.youtube.com/watch?v=ALQf3J1dvRI",
+        "publishedAt": "2026-04-09T03:16:09Z"
+      }
+    ],
     "youtubeAliases": [],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCC-g5hWSvCbdB8HQQIA0_pg",
+    "youtubeChannelTitle": "Tropics Anime Asia",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "malId": 61128,
     "malUrl": "https://myanimelist.net/anime/61128/Yuusha_Party_wo_Oidasareta_Kiyoubinbou",
     "jikanType": "TV",
@@ -5935,10 +6117,10 @@ window.ANIME_DATA = [
     "episodes": "12",
     "premiere": "2026-01-08T00:00:00+00:00",
     "airTimeThai": "พุธ 22:00",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "Tropics Anime Asia",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/60692/Kizoku_Tensei__Megumareta_Umare_kara_Saikyou_no_Chikara_wo_Eru",
     "genres": [
       "Action",
@@ -5950,19 +6132,104 @@ window.ANIME_DATA = [
     "note": "นำเข้าจาก Jikan winter 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1629/153722l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 12,
+    "latestEpisodeTitle": "【English Sub】《Noble Reincarnation -Born Blessed, So I’ll Obtain Ultimate Power-》｜Episode 12｜TROPICS",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=3ehTiMbhJ_0",
+    "latestPublishedAt": "2026-05-13T13:00:06Z",
+    "lastCheckedAt": "2026-07-03T08:38:02.733Z",
+    "updateStatus": "ok",
     "updateError": "",
-    "availableEpisodes": [],
+    "availableEpisodes": [
+      {
+        "number": 12,
+        "title": "【English Sub】《Noble Reincarnation -Born Blessed, So I’ll Obtain Ultimate Power-》｜Episode 12｜TROPICS",
+        "videoId": "3ehTiMbhJ_0",
+        "videoUrl": "https://www.youtube.com/watch?v=3ehTiMbhJ_0",
+        "publishedAt": "2026-05-13T13:00:06Z"
+      },
+      {
+        "number": 11,
+        "title": "【English Sub】《Noble Reincarnation -Born Blessed, So I’ll Obtain Ultimate Power-》｜Episode 11｜TROPICS",
+        "videoId": "AmmLiVlKZOU",
+        "videoUrl": "https://www.youtube.com/watch?v=AmmLiVlKZOU",
+        "publishedAt": "2026-05-12T13:00:06Z"
+      },
+      {
+        "number": 10,
+        "title": "【English Sub】《Noble Reincarnation -Born Blessed, So I’ll Obtain Ultimate Power-》｜Episode 10｜TROPICS",
+        "videoId": "RijvSNbFyzM",
+        "videoUrl": "https://www.youtube.com/watch?v=RijvSNbFyzM",
+        "publishedAt": "2026-05-11T13:00:07Z"
+      },
+      {
+        "number": 9,
+        "title": "【English Sub】《Noble Reincarnation -Born Blessed, So I’ll Obtain Ultimate Power-》｜Episode 09｜TROPICS",
+        "videoId": "_ODPJIfmM_c",
+        "videoUrl": "https://www.youtube.com/watch?v=_ODPJIfmM_c",
+        "publishedAt": "2026-05-10T13:00:06Z"
+      },
+      {
+        "number": 8,
+        "title": "【English Sub】《Noble Reincarnation -Born Blessed, So I’ll Obtain Ultimate Power-》｜Episode 08｜TROPICS",
+        "videoId": "aFkAKNlBI1o",
+        "videoUrl": "https://www.youtube.com/watch?v=aFkAKNlBI1o",
+        "publishedAt": "2026-05-09T13:00:07Z"
+      },
+      {
+        "number": 7,
+        "title": "【English Sub】《Noble Reincarnation -Born Blessed, So I’ll Obtain Ultimate Power-》｜Episode 07｜TROPICS",
+        "videoId": "RUmr-YGWGSk",
+        "videoUrl": "https://www.youtube.com/watch?v=RUmr-YGWGSk",
+        "publishedAt": "2026-05-08T13:00:07Z"
+      },
+      {
+        "number": 6,
+        "title": "【English Sub】《Noble Reincarnation -Born Blessed, So I’ll Obtain Ultimate Power-》｜Episode 06｜TROPICS",
+        "videoId": "tGqBBLdAzmE",
+        "videoUrl": "https://www.youtube.com/watch?v=tGqBBLdAzmE",
+        "publishedAt": "2026-05-07T13:00:06Z"
+      },
+      {
+        "number": 5,
+        "title": "【English Sub】《Noble Reincarnation -Born Blessed, So I’ll Obtain Ultimate Power-》｜Episode 05｜TROPICS",
+        "videoId": "JCMLuw86cgQ",
+        "videoUrl": "https://www.youtube.com/watch?v=JCMLuw86cgQ",
+        "publishedAt": "2026-05-06T13:00:06Z"
+      },
+      {
+        "number": 4,
+        "title": "【English Sub】《Noble Reincarnation -Born Blessed, So I’ll Obtain Ultimate Power-》｜Episode 04｜TROPICS",
+        "videoId": "DuTUAiRjOcQ",
+        "videoUrl": "https://www.youtube.com/watch?v=DuTUAiRjOcQ",
+        "publishedAt": "2026-05-05T13:00:06Z"
+      },
+      {
+        "number": 3,
+        "title": "【English Sub】《Noble Reincarnation -Born Blessed, So I’ll Obtain Ultimate Power-》｜Episode 03｜TROPICS",
+        "videoId": "pzHOcbG3YYY",
+        "videoUrl": "https://www.youtube.com/watch?v=pzHOcbG3YYY",
+        "publishedAt": "2026-05-04T13:00:06Z"
+      },
+      {
+        "number": 2,
+        "title": "【English Sub】《Noble Reincarnation -Born Blessed, So I’ll Obtain Ultimate Power-》｜Episode 02｜TROPICS",
+        "videoId": "JpBx4oUDgug",
+        "videoUrl": "https://www.youtube.com/watch?v=JpBx4oUDgug",
+        "publishedAt": "2026-05-03T13:00:06Z"
+      },
+      {
+        "number": 1,
+        "title": "【English Sub】《Noble Reincarnation -Born Blessed, So I’ll Obtain Ultimate Power-》｜Episode 01｜TROPICS",
+        "videoId": "Uis-XYueJiI",
+        "videoUrl": "https://www.youtube.com/watch?v=Uis-XYueJiI",
+        "publishedAt": "2026-05-02T13:00:06Z"
+      }
+    ],
     "youtubeAliases": [],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCC-g5hWSvCbdB8HQQIA0_pg",
+    "youtubeChannelTitle": "Tropics Anime Asia",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "malId": 60692,
     "malUrl": "https://myanimelist.net/anime/60692/Kizoku_Tensei__Megumareta_Umare_kara_Saikyou_no_Chikara_wo_Eru",
     "jikanType": "TV",
@@ -6148,7 +6415,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "TRIGUN STARGAZE ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=0-RubGo7ZSQ",
     "latestPublishedAt": "2026-03-28T15:00:06Z",
-    "lastCheckedAt": "2026-07-03T05:29:19.432Z",
+    "lastCheckedAt": "2026-07-03T08:37:47.706Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -7221,7 +7488,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "MF GHOST 3rd Season ตอนที่ 13  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=cG3YiWtedZg",
     "latestPublishedAt": "2026-03-26T15:30:07Z",
-    "lastCheckedAt": "2026-07-03T05:29:19.432Z",
+    "lastCheckedAt": "2026-07-03T08:37:47.706Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -10574,10 +10841,10 @@ window.ANIME_DATA = [
     "episodes": "12",
     "premiere": "2026-04-08T00:00:00+00:00",
     "airTimeThai": "อังคาร 23:59",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "Tropics Anime Asia",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/63376/Megami_Isekai_Tensei_Nani_ni_Naritai_desu_ka_Ore_Yuusha_no_Rokkotsu_de",
     "genres": [
       "Comedy",
@@ -10590,19 +10857,83 @@ window.ANIME_DATA = [
     "note": "นำเข้าจาก Jikan spring 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1228/156696l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 9,
+    "latestEpisodeTitle": "【English Sub】《My Ribdiculous Reincarnation》｜Episode 09｜TROPICS ENTERTAINMENT",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=7Mi8mnw7Wxo",
+    "latestPublishedAt": "2026-07-01T12:00:07Z",
+    "lastCheckedAt": "2026-07-03T08:38:02.733Z",
+    "updateStatus": "ok",
     "updateError": "",
-    "availableEpisodes": [],
+    "availableEpisodes": [
+      {
+        "number": 9,
+        "title": "【English Sub】《My Ribdiculous Reincarnation》｜Episode 09｜TROPICS ENTERTAINMENT",
+        "videoId": "7Mi8mnw7Wxo",
+        "videoUrl": "https://www.youtube.com/watch?v=7Mi8mnw7Wxo",
+        "publishedAt": "2026-07-01T12:00:07Z"
+      },
+      {
+        "number": 8,
+        "title": "【English Sub】《My Ribdiculous Reincarnation》｜Episode 08｜TROPICS ENTERTAINMENT",
+        "videoId": "2H71bGKp_Nk",
+        "videoUrl": "https://www.youtube.com/watch?v=2H71bGKp_Nk",
+        "publishedAt": "2026-06-24T12:00:06Z"
+      },
+      {
+        "number": 7,
+        "title": "【English Sub】《My Ribdiculous Reincarnation》｜Episode 07｜TROPICS ENTERTAINMENT",
+        "videoId": "JgHtLLCa8io",
+        "videoUrl": "https://www.youtube.com/watch?v=JgHtLLCa8io",
+        "publishedAt": "2026-06-17T12:00:07Z"
+      },
+      {
+        "number": 6,
+        "title": "【English Sub】《My Ribdiculous Reincarnation》｜Episode 06｜TROPICS ENTERTAINMENT",
+        "videoId": "GI3YNT-mFJE",
+        "videoUrl": "https://www.youtube.com/watch?v=GI3YNT-mFJE",
+        "publishedAt": "2026-06-10T12:00:06Z"
+      },
+      {
+        "number": 5,
+        "title": "【English Sub】《My Ribdiculous Reincarnation》｜Episode 05｜TROPICS ENTERTAINMENT",
+        "videoId": "XzAGGVvtTT0",
+        "videoUrl": "https://www.youtube.com/watch?v=XzAGGVvtTT0",
+        "publishedAt": "2026-06-03T12:00:07Z"
+      },
+      {
+        "number": 4,
+        "title": "【English Sub】《My Ribdiculous Reincarnation》｜Episode 04｜TROPICS ENTERTAINMENT",
+        "videoId": "8ZJbymdP4mU",
+        "videoUrl": "https://www.youtube.com/watch?v=8ZJbymdP4mU",
+        "publishedAt": "2026-05-27T12:00:06Z"
+      },
+      {
+        "number": 3,
+        "title": "【English Sub】《My Ribdiculous Reincarnation》｜Episode 03｜TROPICS ENTERTAINMENT",
+        "videoId": "S_shFrm8eoQ",
+        "videoUrl": "https://www.youtube.com/watch?v=S_shFrm8eoQ",
+        "publishedAt": "2026-05-20T12:00:06Z"
+      },
+      {
+        "number": 2,
+        "title": "【English Sub】《My Ribdiculous Reincarnation》｜Episode 02｜TROPICS ENTERTAINMENT",
+        "videoId": "sqBmAOJxw6c",
+        "videoUrl": "https://www.youtube.com/watch?v=sqBmAOJxw6c",
+        "publishedAt": "2026-05-13T12:00:06Z"
+      },
+      {
+        "number": 1,
+        "title": "【English Sub】《My Ribdiculous Reincarnation》｜Episode 01｜TROPICS ENTERTAINMENT",
+        "videoId": "HB_z2dkSKmo",
+        "videoUrl": "https://www.youtube.com/watch?v=HB_z2dkSKmo",
+        "publishedAt": "2026-05-06T12:00:06Z"
+      }
+    ],
     "youtubeAliases": [],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCC-g5hWSvCbdB8HQQIA0_pg",
+    "youtubeChannelTitle": "Tropics Anime Asia",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "malId": 63376,
     "malUrl": "https://myanimelist.net/anime/63376/Megami_Isekai_Tensei_Nani_ni_Naritai_desu_ka_Ore_Yuusha_no_Rokkotsu_de",
     "jikanType": "TV",
@@ -11447,10 +11778,10 @@ window.ANIME_DATA = [
     "episodes": "24",
     "premiere": "2026-04-10T00:00:00+00:00",
     "airTimeThai": "ศุกร์ 21:30",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "Tropics Anime Asia",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/62981/Kami_no_Shizuku",
     "genres": [
       "Drama",
@@ -11463,19 +11794,146 @@ window.ANIME_DATA = [
     "note": "นำเข้าจาก Jikan spring 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1045/155698l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 9,
+    "latestEpisodeTitle": "【Subtitle Indonesia】《The Drops of God》｜Episode 09｜TROPICS ENTERTAINMENT",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=Yvgjx4MzEsM",
+    "latestPublishedAt": "2026-06-11T03:04:41Z",
+    "lastCheckedAt": "2026-07-03T08:38:02.733Z",
+    "updateStatus": "ok",
     "updateError": "",
-    "availableEpisodes": [],
+    "availableEpisodes": [
+      {
+        "number": 9,
+        "title": "【Subtitle Indonesia】《The Drops of God》｜Episode 09｜TROPICS ENTERTAINMENT",
+        "videoId": "Yvgjx4MzEsM",
+        "videoUrl": "https://www.youtube.com/watch?v=Yvgjx4MzEsM",
+        "publishedAt": "2026-06-11T03:04:41Z"
+      },
+      {
+        "number": 9,
+        "title": "【English Sub】《The Drops of God》｜Episode 09｜TROPICS ENTERTAINMENT",
+        "videoId": "ihUGW9vl4TM",
+        "videoUrl": "https://www.youtube.com/watch?v=ihUGW9vl4TM",
+        "publishedAt": "2026-06-11T03:04:20Z"
+      },
+      {
+        "number": 8,
+        "title": "【English Sub】《The Drops of God》｜Episode 08｜TROPICS ENTERTAINMENT",
+        "videoId": "cpE6wtOzSMc",
+        "videoUrl": "https://www.youtube.com/watch?v=cpE6wtOzSMc",
+        "publishedAt": "2026-06-26T12:00:07Z"
+      },
+      {
+        "number": 8,
+        "title": "【Subtitle Indonesia】《The Drops of God》｜Episode 08｜TROPICS ENTERTAINMENT",
+        "videoId": "n1a2-A1F_xQ",
+        "videoUrl": "https://www.youtube.com/watch?v=n1a2-A1F_xQ",
+        "publishedAt": "2026-06-26T12:00:06Z"
+      },
+      {
+        "number": 7,
+        "title": "【English Sub】《The Drops of God》｜Episode 07｜TROPICS ENTERTAINMENT",
+        "videoId": "7E11jhv4A_U",
+        "videoUrl": "https://www.youtube.com/watch?v=7E11jhv4A_U",
+        "publishedAt": "2026-06-19T12:00:07Z"
+      },
+      {
+        "number": 7,
+        "title": "【Subtitle Indonesia】《The Drops of God》｜Episode 07｜TROPICS ENTERTAINMENT",
+        "videoId": "gEamxR8mOQU",
+        "videoUrl": "https://www.youtube.com/watch?v=gEamxR8mOQU",
+        "publishedAt": "2026-06-19T12:00:06Z"
+      },
+      {
+        "number": 6,
+        "title": "【Subtitle Indonesia】《The Drops of God》｜Episode 06｜TROPICS ENTERTAINMENT",
+        "videoId": "ahJu9TjxXmM",
+        "videoUrl": "https://www.youtube.com/watch?v=ahJu9TjxXmM",
+        "publishedAt": "2026-06-12T12:00:06Z"
+      },
+      {
+        "number": 6,
+        "title": "【English Sub】《The Drops of God》｜Episode 06｜TROPICS ENTERTAINMENT",
+        "videoId": "tjjKQqlCYj0",
+        "videoUrl": "https://www.youtube.com/watch?v=tjjKQqlCYj0",
+        "publishedAt": "2026-06-12T12:00:06Z"
+      },
+      {
+        "number": 5,
+        "title": "【Subtitle Indonesia】《The Drops of God》｜Episode 05｜TROPICS ENTERTAINMENT",
+        "videoId": "grbeUg_W2tI",
+        "videoUrl": "https://www.youtube.com/watch?v=grbeUg_W2tI",
+        "publishedAt": "2026-06-05T12:00:06Z"
+      },
+      {
+        "number": 5,
+        "title": "【English Sub】《The Drops of God》｜Episode 05｜TROPICS ENTERTAINMENT",
+        "videoId": "zhIaVGmaXyM",
+        "videoUrl": "https://www.youtube.com/watch?v=zhIaVGmaXyM",
+        "publishedAt": "2026-06-05T12:00:06Z"
+      },
+      {
+        "number": 4,
+        "title": "【English Sub】《The Drops of God》｜Episode 04｜TROPICS ENTERTAINMENT",
+        "videoId": "BROGO1UMHzo",
+        "videoUrl": "https://www.youtube.com/watch?v=BROGO1UMHzo",
+        "publishedAt": "2026-05-29T12:00:07Z"
+      },
+      {
+        "number": 4,
+        "title": "【Subtitle Indonesia】《The Drops of God》｜Episode 04｜TROPICS ENTERTAINMENT",
+        "videoId": "lB9-MyewUO4",
+        "videoUrl": "https://www.youtube.com/watch?v=lB9-MyewUO4",
+        "publishedAt": "2026-05-29T12:00:06Z"
+      },
+      {
+        "number": 3,
+        "title": "【Subtitle Indonesia】《The Drops of God》｜Episode 03｜TROPICS ENTERTAINMENT",
+        "videoId": "5r4pwQPvi7Q",
+        "videoUrl": "https://www.youtube.com/watch?v=5r4pwQPvi7Q",
+        "publishedAt": "2026-05-22T12:00:07Z"
+      },
+      {
+        "number": 3,
+        "title": "【English Sub】《The Drops of God》｜Episode 03｜TROPICS ENTERTAINMENT",
+        "videoId": "aEaQ_jJI99g",
+        "videoUrl": "https://www.youtube.com/watch?v=aEaQ_jJI99g",
+        "publishedAt": "2026-05-22T12:00:07Z"
+      },
+      {
+        "number": 2,
+        "title": "【English Sub】《The Drops of God》｜Episode 02｜TROPICS ENTERTAINMENT",
+        "videoId": "M9VpX-Jn5vo",
+        "videoUrl": "https://www.youtube.com/watch?v=M9VpX-Jn5vo",
+        "publishedAt": "2026-05-15T12:00:06Z"
+      },
+      {
+        "number": 2,
+        "title": "【Subtitle Indonesia】《The Drops of God》｜Episode 02｜TROPICS ENTERTAINMENT",
+        "videoId": "ic8_j5Hc5gg",
+        "videoUrl": "https://www.youtube.com/watch?v=ic8_j5Hc5gg",
+        "publishedAt": "2026-05-15T12:00:06Z"
+      },
+      {
+        "number": 1,
+        "title": "【Subtitle Indonesia】《The Drops of God》｜Episode 01｜TROPICS ENTERTAINMENT",
+        "videoId": "0DaULKSAUhc",
+        "videoUrl": "https://www.youtube.com/watch?v=0DaULKSAUhc",
+        "publishedAt": "2026-05-08T12:00:07Z"
+      },
+      {
+        "number": 1,
+        "title": "【English Sub】《The Drops of God》｜Episode 01｜TROPICS ENTERTAINMENT",
+        "videoId": "R1zfPiB1TOc",
+        "videoUrl": "https://www.youtube.com/watch?v=R1zfPiB1TOc",
+        "publishedAt": "2026-05-08T12:00:06Z"
+      }
+    ],
     "youtubeAliases": [],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCC-g5hWSvCbdB8HQQIA0_pg",
+    "youtubeChannelTitle": "Tropics Anime Asia",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "malId": 62981,
     "malUrl": "https://myanimelist.net/anime/62981/Kami_no_Shizuku",
     "jikanType": "TV",
@@ -11846,7 +12304,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "CANDY CARIES - ตอนที่ 12 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=NnhNEVQ-1I0",
     "latestPublishedAt": "2026-07-01T16:00:26Z",
-    "lastCheckedAt": "2026-07-03T05:29:37.804Z",
+    "lastCheckedAt": "2026-07-03T08:37:59.944Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
