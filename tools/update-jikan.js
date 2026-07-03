@@ -1,9 +1,10 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
 
+const { writeDataFiles } = require('./write-data');
+
 const ROOT = path.resolve(__dirname, '..');
 const JSON_PATH = path.join(ROOT, 'data', 'anime.json');
-const JS_PATH = path.join(ROOT, 'data', 'anime.js');
 const API_ROOT = 'https://api.jikan.moe/v4';
 const SEASONS = ['winter', 'spring', 'summer', 'fall'];
 const wait = milliseconds => new Promise(resolve => setTimeout(resolve, milliseconds));
@@ -136,9 +137,7 @@ async function main() {
   const year = bangkokYear();
   const items = JSON.parse(await fs.readFile(JSON_PATH, 'utf8'));
   const result = await syncCatalog(items, year, await fetchYear(year));
-  const json = `${JSON.stringify(items, null, 2)}\n`;
-  await fs.writeFile(JSON_PATH, json, 'utf8');
-  await fs.writeFile(JS_PATH, `window.ANIME_DATA = ${json}`, 'utf8');
+  await writeDataFiles(items);
   console.log(`Jikan ${year} TV sync: ${result.enriched} enriched, ${result.added} added, ${items.length} archived total.`);
 }
 

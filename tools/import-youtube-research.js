@@ -1,10 +1,10 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const { playlistIdFromLink } = require('./update-youtube');
+const { writeDataFiles } = require('./write-data');
 
 const ROOT = path.resolve(__dirname, '..');
 const JSON_PATH = path.join(ROOT, 'data', 'anime.json');
-const JS_PATH = path.join(ROOT, 'data', 'anime.js');
 const QUEUE_PATH = path.join(ROOT, 'data', 'youtube-research-queue.json');
 
 function uniqueStrings(values = []) {
@@ -101,9 +101,7 @@ async function main() {
   ]);
   const result = importResearch(anime, queue);
   if (result.conflicts.length) throw new Error(`Import conflicts:\n- ${result.conflicts.join('\n- ')}`);
-  const json = `${JSON.stringify(anime, null, 2)}\n`;
-  await fs.writeFile(JSON_PATH, json, 'utf8');
-  await fs.writeFile(JS_PATH, `window.ANIME_DATA = ${json}`, 'utf8');
+  await writeDataFiles(anime);
   await fs.copyFile(inputPath, QUEUE_PATH);
   console.log(`Imported ${result.updated} researched entries; skipped ${result.skipped}.`);
   if (result.invalidEpisodeUrls.length) console.warn(`Ignored invalid episode URLs:\n- ${result.invalidEpisodeUrls.join('\n- ')}`);

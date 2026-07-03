@@ -31,7 +31,7 @@ jobs:
           mkdir -p _site/data
           cp index.html app.js safe-url.js styles.css _site/
           cp -R assets _site/assets
-          cp data/anime.json data/anime.js _site/data/
+          node tools/build-site-data.js _site/data
           touch _site/.nojekyll
       - name: Configure GitHub Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5

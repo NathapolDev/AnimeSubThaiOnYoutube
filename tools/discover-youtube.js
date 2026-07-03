@@ -2,11 +2,11 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const { episodeNumber, isEpisode, youtubeJson } = require('./update-youtube');
 const { bangkokYear } = require('./update-jikan');
+const { writeDataFiles } = require('./write-data');
 
 const ROOT = path.resolve(__dirname, '..');
 const DATA_DIR = path.join(ROOT, 'data');
 const JSON_PATH = path.join(DATA_DIR, 'anime.json');
-const JS_PATH = path.join(DATA_DIR, 'anime.js');
 const CHANNELS_PATH = path.join(DATA_DIR, 'youtube-channels.json');
 const STATE_PATH = path.join(DATA_DIR, 'youtube-discovery-state.json');
 const CANDIDATES_PATH = path.join(DATA_DIR, 'youtube-candidates.json');
@@ -151,9 +151,7 @@ async function main() {
       state.channels[config.handle] = { ...(state.channels[config.handle] || {}), lastError: error.message };
     }
   }
-  const json = `${JSON.stringify(anime, null, 2)}\n`;
-  await fs.writeFile(JSON_PATH, json, 'utf8');
-  await fs.writeFile(JS_PATH, `window.ANIME_DATA = ${json}`, 'utf8');
+  await writeDataFiles(anime);
   await fs.writeFile(STATE_PATH, `${JSON.stringify(state, null, 2)}\n`, 'utf8');
   await fs.writeFile(CANDIDATES_PATH, `${JSON.stringify(candidates, null, 2)}\n`, 'utf8');
   console.log(`YouTube discovery complete: ${matchedAnime} anime updated, ${candidates.length} ambiguous candidates.`);
