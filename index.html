@@ -4,20 +4,22 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Anime TV Catalog — Thai YouTube Tracker</title>
-  <meta name="description" content="เว็บรวมอนิเมะ TV รายปีจาก Jikan พร้อมติดตามตอนจากช่อง YouTube ลิขสิทธิ์ไทย" />
+  <meta name="description" content="เว็บรวมอนิเมะ TV รายปีจาก Jikan พร้อมติดตามตอนซับไทยจากช่อง YouTube ลิขสิทธิ์ไทย" />
+  <meta name="theme-color" content="#0a0d1d" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%230a0d1d'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='%236ee7ff' font-family='sans-serif'%3E夏%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://cdn.myanimelist.net" crossorigin />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="noise"></div>
-  <div class="sakura" aria-hidden="true"></div>
+  <a class="skip-link" href="#catalog">ข้ามไปยังแคตตาล็อก</a>
 
   <header class="site-header">
     <nav class="nav">
       <a class="brand" href="#top" aria-label="Anime TV Catalog home"><span class="brand-mark">夏</span><span id="brandTitle">Anime TV Catalog</span></a>
       <button id="menuToggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="navMenu">เมนู</button>
       <div id="navMenu" class="nav-actions">
-        <a href="#catalog">Catalog</a>
-        <a href="#schedule">Schedule</a>
+        <a href="#catalog">แคตตาล็อก</a>
+        <a href="#schedule">ตารางฉาย</a>
         <button id="themeToggle" class="ghost-btn" type="button" aria-label="สลับธีมสี">🌙</button>
       </div>
     </nav>
@@ -30,43 +32,54 @@
         </div>
         <p id="todayDate" class="today-date"></p>
         <div id="todaySchedule" class="today-schedule" aria-live="polite"></div>
-        <a class="today-all-link" href="#schedule">ดูตารางทั้งหมด</a>
+        <a class="today-all-link" href="#schedule">ดูตารางทั้งสัปดาห์ →</a>
       </div>
+      <div id="statsBar" class="stats-bar" aria-label="สถิติแคตตาล็อก"></div>
     </section>
   </header>
 
   <main>
     <section class="toolbar glass" id="catalog">
-      <div>
-        <p class="eyebrow">Catalog</p>
-        <h2>ค้นหาและกรองรายการ</h2>
+      <div class="toolbar-head">
+        <div>
+          <p class="eyebrow">Catalog</p>
+          <h2>ค้นหาและกรองรายการ</h2>
+        </div>
+        <label class="search-box" for="searchInput">
+          <span aria-hidden="true">🔎</span>
+          <input id="searchInput" type="search" placeholder="ค้นชื่อไทย / อังกฤษ / ญี่ปุ่น / แนว / สตูดิโอ" autocomplete="off" />
+        </label>
       </div>
-      <label class="search-box" for="searchInput">
-        <span>🔎</span>
-        <input id="searchInput" type="search" placeholder="ค้นชื่อไทย / อังกฤษ / ญี่ปุ่น / แนว" autocomplete="off" />
-      </label>
       <div class="catalog-scope">
         <label class="year-picker" for="yearSelect"><span>ปี</span><select id="yearSelect" aria-label="เลือกปี"></select></label>
         <div class="season-filters" role="group" aria-label="เลือกฤดูกาล">
-          <button class="chip" data-season="winter">Winter</button>
-          <button class="chip" data-season="spring">Spring</button>
-          <button class="chip" data-season="summer">Summer</button>
-          <button class="chip" data-season="fall">Fall</button>
-          <button class="chip" data-season="all">ทั้งปี</button>
+          <button class="chip" type="button" data-season="winter">Winter</button>
+          <button class="chip" type="button" data-season="spring">Spring</button>
+          <button class="chip" type="button" data-season="summer">Summer</button>
+          <button class="chip" type="button" data-season="fall">Fall</button>
+          <button class="chip" type="button" data-season="all">ทั้งปี</button>
         </div>
       </div>
       <div class="filters status-filters" role="group" aria-label="ตัวกรองสถานะ">
         <span class="filter-group-label">สถานะ</span>
-        <button class="chip active" data-filter="all">ทั้งหมด</button>
-        <button class="chip" data-filter="available">ดูได้แล้ว</button>
-        <button class="chip" data-filter="upcoming">รอเริ่มฉาย</button>
+        <button class="chip active" type="button" data-filter="all">ทั้งหมด</button>
+        <button class="chip" type="button" data-filter="available">ดูได้แล้ว</button>
+        <button class="chip" type="button" data-filter="upcoming">รอเริ่มฉาย</button>
+        <button class="chip chip-fav" type="button" id="favFilter" aria-pressed="false">★ รายการโปรด</button>
       </div>
       <div class="filters channel-filters" role="group" aria-label="ตัวกรองช่องทาง">
         <span class="filter-group-label">ช่องทาง</span>
-        <button class="chip active" data-channel="all">ทุกช่องทาง</button>
-        <button class="chip" data-channel="Ani-One Thailand">Ani-One Thailand</button>
-        <button class="chip" data-channel="Muse Thailand">Muse Thailand</button>
-        <button class="chip" data-channel="Tropics Anime Asia">Tropics Anime Asia</button>
+      </div>
+      <div class="filters sort-line">
+        <span class="filter-group-label">เรียงตาม</span>
+        <label class="sort-picker" for="sortSelect">
+          <select id="sortSelect" aria-label="เรียงลำดับ">
+            <option value="updated">อัปเดตล่าสุด</option>
+            <option value="score">คะแนน MAL</option>
+            <option value="premiere">วันเริ่มฉาย</option>
+            <option value="title">ชื่อเรื่อง (ก-ฮ)</option>
+          </select>
+        </label>
       </div>
     </section>
 
@@ -81,19 +94,23 @@
     <section id="schedule" class="schedule glass">
       <div class="section-heading">
         <p class="eyebrow">Weekly Schedule</p>
-        <h2>ตารางฉายแบบย่อ</h2>
+        <h2>ตารางฉายรายสัปดาห์</h2>
       </div>
-      <div id="scheduleList" class="schedule-list"></div>
+      <div id="scheduleList" class="schedule-week"></div>
     </section>
   </main>
 
-  <dialog id="detailDialog" class="detail-dialog">
+  <footer>
+    <p>ข้อมูลอนิเมะจาก <a href="https://jikan.moe" target="_blank" rel="noopener">Jikan API</a> • ตอนซับไทยจากช่อง YouTube ลิขสิทธิ์ในไทย • อัปเดตอัตโนมัติวันละ 3 รอบ</p>
+  </footer>
+
+  <dialog id="detailDialog" class="detail-dialog" aria-label="รายละเอียดอนิเมะ">
     <button id="closeDialog" class="close-btn" aria-label="ปิดรายละเอียด">×</button>
     <div id="dialogContent"></div>
   </dialog>
 
-  <script src="safe-url.js"></script>
-  <script src="data/anime.js"></script>
-  <script src="app.js"></script>
+  <script src="safe-url.js" defer></script>
+  <script src="data/anime.js" defer></script>
+  <script src="app.js" defer></script>
 </body>
 </html>
