@@ -173,7 +173,9 @@
       }
     ],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "คณะประพันธกรจรจัด โฮ่ง ซีซั่น 2"
+    ],
     "youtubeSourceType": "playlist",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -263,7 +265,7 @@
   },
   {
     "id": "exiled-heavy-knight",
-    "titleThai": "เกิดใหม่เป็นอัศวินเกราะหนักผู้ถูกขับไล่แต่ใช้ความรู้จากเกมจนไร้เทียมทาน",
+    "titleThai": "เกิดใหม่เป็นอัศวินเกราะหนักผู้ถูกขับไล่",
     "titleOriginal": "Tsuihou Sareta Tensei Juu Kishi wa Game Chishiki de Musou Suru",
     "altTitle": "The Exiled Heavy Knight Knows How to Game the System",
     "studio": "GoHands",
@@ -311,7 +313,9 @@
       }
     ],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "เกิดใหม่เป็นอัศวินเกราะหนักผู้ถูกขับไล่"
+    ],
     "youtubeSourceType": "playlist",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -373,7 +377,9 @@
       }
     ],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "แมวสาวอมควัน"
+    ],
     "youtubeSourceType": "playlist",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -652,7 +658,7 @@
   },
   {
     "id": "worlds-strongest-rearguard",
-    "titleThai": "กองหลังที่แข็งแกร่งที่สุดในโลก",
+    "titleThai": "กองหลังที่แข็งแรงที่สุดในโลก",
     "titleOriginal": "Sekai Saikyou no Kouei: Meikyuukoku no Shinjin Tansakusha",
     "altTitle": "The World’s Strongest Rearguard",
     "studio": "Maho Film",
@@ -697,7 +703,8 @@
       "กองหลังที่เก่งที่สุดในโลก",
       "Sekai Saikyou no Kouei",
       "The World's Strongest Rearguard",
-      "The World’s Strongest Rearguard: Labyrinth Country’s Novice Seeker"
+      "The World’s Strongest Rearguard: Labyrinth Country’s Novice Seeker",
+      "กองหลังที่แข็งแรงที่สุดในโลก"
     ],
     "youtubeSourceType": "",
     "youtubeChannelId": "UCn8hjQOnGYR1AZtYYMYP5jQ",
@@ -849,7 +856,9 @@
       }
     ],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "เคลวาเทส อสูรจอมราชัน ซีซั่น 2"
+    ],
     "youtubeSourceType": "playlist",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -974,7 +983,7 @@
   },
   {
     "id": "youjo-senki-ii",
-    "titleThai": "Saga of Tanya the Evil II",
+    "titleThai": "บันทึกสงครามของยัยเผด็จการ ซีซั่น 2",
     "titleOriginal": "Youjo Senki II",
     "altTitle": "The Military Chronicles of a Little Girl II / Youjo Senki 2nd Season",
     "studio": "Nut",
@@ -1016,7 +1025,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "บันทึกสงครามของยัยเผด็จการ ซีซั่น 2"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -1024,7 +1035,7 @@
   },
   {
     "id": "super-no-ura-de-yani-suu-futari",
-    "titleThai": "Smoking Behind the Supermarket with You",
+    "titleThai": "สองสิงห์อมควันหลังซูเปอร์มาร์เก็ต",
     "titleOriginal": "Super no Ura de Yani Suu Futari",
     "altTitle": "Behind the Supermarket / Smoking with You.",
     "studio": "Asahi Production",
@@ -1065,7 +1076,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "สองสิงห์อมควันหลังซูเปอร์มาร์เก็ต"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -1219,7 +1232,7 @@
   },
   {
     "id": "gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu-ii",
-    "titleThai": "Skeleton Knight in Another World II",
+    "titleThai": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2",
     "titleOriginal": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu II",
     "altTitle": "Skeleton Knight in Another World 2nd Season / 骸骨騎士様、只今異世界へお出掛け中Ⅱ",
     "studio": "Aura Studio",
@@ -1260,7 +1273,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -1268,7 +1283,7 @@
   },
   {
     "id": "kimi-ga-shinu-made-koi-wo-shitai",
-    "titleThai": "I Want to Love You Till Your Dying Day",
+    "titleThai": "เพียงได้รักตราบสิ้นลมหายใจ",
     "titleOriginal": "Kimi ga Shinu made Koi wo Shitai",
     "altTitle": "My Wish Is to Fall in Love Until You Die. / Kimishinu",
     "studio": "ROLL2",
@@ -1308,7 +1323,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "เพียงได้รักตราบสิ้นลมหายใจ"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -1316,7 +1333,7 @@
   },
   {
     "id": "kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season",
-    "titleThai": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You Season 3",
+    "titleThai": "รักรักรักรักรักรัก เธอหมดหัวใจแฟนสาว 100 คน ภาค 3",
     "titleOriginal": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo 3rd Season",
     "altTitle": "Hyakkano 3rd Season / 君のことが大大大大大好きな100人の彼女 3期",
     "studio": "Bibury Animation Studios",
@@ -1359,7 +1376,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "รักรักรักรักรักรัก เธอหมดหัวใจแฟนสาว 100 คน ภาค 3"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -1367,7 +1386,7 @@
   },
   {
     "id": "katainaka-no-ossan-kensei-ni-naru-ii",
-    "titleThai": "From Old Country Bumpkin to Master Swordsman Season 2",
+    "titleThai": "ปรมาจารย์ดาบชั้นเซียนมาตบเกรียนถึงเมืองกรุง ซีซั่น 2",
     "titleOriginal": "Katainaka no Ossan, Kensei ni Naru II",
     "altTitle": "片田舎のおっさん、剣聖になるII",
     "studio": "Passione / Hayabusa Film",
@@ -1406,7 +1425,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "ปรมาจารย์ดาบชั้นเซียนมาตบเกรียนถึงเมืองกรุง ซีซั่น 2"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -1467,7 +1488,7 @@
   },
   {
     "id": "nijusseiki-denki-mokuroku-eureka-evrika",
-    "titleThai": "Sparks of Tomorrow",
+    "titleThai": "ประกายฝัน วันพรุ่งนี้",
     "titleOriginal": "Nijusseiki Denki Mokuroku: Eureka Evrika",
     "altTitle": "20th Century Electricity Catalog / 二十世紀電氣目録-ユーレカ・エヴリカ-",
     "studio": "Kyoto Animation",
@@ -1506,7 +1527,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "ประกายฝัน วันพรุ่งนี้"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -1661,7 +1684,7 @@
   },
   {
     "id": "hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru-2nd-season",
-    "titleThai": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing Season 2",
+    "titleThai": "Hell Mode ~อยากเล่นโหด ขอโหมดนรก~ Season 2",
     "titleOriginal": "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru 2nd Season",
     "altTitle": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～ 2nd Season",
     "studio": "Yokohama Animation Lab",
@@ -1703,7 +1726,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "Hell Mode ~อยากเล่นโหด ขอโหมดนรก~ Season 2"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -1758,7 +1783,7 @@
   },
   {
     "id": "futsutsuka-na-akujo-dewa-gozaimasu-ga-suuguu-chouso-torikae-den",
-    "titleThai": "Though I Am an Inept Villainess",
+    "titleThai": "นางร้ายมือใหม่ เป็นกำลังใจให้ด้วยนะเจ้าคะ",
     "titleOriginal": "Futsutsuka na Akujo dewa Gozaimasu ga: Suuguu Chouso Torikae Den",
     "altTitle": "Though I Am an Inept Villainess: Tale of the Butterfly-Rat Body Swap in the Maiden Court / ふつつかな悪女ではございますが ～雛宮蝶鼠とりかえ伝～",
     "studio": "Doga Kobo",
@@ -1798,7 +1823,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "นางร้ายมือใหม่ เป็นกำลังใจให้ด้วยนะเจ้าคะ"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -1806,7 +1833,7 @@
   },
   {
     "id": "tai-ari-deshita-ojousama-wa-kakutou-game-nante-shinai",
-    "titleThai": "Young Ladies Don't Play Fighting Games",
+    "titleThai": "คุณหนูสายปะทะ ไม่เล่นเกมต่อสู้หรอกนะ",
     "titleOriginal": "Tai-Ari deshita. Ojousama wa Kakutou Game nante Shinai",
     "altTitle": "GGWP. / 対ありでした。 ～お嬢さまは格闘ゲームなんてしない～",
     "studio": "Diomedéa",
@@ -1848,7 +1875,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "คุณหนูสายปะทะ ไม่เล่นเกมต่อสู้หรอกนะ"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -1856,7 +1885,7 @@
   },
   {
     "id": "rakudai-kenja-no-gakuin-musou-nidome-no-tensei-s-rank-cheat-majutsushi-boukenrok",
-    "titleThai": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
+    "titleThai": "ปราชญ์ตกชั้นขอเกิดใหม่เป็นเทพซ่า",
     "titleOriginal": "Rakudai Kenja no Gakuin Musou: Nidome no Tensei, S-Rank Cheat Majutsushi Boukenroku",
     "altTitle": "The Failed Sage's Academy Domination / The Unsuccessful Yet Academically Unparalleled Sage: A Cheating S-Rank Sorcerer's Post-Rebirth Adventurer Log",
     "studio": "EMT Squared",
@@ -1897,7 +1926,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "ปราชญ์ตกชั้นขอเกิดใหม่เป็นเทพซ่า"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -1905,7 +1936,7 @@
   },
   {
     "id": "tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-ason",
-    "titleThai": "Oh Boy, Was I Wrong About Her",
+    "titleThai": "เพื่อนสมัยเด็กที่เคยคิดว่าเป็นผู้ชายดันกลายเป็นสาวสวย",
     "titleOriginal": "Tenkou-saki no Seiso Karen na Bishoujo ga, Mukashi Danshi to Omotte Issho ni Asonda Osananajimi Datta Ken",
     "altTitle": "Tenkosaki: The Neat and Pretty Girl at My New School Is a Childhood Friend of Mine Who I Thought Was a Boy / Tenbin",
     "studio": "Project No.9",
@@ -1945,7 +1976,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "เพื่อนสมัยเด็กที่เคยคิดว่าเป็นผู้ชายดันกลายเป็นสาวสวย"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -1953,7 +1986,7 @@
   },
   {
     "id": "lv999-no-murabito",
-    "titleThai": "The Villager of Level 999",
+    "titleThai": "ชาวบ้านคนนี้ LV999",
     "titleOriginal": "Lv999 no Murabito",
     "altTitle": "LV999の村人",
     "studio": "Brain's Base",
@@ -1991,7 +2024,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "ชาวบ้านคนนี้ LV999"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -1999,7 +2034,7 @@
   },
   {
     "id": "saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seik",
-    "titleThai": "Rich Girl Caretaker: I'm Secretly the Caregiver of the Most Popular Girl in This Rich Kid School",
+    "titleThai": "ผู้ดูแลเด็กสาว",
     "titleOriginal": "Saijo no Osewa: Takane no Hanadarake na Meimonkou de, Gakuin Ichi no Ojousama (Seikatsu Nouryoku Kaimu) wo Kagenagara Osewa suru Koto ni Narimashita",
     "altTitle": "才女のお世話 高嶺の花だらけな名門校で、学院一のお嬢様（生活能力皆無）を陰ながらお世話することになりました",
     "studio": "Brain's Base",
@@ -2039,7 +2074,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "ผู้ดูแลเด็กสาว"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -2095,7 +2132,7 @@
   },
   {
     "id": "otome-kaijuu-carame-liser",
-    "titleThai": "Kaiju Girl Caramelise",
+    "titleThai": "สาวน้อยไคจู คาราเมไลซ์",
     "titleOriginal": "Otome Kaijuu Caraméliser",
     "altTitle": "Monster Maiden Caramelize / Meiden Kaiju Carameliser",
     "studio": "LIDENFILMS",
@@ -2136,7 +2173,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "สาวน้อยไคจู คาราเมไลซ์"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -2144,7 +2183,7 @@
   },
   {
     "id": "heroine-seijo-iie-all-works-maid-desu-hokori",
-    "titleThai": "Heroine? Saint? No, I'm an All-Works Maid (And Proud of It)!",
+    "titleThai": "นางเอก? สตรีศักดิ์สิทธิ์? โนๆ เมดครบวงจรรับจบทุกงานค่า",
     "titleOriginal": "Heroine? Seijo? Iie, All Works Maid desu (Hokori)!",
     "altTitle": "ヒロイン?聖女?いいえ、オールワークスメイドです(誇)!",
     "studio": "EMT Squared",
@@ -2184,7 +2223,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "นางเอก? สตรีศักดิ์สิทธิ์? โนๆ เมดครบวงจรรับจบทุกงานค่า"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -2336,7 +2377,7 @@
   },
   {
     "id": "koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-n",
-    "titleThai": "I Became a Legend After My 10 Year-Long Last Stand.",
+    "titleThai": "ตรงนี้ให้ฉันจัดการเอง แต่พอ 10 ปีผ่านไปก็กลายเป็นตำนานไปซะแล้ว",
     "titleOriginal": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
     "altTitle": "Kokoore / I Became a Legend a Decade Later After Telling My Comrades to Leave Everything to Me and Retreat First",
     "studio": "Gekkou",
@@ -2376,7 +2417,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "ตรงนี้ให้ฉันจัดการเอง แต่พอ 10 ปีผ่านไปก็กลายเป็นตำนานไปซะแล้ว"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -2431,7 +2474,7 @@
   },
   {
     "id": "saikyou-degarashi-ouji-no-anyaku-teii-arasoi",
-    "titleThai": "The Insipid Prince's Furtive Grab for The Throne",
+    "titleThai": "ชิงบัลลังก์ในเงามืด",
     "titleOriginal": "Saikyou Degarashi Ouji no Anyaku Teii Arasoi",
     "altTitle": "最強出涸らし皇子の暗躍帝位争い",
     "studio": "Maho Film",
@@ -2471,7 +2514,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "ชิงบัลลังก์ในเงามืด"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -2526,7 +2571,7 @@
   },
   {
     "id": "ryoumin-0-nin-start-no-henkyou-ryoushu-sama",
-    "titleThai": "The Frontier Lord Begins with Zero Subjects",
+    "titleThai": "ได้เป็นถึงท่านเจ้าครอบครองดินแดน",
     "titleOriginal": "Ryoumin 0-nin Start no Henkyou Ryoushu-sama",
     "altTitle": "The Frontier Lord Begins with Zero Subjects: The Blue-Horned Maiden / The Frontier Lord Begins with Zero Subjects: Tales of Blue Dias and the Onikin Alna",
     "studio": "animation studio42",
@@ -2564,7 +2609,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "ได้เป็นถึงท่านเจ้าครอบครองดินแดน"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -2572,7 +2619,7 @@
   },
   {
     "id": "hanaori-san-wa-tensei-shitemo-kenka-ga-shitai",
-    "titleThai": "Hanaori-san Still Wants to Fight in the Next Life",
+    "titleThai": "คุณฮานาโอริ เกิดใหม่ครั้งนี้ก็ขอมีเรื่อง",
     "titleOriginal": "Hanaori-san wa Tensei shitemo Kenka ga Shitai",
     "altTitle": "Hanaori-san Wants to Have a Fight Even If She Reincarnates / 花織さんは転生しても喧嘩がしたい",
     "studio": "LIDENFILMS",
@@ -2614,7 +2661,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "คุณฮานาโอริ เกิดใหม่ครั้งนี้ก็ขอมีเรื่อง"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -2722,7 +2771,7 @@
   },
   {
     "id": "sora-wa-akai-kawa-no-hotori",
-    "titleThai": "Red River",
+    "titleThai": "ตะวันรักที่ปลายฟ้า",
     "titleOriginal": "Sora wa Akai Kawa no Hotori",
     "altTitle": "Anatolia Story / Heaven by the Red River",
     "studio": "Tatsunoko Production",
@@ -2767,7 +2816,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "ตะวันรักที่ปลายฟ้า"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -2822,7 +2873,7 @@
   },
   {
     "id": "kimi-wo-aisuru-ki-wa-nai-to-itta-jiki-koushaku-sama-ga-nazeka-dekiai-shitekimasu",
-    "titleThai": "The Duke’s Son Claims He Won’t Love Me Yet Showers Me with Adoration",
+    "titleThai": "บุตรชายดยุกบอกว่าจะไม่รักฉัน",
     "titleOriginal": "\"Kimi wo Aisuru Ki wa Nai\" to Itta Jiki Koushaku-sama ga Nazeka Dekiai shitekimasu",
     "altTitle": "I Don't Know Why but the Next Duke Who Said \"I Have No Intention of Loving You\" Is Doting on Me / Kimiai",
     "studio": "Zero-G / Grass",
@@ -2861,7 +2912,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "บุตรชายดยุกบอกว่าจะไม่รักฉัน"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -3012,7 +3065,7 @@
   },
   {
     "id": "reiwa-no-dara-san",
-    "titleThai": "Dara-san of Reiwa",
+    "titleThai": "ดาระซังแห่งยุคเรวะ",
     "titleOriginal": "Reiwa no Dara-san",
     "altTitle": "令和のダラさん",
     "studio": "Asahi Production",
@@ -3052,7 +3105,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "ดาระซังแห่งยุคเรวะ"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -3107,7 +3162,7 @@
   },
   {
     "id": "ibitte-konai-gibo-to-gishi",
-    "titleThai": "My Stepmother and Stepsisters Aren't Wicked",
+    "titleThai": "คุณแม่ขา ครอบครัวใหม่ไม่รังแกหนู",
     "titleOriginal": "Ibitte Konai Gibo to Gishi",
     "altTitle": "My Mother-in-Law and Sister-in-Law Who Don't Bully Me. / My Stepmother and Stepsisters Do Not Pick On Me",
     "studio": "Newon",
@@ -3146,7 +3201,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "คุณแม่ขา ครอบครัวใหม่ไม่รังแกหนู"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -3154,7 +3211,7 @@
   },
   {
     "id": "uchi-no-otouto-domo-ga-sumimasen",
-    "titleThai": "Sorry About My Little Brothers",
+    "titleThai": "ขอโทษทีที่มีน้องชายจอมป่วน",
     "titleOriginal": "Uchi no Otouto-domo ga Sumimasen",
     "altTitle": "Please Excuse My Younger Brothers / Uchioto",
     "studio": "Lay-duce",
@@ -3194,7 +3251,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "ขอโทษทีที่มีน้องชายจอมป่วน"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -3300,7 +3359,7 @@
   },
   {
     "id": "iwamoto-senpai-no-suisen",
-    "titleThai": "Recommendations from Iwamoto-Senpai",
+    "titleThai": "บันทึกพิศวงของอิวาโมโตะ",
     "titleOriginal": "Iwamoto-senpai no Suisen",
     "altTitle": "Recommendation from Mr. Iwamoto / 岩元先輩ノ推薦",
     "studio": "Studio Deen",
@@ -3341,7 +3400,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "บันทึกพิศวงของอิวาโมโตะ"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -3349,7 +3410,7 @@
   },
   {
     "id": "kore-kaite-shine",
-    "titleThai": "Draw This, Then Die!",
+    "titleThai": "วาดเรื่องนี้ก่อนแล้วค่อยตาย",
     "titleOriginal": "Kore Kaite Shine",
     "altTitle": "これ描いて死ね",
     "studio": "Shin-Ei Animation",
@@ -3357,10 +3418,10 @@
     "episodes": "?",
     "premiere": "2026-07-03T00:00:00+00:00",
     "airTimeThai": "ศุกร์ 21:30",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "Muse Thailand",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/61280/Kore_Kaite_Shine",
     "genres": [
       "Comedy",
@@ -3371,12 +3432,12 @@
     "note": "นำเข้าจาก Jikan Summer 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1649/154997l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 1,
+    "latestEpisodeTitle": "วาดเรื่องนี้ก่อนแล้วค่อยตาย - ตอนที่ 01 [ซับไทย]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=yupwq2ZucbM",
+    "latestPublishedAt": "2026-07-03T06:06:21Z",
+    "lastCheckedAt": "2026-07-03T11:08:34.689Z",
+    "updateStatus": "ok",
     "updateError": "",
     "malId": 61280,
     "malUrl": "https://myanimelist.net/anime/61280/Kore_Kaite_Shine",
@@ -3387,13 +3448,23 @@
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": [],
+    "availableEpisodes": [
+      {
+        "number": 1,
+        "title": "วาดเรื่องนี้ก่อนแล้วค่อยตาย - ตอนที่ 01 [ซับไทย]",
+        "videoId": "yupwq2ZucbM",
+        "videoUrl": "https://www.youtube.com/watch?v=yupwq2ZucbM",
+        "publishedAt": "2026-07-03T06:06:21Z"
+      }
+    ],
     "catalogYear": 2026,
-    "youtubeAliases": [],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeAliases": [
+      "วาดเรื่องนี้ก่อนแล้วค่อยตาย"
+    ],
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCn8hjQOnGYR1AZtYYMYP5jQ",
+    "youtubeChannelTitle": "Muse Thailand",
+    "youtubeMatchConfidence": "strong_unique_title_match"
   },
   {
     "id": "sword-art-online-unanswered-butterfly",
@@ -3535,7 +3606,7 @@
   },
   {
     "id": "tetsunabe-no-jan",
-    "titleThai": "Iron Wok Jan!",
+    "titleThai": "จอมโหดกระทะเหล็ก",
     "titleOriginal": "Tetsunabe no Jan!",
     "altTitle": "鉄鍋のジャン！",
     "studio": "TROYCA",
@@ -3576,7 +3647,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "จอมโหดกระทะเหล็ก"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -3725,7 +3798,7 @@
   },
   {
     "id": "ushiro-no-shoumen-kamui-san",
-    "titleThai": "KAMUI: He's Behind You",
+    "titleThai": "คุณคามุยลุยหลังผี",
     "titleOriginal": "Ushiro no Shoumen Kamui-san",
     "altTitle": "Kamui-san in the Back / うしろの正面カムイさん",
     "studio": "Zero-G / ZG-R",
@@ -3765,7 +3838,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "คุณคามุยลุยหลังผี"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -4962,7 +5037,7 @@
   },
   {
     "id": "seihantai-na-kimi-to-boku-2nd-season",
-    "titleThai": "You and I Are Polar Opposites Season 2",
+    "titleThai": "ลุ้นรักฉบับคู่ต่างขั้ว ซีซั่น 2",
     "titleOriginal": "Seihantai na Kimi to Boku 2nd Season",
     "altTitle": "正反対な君と僕 第2期",
     "studio": "Lapin Track",
@@ -5003,7 +5078,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "ลุ้นรักฉบับคู่ต่างขั้ว ซีซั่น 2"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -5011,7 +5088,7 @@
   },
   {
     "id": "kabushikigaisha-magi-lumie-re-2nd-season",
-    "titleThai": "Magilumiere Magical Girls Inc. Season 2",
+    "titleThai": "บริษัทจำกัด แมจิลูเมียร์ ซีซั่น 2",
     "titleOriginal": "Kabushikigaisha Magi-Lumière 2nd Season",
     "altTitle": "Magilumiere Co. Ltd. / Kabushikigaisha Magilumiere",
     "studio": "J.C.Staff",
@@ -5053,7 +5130,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "บริษัทจำกัด แมจิลูเมียร์ ซีซั่น 2"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -5061,7 +5140,7 @@
   },
   {
     "id": "hanazakari-no-kimitachi-e-2nd-season",
-    "titleThai": "Hana-Kimi Season 2",
+    "titleThai": "สับขั้วมาลุ้นรัก ภาค 2",
     "titleOriginal": "Hanazakari no Kimitachi e 2nd Season",
     "altTitle": "HanaKimi / The Thirsty Moon",
     "studio": "Signal.MD",
@@ -5103,7 +5182,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "สับขั้วมาลุ้นรัก ภาค 2"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -5111,7 +5192,7 @@
   },
   {
     "id": "yoroi-shin-den-samurai-troopers-part-2",
-    "titleThai": "Yoroi-Shinden Samurai Troopers Part 2",
+    "titleThai": "ตำนานใหม่ ซามูไรทรูปเปอร์ พาร์ท 2",
     "titleOriginal": "Yoroi Shin Den Samurai Troopers Part 2",
     "altTitle": "鎧真伝サムライトルーパー 第2クール",
     "studio": "Sunrise",
@@ -5152,7 +5233,9 @@
     "trailerUrl": "",
     "availableEpisodes": [],
     "catalogYear": 2026,
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "ตำนานใหม่ ซามูไรทรูปเปอร์ พาร์ท 2"
+    ],
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
@@ -5283,7 +5366,7 @@
     "latestEpisodeTitle": "[พากย์ไทย] คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 38(S2 ตอนที่ 10)",
     "latestVideoUrl": "https://www.youtube.com/watch?v=AyCLxbqwlLc",
     "latestPublishedAt": "2026-05-29T13:00:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:26.431Z",
+    "lastCheckedAt": "2026-07-03T11:08:34.689Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -5474,7 +5557,7 @@
     "latestEpisodeTitle": "มหาเวทย์ผนึกมาร จรดลล้างบาง พาร์ต 1 ตอนที่ 9 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=QOq0Pdyk2Xw",
     "latestPublishedAt": "2026-07-03T03:42:30Z",
-    "lastCheckedAt": "2026-07-03T10:55:12.743Z",
+    "lastCheckedAt": "2026-07-03T11:08:20.767Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -5898,7 +5981,7 @@
     "latestEpisodeTitle": "【English Sub】《Jack-of-All-Trades, Party of None》｜Episode 03｜TROPICS ENTERTAINMENT",
     "latestVideoUrl": "https://www.youtube.com/watch?v=QNvXlkskMRQ",
     "latestPublishedAt": "2026-04-09T03:28:34Z",
-    "lastCheckedAt": "2026-07-03T10:55:31.046Z",
+    "lastCheckedAt": "2026-07-03T11:08:39.551Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -6359,7 +6442,7 @@
     "latestEpisodeTitle": "【English Sub】《Noble Reincarnation -Born Blessed, So I’ll Obtain Ultimate Power-》｜Episode 12｜TROPICS",
     "latestVideoUrl": "https://www.youtube.com/watch?v=3ehTiMbhJ_0",
     "latestPublishedAt": "2026-05-13T13:00:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:31.046Z",
+    "lastCheckedAt": "2026-07-03T11:08:39.551Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -6638,7 +6721,7 @@
     "latestEpisodeTitle": "TRIGUN STARGAZE ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=0-RubGo7ZSQ",
     "latestPublishedAt": "2026-03-28T15:00:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:12.746Z",
+    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -7261,7 +7344,7 @@
       "Supernatural",
       "Shounen"
     ],
-    "summary": "Always ready for a fight! Destruction for destruction's sake! The online streamer Aoringo is a troll, making the worst of the worst of boundary-pushing flamebait content and raking in the revenue from the hate-watchers. You may think he's nothing more than a bottom feeder and a drain on society, but in reality, he's high school dropout Souji Enishiro, a caring older brother with a sweet tooth who loves nothing more than his little sister. His viral videos? Just a way to pay his sister's medical bills. And even if all of humanity hates him, he doesn't care, so long as his little sister gets better. But then, something very strange begins to happen...  Don't miss the debut of this modern-day occult exorcism battle manga!\n\n(Source: Kodansha)",
+    "summary": "Always ready for a fight! Destruction for destruction's sake! The online streamer Aoringo is a troll, making the worst of the worst of boundary-pushing flamebait content and raking in the revenue from the hate-watchers. You may think he's nothing more than a bottom feeder and a drain on society, but in reality, he's high school dropout Souji Enishiro, a caring older brother with a sweet tooth who loves nothing more than his little sister. His viral videos? Just a way to pay his sister's medical bills. And even if all of humanity hates him, he doesn't care, so long as his little sister gets better. But then, something very strange begins to happen... Don't miss the debut of this modern-day occult exorcism battle manga!\n\n(Source: Kodansha)",
     "note": "นำเข้าจาก Jikan winter 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1622/154192l.webp",
     "playlistId": "",
@@ -7269,7 +7352,7 @@
     "latestEpisodeTitle": "เดดแอ็กเคานต์ พิฆาตบัญชีมรณะ ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=EmljTI3KHhU",
     "latestPublishedAt": "2026-03-28T15:00:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:12.746Z",
+    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -7824,7 +7907,7 @@
     "latestEpisodeTitle": "MF GHOST 3rd Season ตอนที่ 13  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=cG3YiWtedZg",
     "latestPublishedAt": "2026-03-26T15:30:07Z",
-    "lastCheckedAt": "2026-07-03T10:55:12.746Z",
+    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -9200,7 +9283,7 @@
     "latestEpisodeTitle": "Re:ZERO -รีเซทชีวิต ฝ่าวิกฤตต่างโลก- ตอนที่ 77 (ซีซั่น 4 ตอนที่ 11) [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=CBePn6F5j1E",
     "latestPublishedAt": "2026-07-01T14:00:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:26.431Z",
+    "lastCheckedAt": "2026-07-03T11:08:34.689Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -9381,7 +9464,7 @@
     "latestEpisodeTitle": "เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4 - ตอนที่ 83 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=shZj-lt7Plg",
     "latestPublishedAt": "2026-07-02T07:54:03Z",
-    "lastCheckedAt": "2026-07-03T10:55:26.431Z",
+    "lastCheckedAt": "2026-07-03T11:08:34.689Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -9531,7 +9614,7 @@
     "latestEpisodeTitle": "น้องสาวแท้ ๆ แน่นอน | ไฮไลท์อนิเมะยมลแห่งยมโลก ตอนที่ 8",
     "latestVideoUrl": "https://www.youtube.com/watch?v=QowdJgNIUWU",
     "latestPublishedAt": "2026-05-25T04:00:38Z",
-    "lastCheckedAt": "2026-07-03T10:55:26.431Z",
+    "lastCheckedAt": "2026-07-03T11:08:34.690Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -9807,7 +9890,7 @@
     "latestEpisodeTitle": "วิวาห์แต้มพิษ - ตอนที่ 13 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=yYk0j2HLR_s",
     "latestPublishedAt": "2026-06-30T14:30:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:26.431Z",
+    "lastCheckedAt": "2026-07-03T11:08:34.690Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -10255,7 +10338,7 @@
     "latestEpisodeTitle": "อิรุมะคุง ผจญในแดนปีศาจ! ซีซั่น 4 - ตอนที่ 13 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=fXEChJDtLo0",
     "latestPublishedAt": "2026-06-27T10:55:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:26.431Z",
+    "lastCheckedAt": "2026-07-03T11:08:34.690Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -10511,7 +10594,7 @@
     "latestEpisodeTitle": "ท่านคานัน ปีศาจต๊อง บ๊องไม่มีใครเกิน  ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=h8ipu2_xGmw",
     "latestPublishedAt": "2026-06-20T16:00:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:12.746Z",
+    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -10794,7 +10877,7 @@
     "latestEpisodeTitle": "อาคาเนะ พลิกตำนานวงการราคุโกะ ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=tJ4AI9XMPXc",
     "latestPublishedAt": "2026-06-20T16:00:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:12.746Z",
+    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -11339,7 +11422,7 @@
     "latestEpisodeTitle": "โศกนาฏกรรมของตัวร้ายสุดแกร่งอย่างราชินีลาสบอสจะขอถวายตัวเพื่อปวงชน ซีซั่น 2 - ตอนที่ 12  [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=FwkKkF3MPwI",
     "latestPublishedAt": "2026-06-23T13:30:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:26.431Z",
+    "lastCheckedAt": "2026-07-03T11:08:34.690Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -11473,7 +11556,7 @@
     "latestEpisodeTitle": "ปล่อยปลาตัวใหญ่หลุดมือไปก็จริง แต่ไหงถึงได้ปลาตัวใหญ่กว่ามาแทนกันล่ะคะ - ตอนที่ 12 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=MFOUUg2kgHM",
     "latestPublishedAt": "2026-07-01T15:30:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:26.431Z",
+    "lastCheckedAt": "2026-07-03T11:08:34.690Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -11756,7 +11839,7 @@
     "latestEpisodeTitle": "ยอดไก่นักสู้กู้โลก ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=ZsDwtzWkv8I",
     "latestPublishedAt": "2026-06-26T02:42:44Z",
-    "lastCheckedAt": "2026-07-03T10:55:12.746Z",
+    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -11964,14 +12047,21 @@
     "note": "นำเข้าจาก Jikan spring 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1716/153989l.webp",
     "playlistId": "",
-    "currentEpisode": 12,
-    "latestEpisodeTitle": "ห้องเรียนเวทมนตร์กับคุณแมวดำ ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=LHSD5LtMaC4",
-    "latestPublishedAt": "2026-06-28T15:00:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:12.746Z",
+    "currentEpisode": 13,
+    "latestEpisodeTitle": "ห้องเรียนเวทมนตร์กับคุณแมวดำ ตอนที่ 13 [ซับไทย] 【Ani-One Thailand】",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=2hgQP9tfPTM",
+    "latestPublishedAt": "2026-07-03T10:52:57Z",
+    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
+      {
+        "number": 13,
+        "title": "ห้องเรียนเวทมนตร์กับคุณแมวดำ ตอนที่ 13 [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "2hgQP9tfPTM",
+        "videoUrl": "https://www.youtube.com/watch?v=2hgQP9tfPTM",
+        "publishedAt": "2026-07-03T10:52:57Z"
+      },
       {
         "number": 12,
         "title": "ห้องเรียนเวทมนตร์กับคุณแมวดำ ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】",
@@ -12102,14 +12192,21 @@
     "note": "นำเข้าจาก Jikan spring 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1738/156386l.webp",
     "playlistId": "",
-    "currentEpisode": 13,
-    "latestEpisodeTitle": "MAO หาญสู้พลิกชะตาอาถรรพณ์ ตอนที่ 13  [ซับไทย] 【Ani-One Thailand】",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=BIiIDEodvmI",
-    "latestPublishedAt": "2026-06-29T04:00:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:12.746Z",
+    "currentEpisode": 14,
+    "latestEpisodeTitle": "MAO หาญสู้พลิกชะตาอาถรรพณ์ ตอนที่ 14  [ซับไทย] 【Ani-One Thailand】",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=1rIfOnXhNz8",
+    "latestPublishedAt": "2026-07-03T10:51:13Z",
+    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
+      {
+        "number": 14,
+        "title": "MAO หาญสู้พลิกชะตาอาถรรพณ์ ตอนที่ 14  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "1rIfOnXhNz8",
+        "videoUrl": "https://www.youtube.com/watch?v=1rIfOnXhNz8",
+        "publishedAt": "2026-07-03T10:51:13Z"
+      },
       {
         "number": 13,
         "title": "MAO หาญสู้พลิกชะตาอาถรรพณ์ ตอนที่ 13  [ซับไทย] 【Ani-One Thailand】",
@@ -12258,7 +12355,7 @@
     "latestEpisodeTitle": "บ้านพักคุสึโนกิกับสวนเทพเจ้า ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=Kjc918fOFFI",
     "latestPublishedAt": "2026-06-20T16:30:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:12.746Z",
+    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -12451,7 +12548,7 @@
     "latestEpisodeTitle": "【English Sub】《My Ribdiculous Reincarnation》｜Episode 09｜TROPICS ENTERTAINMENT",
     "latestVideoUrl": "https://www.youtube.com/watch?v=7Mi8mnw7Wxo",
     "latestPublishedAt": "2026-07-01T12:00:07Z",
-    "lastCheckedAt": "2026-07-03T10:55:31.046Z",
+    "lastCheckedAt": "2026-07-03T11:08:39.551Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -12709,7 +12806,7 @@
     "latestEpisodeTitle": "สโนว์บอลเอิร์ธ - ตอนที่ 13 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=aIJCMlRmqSs",
     "latestPublishedAt": "2026-06-29T07:15:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:26.431Z",
+    "lastCheckedAt": "2026-07-03T11:08:34.690Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13094,7 +13191,7 @@
     "latestEpisodeTitle": "หนึ่งร้อยทิวทัศน์แห่งอาวาจิมะ ตอนที่ 12   [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=DQXEpra0hmY",
     "latestPublishedAt": "2026-06-25T16:45:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:12.747Z",
+    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13228,7 +13325,7 @@
     "latestEpisodeTitle": "ผู้กลืนกินมอนสเตอร์ ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=LRf77Cy2Sfs",
     "latestPublishedAt": "2026-07-02T17:15:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:12.747Z",
+    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13410,7 +13507,7 @@
     "latestEpisodeTitle": "คิริโอะแฟนคลับ ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=ISzVk113xYk",
     "latestPublishedAt": "2026-06-18T16:00:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:12.747Z",
+    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13610,7 +13707,7 @@
     "latestEpisodeTitle": "การย้อนเวลาของมหาปราชญ์ริดเดิล ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=9dVHDK-W51Q",
     "latestPublishedAt": "2026-07-03T10:22:20Z",
-    "lastCheckedAt": "2026-07-03T10:55:12.747Z",
+    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13794,7 +13891,7 @@
     "latestEpisodeTitle": "ยามเมื่อคุจิมะขับขาน ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=-SZgih6gJJk",
     "latestPublishedAt": "2026-06-25T14:00:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:12.747Z",
+    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13931,7 +14028,7 @@
     "latestEpisodeTitle": "【Subtitle Indonesia】《The Drops of God》｜Episode 09｜TROPICS ENTERTAINMENT",
     "latestVideoUrl": "https://www.youtube.com/watch?v=Yvgjx4MzEsM",
     "latestPublishedAt": "2026-06-11T03:04:41Z",
-    "lastCheckedAt": "2026-07-03T10:55:31.046Z",
+    "lastCheckedAt": "2026-07-03T11:08:39.551Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -14153,7 +14250,7 @@
     "latestEpisodeTitle": "โกสต์คอนเสิร์ต : บทเพลงที่หายไป ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=RGvOUY7mXfQ",
     "latestPublishedAt": "2026-06-21T15:30:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:12.747Z",
+    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -14524,7 +14621,7 @@
     "latestEpisodeTitle": "CANDY CARIES - ตอนที่ 12 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=NnhNEVQ-1I0",
     "latestPublishedAt": "2026-07-01T16:00:26Z",
-    "lastCheckedAt": "2026-07-03T10:55:26.431Z",
+    "lastCheckedAt": "2026-07-03T11:08:34.690Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -16503,7 +16600,7 @@
     "latestEpisodeTitle": "Ace of Diamond act 2 ซีซั่น 2 - ตอนที่ 13 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=Ngd2-veP5KE",
     "latestPublishedAt": "2026-06-28T09:00:06Z",
-    "lastCheckedAt": "2026-07-03T10:55:26.431Z",
+    "lastCheckedAt": "2026-07-03T11:08:34.690Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [

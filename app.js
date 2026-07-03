@@ -34,6 +34,7 @@ function latestText(item) {
 }
 function itemYear(item) { return Number(item.catalogYear || item.year || 0); }
 function isTvInYear(item) { return item.jikanType === 'TV' && itemYear(item) === selectedYear; }
+function isCurrentlyAiring(item) { return item.jikanStatus !== 'Finished Airing'; }
 function isInCatalogScope(item) { return isTvInYear(item) && (activeSeason === 'all' || item.season === activeSeason); }
 function isMatch(item) {
   const haystack = normalize([item.titleThai, item.titleOriginal, item.altTitle, item.channel, item.studio, item.source, ...(item.genres || [])].join(' '));
@@ -51,7 +52,7 @@ function scheduleTimeForDay(item, weekday) {
 }
 function renderTodaySchedule() {
   const { weekday, date } = thaiToday();
-  const items = data.filter(isTvInYear)
+  const items = data.filter(item => isTvInYear(item) && isCurrentlyAiring(item))
     .map(item => ({ item, time: scheduleTimeForDay(item, weekday) }))
     .filter(entry => entry.time)
     .sort((a, b) => a.time.localeCompare(b.time, 'th'));
@@ -93,7 +94,7 @@ function render() {
   });
 }
 function renderSchedule() {
-  const sorted = data.filter(isInCatalogScope).sort((a, b) => a.airTimeThai.localeCompare(b.airTimeThai, 'th'));
+  const sorted = data.filter(item => isInCatalogScope(item) && isCurrentlyAiring(item)).sort((a, b) => a.airTimeThai.localeCompare(b.airTimeThai, 'th'));
   scheduleList.innerHTML = sorted.map(item => `<div class="schedule-item"><div class="schedule-date">${escapeHtml(item.airTimeThai.split(' ')[0])}</div><div><strong>${escapeHtml(item.titleThai)}</strong><span>${escapeHtml(item.airTimeThai)} • ${escapeHtml(item.channel)} • ${latestText(item)}</span></div></div>`).join('');
 }
 function episodeRowsTemplate(episodes) {
