@@ -67,7 +67,7 @@ function renderTodaySchedule() {
 function cardTemplate(item) {
   const st = statusMap[item.status] || statusMap.upcoming;
   const update = updateMap[item.updateStatus] || updateMap.pending;
-  const watchUrl = item.latestVideoUrl || item.link || '#';
+  const watchUrl = safeExternalUrl(item.latestVideoUrl || item.link);
   return `<article class="anime-card" tabindex="0" data-id="${escapeHtml(item.id)}">
     <div class="poster-wrap"><img class="poster" src="${escapeHtml(item.poster)}" alt="${escapeHtml(item.titleThai)}" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('is-missing')" /><span class="poster-fallback" aria-hidden="true">ไม่มีรูป</span></div>
     <div class="status"><span class="dot ${st.dot}"></span>${st.label}</div><div class="channel">${item.channel.includes('Ani') ? 'Ani-One' : item.channel.includes('Muse') ? 'Muse' : 'รอช่องทางไทย'}</div>
@@ -100,7 +100,7 @@ function episodeRowsTemplate(episodes) {
   return episodes.map(episode => `<article class="episode-item">
     <div class="episode-number">${episode.number !== null && episode.number !== undefined ? `ตอนที่ ${escapeHtml(episode.number)}` : 'ตอนพิเศษ'}</div>
     <div class="episode-copy"><strong>${escapeHtml(episode.title || 'ไม่มีชื่อตอน')}</strong><span>${formatDate(episode.publishedAt)}</span></div>
-    <a class="episode-watch" href="${escapeHtml(episode.videoUrl)}" target="_blank" rel="noopener">รับชม</a>
+    <a class="episode-watch" href="${escapeHtml(safeExternalUrl(episode.videoUrl))}" target="_blank" rel="noopener">รับชม</a>
   </article>`).join('');
 }
 function renderEpisodeList(item, limit) {
@@ -122,7 +122,7 @@ function renderEpisodeList(item, limit) {
 function showDetail(id) {
   const item = data.find(x => x.id === id); if (!item) return;
   const st = statusMap[item.status] || statusMap.upcoming;
-  const watchUrl = item.latestVideoUrl || item.link || '#';
+  const watchUrl = safeExternalUrl(item.latestVideoUrl || item.link);
   dialogContent.innerHTML = `<div class="dialog-grid"><div class="dialog-poster"><img src="${escapeHtml(item.poster)}" alt="${escapeHtml(item.titleThai)}" onerror="this.hidden=true;this.parentElement.classList.add('is-missing')" /><span class="poster-fallback" aria-hidden="true">ไม่มีรูป</span></div><div class="dialog-copy">
     <p class="eyebrow">${escapeHtml(item.channel)} • ${escapeHtml(item.platform)}</p><h2>${escapeHtml(item.titleThai)}</h2>
     <p class="original">${escapeHtml(item.titleOriginal)}<br>${escapeHtml(item.altTitle)}</p><p>${escapeHtml(item.summary)}</p>
@@ -139,7 +139,7 @@ function showDetail(id) {
       <div id="episodeList" class="episode-list"></div>
       <button id="loadMoreEpisodes" class="load-more-btn" type="button" hidden>ดูตอนเก่ากว่า</button>
     </section>
-    <div class="dialog-actions"><a class="primary-btn" href="${escapeHtml(watchUrl)}" target="_blank" rel="noopener">${item.latestVideoUrl || item.playlistId ? 'ดูตอนล่าสุด' : 'ดูข้อมูลบน MyAnimeList'}</a>${item.playlistId ? `<a class="secondary-btn" href="${escapeHtml(item.link || watchUrl)}" target="_blank" rel="noopener">Playlist / YouTube</a>` : ''}</div>
+    <div class="dialog-actions"><a class="primary-btn" href="${escapeHtml(watchUrl)}" target="_blank" rel="noopener">${item.latestVideoUrl || item.playlistId ? 'ดูตอนล่าสุด' : 'ดูข้อมูลบน MyAnimeList'}</a>${item.playlistId ? `<a class="secondary-btn" href="${escapeHtml(safeExternalUrl(item.link || watchUrl))}" target="_blank" rel="noopener">Playlist / YouTube</a>` : ''}</div>
   </div></div>`;
   dialog.showModal();
   let episodeLimit = 10;
