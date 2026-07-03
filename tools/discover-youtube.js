@@ -1,6 +1,6 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
-const { episodeNumber, isEpisode } = require('./update-youtube');
+const { episodeNumber, isEpisode, youtubeJson } = require('./update-youtube');
 const { bangkokYear } = require('./update-jikan');
 
 const ROOT = path.resolve(__dirname, '..');
@@ -21,10 +21,7 @@ async function readJson(file, fallback) {
 
 async function youtubeRequest(resource, params, apiKey) {
   const query = new URLSearchParams({ ...params, key: apiKey });
-  const response = await fetch(`${API_ROOT}/${resource}?${query}`);
-  const body = await response.json().catch(() => ({}));
-  if (!response.ok) throw new Error(body?.error?.message || `YouTube API returned HTTP ${response.status}`);
-  return body;
+  return youtubeJson(`${API_ROOT}/${resource}?${query}`);
 }
 
 async function resolveChannel(config, apiKey, requester = youtubeRequest) {

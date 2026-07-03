@@ -5,6 +5,18 @@ const ROOT = path.resolve(__dirname, '..');
 const JSON_PATH = path.join(ROOT, 'data', 'anime.json');
 const JS_PATH = path.join(ROOT, 'data', 'anime.js');
 const API_URL = 'https://www.googleapis.com/youtube/v3/playlistItems';
+const wait = milliseconds => new Promise(resolve => setTimeout(resolve, milliseconds));
+
+async function youtubeJson(url, attempt = 1) {
+  const response = await fetch(url);
+  if ((response.status === 429 || response.status >= 500) && attempt < 5) {
+    await wait(1000 * attempt);
+    return youtubeJson(url, attempt + 1);
+  }
+  const body = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(body?.error?.message || `YouTube API returned HTTP ${response.status}`);
+  return body;
+}
 const EXCLUDED = /(?:\b(?:trailer|teaser|opening|ending|music|announcement|promo(?:tional)?|pv|op|ed)\b|ตัวอย่าง|เพลงเปิด|เพลงปิด|ประกาศ|โปรโมต)/iu;
 const EPISODE_PATTERNS = [
   /ตอน(?:ที่)?\s*([0-9]+(?:\.[0-9]+)?)/iu,
@@ -24,7 +36,11 @@ function playlistIdFromLink(link = '') {
 function episodeNumber(title) {
   for (const pattern of EPISODE_PATTERNS) {
     const match = title.match(pattern);
-    if (match) return Number(match[1]);
+    if (!match) continue;
+    const number = Number(match[1]);
+    // "#1900+" is almost always a year hashtag, not an episode number
+    if (number >= 1900) continue;
+    return number;
   }
   return null;
 }
@@ -42,12 +58,7 @@ async function fetchPlaylist(playlistId, apiKey) {
       part: 'snippet,contentDetails', maxResults: '50', playlistId, key: apiKey
     });
     if (pageToken) params.set('pageToken', pageToken);
-    const response = await fetch(`${API_URL}?${params}`);
-    const body = await response.json().catch(() => ({}));
-    if (!response.ok) {
-      const reason = body?.error?.message || `YouTube API returned HTTP ${response.status}`;
-      throw new Error(reason);
-    }
+    const body = await youtubeJson(`${API_URL}?${params}`);
     items.push(...(body.items || []));
     pageToken = body.nextPageToken || '';
   } while (pageToken);
@@ -177,4 +188,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { buildEpisodeList, episodeNumber, fetchPlaylist, isEpisode, playlistIdFromLink, updateAnimeItem, updateAnimeItems };
+module.exports = { buildEpisodeList, episodeNumber, fetchPlaylist, isEpisode, playlistIdFromLink, updateAnimeItem, updateAnimeItems, youtubeJson };

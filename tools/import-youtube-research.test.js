@@ -28,6 +28,21 @@ test('rejects mismatched identity and does not overwrite a confirmed playlist', 
   assert.equal(anime[0].playlistId, 'confirmed');
 });
 
+test('matches manual entries without malId by id alone and never across records', () => {
+  const anime = [
+    { id: 'manual-a', availableEpisodes: [] },
+    { id: 'manual-b', availableEpisodes: [] }
+  ];
+  const queue = { schemaVersion: 1, items: [
+    { id: 'manual-a', notes: 'researched' },
+    { id: 'manual-b', malId: 99, notes: 'claims a malId the record does not have' }
+  ] };
+  const result = importResearch(anime, queue);
+  assert.equal(result.updated, 1);
+  assert.equal(anime[0].youtubeResearchNotes, 'researched');
+  assert.deepEqual(result.conflicts, ['manual-b (MAL 99)']);
+});
+
 test('merges valid direct episode URLs without duplicates', () => {
   const anime = [{ id: 'show', malId: 1, availableEpisodes: [{ videoId: 'abc', videoUrl: 'https://youtu.be/abc' }] }];
   const queue = { schemaVersion: 1, items: [{ id: 'show', malId: 1, episodeUrls: ['https://youtu.be/abc', 'https://www.youtube.com/watch?v=def'] }] };
