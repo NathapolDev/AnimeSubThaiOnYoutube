@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="850" viewBox="0 0 600 850" role="img" aria-label="The World Is Dancing poster placeholder">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06b6d4"/><stop offset="0.55" stop-color="#1d4ed8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  <radialGradient id="moon" cx="75%" cy="18%" r="40%"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset=".16" stop-color="#fff" stop-opacity=".38"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="600" height="850" fill="url(#bg)"/>
+<rect width="600" height="850" fill="url(#moon)"/>
+<g opacity=".20">
+  <circle cx="80" cy="80" r="4" fill="#fff"/><circle cx="170" cy="140" r="3" fill="#fff"/><circle cx="490" cy="120" r="5" fill="#fff"/><circle cx="540" cy="300" r="3" fill="#fff"/><circle cx="90" cy="460" r="5" fill="#fff"/>
+  <path d="M-40 610 C120 560 190 700 350 650 C470 610 520 550 660 600 L660 850 L-40 850Z" fill="#020617" opacity=".55"/>
+  <path d="M-30 690 C130 610 250 760 410 700 C510 660 555 640 650 675 L650 850 L-30 850Z" fill="#0f172a" opacity=".65"/>
+</g>
+<g filter="url(#glow)" opacity=".95">
+  <path d="M92 187 Q150 135 208 187 Q266 135 324 187 Q382 135 440 187 Q358 222 300 278 Q241 222 92 187Z" fill="#fff" opacity=".22"/>
+  <circle cx="300" cy="385" r="132" fill="#ffffff" opacity=".12"/>
+  <path d="M230 374 Q300 280 372 374 Q348 500 300 535 Q250 500 230 374Z" fill="#fff" opacity=".22"/>
+</g>
+<rect x="36" y="36" width="528" height="778" rx="36" fill="none" stroke="#fff" stroke-opacity=".42" stroke-width="2"/>
+<rect x="58" y="62" width="484" height="70" rx="22" fill="#020617" opacity=".28"/>
+<text x="300" y="105" fill="#fff" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle">SUMMER 2026</text>
+<foreignObject x="60" y="615" width="480" height="150">
+  <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:Arial,'Noto Sans Thai',sans-serif;color:white;text-align:center;font-size:38px;font-weight:800;line-height:1.1;text-shadow:0 5px 24px rgba(0,0,0,.35);">The World Is Dancing</div>
+</foreignObject>
+<text x="300" y="778" fill="#fff" opacity=".92" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">Muse • YouTube</text>
+</svg>

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anime TV Catalog — Thai YouTube Tracker</title>
+  <meta name="description" content="เว็บรวมอนิเมะ TV รายปีจาก Jikan พร้อมติดตามตอนจากช่อง YouTube ลิขสิทธิ์ไทย" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="sakura" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#top" aria-label="Anime TV Catalog home"><span class="brand-mark">夏</span><span id="brandTitle">Anime TV Catalog</span></a>
+      <button id="menuToggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="navMenu">เมนู</button>
+      <div id="navMenu" class="nav-actions">
+        <a href="#catalog">Catalog</a>
+        <a href="#schedule">Schedule</a>
+        <button id="themeToggle" class="ghost-btn" type="button" aria-label="สลับธีมสี">🌙</button>
+      </div>
+    </nav>
+
+    <section id="top" class="hero">
+      <div class="hero-panel today-panel" aria-labelledby="todayHeading">
+        <div class="today-heading">
+          <div><p class="eyebrow">On Air Today</p><h2 id="todayHeading">ตารางฉายวันนี้</h2></div>
+          <span id="todayCount" class="today-count">0 เรื่อง</span>
+        </div>
+        <p id="todayDate" class="today-date"></p>
+        <div id="todaySchedule" class="today-schedule" aria-live="polite"></div>
+        <a class="today-all-link" href="#schedule">ดูตารางทั้งหมด</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="toolbar glass" id="catalog">
+      <div>
+        <p class="eyebrow">Catalog</p>
+        <h2>ค้นหาและกรองรายการ</h2>
+      </div>
+      <label class="search-box" for="searchInput">
+        <span>🔎</span>
+        <input id="searchInput" type="search" placeholder="ค้นชื่อไทย / อังกฤษ / ญี่ปุ่น / แนว" autocomplete="off" />
+      </label>
+      <div class="catalog-scope">
+        <label class="year-picker" for="yearSelect"><span>ปี</span><select id="yearSelect" aria-label="เลือกปี"></select></label>
+        <div class="season-filters" role="group" aria-label="เลือกฤดูกาล">
+          <button class="chip" data-season="winter">Winter</button>
+          <button class="chip" data-season="spring">Spring</button>
+          <button class="chip" data-season="summer">Summer</button>
+          <button class="chip" data-season="fall">Fall</button>
+          <button class="chip" data-season="all">ทั้งปี</button>
+        </div>
+      </div>
+      <div class="filters status-filters" role="group" aria-label="ตัวกรองสถานะและช่องทาง">
+        <button class="chip active" data-filter="all">ทั้งหมด</button>
+        <button class="chip" data-filter="available">ดูได้แล้ว</button>
+        <button class="chip" data-filter="upcoming">รอเริ่มฉาย</button>
+        <button class="chip" data-filter="Ani-One Thailand">Ani-One</button>
+        <button class="chip" data-filter="Muse Thailand">Muse</button>
+      </div>
+    </section>
+
+    <section class="result-line">
+      <p id="resultText">กำลังโหลดข้อมูล...</p>
+      <div class="legend"><span class="dot green"></span>ดูได้แล้ว <span class="dot amber"></span>รอเริ่มฉาย</div>
+    </section>
+
+    <section id="grid" class="anime-grid" aria-live="polite"></section>
+    <button id="loadMoreCatalog" class="catalog-load-more" type="button" hidden>แสดงรายการเพิ่ม</button>
+
+    <section id="schedule" class="schedule glass">
+      <div class="section-heading">
+        <p class="eyebrow">Weekly Schedule</p>
+        <h2>ตารางฉายแบบย่อ</h2>
+      </div>
+      <div id="scheduleList" class="schedule-list"></div>
+    </section>
+
+    <section class="data-note glass">
+      <h2>หมายเหตุเรื่องข้อมูล</h2>
+      <p>รายชื่ออนิเมะ TV และโปสเตอร์ดึงจาก Jikan ส่วนสถานะรับชมอ้างอิงเฉพาะ Playlist ที่ยืนยันแล้วหรือวิดีโอตอนเต็มที่จับคู่จากช่อง YouTube ลิขสิทธิ์ใน allowlist ผลการจับคู่ที่กำกวมจะไม่เผยแพร่อัตโนมัติ</p>
+    </section>
+  </main>
+
+  <dialog id="detailDialog" class="detail-dialog">
+    <button id="closeDialog" class="close-btn" aria-label="ปิดรายละเอียด">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+
+  <footer>
+    <p>Built as a static web app. Data file: <code>data/anime.json</code></p>
+  </footer>
+
+  <script src="data/anime.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

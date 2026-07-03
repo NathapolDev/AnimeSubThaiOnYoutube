@@ -1,0 +1,55 @@
+name: Update anime episodes
+
+on:
+  schedule:
+    - cron: '17 22 * * *' # 05:17 Asia/Bangkok (UTC+7)
+  workflow_dispatch:
+    inputs:
+      backfill:
+        description: Scan official channel uploads back to 1 January
+        required: false
+        type: boolean
+        default: false
+
+concurrency:
+  group: anime-data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Sync current-year TV catalog from Jikan
+        run: node tools/update-jikan.js
+      - name: Update YouTube episode data
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node tools/update-youtube.js
+      - name: Discover episodes from official channel uploads
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          BACKFILL: ${{ inputs.backfill || 'false' }}
+        run: node tools/discover-youtube.js
+      - name: Validate updater behavior
+        run: node --test tools/*.test.js
+      - name: Commit changed data
+        run: |
+          git config user.name "anime-update-bot"
+          git config user.email "anime-update-bot@users.noreply.github.com"
+          git add data/anime.json data/anime.js data/youtube-discovery-state.json data/youtube-candidates.json
+          git diff --cached --quiet || git commit -m "chore: update latest anime episodes"
+          git push
+
+  deploy:
+    needs: update
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy-pages.yml
