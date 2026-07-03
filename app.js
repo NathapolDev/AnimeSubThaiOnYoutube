@@ -35,6 +35,8 @@ function latestText(item) {
 function itemYear(item) { return Number(item.catalogYear || item.year || 0); }
 function isTvInYear(item) { return item.jikanType === 'TV' && itemYear(item) === selectedYear; }
 function isCurrentlyAiring(item) { return item.jikanStatus !== 'Finished Airing'; }
+function isCurrentSeasonTv(item) { return item.jikanType === 'TV' && itemYear(item) === currentYear && item.season === currentSeason; }
+function hasPremiered(item) { return !item.premiere || new Date(item.premiere) <= currentBangkokDate; }
 function isInCatalogScope(item) { return isTvInYear(item) && (activeSeason === 'all' || item.season === activeSeason); }
 function isMatch(item) {
   const haystack = normalize([item.titleThai, item.titleOriginal, item.altTitle, item.channel, item.studio, item.source, ...(item.genres || [])].join(' '));
@@ -52,7 +54,7 @@ function scheduleTimeForDay(item, weekday) {
 }
 function renderTodaySchedule() {
   const { weekday, date } = thaiToday();
-  const items = data.filter(item => isTvInYear(item) && isCurrentlyAiring(item))
+  const items = data.filter(item => isCurrentSeasonTv(item) && isCurrentlyAiring(item) && hasPremiered(item))
     .map(item => ({ item, time: scheduleTimeForDay(item, weekday) }))
     .filter(entry => entry.time)
     .sort((a, b) => a.time.localeCompare(b.time, 'th'));

@@ -85,6 +85,7 @@ function enrichExisting(item, anime, season, year) {
   if ((!item.episodes || item.episodes === '?') && anime.episodes) item.episodes = String(anime.episodes);
   if (!item.summary && anime.synopsis) item.summary = anime.synopsis;
   if ((!item.genres || !item.genres.length) && anime.genres) item.genres = anime.genres.map(genre => genre.name);
+  if (anime.aired?.from) item.premiere = anime.aired.from;
   if (anime.status === 'Finished Airing' && !thaiBroadcastTime(anime.broadcast)) {
     item.airTimeThai = 'รอประกาศเวลาไทย';
   } else if (!item.airTimeThai || item.airTimeThai === 'รอประกาศเวลาไทย') {
