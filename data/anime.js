@@ -23,11 +23,11 @@ window.ANIME_DATA = [
     "note": "พบในตาราง Summer 2026 พร้อมลิงก์ Ani-One Thailand",
     "poster": "https://cdn.myanimelist.net/images/anime/1878/157796l.webp",
     "playlistId": "PLYA5C3ueQ-1g",
-    "currentEpisode": 1,
-    "latestEpisodeTitle": "The Cat and the Dragon  ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=2PbUt7g06TU&list=PLYA5C3ueQ-1g",
-    "latestPublishedAt": "2026-06-27T13:00:06Z",
-    "lastCheckedAt": "2026-07-03T09:54:28.564Z",
+    "currentEpisode": 2,
+    "latestEpisodeTitle": "The Cat and the Dragon  ตอนที่ 2 [ซับไทย]【Ani-One Thailand】",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=OpDLemm9U5Q&list=PLYA5C3ueQ-1g",
+    "latestPublishedAt": "2026-07-03T10:17:20Z",
+    "lastCheckedAt": "2026-07-03T11:38:14.884Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 61048,
@@ -40,6 +40,13 @@ window.ANIME_DATA = [
     "year": 2026,
     "trailerUrl": "",
     "availableEpisodes": [
+      {
+        "number": 2,
+        "title": "The Cat and the Dragon  ตอนที่ 2 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "OpDLemm9U5Q",
+        "videoUrl": "https://www.youtube.com/watch?v=OpDLemm9U5Q&list=PLYA5C3ueQ-1g",
+        "publishedAt": "2026-07-03T10:17:20Z"
+      },
       {
         "number": 1,
         "title": "The Cat and the Dragon  ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
@@ -89,7 +96,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "THE WORLD IS DANCING - ตอนที่ 01 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=sGFz693H8Kw&list=PLIa05JMgYhhaMTMBupRCsNXAvD1l3PSNr",
     "latestPublishedAt": "2026-06-29T13:30:07Z",
-    "lastCheckedAt": "2026-07-03T09:54:28.733Z",
+    "lastCheckedAt": "2026-07-03T11:38:15.061Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63347,
@@ -151,7 +158,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "Bungo Stray Dogs WAN! 2 ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=MQuFqeslReM&list=PLCR1_rvbIAHE",
     "latestPublishedAt": "2026-07-02T12:40:06Z",
-    "lastCheckedAt": "2026-07-03T09:54:28.847Z",
+    "lastCheckedAt": "2026-07-03T11:38:15.174Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62883,
@@ -215,7 +222,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "BanG Dream! YUME∞MITA - ตอนที่ 03 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=9PBuMcx0VQM&list=PLEP6Ull2yaCo",
     "latestPublishedAt": "2026-07-02T15:00:06Z",
-    "lastCheckedAt": "2026-07-03T09:54:28.935Z",
+    "lastCheckedAt": "2026-07-03T11:38:15.261Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62430,
@@ -291,7 +298,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "เกิดใหม่เป็นอัศวินเกราะหนักผู้ถูกขับไล่แต่ใช้ความรู้จากเกมจนไร้เทียมทาน - ตอนที่ 01 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=dkqRpEJTIpk&list=PLIa05JMgYhhb4BS6WEyTjKyuwJtWF_2U7",
     "latestPublishedAt": "2026-07-02T15:56:06Z",
-    "lastCheckedAt": "2026-07-03T09:54:29.061Z",
+    "lastCheckedAt": "2026-07-03T11:38:15.342Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 59741,
@@ -355,7 +362,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "Chainsmoker Cat  ตอนที่ 1  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=cAUTNr0Kia4&list=PLQ4xe_hu1gxw",
     "latestPublishedAt": "2026-07-02T16:00:06Z",
-    "lastCheckedAt": "2026-07-03T09:54:29.133Z",
+    "lastCheckedAt": "2026-07-03T11:38:15.435Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63403,
@@ -545,7 +552,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=oHy-No_sVhE&list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
     "latestPublishedAt": "2026-05-03T08:30:06Z",
-    "lastCheckedAt": "2026-07-03T09:54:29.229Z",
+    "lastCheckedAt": "2026-07-03T11:38:15.528Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 54000,
@@ -750,7 +757,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "เคลวาเทส อสูรจอมราชัน ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=hlS1nS4qQEA&list=PL_YV8EWtbQXESnuuBlZrdFMaqcuK5jr3F",
     "latestPublishedAt": "2025-09-17T11:30:07Z",
-    "lastCheckedAt": "2026-07-03T09:54:29.328Z",
+    "lastCheckedAt": "2026-07-03T11:38:15.613Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62513,
@@ -3436,7 +3443,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "วาดเรื่องนี้ก่อนแล้วค่อยตาย - ตอนที่ 01 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=yupwq2ZucbM",
     "latestPublishedAt": "2026-07-03T06:06:21Z",
-    "lastCheckedAt": "2026-07-03T11:08:34.689Z",
+    "lastCheckedAt": "2026-07-03T11:38:35.146Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 61280,
@@ -5366,7 +5373,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "[พากย์ไทย] คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 38(S2 ตอนที่ 10)",
     "latestVideoUrl": "https://www.youtube.com/watch?v=AyCLxbqwlLc",
     "latestPublishedAt": "2026-05-29T13:00:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:34.689Z",
+    "lastCheckedAt": "2026-07-03T11:38:35.146Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -5557,7 +5564,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "มหาเวทย์ผนึกมาร จรดลล้างบาง พาร์ต 1 ตอนที่ 9 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=QOq0Pdyk2Xw",
     "latestPublishedAt": "2026-07-03T03:42:30Z",
-    "lastCheckedAt": "2026-07-03T11:08:20.767Z",
+    "lastCheckedAt": "2026-07-03T11:38:24.684Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -5981,7 +5988,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "【English Sub】《Jack-of-All-Trades, Party of None》｜Episode 03｜TROPICS ENTERTAINMENT",
     "latestVideoUrl": "https://www.youtube.com/watch?v=QNvXlkskMRQ",
     "latestPublishedAt": "2026-04-09T03:28:34Z",
-    "lastCheckedAt": "2026-07-03T11:08:39.551Z",
+    "lastCheckedAt": "2026-07-03T11:38:37.944Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -6442,7 +6449,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "【English Sub】《Noble Reincarnation -Born Blessed, So I’ll Obtain Ultimate Power-》｜Episode 12｜TROPICS",
     "latestVideoUrl": "https://www.youtube.com/watch?v=3ehTiMbhJ_0",
     "latestPublishedAt": "2026-05-13T13:00:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:39.551Z",
+    "lastCheckedAt": "2026-07-03T11:38:37.944Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -6721,7 +6728,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "TRIGUN STARGAZE ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=0-RubGo7ZSQ",
     "latestPublishedAt": "2026-03-28T15:00:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
+    "lastCheckedAt": "2026-07-03T11:38:24.684Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -7352,7 +7359,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "เดดแอ็กเคานต์ พิฆาตบัญชีมรณะ ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=EmljTI3KHhU",
     "latestPublishedAt": "2026-03-28T15:00:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
+    "lastCheckedAt": "2026-07-03T11:38:24.684Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -7907,7 +7914,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "MF GHOST 3rd Season ตอนที่ 13  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=cG3YiWtedZg",
     "latestPublishedAt": "2026-03-26T15:30:07Z",
-    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
+    "lastCheckedAt": "2026-07-03T11:38:24.684Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -9283,7 +9290,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "Re:ZERO -รีเซทชีวิต ฝ่าวิกฤตต่างโลก- ตอนที่ 77 (ซีซั่น 4 ตอนที่ 11) [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=CBePn6F5j1E",
     "latestPublishedAt": "2026-07-01T14:00:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:34.689Z",
+    "lastCheckedAt": "2026-07-03T11:38:35.146Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -9464,7 +9471,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4 - ตอนที่ 83 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=shZj-lt7Plg",
     "latestPublishedAt": "2026-07-02T07:54:03Z",
-    "lastCheckedAt": "2026-07-03T11:08:34.689Z",
+    "lastCheckedAt": "2026-07-03T11:38:35.146Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -9614,7 +9621,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "น้องสาวแท้ ๆ แน่นอน | ไฮไลท์อนิเมะยมลแห่งยมโลก ตอนที่ 8",
     "latestVideoUrl": "https://www.youtube.com/watch?v=QowdJgNIUWU",
     "latestPublishedAt": "2026-05-25T04:00:38Z",
-    "lastCheckedAt": "2026-07-03T11:08:34.690Z",
+    "lastCheckedAt": "2026-07-03T11:38:35.146Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -9890,7 +9897,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "วิวาห์แต้มพิษ - ตอนที่ 13 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=yYk0j2HLR_s",
     "latestPublishedAt": "2026-06-30T14:30:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:34.690Z",
+    "lastCheckedAt": "2026-07-03T11:38:35.146Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -10338,7 +10345,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "อิรุมะคุง ผจญในแดนปีศาจ! ซีซั่น 4 - ตอนที่ 13 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=fXEChJDtLo0",
     "latestPublishedAt": "2026-06-27T10:55:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:34.690Z",
+    "lastCheckedAt": "2026-07-03T11:38:35.146Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -10594,7 +10601,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "ท่านคานัน ปีศาจต๊อง บ๊องไม่มีใครเกิน  ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=h8ipu2_xGmw",
     "latestPublishedAt": "2026-06-20T16:00:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
+    "lastCheckedAt": "2026-07-03T11:38:24.684Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -10877,7 +10884,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "อาคาเนะ พลิกตำนานวงการราคุโกะ ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=tJ4AI9XMPXc",
     "latestPublishedAt": "2026-06-20T16:00:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
+    "lastCheckedAt": "2026-07-03T11:38:24.684Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -11422,7 +11429,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "โศกนาฏกรรมของตัวร้ายสุดแกร่งอย่างราชินีลาสบอสจะขอถวายตัวเพื่อปวงชน ซีซั่น 2 - ตอนที่ 12  [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=FwkKkF3MPwI",
     "latestPublishedAt": "2026-06-23T13:30:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:34.690Z",
+    "lastCheckedAt": "2026-07-03T11:38:35.146Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -11556,7 +11563,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "ปล่อยปลาตัวใหญ่หลุดมือไปก็จริง แต่ไหงถึงได้ปลาตัวใหญ่กว่ามาแทนกันล่ะคะ - ตอนที่ 12 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=MFOUUg2kgHM",
     "latestPublishedAt": "2026-07-01T15:30:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:34.690Z",
+    "lastCheckedAt": "2026-07-03T11:38:35.146Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -11839,7 +11846,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "ยอดไก่นักสู้กู้โลก ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=ZsDwtzWkv8I",
     "latestPublishedAt": "2026-06-26T02:42:44Z",
-    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
+    "lastCheckedAt": "2026-07-03T11:38:24.684Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -12051,7 +12058,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "ห้องเรียนเวทมนตร์กับคุณแมวดำ ตอนที่ 13 [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=2hgQP9tfPTM",
     "latestPublishedAt": "2026-07-03T10:52:57Z",
-    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
+    "lastCheckedAt": "2026-07-03T11:38:24.684Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -12196,7 +12203,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "MAO หาญสู้พลิกชะตาอาถรรพณ์ ตอนที่ 14  [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=1rIfOnXhNz8",
     "latestPublishedAt": "2026-07-03T10:51:13Z",
-    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
+    "lastCheckedAt": "2026-07-03T11:38:24.684Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -12355,7 +12362,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "บ้านพักคุสึโนกิกับสวนเทพเจ้า ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=Kjc918fOFFI",
     "latestPublishedAt": "2026-06-20T16:30:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
+    "lastCheckedAt": "2026-07-03T11:38:24.684Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -12548,7 +12555,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "【English Sub】《My Ribdiculous Reincarnation》｜Episode 09｜TROPICS ENTERTAINMENT",
     "latestVideoUrl": "https://www.youtube.com/watch?v=7Mi8mnw7Wxo",
     "latestPublishedAt": "2026-07-01T12:00:07Z",
-    "lastCheckedAt": "2026-07-03T11:08:39.551Z",
+    "lastCheckedAt": "2026-07-03T11:38:37.944Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -12806,7 +12813,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "สโนว์บอลเอิร์ธ - ตอนที่ 13 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=aIJCMlRmqSs",
     "latestPublishedAt": "2026-06-29T07:15:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:34.690Z",
+    "lastCheckedAt": "2026-07-03T11:38:35.146Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13191,7 +13198,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "หนึ่งร้อยทิวทัศน์แห่งอาวาจิมะ ตอนที่ 12   [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=DQXEpra0hmY",
     "latestPublishedAt": "2026-06-25T16:45:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
+    "lastCheckedAt": "2026-07-03T11:38:24.684Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13325,7 +13332,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "ผู้กลืนกินมอนสเตอร์ ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=LRf77Cy2Sfs",
     "latestPublishedAt": "2026-07-02T17:15:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
+    "lastCheckedAt": "2026-07-03T11:38:24.684Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13507,7 +13514,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "คิริโอะแฟนคลับ ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=ISzVk113xYk",
     "latestPublishedAt": "2026-06-18T16:00:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
+    "lastCheckedAt": "2026-07-03T11:38:24.684Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13707,7 +13714,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "การย้อนเวลาของมหาปราชญ์ริดเดิล ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=9dVHDK-W51Q",
     "latestPublishedAt": "2026-07-03T10:22:20Z",
-    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
+    "lastCheckedAt": "2026-07-03T11:38:24.684Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13891,7 +13898,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "ยามเมื่อคุจิมะขับขาน ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=-SZgih6gJJk",
     "latestPublishedAt": "2026-06-25T14:00:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
+    "lastCheckedAt": "2026-07-03T11:38:24.684Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -14028,7 +14035,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "【Subtitle Indonesia】《The Drops of God》｜Episode 09｜TROPICS ENTERTAINMENT",
     "latestVideoUrl": "https://www.youtube.com/watch?v=Yvgjx4MzEsM",
     "latestPublishedAt": "2026-06-11T03:04:41Z",
-    "lastCheckedAt": "2026-07-03T11:08:39.551Z",
+    "lastCheckedAt": "2026-07-03T11:38:37.944Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -14250,7 +14257,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "โกสต์คอนเสิร์ต : บทเพลงที่หายไป ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=RGvOUY7mXfQ",
     "latestPublishedAt": "2026-06-21T15:30:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:20.769Z",
+    "lastCheckedAt": "2026-07-03T11:38:24.684Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -14621,7 +14628,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "CANDY CARIES - ตอนที่ 12 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=NnhNEVQ-1I0",
     "latestPublishedAt": "2026-07-01T16:00:26Z",
-    "lastCheckedAt": "2026-07-03T11:08:34.690Z",
+    "lastCheckedAt": "2026-07-03T11:38:35.146Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -16600,7 +16607,7 @@ window.ANIME_DATA = [
     "latestEpisodeTitle": "Ace of Diamond act 2 ซีซั่น 2 - ตอนที่ 13 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=Ngd2-veP5KE",
     "latestPublishedAt": "2026-06-28T09:00:06Z",
-    "lastCheckedAt": "2026-07-03T11:08:34.690Z",
+    "lastCheckedAt": "2026-07-03T11:38:35.146Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
