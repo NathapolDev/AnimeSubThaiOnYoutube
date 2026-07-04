@@ -18,7 +18,9 @@ async function youtubeJson(url, attempt = 1) {
   if (!response.ok) throw new Error(body?.error?.message || `YouTube API returned HTTP ${response.status}`);
   return body;
 }
-const EXCLUDED = /(?:\b(?:trailer|teaser|opening|ending|music|announcement|promo(?:tional)?|pv|op|ed|highlights?|recap|shorts?)\b|ตัวอย่าง|เพลงเปิด|เพลงปิด|ประกาศ|โปรโมต|ไฮไลท์|สรุปใน\s*[0-9]+\s*นาที)/iu;
+const EXCLUDED = /(?:\b(?:trailer|teaser|preview|opening|ending|music|announcement|promo(?:tional)?|pv|op|ed|highlights?|recap|shorts?)\b|ตัวอย่าง|預告|เพลงเปิด|เพลงปิด|ประกาศ|โปรโมต|ไฮไลท์|สรุปใน\s*[0-9]+\s*นาที)/iu;
+const DUBBED_THAI = /(?:พากย์ไทย|เสียงไทย|\bthai\s+(?:dub(?:bed)?|audio|voice(?:\s*over)?)\b|\b(?:dub(?:bed)?|audio|voice(?:\s*over)?)\s+(?:in\s+)?thai\b)/iu;
+const EPISODE_RANGE = /(?:ตอน(?:ที่)?|\bep(?:isode)?\.?)\s*[-:#]?\s*([0-9]+(?:\.[0-9]+)?)\s*(?:-|–|—|~|～|ถึง|to)\s*([0-9]+(?:\.[0-9]+)?)/iu;
 const EPISODE_PATTERNS = [
   /ตอน(?:ที่)?\s*([0-9]+(?:\.[0-9]+)?)/iu,
   /\bep(?:isode)?\.?\s*[-:#]?\s*([0-9]+(?:\.[0-9]+)?)/iu,
@@ -35,6 +37,8 @@ function playlistIdFromLink(link = '') {
 }
 
 function episodeNumber(title) {
+  const range = episodeRange(title);
+  if (range) return range.endNumber;
   for (const pattern of EPISODE_PATTERNS) {
     const match = title.match(pattern);
     if (!match) continue;
@@ -46,8 +50,17 @@ function episodeNumber(title) {
   return null;
 }
 
+function episodeRange(title) {
+  const match = String(title || '').match(EPISODE_RANGE);
+  if (!match) return null;
+  const startNumber = Number(match[1]);
+  const endNumber = Number(match[2]);
+  if (!Number.isFinite(startNumber) || !Number.isFinite(endNumber) || endNumber <= startNumber || endNumber >= 1900) return null;
+  return { startNumber, endNumber };
+}
+
 function isEpisode(title) {
-  if (!title || EXCLUDED.test(title)) return false;
+  if (!title || EXCLUDED.test(title) || DUBBED_THAI.test(title)) return false;
   return !/^(?:\[?(?:private|deleted) video\]?|วิดีโอส่วนตัว|วิดีโอถูกลบ)$/iu.test(title.trim());
 }
 
@@ -71,11 +84,13 @@ function buildEpisodeList(items, playlistId) {
   for (const item of items
     .map(item => {
       const title = item.snippet?.title || '';
+      const range = episodeRange(title);
       return {
         title,
         videoId: item.contentDetails?.videoId || item.snippet?.resourceId?.videoId || '',
         publishedAt: item.contentDetails?.videoPublishedAt || item.snippet?.publishedAt || '',
-        number: episodeNumber(title)
+        number: episodeNumber(title),
+        ...(range || {})
       };
     })
     .filter(item => item.videoId && isEpisode(item.title))) {
@@ -91,6 +106,7 @@ function buildEpisodeList(items, playlistId) {
   return episodes
     .map(item => ({
       number: item.number,
+      ...(item.startNumber !== undefined ? { startNumber: item.startNumber, endNumber: item.endNumber } : {}),
       title: item.title,
       videoId: item.videoId,
       videoUrl: `https://www.youtube.com/watch?v=${item.videoId}&list=${playlistId}`,
@@ -193,4 +209,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { buildEpisodeList, episodeNumber, fetchPlaylist, isEpisode, playlistIdFromLink, updateAnimeItem, updateAnimeItems, youtubeJson };
+module.exports = { buildEpisodeList, episodeNumber, episodeRange, fetchPlaylist, isEpisode, playlistIdFromLink, updateAnimeItem, updateAnimeItems, youtubeJson };

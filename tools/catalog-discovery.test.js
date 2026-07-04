@@ -1,7 +1,16 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
 const { bangkokYear, catalogYears, fetchCatalog, fetchYear, syncCatalog } = require('./update-jikan');
 const { applyDiscoveries, fetchChannelUploads, matchVideoToAnime, mergeEpisodes, resolveYears } = require('./discover-youtube');
+
+test('official channels are scanned in source-priority order', () => {
+  const channels = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'youtube-channels.json'), 'utf8'));
+  assert.deepEqual(channels.map(channel => channel.handle), [
+    '@MuseThailand', '@AniOneThailand', '@TropicsAnimeAsia', '@ItsAnimeJP'
+  ]);
+});
 
 // Bangkok is UTC+7, so a UTC hour of 04:00 keeps the calendar day stable across the conversion.
 const bkk = iso => new Date(`${iso}T04:00:00Z`);
@@ -83,6 +92,12 @@ test('matches a unique normalized alias and rejects equal-score ambiguity', () =
   assert.equal(ambiguous.candidates.length, 2);
 });
 
+test('matches an English episode title without requiring Thai subtitle text', () => {
+  const anime = [{ id: 'english', titleOriginal: 'Anime Title', youtubeAliases: [] }];
+  const result = matchVideoToAnime({ title: 'Anime Title Episode 1' }, anime);
+  assert.equal(result.match.id, 'english');
+});
+
 test('incremental upload scan stops at last seen video', async () => {
   const calls = [];
   const requester = async () => {
@@ -129,19 +144,43 @@ test('channel discovery matches next-season anime within the year window', () =>
   assert.equal(anime[0].latestVideoUrl, 'https://www.youtube.com/watch?v=w1');
 });
 
-test('channel discovery never replaces playlist-backed anime', () => {
+test('channel discovery never replaces anime with an existing YouTube source', () => {
   const anime = [
     { id: 'playlist', jikanType: 'TV', playlistId: 'fixed', titleOriginal: 'Playlist Show', availableEpisodes: [{ videoId: 'fixed' }] },
+    {
+      id: 'channel', jikanType: 'TV', playlistId: '', titleOriginal: 'Channel Show', youtubeSourceType: 'channel_uploads',
+      channel: 'Muse Thailand', availableEpisodes: [{ videoId: 'existing' }]
+    },
     { id: 'uploads', jikanType: 'TV', playlistId: '', titleOriginal: 'Upload Show', availableEpisodes: [] }
   ];
-  const channel = { channelId: 'channel', channelTitle: 'Official', label: 'Muse Thailand' };
+  const channel = { channelId: 'new-channel', channelTitle: "It's Anime powered by REMOW", label: "It's Anime powered by REMOW" };
   applyDiscoveries(anime, channel, [
     { videoId: 'p', title: 'Playlist Show EP 2', publishedAt: '2026-04-01T00:00:00Z' },
+    { videoId: 'c', title: 'Channel Show Episode 2', publishedAt: '2026-04-01T00:00:00Z' },
     { videoId: 'u', title: 'Upload Show EP 1', publishedAt: '2026-04-01T00:00:00Z' }
   ], []);
   assert.deepEqual(anime[0].availableEpisodes.map(value => value.videoId), ['fixed']);
-  assert.equal(anime[1].latestVideoUrl, 'https://www.youtube.com/watch?v=u');
-  assert.equal(anime[1].youtubeSourceType, 'channel_uploads');
+  assert.deepEqual(anime[1].availableEpisodes.map(value => value.videoId), ['existing']);
+  assert.equal(anime[1].channel, 'Muse Thailand');
+  assert.equal(anime[2].latestVideoUrl, 'https://www.youtube.com/watch?v=u');
+  assert.equal(anime[2].youtubeSourceType, 'channel_uploads');
+  assert.equal(anime[2].channel, "It's Anime powered by REMOW");
+});
+
+test('channel discovery continues adding episodes from the assigned channel', () => {
+  const anime = [{
+    id: 'assigned', jikanType: 'TV', playlistId: '', titleOriginal: 'Assigned Show',
+    youtubeSourceType: 'channel_uploads', youtubeChannelId: 'assigned-channel',
+    channel: 'Muse Thailand', availableEpisodes: [
+      { number: 1, videoId: 'episode-1', publishedAt: '2026-04-01T00:00:00Z' }
+    ]
+  }];
+  const channel = { channelId: 'assigned-channel', channelTitle: 'Muse Thailand', label: 'Muse Thailand' };
+  applyDiscoveries(anime, channel, [
+    { videoId: 'episode-2', title: 'Assigned Show Episode 2', publishedAt: '2026-04-08T00:00:00Z' }
+  ], []);
+  assert.deepEqual(anime[0].availableEpisodes.map(value => value.videoId), ['episode-2', 'episode-1']);
+  assert.equal(anime[0].currentEpisode, 2);
 });
 
 test('episode merge deduplicates video IDs', () => {
@@ -149,4 +188,24 @@ test('episode merge deduplicates video IDs', () => {
     { number: 1, videoId: 'a', publishedAt: '2026-01-01' }, { number: 2, videoId: 'b', publishedAt: '2026-01-02' }
   ]);
   assert.deepEqual(merged.map(value => value.videoId), ['b', 'a']);
+});
+
+test('episode merge refreshes range metadata for an existing video', () => {
+  const merged = mergeEpisodes([{ number: 1, videoId: 'range', publishedAt: '2026-01-01' }], [
+    { number: 3, startNumber: 1, endNumber: 3, videoId: 'range', publishedAt: '2026-01-01' }
+  ]);
+  assert.deepEqual(merged[0], {
+    number: 3, startNumber: 1, endNumber: 3, videoId: 'range', publishedAt: '2026-01-01'
+  });
+});
+
+test('episode merge clears stale range metadata when a video becomes a single episode', () => {
+  const merged = mergeEpisodes([
+    { number: 3, startNumber: 1, endNumber: 3, videoId: 'corrected', publishedAt: '2026-01-01' }
+  ], [
+    { number: 3, videoId: 'corrected', title: 'Show Episode 3', publishedAt: '2026-01-01' }
+  ]);
+  assert.equal(merged[0].number, 3);
+  assert.equal(merged[0].startNumber, undefined);
+  assert.equal(merged[0].endNumber, undefined);
 });

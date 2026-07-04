@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { buildEpisodeList, episodeNumber, fetchPlaylist, isEpisode, updateAnimeItems } = require('./update-youtube');
+const { buildEpisodeList, episodeNumber, episodeRange, fetchPlaylist, isEpisode, updateAnimeItems } = require('./update-youtube');
 const { thaiBroadcastTime } = require('./update-jikan');
 
 function playlistItem(title, videoId, publishedAt = '2026-07-01T00:00:00Z') {
@@ -18,6 +18,13 @@ test('extracts Thai and English episode numbers', () => {
 test('ignores year-like hashtag numbers', () => {
   assert.equal(episodeNumber('Anime แนะนำ #2026'), null);
   assert.equal(episodeNumber('Anime ตอนที่ 3 #2026'), 3);
+});
+
+test('extracts the full range and uses its end as the latest episode number', () => {
+  assert.deepEqual(episodeRange('Anime Episode 1-3'), { startNumber: 1, endNumber: 3 });
+  assert.deepEqual(episodeRange('Anime EP1~4'), { startNumber: 1, endNumber: 4 });
+  assert.equal(episodeNumber('Anime Episode 1-3'), 3);
+  assert.equal(episodeNumber('Anime EP1~4'), 4);
 });
 
 test('retries transient YouTube API failures before succeeding', { concurrency: false }, async () => {
@@ -43,10 +50,24 @@ test('converts Jikan JST broadcasts to Thailand day and time', () => {
 });
 
 test('filters promotional and unavailable videos', () => {
-  for (const title of ['Official Trailer', 'PV 2', 'Opening Theme', 'ED Music', 'Private video', 'Deleted video']) {
+  for (const title of ['Official Trailer', 'Episode 13 preview', '第十三集預告', 'PV 2', 'Opening Theme', 'ED Music', 'Private video', 'Deleted video']) {
     assert.equal(isEpisode(title), false, title);
   }
   assert.equal(isEpisode('Anime ตอนที่ 1'), true);
+});
+
+test('filters Thai-dubbed uploads while retaining Thai-subtitled episodes', () => {
+  for (const title of [
+    '[พากย์ไทย] Anime ตอนที่ 1',
+    '[เสียงไทย] Anime ตอนที่ 1',
+    'Anime Episode 1 | THAI DUB',
+    'Anime Episode 1 | Dubbed in Thai',
+    'Anime Episode 1 | Thai Audio'
+  ]) {
+    assert.equal(isEpisode(title), false, title);
+  }
+  assert.equal(isEpisode('Anime ตอนที่ 1 [ซับไทย]'), true);
+  assert.equal(isEpisode('Anime Episode 1 | Thai Subtitles'), true);
 });
 
 test('filters highlights, shorts and recap clips that mimic real episodes', () => {
@@ -128,6 +149,13 @@ test('clears stale latest fields after a successful empty playlist response', as
   assert.deepEqual(anime[0].availableEpisodes, []);
   assert.equal(anime[0].currentEpisode, 0);
   assert.equal(anime[0].latestVideoUrl, '');
+});
+
+test('preserves episode range metadata in playlist results', () => {
+  const [episode] = buildEpisodeList([playlistItem('Anime Episode 1-3', 'range')], 'playlist');
+  assert.equal(episode.number, 3);
+  assert.equal(episode.startNumber, 1);
+  assert.equal(episode.endNumber, 3);
 });
 
 test('preserves channel-upload state when cached episodes exist', async () => {
