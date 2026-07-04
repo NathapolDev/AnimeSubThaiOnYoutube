@@ -1,7 +1,7 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const { episodeNumber, isEpisode, youtubeJson } = require('./update-youtube');
-const { bangkokYear } = require('./update-jikan');
+const { catalogYears } = require('./update-jikan');
 const { writeDataFiles } = require('./write-data');
 
 const ROOT = path.resolve(__dirname, '..');
@@ -14,6 +14,21 @@ const API_ROOT = 'https://www.googleapis.com/youtube/v3';
 const MAX_INCREMENTAL_PAGES = 20;
 
 const normalizeTitle = value => String(value || '').toLowerCase().normalize('NFKC').replace(/[^\p{L}\p{N}]+/gu, ' ').replace(/\s+/g, ' ').trim();
+
+// Accept a single year or a window array; always return a non-empty array of years.
+const toYearList = years => (Array.isArray(years) ? years : [years]).filter(Number.isInteger);
+
+// Resolve the catalog-year window: automatic (current + adjacent season year near the New Year),
+// or an explicit override via --year 2027 / --years 2026,2027.
+function resolveYears(argv = process.argv) {
+  const flag = argv.find(arg => arg.startsWith('--year=') || arg.startsWith('--years='));
+  const value = flag ? flag.split('=')[1] : (() => {
+    const index = argv.findIndex(arg => arg === '--year' || arg === '--years');
+    return index !== -1 ? argv[index + 1] : '';
+  })();
+  const override = String(value || '').split(',').map(part => part.trim()).filter(Boolean).map(Number).filter(Number.isInteger);
+  return override.length ? override : catalogYears();
+}
 
 async function readJson(file, fallback) {
   try { return JSON.parse(await fs.readFile(file, 'utf8')); } catch (error) { if (error.code === 'ENOENT') return fallback; throw error; }
@@ -35,10 +50,13 @@ async function resolveChannel(config, apiKey, requester = youtubeRequest) {
   };
 }
 
-async function fetchChannelUploads(channel, previousState, year, backfill, apiKey, requester = youtubeRequest) {
+async function fetchChannelUploads(channel, previousState, years, backfill, apiKey, requester = youtubeRequest) {
+  const yearList = toYearList(years);
+  const yearSet = new Set(yearList);
+  const minYear = Math.min(...yearList);
   const videos = [];
   let pageToken = '', pages = 0, reachedBoundary = false;
-  const stopVideoId = !backfill && previousState?.year === year ? previousState.lastSeenVideoId : '';
+  const stopVideoId = !backfill && previousState?.year === minYear ? previousState.lastSeenVideoId : '';
   const fullScan = backfill || !stopVideoId;
   do {
     const body = await requester('playlistItems', {
@@ -49,9 +67,9 @@ async function fetchChannelUploads(channel, previousState, year, backfill, apiKe
       const videoId = item.contentDetails?.videoId || item.snippet?.resourceId?.videoId || '';
       if (stopVideoId && videoId === stopVideoId) { reachedBoundary = true; break; }
       const publishedAt = item.contentDetails?.videoPublishedAt || item.snippet?.publishedAt || '';
-      const publishedYear = publishedAt ? Number(publishedAt.slice(0, 4)) : year;
-      if (publishedYear < year) { reachedBoundary = true; break; }
-      if (publishedYear === year) videos.push({ videoId, title: item.snippet?.title || '', publishedAt });
+      const publishedYear = publishedAt ? Number(publishedAt.slice(0, 4)) : minYear;
+      if (publishedYear < minYear) { reachedBoundary = true; break; }
+      if (yearSet.has(publishedYear)) videos.push({ videoId, title: item.snippet?.title || '', publishedAt });
     }
     pageToken = body.nextPageToken || '';
     if (reachedBoundary || (!fullScan && pages >= MAX_INCREMENTAL_PAGES)) break;
@@ -88,8 +106,11 @@ function mergeEpisodes(existing, additions) {
   });
 }
 
-function applyDiscoveries(anime, channel, videos, candidatesLog, year = bangkokYear()) {
-  const eligible = anime.filter(item => item.jikanType === 'TV' && !item.playlistId && (Number(item.catalogYear || item.year) || year) === year);
+function applyDiscoveries(anime, channel, videos, candidatesLog, years = catalogYears()) {
+  const yearList = toYearList(years);
+  const yearSet = new Set(yearList);
+  const minYear = Math.min(...yearList);
+  const eligible = anime.filter(item => item.jikanType === 'TV' && !item.playlistId && yearSet.has(Number(item.catalogYear || item.year) || minYear));
   const grouped = new Map();
   for (const video of videos) {
     const number = episodeNumber(video.title);
@@ -128,23 +149,24 @@ function applyDiscoveries(anime, channel, videos, candidatesLog, year = bangkokY
 async function main() {
   const apiKey = process.env.YOUTUBE_API_KEY;
   if (!apiKey) throw new Error('Missing YOUTUBE_API_KEY. Set it before running YouTube discovery.');
-  const year = bangkokYear();
+  const years = resolveYears();
+  const windowYear = Math.min(...years); // incremental-state identity; stable across the New Year
   const backfill = process.argv.includes('--backfill') || process.env.BACKFILL === 'true';
   const [anime, configs, state] = await Promise.all([
-    readJson(JSON_PATH, []), readJson(CHANNELS_PATH, []), readJson(STATE_PATH, { year, channels: {} })
+    readJson(JSON_PATH, []), readJson(CHANNELS_PATH, []), readJson(STATE_PATH, { year: windowYear, channels: {} })
   ]);
-  if (state.year !== year) { state.year = year; state.channels = {}; }
+  if (state.year !== windowYear) { state.year = windowYear; state.channels = {}; }
   const candidates = [];
   let matchedAnime = 0;
   for (const config of configs) {
     try {
       const resolved = await resolveChannel(config, apiKey);
       const channel = { ...resolved, ...config };
-      const result = await fetchChannelUploads(channel, state.channels[config.handle], year, backfill, apiKey);
-      matchedAnime += applyDiscoveries(anime, channel, result.videos, candidates, year);
+      const result = await fetchChannelUploads(channel, state.channels[config.handle], years, backfill, apiKey);
+      matchedAnime += applyDiscoveries(anime, channel, result.videos, candidates, years);
       state.channels[config.handle] = {
         channelId: channel.channelId, uploadsPlaylistId: channel.uploadsPlaylistId,
-        lastSeenVideoId: result.newestVideoId, lastCheckedAt: new Date().toISOString(), year
+        lastSeenVideoId: result.newestVideoId, lastCheckedAt: new Date().toISOString(), year: windowYear
       };
     } catch (error) {
       console.error(`[${config.handle}] ${error.message}`);
@@ -159,4 +181,4 @@ async function main() {
 
 if (require.main === module) main().catch(error => { console.error(`YouTube discovery failed: ${error.message}`); process.exitCode = 1; });
 
-module.exports = { aliasesForAnime, applyDiscoveries, fetchChannelUploads, matchVideoToAnime, mergeEpisodes, normalizeTitle, resolveChannel };
+module.exports = { aliasesForAnime, applyDiscoveries, fetchChannelUploads, matchVideoToAnime, mergeEpisodes, normalizeTitle, resolveChannel, resolveYears };

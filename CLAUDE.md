@@ -44,9 +44,14 @@ The data pipeline writes two parallel files after every update:
 Both files are written through `tools/write-data.js`; don't write them by hand from a tool. `tools/build-site-data.js` builds the GitHub Pages payload (`_site/data/`) with pipeline-only fields stripped — if `app.js` starts reading a new field, add it to `ITEM_FIELDS`/`EPISODE_FIELDS` there.
 
 **Tool chain (run in this order by the GitHub Actions workflow):**
-1. `tools/update-jikan.js` — fetches all TV anime for the current Bangkok year from Jikan API across all four seasons; enriches existing entries, inserts new ones, preserves YouTube data
+1. `tools/update-jikan.js` — fetches all TV anime for the current Bangkok year from Jikan API across all four seasons; near year-end (Oct–Dec) also imports the next year's Winter season so upcoming-season anime enter the catalog early. Enriches existing entries, inserts new ones, preserves YouTube data
 2. `tools/update-youtube.js` — for each anime with a `playlistId`, fetches every playlist page and rebuilds `availableEpisodes`; anime without a playlist get `updateStatus: 'no_playlist'`
 3. `tools/discover-youtube.js` — scans upload feeds from whitelisted Thai channels (`data/youtube-channels.json`), matches videos to anime by title substring, merges episodes; ambiguous multi-match results land in `data/youtube-candidates.json`
+
+**Season window (`catalogYears` in `update-jikan.js`, shared source of truth):**
+- All year-scoped tools (`update-jikan`, `discover-youtube`, `scan-unmatched-channel-shows`) resolve the relevant catalog year(s) through `catalogYears()` instead of a bare `bangkokYear()`. The window widens symmetrically around the New Year so cross-boundary subbing is never missed: `[Y]` mid-year, `[Y, Y+1]` in Oct–Dec (upcoming Winter premieres uploaded in late December), `[Y-1, Y]` in Jan–Feb (prior cour still finishing).
+- `discover-youtube.js` keys its incremental checkpoint on `min(window)`, which stays stable from October through the following February — so the New Year does not wipe the checkpoint or drop December uploads.
+- `discover-youtube.js` and `scan-unmatched-channel-shows.js` accept a `--year 2027` / `--years 2026,2027` override to force a specific window (testing, or backfilling one season).
 
 **Key data fields on each anime entry:**
 - `playlistId` — YouTube playlist ID; derived from `link` if `link` is a playlist URL

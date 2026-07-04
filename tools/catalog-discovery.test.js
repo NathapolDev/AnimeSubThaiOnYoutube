@@ -1,7 +1,10 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { bangkokYear, fetchYear, syncCatalog } = require('./update-jikan');
-const { applyDiscoveries, fetchChannelUploads, matchVideoToAnime, mergeEpisodes } = require('./discover-youtube');
+const { bangkokYear, catalogYears, fetchCatalog, fetchYear, syncCatalog } = require('./update-jikan');
+const { applyDiscoveries, fetchChannelUploads, matchVideoToAnime, mergeEpisodes, resolveYears } = require('./discover-youtube');
+
+// Bangkok is UTC+7, so a UTC hour of 04:00 keeps the calendar day stable across the conversion.
+const bkk = iso => new Date(`${iso}T04:00:00Z`);
 
 test('uses Bangkok year and fetches all four seasons with TV-only deduplication', async () => {
   assert.equal(bangkokYear(new Date('2025-12-31T18:00:00Z')), 2026);
@@ -16,6 +19,33 @@ test('uses Bangkok year and fetches all four seasons with TV-only deduplication'
   });
   assert.equal(calls.length, 4);
   assert.deepEqual(entries.map(value => value.anime.mal_id).sort(), [1, 2]);
+});
+
+test('catalog year window widens symmetrically around the New Year boundary', () => {
+  assert.deepEqual(catalogYears(bkk('2026-07-04')), [2026]);       // mid-year: single year
+  assert.deepEqual(catalogYears(bkk('2026-11-15')), [2026, 2027]); // Oct-Dec: upcoming Winter ramping
+  assert.deepEqual(catalogYears(bkk('2027-01-10')), [2026, 2027]); // Jan-Feb: prior shows still finishing
+  assert.deepEqual(catalogYears(bkk('2027-03-01')), [2027]);       // narrows again once March lands
+});
+
+test('resolveYears honors an explicit override and falls back to the automatic window', () => {
+  assert.deepEqual(resolveYears(['node', 'x', '--years', '2026,2027']), [2026, 2027]);
+  assert.deepEqual(resolveYears(['node', 'x', '--year=2028']), [2028]);
+  const auto = resolveYears(['node', 'x']); // no flag -> catalogYears(), never the empty-string [0]
+  assert.ok(auto.length && auto.every(Number.isInteger) && !auto.includes(0));
+});
+
+test('fetchCatalog pulls the upcoming Winter season only during the year-end ramp', async () => {
+  const seasonsFor = async date => {
+    const seasons = [];
+    await fetchCatalog(date, async url => {
+      seasons.push(url.match(/seasons\/(\d+)\/(winter|spring|summer|fall)/).slice(1).join('/'));
+      return { data: [], pagination: { has_next_page: false } };
+    });
+    return seasons;
+  };
+  assert.deepEqual(await seasonsFor(bkk('2026-07-04')), ['2026/winter', '2026/spring', '2026/summer', '2026/fall']);
+  assert.deepEqual(await seasonsFor(bkk('2026-11-15')), ['2026/winter', '2026/spring', '2026/summer', '2026/fall', '2027/winter']);
 });
 
 test('catalog sync enriches current entries and preserves archived records', async () => {
@@ -64,6 +94,27 @@ test('missing last-seen video is bounded to twenty pages', async () => {
   });
   const result = await fetchChannelUploads({ uploadsPlaylistId: 'uploads' }, { year: 2026, lastSeenVideoId: 'deleted' }, 2026, false, 'key', requester);
   assert.equal(result.pages, 20);
+});
+
+test('upload scan spanning the New Year keeps December and drops the prior year', async () => {
+  const requester = async () => ({ items: [
+    { snippet: { title: 'Winter Show EP 1' }, contentDetails: { videoId: 'jan27', videoPublishedAt: '2027-01-05T00:00:00Z' } },
+    { snippet: { title: 'Winter Show PV' }, contentDetails: { videoId: 'dec26', videoPublishedAt: '2026-12-28T00:00:00Z' } },
+    { snippet: { title: 'Old Show EP 12' }, contentDetails: { videoId: 'dec25', videoPublishedAt: '2025-12-20T00:00:00Z' } }
+  ] });
+  const result = await fetchChannelUploads({ uploadsPlaylistId: 'uploads' }, undefined, [2026, 2027], true, 'key', requester);
+  assert.deepEqual(result.videos.map(video => video.videoId), ['jan27', 'dec26']);
+  assert.equal(result.reachedBoundary, true);
+});
+
+test('channel discovery matches next-season anime within the year window', () => {
+  const anime = [{ id: 'winter', jikanType: 'TV', playlistId: '', catalogYear: 2027, titleOriginal: 'Next Winter Show', availableEpisodes: [] }];
+  const channel = { channelId: 'channel', channelTitle: 'Official', label: 'Muse Thailand' };
+  applyDiscoveries(anime, channel, [
+    { videoId: 'w1', title: 'Next Winter Show EP 1', publishedAt: '2026-12-29T00:00:00Z' }
+  ], [], [2026, 2027]);
+  assert.equal(anime[0].youtubeSourceType, 'channel_uploads');
+  assert.equal(anime[0].latestVideoUrl, 'https://www.youtube.com/watch?v=w1');
 });
 
 test('channel discovery never replaces playlist-backed anime', () => {

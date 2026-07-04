@@ -7,6 +7,7 @@ const ROOT = path.resolve(__dirname, '..');
 const JSON_PATH = path.join(ROOT, 'data', 'anime.json');
 const API_ROOT = 'https://api.jikan.moe/v4';
 const SEASONS = ['winter', 'spring', 'summer', 'fall'];
+const UPCOMING_SEASON_FROM_MONTH = 10; // Oct: the upcoming Winter (next year) starts ramping up
 const wait = milliseconds => new Promise(resolve => setTimeout(resolve, milliseconds));
 const normalize = value => String(value || '').toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, ' ').trim();
 const slugify = value => normalize(value).replace(/\s+/g, '-').slice(0, 80) || `anime-${Date.now()}`;
@@ -15,6 +16,21 @@ const JIKAN_DAYS = { Sundays: 0, Mondays: 1, Tuesdays: 2, Wednesdays: 3, Thursda
 
 function bangkokYear(date = new Date()) {
   return Number(new Intl.DateTimeFormat('en-US', { year: 'numeric', timeZone: 'Asia/Bangkok' }).format(date));
+}
+
+function bangkokMonth(date = new Date()) {
+  return Number(new Intl.DateTimeFormat('en-US', { month: 'numeric', timeZone: 'Asia/Bangkok' }).format(date));
+}
+
+// Catalog years currently in play. Symmetric around the New Year so cross-boundary
+// subbing (Winter premieres uploaded in late December, previous-cour shows finishing
+// in early January) is never missed.
+function catalogYears(date = new Date()) {
+  const year = bangkokYear(date);
+  const month = bangkokMonth(date);
+  if (month >= UPCOMING_SEASON_FROM_MONTH) return [year, year + 1]; // upcoming Winter ramping up
+  if (month <= 2) return [year - 1, year];                          // prior-year shows still finishing
+  return [year];
 }
 
 function thaiBroadcastTime(broadcast = {}) {
@@ -59,6 +75,18 @@ async function fetchYear(year, requester = requestJson) {
       console.error(`[Jikan ${year}/${season}] ${error.message}`);
     }
     await wait(450);
+  }
+  return [...byMalId.values()];
+}
+
+async function fetchCatalog(date = new Date(), requester = requestJson) {
+  const year = bangkokYear(date);
+  const byMalId = new Map();
+  for (const entry of await fetchYear(year, requester)) byMalId.set(entry.anime.mal_id, entry);
+  if (bangkokMonth(date) >= UPCOMING_SEASON_FROM_MONTH) {
+    for (const anime of await fetchSeason(year + 1, 'winter', requester)) {
+      byMalId.set(anime.mal_id, { anime, season: 'winter' });
+    }
   }
   return [...byMalId.values()];
 }
@@ -136,11 +164,11 @@ async function syncCatalog(items, year, entries) {
 async function main() {
   const year = bangkokYear();
   const items = JSON.parse(await fs.readFile(JSON_PATH, 'utf8'));
-  const result = await syncCatalog(items, year, await fetchYear(year));
+  const result = await syncCatalog(items, year, await fetchCatalog());
   await writeDataFiles(items);
   console.log(`Jikan ${year} TV sync: ${result.enriched} enriched, ${result.added} added, ${items.length} archived total.`);
 }
 
 if (require.main === module) main().catch(error => { console.error(`Jikan update failed: ${error.message}`); process.exitCode = 1; });
 
-module.exports = { bangkokYear, fetchSeason, fetchYear, syncCatalog, thaiBroadcastTime };
+module.exports = { UPCOMING_SEASON_FROM_MONTH, bangkokMonth, bangkokYear, catalogYears, fetchCatalog, fetchSeason, fetchYear, syncCatalog, thaiBroadcastTime };
