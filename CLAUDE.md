@@ -22,6 +22,9 @@ node tools/update-youtube.js
 # Discover episodes from official Thai channel uploads
 node tools/discover-youtube.js
 
+# Re-filter cached episodes, dropping non-episode clips (highlights, #Shorts, recaps)
+node tools/prune-non-episodes.js
+
 # Backfill channel uploads back to 1 Jan of current year
 node tools/discover-youtube.js --backfill
 
@@ -53,9 +56,10 @@ Both files are written through `tools/write-data.js`; don't write them by hand f
 - `youtubeAliases` — extra title strings used for channel-upload matching
 
 **Episode detection heuristics (in `update-youtube.js`):**
-- Title exclusion via `EXCLUDED` regex — drops trailers, PVs, OP/ED, promos (Thai and English)
+- Title exclusion via `EXCLUDED` regex — drops trailers, PVs, OP/ED, promos, highlights (`ไฮไลท์`/`highlight`), `#Shorts`, and recap clips (`recap`, `สรุปใน N นาที`), in both Thai and English. `isEpisode` is shared with `discover-youtube.js`, so this single regex gates both the playlist and channel-uploads paths.
 - Episode number parsed from Thai (`ตอนที่ N`), English (`EP. N`, `Episode N`), or `#N` patterns
 - If no title in the playlist carries a number, episodes get chronological fallback numbers
+- `discover-youtube.js` merges episodes but never removes them, so tightening `EXCLUDED` does not retroactively clean already-cached clips. Run `node tools/prune-non-episodes.js` to re-apply the filter to existing `availableEpisodes` and recompute summary fields (an anime left with zero real episodes resets to `no_episode_found`).
 
 **Channel-upload matching (`discover-youtube.js`):**
 - `aliasesForAnime` builds a normalized alias set from `titleThai`, `titleOriginal`, `altTitle`, and `youtubeAliases`; only aliases ≥ 6 characters qualify

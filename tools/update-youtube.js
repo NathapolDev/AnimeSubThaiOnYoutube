@@ -18,7 +18,7 @@ async function youtubeJson(url, attempt = 1) {
   if (!response.ok) throw new Error(body?.error?.message || `YouTube API returned HTTP ${response.status}`);
   return body;
 }
-const EXCLUDED = /(?:\b(?:trailer|teaser|opening|ending|music|announcement|promo(?:tional)?|pv|op|ed)\b|ตัวอย่าง|เพลงเปิด|เพลงปิด|ประกาศ|โปรโมต)/iu;
+const EXCLUDED = /(?:\b(?:trailer|teaser|opening|ending|music|announcement|promo(?:tional)?|pv|op|ed|highlights?|recap|shorts?)\b|ตัวอย่าง|เพลงเปิด|เพลงปิด|ประกาศ|โปรโมต|ไฮไลท์|สรุปใน\s*[0-9]+\s*นาที)/iu;
 const EPISODE_PATTERNS = [
   /ตอน(?:ที่)?\s*([0-9]+(?:\.[0-9]+)?)/iu,
   /\bep(?:isode)?\.?\s*[-:#]?\s*([0-9]+(?:\.[0-9]+)?)/iu,
