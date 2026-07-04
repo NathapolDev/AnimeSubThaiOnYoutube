@@ -29,7 +29,7 @@ jobs:
       - name: Assemble static site
         run: |
           mkdir -p _site/data
-          cp index.html app.js safe-url.js styles.css _site/
+          cp index.html app.js safe-url.js progress.js styles.css _site/
           cp -R assets _site/assets
           node tools/build-site-data.js _site/data
           touch _site/.nojekyll
