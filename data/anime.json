@@ -27,7 +27,7 @@
     "latestEpisodeTitle": "The Cat and the Dragon  ตอนที่ 2 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=OpDLemm9U5Q&list=PLYA5C3ueQ-1g",
     "latestPublishedAt": "2026-07-03T10:17:20Z",
-    "lastCheckedAt": "2026-07-04T08:07:28.561Z",
+    "lastCheckedAt": "2026-07-04T09:37:39.669Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 61048,
@@ -96,7 +96,7 @@
     "latestEpisodeTitle": "THE WORLD IS DANCING - ตอนที่ 01 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=sGFz693H8Kw&list=PLIa05JMgYhhaMTMBupRCsNXAvD1l3PSNr",
     "latestPublishedAt": "2026-06-29T13:30:07Z",
-    "lastCheckedAt": "2026-07-04T08:07:28.735Z",
+    "lastCheckedAt": "2026-07-04T09:37:40.364Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63347,
@@ -158,7 +158,7 @@
     "latestEpisodeTitle": "Bungo Stray Dogs WAN! 2 ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=MQuFqeslReM&list=PLCR1_rvbIAHE",
     "latestPublishedAt": "2026-07-02T12:40:06Z",
-    "lastCheckedAt": "2026-07-04T08:07:28.860Z",
+    "lastCheckedAt": "2026-07-04T09:37:40.704Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62883,
@@ -222,7 +222,7 @@
     "latestEpisodeTitle": "BanG Dream! YUME∞MITA - ตอนที่ 03 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=9PBuMcx0VQM&list=PLEP6Ull2yaCo",
     "latestPublishedAt": "2026-07-02T15:00:06Z",
-    "lastCheckedAt": "2026-07-04T08:07:28.941Z",
+    "lastCheckedAt": "2026-07-04T09:37:41.000Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62430,
@@ -298,7 +298,7 @@
     "latestEpisodeTitle": "เกิดใหม่เป็นอัศวินเกราะหนักผู้ถูกขับไล่แต่ใช้ความรู้จากเกมจนไร้เทียมทาน - ตอนที่ 01 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=dkqRpEJTIpk&list=PLIa05JMgYhhb4BS6WEyTjKyuwJtWF_2U7",
     "latestPublishedAt": "2026-07-02T15:56:06Z",
-    "lastCheckedAt": "2026-07-04T08:07:29.070Z",
+    "lastCheckedAt": "2026-07-04T09:37:41.319Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 59741,
@@ -362,7 +362,7 @@
     "latestEpisodeTitle": "Chainsmoker Cat  ตอนที่ 1  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=cAUTNr0Kia4&list=PLQ4xe_hu1gxw",
     "latestPublishedAt": "2026-07-02T16:00:06Z",
-    "lastCheckedAt": "2026-07-04T08:07:29.152Z",
+    "lastCheckedAt": "2026-07-04T09:37:41.629Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63403,
@@ -410,8 +410,8 @@
     "airTimeThai": "เสาร์ 20:00",
     "channel": "Muse Thailand",
     "platform": "YouTube",
-    "status": "upcoming",
-    "confidence": "ช่อง YouTube ระบุในตาราง / รอลิงก์ตอน",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://www.youtube.com/@MuseThailand/search?query=Black%20Torch%20%E0%B8%8B%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%97%E0%B8%A2",
     "genres": [
       "Action",
@@ -422,12 +422,12 @@
     "note": "ตารางระบุ TrueID / Muse Thailand; ทำปุ่มเป็นลิงก์ค้นหาในช่อง Muse เพื่ออัปเดตตอนเมื่อเปิดจริง",
     "poster": "https://cdn.myanimelist.net/images/anime/1965/158363l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 1,
+    "latestEpisodeTitle": "BLACK TORCH - ตอนที่ 01 [ซับไทย]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=Z2RVXiP69Qs",
+    "latestPublishedAt": "2026-07-03T06:38:38Z",
+    "lastCheckedAt": "2026-07-04T10:24:05.504Z",
+    "updateStatus": "ok",
     "updateError": "",
     "malId": 61169,
     "malUrl": "https://myanimelist.net/anime/61169/Black_Torch",
@@ -438,17 +438,25 @@
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": [],
+    "availableEpisodes": [
+      {
+        "number": 1,
+        "title": "BLACK TORCH - ตอนที่ 01 [ซับไทย]",
+        "videoId": "Z2RVXiP69Qs",
+        "videoUrl": "https://www.youtube.com/watch?v=Z2RVXiP69Qs",
+        "publishedAt": "2026-07-03T06:38:38Z"
+      }
+    ],
     "catalogYear": 2026,
     "youtubeAliases": [
       "Black Torch",
       "BLACK TORCH",
       "ブラックトーチ"
     ],
-    "youtubeSourceType": "",
+    "youtubeSourceType": "channel_uploads",
     "youtubeChannelId": "UCn8hjQOnGYR1AZtYYMYP5jQ",
     "youtubeChannelTitle": "Muse Thailand",
-    "youtubeMatchConfidence": "",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "youtubeResearchStatus": "official_channel_announced_no_episode",
     "youtubeResearchConfidence": "probable",
     "youtubeResearchNotes": "พบหลักฐานว่า Muse Thailand ได้ลิขสิทธิ์/ประกาศเรื่องนี้แล้ว แต่ ณ วันที่ค้นหา (2026-07-03) พบเฉพาะ PV/teaser บน YouTube ยังไม่พบ playlist หรือตอนเต็มซับไทย เพราะกำหนดฉายญี่ปุ่นเริ่ม 2026-07-04.",
@@ -473,8 +481,8 @@
     "airTimeThai": "อาทิตย์ 22:00 / สัปดาห์แรกเสาร์ 18:00",
     "channel": "Muse Thailand",
     "platform": "YouTube",
-    "status": "upcoming",
-    "confidence": "ช่อง YouTube ระบุในตาราง / รอลิงก์ตอน",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://www.youtube.com/@MuseThailand/search?query=Mushoku%20Tensei%20III%20%E0%B8%8B%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%97%E0%B8%A2",
     "genres": [
       "Isekai",
@@ -485,12 +493,12 @@
     "note": "ตารางระบุ TrueID / Muse Thailand; ยังไม่มีลิงก์เพลย์ลิสต์จากตาราง",
     "poster": "https://cdn.myanimelist.net/images/anime/1527/158340l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 2,
+    "latestEpisodeTitle": "เกิดชาตินี้พี่ต้องเทพ ซีซั่น 3 - ตอนที่ 02 [ซับไทย]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=_0su_IQjNzA",
+    "latestPublishedAt": "2026-07-03T06:43:35Z",
+    "lastCheckedAt": "2026-07-04T10:24:05.513Z",
+    "updateStatus": "ok",
     "updateError": "",
     "malId": 59193,
     "malUrl": "https://myanimelist.net/anime/59193/Mushoku_Tensei_III__Isekai_Ittara_Honki_Dasu",
@@ -501,7 +509,22 @@
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": [],
+    "availableEpisodes": [
+      {
+        "number": 2,
+        "title": "เกิดชาตินี้พี่ต้องเทพ ซีซั่น 3 - ตอนที่ 02 [ซับไทย]",
+        "videoId": "_0su_IQjNzA",
+        "videoUrl": "https://www.youtube.com/watch?v=_0su_IQjNzA",
+        "publishedAt": "2026-07-03T06:43:35Z"
+      },
+      {
+        "number": 1,
+        "title": "เกิดชาตินี้พี่ต้องเทพ ซีซั่น 3 - ตอนที่ 01 [ซับไทย]",
+        "videoId": "CU-XvkRSpQg",
+        "videoUrl": "https://www.youtube.com/watch?v=CU-XvkRSpQg",
+        "publishedAt": "2026-07-03T06:43:35Z"
+      }
+    ],
     "catalogYear": 2026,
     "youtubeAliases": [
       "เกิดชาตินี้พี่ต้องเทพ ซีซั่น 3",
@@ -509,10 +532,10 @@
       "Mushoku Tensei: Jobless Reincarnation Season 3",
       "無職転生Ⅲ"
     ],
-    "youtubeSourceType": "",
+    "youtubeSourceType": "channel_uploads",
     "youtubeChannelId": "UCn8hjQOnGYR1AZtYYMYP5jQ",
     "youtubeChannelTitle": "Muse Thailand",
-    "youtubeMatchConfidence": "",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "youtubeResearchStatus": "official_channel_announced_no_episode",
     "youtubeResearchConfidence": "probable",
     "youtubeResearchNotes": "พบหลักฐานว่า Muse Thailand ได้ลิขสิทธิ์/ประกาศซีซั่น 3 ผ่าน PV ซับไทยแล้ว แต่ยังไม่พบ playlist หรือตอนเต็มบน YouTube ณ วันที่ค้นหา; Anime-OS ระบุเริ่มตอนแรก 2026-07-04 และตารางปกติวันอาทิตย์ 22:00.",
@@ -553,7 +576,7 @@
     "latestEpisodeTitle": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=oHy-No_sVhE&list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
     "latestPublishedAt": "2026-05-03T08:30:06Z",
-    "lastCheckedAt": "2026-07-04T08:07:29.237Z",
+    "lastCheckedAt": "2026-07-04T09:37:41.904Z",
     "updateStatus": "ok",
     "updateError": "",
     "malUrl": "https://myanimelist.net/anime/63832/Seihantai_na_Kimi_to_Boku_2nd_Season",
@@ -758,7 +781,7 @@
     "latestEpisodeTitle": "เคลวาเทส อสูรจอมราชัน ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=hlS1nS4qQEA&list=PL_YV8EWtbQXESnuuBlZrdFMaqcuK5jr3F",
     "latestPublishedAt": "2025-09-17T11:30:07Z",
-    "lastCheckedAt": "2026-07-04T08:07:29.356Z",
+    "lastCheckedAt": "2026-07-04T09:37:42.248Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62513,
@@ -1102,10 +1125,10 @@
     "episodes": "?",
     "premiere": "2026-07-25T00:00:00+00:00",
     "airTimeThai": "เสาร์ 21:00",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "Ani-One Thailand",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/60636/Bleach__Sennen_Kessen-hen_-_Kashin-tan",
     "genres": [
       "Action",
@@ -1117,12 +1140,12 @@
     "note": "นำเข้าจาก Jikan Summer 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1275/158595l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 26,
+    "latestEpisodeTitle": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก ตอนที่ 26 [ซับไทย]【Ani-One Thailand】",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=2FIYbvnM_H8",
+    "latestPublishedAt": "2026-06-15T11:00:01Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.831Z",
+    "updateStatus": "ok",
     "updateError": "",
     "malId": 60636,
     "malUrl": "https://myanimelist.net/anime/60636/Bleach__Sennen_Kessen-hen_-_Kashin-tan",
@@ -1133,13 +1156,107 @@
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": [],
+    "availableEpisodes": [
+      {
+        "number": 26,
+        "title": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก ตอนที่ 26 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "2FIYbvnM_H8",
+        "videoUrl": "https://www.youtube.com/watch?v=2FIYbvnM_H8",
+        "publishedAt": "2026-06-15T11:00:01Z"
+      },
+      {
+        "number": 25,
+        "title": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก ตอนที่ 25 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "3XuXZk_NAic",
+        "videoUrl": "https://www.youtube.com/watch?v=3XuXZk_NAic",
+        "publishedAt": "2026-06-15T11:00:39Z"
+      },
+      {
+        "number": 24,
+        "title": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก ตอนที่ 24 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "wm5pXBrWBHk",
+        "videoUrl": "https://www.youtube.com/watch?v=wm5pXBrWBHk",
+        "publishedAt": "2026-06-15T11:00:19Z"
+      },
+      {
+        "number": 23,
+        "title": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก ตอนที่ 23 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "uY8DMtqG958",
+        "videoUrl": "https://www.youtube.com/watch?v=uY8DMtqG958",
+        "publishedAt": "2026-06-15T11:00:08Z"
+      },
+      {
+        "number": 22,
+        "title": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก ตอนที่ 22 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "t51b0RyPoDI",
+        "videoUrl": "https://www.youtube.com/watch?v=t51b0RyPoDI",
+        "publishedAt": "2026-06-15T11:00:30Z"
+      },
+      {
+        "number": 21,
+        "title": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก ตอนที่ 21 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "Wep3bIHFNkI",
+        "videoUrl": "https://www.youtube.com/watch?v=Wep3bIHFNkI",
+        "publishedAt": "2026-06-15T11:00:02Z"
+      },
+      {
+        "number": 20,
+        "title": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก ตอนที่ 20 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "LJwtwNURl_A",
+        "videoUrl": "https://www.youtube.com/watch?v=LJwtwNURl_A",
+        "publishedAt": "2026-06-15T11:00:32Z"
+      },
+      {
+        "number": 19,
+        "title": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก ตอนที่ 19 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "GSNYJvjgIOc",
+        "videoUrl": "https://www.youtube.com/watch?v=GSNYJvjgIOc",
+        "publishedAt": "2026-06-15T11:00:10Z"
+      },
+      {
+        "number": 18,
+        "title": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก ตอนที่ 18 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "MD0Lgf4oGFs",
+        "videoUrl": "https://www.youtube.com/watch?v=MD0Lgf4oGFs",
+        "publishedAt": "2026-06-15T11:00:25Z"
+      },
+      {
+        "number": 17,
+        "title": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก ตอนที่ 17 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "GDNkJoWlS70",
+        "videoUrl": "https://www.youtube.com/watch?v=GDNkJoWlS70",
+        "publishedAt": "2026-06-15T11:00:14Z"
+      },
+      {
+        "number": 16,
+        "title": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก ตอนที่ 16 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "pCVGRpD_BcM",
+        "videoUrl": "https://www.youtube.com/watch?v=pCVGRpD_BcM",
+        "publishedAt": "2026-06-15T11:00:04Z"
+      },
+      {
+        "number": 15,
+        "title": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก ตอนที่ 15 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "r_qj9h1-H7U",
+        "videoUrl": "https://www.youtube.com/watch?v=r_qj9h1-H7U",
+        "publishedAt": "2026-06-15T11:00:19Z"
+      },
+      {
+        "number": 14,
+        "title": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก ตอนที่ 14 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "0s4VeBJbLF0",
+        "videoUrl": "https://www.youtube.com/watch?v=0s4VeBJbLF0",
+        "publishedAt": "2026-06-15T11:00:16Z"
+      }
+    ],
     "catalogYear": 2026,
-    "youtubeAliases": [],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeAliases": [
+      "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก"
+    ],
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCw2bdNSXh4x6e0NCduVoxMQ",
+    "youtubeChannelTitle": "Ani-One Thailand",
+    "youtubeMatchConfidence": "strong_unique_title_match"
   },
   {
     "id": "mahou-shoujo-madoka-magica-movie-4-walpurgis-no-kaiten",
@@ -1248,10 +1365,10 @@
     "episodes": "?",
     "premiere": "2026-07-06T00:00:00+00:00",
     "airTimeThai": "จันทร์ 20:00",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "Muse Thailand",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/60522/Gaikotsu_Kishi-sama_Tadaima_Isekai_e_Odekakechuu_II",
     "genres": [
       "Action",
@@ -1263,12 +1380,12 @@
     "note": "นำเข้าจาก Jikan Summer 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1544/157046l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 1,
+    "latestEpisodeTitle": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2 - ตอนที่ 01 [ซับไทย]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=AwdjenlPj5A",
+    "latestPublishedAt": "2026-07-03T06:51:28Z",
+    "lastCheckedAt": "2026-07-04T10:24:05.513Z",
+    "updateStatus": "ok",
     "updateError": "",
     "malId": 60522,
     "malUrl": "https://myanimelist.net/anime/60522/Gaikotsu_Kishi-sama_Tadaima_Isekai_e_Odekakechuu_II",
@@ -1279,15 +1396,23 @@
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": [],
+    "availableEpisodes": [
+      {
+        "number": 1,
+        "title": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2 - ตอนที่ 01 [ซับไทย]",
+        "videoId": "AwdjenlPj5A",
+        "videoUrl": "https://www.youtube.com/watch?v=AwdjenlPj5A",
+        "publishedAt": "2026-07-03T06:51:28Z"
+      }
+    ],
     "catalogYear": 2026,
     "youtubeAliases": [
       "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2"
     ],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCn8hjQOnGYR1AZtYYMYP5jQ",
+    "youtubeChannelTitle": "Muse Thailand",
+    "youtubeMatchConfidence": "strong_unique_title_match"
   },
   {
     "id": "kimi-ga-shinu-made-koi-wo-shitai",
@@ -3443,8 +3568,8 @@
     "currentEpisode": 1,
     "latestEpisodeTitle": "วาดเรื่องนี้ก่อนแล้วค่อยตาย - ตอนที่ 01 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=yupwq2ZucbM",
-    "latestPublishedAt": "2026-07-03T06:06:21Z",
-    "lastCheckedAt": "2026-07-03T18:05:15.101Z",
+    "latestPublishedAt": "2026-07-03T15:35:06Z",
+    "lastCheckedAt": "2026-07-04T10:24:05.513Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 61280,
@@ -3462,7 +3587,7 @@
         "title": "วาดเรื่องนี้ก่อนแล้วค่อยตาย - ตอนที่ 01 [ซับไทย]",
         "videoId": "yupwq2ZucbM",
         "videoUrl": "https://www.youtube.com/watch?v=yupwq2ZucbM",
-        "publishedAt": "2026-07-03T06:06:21Z"
+        "publishedAt": "2026-07-03T15:35:06Z"
       }
     ],
     "catalogYear": 2026,
@@ -5320,33 +5445,19 @@
     "poster": "https://cdn.myanimelist.net/images/anime/1921/154528l.webp",
     "playlistId": "",
     "currentEpisode": 38,
-    "latestEpisodeTitle": "[พากย์ไทย] คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 38(S2 ตอนที่ 10)",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=AyCLxbqwlLc",
-    "latestPublishedAt": "2026-05-29T13:00:06Z",
-    "lastCheckedAt": "2026-07-03T12:53:41.663Z",
+    "latestEpisodeTitle": "คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 38(S2 ตอนที่ 10)[ซับไทย]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=0A_UwmSzCPI",
+    "latestPublishedAt": "2026-03-27T15:00:06Z",
+    "lastCheckedAt": "2026-07-04T10:24:05.513Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
-      {
-        "number": 38,
-        "title": "[พากย์ไทย] คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 38(S2 ตอนที่ 10)",
-        "videoId": "AyCLxbqwlLc",
-        "videoUrl": "https://www.youtube.com/watch?v=AyCLxbqwlLc",
-        "publishedAt": "2026-05-29T13:00:06Z"
-      },
       {
         "number": 38,
         "title": "คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 38(S2 ตอนที่ 10)[ซับไทย]",
         "videoId": "0A_UwmSzCPI",
         "videoUrl": "https://www.youtube.com/watch?v=0A_UwmSzCPI",
         "publishedAt": "2026-03-27T15:00:06Z"
-      },
-      {
-        "number": 37,
-        "title": "[พากย์ไทย] คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 37(S2 ตอนที่ 09)",
-        "videoId": "a3hAP-Ddo64",
-        "videoUrl": "https://www.youtube.com/watch?v=a3hAP-Ddo64",
-        "publishedAt": "2026-05-22T13:00:06Z"
       },
       {
         "number": 37,
@@ -5357,24 +5468,10 @@
       },
       {
         "number": 36,
-        "title": "[พากย์ไทย] คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 36(S2 ตอนที่ 08)",
-        "videoId": "3NBCpqxEjjs",
-        "videoUrl": "https://www.youtube.com/watch?v=3NBCpqxEjjs",
-        "publishedAt": "2026-05-15T13:00:06Z"
-      },
-      {
-        "number": 36,
         "title": "คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 36(S2 ตอนที่ 08)[ซับไทย]",
         "videoId": "zhV0agaZkvg",
         "videoUrl": "https://www.youtube.com/watch?v=zhV0agaZkvg",
         "publishedAt": "2026-03-13T15:00:06Z"
-      },
-      {
-        "number": 35,
-        "title": "[พากย์ไทย] คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 35(S2 ตอนที่ 07)",
-        "videoId": "53v1NgdB3ok",
-        "videoUrl": "https://www.youtube.com/watch?v=53v1NgdB3ok",
-        "publishedAt": "2026-05-08T13:00:06Z"
       },
       {
         "number": 35,
@@ -5385,24 +5482,10 @@
       },
       {
         "number": 34,
-        "title": "[พากย์ไทย] คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 34(S2 ตอนที่ 06)",
-        "videoId": "1iCPzEshkDM",
-        "videoUrl": "https://www.youtube.com/watch?v=1iCPzEshkDM",
-        "publishedAt": "2026-05-01T13:00:06Z"
-      },
-      {
-        "number": 34,
         "title": "คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 34(S2 ตอนที่ 06)[ซับไทย]",
         "videoId": "r3QqPnqDCI0",
         "videoUrl": "https://www.youtube.com/watch?v=r3QqPnqDCI0",
         "publishedAt": "2026-02-27T15:00:06Z"
-      },
-      {
-        "number": 33,
-        "title": "[พากย์ไทย] คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 33(S2 ตอนที่ 05)",
-        "videoId": "1JV2vqSfWOw",
-        "videoUrl": "https://www.youtube.com/watch?v=1JV2vqSfWOw",
-        "publishedAt": "2026-04-24T13:00:06Z"
       },
       {
         "number": 33,
@@ -5413,24 +5496,10 @@
       },
       {
         "number": 32,
-        "title": "[พากย์ไทย] คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 32(S2 ตอนที่ 04)",
-        "videoId": "VgScRAblb7Q",
-        "videoUrl": "https://www.youtube.com/watch?v=VgScRAblb7Q",
-        "publishedAt": "2026-04-17T13:00:06Z"
-      },
-      {
-        "number": 32,
         "title": "คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 32(S2 ตอนที่ 04)[ซับไทย]",
         "videoId": "aniIWDaFfGo",
         "videoUrl": "https://www.youtube.com/watch?v=aniIWDaFfGo",
         "publishedAt": "2026-02-06T15:00:06Z"
-      },
-      {
-        "number": 31,
-        "title": "[พากย์ไทย] คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 31(S2 ตอนที่ 03)",
-        "videoId": "u0hrXcilgns",
-        "videoUrl": "https://www.youtube.com/watch?v=u0hrXcilgns",
-        "publishedAt": "2026-04-10T13:00:06Z"
       },
       {
         "number": 31,
@@ -5441,24 +5510,10 @@
       },
       {
         "number": 30,
-        "title": "[พากย์ไทย] คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 30(S2 ตอนที่ 02)",
-        "videoId": "_vjfq2ZFMwc",
-        "videoUrl": "https://www.youtube.com/watch?v=_vjfq2ZFMwc",
-        "publishedAt": "2026-04-03T13:00:06Z"
-      },
-      {
-        "number": 30,
         "title": "คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 30 (S2 ตอนที่ 02) [ซับไทย]",
         "videoId": "9ItrnIuhQ2c",
         "videoUrl": "https://www.youtube.com/watch?v=9ItrnIuhQ2c",
         "publishedAt": "2026-01-23T15:00:06Z"
-      },
-      {
-        "number": 29,
-        "title": "[พากย์ไทย] คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 29(S2 ตอนที่ 01)",
-        "videoId": "ZDKBJXI09aQ",
-        "videoUrl": "https://www.youtube.com/watch?v=ZDKBJXI09aQ",
-        "publishedAt": "2026-03-27T13:00:06Z"
       },
       {
         "number": 29,
@@ -5513,8 +5568,8 @@
     "currentEpisode": 9,
     "latestEpisodeTitle": "มหาเวทย์ผนึกมาร จรดลล้างบาง พาร์ต 1 ตอนที่ 9 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=QOq0Pdyk2Xw",
-    "latestPublishedAt": "2026-07-03T03:42:30Z",
-    "lastCheckedAt": "2026-07-03T18:05:13.432Z",
+    "latestPublishedAt": "2026-07-03T13:00:07Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -5523,7 +5578,7 @@
         "title": "มหาเวทย์ผนึกมาร จรดลล้างบาง พาร์ต 1 ตอนที่ 9 [ซับไทย]【Ani-One Thailand】",
         "videoId": "QOq0Pdyk2Xw",
         "videoUrl": "https://www.youtube.com/watch?v=QOq0Pdyk2Xw",
-        "publishedAt": "2026-07-03T03:42:30Z"
+        "publishedAt": "2026-07-03T13:00:07Z"
       },
       {
         "number": 8,
@@ -5921,19 +5976,33 @@
     "poster": "https://cdn.myanimelist.net/images/anime/1486/153135l.webp",
     "playlistId": "",
     "currentEpisode": 3,
-    "latestEpisodeTitle": "【English Sub】《Jack-of-All-Trades, Party of None》｜Episode 03｜TROPICS ENTERTAINMENT",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=QNvXlkskMRQ",
-    "latestPublishedAt": "2026-04-09T03:28:34Z",
-    "lastCheckedAt": "2026-07-03T18:05:15.389Z",
+    "latestEpisodeTitle": "【ซับไทย】《เก่งรอบด้านแต่ไร้ทีเด็ด เลยถูกเฉดหัวจากปาร์ตี้ผู้กล้า》｜ตอนที่ 03｜TROPICS ENTERTAINMENT",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=XT9Itn2PneY",
+    "latestPublishedAt": "2026-04-10T02:53:00Z",
+    "lastCheckedAt": "2026-07-04T10:24:22.995Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
+      {
+        "number": 3,
+        "title": "【ซับไทย】《เก่งรอบด้านแต่ไร้ทีเด็ด เลยถูกเฉดหัวจากปาร์ตี้ผู้กล้า》｜ตอนที่ 03｜TROPICS ENTERTAINMENT",
+        "videoId": "XT9Itn2PneY",
+        "videoUrl": "https://www.youtube.com/watch?v=XT9Itn2PneY",
+        "publishedAt": "2026-04-10T02:53:00Z"
+      },
       {
         "number": 3,
         "title": "【English Sub】《Jack-of-All-Trades, Party of None》｜Episode 03｜TROPICS ENTERTAINMENT",
         "videoId": "QNvXlkskMRQ",
         "videoUrl": "https://www.youtube.com/watch?v=QNvXlkskMRQ",
         "publishedAt": "2026-04-09T03:28:34Z"
+      },
+      {
+        "number": 2,
+        "title": "【ซับไทย】《เก่งรอบด้านแต่ไร้ทีเด็ด เลยถูกเฉดหัวจากปาร์ตี้ผู้กล้า》｜ตอนที่ 02｜TROPICS ENTERTAINMENT",
+        "videoId": "f_o75ClXe1Y",
+        "videoUrl": "https://www.youtube.com/watch?v=f_o75ClXe1Y",
+        "publishedAt": "2026-04-10T02:45:57Z"
       },
       {
         "number": 2,
@@ -5944,13 +6013,22 @@
       },
       {
         "number": 1,
+        "title": "【ซับไทย】《เก่งรอบด้านแต่ไร้ทีเด็ด เลยถูกเฉดหัวจากปาร์ตี้ผู้กล้า》｜ตอนที่ 01｜TROPICS ENTERTAINMENT",
+        "videoId": "sz8uPU7ynfc",
+        "videoUrl": "https://www.youtube.com/watch?v=sz8uPU7ynfc",
+        "publishedAt": "2026-07-03T13:00:07Z"
+      },
+      {
+        "number": 1,
         "title": "【English Sub】《Jack-of-All-Trades, Party of None》｜Episode 01｜TROPICS ENTERTAINMENT",
         "videoId": "ALQf3J1dvRI",
         "videoUrl": "https://www.youtube.com/watch?v=ALQf3J1dvRI",
-        "publishedAt": "2026-04-09T03:16:09Z"
+        "publishedAt": "2026-07-03T13:00:06Z"
       }
     ],
-    "youtubeAliases": [],
+    "youtubeAliases": [
+      "เก่งรอบด้านแต่ไร้ทีเด็ด เลยถูกเฉดหัวจากปาร์ตี้ผู้กล้า"
+    ],
     "youtubeSourceType": "channel_uploads",
     "youtubeChannelId": "UCC-g5hWSvCbdB8HQQIA0_pg",
     "youtubeChannelTitle": "Tropics Anime Asia",
@@ -6385,7 +6463,7 @@
     "latestEpisodeTitle": "【English Sub】《Noble Reincarnation -Born Blessed, So I’ll Obtain Ultimate Power-》｜Episode 12｜TROPICS",
     "latestVideoUrl": "https://www.youtube.com/watch?v=3ehTiMbhJ_0",
     "latestPublishedAt": "2026-05-13T13:00:06Z",
-    "lastCheckedAt": "2026-07-03T12:53:44.670Z",
+    "lastCheckedAt": "2026-07-04T10:24:22.995Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -6598,10 +6676,10 @@
     "episodes": "13",
     "premiere": "2026-01-04T00:00:00+00:00",
     "airTimeThai": "อาทิตย์ 20:00",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "It's Anime powered by REMOW",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/60810/Majutsushi_Kunon_wa_Mieteiru",
     "genres": [
       "Fantasy"
@@ -6610,19 +6688,29 @@
     "note": "นำเข้าจาก Jikan winter 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1704/154459l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 3,
+    "latestEpisodeTitle": "Kunon the Sorcerer Can See | Episode 1-3 | MULTI-SUB [#ItsAnime]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=XYxhLCXGcpI",
+    "latestPublishedAt": "2026-01-31T02:00:28Z",
+    "lastCheckedAt": "2026-07-04T10:24:25.161Z",
+    "updateStatus": "ok",
     "updateError": "",
-    "availableEpisodes": [],
+    "availableEpisodes": [
+      {
+        "number": 3,
+        "title": "Kunon the Sorcerer Can See | Episode 1-3 | MULTI-SUB [#ItsAnime]",
+        "videoId": "XYxhLCXGcpI",
+        "videoUrl": "https://www.youtube.com/watch?v=XYxhLCXGcpI",
+        "publishedAt": "2026-01-31T02:00:28Z",
+        "startNumber": 1,
+        "endNumber": 3
+      }
+    ],
     "youtubeAliases": [],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCsj_CYajUSQ2ca8bYCMan9g",
+    "youtubeChannelTitle": "It's Anime powered by REMOW",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "malId": 60810,
     "malUrl": "https://myanimelist.net/anime/60810/Majutsushi_Kunon_wa_Mieteiru",
     "jikanType": "TV",
@@ -6664,7 +6752,7 @@
     "latestEpisodeTitle": "TRIGUN STARGAZE ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=0-RubGo7ZSQ",
     "latestPublishedAt": "2026-03-28T15:00:06Z",
-    "lastCheckedAt": "2026-07-03T18:05:13.432Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -7295,7 +7383,7 @@
     "latestEpisodeTitle": "เดดแอ็กเคานต์ พิฆาตบัญชีมรณะ ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=EmljTI3KHhU",
     "latestPublishedAt": "2026-03-28T15:00:06Z",
-    "lastCheckedAt": "2026-07-03T18:05:13.432Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -7357,24 +7445,10 @@
       },
       {
         "number": 4,
-        "title": "[พากย์ไทย] เดดแอ็กเคานต์ พิฆาตบัญชีมรณะ ตอนที่ 4【Ani-One Thailand】",
-        "videoId": "e8K3WheOBtk",
-        "videoUrl": "https://www.youtube.com/watch?v=e8K3WheOBtk",
-        "publishedAt": "2026-06-30T12:00:06Z"
-      },
-      {
-        "number": 4,
         "title": "เดดแอ็กเคานต์ พิฆาตบัญชีมรณะ ตอนที่ 4  [ซับไทย]【Ani-One Thailand】",
         "videoId": "wMVKHMyCoQg",
         "videoUrl": "https://www.youtube.com/watch?v=wMVKHMyCoQg",
         "publishedAt": "2026-01-31T15:00:06Z"
-      },
-      {
-        "number": 3,
-        "title": "[พากย์ไทย] เดดแอ็กเคานต์ พิฆาตบัญชีมรณะ ตอนที่ 3【Ani-One Thailand】",
-        "videoId": "i3cyL6mcKAc",
-        "videoUrl": "https://www.youtube.com/watch?v=i3cyL6mcKAc",
-        "publishedAt": "2026-06-30T12:00:06Z"
       },
       {
         "number": 3,
@@ -7385,24 +7459,10 @@
       },
       {
         "number": 2,
-        "title": "[พากย์ไทย] เดดแอ็กเคานต์ พิฆาตบัญชีมรณะ ตอนที่ 2【Ani-One Thailand】",
-        "videoId": "jyUBHHaeMBI",
-        "videoUrl": "https://www.youtube.com/watch?v=jyUBHHaeMBI",
-        "publishedAt": "2026-06-23T12:00:33Z"
-      },
-      {
-        "number": 2,
         "title": "เดดแอ็กเคานต์ พิฆาตบัญชีมรณะ ตอนที่ 2  [ซับไทย]【Ani-One Thailand】",
         "videoId": "djyPtPh72Uw",
         "videoUrl": "https://www.youtube.com/watch?v=djyPtPh72Uw",
         "publishedAt": "2026-01-17T15:00:06Z"
-      },
-      {
-        "number": 1,
-        "title": "[พากย์ไทย] เดดแอ็กเคานต์ พิฆาตบัญชีมรณะ ตอนที่ 1【Ani-One Thailand】",
-        "videoId": "IWlcEioJz-Q",
-        "videoUrl": "https://www.youtube.com/watch?v=IWlcEioJz-Q",
-        "publishedAt": "2026-06-23T12:00:24Z"
       },
       {
         "number": 1,
@@ -7850,7 +7910,7 @@
     "latestEpisodeTitle": "MF GHOST 3rd Season ตอนที่ 13  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=cG3YiWtedZg",
     "latestPublishedAt": "2026-03-26T15:30:07Z",
-    "lastCheckedAt": "2026-07-03T18:05:13.432Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -8368,10 +8428,10 @@
     "episodes": "13",
     "premiere": "2026-01-07T00:00:00+00:00",
     "airTimeThai": "พุธ 21:45",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "Ani-One Thailand",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/61608/Jigoku_Sensei_Nube_2025_Part_2",
     "genres": [
       "Comedy",
@@ -8385,19 +8445,106 @@
     "note": "นำเข้าจาก Jikan winter 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1361/153968l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 12,
+    "latestEpisodeTitle": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=zyHuHkq-Ntk",
+    "latestPublishedAt": "2026-06-27T13:00:06Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
+    "updateStatus": "ok",
     "updateError": "",
-    "availableEpisodes": [],
-    "youtubeAliases": [],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "availableEpisodes": [
+      {
+        "number": 12,
+        "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "zyHuHkq-Ntk",
+        "videoUrl": "https://www.youtube.com/watch?v=zyHuHkq-Ntk",
+        "publishedAt": "2026-06-27T13:00:06Z"
+      },
+      {
+        "number": 11,
+        "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่  11 [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "BwKor-tG6yQ",
+        "videoUrl": "https://www.youtube.com/watch?v=BwKor-tG6yQ",
+        "publishedAt": "2026-06-20T13:00:07Z"
+      },
+      {
+        "number": 10,
+        "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 10  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "XsRfUrgw1hQ",
+        "videoUrl": "https://www.youtube.com/watch?v=XsRfUrgw1hQ",
+        "publishedAt": "2026-06-13T13:00:06Z"
+      },
+      {
+        "number": 9,
+        "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 9  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "pFWbcqOsQ1Y",
+        "videoUrl": "https://www.youtube.com/watch?v=pFWbcqOsQ1Y",
+        "publishedAt": "2026-06-06T13:00:06Z"
+      },
+      {
+        "number": 8,
+        "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 8  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "Ckt3Sp5wD2E",
+        "videoUrl": "https://www.youtube.com/watch?v=Ckt3Sp5wD2E",
+        "publishedAt": "2026-05-30T13:00:06Z"
+      },
+      {
+        "number": 7,
+        "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 7  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "ViBk-W4GITQ",
+        "videoUrl": "https://www.youtube.com/watch?v=ViBk-W4GITQ",
+        "publishedAt": "2026-05-23T13:00:06Z"
+      },
+      {
+        "number": 6,
+        "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 6  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "4uvtHh93DQY",
+        "videoUrl": "https://www.youtube.com/watch?v=4uvtHh93DQY",
+        "publishedAt": "2026-05-16T13:00:06Z"
+      },
+      {
+        "number": 5,
+        "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 5  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "pJfcWMcGc3U",
+        "videoUrl": "https://www.youtube.com/watch?v=pJfcWMcGc3U",
+        "publishedAt": "2026-05-09T13:00:07Z"
+      },
+      {
+        "number": 4,
+        "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 4  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "j4ST5MLkL2o",
+        "videoUrl": "https://www.youtube.com/watch?v=j4ST5MLkL2o",
+        "publishedAt": "2026-05-02T13:00:06Z"
+      },
+      {
+        "number": 3,
+        "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 3  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "LFGb0H3_mVo",
+        "videoUrl": "https://www.youtube.com/watch?v=LFGb0H3_mVo",
+        "publishedAt": "2026-04-25T13:00:06Z"
+      },
+      {
+        "number": 2,
+        "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 2  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "LmybAwLE14E",
+        "videoUrl": "https://www.youtube.com/watch?v=LmybAwLE14E",
+        "publishedAt": "2026-04-18T13:00:06Z"
+      },
+      {
+        "number": 1,
+        "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 1  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "g-83LOQirhY",
+        "videoUrl": "https://www.youtube.com/watch?v=g-83LOQirhY",
+        "publishedAt": "2026-04-11T13:00:07Z"
+      }
+    ],
+    "youtubeAliases": [
+      "คุณครูมาดหลอน หัวใจอ่อนแอ"
+    ],
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCw2bdNSXh4x6e0NCduVoxMQ",
+    "youtubeChannelTitle": "Ani-One Thailand",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "malId": 61608,
     "malUrl": "https://myanimelist.net/anime/61608/Jigoku_Sensei_Nube_2025_Part_2",
     "jikanType": "TV",
@@ -8514,10 +8661,10 @@
     "episodes": "12",
     "premiere": "2026-01-06T00:00:00+00:00",
     "airTimeThai": "อังคาร 19:55",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "It's Anime powered by REMOW",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/61969/Saioshi_no_Gikei_wo_Mederu_Tame_Nagaiki_shimasu",
     "genres": [
       "Boys Love",
@@ -8529,19 +8676,29 @@
     "note": "นำเข้าจาก Jikan winter 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1115/152470l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 4,
+    "latestEpisodeTitle": "I’ll Live a Long Life to Dote on My Favorite Stepbrother! EP1~4 | FULL EPISODE | ENG SUB [#ItsAnime]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=C9S6jyUgd44",
+    "latestPublishedAt": "2026-05-27T02:00:02Z",
+    "lastCheckedAt": "2026-07-04T10:24:25.161Z",
+    "updateStatus": "ok",
     "updateError": "",
-    "availableEpisodes": [],
+    "availableEpisodes": [
+      {
+        "number": 4,
+        "title": "I’ll Live a Long Life to Dote on My Favorite Stepbrother! EP1~4 | FULL EPISODE | ENG SUB [#ItsAnime]",
+        "videoId": "C9S6jyUgd44",
+        "videoUrl": "https://www.youtube.com/watch?v=C9S6jyUgd44",
+        "publishedAt": "2026-05-27T02:00:02Z",
+        "startNumber": 1,
+        "endNumber": 4
+      }
+    ],
     "youtubeAliases": [],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCsj_CYajUSQ2ca8bYCMan9g",
+    "youtubeChannelTitle": "It's Anime powered by REMOW",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "malId": 61969,
     "malUrl": "https://myanimelist.net/anime/61969/Saioshi_no_Gikei_wo_Mederu_Tame_Nagaiki_shimasu",
     "jikanType": "TV",
@@ -8613,10 +8770,10 @@
     "episodes": "12",
     "premiere": "2026-01-09T00:00:00+00:00",
     "airTimeThai": "ศุกร์ 21:30",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "It's Anime powered by REMOW",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/62804/High_School_Kimengumi_2026",
     "genres": [
       "Comedy",
@@ -8630,19 +8787,29 @@
     "note": "นำเข้าจาก Jikan winter 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1501/154507l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 3,
+    "latestEpisodeTitle": "High School! KIMENGUMI (2026) | Episode 1-3 | ENG-SUB [#ItsAnime]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=Lwr1_NmkyJ0",
+    "latestPublishedAt": "2026-01-24T02:00:21Z",
+    "lastCheckedAt": "2026-07-04T10:24:25.161Z",
+    "updateStatus": "ok",
     "updateError": "",
-    "availableEpisodes": [],
+    "availableEpisodes": [
+      {
+        "number": 3,
+        "title": "High School! KIMENGUMI (2026) | Episode 1-3 | ENG-SUB [#ItsAnime]",
+        "videoId": "Lwr1_NmkyJ0",
+        "videoUrl": "https://www.youtube.com/watch?v=Lwr1_NmkyJ0",
+        "publishedAt": "2026-01-24T02:00:21Z",
+        "startNumber": 1,
+        "endNumber": 3
+      }
+    ],
     "youtubeAliases": [],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCsj_CYajUSQ2ca8bYCMan9g",
+    "youtubeChannelTitle": "It's Anime powered by REMOW",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "malId": 62804,
     "malUrl": "https://myanimelist.net/anime/62804/High_School_Kimengumi_2026",
     "jikanType": "TV",
@@ -8664,10 +8831,10 @@
     "episodes": "12",
     "premiere": "2026-01-10T00:00:00+00:00",
     "airTimeThai": "เสาร์ 19:30",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "It's Anime powered by REMOW",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/62864/Omae_wa_Mada_Gunma_wo_Shiranai__Reiwa-ban",
     "genres": [
       "Comedy",
@@ -8677,19 +8844,29 @@
     "note": "นำเข้าจาก Jikan winter 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1156/153079l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 2,
+    "latestEpisodeTitle": "You Don't Know Gunma Yet～Reiwa Version～ EP1-2 | FULL EPISODE | ENG SUB [#ItsAnime]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=sqQFCj1ZmuE",
+    "latestPublishedAt": "2026-05-20T02:00:38Z",
+    "lastCheckedAt": "2026-07-04T10:24:25.161Z",
+    "updateStatus": "ok",
     "updateError": "",
-    "availableEpisodes": [],
+    "availableEpisodes": [
+      {
+        "number": 2,
+        "title": "You Don't Know Gunma Yet～Reiwa Version～ EP1-2 | FULL EPISODE | ENG SUB [#ItsAnime]",
+        "videoId": "sqQFCj1ZmuE",
+        "videoUrl": "https://www.youtube.com/watch?v=sqQFCj1ZmuE",
+        "publishedAt": "2026-05-20T02:00:38Z",
+        "startNumber": 1,
+        "endNumber": 2
+      }
+    ],
     "youtubeAliases": [],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCsj_CYajUSQ2ca8bYCMan9g",
+    "youtubeChannelTitle": "It's Anime powered by REMOW",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "malId": 62864,
     "malUrl": "https://myanimelist.net/anime/62864/Omae_wa_Mada_Gunma_wo_Shiranai__Reiwa-ban",
     "jikanType": "TV",
@@ -8759,10 +8936,10 @@
     "episodes": "12",
     "premiere": "2026-01-05T00:00:00+00:00",
     "airTimeThai": "จันทร์ 18:00",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "Ani-One Thailand",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/62987/Hokuto_no_Ken__Kenougun_Zako-tachi_no_Banka",
     "genres": [
       "Comedy",
@@ -8773,19 +8950,27 @@
     "note": "นำเข้าจาก Jikan winter 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1845/153717l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 1,
+    "latestEpisodeTitle": "Elegy for the Henchmen: Fist of the North Star ภาค 2 ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=6OK5ANUYANk",
+    "latestPublishedAt": "2026-07-04T08:57:31Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
+    "updateStatus": "ok",
     "updateError": "",
-    "availableEpisodes": [],
+    "availableEpisodes": [
+      {
+        "number": 1,
+        "title": "Elegy for the Henchmen: Fist of the North Star ภาค 2 ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "6OK5ANUYANk",
+        "videoUrl": "https://www.youtube.com/watch?v=6OK5ANUYANk",
+        "publishedAt": "2026-07-04T08:57:31Z"
+      }
+    ],
     "youtubeAliases": [],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCw2bdNSXh4x6e0NCduVoxMQ",
+    "youtubeChannelTitle": "Ani-One Thailand",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "malId": 62987,
     "malUrl": "https://myanimelist.net/anime/62987/Hokuto_no_Ken__Kenougun_Zako-tachi_no_Banka",
     "jikanType": "TV",
@@ -8807,10 +8992,10 @@
     "episodes": "12",
     "premiere": "2025-12-09T00:00:00+00:00",
     "airTimeThai": "อังคาร 20:55",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "It's Anime powered by REMOW",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/62521/Kanagawa_ni_Sunderu_Elf",
     "genres": [
       "Comedy",
@@ -8820,21 +9005,31 @@
     "note": "นำเข้าจาก Jikan winter 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1194/152817l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 4,
+    "latestEpisodeTitle": "KANAGAWA ELVES EP1-4 | FULL EPISODE | ENG SUB [#ItsAnime]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=cIdiftM-yrU",
+    "latestPublishedAt": "2026-06-17T02:00:30Z",
+    "lastCheckedAt": "2026-07-04T10:24:25.161Z",
+    "updateStatus": "ok",
     "updateError": "",
-    "availableEpisodes": [],
+    "availableEpisodes": [
+      {
+        "number": 4,
+        "title": "KANAGAWA ELVES EP1-4 | FULL EPISODE | ENG SUB [#ItsAnime]",
+        "videoId": "cIdiftM-yrU",
+        "videoUrl": "https://www.youtube.com/watch?v=cIdiftM-yrU",
+        "publishedAt": "2026-06-17T02:00:30Z",
+        "startNumber": 1,
+        "endNumber": 4
+      }
+    ],
     "youtubeAliases": [
       "ขอต้อนรับสู่ญี่ปุ่นนะ คุณเอลฟ์"
     ],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCsj_CYajUSQ2ca8bYCMan9g",
+    "youtubeChannelTitle": "It's Anime powered by REMOW",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "malId": 62521,
     "malUrl": "https://myanimelist.net/anime/62521/Kanagawa_ni_Sunderu_Elf",
     "jikanType": "TV",
@@ -9226,7 +9421,7 @@
     "latestEpisodeTitle": "Re:ZERO -รีเซทชีวิต ฝ่าวิกฤตต่างโลก- ตอนที่ 77 (ซีซั่น 4 ตอนที่ 11) [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=CBePn6F5j1E",
     "latestPublishedAt": "2026-07-01T14:00:06Z",
-    "lastCheckedAt": "2026-07-03T12:53:41.663Z",
+    "lastCheckedAt": "2026-07-04T10:24:05.513Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -9337,10 +9532,10 @@
     "episodes": "16",
     "premiere": "2026-04-01T00:00:00+00:00",
     "airTimeThai": "พุธ 19:30",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "Muse Thailand",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/59708/Youkoso_Jitsuryoku_Shijou_Shugi_no_Kyoushitsu_e_4th_Season__2-nensei-hen_1_Gakki",
     "genres": [
       "Drama",
@@ -9352,19 +9547,115 @@
     "note": "นำเข้าจาก Jikan spring 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1176/153626l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 15,
+    "latestEpisodeTitle": "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 - ตอนที่ 15 [ซับไทย]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=oCWjui7a8XQ",
+    "latestPublishedAt": "2026-07-01T12:30:06Z",
+    "lastCheckedAt": "2026-07-04T10:24:05.514Z",
+    "updateStatus": "ok",
     "updateError": "",
-    "availableEpisodes": [],
-    "youtubeAliases": [],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "availableEpisodes": [
+      {
+        "number": 15,
+        "title": "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 - ตอนที่ 15 [ซับไทย]",
+        "videoId": "oCWjui7a8XQ",
+        "videoUrl": "https://www.youtube.com/watch?v=oCWjui7a8XQ",
+        "publishedAt": "2026-07-01T12:30:06Z"
+      },
+      {
+        "number": 14,
+        "title": "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 - ตอนที่ 14 [ซับไทย]",
+        "videoId": "d114doNYs1s",
+        "videoUrl": "https://www.youtube.com/watch?v=d114doNYs1s",
+        "publishedAt": "2026-06-24T12:30:21Z"
+      },
+      {
+        "number": 13,
+        "title": "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 - ตอนที่ 13 [ซับไทย]",
+        "videoId": "hvBJB7w6J3Q",
+        "videoUrl": "https://www.youtube.com/watch?v=hvBJB7w6J3Q",
+        "publishedAt": "2026-06-17T12:30:06Z"
+      },
+      {
+        "number": 12,
+        "title": "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 - ตอนที่ 12 [ซับไทย]",
+        "videoId": "iYsu7gn69zY",
+        "videoUrl": "https://www.youtube.com/watch?v=iYsu7gn69zY",
+        "publishedAt": "2026-06-10T12:30:06Z"
+      },
+      {
+        "number": 11,
+        "title": "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 - ตอนที่ 11 [ซับไทย]",
+        "videoId": "1m_B1oLdqGA",
+        "videoUrl": "https://www.youtube.com/watch?v=1m_B1oLdqGA",
+        "publishedAt": "2026-06-03T12:30:06Z"
+      },
+      {
+        "number": 10,
+        "title": "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 - ตอนที่ 10 [ซับไทย]",
+        "videoId": "w_t9ZlfizMk",
+        "videoUrl": "https://www.youtube.com/watch?v=w_t9ZlfizMk",
+        "publishedAt": "2026-05-27T12:30:06Z"
+      },
+      {
+        "number": 9,
+        "title": "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 - ตอนที่ 09 [ซับไทย]",
+        "videoId": "Pa8oMWrsDus",
+        "videoUrl": "https://www.youtube.com/watch?v=Pa8oMWrsDus",
+        "publishedAt": "2026-05-20T12:30:07Z"
+      },
+      {
+        "number": 8,
+        "title": "ไม่กินแถมเล่นอีก|ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1 ตอนที่ 8",
+        "videoId": "_p7e1aS9ueE",
+        "videoUrl": "https://www.youtube.com/watch?v=_p7e1aS9ueE",
+        "publishedAt": "2026-06-10T18:17:07Z"
+      },
+      {
+        "number": 8,
+        "title": "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 - ตอนที่ 08 [ซับไทย]",
+        "videoId": "qCFx-Tj_cow",
+        "videoUrl": "https://www.youtube.com/watch?v=qCFx-Tj_cow",
+        "publishedAt": "2026-05-13T12:30:06Z"
+      },
+      {
+        "number": 7,
+        "title": "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 - ตอนที่ 07 [ซับไทย]",
+        "videoId": "mvd-yxezAP0",
+        "videoUrl": "https://www.youtube.com/watch?v=mvd-yxezAP0",
+        "publishedAt": "2026-05-06T12:30:06Z"
+      },
+      {
+        "number": 6,
+        "title": "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 - ตอนที่ 06 [ซับไทย]",
+        "videoId": "s1KqFpSC6eE",
+        "videoUrl": "https://www.youtube.com/watch?v=s1KqFpSC6eE",
+        "publishedAt": "2026-04-29T12:30:06Z"
+      },
+      {
+        "number": 5,
+        "title": "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 - ตอนที่ 05 [ซับไทย]",
+        "videoId": "OYncSnBgIpA",
+        "videoUrl": "https://www.youtube.com/watch?v=OYncSnBgIpA",
+        "publishedAt": "2026-04-22T12:30:06Z"
+      },
+      {
+        "number": 4,
+        "startNumber": 1,
+        "endNumber": 4,
+        "title": "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 - ตอนที่ 01-04 [ซับไทย]",
+        "videoId": "XKFZ60JquRg",
+        "videoUrl": "https://www.youtube.com/watch?v=XKFZ60JquRg",
+        "publishedAt": "2026-04-15T12:30:06Z"
+      }
+    ],
+    "youtubeAliases": [
+      "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4"
+    ],
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCn8hjQOnGYR1AZtYYMYP5jQ",
+    "youtubeChannelTitle": "Muse Thailand",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "malId": 59708,
     "malUrl": "https://myanimelist.net/anime/59708/Youkoso_Jitsuryoku_Shijou_Shugi_no_Kyoushitsu_e_4th_Season__2-nensei-hen_1_Gakki",
     "jikanType": "TV",
@@ -9406,8 +9697,8 @@
     "currentEpisode": 83,
     "latestEpisodeTitle": "เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4 - ตอนที่ 83 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=shZj-lt7Plg",
-    "latestPublishedAt": "2026-07-02T07:54:03Z",
-    "lastCheckedAt": "2026-07-03T18:05:15.102Z",
+    "latestPublishedAt": "2026-07-03T15:00:06Z",
+    "lastCheckedAt": "2026-07-04T10:24:05.514Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -9416,7 +9707,7 @@
         "title": "เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4 - ตอนที่ 83 [ซับไทย]",
         "videoId": "shZj-lt7Plg",
         "videoUrl": "https://www.youtube.com/watch?v=shZj-lt7Plg",
-        "publishedAt": "2026-07-02T07:54:03Z"
+        "publishedAt": "2026-07-03T15:00:06Z"
       },
       {
         "number": 82,
@@ -9469,13 +9760,6 @@
       },
       {
         "number": 75,
-        "title": "[พากย์ไทย] เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4 - ตอนที่ 75",
-        "videoId": "xH1jqI82njM",
-        "videoUrl": "https://www.youtube.com/watch?v=xH1jqI82njM",
-        "publishedAt": "2026-06-10T06:46:52Z"
-      },
-      {
-        "number": 75,
         "title": "เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4 - ตอนที่ 75 [ซับไทย]",
         "videoId": "eYUjokMCqwA",
         "videoUrl": "https://www.youtube.com/watch?v=eYUjokMCqwA",
@@ -9483,24 +9767,10 @@
       },
       {
         "number": 74,
-        "title": "[พากย์ไทย] เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4 - ตอนที่ 74",
-        "videoId": "3fsH8w_Px9g",
-        "videoUrl": "https://www.youtube.com/watch?v=3fsH8w_Px9g",
-        "publishedAt": "2026-06-26T12:00:06Z"
-      },
-      {
-        "number": 74,
         "title": "เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4 - ตอนที่ 74 [ซับไทย]",
         "videoId": "3XAJZfMwiTo",
         "videoUrl": "https://www.youtube.com/watch?v=3XAJZfMwiTo",
         "publishedAt": "2026-04-24T15:00:06Z"
-      },
-      {
-        "number": 73,
-        "title": "[พากย์ไทย] เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4 - ตอนที่ 73",
-        "videoId": "MqGyXyhnUko",
-        "videoUrl": "https://www.youtube.com/watch?v=MqGyXyhnUko",
-        "publishedAt": "2026-06-19T12:00:06Z"
       },
       {
         "number": 73,
@@ -9811,7 +10081,7 @@
     "latestEpisodeTitle": "วิวาห์แต้มพิษ - ตอนที่ 13 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=yYk0j2HLR_s",
     "latestPublishedAt": "2026-06-30T14:30:06Z",
-    "lastCheckedAt": "2026-07-03T12:53:41.663Z",
+    "lastCheckedAt": "2026-07-04T10:24:05.514Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -9898,13 +10168,6 @@
         "videoId": "6O0op2F0jRs",
         "videoUrl": "https://www.youtube.com/watch?v=6O0op2F0jRs",
         "publishedAt": "2026-04-14T14:30:06Z"
-      },
-      {
-        "number": 1,
-        "title": "[พากย์ไทย] วิวาห์แต้มพิษ - ตอนที่ 01",
-        "videoId": "c_m4JUqdA2A",
-        "videoUrl": "https://www.youtube.com/watch?v=c_m4JUqdA2A",
-        "publishedAt": "2026-06-30T13:00:06Z"
       },
       {
         "number": 1,
@@ -10259,7 +10522,7 @@
     "latestEpisodeTitle": "อิรุมะคุง ผจญในแดนปีศาจ! ซีซั่น 4 - ตอนที่ 14 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=ejeb6tFDnAQ",
     "latestPublishedAt": "2026-07-04T05:11:59Z",
-    "lastCheckedAt": "2026-07-04T08:07:33.300Z",
+    "lastCheckedAt": "2026-07-04T10:24:05.514Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -10349,24 +10612,10 @@
       },
       {
         "number": 2,
-        "title": "[พากย์ไทย] อิรุมะคุง ผจญในแดนปีศาจ! ซีซั่น 4 - ตอนที่ 02",
-        "videoId": "Ht8ZF4UAxBY",
-        "videoUrl": "https://www.youtube.com/watch?v=Ht8ZF4UAxBY",
-        "publishedAt": "2026-06-27T12:00:06Z"
-      },
-      {
-        "number": 2,
         "title": "อิรุมะคุง ผจญในแดนปีศาจ! ซีซั่น 4 - ตอนที่ 02 [ซับไทย]",
         "videoId": "3aSqt6YiX-s",
         "videoUrl": "https://www.youtube.com/watch?v=3aSqt6YiX-s",
         "publishedAt": "2026-04-11T10:55:06Z"
-      },
-      {
-        "number": 1,
-        "title": "[พากย์ไทย] อิรุมะคุง ผจญในแดนปีศาจ! ซีซั่น 4 - ตอนที่ 01",
-        "videoId": "2DhW0IkRJTc",
-        "videoUrl": "https://www.youtube.com/watch?v=2DhW0IkRJTc",
-        "publishedAt": "2026-06-20T12:00:06Z"
       },
       {
         "number": 1,
@@ -10452,10 +10701,10 @@
     "episodes": "14",
     "premiere": "2026-03-29T00:00:00+00:00",
     "airTimeThai": "เสาร์ 22:00",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "Muse Thailand",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/61443/Shunkashuutou_Daikousha__Haru_no_Mai",
     "genres": [
       "Drama",
@@ -10467,19 +10716,57 @@
     "note": "นำเข้าจาก Jikan spring 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1993/156385l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 13,
+    "latestEpisodeTitle": "ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา - ตอนที่ 13  [ซับไทย]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=SY81r1nEjaY",
+    "latestPublishedAt": "2026-06-26T07:06:41Z",
+    "lastCheckedAt": "2026-07-04T10:24:05.514Z",
+    "updateStatus": "ok",
     "updateError": "",
-    "availableEpisodes": [],
-    "youtubeAliases": [],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "availableEpisodes": [
+      {
+        "number": 13,
+        "title": "ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา - ตอนที่ 13  [ซับไทย]",
+        "videoId": "SY81r1nEjaY",
+        "videoUrl": "https://www.youtube.com/watch?v=SY81r1nEjaY",
+        "publishedAt": "2026-06-26T07:06:41Z"
+      },
+      {
+        "number": 12,
+        "title": "ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา - ตอนที่ 12  [ซับไทย]",
+        "videoId": "btR0yt4Fc8s",
+        "videoUrl": "https://www.youtube.com/watch?v=btR0yt4Fc8s",
+        "publishedAt": "2026-06-27T16:30:06Z"
+      },
+      {
+        "number": 11,
+        "title": "ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา - ตอนที่ 11  [ซับไทย]",
+        "videoId": "NpGw9Yn_R58",
+        "videoUrl": "https://www.youtube.com/watch?v=NpGw9Yn_R58",
+        "publishedAt": "2026-06-20T16:30:06Z"
+      },
+      {
+        "number": 10,
+        "title": "ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา - ตอนที่ 10  [ซับไทย]",
+        "videoId": "W_6qCw_4YhA",
+        "videoUrl": "https://www.youtube.com/watch?v=W_6qCw_4YhA",
+        "publishedAt": "2026-06-13T16:30:06Z"
+      },
+      {
+        "number": 9,
+        "title": "ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา - ตอนที่ 09  [ซับไทย]",
+        "videoId": "MJUIvyel78U",
+        "videoUrl": "https://www.youtube.com/watch?v=MJUIvyel78U",
+        "publishedAt": "2026-06-07T02:53:56Z"
+      }
+    ],
+    "youtubeAliases": [
+      "ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา"
+    ],
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCn8hjQOnGYR1AZtYYMYP5jQ",
+    "youtubeChannelTitle": "Muse Thailand",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "malId": 61443,
     "malUrl": "https://myanimelist.net/anime/61443/Shunkashuutou_Daikousha__Haru_no_Mai",
     "jikanType": "TV",
@@ -10522,7 +10809,7 @@
     "latestEpisodeTitle": "ท่านคานัน ปีศาจต๊อง บ๊องไม่มีใครเกิน  ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=h8ipu2_xGmw",
     "latestPublishedAt": "2026-06-20T16:00:06Z",
-    "lastCheckedAt": "2026-07-03T18:05:13.433Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -10738,10 +11025,10 @@
     "episodes": "12",
     "premiere": "2026-04-11T00:00:00+00:00",
     "airTimeThai": "เสาร์ 21:00",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "It's Anime powered by REMOW",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/62391/Kill_Ao",
     "genres": [
       "Action",
@@ -10753,19 +11040,69 @@
     "note": "นำเข้าจาก Jikan spring 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1899/156600l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 12,
+    "latestEpisodeTitle": "KILL BLUE EP12 • Life Paths | MULTI-SUB [#ItsAnime]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=FbTz1RZpXFc",
+    "latestPublishedAt": "2026-06-27T14:30:17Z",
+    "lastCheckedAt": "2026-07-04T10:24:25.161Z",
+    "updateStatus": "ok",
     "updateError": "",
-    "availableEpisodes": [],
+    "availableEpisodes": [
+      {
+        "number": 12,
+        "title": "KILL BLUE EP12 • Life Paths | MULTI-SUB [#ItsAnime]",
+        "videoId": "FbTz1RZpXFc",
+        "videoUrl": "https://www.youtube.com/watch?v=FbTz1RZpXFc",
+        "publishedAt": "2026-06-27T14:30:17Z"
+      },
+      {
+        "number": 11,
+        "title": "KILL BLUE EP11 • The First Hitman Summit | MULTI-SUB [#ItsAnime]",
+        "videoId": "IzqjgpAFdkg",
+        "videoUrl": "https://www.youtube.com/watch?v=IzqjgpAFdkg",
+        "publishedAt": "2026-06-20T14:30:20Z"
+      },
+      {
+        "number": 10,
+        "title": "KILL BLUE EP10 • DEATH OR KISS | MULTI-SUB [#ItsAnime]",
+        "videoId": "tzGcfZUIqWU",
+        "videoUrl": "https://www.youtube.com/watch?v=tzGcfZUIqWU",
+        "publishedAt": "2026-06-13T14:30:20Z"
+      },
+      {
+        "number": 3,
+        "title": "KILL BLUE EP3 • Wipe Your Own Butt | MULTI-SUB [#ItsAnime]",
+        "videoId": "iqXNPLc7QeI",
+        "videoUrl": "https://www.youtube.com/watch?v=iqXNPLc7QeI",
+        "publishedAt": "2026-04-25T14:30:29Z"
+      },
+      {
+        "number": 2,
+        "title": "KILL BLUE EP2 • Noren Mitsuoka | 6 Audio | MULTI-SUB [#ItsAnime]",
+        "videoId": "bAGEVLi0oow",
+        "videoUrl": "https://www.youtube.com/watch?v=bAGEVLi0oow",
+        "publishedAt": "2026-04-18T14:30:35Z"
+      },
+      {
+        "number": 1,
+        "title": "Adult life lesson #1: learn how to clean up your own mess! Anime: KILL BLUE",
+        "videoId": "3_Mu45FVYvY",
+        "videoUrl": "https://www.youtube.com/watch?v=3_Mu45FVYvY",
+        "publishedAt": "2026-05-27T01:00:00Z"
+      },
+      {
+        "number": 1,
+        "title": "KILL BLUE EP1 • Let's Go to School | 6 Audio | MULTI-SUB [#ItsAnime]",
+        "videoId": "hU7rzDKlH2w",
+        "videoUrl": "https://www.youtube.com/watch?v=hU7rzDKlH2w",
+        "publishedAt": "2026-04-11T14:30:35Z"
+      }
+    ],
     "youtubeAliases": [],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCsj_CYajUSQ2ca8bYCMan9g",
+    "youtubeChannelTitle": "It's Anime powered by REMOW",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "malId": 62391,
     "malUrl": "https://myanimelist.net/anime/62391/Kill_Ao",
     "jikanType": "TV",
@@ -10805,7 +11142,7 @@
     "latestEpisodeTitle": "อาคาเนะ พลิกตำนานวงการราคุโกะ ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=tJ4AI9XMPXc",
     "latestPublishedAt": "2026-06-20T16:00:06Z",
-    "lastCheckedAt": "2026-07-03T18:05:13.433Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -10881,31 +11218,10 @@
       },
       {
         "number": 2,
-        "title": "[พากย์ไทย] อาคาเนะ พลิกตำนานวงการราคุโกะ ตอนที่ 2【Ani-One Thailand】",
-        "videoId": "qadDPIeWXFk",
-        "videoUrl": "https://www.youtube.com/watch?v=qadDPIeWXFk",
-        "publishedAt": "2026-07-03T12:00:01Z"
-      },
-      {
-        "number": 2,
         "title": "อาคาเนะ พลิกตำนานวงการราคุโกะ ตอนที่ 2  [ซับไทย] 【Ani-One Thailand】",
         "videoId": "LJ_T7G00Pv0",
         "videoUrl": "https://www.youtube.com/watch?v=LJ_T7G00Pv0",
         "publishedAt": "2026-04-11T16:00:06Z"
-      },
-      {
-        "number": 1,
-        "title": "[พากย์ไทย] อาคาเนะ พลิกตำนานวงการราคุโกะ ตอนที่ 1【Ani-One Thailand】",
-        "videoId": "my2Zme0LDxs",
-        "videoUrl": "https://www.youtube.com/watch?v=my2Zme0LDxs",
-        "publishedAt": "2026-07-03T16:47:11Z"
-      },
-      {
-        "number": 1,
-        "title": "[พากย์ไทย] อาคาเนะ พลิกตำนานวงการราคุโกะ ตอนที่ 1【Ani-One Thailand】",
-        "videoId": "khKeGehv1oQ",
-        "videoUrl": "https://www.youtube.com/watch?v=khKeGehv1oQ",
-        "publishedAt": "2026-07-03T12:00:02Z"
       },
       {
         "number": 1,
@@ -11364,7 +11680,7 @@
     "latestEpisodeTitle": "โศกนาฏกรรมของตัวร้ายสุดแกร่งอย่างราชินีลาสบอสจะขอถวายตัวเพื่อปวงชน ซีซั่น 2 - ตอนที่ 12  [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=FwkKkF3MPwI",
     "latestPublishedAt": "2026-06-23T13:30:06Z",
-    "lastCheckedAt": "2026-07-03T12:53:41.663Z",
+    "lastCheckedAt": "2026-07-04T10:24:05.514Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -11498,7 +11814,7 @@
     "latestEpisodeTitle": "ปล่อยปลาตัวใหญ่หลุดมือไปก็จริง แต่ไหงถึงได้ปลาตัวใหญ่กว่ามาแทนกันล่ะคะ - ตอนที่ 12 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=MFOUUg2kgHM",
     "latestPublishedAt": "2026-07-01T15:30:06Z",
-    "lastCheckedAt": "2026-07-03T12:53:41.663Z",
+    "lastCheckedAt": "2026-07-04T10:24:05.514Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -11781,7 +12097,7 @@
     "latestEpisodeTitle": "ยอดไก่นักสู้กู้โลก ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=ZsDwtzWkv8I",
     "latestPublishedAt": "2026-06-26T02:42:44Z",
-    "lastCheckedAt": "2026-07-03T18:05:13.433Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -11793,32 +12109,11 @@
         "publishedAt": "2026-06-26T02:42:44Z"
       },
       {
-        "number": 12,
-        "title": "[พากย์ไทย] ยอดไก่นักสู้กู้โลก ตอนที่ 12【Ani-One Thailand】",
-        "videoId": "okFcKCAwoxM",
-        "videoUrl": "https://www.youtube.com/watch?v=okFcKCAwoxM",
-        "publishedAt": "2026-05-28T04:49:34Z"
-      },
-      {
         "number": 11,
         "title": "ยอดไก่นักสู้กู้โลก ตอนที่ 11  [ซับไทย]【Ani-One Thailand】",
         "videoId": "-kJ1gKqicQw",
         "videoUrl": "https://www.youtube.com/watch?v=-kJ1gKqicQw",
         "publishedAt": "2026-06-28T08:00:06Z"
-      },
-      {
-        "number": 11,
-        "title": "[พากย์ไทย] ยอดไก่นักสู้กู้โลก ตอนที่ 11【Ani-One Thailand】",
-        "videoId": "QMDyJ-uUVCQ",
-        "videoUrl": "https://www.youtube.com/watch?v=QMDyJ-uUVCQ",
-        "publishedAt": "2026-06-28T08:00:06Z"
-      },
-      {
-        "number": 10,
-        "title": "[พากย์ไทย] ยอดไก่นักสู้กู้โลก ตอนที่ 10【Ani-One Thailand】",
-        "videoId": "BP_G1d6HrD0",
-        "videoUrl": "https://www.youtube.com/watch?v=BP_G1d6HrD0",
-        "publishedAt": "2026-06-21T08:00:06Z"
       },
       {
         "number": 10,
@@ -11835,24 +12130,10 @@
         "publishedAt": "2026-06-14T08:00:06Z"
       },
       {
-        "number": 9,
-        "title": "[พากย์ไทย] ยอดไก่นักสู้กู้โลก ตอนที่ 9【Ani-One Thailand】",
-        "videoId": "ZVRvDd5NGMA",
-        "videoUrl": "https://www.youtube.com/watch?v=ZVRvDd5NGMA",
-        "publishedAt": "2026-06-14T08:00:06Z"
-      },
-      {
         "number": 8,
         "title": "ยอดไก่นักสู้กู้โลก ตอนที่ 8  [ซับไทย]【Ani-One Thailand】",
         "videoId": "Tpkfl51IKUg",
         "videoUrl": "https://www.youtube.com/watch?v=Tpkfl51IKUg",
-        "publishedAt": "2026-06-07T08:00:06Z"
-      },
-      {
-        "number": 8,
-        "title": "[พากย์ไทย] ยอดไก่นักสู้กู้โลก ตอนที่ 8【Ani-One Thailand】",
-        "videoId": "Wrh40wZLS8U",
-        "videoUrl": "https://www.youtube.com/watch?v=Wrh40wZLS8U",
         "publishedAt": "2026-06-07T08:00:06Z"
       },
       {
@@ -11863,24 +12144,10 @@
         "publishedAt": "2026-05-31T08:00:06Z"
       },
       {
-        "number": 7,
-        "title": "[พากย์ไทย] ยอดไก่นักสู้กู้โลก ตอนที่ 7【Ani-One Thailand】",
-        "videoId": "mxKLjypsc0U",
-        "videoUrl": "https://www.youtube.com/watch?v=mxKLjypsc0U",
-        "publishedAt": "2026-05-31T08:00:06Z"
-      },
-      {
         "number": 6,
         "title": "ยอดไก่นักสู้กู้โลก ตอนที่ 6  [ซับไทย]【Ani-One Thailand】",
         "videoId": "-BNNQBzHd2M",
         "videoUrl": "https://www.youtube.com/watch?v=-BNNQBzHd2M",
-        "publishedAt": "2026-05-24T08:00:06Z"
-      },
-      {
-        "number": 6,
-        "title": "[พากย์ไทย] ยอดไก่นักสู้กู้โลก ตอนที่ 6【Ani-One Thailand】",
-        "videoId": "Zc2Mqmw97F8",
-        "videoUrl": "https://www.youtube.com/watch?v=Zc2Mqmw97F8",
         "publishedAt": "2026-05-24T08:00:06Z"
       },
       {
@@ -11891,32 +12158,11 @@
         "publishedAt": "2026-05-19T03:56:41Z"
       },
       {
-        "number": 5,
-        "title": "[พากย์ไทย] ยอดไก่นักสู้กู้โลก ตอนที่ 5【Ani-One Thailand】",
-        "videoId": "g0owIBFZbio",
-        "videoUrl": "https://www.youtube.com/watch?v=g0owIBFZbio",
-        "publishedAt": "2026-05-17T08:00:06Z"
-      },
-      {
         "number": 4,
         "title": "ยอดไก่นักสู้กู้โลก ตอนที่ 4  [ซับไทย]【Ani-One Thailand】",
         "videoId": "fHIsNXVtEsU",
         "videoUrl": "https://www.youtube.com/watch?v=fHIsNXVtEsU",
         "publishedAt": "2026-05-10T08:25:52Z"
-      },
-      {
-        "number": 4,
-        "title": "[พากย์ไทย] ยอดไก่นักสู้กู้โลก ตอนที่ 4【Ani-One Thailand】",
-        "videoId": "WdzCdUQP2Yk",
-        "videoUrl": "https://www.youtube.com/watch?v=WdzCdUQP2Yk",
-        "publishedAt": "2026-05-10T08:00:06Z"
-      },
-      {
-        "number": 3,
-        "title": "[พากย์ไทย] ยอดไก่นักสู้กู้โลก ตอนที่ 3【Ani-One Thailand】",
-        "videoId": "aAeAvQCkims",
-        "videoUrl": "https://www.youtube.com/watch?v=aAeAvQCkims",
-        "publishedAt": "2026-05-03T08:00:06Z"
       },
       {
         "number": 3,
@@ -11927,24 +12173,10 @@
       },
       {
         "number": 2,
-        "title": "[พากย์ไทย] ยอดไก่นักสู้กู้โลก ตอนที่ 2【Ani-One Thailand】",
-        "videoId": "9VQzPq4dqT8",
-        "videoUrl": "https://www.youtube.com/watch?v=9VQzPq4dqT8",
-        "publishedAt": "2026-04-26T08:00:21Z"
-      },
-      {
-        "number": 2,
         "title": "ยอดไก่นักสู้กู้โลก ตอนที่ 2  [ซับไทย]【Ani-One Thailand】",
         "videoId": "I7M9FaI4pNk",
         "videoUrl": "https://www.youtube.com/watch?v=I7M9FaI4pNk",
         "publishedAt": "2026-04-26T08:00:06Z"
-      },
-      {
-        "number": 1,
-        "title": "[พากย์ไทย] ยอดไก่นักสู้กู้โลก ตอนที่ 1【Ani-One Thailand】",
-        "videoId": "03aa4egZbzM",
-        "videoUrl": "https://www.youtube.com/watch?v=03aa4egZbzM",
-        "publishedAt": "2026-04-19T08:00:07Z"
       },
       {
         "number": 1,
@@ -12000,7 +12232,7 @@
     "latestEpisodeTitle": "ห้องเรียนเวทมนตร์กับคุณแมวดำ ตอนที่ 13 [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=2hgQP9tfPTM",
     "latestPublishedAt": "2026-07-03T10:52:57Z",
-    "lastCheckedAt": "2026-07-03T18:05:13.433Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -12145,7 +12377,7 @@
     "latestEpisodeTitle": "MAO หาญสู้พลิกชะตาอาถรรพณ์ ตอนที่ 14  [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=1rIfOnXhNz8",
     "latestPublishedAt": "2026-07-03T10:51:13Z",
-    "lastCheckedAt": "2026-07-03T18:05:13.433Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -12304,7 +12536,7 @@
     "latestEpisodeTitle": "บ้านพักคุสึโนกิกับสวนเทพเจ้า ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=Kjc918fOFFI",
     "latestPublishedAt": "2026-06-20T16:30:06Z",
-    "lastCheckedAt": "2026-07-03T18:05:13.433Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -12338,24 +12570,10 @@
       },
       {
         "number": 8,
-        "title": "[พากย์ไทย] บ้านพักคุสึโนกิกับสวนเทพเจ้า ตอนที่ 8【Ani-One Thailand】",
-        "videoId": "bH0EJjQxZIw",
-        "videoUrl": "https://www.youtube.com/watch?v=bH0EJjQxZIw",
-        "publishedAt": "2026-06-29T12:00:06Z"
-      },
-      {
-        "number": 8,
         "title": "บ้านพักคุสึโนกิกับสวนเทพเจ้า ตอนที่ 8  [ซับไทย]【Ani-One Thailand】",
         "videoId": "ScRLScICgAw",
         "videoUrl": "https://www.youtube.com/watch?v=ScRLScICgAw",
         "publishedAt": "2026-05-23T16:30:06Z"
-      },
-      {
-        "number": 7,
-        "title": "[พากย์ไทย] บ้านพักคุสึโนกิกับสวนเทพเจ้า ตอนที่ 7【Ani-One Thailand】",
-        "videoId": "Mf50_RIxY_U",
-        "videoUrl": "https://www.youtube.com/watch?v=Mf50_RIxY_U",
-        "publishedAt": "2026-06-29T12:00:06Z"
       },
       {
         "number": 7,
@@ -12366,24 +12584,10 @@
       },
       {
         "number": 6,
-        "title": "[พากย์ไทย] บ้านพักคุสึโนกิกับสวนเทพเจ้า ตอนที่ 6【Ani-One Thailand】",
-        "videoId": "X1vdslZj7KY",
-        "videoUrl": "https://www.youtube.com/watch?v=X1vdslZj7KY",
-        "publishedAt": "2026-06-22T12:00:07Z"
-      },
-      {
-        "number": 6,
         "title": "บ้านพักคุสึโนกิกับสวนเทพเจ้า ตอนที่ 6  [ซับไทย]【Ani-One Thailand】",
         "videoId": "Jxfz0kk5StQ",
         "videoUrl": "https://www.youtube.com/watch?v=Jxfz0kk5StQ",
         "publishedAt": "2026-05-09T16:30:21Z"
-      },
-      {
-        "number": 5,
-        "title": "[พากย์ไทย] บ้านพักคุสึโนกิกับสวนเทพเจ้า ตอนที่ 5【Ani-One Thailand】",
-        "videoId": "ZnEc1i8gnOw",
-        "videoUrl": "https://www.youtube.com/watch?v=ZnEc1i8gnOw",
-        "publishedAt": "2026-06-22T12:00:06Z"
       },
       {
         "number": 5,
@@ -12394,24 +12598,10 @@
       },
       {
         "number": 4,
-        "title": "[พากย์ไทย] บ้านพักคุสึโนกิกับสวนเทพเจ้า ตอนที่ 4【Ani-One Thailand】",
-        "videoId": "vVkZwWeG6C8",
-        "videoUrl": "https://www.youtube.com/watch?v=vVkZwWeG6C8",
-        "publishedAt": "2026-06-15T12:00:06Z"
-      },
-      {
-        "number": 4,
         "title": "บ้านพักคุสึโนกิกับสวนเทพเจ้า ตอนที่ 4  [ซับไทย]【Ani-One Thailand】",
         "videoId": "1DxvCKWpSEE",
         "videoUrl": "https://www.youtube.com/watch?v=1DxvCKWpSEE",
         "publishedAt": "2026-04-25T16:40:06Z"
-      },
-      {
-        "number": 3,
-        "title": "[พากย์ไทย] บ้านพักคุสึโนกิกับสวนเทพเจ้า ตอนที่ 3【Ani-One Thailand】",
-        "videoId": "70KkhUfqAq4",
-        "videoUrl": "https://www.youtube.com/watch?v=70KkhUfqAq4",
-        "publishedAt": "2026-06-15T12:00:06Z"
       },
       {
         "number": 3,
@@ -12422,24 +12612,10 @@
       },
       {
         "number": 2,
-        "title": "[พากย์ไทย] บ้านพักคุสึโนกิกับสวนเทพเจ้า ตอนที่ 2【Ani-One Thailand】",
-        "videoId": "xnFR-DXc_p4",
-        "videoUrl": "https://www.youtube.com/watch?v=xnFR-DXc_p4",
-        "publishedAt": "2026-06-09T07:08:50Z"
-      },
-      {
-        "number": 2,
         "title": "บ้านพักคุสึโนกิกับสวนเทพเจ้า ตอนที่ 2  [ซับไทย]【Ani-One Thailand】",
         "videoId": "6O45h6QsY7M",
         "videoUrl": "https://www.youtube.com/watch?v=6O45h6QsY7M",
         "publishedAt": "2026-04-11T16:30:06Z"
-      },
-      {
-        "number": 1,
-        "title": "[พากย์ไทย] บ้านพักคุสึโนกิกับสวนเทพเจ้า ตอนที่ 1【Ani-One Thailand】",
-        "videoId": "GvagC0fSa8g",
-        "videoUrl": "https://www.youtube.com/watch?v=GvagC0fSa8g",
-        "publishedAt": "2026-06-08T12:00:06Z"
       },
       {
         "number": 1,
@@ -12497,7 +12673,7 @@
     "latestEpisodeTitle": "【English Sub】《My Ribdiculous Reincarnation》｜Episode 09｜TROPICS ENTERTAINMENT",
     "latestVideoUrl": "https://www.youtube.com/watch?v=7Mi8mnw7Wxo",
     "latestPublishedAt": "2026-07-01T12:00:07Z",
-    "lastCheckedAt": "2026-07-03T12:53:44.670Z",
+    "lastCheckedAt": "2026-07-04T10:24:22.995Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -12755,7 +12931,7 @@
     "latestEpisodeTitle": "สโนว์บอลเอิร์ธ - ตอนที่ 13 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=aIJCMlRmqSs",
     "latestPublishedAt": "2026-06-29T07:15:06Z",
-    "lastCheckedAt": "2026-07-03T12:53:41.663Z",
+    "lastCheckedAt": "2026-07-04T10:24:05.514Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13140,7 +13316,7 @@
     "latestEpisodeTitle": "หนึ่งร้อยทิวทัศน์แห่งอาวาจิมะ ตอนที่ 12   [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=DQXEpra0hmY",
     "latestPublishedAt": "2026-06-25T16:45:06Z",
-    "lastCheckedAt": "2026-07-03T18:05:13.433Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13274,7 +13450,7 @@
     "latestEpisodeTitle": "ผู้กลืนกินมอนสเตอร์ ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=LRf77Cy2Sfs",
     "latestPublishedAt": "2026-07-02T17:15:06Z",
-    "lastCheckedAt": "2026-07-03T18:05:13.433Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13391,10 +13567,10 @@
     "episodes": "11",
     "premiere": "2026-04-12T00:00:00+00:00",
     "airTimeThai": "อาทิตย์ 00:00",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "It's Anime powered by REMOW",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/62018/Ichijouma_Mankitsugurashi",
     "genres": [
       "Comedy",
@@ -13405,19 +13581,97 @@
     "note": "นำเข้าจาก Jikan spring 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1178/155933l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 11,
+    "latestEpisodeTitle": "Ichijyoma Mankitsu Gurashi! EP11 • Manga Cafe Hedgehog | MULTI-SUB [#ItsAnime]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=DjcHcfIBs18",
+    "latestPublishedAt": "2026-06-20T17:00:05Z",
+    "lastCheckedAt": "2026-07-04T10:24:25.161Z",
+    "updateStatus": "ok",
     "updateError": "",
-    "availableEpisodes": [],
+    "availableEpisodes": [
+      {
+        "number": 11,
+        "title": "Ichijyoma Mankitsu Gurashi! EP11 • Manga Cafe Hedgehog | MULTI-SUB [#ItsAnime]",
+        "videoId": "DjcHcfIBs18",
+        "videoUrl": "https://www.youtube.com/watch?v=DjcHcfIBs18",
+        "publishedAt": "2026-06-20T17:00:05Z"
+      },
+      {
+        "number": 10,
+        "title": "Ichijyoma Mankitsu Gurashi! EP10 • Returning to Sacred Ground | MULTI-SUB [#ItsAnime]",
+        "videoId": "bORYBpGR_ms",
+        "videoUrl": "https://www.youtube.com/watch?v=bORYBpGR_ms",
+        "publishedAt": "2026-06-13T17:00:38Z"
+      },
+      {
+        "number": 9,
+        "title": "Ichijyoma Mankitsu Gurashi! EP9 • Marika the Target | MULTI-SUB [#ItsAnime]",
+        "videoId": "BNaF8wQLa6I",
+        "videoUrl": "https://www.youtube.com/watch?v=BNaF8wQLa6I",
+        "publishedAt": "2026-06-06T17:00:34Z"
+      },
+      {
+        "number": 8,
+        "title": "Ichijyoma Mankitsu Gurashi! EP8 • Aiming for the Top! The Amamiya Sports Festival | MULTI-SUB",
+        "videoId": "C--7t2XiXXY",
+        "videoUrl": "https://www.youtube.com/watch?v=C--7t2XiXXY",
+        "publishedAt": "2026-05-30T17:00:22Z"
+      },
+      {
+        "number": 7,
+        "title": "Ichijyoma Mankitsu Gurashi! EP7 • Enjoying Manga Cafe Life | MULTI-SUB [#ItsAnime]",
+        "videoId": "gyKHit4mQe8",
+        "videoUrl": "https://www.youtube.com/watch?v=gyKHit4mQe8",
+        "publishedAt": "2026-05-23T17:00:37Z"
+      },
+      {
+        "number": 6,
+        "title": "Ichijyoma Mankitsu Gurashi! EP6 • The Magic Appraiser☆Magical Momorin | MULTI-SUB [#ItsAnime]",
+        "videoId": "1jq0Gm-31Gc",
+        "videoUrl": "https://www.youtube.com/watch?v=1jq0Gm-31Gc",
+        "publishedAt": "2026-05-16T17:00:03Z"
+      },
+      {
+        "number": 5,
+        "title": "Ichijyoma Mankitsu Gurashi! EP5 • Meiko's Homecoming | MULTI-SUB [#ItsAnime]",
+        "videoId": "87Uz97PRGkc",
+        "videoUrl": "https://www.youtube.com/watch?v=87Uz97PRGkc",
+        "publishedAt": "2026-05-09T17:00:16Z"
+      },
+      {
+        "number": 4,
+        "title": "Ichijyoma Mankitsu Gurashi! EP4 • It's Summer! It's Hot! Let's Go to the Tropics! | MULTI-SUB",
+        "videoId": "g0utGN1WwI0",
+        "videoUrl": "https://www.youtube.com/watch?v=g0utGN1WwI0",
+        "publishedAt": "2026-05-02T17:10:00Z"
+      },
+      {
+        "number": 3,
+        "title": "Ichijyoma Mankitsu Gurashi! EP3 • Rivals! Cat VS Hedgehog | MULTI-SUB [#ItsAnime]",
+        "videoId": "m2VPsT6N_yk",
+        "videoUrl": "https://www.youtube.com/watch?v=m2VPsT6N_yk",
+        "publishedAt": "2026-04-25T17:10:00Z"
+      },
+      {
+        "number": 2,
+        "title": "Ichijyoma Mankitsu Gurashi! EP2 • Hedgehog is Closing? Gotta Turn It Around! | MULTI-SUB [#ItsAnime]",
+        "videoId": "_TN24ADAcgc",
+        "videoUrl": "https://www.youtube.com/watch?v=_TN24ADAcgc",
+        "publishedAt": "2026-04-18T17:30:16Z"
+      },
+      {
+        "number": 1,
+        "title": "Ichijyoma Mankitsu Gurashi! EP1・Moving to Tokyo? What'll Happen to Meiko? | MULTI-SUB [#ItsAnime]",
+        "videoId": "rxV0x9Qad4A",
+        "videoUrl": "https://www.youtube.com/watch?v=rxV0x9Qad4A",
+        "publishedAt": "2026-04-13T10:01:30Z"
+      }
+    ],
     "youtubeAliases": [],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCsj_CYajUSQ2ca8bYCMan9g",
+    "youtubeChannelTitle": "It's Anime powered by REMOW",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "malId": 62018,
     "malUrl": "https://myanimelist.net/anime/62018/Ichijouma_Mankitsugurashi",
     "jikanType": "TV",
@@ -13456,7 +13710,7 @@
     "latestEpisodeTitle": "คิริโอะแฟนคลับ ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=ISzVk113xYk",
     "latestPublishedAt": "2026-06-18T16:00:06Z",
-    "lastCheckedAt": "2026-07-03T18:05:13.433Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13642,7 +13896,7 @@
     "latestEpisodeTitle": "การย้อนเวลาของมหาปราชญ์ริดเดิล ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=9dVHDK-W51Q",
     "latestPublishedAt": "2026-07-03T10:22:20Z",
-    "lastCheckedAt": "2026-07-03T18:05:13.433Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13826,7 +14080,7 @@
     "latestEpisodeTitle": "ยามเมื่อคุจิมะขับขาน ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=-SZgih6gJJk",
     "latestPublishedAt": "2026-06-25T14:00:06Z",
-    "lastCheckedAt": "2026-07-03T18:05:13.433Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13962,8 +14216,8 @@
     "currentEpisode": 9,
     "latestEpisodeTitle": "【Subtitle Indonesia】《The Drops of God》｜Episode 09｜TROPICS ENTERTAINMENT",
     "latestVideoUrl": "https://www.youtube.com/watch?v=Yvgjx4MzEsM",
-    "latestPublishedAt": "2026-06-11T03:04:41Z",
-    "lastCheckedAt": "2026-07-03T12:53:44.671Z",
+    "latestPublishedAt": "2026-07-03T12:00:07Z",
+    "lastCheckedAt": "2026-07-04T10:24:22.995Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13972,14 +14226,14 @@
         "title": "【Subtitle Indonesia】《The Drops of God》｜Episode 09｜TROPICS ENTERTAINMENT",
         "videoId": "Yvgjx4MzEsM",
         "videoUrl": "https://www.youtube.com/watch?v=Yvgjx4MzEsM",
-        "publishedAt": "2026-06-11T03:04:41Z"
+        "publishedAt": "2026-07-03T12:00:07Z"
       },
       {
         "number": 9,
         "title": "【English Sub】《The Drops of God》｜Episode 09｜TROPICS ENTERTAINMENT",
         "videoId": "ihUGW9vl4TM",
         "videoUrl": "https://www.youtube.com/watch?v=ihUGW9vl4TM",
-        "publishedAt": "2026-06-11T03:04:20Z"
+        "publishedAt": "2026-07-03T12:00:06Z"
       },
       {
         "number": 8,
@@ -14185,7 +14439,7 @@
     "latestEpisodeTitle": "โกสต์คอนเสิร์ต : บทเพลงที่หายไป ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=RGvOUY7mXfQ",
     "latestPublishedAt": "2026-06-21T15:30:06Z",
-    "lastCheckedAt": "2026-07-03T18:05:13.433Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -14302,10 +14556,10 @@
     "episodes": "12",
     "premiere": "2026-04-07T00:00:00+00:00",
     "airTimeThai": "อังคาร 19:55",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "Ani-One Thailand",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/63469/Hyakki_Yakoushou",
     "genres": [
       "Horror",
@@ -14319,19 +14573,99 @@
     "note": "นำเข้าจาก Jikan spring 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1589/156720l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 11,
+    "latestEpisodeTitle": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล ตอนที่ 11  [ซับไทย] 【Ani-One Thailand】",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=mf5ofkc9S0Q",
+    "latestPublishedAt": "2026-06-30T13:00:06Z",
+    "lastCheckedAt": "2026-07-04T10:24:18.832Z",
+    "updateStatus": "ok",
     "updateError": "",
-    "availableEpisodes": [],
-    "youtubeAliases": [],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "availableEpisodes": [
+      {
+        "number": 11,
+        "title": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล ตอนที่ 11  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "mf5ofkc9S0Q",
+        "videoUrl": "https://www.youtube.com/watch?v=mf5ofkc9S0Q",
+        "publishedAt": "2026-06-30T13:00:06Z"
+      },
+      {
+        "number": 10,
+        "title": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล ตอนที่ 10  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "B6lwqaTYJq0",
+        "videoUrl": "https://www.youtube.com/watch?v=B6lwqaTYJq0",
+        "publishedAt": "2026-06-23T13:00:06Z"
+      },
+      {
+        "number": 9,
+        "title": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล ตอนที่ 9  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "njPT2Bw9heg",
+        "videoUrl": "https://www.youtube.com/watch?v=njPT2Bw9heg",
+        "publishedAt": "2026-06-16T13:00:06Z"
+      },
+      {
+        "number": 8,
+        "title": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล ตอนที่ 8  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "54zptTz886s",
+        "videoUrl": "https://www.youtube.com/watch?v=54zptTz886s",
+        "publishedAt": "2026-06-09T13:00:06Z"
+      },
+      {
+        "number": 7,
+        "title": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล ตอนที่ 7  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "0ofe1jCWZt4",
+        "videoUrl": "https://www.youtube.com/watch?v=0ofe1jCWZt4",
+        "publishedAt": "2026-06-02T13:00:06Z"
+      },
+      {
+        "number": 6,
+        "title": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล ตอนที่ 6  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "QPdeiqzVFdE",
+        "videoUrl": "https://www.youtube.com/watch?v=QPdeiqzVFdE",
+        "publishedAt": "2026-05-26T13:00:06Z"
+      },
+      {
+        "number": 5,
+        "title": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล ตอนที่ 5  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "aia0NUte99w",
+        "videoUrl": "https://www.youtube.com/watch?v=aia0NUte99w",
+        "publishedAt": "2026-05-19T13:00:06Z"
+      },
+      {
+        "number": 4,
+        "title": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล ตอนที่ 4  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "bIO5yRhivZk",
+        "videoUrl": "https://www.youtube.com/watch?v=bIO5yRhivZk",
+        "publishedAt": "2026-05-12T13:00:06Z"
+      },
+      {
+        "number": 3,
+        "title": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล ตอนที่ 3  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "ij5frwIZMuc",
+        "videoUrl": "https://www.youtube.com/watch?v=ij5frwIZMuc",
+        "publishedAt": "2026-05-05T13:00:06Z"
+      },
+      {
+        "number": 2,
+        "title": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล ตอนที่ 2  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "o1IDlDO3jBA",
+        "videoUrl": "https://www.youtube.com/watch?v=o1IDlDO3jBA",
+        "publishedAt": "2026-04-28T13:00:06Z"
+      },
+      {
+        "number": 1,
+        "title": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล ตอนที่ 1  [ซับไทย] 【Ani-One Thailand】",
+        "videoId": "PTVitEjLVSQ",
+        "videoUrl": "https://www.youtube.com/watch?v=PTVitEjLVSQ",
+        "publishedAt": "2026-04-21T13:00:06Z"
+      }
+    ],
+    "youtubeAliases": [
+      "บันทึกขบวนร้อยอสูรแห่งรัตติกาล"
+    ],
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCw2bdNSXh4x6e0NCduVoxMQ",
+    "youtubeChannelTitle": "Ani-One Thailand",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "malId": 63469,
     "malUrl": "https://myanimelist.net/anime/63469/Hyakki_Yakoushou",
     "jikanType": "TV",
@@ -14353,10 +14687,10 @@
     "episodes": "?",
     "premiere": "2026-04-04T00:00:00+00:00",
     "airTimeThai": "เสาร์ 07:25",
-    "channel": "ยังไม่ประกาศช่องทางไทย",
-    "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "channel": "Muse Thailand",
+    "platform": "YouTube",
+    "status": "available",
+    "confidence": "confirmed_from_official_channel_uploads",
     "link": "https://myanimelist.net/anime/60153/Rilakkuma",
     "genres": [
       "Slice of Life",
@@ -14367,19 +14701,138 @@
     "note": "นำเข้าจาก Jikan spring 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1705/158571l.webp",
     "playlistId": "",
-    "currentEpisode": 0,
-    "latestEpisodeTitle": "",
-    "latestVideoUrl": "",
-    "latestPublishedAt": "",
-    "lastCheckedAt": "",
-    "updateStatus": "no_playlist",
+    "currentEpisode": 14,
+    "latestEpisodeTitle": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 14 [ซับไทย]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=HN4C7Q8vsQM",
+    "latestPublishedAt": "2026-07-04T01:00:06Z",
+    "lastCheckedAt": "2026-07-04T10:24:05.514Z",
+    "updateStatus": "ok",
     "updateError": "",
-    "availableEpisodes": [],
-    "youtubeAliases": [],
-    "youtubeSourceType": "",
-    "youtubeChannelId": "",
-    "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "",
+    "availableEpisodes": [
+      {
+        "number": 14,
+        "title": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 14 [ซับไทย]",
+        "videoId": "HN4C7Q8vsQM",
+        "videoUrl": "https://www.youtube.com/watch?v=HN4C7Q8vsQM",
+        "publishedAt": "2026-07-04T01:00:06Z"
+      },
+      {
+        "number": 13,
+        "title": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 13 [ซับไทย]",
+        "videoId": "MR20kTGZJHw",
+        "videoUrl": "https://www.youtube.com/watch?v=MR20kTGZJHw",
+        "publishedAt": "2026-06-27T01:00:06Z"
+      },
+      {
+        "number": 12,
+        "title": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 12 [ซับไทย]",
+        "videoId": "kAuvoXIiT9U",
+        "videoUrl": "https://www.youtube.com/watch?v=kAuvoXIiT9U",
+        "publishedAt": "2026-06-20T01:00:01Z"
+      },
+      {
+        "number": 11,
+        "title": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 11 [ซับไทย]",
+        "videoId": "9ZtUrYMiltg",
+        "videoUrl": "https://www.youtube.com/watch?v=9ZtUrYMiltg",
+        "publishedAt": "2026-06-13T01:00:06Z"
+      },
+      {
+        "number": 10,
+        "startNumber": 6,
+        "endNumber": 10,
+        "title": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 06-10 [ซับไทย]",
+        "videoId": "jr6Kq8tBX6o",
+        "videoUrl": "https://www.youtube.com/watch?v=jr6Kq8tBX6o",
+        "publishedAt": "2026-06-27T10:00:30Z"
+      },
+      {
+        "number": 10,
+        "title": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 10 [ซับไทย]",
+        "videoId": "DAfj-U2zS3U",
+        "videoUrl": "https://www.youtube.com/watch?v=DAfj-U2zS3U",
+        "publishedAt": "2026-06-06T01:00:06Z"
+      },
+      {
+        "number": 9,
+        "title": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 09 [ซับไทย]",
+        "videoId": "c6XZDB4Td8U",
+        "videoUrl": "https://www.youtube.com/watch?v=c6XZDB4Td8U",
+        "publishedAt": "2026-05-30T01:00:06Z"
+      },
+      {
+        "number": 8,
+        "title": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 08 [ซับไทย]",
+        "videoId": "1HyIPSzAQqQ",
+        "videoUrl": "https://www.youtube.com/watch?v=1HyIPSzAQqQ",
+        "publishedAt": "2026-05-23T01:00:06Z"
+      },
+      {
+        "number": 7,
+        "title": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 07 [ซับไทย]",
+        "videoId": "Gs7iMeldrhU",
+        "videoUrl": "https://www.youtube.com/watch?v=Gs7iMeldrhU",
+        "publishedAt": "2026-05-16T01:00:06Z"
+      },
+      {
+        "number": 6,
+        "title": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 06 [ซับไทย]",
+        "videoId": "bsIMdayTcQk",
+        "videoUrl": "https://www.youtube.com/watch?v=bsIMdayTcQk",
+        "publishedAt": "2026-05-09T01:00:06Z"
+      },
+      {
+        "number": 5,
+        "startNumber": 1,
+        "endNumber": 5,
+        "title": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 01-05 [ซับไทย]",
+        "videoId": "knwPkPwCMNw",
+        "videoUrl": "https://www.youtube.com/watch?v=knwPkPwCMNw",
+        "publishedAt": "2026-06-26T10:00:20Z"
+      },
+      {
+        "number": 5,
+        "title": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 05 [ซับไทย]",
+        "videoId": "RLJA4aQVRtc",
+        "videoUrl": "https://www.youtube.com/watch?v=RLJA4aQVRtc",
+        "publishedAt": "2026-05-02T01:00:06Z"
+      },
+      {
+        "number": 4,
+        "title": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 04 [ซับไทย]",
+        "videoId": "gZbGx7tTyGo",
+        "videoUrl": "https://www.youtube.com/watch?v=gZbGx7tTyGo",
+        "publishedAt": "2026-04-25T01:00:06Z"
+      },
+      {
+        "number": 3,
+        "title": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 03 [ซับไทย]",
+        "videoId": "moMCgDuR4_g",
+        "videoUrl": "https://www.youtube.com/watch?v=moMCgDuR4_g",
+        "publishedAt": "2026-04-18T01:00:06Z"
+      },
+      {
+        "number": 2,
+        "title": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 02 [ซับไทย]",
+        "videoId": "_3UuMtexjwU",
+        "videoUrl": "https://www.youtube.com/watch?v=_3UuMtexjwU",
+        "publishedAt": "2026-04-11T01:00:06Z"
+      },
+      {
+        "number": 1,
+        "title": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 01 [ซับไทย]",
+        "videoId": "V0n9-pIC1iY",
+        "videoUrl": "https://www.youtube.com/watch?v=V0n9-pIC1iY",
+        "publishedAt": "2026-04-04T01:00:06Z"
+      }
+    ],
+    "youtubeAliases": [
+      "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย"
+    ],
+    "youtubeSourceType": "channel_uploads",
+    "youtubeChannelId": "UCn8hjQOnGYR1AZtYYMYP5jQ",
+    "youtubeChannelTitle": "Muse Thailand",
+    "youtubeMatchConfidence": "strong_unique_title_match",
     "malId": 60153,
     "malUrl": "https://myanimelist.net/anime/60153/Rilakkuma",
     "jikanType": "TV",
@@ -14556,7 +15009,7 @@
     "latestEpisodeTitle": "CANDY CARIES - ตอนที่ 12 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=NnhNEVQ-1I0",
     "latestPublishedAt": "2026-07-01T16:00:26Z",
-    "lastCheckedAt": "2026-07-03T12:53:41.663Z",
+    "lastCheckedAt": "2026-07-04T10:24:05.514Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -16535,7 +16988,7 @@
     "latestEpisodeTitle": "Ace of Diamond act 2 ซีซั่น 2 - ตอนที่ 13 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=Ngd2-veP5KE",
     "latestPublishedAt": "2026-06-28T09:00:06Z",
-    "lastCheckedAt": "2026-07-03T12:53:41.663Z",
+    "lastCheckedAt": "2026-07-04T10:24:05.514Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
