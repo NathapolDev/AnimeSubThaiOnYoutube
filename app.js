@@ -71,9 +71,21 @@ function posterHtml(item, { thumb = true, eager = false } = {}) {
   const src = thumb ? posterThumb(item.poster) : item.poster;
   return `<img class="poster" src="${escapeHtml(src)}" alt="" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async" onerror="this.hidden=true;this.parentElement.classList.add('is-missing')" /><span class="poster-fallback" aria-hidden="true">ไม่มีรูป</span>`;
 }
+function crunchyrollOf(item) { return item.crunchyroll && item.crunchyroll.seriesUrl ? item.crunchyroll : null; }
+function hasYoutubeSource(item) { return Boolean(item.playlistId || item.latestVideoUrl || (item.availableEpisodes || []).length); }
+function platformNames(item) {
+  const names = [];
+  if (hasYoutubeSource(item)) names.push('YouTube');
+  if (crunchyrollOf(item)) names.push('Crunchyroll');
+  return names.length ? names : ['ยังไม่ประกาศ'];
+}
 function latestText(item) {
   if (Number(item.currentEpisode) > 0) return `ล่าสุด: ตอนที่ ${Number(item.currentEpisode)}`;
-  if (!item.playlistId && !item.latestVideoUrl) return 'รอยืนยันช่องทางซับไทย';
+  if (!item.playlistId && !item.latestVideoUrl) {
+    const cr = crunchyrollOf(item);
+    if (cr && cr.episodeCount > 0) return `Crunchyroll: ตอนที่ ${cr.latestEpisodeNumber}`;
+    return 'รอยืนยันช่องทางซับไทย';
+  }
   return item.status === 'upcoming' ? 'ยังไม่เริ่มฉาย' : 'รอตรวจสอบตอนล่าสุด';
 }
 function channelShort(channel) {
@@ -97,7 +109,9 @@ function isMatch(item) {
   if (!isInCatalogScope(item)) return false;
   if (favoritesOnly && !favorites.has(item.id)) return false;
   if (activeFilter !== 'all' && item.status !== activeFilter) return false;
-  if (activeChannel !== 'all' && item.channel !== activeChannel) return false;
+  if (activeChannel === '__crunchyroll') {
+    if (!crunchyrollOf(item)) return false;
+  } else if (activeChannel !== 'all' && item.channel !== activeChannel) return false;
   if (!query) return true;
   const haystack = normalize([item.titleThai, item.titleOriginal, item.altTitle, item.channel, item.studio, item.source, ...(item.genres || [])].join(' '));
   return haystack.includes(normalize(query));
@@ -148,7 +162,15 @@ function renderStats() {
 function cardTemplate(item, index) {
   const st = statusMap[item.status] || statusMap.upcoming;
   const update = updateMap[item.updateStatus] || updateMap.pending;
-  const watchUrl = safeExternalUrl(item.latestVideoUrl || item.link);
+  const cr = crunchyrollOf(item);
+  const ytIsWatch = Boolean(item.latestVideoUrl || item.playlistId);
+  let watchUrl = safeExternalUrl(item.latestVideoUrl || item.link);
+  let watchLabel = ytIsWatch ? 'ดูตอนล่าสุด' : 'ดูข้อมูลอนิเมะ';
+  // no YouTube source yet -> a Crunchyroll series link beats the MAL info link
+  if (!ytIsWatch && cr && safeExternalUrl(cr.seriesUrl) !== '#') {
+    watchUrl = safeExternalUrl(cr.seriesUrl);
+    watchLabel = 'ดูบน Crunchyroll';
+  }
   const hasWatch = watchUrl !== '#';
   const prog = episodeProgress(item);
   const isFav = favorites.has(item.id);
@@ -160,6 +182,7 @@ function cardTemplate(item, index) {
       </div>
       <div class="badges-bottom">
         <span class="badge channel-badge">${escapeHtml(channelShort(item.channel))}</span>
+        ${cr ? '<span class="badge cr-badge">Crunchyroll</span>' : ''}
         ${Number(item.score) > 0 ? `<span class="badge score-badge">★ ${Number(item.score).toFixed(2)}</span>` : ''}
       </div>
       <button class="fav-btn ${isFav ? 'is-fav' : ''}" type="button" data-fav="${escapeHtml(item.id)}" aria-pressed="${isFav}" aria-label="รายการโปรด">${isFav ? '★' : '☆'}</button>
@@ -170,7 +193,7 @@ function cardTemplate(item, index) {
       ${prog.show ? `<div class="progress" role="img" aria-label="พบตอนจาก YouTube ${prog.current} จาก ${prog.total} ตอน"><i style="width:${prog.percent}%"></i><span>${prog.current}/${prog.total}</span></div>` : ''}
       <div class="meta">${(item.genres || []).slice(0, 3).map(g => `<span class="tag">${escapeHtml(g)}</span>`).join('')}</div>
       <div class="card-footer">
-        ${hasWatch ? `<a class="watch-btn" href="${escapeHtml(watchUrl)}" target="_blank" rel="noopener">▶ ${item.latestVideoUrl || item.playlistId ? 'ดูตอนล่าสุด' : 'ดูข้อมูลอนิเมะ'}</a>` : '<span class="watch-btn is-disabled">รอลิงก์รับชม</span>'}
+        ${hasWatch ? `<a class="watch-btn" href="${escapeHtml(watchUrl)}" target="_blank" rel="noopener">▶ ${watchLabel}</a>` : '<span class="watch-btn is-disabled">รอลิงก์รับชม</span>'}
         <span class="detail-btn">รายละเอียด →</span>
       </div>
     </div></article>`;
@@ -230,24 +253,23 @@ function renderSchedule() {
 // ---------- detail dialog ----------
 function episodeRowsTemplate(episodes) {
   return episodes.map(episode => {
-    const url = safeExternalUrl(episode.videoUrl);
+    const url = safeExternalUrl(episode.videoUrl || episode.url);
     const episodeLabel = episode.startNumber !== undefined && episode.endNumber !== undefined
       ? `ตอนที่ ${escapeHtml(episode.startNumber)}–${escapeHtml(episode.endNumber)}`
       : episode.number !== null && episode.number !== undefined ? `ตอนที่ ${escapeHtml(episode.number)}` : 'ตอนพิเศษ';
     return `<article class="episode-item">
     <div class="episode-number">${episodeLabel}</div>
-    <div class="episode-copy"><strong>${escapeHtml(episode.title || 'ไม่มีชื่อตอน')}</strong><span>${formatDate(episode.publishedAt)}</span></div>
+    <div class="episode-copy"><strong>${escapeHtml(episode.title || 'ไม่มีชื่อตอน')}</strong>${episode.publishedAt ? `<span>${formatDate(episode.publishedAt)}</span>` : ''}</div>
     ${url !== '#' ? `<a class="episode-watch" href="${escapeHtml(url)}" target="_blank" rel="noopener">รับชม</a>` : ''}
   </article>`;
   }).join('');
 }
-function renderEpisodeList(item, limit) {
-  const container = document.querySelector('#episodeList');
-  const loadMore = document.querySelector('#loadMoreEpisodes');
+function renderEpisodeSection({ containerId, loadMoreId, episodes, limit, emptyText }) {
+  const container = document.querySelector(containerId);
+  const loadMore = document.querySelector(loadMoreId);
   if (!container) return;
-  const episodes = Array.isArray(item.availableEpisodes) ? item.availableEpisodes : [];
   if (!episodes.length) {
-    container.innerHTML = '<p class="episode-empty">ยังไม่มีรายการตอนจาก YouTube</p>';
+    container.innerHTML = `<p class="episode-empty">${emptyText}</p>`;
     if (loadMore) loadMore.hidden = true;
     return;
   }
@@ -265,9 +287,11 @@ function showDetail(id, { updateHash = true } = {}) {
   const malUrl = safeExternalUrl(item.malUrl);
   const trailerUrl = safeExternalUrl(item.trailerUrl);
   const playlistUrl = item.playlistId ? safeExternalUrl(`https://www.youtube.com/playlist?list=${item.playlistId}`) : '#';
+  const cr = crunchyrollOf(item);
+  const crSeriesUrl = cr ? safeExternalUrl(cr.seriesUrl) : '#';
   const isFav = favorites.has(item.id);
   dialogContent.innerHTML = `<div class="dialog-grid"><div class="dialog-poster">${posterHtml(item, { thumb: false })}</div><div class="dialog-copy">
-    <p class="eyebrow">${escapeHtml(item.channel)} • ${escapeHtml(item.platform)}</p><h2>${escapeHtml(item.titleThai)}</h2>
+    <p class="eyebrow">${escapeHtml(item.channel)} • ${escapeHtml(platformNames(item).join(' / '))}</p><h2>${escapeHtml(item.titleThai)}</h2>
     <p class="original">${escapeHtml(item.titleOriginal)}${item.altTitle ? `<br>${escapeHtml(item.altTitle)}` : ''}</p><p>${escapeHtml(item.summary)}</p>
     <div class="meta">${(item.genres || []).map(g => `<span class="tag">${escapeHtml(g)}</span>`).join('')}</div>
     <div class="info-grid">
@@ -280,14 +304,21 @@ function showDetail(id, { updateHash = true } = {}) {
       <div class="info"><small>เผยแพร่ตอนล่าสุด</small><strong>${formatDate(item.latestPublishedAt)}</strong></div>
       <div class="info"><small>ตรวจสอบล่าสุด</small><strong>${formatDate(item.lastCheckedAt)}</strong></div>
     </div>${item.updateError ? `<p class="update-error-text">${escapeHtml(item.updateError)}</p>` : ''}
-    <section class="episode-section" aria-labelledby="episodeHeading">
-      <div class="episode-heading"><div><p class="eyebrow">YouTube Episodes</p><h3 id="episodeHeading">ตอนที่รับชมได้</h3></div><span>${availableEpisodeCount(item.availableEpisodes)} ตอน</span></div>
-      <div id="episodeList" class="episode-list"></div>
-      <button id="loadMoreEpisodes" class="load-more-btn" type="button" hidden>ดูตอนเก่ากว่า</button>
+    <section class="episode-section" aria-labelledby="episodeHeadingYt">
+      <div class="episode-heading"><div><p class="eyebrow">YouTube</p><h3 id="episodeHeadingYt">ตอนที่รับชมได้</h3></div><span>${availableEpisodeCount(item.availableEpisodes)} ตอน</span></div>
+      <div id="episodeListYt" class="episode-list"></div>
+      <button id="loadMoreYt" class="load-more-btn" type="button" hidden>ดูตอนเก่ากว่า</button>
     </section>
+    ${cr ? `<section class="episode-section" aria-labelledby="episodeHeadingCr">
+      <div class="episode-heading"><div><p class="eyebrow">Crunchyroll</p><h3 id="episodeHeadingCr">ตอนที่รับชมได้</h3></div><span>${Number(cr.episodeCount) || 0} ตอน</span></div>
+      <p class="episode-note">ตามข้อมูล Crunchyroll สากล — โปรดตรวจสอบซับไทยในแอป</p>
+      <div id="episodeListCr" class="episode-list"></div>
+      <button id="loadMoreCr" class="load-more-btn" type="button" hidden>ดูตอนเก่ากว่า</button>
+    </section>` : ''}
     <div class="dialog-actions">
       ${watchUrl !== '#' ? `<a class="primary-btn" href="${escapeHtml(watchUrl)}" target="_blank" rel="noopener">${item.latestVideoUrl || item.playlistId ? '▶ ดูตอนล่าสุด' : 'ดูข้อมูลอนิเมะ'}</a>` : ''}
       ${playlistUrl !== '#' ? `<a class="secondary-btn" href="${escapeHtml(playlistUrl)}" target="_blank" rel="noopener">Playlist ทั้งหมด</a>` : ''}
+      ${crSeriesUrl !== '#' ? `<a class="secondary-btn" href="${escapeHtml(crSeriesUrl)}" target="_blank" rel="noopener">ดูบน Crunchyroll</a>` : ''}
       ${trailerUrl !== '#' ? `<a class="secondary-btn" href="${escapeHtml(trailerUrl)}" target="_blank" rel="noopener">ตัวอย่าง</a>` : ''}
       ${malUrl !== '#' ? `<a class="secondary-btn" href="${escapeHtml(malUrl)}" target="_blank" rel="noopener">MyAnimeList</a>` : ''}
       <button class="secondary-btn fav-toggle" type="button" data-fav="${escapeHtml(item.id)}" aria-pressed="${isFav}">${isFav ? '★ อยู่ในรายการโปรด' : '☆ เพิ่มรายการโปรด'}</button>
@@ -296,12 +327,24 @@ function showDetail(id, { updateHash = true } = {}) {
   </div></div>`;
   if (!dialog.open) dialog.showModal();
   dialog.scrollTop = 0;
-  let episodeLimit = 10;
-  renderEpisodeList(item, episodeLimit);
-  document.querySelector('#loadMoreEpisodes')?.addEventListener('click', () => {
-    episodeLimit += 10;
-    renderEpisodeList(item, episodeLimit);
+  let ytLimit = 10;
+  const ytEpisodes = Array.isArray(item.availableEpisodes) ? item.availableEpisodes : [];
+  const renderYt = () => renderEpisodeSection({
+    containerId: '#episodeListYt', loadMoreId: '#loadMoreYt', episodes: ytEpisodes, limit: ytLimit,
+    emptyText: 'ยังไม่มีรายการตอนจาก YouTube'
   });
+  renderYt();
+  document.querySelector('#loadMoreYt')?.addEventListener('click', () => { ytLimit += 10; renderYt(); });
+  if (cr) {
+    let crLimit = 10;
+    const crEpisodes = Array.isArray(cr.availableEpisodes) ? cr.availableEpisodes : [];
+    const renderCr = () => renderEpisodeSection({
+      containerId: '#episodeListCr', loadMoreId: '#loadMoreCr', episodes: crEpisodes, limit: crLimit,
+      emptyText: 'ยังไม่มีรายการตอนจาก Crunchyroll'
+    });
+    renderCr();
+    document.querySelector('#loadMoreCr')?.addEventListener('click', () => { crLimit += 10; renderCr(); });
+  }
   if (updateHash) history.replaceState(null, '', `#a=${encodeURIComponent(item.id)}`);
 }
 async function shareItem(id, button) {
@@ -351,7 +394,8 @@ const channelFilters = document.querySelector('.channel-filters');
 const channels = [...new Set(data.filter(item => item.jikanType === 'TV' && item.channel && !item.channel.includes('ยังไม่')).map(item => item.channel))].sort();
 channelFilters.insertAdjacentHTML('beforeend',
   `<button class="chip active" type="button" data-channel="all">ทุกช่องทาง</button>` +
-  channels.map(channel => `<button class="chip" type="button" data-channel="${escapeHtml(channel)}">${escapeHtml(channel)}</button>`).join(''));
+  channels.map(channel => `<button class="chip" type="button" data-channel="${escapeHtml(channel)}">${escapeHtml(channel)}</button>`).join('') +
+  (data.some(item => item.jikanType === 'TV' && crunchyrollOf(item)) ? `<button class="chip" type="button" data-channel="__crunchyroll">Crunchyroll</button>` : ''));
 channelFilters.querySelectorAll('.chip').forEach(chip => chip.addEventListener('click', () => {
   channelFilters.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
   chip.classList.add('active'); activeChannel = chip.dataset.channel; catalogLimit = 48; render();

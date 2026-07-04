@@ -6,7 +6,9 @@ function safeExternalUrl(value, fallback = '#') {
       || hostname === 'youtube.com'
       || hostname.endsWith('.youtube.com')
       || hostname === 'myanimelist.net'
-      || hostname.endsWith('.myanimelist.net');
+      || hostname.endsWith('.myanimelist.net')
+      || hostname === 'crunchyroll.com'
+      || hostname.endsWith('.crunchyroll.com');
 
     return url.protocol === 'https:' && allowedHost ? url.href : fallback;
   } catch {
