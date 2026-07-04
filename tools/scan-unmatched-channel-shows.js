@@ -9,7 +9,7 @@ const CHANNELS_PATH = path.join(ROOT, 'data', 'youtube-channels.json');
 const OUTPUT_PATH = path.join(ROOT, 'data', 'thai-title-candidates.json');
 const API_ROOT = 'https://www.googleapis.com/youtube/v3';
 const RECENT_DAYS = 60;
-const MAX_EPISODES_PER_SHOW = 20;
+const MAX_EPISODES_PER_SHOW = 100;
 
 const normalizeTitle = value => String(value || '').toLowerCase().normalize('NFKC').replace(/[^\p{L}\p{N}]+/gu, ' ').replace(/\s+/g, ' ').trim();
 
