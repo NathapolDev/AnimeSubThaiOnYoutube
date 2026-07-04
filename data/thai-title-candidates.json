@@ -1,8 +1,10 @@
 {
-  "generatedAt": "2026-07-03T10:47:12.873Z",
-  "year": 2026,
-  "unmatchedAnimeCount": 230,
-  "candidateShowCount": 134,
+  "generatedAt": "2026-07-04T10:25:02.178Z",
+  "years": [
+    2026
+  ],
+  "unmatchedAnimeCount": 213,
+  "candidateShowCount": 136,
   "instructions": [
     "Each entry is a show name (extracted from real episode uploads) not yet linked to any anime.json entry.",
     "Cross-reference showName against unmatched anime titleOriginal/titleThai using translation knowledge.",
@@ -11,11 +13,102 @@
   ],
   "candidates": [
     {
-      "showName": "วาดเรื่องนี้ก่อนแล้วค่อยตาย -",
+      "showName": "Love All Play",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 12,
+      "latestPublishedAt": "2026-07-04T10:00:06Z",
+      "sampleTitle": "Love All Play  ตอนที่ 11 [ซับไทย] 【Ani-One Thailand】"
+    },
+    {
+      "showName": "ทำไมกินเยอะขนาดนี้ | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1",
       "channel": "Muse Thailand",
       "episodeCount": 1,
-      "latestPublishedAt": "2026-07-03T06:06:21Z",
-      "sampleTitle": "วาดเรื่องนี้ก่อนแล้วค่อยตาย - ตอนที่ 01 [ซับไทย]"
+      "latestPublishedAt": "2026-07-04T09:00:30Z",
+      "sampleTitle": "ทำไมกินเยอะขนาดนี้ | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
+    },
+    {
+      "showName": "รักรักรักรักรักรัก เธอหมดหัวใจแฟนสาว 100 คน S1+S2 - ฉบับมัดรวมทุกตอน",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-04T05:00:38Z",
+      "sampleTitle": "รักรักรักรักรักรัก เธอหมดหัวใจแฟนสาว 100 คน S1+S2 - ฉบับมัดรวมทุกตอน [ซับไทย]"
+    },
+    {
+      "showName": "ไอ้เด็กเวรเอ้ยย | Mob Psycho 100",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-04T02:00:31Z",
+      "sampleTitle": "ไอ้เด็กเวรเอ้ยย | Mob Psycho 100 ตอนที่ 9"
+    },
+    {
+      "showName": "TRIBE NINE",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 6,
+      "latestPublishedAt": "2026-07-03T15:00:06Z",
+      "sampleTitle": "TRIBE NINE ตอนที่ 6 [ซับไทย] 【Ani-One Thailand】"
+    },
+    {
+      "showName": "Miss KUROITSU from the Monster Development Department",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 12,
+      "latestPublishedAt": "2026-07-03T14:00:07Z",
+      "sampleTitle": "Miss KUROITSU from the Monster Development Department ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】"
+    },
+    {
+      "showName": "PV2 ซับไทย อนิเมะ",
+      "channel": "Muse Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-03T13:00:28Z",
+      "sampleTitle": "PV2 ซับไทย อนิเมะ【 ยมลแห่งยมโลก 】"
+    },
+    {
+      "showName": "👘จำกัดเวลา 1 เดือน👘 นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ -",
+      "channel": "Muse Thailand",
+      "episodeCount": 4,
+      "latestPublishedAt": "2026-07-03T11:30:06Z",
+      "sampleTitle": "👘จำกัดเวลา 1 เดือน👘 นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ - ตอนที่ 03 [ซับไทย]"
+    },
+    {
+      "showName": "《Si Serbabisa Terbuang Ini Akan Bangkit Jua!》｜TS01｜TROPICS ENTERTAINMENT",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-03T11:00:37Z",
+      "sampleTitle": "《Si Serbabisa Terbuang Ini Akan Bangkit Jua!》｜TS01｜TROPICS ENTERTAINMENT"
+    },
+    {
+      "showName": "《Si Serbabisa Terbuang Ini Akan Bangkit Jua!》｜PV01｜TROPICS ENTERTAINMENT",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-03T11:00:19Z",
+      "sampleTitle": "《Si Serbabisa Terbuang Ini Akan Bangkit Jua!》｜PV01｜TROPICS ENTERTAINMENT"
+    },
+    {
+      "showName": "I think Marika might be a little scared of zombies...just a guess though🧟‍♂️",
+      "channel": "It's Anime powered by REMOW",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-03T11:00:14Z",
+      "sampleTitle": "I think Marika might be a little scared of zombies...just a guess though🧟‍♂️"
+    },
+    {
+      "showName": "《Anh Chàng Đa Dụng Bị Đuổi Khỏi Tổ Đội Dũng Sĩ》｜TS01｜TROPICS ENTERTAINMENT",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-03T11:00:12Z",
+      "sampleTitle": "《Anh Chàng Đa Dụng Bị Đuổi Khỏi Tổ Đội Dũng Sĩ》｜TS01｜TROPICS ENTERTAINMENT"
+    },
+    {
+      "showName": "《Anh Chàng Đa Dụng Bị Đuổi Khỏi Tổ Đội Dũng Sĩ》｜PV01｜TROPICS ENTERTAINMENT",
+      "channel": "Tropics Anime Asia",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-03T11:00:08Z",
+      "sampleTitle": "《Anh Chàng Đa Dụng Bị Đuổi Khỏi Tổ Đội Dũng Sĩ》｜PV01｜TROPICS ENTERTAINMENT"
+    },
+    {
+      "showName": "Megalobox",
+      "channel": "Ani-One Thailand",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-07-03T10:49:26Z",
+      "sampleTitle": "Megalobox ตอนที่ 1  [ซับไทย]【Ani-One Thailand】"
     },
     {
       "showName": "สู้เค้านายน้อย | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1",
@@ -25,18 +118,11 @@
       "sampleTitle": "สู้เค้านายน้อย | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
     },
     {
-      "showName": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย -",
-      "channel": "Muse Thailand",
-      "episodeCount": 16,
-      "latestPublishedAt": "2026-07-03T05:58:06Z",
-      "sampleTitle": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 14 [ซับไทย]"
-    },
-    {
       "showName": "OVERLORD 2",
       "channel": "Ani-One Thailand",
-      "episodeCount": 1,
-      "latestPublishedAt": "2026-07-03T05:13:49Z",
-      "sampleTitle": "OVERLORD 2 ตอนที่ 1  [ซับไทย] 【Ani-One Thailand】"
+      "episodeCount": 2,
+      "latestPublishedAt": "2026-07-03T05:16:31Z",
+      "sampleTitle": "OVERLORD 2 ตอนที่ 2  [ซับไทย] 【Ani-One Thailand】"
     },
     {
       "showName": "My Hero Academia Season 6",
@@ -65,34 +151,6 @@
       "episodeCount": 1,
       "latestPublishedAt": "2026-07-02T18:00:21Z",
       "sampleTitle": "อนิเมะ【 เกิดใหม่เป็นอัศวินเกราะหนักผู้ถูกขับไล่แต่ใช้ความรู้จากเกมจนไร้เทียมทาน ตอนที่ 1 พร้อมรับชม】"
-    },
-    {
-      "showName": "TRIBE NINE",
-      "channel": "Ani-One Thailand",
-      "episodeCount": 6,
-      "latestPublishedAt": "2026-07-02T15:00:06Z",
-      "sampleTitle": "TRIBE NINE ตอนที่ 5 [ซับไทย] 【Ani-One Thailand】"
-    },
-    {
-      "showName": "Miss KUROITSU from the Monster Development Department",
-      "channel": "Ani-One Thailand",
-      "episodeCount": 12,
-      "latestPublishedAt": "2026-07-02T14:00:06Z",
-      "sampleTitle": "Miss KUROITSU from the Monster Development Department ตอนที่ 11  [ซับไทย] 【Ani-One Thailand】"
-    },
-    {
-      "showName": "👘จำกัดเวลา 1 เดือน👘",
-      "channel": "Muse Thailand",
-      "episodeCount": 3,
-      "latestPublishedAt": "2026-07-02T12:30:06Z",
-      "sampleTitle": "👘จำกัดเวลา 1 เดือน👘 [พากย์ไทย] นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ - ตอนที่ 02"
-    },
-    {
-      "showName": "👘จำกัดเวลา 1 เดือน👘 นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ -",
-      "channel": "Muse Thailand",
-      "episodeCount": 3,
-      "latestPublishedAt": "2026-07-02T11:30:06Z",
-      "sampleTitle": "👘จำกัดเวลา 1 เดือน👘 นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ - ตอนที่ 02 [ซับไทย]"
     },
     {
       "showName": "เค้ากำลังจ้องคุณอยู่ | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1",
@@ -137,13 +195,6 @@
       "sampleTitle": "PV2 ซับไทย 【BanG Dream！YUME∞MITA】"
     },
     {
-      "showName": "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 -",
-      "channel": "Muse Thailand",
-      "episodeCount": 12,
-      "latestPublishedAt": "2026-07-01T12:30:06Z",
-      "sampleTitle": "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 - ตอนที่ 15 [ซับไทย]"
-    },
-    {
       "showName": "Harem in the Labyrinth of Another World",
       "channel": "Ani-One Thailand",
       "episodeCount": 6,
@@ -170,13 +221,6 @@
       "episodeCount": 1,
       "latestPublishedAt": "2026-07-01T02:00:23Z",
       "sampleTitle": "ออกมาตามคำขอแล้วนะ | Mob Psycho 100 ตอนที่ 3"
-    },
-    {
-      "showName": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล",
-      "channel": "Ani-One Thailand",
-      "episodeCount": 11,
-      "latestPublishedAt": "2026-06-30T13:00:06Z",
-      "sampleTitle": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล ตอนที่ 11  [ซับไทย] 【Ani-One Thailand】"
     },
     {
       "showName": "โทโกะ ชิบะ (พากย์เสียงโดย คัตสึยูกิ โคนิชิ)",
@@ -221,32 +265,11 @@
       "sampleTitle": "แค่ชื่อนี้ก็หายหมดเลย | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
     },
     {
-      "showName": "พวกเราเหมือนกันนะ | ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา",
-      "channel": "Muse Thailand",
-      "episodeCount": 1,
-      "latestPublishedAt": "2026-06-29T05:00:14Z",
-      "sampleTitle": "พวกเราเหมือนกันนะ | ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา"
-    },
-    {
       "showName": "บอกรักทุกคนครบไปเลยแหละ | รักรักรักรักรักรัก เธอหมดหัวใจแฟนสาว 100 คน ซีซั่น 2",
       "channel": "Muse Thailand",
       "episodeCount": 1,
       "latestPublishedAt": "2026-06-29T02:48:58Z",
       "sampleTitle": "บอกรักทุกคนครบไปเลยแหละ | รักรักรักรักรักรัก เธอหมดหัวใจแฟนสาว 100 คน ซีซั่น 2"
-    },
-    {
-      "showName": "สองนักพากย์ตัวหลักชวนแฟน ๆ มารอรับชม《บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2》",
-      "channel": "Muse Thailand",
-      "episodeCount": 1,
-      "latestPublishedAt": "2026-06-29T02:16:24Z",
-      "sampleTitle": "สองนักพากย์ตัวหลักชวนแฟน ๆ มารอรับชม《บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2》"
-    },
-    {
-      "showName": "ตัวแทนฤดูหนาวเท่มาก | ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา",
-      "channel": "Muse Thailand",
-      "episodeCount": 1,
-      "latestPublishedAt": "2026-06-29T01:44:20Z",
-      "sampleTitle": "ตัวแทนฤดูหนาวเท่มาก | ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา"
     },
     {
       "showName": "OVERLORD",
@@ -256,32 +279,11 @@
       "sampleTitle": "OVERLORD  ตอนที่ 13  [ซับไทย] 【Ani-One Thailand】"
     },
     {
-      "showName": "Love All Play",
-      "channel": "Ani-One Thailand",
-      "episodeCount": 11,
-      "latestPublishedAt": "2026-06-28T10:00:06Z",
-      "sampleTitle": "Love All Play  ตอนที่ 10  [ซับไทย] 【Ani-One Thailand】"
-    },
-    {
       "showName": "เป็นนายน้อยก็ต้องหัดซ้อม | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1",
       "channel": "Muse Thailand",
       "episodeCount": 1,
       "latestPublishedAt": "2026-06-28T05:00:09Z",
       "sampleTitle": "เป็นนายน้อยก็ต้องหัดซ้อม | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
-    },
-    {
-      "showName": "ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา -",
-      "channel": "Muse Thailand",
-      "episodeCount": 4,
-      "latestPublishedAt": "2026-06-27T16:30:06Z",
-      "sampleTitle": "ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา - ตอนที่ 12  [ซับไทย]"
-    },
-    {
-      "showName": "คุณครูมาดหลอน หัวใจอ่อนแอ",
-      "channel": "Ani-One Thailand",
-      "episodeCount": 12,
-      "latestPublishedAt": "2026-06-27T13:00:06Z",
-      "sampleTitle": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】"
     },
     {
       "showName": "มาเลยเจ้าหนู | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1",
@@ -319,6 +321,13 @@
       "sampleTitle": "ทำพิธีแบบนี้ปลุกใจมาก | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
     },
     {
+      "showName": "✧⋅印南幽的聲優伊東健人帶來了特別留言！✧",
+      "channel": "It's Anime powered by REMOW",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-26T04:00:26Z",
+      "sampleTitle": "✧⋅印南幽的聲優伊東健人帶來了特別留言！✧"
+    },
+    {
       "showName": "MainPV2",
       "channel": "Muse Thailand",
       "episodeCount": 2,
@@ -340,32 +349,11 @@
       "sampleTitle": "มหาศึกวีรชนข้ามภพ  ตอนที่ 13  [ซับไทย]【Ani-One Thailand】"
     },
     {
-      "showName": "Special MV - ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา",
-      "channel": "Muse Thailand",
+      "showName": "✧A special message from Kent Ito, the voice of Yu Innami, has arrived! ✧",
+      "channel": "It's Anime powered by REMOW",
       "episodeCount": 1,
-      "latestPublishedAt": "2026-06-25T09:00:35Z",
-      "sampleTitle": "Special MV - ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา"
-    },
-    {
-      "showName": "ความคิดอ่อนหัดนะ  | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
-      "channel": "Muse Thailand",
-      "episodeCount": 1,
-      "latestPublishedAt": "2026-06-25T04:00:32Z",
-      "sampleTitle": "ความคิดอ่อนหัดนะ  | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1"
-    },
-    {
-      "showName": "ถ้าโดนทำให้ไล่ออกไม่ตลกเลยนะ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
-      "channel": "Muse Thailand",
-      "episodeCount": 1,
-      "latestPublishedAt": "2026-06-25T03:30:11Z",
-      "sampleTitle": "ถ้าโดนทำให้ไล่ออกไม่ตลกเลยนะ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1"
-    },
-    {
-      "showName": "ไม่ต้องวางแผนแล้ว | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
-      "channel": "Muse Thailand",
-      "episodeCount": 1,
-      "latestPublishedAt": "2026-06-25T03:00:32Z",
-      "sampleTitle": "ไม่ต้องวางแผนแล้ว | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1"
+      "latestPublishedAt": "2026-06-25T13:00:30Z",
+      "sampleTitle": "✧A special message from Kent Ito, the voice of Yu Innami, has arrived! ✧"
     },
     {
       "showName": "ศัตรูตัวอันตราย | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1",
@@ -373,20 +361,6 @@
       "episodeCount": 1,
       "latestPublishedAt": "2026-06-25T03:00:28Z",
       "sampleTitle": "ศัตรูตัวอันตราย | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
-    },
-    {
-      "showName": "เรียกว่ามาได้จังหวะพอดีหรือเปล่า | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
-      "channel": "Muse Thailand",
-      "episodeCount": 1,
-      "latestPublishedAt": "2026-06-25T01:30:09Z",
-      "sampleTitle": "เรียกว่ามาได้จังหวะพอดีหรือเปล่า | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1"
-    },
-    {
-      "showName": "อย่างตึงเลยลูกพี่ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
-      "channel": "Muse Thailand",
-      "episodeCount": 1,
-      "latestPublishedAt": "2026-06-25T01:27:00Z",
-      "sampleTitle": "อย่างตึงเลยลูกพี่ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1"
     },
     {
       "showName": "TeaserPV ซับไทย",
@@ -410,6 +384,20 @@
       "sampleTitle": "ก็บอกเองว่าอยากตุยเลยผลักลงเหวไปเลย | นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ ซีซั่น 1"
     },
     {
+      "showName": "\"Did you know ghost stories can actually summon a ghost? 👻 Be careful out there!Anime: TOUGEN ANKI",
+      "channel": "It's Anime powered by REMOW",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-21T13:00:36Z",
+      "sampleTitle": "\"Did you know ghost stories can actually summon a ghost? 👻 Be careful out there!Anime: TOUGEN ANKI"
+    },
+    {
+      "showName": "Did you know ghost stories can actually summon a ghost? 👻 Be careful out there!Anime: TOUGEN ANKI",
+      "channel": "It's Anime powered by REMOW",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-20T13:00:12Z",
+      "sampleTitle": "Did you know ghost stories can actually summon a ghost? 👻 Be careful out there!Anime: TOUGEN ANKI"
+    },
+    {
       "showName": "หนุ่มบัญชีบ้างานกุมชะตาชาวต่างโลก - ฉบับมัดรวมทุกตอน",
       "channel": "Muse Thailand",
       "episodeCount": 1,
@@ -417,11 +405,18 @@
       "sampleTitle": "หนุ่มบัญชีบ้างานกุมชะตาชาวต่างโลก - ฉบับมัดรวมทุกตอน [ซับไทย]"
     },
     {
-      "showName": "น้ำแดงกระจาย | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
-      "channel": "Muse Thailand",
+      "showName": "That unforgettable feeling of doing something on your own for the first time… flying! ✨",
+      "channel": "It's Anime powered by REMOW",
+      "episodeCount": 3,
+      "latestPublishedAt": "2026-06-18T03:00:26Z",
+      "sampleTitle": "That unforgettable feeling of doing something on your own for the first time… flying! ✨"
+    },
+    {
+      "showName": "Happy Birthday to Captain Masumi Yodogawa! 🎉✨",
+      "channel": "It's Anime powered by REMOW",
       "episodeCount": 1,
-      "latestPublishedAt": "2026-06-18T06:50:32Z",
-      "sampleTitle": "น้ำแดงกระจาย | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1"
+      "latestPublishedAt": "2026-06-17T08:00:26Z",
+      "sampleTitle": "Happy Birthday to Captain Masumi Yodogawa! 🎉✨"
     },
     {
       "showName": "❤️ Ani-One Thailand ขอบคุณทุกการซัพพอร์ต... 2,000,000 Subscribers แล้วนะ! 🌸✨",
@@ -431,11 +426,11 @@
       "sampleTitle": "❤️ Ani-One Thailand ขอบคุณทุกการซัพพอร์ต... 2,000,000 Subscribers แล้วนะ! 🌸✨"
     },
     {
-      "showName": "ทรงนี้แรงจูงใจเยอะแน่นอน | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
-      "channel": "Muse Thailand",
+      "showName": "You never know what children that age might get up to without adults around…”",
+      "channel": "It's Anime powered by REMOW",
       "episodeCount": 1,
-      "latestPublishedAt": "2026-06-17T02:00:24Z",
-      "sampleTitle": "ทรงนี้แรงจูงใจเยอะแน่นอน | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1"
+      "latestPublishedAt": "2026-06-17T03:00:23Z",
+      "sampleTitle": "You never know what children that age might get up to without adults around…”"
     },
     {
       "showName": "จิฮิโระ โรคุฮิระ | คากุระบาจิ",
@@ -445,25 +440,11 @@
       "sampleTitle": "จิฮิโระ โรคุฮิระ | คากุระบาจิ"
     },
     {
-      "showName": "ไม่ใช่ผมหรอกนะ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
-      "channel": "Muse Thailand",
-      "episodeCount": 1,
-      "latestPublishedAt": "2026-06-16T02:00:20Z",
-      "sampleTitle": "ไม่ใช่ผมหรอกนะ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1"
-    },
-    {
-      "showName": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก",
-      "channel": "Ani-One Thailand",
-      "episodeCount": 13,
-      "latestPublishedAt": "2026-06-15T11:00:39Z",
-      "sampleTitle": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก ตอนที่ 25 [ซับไทย]【Ani-One Thailand】"
-    },
-    {
-      "showName": "เจอกันอีกแล้วนะคะ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
-      "channel": "Muse Thailand",
-      "episodeCount": 1,
-      "latestPublishedAt": "2026-06-15T03:44:11Z",
-      "sampleTitle": "เจอกันอีกแล้วนะคะ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1"
+      "showName": "Sports anime arc unlocked 🏆 OR Chitose is a sports anime MC now, sorry I don’t make the rules🤷",
+      "channel": "It's Anime powered by REMOW",
+      "episodeCount": 2,
+      "latestPublishedAt": "2026-06-15T13:00:10Z",
+      "sampleTitle": "Sports anime arc unlocked 🏆 OR Chitose is a sports anime MC now, sorry I don’t make the rules🤷"
     },
     {
       "showName": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง - ฉบับมัดรวมทุกตอน",
@@ -473,20 +454,6 @@
       "sampleTitle": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง - ฉบับมัดรวมทุกตอน [ซับไทย]"
     },
     {
-      "showName": "น้องยื่นสัญญาอย่างดุ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4",
-      "channel": "Muse Thailand",
-      "episodeCount": 1,
-      "latestPublishedAt": "2026-06-12T03:50:27Z",
-      "sampleTitle": "น้องยื่นสัญญาอย่างดุ | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4"
-    },
-    {
-      "showName": "ถ้าไม่เข้ามาเดี๋ยวทางนี้จะไปหาเอง | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4",
-      "channel": "Muse Thailand",
-      "episodeCount": 1,
-      "latestPublishedAt": "2026-06-12T03:40:51Z",
-      "sampleTitle": "ถ้าไม่เข้ามาเดี๋ยวทางนี้จะไปหาเอง | ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4"
-    },
-    {
       "showName": "CharacterPV《คากุระบาจิ》- จิฮิโระ โรคุฮิระ (พากย์เสียงโดย ไทฮิ คิมูระ)",
       "channel": "Muse Thailand",
       "episodeCount": 1,
@@ -494,11 +461,18 @@
       "sampleTitle": "CharacterPV《คากุระบาจิ》- จิฮิโระ โรคุฮิระ (พากย์เสียงโดย ไทฮิ คิมูระ)"
     },
     {
-      "showName": "ไม่กินแถมเล่นอีก|ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
-      "channel": "Muse Thailand",
+      "showName": "\"✰⋆⁺₊⋆ ☾⋆⁺₊⋆✰貓咲波久礼的聲優岡本信彥帶來了特別留言！✰⋆⁺₊⋆ ☾⋆⁺₊⋆✰",
+      "channel": "It's Anime powered by REMOW",
       "episodeCount": 1,
-      "latestPublishedAt": "2026-06-10T18:17:07Z",
-      "sampleTitle": "ไม่กินแถมเล่นอีก|ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1 ตอนที่ 8"
+      "latestPublishedAt": "2026-06-10T06:00:26Z",
+      "sampleTitle": "\"✰⋆⁺₊⋆ ☾⋆⁺₊⋆✰貓咲波久礼的聲優岡本信彥帶來了特別留言！✰⋆⁺₊⋆ ☾⋆⁺₊⋆✰"
+    },
+    {
+      "showName": "I Saved Myself with a Potion!: Life in another world",
+      "channel": "It's Anime powered by REMOW",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-10T02:54:28Z",
+      "sampleTitle": "I Saved Myself with a Potion!: Life in another world EP1-3 | FULL EPISODE | ENG SUB [#ItsAnime]"
     },
     {
       "showName": "ทุกฉาก ทุกการเคลื่อนไหว—AGON by AOC ทำให้มันมีชีวิตชีวา",
@@ -508,18 +482,25 @@
       "sampleTitle": "ทุกฉาก ทุกการเคลื่อนไหว—AGON by AOC ทำให้มันมีชีวิตชีวา"
     },
     {
+      "showName": "Happy Birthday, Rokuro Kiriyama! 👹Anime: TOUGEN ANKI",
+      "channel": "It's Anime powered by REMOW",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-06T03:00:37Z",
+      "sampleTitle": "Happy Birthday, Rokuro Kiriyama! 👹Anime: TOUGEN ANKI"
+    },
+    {
+      "showName": "Friendly reminder: there’s no need to compare yourself to others. We all have our own magic inside ✨",
+      "channel": "It's Anime powered by REMOW",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-06-03T04:00:34Z",
+      "sampleTitle": "Friendly reminder: there’s no need to compare yourself to others. We all have our own magic inside ✨"
+    },
+    {
       "showName": "DAN DA DAN | CASETiFY พา Turbo Granny ตัวป่วนสุดที่ทุกคนชอบกลับมา",
       "channel": "Muse Thailand",
       "episodeCount": 2,
       "latestPublishedAt": "2026-05-31T13:00:32Z",
       "sampleTitle": "DAN DA DAN | CASETiFY พา Turbo Granny ตัวป่วนสุดที่ทุกคนชอบกลับมา"
-    },
-    {
-      "showName": "Song of Winter :  ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา",
-      "channel": "Muse Thailand",
-      "episodeCount": 1,
-      "latestPublishedAt": "2026-05-31T05:00:04Z",
-      "sampleTitle": "Song of Winter :  ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา"
     },
     {
       "showName": "ห้องเรียนลอบสังหาร ช่วงเวลา 365 วัน",
@@ -543,13 +524,6 @@
       "sampleTitle": "อยู่มาวันหนึ่ง ฉันก็กลายเป็นเจ้าหญิง - ฉบับมัดรวมทุกตอน [ซับไทย]"
     },
     {
-      "showName": "Song of Spring : ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา",
-      "channel": "Muse Thailand",
-      "episodeCount": 1,
-      "latestPublishedAt": "2026-05-29T06:00:31Z",
-      "sampleTitle": "Song of Spring : ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา"
-    },
-    {
       "showName": "DAN DA DAN | CASETiFY มาแล้ว 🔮👽❤️‍🔥",
       "channel": "Muse Thailand",
       "episodeCount": 3,
@@ -562,6 +536,20 @@
       "episodeCount": 1,
       "latestPublishedAt": "2026-05-27T13:00:07Z",
       "sampleTitle": "หนุ่มบัญชีบ้างานกุมชะตาชาวต่างโลก - OVA [ซับไทย]"
+    },
+    {
+      "showName": "Let’s just pretend that laptop was waterproof 😅",
+      "channel": "It's Anime powered by REMOW",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-27T01:00:09Z",
+      "sampleTitle": "Let’s just pretend that laptop was waterproof 😅"
+    },
+    {
+      "showName": "Adult life lesson",
+      "channel": "It's Anime powered by REMOW",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-27T01:00:00Z",
+      "sampleTitle": "Adult life lesson #1: learn how to clean up your own mess! Anime: KILL BLUE"
     },
     {
       "showName": "เคียวกะ - วาลคีรีที่เคยเป็นหัวหน้าของอาริฮิโตะ",
@@ -585,6 +573,13 @@
       "sampleTitle": "Gintama ตอนที 200 [ซับไทย]【Ani-One Thailand】"
     },
     {
+      "showName": "Surely this misunderstanding will cause no issues... right?",
+      "channel": "It's Anime powered by REMOW",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-25T02:00:28Z",
+      "sampleTitle": "Surely this misunderstanding will cause no issues... right?"
+    },
+    {
       "showName": "Gintama ตอนที 199",
       "channel": "Ani-One Thailand",
       "episodeCount": 1,
@@ -597,6 +592,13 @@
       "episodeCount": 1,
       "latestPublishedAt": "2026-05-24T08:00:29Z",
       "sampleTitle": "เทเรเซีย - ผู้ซื่อสัตย์แต่ลึกลับ"
+    },
+    {
+      "showName": "Akiyama truly is the master of disguise! Did you catch his plan beforehand?",
+      "channel": "It's Anime powered by REMOW",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-23T14:00:08Z",
+      "sampleTitle": "Akiyama truly is the master of disguise! Did you catch his plan beforehand?"
     },
     {
       "showName": "Gintama ตอนที 198",
@@ -634,13 +636,6 @@
       "sampleTitle": "Gintama ตอนที 197 [ซับไทย]【Ani-One Thailand】"
     },
     {
-      "showName": "『Hanaikada』- Orangestar feat. KaseSpecial MV ประกอบอนิเมะ ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา",
-      "channel": "Muse Thailand",
-      "episodeCount": 1,
-      "latestPublishedAt": "2026-05-22T09:00:07Z",
-      "sampleTitle": "『Hanaikada』- Orangestar feat. KaseSpecial MV ประกอบอนิเมะ ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา"
-    },
-    {
       "showName": "สิ่งแปลกประหลาดกำลังจะมาเยือน 🎴👁️ Dandadan |  CASETiFY",
       "channel": "Muse Thailand",
       "episodeCount": 1,
@@ -653,6 +648,13 @@
       "episodeCount": 1,
       "latestPublishedAt": "2026-05-21T10:00:06Z",
       "sampleTitle": "Gintama ตอนที 196 [ซับไทย]【Ani-One Thailand】"
+    },
+    {
+      "showName": "Meiko thought it was a crisis; the girls thought it was a catering event 🍜",
+      "channel": "It's Anime powered by REMOW",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-21T01:00:00Z",
+      "sampleTitle": "Meiko thought it was a crisis; the girls thought it was a catering event 🍜"
     },
     {
       "showName": "Gintama ตอนที 195",
@@ -788,6 +790,13 @@
       "sampleTitle": "Gintama ตอนที 185 [ซับไทย]【Ani-One Thailand】"
     },
     {
+      "showName": "First meetings aren’t always graceful... Anime: My Deer Friend Nokotan",
+      "channel": "It's Anime powered by REMOW",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-10T03:00:51Z",
+      "sampleTitle": "First meetings aren’t always graceful... Anime: My Deer Friend Nokotan"
+    },
+    {
       "showName": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 08｜TROPICS",
       "channel": "Tropics Anime Asia",
       "episodeCount": 1,
@@ -807,6 +816,13 @@
       "episodeCount": 1,
       "latestPublishedAt": "2026-05-09T05:00:34Z",
       "sampleTitle": "สตรีศักดิ์สิทธิ์อิทธิฤทธิ์สารพัดอย่าง ซีซั่น 2 - ฉบับมัดรวมทุกตอน [ซับไทย]"
+    },
+    {
+      "showName": "You wake up stuck in your teenage body. What do you do? 🤯",
+      "channel": "It's Anime powered by REMOW",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-09T03:00:35Z",
+      "sampleTitle": "You wake up stuck in your teenage body. What do you do? 🤯"
     },
     {
       "showName": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 07｜TROPICS",
@@ -842,6 +858,13 @@
       "episodeCount": 1,
       "latestPublishedAt": "2026-05-08T05:00:00Z",
       "sampleTitle": "《Giọt Rượu của Thần》｜PV01｜TROPICS ENTERTAINMENT"
+    },
+    {
+      "showName": "You need a hitman to infiltrate a middle school to make sure it’s safe for your kid?",
+      "channel": "It's Anime powered by REMOW",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-08T03:00:40Z",
+      "sampleTitle": "You need a hitman to infiltrate a middle school to make sure it’s safe for your kid?"
     },
     {
       "showName": "MainPVอนิเมะ",
@@ -914,6 +937,13 @@
       "sampleTitle": "《Reinkarnasiku... Ingin Jadi Tulang Rusuk Pahlawan!》｜PV01｜TROPICS ENTERTAINMENT"
     },
     {
+      "showName": "Yaeno Will Grow Stronger! | Uma Musume: Cinderella Gray",
+      "channel": "It's Anime powered by REMOW",
+      "episodeCount": 1,
+      "latestPublishedAt": "2026-05-06T03:00:20Z",
+      "sampleTitle": "Yaeno Will Grow Stronger! | Uma Musume: Cinderella Gray"
+    },
+    {
       "showName": "TRIGUN STAMPEDE",
       "channel": "Ani-One Thailand",
       "episodeCount": 12,
@@ -933,20 +963,6 @@
       "episodeCount": 1,
       "latestPublishedAt": "2026-05-05T11:18:13Z",
       "sampleTitle": "PV2อนิเมะซับไทย【วิวาห์แต้มพิษ 】"
-    },
-    {
-      "showName": "Gintama ตอนที 180",
-      "channel": "Ani-One Thailand",
-      "episodeCount": 1,
-      "latestPublishedAt": "2026-05-05T10:00:06Z",
-      "sampleTitle": "Gintama ตอนที 180 [ซับไทย]【Ani-One Thailand】"
-    },
-    {
-      "showName": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 03｜TROPICS",
-      "channel": "Tropics Anime Asia",
-      "episodeCount": 1,
-      "latestPublishedAt": "2026-05-04T13:00:06Z",
-      "sampleTitle": "《Chuyển Sinh Thành Quý Tộc ~Trời Ban Năng Khiếu, Tôi Có Được Sức Mạnh Tối Thượng~》｜Tập 03｜TROPICS"
     }
   ]
 }
