@@ -1,7 +1,7 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const { isEpisode } = require('./update-youtube');
-const { bangkokYear } = require('./update-jikan');
+const { catalogYears } = require('./update-jikan');
 
 const ROOT = path.resolve(__dirname, '..');
 const JSON_PATH = path.join(ROOT, 'data', 'anime.json');
@@ -12,6 +12,18 @@ const RECENT_DAYS = 60;
 const MAX_EPISODES_PER_SHOW = 20;
 
 const normalizeTitle = value => String(value || '').toLowerCase().normalize('NFKC').replace(/[^\p{L}\p{N}]+/gu, ' ').replace(/\s+/g, ' ').trim();
+
+// Resolve the catalog-year window: automatic (current + adjacent season year near the New Year),
+// or an explicit override via --year 2027 / --years 2026,2027.
+function resolveYears(argv = process.argv) {
+  const flag = argv.find(arg => arg.startsWith('--year=') || arg.startsWith('--years='));
+  const value = flag ? flag.split('=')[1] : (() => {
+    const index = argv.findIndex(arg => arg === '--year' || arg === '--years');
+    return index !== -1 ? argv[index + 1] : '';
+  })();
+  const override = String(value || '').split(',').map(part => part.trim()).filter(Boolean).map(Number).filter(Number.isInteger);
+  return override.length ? override : catalogYears();
+}
 
 async function req(resource, params, apiKey) {
   const query = new URLSearchParams({ ...params, key: apiKey });
@@ -26,16 +38,18 @@ async function getUploadsPlaylistId(handle, apiKey) {
   return body.items?.[0]?.contentDetails?.relatedPlaylists?.uploads;
 }
 
-async function getAllUploads(uploadsPlaylistId, year, apiKey) {
+async function getAllUploads(uploadsPlaylistId, years, apiKey) {
+  const yearSet = new Set(years);
+  const minYear = Math.min(...years);
   const videos = [];
   let pageToken = '', reachedBoundary = false;
   do {
     const body = await req('playlistItems', { part: 'snippet,contentDetails', maxResults: '50', playlistId: uploadsPlaylistId, ...(pageToken ? { pageToken } : {}) }, apiKey);
     for (const item of body.items || []) {
       const publishedAt = item.contentDetails?.videoPublishedAt || item.snippet?.publishedAt || '';
-      const publishedYear = publishedAt ? Number(publishedAt.slice(0, 4)) : year;
-      if (publishedYear < year) { reachedBoundary = true; break; }
-      if (publishedYear === year) videos.push({ videoId: item.contentDetails?.videoId, title: item.snippet?.title || '', publishedAt });
+      const publishedYear = publishedAt ? Number(publishedAt.slice(0, 4)) : minYear;
+      if (publishedYear < minYear) { reachedBoundary = true; break; }
+      if (yearSet.has(publishedYear)) videos.push({ videoId: item.contentDetails?.videoId, title: item.snippet?.title || '', publishedAt });
     }
     pageToken = body.nextPageToken || '';
     if (reachedBoundary) break;
@@ -59,20 +73,21 @@ async function main() {
   const apiKey = process.env.YOUTUBE_API_KEY;
   if (!apiKey) throw new Error('Missing YOUTUBE_API_KEY. Set it before running this scan.');
 
-  const year = bangkokYear();
+  const years = resolveYears();
+  const yearSet = new Set(years);
   const [anime, channels] = await Promise.all([
     fs.readFile(JSON_PATH, 'utf8').then(JSON.parse),
     fs.readFile(CHANNELS_PATH, 'utf8').then(JSON.parse)
   ]);
 
-  const unmatched = anime.filter(a => a.jikanType === 'TV' && Number(a.catalogYear || a.year) === year && !a.availableEpisodes?.length);
+  const unmatched = anime.filter(a => a.jikanType === 'TV' && yearSet.has(Number(a.catalogYear || a.year)) && !a.availableEpisodes?.length);
   const matchedAliases = new Set();
   for (const item of anime) for (const alias of aliasesForAnime(item)) matchedAliases.add(alias);
 
   const allVideos = [];
   for (const channel of channels) {
     const uploadsId = await getUploadsPlaylistId(channel.handle, apiKey);
-    const videos = await getAllUploads(uploadsId, year, apiKey);
+    const videos = await getAllUploads(uploadsId, years, apiKey);
     for (const v of videos) if (isEpisode(v.title)) allVideos.push({ ...v, channel: channel.label });
     console.error(`${channel.label}: ${videos.length} uploads scanned`);
   }
@@ -100,7 +115,7 @@ async function main() {
 
   const output = {
     generatedAt: new Date().toISOString(),
-    year,
+    years,
     unmatchedAnimeCount: unmatched.length,
     candidateShowCount: candidates.length,
     instructions: [
@@ -117,4 +132,4 @@ async function main() {
 
 if (require.main === module) main().catch(error => { console.error(`Scan failed: ${error.message}`); process.exitCode = 1; });
 
-module.exports = { extractShowName, aliasesForAnime };
+module.exports = { extractShowName, aliasesForAnime, resolveYears };
