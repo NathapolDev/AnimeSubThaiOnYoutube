@@ -545,8 +545,8 @@
       "Comedy"
     ],
     "summary": "คู่รักต่างนิสัยกลับมาเดินหน้าความสัมพันธ์ในบรรยากาศโรแมนติกคอเมดี้วัยเรียน",
-    "note": "ตารางระบุ Ani-One Thailand / TrueVision Now; ลิงก์จากผลค้นหา YouTube ของ Ani-One; malId เดิม (54000) เป็นของอนิเมะเรื่องอื่น จึงล้างข้อมูล MAL ออก รอ sync จับคู่ใหม่ตามชื่อเรื่อง",
-    "poster": "https://cdn.myanimelist.net/images/anime/1285/158337l.webp",
+    "note": "ตารางระบุ Ani-One Thailand / TrueVision Now; ลิงก์จากผลค้นหา YouTube ของ Ani-One; malId เดิม (54000) เป็นของอนิเมะเรื่องอื่น (Otome Game S2) จึงล้างข้อมูล MAL และโปสเตอร์ที่ผิดออก ใช้ placeholder ในเครื่องชั่วคราว รอ Jikan sync จับคู่ใหม่ตามชื่อเรื่องเพื่อดึงโปสเตอร์จริง",
+    "poster": "assets/posters/polar-opposites-2.svg",
     "playlistId": "PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
     "currentEpisode": 12,
     "latestEpisodeTitle": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
