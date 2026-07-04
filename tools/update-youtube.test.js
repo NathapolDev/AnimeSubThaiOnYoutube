@@ -129,3 +129,37 @@ test('clears stale latest fields after a successful empty playlist response', as
   assert.equal(anime[0].currentEpisode, 0);
   assert.equal(anime[0].latestVideoUrl, '');
 });
+
+test('preserves channel-upload state when cached episodes exist', async () => {
+  const episodes = [{ number: 1, title: 'Anime ตอนที่ 1', videoId: 'one', videoUrl: 'https://youtu.be/one', publishedAt: '' }];
+  const anime = [{
+    id: 'channel-with-episodes', playlistId: '', youtubeSourceType: 'channel_uploads',
+    updateStatus: 'ok', availableEpisodes: episodes
+  }];
+  await updateAnimeItems(anime, 'key');
+  assert.equal(anime[0].updateStatus, 'ok');
+  assert.deepEqual(anime[0].availableEpisodes, episodes);
+});
+
+test('uses no_episode_found for a channel-upload source without cached episodes', async () => {
+  const anime = [{
+    id: 'channel-empty', playlistId: '', youtubeSourceType: 'channel_uploads',
+    updateStatus: 'no_playlist', updateError: 'stale error', availableEpisodes: []
+  }];
+  await updateAnimeItems(anime, 'key');
+  assert.equal(anime[0].updateStatus, 'no_episode_found');
+  assert.equal(anime[0].updateError, '');
+  assert.equal(anime[0].youtubeSourceType, 'channel_uploads');
+});
+
+test('uses no_playlist only when no YouTube source is configured', async () => {
+  const anime = [{
+    id: 'no-source', playlistId: '', youtubeSourceType: '',
+    currentEpisode: 2, latestVideoUrl: 'https://youtu.be/stale', availableEpisodes: [{ videoId: 'stale' }]
+  }];
+  await updateAnimeItems(anime, 'key');
+  assert.equal(anime[0].updateStatus, 'no_playlist');
+  assert.deepEqual(anime[0].availableEpisodes, []);
+  assert.equal(anime[0].currentEpisode, 0);
+  assert.equal(anime[0].latestVideoUrl, '');
+});

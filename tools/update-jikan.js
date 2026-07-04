@@ -84,8 +84,12 @@ async function fetchCatalog(date = new Date(), requester = requestJson) {
   const byMalId = new Map();
   for (const entry of await fetchYear(year, requester)) byMalId.set(entry.anime.mal_id, entry);
   if (bangkokMonth(date) >= UPCOMING_SEASON_FROM_MONTH) {
-    for (const anime of await fetchSeason(year + 1, 'winter', requester)) {
-      byMalId.set(anime.mal_id, { anime, season: 'winter' });
+    try {
+      for (const anime of await fetchSeason(year + 1, 'winter', requester)) {
+        byMalId.set(anime.mal_id, { anime, season: 'winter' });
+      }
+    } catch (error) {
+      console.error(`[Jikan ${year + 1}/winter] ${error.message}`);
     }
   }
   return [...byMalId.values()];

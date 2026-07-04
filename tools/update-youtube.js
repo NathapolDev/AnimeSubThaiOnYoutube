@@ -122,7 +122,13 @@ async function updateAnimeItem(item, apiKey, playlistFetcher = fetchPlaylist) {
     item.youtubeMatchConfidence ??= '';
 
     if (!item.playlistId) {
-      if (item.youtubeSourceType === 'channel_uploads' && item.availableEpisodes.length) return;
+      if (item.youtubeSourceType === 'channel_uploads') {
+        if (!item.availableEpisodes.length) {
+          item.updateStatus = 'no_episode_found';
+          item.updateError = '';
+        }
+        return;
+      }
       item.availableEpisodes = [];
       item.currentEpisode = 0;
       item.latestEpisodeTitle = '';

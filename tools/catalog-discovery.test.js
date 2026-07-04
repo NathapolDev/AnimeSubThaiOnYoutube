@@ -48,6 +48,18 @@ test('fetchCatalog pulls the upcoming Winter season only during the year-end ram
   assert.deepEqual(await seasonsFor(bkk('2026-11-15')), ['2026/winter', '2026/spring', '2026/summer', '2026/fall', '2027/winter']);
 });
 
+test('fetchCatalog preserves the current-year catalog when upcoming Winter fails', async () => {
+  const entries = await fetchCatalog(bkk('2026-11-15'), async url => {
+    if (url.includes('/seasons/2027/winter')) throw new Error('upcoming season unavailable');
+    const season = url.match(/2026\/(winter|spring|summer|fall)/)[1];
+    return {
+      data: [{ mal_id: season === 'winter' ? 1 : 2, type: 'TV', title: season }],
+      pagination: { has_next_page: false }
+    };
+  });
+  assert.deepEqual(entries.map(entry => entry.anime.mal_id).sort(), [1, 2]);
+});
+
 test('catalog sync enriches current entries and preserves archived records', async () => {
   const items = [{ id: 'archive', malId: 5, catalogYear: 2025, availableEpisodes: [{ videoId: 'old' }] }];
   const anime = { mal_id: 6, type: 'TV', title: 'New Show', titles: [], studios: [], genres: [], themes: [], demographics: [], images: {}, aired: {}, broadcast: {} };
