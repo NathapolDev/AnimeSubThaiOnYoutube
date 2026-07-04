@@ -60,6 +60,7 @@ jobs:
   deploy:
     needs: update
     permissions:
+      actions: write
       contents: read
       pages: write
       id-token: write

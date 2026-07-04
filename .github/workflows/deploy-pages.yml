@@ -11,6 +11,7 @@ concurrency:
   cancel-in-progress: true
 
 permissions:
+  actions: write
   contents: read
   pages: write
   id-token: write
@@ -26,6 +27,21 @@ jobs:
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           ref: main
+      - name: Remove stale Pages artifacts from earlier attempts
+        # Re-running only the failed deploy job leaves the previous attempt's
+        # "github-pages" artifact behind; actions/deploy-pages then errors with
+        # "Multiple artifacts named github-pages". Clear any leftover first so
+        # re-runs stay safe.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts" \
+            --jq '.artifacts[] | select(.name == "github-pages") | .id' |
+          while read -r id; do
+            [ -n "$id" ] || continue
+            echo "Deleting stale github-pages artifact $id"
+            gh api -X DELETE "repos/${{ github.repository }}/actions/artifacts/$id"
+          done
       - name: Assemble static site
         run: |
           mkdir -p _site/data
