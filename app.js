@@ -134,7 +134,7 @@ function renderTodaySchedule() {
 function renderStats() {
   const scope = data.filter(item => item.jikanType === 'TV' && itemYear(item) === selectedYear);
   const available = scope.filter(item => item.status === 'available');
-  const episodes = scope.reduce((sum, item) => sum + (Array.isArray(item.availableEpisodes) ? item.availableEpisodes.length : 0), 0);
+  const episodes = scope.reduce((sum, item) => sum + availableEpisodeCount(item.availableEpisodes), 0);
   const newToday = scope.filter(hasNewEpisode).length;
   document.querySelector('#statsBar').innerHTML = [
     [scope.length, `อนิเมะ TV ปี ${selectedYear}`],
@@ -231,8 +231,11 @@ function renderSchedule() {
 function episodeRowsTemplate(episodes) {
   return episodes.map(episode => {
     const url = safeExternalUrl(episode.videoUrl);
+    const episodeLabel = episode.startNumber !== undefined && episode.endNumber !== undefined
+      ? `ตอนที่ ${escapeHtml(episode.startNumber)}–${escapeHtml(episode.endNumber)}`
+      : episode.number !== null && episode.number !== undefined ? `ตอนที่ ${escapeHtml(episode.number)}` : 'ตอนพิเศษ';
     return `<article class="episode-item">
-    <div class="episode-number">${episode.number !== null && episode.number !== undefined ? `ตอนที่ ${escapeHtml(episode.number)}` : 'ตอนพิเศษ'}</div>
+    <div class="episode-number">${episodeLabel}</div>
     <div class="episode-copy"><strong>${escapeHtml(episode.title || 'ไม่มีชื่อตอน')}</strong><span>${formatDate(episode.publishedAt)}</span></div>
     ${url !== '#' ? `<a class="episode-watch" href="${escapeHtml(url)}" target="_blank" rel="noopener">รับชม</a>` : ''}
   </article>`;
@@ -278,7 +281,7 @@ function showDetail(id, { updateHash = true } = {}) {
       <div class="info"><small>ตรวจสอบล่าสุด</small><strong>${formatDate(item.lastCheckedAt)}</strong></div>
     </div>${item.updateError ? `<p class="update-error-text">${escapeHtml(item.updateError)}</p>` : ''}
     <section class="episode-section" aria-labelledby="episodeHeading">
-      <div class="episode-heading"><div><p class="eyebrow">YouTube Episodes</p><h3 id="episodeHeading">ตอนที่รับชมได้</h3></div><span>${Array.isArray(item.availableEpisodes) ? item.availableEpisodes.length : 0} ตอน</span></div>
+      <div class="episode-heading"><div><p class="eyebrow">YouTube Episodes</p><h3 id="episodeHeading">ตอนที่รับชมได้</h3></div><span>${availableEpisodeCount(item.availableEpisodes)} ตอน</span></div>
       <div id="episodeList" class="episode-list"></div>
       <button id="loadMoreEpisodes" class="load-more-btn" type="button" hidden>ดูตอนเก่ากว่า</button>
     </section>

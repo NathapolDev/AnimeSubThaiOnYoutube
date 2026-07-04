@@ -1,14 +1,18 @@
 [
   {
-    "handle": "@AniOneThailand",
-    "label": "Ani-One Thailand"
-  },
-  {
     "handle": "@MuseThailand",
     "label": "Muse Thailand"
   },
   {
+    "handle": "@AniOneThailand",
+    "label": "Ani-One Thailand"
+  },
+  {
     "handle": "@TropicsAnimeAsia",
     "label": "Tropics Anime Asia"
+  },
+  {
+    "handle": "@ItsAnimeJP",
+    "label": "It's Anime powered by REMOW"
   }
 ]

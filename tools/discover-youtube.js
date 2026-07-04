@@ -1,6 +1,6 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
-const { episodeNumber, isEpisode, youtubeJson } = require('./update-youtube');
+const { episodeNumber, episodeRange, isEpisode, youtubeJson } = require('./update-youtube');
 const { catalogYears } = require('./update-jikan');
 const { writeDataFiles } = require('./write-data');
 
@@ -97,7 +97,14 @@ function matchVideoToAnime(video, anime) {
 
 function mergeEpisodes(existing, additions) {
   const byId = new Map((existing || []).map(episode => [episode.videoId, episode]));
-  for (const episode of additions) if (!byId.has(episode.videoId)) byId.set(episode.videoId, episode);
+  for (const episode of additions) {
+    const merged = { ...(byId.get(episode.videoId) || {}), ...episode };
+    if (episode.startNumber === undefined || episode.endNumber === undefined) {
+      delete merged.startNumber;
+      delete merged.endNumber;
+    }
+    byId.set(episode.videoId, merged);
+  }
   return [...byId.values()].sort((a, b) => {
     if (a.number !== null && b.number !== null) return b.number - a.number || Date.parse(b.publishedAt) - Date.parse(a.publishedAt);
     if (a.number !== null) return -1;
@@ -110,7 +117,10 @@ function applyDiscoveries(anime, channel, videos, candidatesLog, years = catalog
   const yearList = toYearList(years);
   const yearSet = new Set(yearList);
   const minYear = Math.min(...yearList);
-  const eligible = anime.filter(item => item.jikanType === 'TV' && !item.playlistId && yearSet.has(Number(item.catalogYear || item.year) || minYear));
+  const eligible = anime.filter(item => item.jikanType === 'TV'
+    && !item.playlistId
+    && (item.youtubeSourceType !== 'channel_uploads' || item.youtubeChannelId === channel.channelId)
+    && yearSet.has(Number(item.catalogYear || item.year) || minYear));
   const grouped = new Map();
   for (const video of videos) {
     const number = episodeNumber(video.title);
@@ -124,7 +134,8 @@ function applyDiscoveries(anime, channel, videos, candidatesLog, years = catalog
       continue;
     }
     const list = grouped.get(result.match.id) || [];
-    list.push({ number, title: video.title, videoId: video.videoId, videoUrl: `https://www.youtube.com/watch?v=${video.videoId}`, publishedAt: video.publishedAt });
+    const range = episodeRange(video.title);
+    list.push({ number, ...(range || {}), title: video.title, videoId: video.videoId, videoUrl: `https://www.youtube.com/watch?v=${video.videoId}`, publishedAt: video.publishedAt });
     grouped.set(result.match.id, list);
   }
 
