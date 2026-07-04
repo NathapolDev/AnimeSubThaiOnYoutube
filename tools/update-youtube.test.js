@@ -49,6 +49,21 @@ test('filters promotional and unavailable videos', () => {
   assert.equal(isEpisode('Anime ตอนที่ 1'), true);
 });
 
+test('filters highlights, shorts and recap clips that mimic real episodes', () => {
+  for (const title of [
+    'น้องสาวแท้ ๆ แน่นอน | ไฮไลท์อนิเมะยมลแห่งยมโลก ตอนที่ 8',
+    'มีแต่พวกบ้าราคุโกะกันทั้งนั้นเลย l อาคาเนะ พลิกตำนานวงการราคุโกะ #Shorts ตอนที่ 1',
+    'สรุปใน 3 นาที กฎ "จรดลล้างบาง" ตอนที่ 3 | มหาเวทย์ผนึกมาร จรดลล้างบาง พาร์ต 1',
+    'Anime Highlight ตอนที่ 5',
+    'Recap ตอนที่ 2'
+  ]) {
+    assert.equal(isEpisode(title), false, title);
+  }
+  // Real full episodes must still pass, including titles that merely contain "นาที"/"สรุป"
+  assert.equal(isEpisode('มหาเวทย์ผนึกมาร จรดลล้างบาง พาร์ต 1 ตอนที่ 9 [ซับไทย]'), true);
+  assert.equal(isEpisode('คิริโอะแฟนคลับ ตอนที่ 12  [ซับไทย]'), true);
+});
+
 test('deduplicates and sorts numbered episodes while retaining unnumbered items', () => {
   const result = buildEpisodeList([
     playlistItem('Anime ตอนที่ 1', 'a', '2026-07-01T00:00:00Z'),
