@@ -51,9 +51,14 @@ jobs:
             exit 0
           fi
           git commit -m "chore: update latest anime episodes"
-          for attempt in 1 2 3; do
+          for attempt in 1 2 3 4 5; do
             if git push; then exit 0; fi
-            git pull --rebase origin main
+            echo "Push rejected (attempt $attempt); rebasing onto latest main..."
+            git fetch origin main
+            # data/* files are regenerated wholesale each run, so a plain
+            # rebase always conflicts on them. Resolve in favour of this run's
+            # freshly generated version instead of wedging on merge markers.
+            git rebase -X theirs origin/main || git rebase --abort
           done
           git push
 
