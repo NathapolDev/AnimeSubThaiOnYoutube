@@ -150,9 +150,7 @@ function cardTemplate(item, index) {
   const update = updateMap[item.updateStatus] || updateMap.pending;
   const watchUrl = safeExternalUrl(item.latestVideoUrl || item.link);
   const hasWatch = watchUrl !== '#';
-  const total = Number(item.episodes);
-  const current = Number(item.currentEpisode) || 0;
-  const progress = total > 0 && current > 0 ? Math.min(100, Math.round(current / total * 100)) : 0;
+  const prog = episodeProgress(item);
   const isFav = favorites.has(item.id);
   return `<article class="anime-card" tabindex="0" role="button" aria-label="${escapeHtml(item.titleThai)}" data-id="${escapeHtml(item.id)}">
     <div class="poster-wrap">${posterHtml(item, { eager: index < 4 })}
@@ -169,7 +167,7 @@ function cardTemplate(item, index) {
     <div class="card-body">
       <h3>${escapeHtml(item.titleThai)}</h3><p class="original">${escapeHtml(item.titleOriginal)}</p>
       <div class="episode-row"><strong>${latestText(item)}</strong><span class="update-badge ${update[1]}">${update[0]}</span></div>
-      ${progress ? `<div class="progress" role="img" aria-label="ฉายแล้ว ${current} จาก ${total} ตอน"><i style="width:${progress}%"></i><span>${current}/${total}</span></div>` : ''}
+      ${prog.show ? `<div class="progress" role="img" aria-label="พบตอนจาก YouTube ${prog.current} จาก ${prog.total} ตอน"><i style="width:${prog.percent}%"></i><span>${prog.current}/${prog.total}</span></div>` : ''}
       <div class="meta">${(item.genres || []).slice(0, 3).map(g => `<span class="tag">${escapeHtml(g)}</span>`).join('')}</div>
       <div class="card-footer">
         ${hasWatch ? `<a class="watch-btn" href="${escapeHtml(watchUrl)}" target="_blank" rel="noopener">▶ ${item.latestVideoUrl || item.playlistId ? 'ดูตอนล่าสุด' : 'ดูข้อมูลอนิเมะ'}</a>` : '<span class="watch-btn is-disabled">รอลิงก์รับชม</span>'}
