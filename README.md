@@ -1,6 +1,6 @@
 # Anime TV Catalog — Thai YouTube Tracker
 
-Static website สำหรับแสดงอนิเมะ TV ทั้งปีจาก Jikan พร้อมติดตามตอนจากช่อง YouTube ลิขสิทธิ์ไทย
+Static website สำหรับแสดงอนิเมะ TV ทั้งปีจาก Jikan พร้อมติดตามตอนจากช่อง YouTube ลิขสิทธิ์ไทย และช่องทางรับชมบน Crunchyroll
 
 ## วิธีเปิด
 
@@ -26,6 +26,14 @@ $env:YOUTUBE_API_KEY='your-api-key'
 node tools/update-youtube.js
 node tools/discover-youtube.js
 ```
+
+อัปเดตช่องทางรับชม Crunchyroll (ดึงจาก AniList API — ไม่ต้องใช้ key):
+
+```powershell
+node tools/update-crunchyroll.js
+```
+
+สคริปต์นี้ค้นด้วย `malId` ของแต่ละเรื่อง แล้วเขียน field `crunchyroll` (ลิงก์ซีรีส์ + รายการตอน) ลงข้อมูล เรื่องที่มีตอนบน Crunchyroll จะถูกนับเป็น "ดูได้แล้ว" — หมายเหตุ: ข้อมูลสะท้อนการมีให้ดูบน Crunchyroll สากล โปรดตรวจสอบซับไทยในแอปอีกครั้ง
 
 สคริปต์จะอ่าน `data/anime.json` ตรวจทุกหน้าใน playlist แล้วเขียนทั้ง `data/anime.json` และ `data/anime.js` ใหม่ หากไม่มี key สคริปต์จะจบด้วยข้อความ error ที่ชัดเจน
 

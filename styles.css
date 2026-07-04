@@ -177,6 +177,7 @@ body.light .search-box { background: rgba(255, 255, 255, .6) }
 .new-badge { background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #071224; border-color: transparent }
 .score-badge { color: var(--amber) }
 .channel-badge { max-width: 60% }
+.cr-badge { background: rgba(244, 117, 33, .85); border-color: transparent }
 .fav-btn {
   position: absolute; right: 8px; top: 44px; width: 38px; height: 38px;
   border: 1px solid rgba(255, 255, 255, .28); border-radius: 50%;
@@ -271,6 +272,7 @@ body.light .search-box { background: rgba(255, 255, 255, .6) }
 .episode-heading .eyebrow { margin-bottom: 4px }
 .episode-heading h3 { margin: 0; font-size: 20px }
 .episode-heading > span { color: #b8c5e6; font-size: 13px; white-space: nowrap }
+.episode-note { margin: -6px 0 12px; color: #b8c5e6; font-size: 13px }
 .episode-list { display: grid; gap: 8px }
 .episode-item {
   display: grid; grid-template-columns: 70px minmax(0, 1fr) auto; align-items: center; gap: 12px;

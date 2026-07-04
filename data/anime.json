@@ -66,7 +66,18 @@
     "youtubeResearchNotes": "",
     "youtubeResearchSourceUrls": [],
     "youtubeLastResearchedAt": "",
-    "youtubeOfficialChannelUrl": ""
+    "youtubeOfficialChannelUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00378117/the-cat-and-the-dragon",
+      "anilistId": 186863,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "world-is-dancing",
@@ -192,7 +203,18 @@
     "youtubeResearchNotes": "",
     "youtubeResearchSourceUrls": [],
     "youtubeLastResearchedAt": "",
-    "youtubeOfficialChannelUrl": ""
+    "youtubeOfficialChannelUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GMEHMEN75/bungo-stray-dogs-wan",
+      "anilistId": 201667,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "bang-dream-yumemita",
@@ -268,7 +290,18 @@
     "youtubeResearchNotes": "",
     "youtubeResearchSourceUrls": [],
     "youtubeLastResearchedAt": "",
-    "youtubeOfficialChannelUrl": ""
+    "youtubeOfficialChannelUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00379424/",
+      "anilistId": 198376,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "exiled-heavy-knight",
@@ -332,7 +365,18 @@
     "youtubeResearchNotes": "",
     "youtubeResearchSourceUrls": [],
     "youtubeLastResearchedAt": "",
-    "youtubeOfficialChannelUrl": ""
+    "youtubeOfficialChannelUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00378018/the-exiled-heavy-knight-knows-how-to-game-the-system",
+      "anilistId": 180136,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "yani-neko",
@@ -467,7 +511,18 @@
       "https://www.youtube.com/watch?v=_pP2jMWkR98"
     ],
     "youtubeLastResearchedAt": "2026-07-03T06:43:41.253078+00:00",
-    "youtubeOfficialChannelUrl": "https://www.youtube.com/@MuseThailand"
+    "youtubeOfficialChannelUrl": "https://www.youtube.com/@MuseThailand",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00377907/black-torch",
+      "anilistId": 187538,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "mushoku-tensei-iii",
@@ -545,7 +600,18 @@
       "https://www.youtube.com/watch?v=oIeXIKNkMwE"
     ],
     "youtubeLastResearchedAt": "2026-07-03T06:43:41.253078+00:00",
-    "youtubeOfficialChannelUrl": "https://www.youtube.com/@MuseThailand"
+    "youtubeOfficialChannelUrl": "https://www.youtube.com/@MuseThailand",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/G24H1N3MP/mushoku-tensei-jobless-reincarnation",
+      "anilistId": 178789,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "polar-opposites-2",
@@ -685,7 +751,18 @@
     "youtubeResearchSourceUrls": [],
     "youtubeLastResearchedAt": "",
     "youtubeOfficialChannelUrl": "",
-    "malId": 63832
+    "malId": 63832,
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365624/you-and-i-are-polar-opposites",
+      "anilistId": 210031,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "worlds-strongest-rearguard",
@@ -751,7 +828,18 @@
       "https://www.instagram.com/reel/DVqUoAbj5PC/"
     ],
     "youtubeLastResearchedAt": "2026-07-03T06:43:41.253078+00:00",
-    "youtubeOfficialChannelUrl": "https://www.youtube.com/@MuseThailand"
+    "youtubeOfficialChannelUrl": "https://www.youtube.com/@MuseThailand",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00378122/the-worlds-strongest-rearguard",
+      "anilistId": 198409,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "clevatess-ii",
@@ -899,7 +987,18 @@
     "youtubeResearchNotes": "",
     "youtubeResearchSourceUrls": [],
     "youtubeLastResearchedAt": "",
-    "youtubeOfficialChannelUrl": ""
+    "youtubeOfficialChannelUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/G8DHV78ZM/clevatess",
+      "anilistId": 198946,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "tomb-raider-king",
@@ -963,7 +1062,18 @@
       "https://www.facebook.com/AniOneThailand/posts/-tomb-raider-king-online-premiere-screening%E0%B8%AA%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%AD%E0%B8%84%E0%B8%AD%E0%B8%A2-%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87%E0%B9%83%E0%B8%99%E0%B8%AD%E0%B8%99%E0%B8%B4%E0%B9%80%E0%B8%A1%E0%B8%B0%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B9%81%E0%B8%AD%E0%B9%87%E0%B8%81%E0%B8%8A/994784206801114/"
     ],
     "youtubeLastResearchedAt": "2026-07-03T06:43:41.253078+00:00",
-    "youtubeOfficialChannelUrl": "https://www.youtube.com/@AniOneThailand"
+    "youtubeOfficialChannelUrl": "https://www.youtube.com/@AniOneThailand",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/",
+      "anilistId": 184356,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "cloudy-beach",
@@ -1062,7 +1172,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GR9P57W96/saga-of-tanya-the-evil",
+      "anilistId": 135865,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "super-no-ura-de-yani-suu-futari",
@@ -1113,7 +1234,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00378116/smoking-behind-the-supermarket-with-you",
+      "anilistId": 196187,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "bleach-sennen-kessen-hen-kashin-tan",
@@ -1353,7 +1485,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GNVHKN94W/grand-blue-dreaming",
+      "anilistId": 199111,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu-ii",
@@ -1412,7 +1555,18 @@
     "youtubeSourceType": "channel_uploads",
     "youtubeChannelId": "UCn8hjQOnGYR1AZtYYMYP5jQ",
     "youtubeChannelTitle": "Muse Thailand",
-    "youtubeMatchConfidence": "strong_unique_title_match"
+    "youtubeMatchConfidence": "strong_unique_title_match",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/G8DHV7WJP/skeleton-knight-in-another-world",
+      "anilistId": 185542,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "kimi-ga-shinu-made-koi-wo-shitai",
@@ -1462,7 +1616,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com",
+      "anilistId": 187260,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season",
@@ -1515,7 +1680,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GNVHKN933/the-100-girlfriends-who-really-really-really-really-really-love-you",
+      "anilistId": 200637,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "katainaka-no-ossan-kensei-ni-naru-ii",
@@ -1716,7 +1892,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GQWH0M19X/the-elusive-samurai",
+      "anilistId": 182616,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "shiguang-dailiren-iii",
@@ -1813,7 +2000,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00378078/jaadugar-a-witch-in-mongolia",
+      "anilistId": 190569,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru-2nd-season",
@@ -1962,7 +2160,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/",
+      "anilistId": 188139,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "tai-ari-deshita-ojousama-wa-kakutou-game-nante-shinai",
@@ -2014,7 +2223,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00362362/young-ladies-dont-play-fighting-games",
+      "anilistId": 128757,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "rakudai-kenja-no-gakuin-musou-nidome-no-tensei-s-rank-cheat-majutsushi-boukenrok",
@@ -2065,7 +2285,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00378115",
+      "anilistId": 208044,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-ason",
@@ -2115,7 +2346,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/",
+      "anilistId": 169583,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "lv999-no-murabito",
@@ -2163,7 +2405,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371878/the-villager-of-level-999",
+      "anilistId": 197715,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seik",
@@ -2213,7 +2466,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00378102/rich-girl-caretaker-im-secretly-the-caregiver-of-the-most-popular-girl-in-this-rich-kid-school",
+      "anilistId": 201514,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "toumei-na-yoru-ni-kakeru-kimi-to-me-ni-mienai-koi-wo-shita",
@@ -2261,7 +2525,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com",
+      "anilistId": 202269,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "otome-kaijuu-carame-liser",
@@ -2312,7 +2587,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00378081/kaiju-girl-caramelise",
+      "anilistId": 204466,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "heroine-seijo-iie-all-works-maid-desu-hokori",
@@ -2362,7 +2648,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00378069/",
+      "anilistId": 192800,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "one-piece-heroines",
@@ -2506,7 +2803,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00378059/goodbye-lara",
+      "anilistId": 177637,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-n",
@@ -2556,7 +2864,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371671",
+      "anilistId": 199748,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu",
@@ -2603,7 +2922,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00378125/",
+      "anilistId": 196219,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "saikyou-degarashi-ouji-no-anyaku-teii-arasoi",
@@ -2653,7 +2983,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/",
+      "anilistId": 169582,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-ta",
@@ -2700,7 +3041,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/",
+      "anilistId": 199408,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "ryoumin-0-nin-start-no-henkyou-ryoushu-sama",
@@ -2748,7 +3100,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00378124/the-frontier-lord-begins-with-zero-subjects",
+      "anilistId": 196218,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "hanaori-san-wa-tensei-shitemo-kenka-ga-shitai",
@@ -2800,7 +3163,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00378066/hanaori-san-still-wants-to-fight-in-the-next-life",
+      "anilistId": 199066,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "oni-no-hanayome",
@@ -2849,7 +3223,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00378121/the-ogres-bride",
+      "anilistId": 194219,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "the-ribbon-hero",
@@ -2955,7 +3340,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/",
+      "anilistId": 207809,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance",
@@ -3002,7 +3398,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00378090/magical-girl-lyrical-nanoha-exceeds-gun-blaze-vengeance",
+      "anilistId": 185875,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "kimi-wo-aisuru-ki-wa-nai-to-itta-jiki-koushaku-sama-ga-nazeka-dekiai-shitekimasu",
@@ -3051,7 +3458,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00378118/the-dukes-son-claims-he-wont-love-me-but-showers-me-with-adoration",
+      "anilistId": 208225,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "tefuda-ga-oome-no-victoria",
@@ -3097,7 +3515,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/",
+      "anilistId": 198709,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "jiyi-guanli-ju-2026",
@@ -3244,7 +3673,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00377933/dara-san-of-the-reiwa-era",
+      "anilistId": 203880,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "doko-yori-mo-tooi-basho-ni-iru-kimi-e",
@@ -3390,7 +3830,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371926/",
+      "anilistId": 203490,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "azur-lane-bisoku-zenshin-ni",
@@ -3440,7 +3891,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GQWH0MXPQ/anime-azurlane-slow-ahead",
+      "anilistId": 169080,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "saishuu-gakushou-hibike-euphonium-kouhen",
@@ -3539,7 +4001,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00378096/recommendations-from-iwamoto-senpai",
+      "anilistId": 206249,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "kore-kaite-shine",
@@ -3597,7 +4070,18 @@
     "youtubeSourceType": "channel_uploads",
     "youtubeChannelId": "UCn8hjQOnGYR1AZtYYMYP5jQ",
     "youtubeChannelTitle": "Muse Thailand",
-    "youtubeMatchConfidence": "strong_unique_title_match"
+    "youtubeMatchConfidence": "strong_unique_title_match",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371656/draw-this-then-die",
+      "anilistId": 188525,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "sword-art-online-unanswered-butterfly",
@@ -3690,7 +4174,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00378063/grow-up-show",
+      "anilistId": 196017,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "kimi-to-hanabi-to-yakusoku-to",
@@ -3786,7 +4281,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/",
+      "anilistId": 204060,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita",
@@ -3927,7 +4433,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/",
+      "anilistId": 200230,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "ushiro-no-shoumen-kamui-san",
@@ -4031,7 +4548,18 @@
       "https://yumeyaclub.com/post/86351"
     ],
     "youtubeLastResearchedAt": "",
-    "youtubeOfficialChannelUrl": ""
+    "youtubeOfficialChannelUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/",
+      "anilistId": 108992,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "wareware-wa-uchuujin",
@@ -5270,7 +5798,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365568/hana-kimi",
+      "anilistId": 209669,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "yoroi-shin-den-samurai-troopers-part-2",
@@ -5321,7 +5860,18 @@
     "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": ""
+    "youtubeMatchConfidence": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00367517/yoroi-shinden-samurai-troopers",
+      "anilistId": 209800,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "meitantei-precure-movie-fushigi-na-niwa-to-2-ri-no-himitsu",
@@ -5539,7 +6089,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end",
+      "anilistId": 182255,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "jujutsu-kaisen-shimetsu-kaiyuu-zenpen",
@@ -5653,7 +6214,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen",
+      "anilistId": 172463,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "jigokuraku-2nd-season",
@@ -5667,8 +6239,8 @@
     "airTimeThai": "อาทิตย์ 21:45",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/55825/Jigokuraku_2nd_Season",
     "genres": [
       "Action",
@@ -5705,7 +6277,97 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GJ0H7Q5ZJ/hells-paradise",
+      "anilistId": 166613,
+      "numberingOffset": 0,
+      "availableEpisodes": [
+        {
+          "number": 13,
+          "rawNumber": 13,
+          "title": "Dreams and Reality",
+          "url": "https://www.crunchyroll.com/watch/GZ7UV1Q8V/dreams-and-reality"
+        },
+        {
+          "number": 12,
+          "rawNumber": 12,
+          "title": "Umbrella and Ink",
+          "url": "https://www.crunchyroll.com/watch/G8WUN038P/umbrella-and-ink"
+        },
+        {
+          "number": 11,
+          "rawNumber": 11,
+          "title": "Weak and Strong",
+          "url": "https://www.crunchyroll.com/watch/G2XU0DXW1/weak-and-strong"
+        },
+        {
+          "number": 10,
+          "rawNumber": 10,
+          "title": "Yin and Yang",
+          "url": "https://www.crunchyroll.com/watch/GPWUKDN4N/yin-and-yang"
+        },
+        {
+          "number": 9,
+          "rawNumber": 9,
+          "title": "Gods and People",
+          "url": "https://www.crunchyroll.com/watch/G31UXZK0N/gods-and-people"
+        },
+        {
+          "number": 8,
+          "rawNumber": 8,
+          "title": "Student and Master",
+          "url": "https://www.crunchyroll.com/watch/GVWU04NQ7/student-and-master"
+        },
+        {
+          "number": 7,
+          "rawNumber": 7,
+          "title": "Flowers and Offerings",
+          "url": "https://www.crunchyroll.com/watch/GMKUXG98Q/flowers-and-offerings"
+        },
+        {
+          "number": 6,
+          "rawNumber": 6,
+          "title": "Heart and Reason",
+          "url": "https://www.crunchyroll.com/watch/GK9U3DV5D/heart-and-reason"
+        },
+        {
+          "number": 5,
+          "rawNumber": 5,
+          "title": "The Samurai and the Woman",
+          "url": "https://www.crunchyroll.com/watch/GN7UDVXP4/the-samurai-and-the-woman"
+        },
+        {
+          "number": 4,
+          "rawNumber": 4,
+          "title": "Hell and Paradise",
+          "url": "https://www.crunchyroll.com/watch/GJWU2EN5Z/hell-and-paradise"
+        },
+        {
+          "number": 3,
+          "rawNumber": 3,
+          "title": "Weakness and Strength",
+          "url": "https://www.crunchyroll.com/watch/G14U4GQWD/weakness-and-strength"
+        },
+        {
+          "number": 2,
+          "rawNumber": 2,
+          "title": "Screening and Choosing",
+          "url": "https://www.crunchyroll.com/watch/G4VUQ8KEJ/screening-and-choosing"
+        },
+        {
+          "number": 1,
+          "rawNumber": 1,
+          "title": "The Death Row Convict and the Executioner",
+          "url": "https://www.crunchyroll.com/watch/GX9UQZ1PP/the-death-row-convict-and-the-executioner"
+        }
+      ],
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "ok",
+      "updateError": ""
+    }
   },
   {
     "id": "yuusha-kei-ni-shosu-choubatsu-yuusha-9004-tai-keimu-kiroku",
@@ -5753,7 +6415,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00356809/sentenced-to-be-a-hero",
+      "anilistId": 167152,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "oshi-no-ko-3rd-season",
@@ -5802,7 +6475,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00366791/oshi-no-ko",
+      "anilistId": 182587,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "seihantai-na-kimi-to-boku",
@@ -5851,7 +6535,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365624/you-and-i-are-polar-opposites",
+      "anilistId": 184951,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "enen-no-shouboutai-san-no-shou-part-2",
@@ -5865,8 +6560,8 @@
     "airTimeThai": "ศุกร์ 23:53",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/59229/Enen_no_Shouboutai__San_no_Shou_Part_2",
     "genres": [
       "Action",
@@ -5901,7 +6596,55 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GYQWNXPZY/fire-force",
+      "anilistId": 179062,
+      "numberingOffset": 12,
+      "availableEpisodes": [
+        {
+          "number": 6,
+          "rawNumber": 18,
+          "title": "Incantation of Destruction",
+          "url": "https://www.crunchyroll.com/watch/GG1UX29EW/incantation-of-destruction"
+        },
+        {
+          "number": 5,
+          "rawNumber": 17,
+          "title": "At the Center of the World",
+          "url": "https://www.crunchyroll.com/watch/GWDU78XP2/at-the-center-of-the-world"
+        },
+        {
+          "number": 4,
+          "rawNumber": 16,
+          "title": "Savior",
+          "url": "https://www.crunchyroll.com/watch/G50UMZPEV/savior"
+        },
+        {
+          "number": 3,
+          "rawNumber": 15,
+          "title": "Birth",
+          "url": "https://www.crunchyroll.com/watch/GK9UG3J8M/birth"
+        },
+        {
+          "number": 2,
+          "rawNumber": 14,
+          "title": "With the Sun at His Back",
+          "url": "https://www.crunchyroll.com/watch/GN7UNDEWV/with-the-sun-at-his-back"
+        },
+        {
+          "number": 1,
+          "rawNumber": 13,
+          "title": "Unaware",
+          "url": "https://www.crunchyroll.com/watch/GJWUQ23JV/unaware"
+        }
+      ],
+      "episodeCount": 6,
+      "latestEpisodeNumber": 6,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "ok",
+      "updateError": ""
+    }
   },
   {
     "id": "fate-strange-fake",
@@ -5915,8 +6658,8 @@
     "airTimeThai": "เสาร์ 21:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/55830/Fate_strange_Fake",
     "genres": [
       "Action",
@@ -5949,7 +6692,97 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/G4PH0WJQZ/fatestrange-fake",
+      "anilistId": 166617,
+      "numberingOffset": 0,
+      "availableEpisodes": [
+        {
+          "number": 12,
+          "rawNumber": 12,
+          "title": "At the End of the Rope",
+          "url": "https://www.crunchyroll.com/watch/GEVUWZMEM/at-the-end-of-the-rope"
+        },
+        {
+          "number": 11,
+          "rawNumber": 11,
+          "title": "The Pale Knight",
+          "url": "https://www.crunchyroll.com/watch/G0DUMNP81/the-pale-knight"
+        },
+        {
+          "number": 10,
+          "rawNumber": 10,
+          "title": "Gold and Lion",
+          "url": "https://www.crunchyroll.com/watch/GG1UX29G3/gold-and-lion"
+        },
+        {
+          "number": 9,
+          "rawNumber": 9,
+          "title": "The Nightmare Comes with the Dawn of London",
+          "url": "https://www.crunchyroll.com/watch/GWDU78XDG/the-nightmare-comes-with-the-dawn-of-london"
+        },
+        {
+          "number": 8,
+          "rawNumber": 8,
+          "title": "Backstage of a Third-rate Comedy",
+          "url": "https://www.crunchyroll.com/watch/G50UMZP54/backstage-of-a-third-rate-comedy"
+        },
+        {
+          "number": 7,
+          "rawNumber": 7,
+          "title": "Back from Twilight, the God Is Come",
+          "url": "https://www.crunchyroll.com/watch/GQJUMGJ2E/back-from-twilight-the-god-is-come"
+        },
+        {
+          "number": 6,
+          "rawNumber": 6,
+          "title": "The Wandering King's Rock 'n' Roll",
+          "url": "https://www.crunchyroll.com/watch/GD9UEVKXN/the-wandering-kings-rock-n-roll"
+        },
+        {
+          "number": 5,
+          "rawNumber": 5,
+          "title": "Stars' Banquet",
+          "url": "https://www.crunchyroll.com/watch/GZ7UDVK4N/stars-banquet"
+        },
+        {
+          "number": 4,
+          "rawNumber": 4,
+          "title": "The Canon of Demigods",
+          "url": "https://www.crunchyroll.com/watch/G8WU7NXMK/the-canon-of-demigods"
+        },
+        {
+          "number": 3,
+          "rawNumber": 3,
+          "title": "A Battle without Heroes",
+          "url": "https://www.crunchyroll.com/watch/G2XUN0KQP/a-battle-without-heroes"
+        },
+        {
+          "number": 2,
+          "rawNumber": 2,
+          "title": "Ensemble VS Pretense",
+          "url": "https://www.crunchyroll.com/watch/GPWU8K7GM/ensemble-vs-pretense"
+        },
+        {
+          "number": 1,
+          "rawNumber": 1,
+          "title": "The Heroic Spirit Incident",
+          "url": "https://www.crunchyroll.com/watch/GN7UNKD19/the-heroic-spirit-incident"
+        },
+        {
+          "number": 0,
+          "rawNumber": 0,
+          "title": "Whispers of Dawn",
+          "url": "https://www.crunchyroll.com/watch/GX9UQZE17/whispers-of-dawn"
+        }
+      ],
+      "episodeCount": 13,
+      "latestEpisodeNumber": 12,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "ok",
+      "updateError": ""
+    }
   },
   {
     "id": "yuusha-party-wo-oidasareta-kiyoubinbou",
@@ -6042,7 +6875,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00366764/jack-of-all-trades-party-of-none",
+      "anilistId": 187264,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "ikoku-nikki",
@@ -6089,7 +6933,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365571/journal-with-witch",
+      "anilistId": 177385,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "mato-seihei-no-slave-2",
@@ -6187,7 +7042,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365787/shiboyugi-playing-death-games-to-put-food-on-the-table",
+      "anilistId": 180746,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "yuusha-party-ni-kawaii-ko-ga-ita-node-kokuhaku-shitemita",
@@ -6237,7 +7103,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00355229/there-was-a-cute-girl-in-the-heros-party-so-i-tried-confessing-to-her",
+      "anilistId": 195515,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "tamon-kun-ima-docchi",
@@ -6286,7 +7163,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://crunchyroll.com/series/GT00365598/tamons-b-side",
+      "anilistId": 178005,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "vigilante-boku-no-hero-academia-illegals-2nd-season",
@@ -6300,8 +7188,8 @@
     "airTimeThai": "จันทร์ 20:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61942/Vigilante__Boku_no_Hero_Academia_Illegals_2nd_Season",
     "genres": [
       "Action",
@@ -6334,7 +7222,97 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://crunchyroll.com/series/G79H23ZQ3/my-hero-academia-vigilantes",
+      "anilistId": 195322,
+      "numberingOffset": 0,
+      "availableEpisodes": [
+        {
+          "number": 13,
+          "rawNumber": 13,
+          "title": "What a Man Takes with Him",
+          "url": "https://www.crunchyroll.com/watch/GZ7UD325Z/what-a-man-takes-with-him"
+        },
+        {
+          "number": 12,
+          "rawNumber": 12,
+          "title": "Goodbye to Dad",
+          "url": "https://www.crunchyroll.com/watch/G8WU7VGQX/goodbye-to-dad"
+        },
+        {
+          "number": 11,
+          "rawNumber": 11,
+          "title": "The Day Of",
+          "url": "https://www.crunchyroll.com/watch/G2XUN14PW/the-day-of"
+        },
+        {
+          "number": 10,
+          "rawNumber": 10,
+          "title": "Event Announcement!",
+          "url": "https://www.crunchyroll.com/watch/GPWU8JZ21/event-announcement"
+        },
+        {
+          "number": 9,
+          "rawNumber": 9,
+          "title": "Mom Descends!",
+          "url": "https://www.crunchyroll.com/watch/G31UVEWJQ/mom-descends"
+        },
+        {
+          "number": 8,
+          "rawNumber": 8,
+          "title": "Major",
+          "url": "https://www.crunchyroll.com/watch/GVWU8XWGZ/major"
+        },
+        {
+          "number": 7,
+          "rawNumber": 7,
+          "title": "Makoto/Truth",
+          "url": "https://www.crunchyroll.com/watch/GMKUEMQD5/makototruth"
+        },
+        {
+          "number": 6,
+          "rawNumber": 6,
+          "title": "Crossing Lines",
+          "url": "https://www.crunchyroll.com/watch/GK9UG2MPZ/crossing-lines"
+        },
+        {
+          "number": 5,
+          "rawNumber": 5,
+          "title": "Judgment",
+          "url": "https://www.crunchyroll.com/watch/GN7UNK235/judgment"
+        },
+        {
+          "number": 4,
+          "rawNumber": 4,
+          "title": "Top Runner",
+          "url": "https://www.crunchyroll.com/watch/GJWUQ79DP/top-runner"
+        },
+        {
+          "number": 3,
+          "rawNumber": 3,
+          "title": "Bee",
+          "url": "https://www.crunchyroll.com/watch/G14UVJ9ZZ/bee"
+        },
+        {
+          "number": 2,
+          "rawNumber": 2,
+          "title": "Takeoff",
+          "url": "https://www.crunchyroll.com/watch/G4VUW014D/takeoff"
+        },
+        {
+          "number": 1,
+          "rawNumber": 1,
+          "title": "I'm Here",
+          "url": "https://www.crunchyroll.com/watch/GX9U3MJ83/im-here"
+        }
+      ],
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "ok",
+      "updateError": ""
+    }
   },
   {
     "id": "mayonaka-heart-tune",
@@ -6384,7 +7362,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365772/tune-in-to-the-midnight-heart",
+      "anilistId": 187942,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "uruwashi-no-yoi-no-tsuki",
@@ -6432,7 +7421,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00334040/in-the-clear-moonlit-dusk",
+      "anilistId": 192507,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "kizoku-tensei-megumareta-umare-kara-saikyou-no-chikara-wo-eru",
@@ -6566,7 +7566,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365721/noble-reincarnation-born-blessed-so-ill-obtain-ultimate-power",
+      "anilistId": 185993,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru",
@@ -6664,7 +7675,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365565/easygoing-territory-defense-by-the-optimistic-lord",
+      "anilistId": 191205,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "majutsushi-kunon-wa-mieteiru",
@@ -6720,7 +7742,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365586/kunon-the-sorcerer-can-see",
+      "anilistId": 186333,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "trigun-stargaze",
@@ -6861,7 +7894,91 @@
     "youtubeResearchNotes": "",
     "youtubeResearchSourceUrls": [],
     "youtubeLastResearchedAt": "",
-    "youtubeOfficialChannelUrl": "https://www.youtube.com/channel/UCw2bdNSXh4x6e0NCduVoxMQ"
+    "youtubeOfficialChannelUrl": "https://www.youtube.com/channel/UCw2bdNSXh4x6e0NCduVoxMQ",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GXJHM3PK5/trigun-stampede",
+      "anilistId": 163144,
+      "numberingOffset": 12,
+      "availableEpisodes": [
+        {
+          "number": 12,
+          "rawNumber": 24,
+          "title": "QUO VADIS",
+          "url": "https://www.crunchyroll.com/watch/G31UVX19V/quo-vadis"
+        },
+        {
+          "number": 11,
+          "rawNumber": 23,
+          "title": "I Miss You.",
+          "url": "https://www.crunchyroll.com/watch/GVWU80E90/i-miss-you"
+        },
+        {
+          "number": 10,
+          "rawNumber": 22,
+          "title": "Martyr",
+          "url": "https://www.crunchyroll.com/watch/GMKUEX2V3/martyr"
+        },
+        {
+          "number": 9,
+          "rawNumber": 21,
+          "title": "Reunion",
+          "url": "https://www.crunchyroll.com/watch/GK9UG3JX2/reunion"
+        },
+        {
+          "number": 8,
+          "rawNumber": 20,
+          "title": "Good Bye, My Friend",
+          "url": "https://www.crunchyroll.com/watch/GN7UNDE4X/good-bye-my-friend"
+        },
+        {
+          "number": 7,
+          "rawNumber": 19,
+          "title": "The Hurt Locker",
+          "url": "https://www.crunchyroll.com/watch/GJWUQ23ZW/the-hurt-locker"
+        },
+        {
+          "number": 6,
+          "rawNumber": 18,
+          "title": "The Darkest Hour is Just Before the Dawn",
+          "url": "https://www.crunchyroll.com/watch/G14UV4DN1/the-darkest-hour-is-just-before-the-dawn"
+        },
+        {
+          "number": 5,
+          "rawNumber": 17,
+          "title": "What a Wonderful World",
+          "url": "https://www.crunchyroll.com/watch/G4VUWQ9N1/what-a-wonderful-world"
+        },
+        {
+          "number": 4,
+          "rawNumber": 16,
+          "title": "",
+          "url": "https://www.crunchyroll.com/watch/GX9U3QX5Z"
+        },
+        {
+          "number": 3,
+          "rawNumber": 15,
+          "title": "Memento Mori",
+          "url": "https://www.crunchyroll.com/watch/G9DU9EJ83/memento-mori"
+        },
+        {
+          "number": 2,
+          "rawNumber": 14,
+          "title": "Unforgiven",
+          "url": "https://www.crunchyroll.com/watch/G7PU34EQQ/unforgiven"
+        },
+        {
+          "number": 1,
+          "rawNumber": 13,
+          "title": "Wandering Days",
+          "url": "https://www.crunchyroll.com/watch/GEVUWZM9M/wandering-days"
+        }
+      ],
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "ok",
+      "updateError": ""
+    }
   },
   {
     "id": "golden-kamuy-saishuushou",
@@ -6912,7 +8029,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GY8DWQN5Y/golden-kamuy",
+      "anilistId": 166521,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "eris-no-seihai",
@@ -6960,7 +8088,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://crunchyroll.com/series/GT00365781/the-holy-grail-of-eris",
+      "anilistId": 183270,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "toumei-otoko-to-ningen-onna-sonouchi-fuufu-ni-naru-futari",
@@ -7010,7 +8149,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365610/the-invisible-man-and-his-soon-to-be-wife",
+      "anilistId": 185039,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "kaya-chan-wa-kowakunai",
@@ -7058,7 +8208,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365583/kaya-chan-isnt-scary",
+      "anilistId": 183660,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "isekai-no-sata-wa-shachiku-shidai",
@@ -7107,7 +8268,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365574/isekai-office-worker-the-other-worlds-books-depend-on-the-bean-counter",
+      "anilistId": 183661,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "omae-gotoki-ga-maou-ni-kateru-to-omouna-to-yuusha-party-wo-tsuihou-sareta-node-o",
@@ -7156,7 +8328,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365592/roll-over-and-die-i-will-fight-for-an-ordinary-life-with-my-love-and-cursed-sword",
+      "anilistId": 191718,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "akuyaku-reijou-wa-ringoku-no-outaishi-ni-dekiai-sareru",
@@ -7206,7 +8389,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365613/the-villainess-is-adored-by-the-prince-of-the-neighbor-kingdom",
+      "anilistId": 195518,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "osananajimi-to-wa-love-comedy-ni-naranai",
@@ -7255,7 +8449,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365622/you-cant-be-in-a-rom-com-with-your-childhood-friends",
+      "anilistId": 189565,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "tensei-shitara-dragon-no-tamago-datta",
@@ -7353,7 +8558,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365778/the-demon-kings-daughter-is-too-kind",
+      "anilistId": 194742,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "dead-account",
@@ -7496,7 +8712,18 @@
       "https://th.wikipedia.org/wiki/เดดแอ็กเคานต์_พิฆาตบัญชีมรณะ"
     ],
     "youtubeLastResearchedAt": "",
-    "youtubeOfficialChannelUrl": ""
+    "youtubeOfficialChannelUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365559/dead-account",
+      "anilistId": 187901,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "darwin-jihen",
@@ -7590,7 +8817,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365607/an-adventurers-daily-grind-at-age-29",
+      "anilistId": 192261,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "kirei-ni-shitemoraemasu-ka",
@@ -7637,7 +8875,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365775/wash-it-all-away",
+      "anilistId": 194028,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "medalist-2nd-season",
@@ -7736,7 +8985,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365568/hana-kimi",
+      "anilistId": 177580,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "champignon-no-majo",
@@ -7784,7 +9044,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://crunchyroll.com/series/GT00365553/champignon-witch",
+      "anilistId": 185514,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "odayaka-kizoku-no-kyuuka-no-susume",
@@ -7832,7 +9103,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365550/a-gentle-nobles-vacation-recommendation",
+      "anilistId": 182771,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "dark-moon-tsuki-no-saidan",
@@ -7880,7 +9162,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365556/dark-moon-the-blood-altar",
+      "anilistId": 181443,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "mf-ghost-3rd-season",
@@ -8026,7 +9319,91 @@
     "youtubeResearchNotes": "",
     "youtubeResearchSourceUrls": [],
     "youtubeLastResearchedAt": "",
-    "youtubeOfficialChannelUrl": "https://www.youtube.com/channel/UCw2bdNSXh4x6e0NCduVoxMQ"
+    "youtubeOfficialChannelUrl": "https://www.youtube.com/channel/UCw2bdNSXh4x6e0NCduVoxMQ",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GEXH3W2W7/mf-ghost",
+      "anilistId": 185753,
+      "numberingOffset": 24,
+      "availableEpisodes": [
+        {
+          "number": 13,
+          "rawNumber": 37,
+          "title": "The Lead Group Splits",
+          "url": "https://www.crunchyroll.com/watch/G14UV4DXN/the-lead-group-splits"
+        },
+        {
+          "number": 12,
+          "rawNumber": 36,
+          "title": "The Midair Feints",
+          "url": "https://www.crunchyroll.com/watch/G4VUWQ9M9/the-midair-feints"
+        },
+        {
+          "number": 11,
+          "rawNumber": 35,
+          "title": "The Strongest Train",
+          "url": "https://www.crunchyroll.com/watch/GX9U3QXKG/the-strongest-train"
+        },
+        {
+          "number": 10,
+          "rawNumber": 34,
+          "title": "The King's Impatience",
+          "url": "https://www.crunchyroll.com/watch/G9DU9EJD1/the-kings-impatience"
+        },
+        {
+          "number": 8,
+          "rawNumber": 32,
+          "title": "Sparks Fly",
+          "url": "https://www.crunchyroll.com/watch/GEVUWZM8G/sparks-fly"
+        },
+        {
+          "number": 7,
+          "rawNumber": 31,
+          "title": "The End of Summer",
+          "url": "https://www.crunchyroll.com/watch/G0DUMNP99/the-end-of-summer"
+        },
+        {
+          "number": 6,
+          "rawNumber": 30,
+          "title": "The 1:09PM Miracle",
+          "url": "https://www.crunchyroll.com/watch/GG1UX29DM/the-109pm-miracle"
+        },
+        {
+          "number": 5,
+          "rawNumber": 29,
+          "title": "Grandma's Kei Truck",
+          "url": "https://www.crunchyroll.com/watch/GWDU78XPN/grandmas-kei-truck"
+        },
+        {
+          "number": 4,
+          "rawNumber": 28,
+          "title": "Their First Kiss",
+          "url": "https://www.crunchyroll.com/watch/G50UMZPE8/their-first-kiss"
+        },
+        {
+          "number": 3,
+          "rawNumber": 27,
+          "title": "Into the Final Lap",
+          "url": "https://www.crunchyroll.com/watch/GQJUMGJE8/into-the-final-lap"
+        },
+        {
+          "number": 2,
+          "rawNumber": 26,
+          "title": "Fireball",
+          "url": "https://www.crunchyroll.com/watch/GD9UEVK27/fireball"
+        },
+        {
+          "number": 1,
+          "rawNumber": 25,
+          "title": "Miraculous Comeback",
+          "url": "https://www.crunchyroll.com/watch/GZ7UDVKPD/miraculous-comeback"
+        }
+      ],
+      "episodeCount": 12,
+      "latestEpisodeNumber": 13,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "ok",
+      "updateError": ""
+    }
   },
   {
     "id": "yuusha-no-kuzu",
@@ -8074,7 +9451,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365730/scum-of-the-brave",
+      "anilistId": 187989,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "jingai-kyoushitsu-no-ningengirai-kyoushi",
@@ -8124,7 +9512,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365542/a-misanthrope-teaches-a-class-for-demi-humans",
+      "anilistId": 198374,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "himesama-goumon-no-jikan-desu-2nd-season",
@@ -8173,7 +9572,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/G1XHJV0KV/tis-time-for-torture-princess",
+      "anilistId": 176370,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "arne-no-jikenbo",
@@ -8221,7 +9631,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365733/the-casebook-of-arne",
+      "anilistId": 183984,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "goumon-baito-kun-no-nichijou",
@@ -8269,7 +9690,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365604/the-daily-life-of-a-part-time-torturer",
+      "anilistId": 197731,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "android-wa-keiken-ninzuu-ni-hairimasu-ka",
@@ -8367,7 +9799,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GJ0H7QGGM/anyway-im-falling-in-love-with-you",
+      "anilistId": 189137,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "ao-no-miburo-serizawa-ansatsu-hen",
@@ -8381,8 +9824,8 @@
     "airTimeThai": "เสาร์ 15:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61333/Ao_no_Miburo__Serizawa_Ansatsu-hen",
     "genres": [
       "Action",
@@ -8416,7 +9859,103 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GXJHM3GP8/blue-miburo",
+      "anilistId": 189258,
+      "numberingOffset": 0,
+      "availableEpisodes": [
+        {
+          "number": 14,
+          "rawNumber": 14,
+          "title": "Song of Beginnings",
+          "url": "https://www.crunchyroll.com/watch/G50UMZP28/song-of-beginnings"
+        },
+        {
+          "number": 13,
+          "rawNumber": 13,
+          "title": "Blue Era",
+          "url": "https://www.crunchyroll.com/watch/GQJUMGJD8/blue-era"
+        },
+        {
+          "number": 12,
+          "rawNumber": 12,
+          "title": "Serizawa Kamo",
+          "url": "https://www.crunchyroll.com/watch/GD9UEVKN7/serizawa-kamo"
+        },
+        {
+          "number": 11,
+          "rawNumber": 11,
+          "title": "A Clumsy Strike",
+          "url": "https://www.crunchyroll.com/watch/GZ7UDVK7D/a-clumsy-strike"
+        },
+        {
+          "number": 10,
+          "rawNumber": 10,
+          "title": "The Arena",
+          "url": "https://www.crunchyroll.com/watch/G8WU7NXDN/the-arena"
+        },
+        {
+          "number": 9,
+          "rawNumber": 9,
+          "title": "The Path of Asura",
+          "url": "https://www.crunchyroll.com/watch/G2XUN0K2V/the-path-of-asura"
+        },
+        {
+          "number": 8,
+          "rawNumber": 8,
+          "title": "Near yet Far",
+          "url": "https://www.crunchyroll.com/watch/GPWU8K7QJ/near-yet-far"
+        },
+        {
+          "number": 7,
+          "rawNumber": 7,
+          "title": "The Ultimate Duo",
+          "url": "https://www.crunchyroll.com/watch/G31UVX1PK/the-ultimate-duo"
+        },
+        {
+          "number": 6,
+          "rawNumber": 6,
+          "title": "Discord",
+          "url": "https://www.crunchyroll.com/watch/GVWU80EDM/discord"
+        },
+        {
+          "number": 5,
+          "rawNumber": 5,
+          "title": "Firefly Glow",
+          "url": "https://www.crunchyroll.com/watch/GMKUEX2JP/firefly-glow"
+        },
+        {
+          "number": 4,
+          "rawNumber": 4,
+          "title": "Infamy",
+          "url": "https://www.crunchyroll.com/watch/GK9UG3J7M/infamy"
+        },
+        {
+          "number": 3,
+          "rawNumber": 3,
+          "title": "A Lone Sheep",
+          "url": "https://www.crunchyroll.com/watch/GN7UNDE5V/a-lone-sheep"
+        },
+        {
+          "number": 2,
+          "rawNumber": 2,
+          "title": "The Path of Humanity",
+          "url": "https://www.crunchyroll.com/watch/GJWUQ234V/the-path-of-humanity"
+        },
+        {
+          "number": 1,
+          "rawNumber": 1,
+          "title": "Wild Brawl",
+          "url": "https://www.crunchyroll.com/watch/G14UV4D8N/wild-brawl"
+        }
+      ],
+      "episodeCount": 14,
+      "latestEpisodeNumber": 14,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "ok",
+      "updateError": ""
+    }
   },
   {
     "id": "jigoku-sensei-nube-2025-part-2",
@@ -8603,7 +10142,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00367517/yoroi-shinden-samurai-troopers",
+      "anilistId": 194318,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "hikuidori-ushuu-boro-tobi-gumi",
@@ -8649,7 +10199,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365724/oedo-fire-slayer--the-legend-of-phoenix-",
+      "anilistId": 187062,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "saioshi-no-gikei-wo-mederu-tame-nagaiki-shimasu",
@@ -8758,7 +10319,18 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00369409",
+      "anilistId": 202957,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "high-school-kimengumi-2026",
@@ -8890,8 +10462,8 @@
     "airTimeThai": "จันทร์ 00:20",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/63087/Yami_Shibai_16",
     "genres": [
       "Avant Garde",
@@ -8924,7 +10496,97 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/G6WEM1V36/theatre-of-darkness-yamishibai",
+      "anilistId": 203939,
+      "numberingOffset": 0,
+      "availableEpisodes": [
+        {
+          "number": 13,
+          "rawNumber": 13,
+          "title": "Conclusion",
+          "url": "https://www.crunchyroll.com/watch/G14UV4D91/conclusion"
+        },
+        {
+          "number": 12,
+          "rawNumber": 12,
+          "title": "Restoration",
+          "url": "https://www.crunchyroll.com/watch/G4VUWQ911/restoration"
+        },
+        {
+          "number": 11,
+          "rawNumber": 11,
+          "title": "Dream Connection",
+          "url": "https://www.crunchyroll.com/watch/GX9U3QXJZ/dream-connection"
+        },
+        {
+          "number": 10,
+          "rawNumber": 10,
+          "title": "Musubime-sama",
+          "url": "https://www.crunchyroll.com/watch/G9DU9EJ53/musubime-sama"
+        },
+        {
+          "number": 9,
+          "rawNumber": 9,
+          "title": "Sleeper Train",
+          "url": "https://www.crunchyroll.com/watch/G7PU34EMQ/sleeper-train"
+        },
+        {
+          "number": 8,
+          "rawNumber": 8,
+          "title": "Frozen Over",
+          "url": "https://www.crunchyroll.com/watch/GEVUWZMXM/frozen-over"
+        },
+        {
+          "number": 7,
+          "rawNumber": 7,
+          "title": "Round and Around",
+          "url": "https://www.crunchyroll.com/watch/G0DUMNPD1/round-and-around"
+        },
+        {
+          "number": 6,
+          "rawNumber": 6,
+          "title": "Password",
+          "url": "https://www.crunchyroll.com/watch/GG1UX2943/password"
+        },
+        {
+          "number": 5,
+          "rawNumber": 5,
+          "title": "Gathering",
+          "url": "https://www.crunchyroll.com/watch/GWDU78XEG/gathering-"
+        },
+        {
+          "number": 4,
+          "rawNumber": 4,
+          "title": "Following",
+          "url": "https://www.crunchyroll.com/watch/G50UMZPX4/following"
+        },
+        {
+          "number": 3,
+          "rawNumber": 3,
+          "title": "A Peaceful Village",
+          "url": "https://www.crunchyroll.com/watch/GQJUMGJVE/a-peaceful-village"
+        },
+        {
+          "number": 2,
+          "rawNumber": 2,
+          "title": "Research Results",
+          "url": "https://www.crunchyroll.com/watch/GD9UEVKQN/research-results"
+        },
+        {
+          "number": 1,
+          "rawNumber": 1,
+          "title": "Final Episode",
+          "url": "https://www.crunchyroll.com/watch/GZ7UDVK2N/final-episode"
+        }
+      ],
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "ok",
+      "updateError": ""
+    }
   },
   {
     "id": "hokuto-no-ken-kenougun-zako-tachi-no-banka",
@@ -9388,7 +11050,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00258001/",
+      "anilistId": 147105,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "re-zero-kara-hajimeru-isekai-seikatsu-4th-season",
@@ -9520,7 +11193,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GRGG9798R",
+      "anilistId": 189046,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-4th-season-2-nensei-hen-1-gakki",
@@ -9665,7 +11349,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GRVN8MNQY/classroom-of-the-elite",
+      "anilistId": 180745,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "tensei-shitara-slime-datta-ken-4th-season",
@@ -9796,7 +11491,25 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime",
+      "anilistId": 182205,
+      "numberingOffset": 0,
+      "availableEpisodes": [
+        {
+          "number": null,
+          "rawNumber": null,
+          "title": "Episode  - That Time I Got Reincarnated as a Slime the Movie: Tears of the Azure Sea | Trailer",
+          "url": "https://www.crunchyroll.com/watch/GX9U3QZ2W/that-time-i-got-reincarnated-as-a-slime-the-movie-tears-of-the-azure-sea-trailer"
+        }
+      ],
+      "episodeCount": 1,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "ok",
+      "updateError": ""
+    }
   },
   {
     "id": "yomi-no-tsugai",
@@ -9847,7 +11560,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://crunchyroll.com/series/GT00371630/daemons-of-the-shadow-realm",
+      "anilistId": 195600,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "tsue-to-tsurugi-no-wistoria-season-2",
@@ -9898,7 +11622,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GW4HM7WK9/wistoria-wand-and-sword",
+      "anilistId": 182300,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "dr-stone-science-future-part-3",
@@ -9956,7 +11691,18 @@
       "https://www.youtube.com/watch?v=S1Mb4fDpsC8"
     ],
     "youtubeLastResearchedAt": "",
-    "youtubeOfficialChannelUrl": ""
+    "youtubeOfficialChannelUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GYEXQKJG6/dr-stone",
+      "anilistId": 199221,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-2",
@@ -10003,7 +11749,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/G9VHN91DJ/the-angel-next-door-spoils-me-rotten",
+      "anilistId": 170019,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta",
@@ -10050,7 +11807,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371673",
+      "anilistId": 169580,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "marriagetoxin",
@@ -10201,7 +11969,18 @@
       "https://th.wikipedia.org/wiki/วิวาห์แต้มพิษ"
     ],
     "youtubeLastResearchedAt": "",
-    "youtubeOfficialChannelUrl": ""
+    "youtubeOfficialChannelUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371857/marriagetoxin",
+      "anilistId": 199547,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "otaku-ni-yasashii-gal-wa-inai",
@@ -10251,7 +12030,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371662/gals-cant-be-kind-to-otaku",
+      "anilistId": 199588,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "koori-no-jouheki",
@@ -10395,7 +12185,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00362253/the-warrior-princess-and-the-barbaric-king",
+      "anilistId": 182483,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "aishiteru-game-wo-owarasetai",
@@ -10443,7 +12244,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371779",
+      "anilistId": 194393,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "isekai-nonbiri-nouka-2",
@@ -10641,7 +12453,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/G6NVG970Y/welcome-to-demon-school-iruma-kun",
+      "anilistId": 184492,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoush",
@@ -10689,7 +12512,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/G6793XKZY/ascendance-of-a-bookworm",
+      "anilistId": 171110,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "shunkashuutou-daikousha-haru-no-mai",
@@ -10776,7 +12610,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371636/agents-of-the-four-seasons-dance-of-spring",
+      "anilistId": 190143,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "kanan-sama-wa-akumade-choroi",
@@ -10914,7 +12759,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://crunchyroll.com/series/GT00371860/mistress-kanan-is-devilishly-easy",
+      "anilistId": 190704,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-season-2",
@@ -10928,8 +12784,8 @@
     "airTimeThai": "พุธ 21:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61831/Saikyou_no_Ousama_Nidome_no_Jinsei_wa_Nani_wo_Suru_Season_2",
     "genres": [
       "Fantasy",
@@ -10962,7 +12818,91 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/G24H1NWKE/the-beginning-after-the-end",
+      "anilistId": 194317,
+      "numberingOffset": 0,
+      "availableEpisodes": [
+        {
+          "number": 12,
+          "rawNumber": 12,
+          "title": "The King’s Departure",
+          "url": "https://www.crunchyroll.com/watch/G14UVJM14/the-kings-departure"
+        },
+        {
+          "number": 11,
+          "rawNumber": 11,
+          "title": "The King's Decision",
+          "url": "https://www.crunchyroll.com/watch/G4VUW02V7/the-kings-decision"
+        },
+        {
+          "number": 10,
+          "rawNumber": 10,
+          "title": "The King's Defiance",
+          "url": "https://www.crunchyroll.com/watch/GX9U3M0WM/the-kings-defiance"
+        },
+        {
+          "number": 9,
+          "rawNumber": 9,
+          "title": "The King Teaches",
+          "url": "https://www.crunchyroll.com/watch/G9DU9N3MZ/the-king-teaches"
+        },
+        {
+          "number": 8,
+          "rawNumber": 8,
+          "title": "Reunited with the King",
+          "url": "https://www.crunchyroll.com/watch/G7PU329M7/reunited-with-the-king"
+        },
+        {
+          "number": 7,
+          "rawNumber": 7,
+          "title": "The King Says Goodbye",
+          "url": "https://www.crunchyroll.com/watch/GEVUW3EXD/the-king-says-goodbye"
+        },
+        {
+          "number": 6,
+          "rawNumber": 6,
+          "title": "The King's Training",
+          "url": "https://www.crunchyroll.com/watch/G0DUMW8DD/the-kings-training"
+        },
+        {
+          "number": 5,
+          "rawNumber": 5,
+          "title": "The King's Test",
+          "url": "https://www.crunchyroll.com/watch/GG1UX5G4Z/the-kings-test"
+        },
+        {
+          "number": 4,
+          "rawNumber": 4,
+          "title": "Saved by the King",
+          "url": "https://www.crunchyroll.com/watch/GWDU7MDED/saved-by-the-king"
+        },
+        {
+          "number": 3,
+          "rawNumber": 3,
+          "title": "Meeting the King",
+          "url": "https://www.crunchyroll.com/watch/G50UMN5XQ/meeting-the-king"
+        },
+        {
+          "number": 2,
+          "rawNumber": 2,
+          "title": "The King, Under Attack",
+          "url": "https://www.crunchyroll.com/watch/GQJUM02VJ/the-king-under-attack"
+        },
+        {
+          "number": 1,
+          "rawNumber": 1,
+          "title": "The Rebirth of the King",
+          "url": "https://www.crunchyroll.com/watch/GD9UEZXQJ/the-rebirth-of-the-king"
+        }
+      ],
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "ok",
+      "updateError": ""
+    }
   },
   {
     "id": "liar-game",
@@ -11013,7 +12953,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371851/liar-game",
+      "anilistId": 197754,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "kill-ao",
@@ -11112,7 +13063,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371896/kill-blue",
+      "anilistId": 198113,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "akane-banashi",
@@ -11303,7 +13265,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371863/needy-girl-overdose",
+      "anilistId": 202102,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "ganbare-nakamura-kun",
@@ -11351,7 +13324,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00337506/go-for-it-nakamura-kun",
+      "anilistId": 180228,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi",
@@ -11400,7 +13384,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371923/the-klutzy-class-monitor-and-the-girl-with-the-short-skirt",
+      "anilistId": 189987,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku",
@@ -11450,7 +13445,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371887/an-observation-log-of-my-fiance-who-calls-herself-a-villainess",
+      "anilistId": 192808,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-y",
@@ -11499,7 +13505,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://crunchyroll.com/series/GT00371875/the-strongest-job-is-apparently-not-a-hero-or-a-sage-but-an-appraiser-provisional",
+      "anilistId": 200769,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "reincarnation-no-kaben",
@@ -11599,7 +13616,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371890/botan-kamiina-fully-blossoms-when-drunk",
+      "anilistId": 187869,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "kanojo-okarishimasu-5th-season",
@@ -11649,7 +13677,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/G6QWV3976/rent-a-girlfriend",
+      "anilistId": 199029,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukus",
@@ -11919,7 +13958,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371642/always-a-catch",
+      "anilistId": 201817,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "yozakura-san-chi-no-daisakusen-2nd-season",
@@ -12067,7 +14117,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371668/haibaras-teenage-new-game",
+      "anilistId": 195333,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "niwatori-fighter",
@@ -12202,7 +14263,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00365727/rooster-fighter",
+      "anilistId": 179813,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "kuroneko-to-majo-no-kyoushitsu",
@@ -12344,7 +14416,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00374357/the-classroom-of-a-black-cat-and-a-witch",
+      "anilistId": 196974,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "mao",
@@ -12641,7 +14724,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00374360/kusunokis-garden-of-gods",
+      "anilistId": 196029,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "megami-isekai-tensei-nani-ni-naritai-desu-ka-ore-yuusha-no-rokkotsu-de",
@@ -12755,7 +14849,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371665/my-ribdiculous-reincarnation",
+      "anilistId": 206951,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-3rd-season",
@@ -12804,7 +14909,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GVDHX8504/reborn-as-a-vending-machine-i-now-wander-the-dungeon",
+      "anilistId": 198939,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "mata-korosarete-shimatta-no-desu-ne-tantei-sama",
@@ -12851,7 +14967,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371787/killed-again-mr-detective",
+      "anilistId": 202381,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "replica-datte-koi-wo-suru",
@@ -12900,7 +15027,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00374288/even-a-replica-can-fall-in-love",
+      "anilistId": 186744,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "snowball-earth",
@@ -13043,7 +15181,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371869/snowball-earth",
+      "anilistId": 196144,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "marika-chan-no-koukando-wa-bukkowareteiru",
@@ -13141,7 +15290,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371775/pardon-the-intrusion-im-home",
+      "anilistId": 202985,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "diamond-no-ace-act-ii-second-season",
@@ -13155,8 +15315,8 @@
     "airTimeThai": "อาทิตย์ 15:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/58877/Diamond_no_Ace__Act_II_Second_Season",
     "genres": [
       "Sports",
@@ -13190,7 +15350,25 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GYX0MZ58R/ace-of-the-diamond",
+      "anilistId": 177634,
+      "numberingOffset": 0,
+      "availableEpisodes": [
+        {
+          "number": 1,
+          "rawNumber": 1,
+          "title": "Up Ahead",
+          "url": "https://www.crunchyroll.com/watch/GPWU8KD0V/up-ahead"
+        }
+      ],
+      "episodeCount": 1,
+      "latestEpisodeNumber": 1,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "ok",
+      "updateError": ""
+    }
   },
   {
     "id": "maid-san-wa-taberu-dake",
@@ -13237,7 +15415,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00375170/the-food-diary-of-miss-maid",
+      "anilistId": 197868,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "hidarikiki-no-eren",
@@ -13286,7 +15475,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371659/eren-the-southpaw",
+      "anilistId": 158036,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "awajima-hyakkei",
@@ -13421,7 +15621,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00374363/a-hundred-scenes-of-awajima",
+      "anilistId": 177501,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "mamonogurai-no-boukensha-ore-dake-mamono-wo-kuratte-tsuyoku-naru",
@@ -14185,7 +16396,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371849/kujima-why-sing-when-you-can-warble",
+      "anilistId": 177508,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "kami-no-shizuku",
@@ -14362,7 +16584,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god",
+      "anilistId": 202508,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "mahou-no-shimai-lulutto-lilly",
@@ -14544,7 +16777,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00374796/ghost-concert--missing-songs",
+      "anilistId": 201090,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "hyakki-yakoushou",
@@ -14842,7 +17086,18 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/GT00374493/rilakkuma",
+      "anilistId": 183231,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "cheongchun-blossom-uliui-bom",
@@ -15406,7 +17661,18 @@
     "season": "fall",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/G3KHEVDJ7/the-apothecary-diaries",
+      "anilistId": 195516,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "tensei-shitara-ken-deshita-2",
@@ -15504,7 +17770,18 @@
     "season": "fall",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://Crunchyroll.com",
+      "anilistId": 195604,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "ao-no-hako-season-2",
@@ -15703,7 +17980,18 @@
     "season": "fall",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/",
+      "anilistId": 172192,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "tensei-kizoku-kantei-skill-de-nariagaru-3rd-season",
@@ -15849,7 +18137,18 @@
     "season": "fall",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/G5PHNM935/sasaki-and-peeps",
+      "anilistId": 176314,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "dragon-ball-super-beerus",
@@ -15999,7 +18298,18 @@
     "season": "fall",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/",
+      "anilistId": 205909,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "tougen-anki-nikko-kegon-no-taki-hen",
@@ -16514,7 +18824,18 @@
     "season": "fall",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com",
+      "anilistId": 186541,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu",
@@ -16765,7 +19086,18 @@
     "season": "fall",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/",
+      "anilistId": 195571,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "hotel-inhumans-2nd-season",
@@ -16861,7 +19193,18 @@
     "season": "fall",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com",
+      "anilistId": 212888,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   },
   {
     "id": "tank-chair",
@@ -18469,6 +20812,17 @@
     "season": "summer",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "crunchyroll": {
+      "seriesUrl": "https://www.crunchyroll.com/series/G0XHWM0D3/trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs",
+      "anilistId": 159309,
+      "numberingOffset": 0,
+      "availableEpisodes": [],
+      "episodeCount": 0,
+      "latestEpisodeNumber": 0,
+      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
+    }
   }
 ]

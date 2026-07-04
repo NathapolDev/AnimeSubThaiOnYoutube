@@ -14,6 +14,10 @@ const ITEM_FIELDS = [
   'premiere', 'airTimeThai'
 ];
 const EPISODE_FIELDS = ['number', 'title', 'videoUrl', 'publishedAt'];
+// Crunchyroll sub-object gets its own whitelists so pipeline bookkeeping
+// (anilistId, rawNumber, numberingOffset) never reaches the browser.
+const CR_FIELDS = ['seriesUrl', 'episodeCount', 'latestEpisodeNumber', 'lastCheckedAt', 'updateStatus'];
+const CR_EPISODE_FIELDS = ['number', 'title', 'url'];
 
 function pick(source, fields) {
   const out = {};
@@ -24,7 +28,13 @@ function pick(source, fields) {
 function slimItems(items) {
   return items.map(item => ({
     ...pick(item, ITEM_FIELDS),
-    availableEpisodes: (item.availableEpisodes || []).map(episode => pick(episode, EPISODE_FIELDS))
+    availableEpisodes: (item.availableEpisodes || []).map(episode => pick(episode, EPISODE_FIELDS)),
+    ...(item.crunchyroll ? {
+      crunchyroll: {
+        ...pick(item.crunchyroll, CR_FIELDS),
+        availableEpisodes: (item.crunchyroll.availableEpisodes || []).map(episode => pick(episode, CR_EPISODE_FIELDS))
+      }
+    } : {})
   }));
 }
 
