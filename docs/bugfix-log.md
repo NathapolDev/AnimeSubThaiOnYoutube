@@ -46,3 +46,18 @@
 - `loading="lazy"` + `decoding="async"` กับโปสเตอร์ทั้งหมด
 - เลิกใช้ `backdrop-filter: blur` เกือบทั้งหมดและย้าย gradient พื้นหลังไป fixed pseudo-element (scroll ลื่นขึ้นชัดเจนบนมือถือ)
 - Debounce ช่องค้นหา + event delegation แทนการ attach listener รายการ์ด
+
+---
+
+# ตามแก้เพิ่ม — 4 ก.ค. 2026 (branch `claude/episode-numbering-fix-376bxv`)
+
+## แถบ progress ตอน แสดง `77/19` (นับผิด)
+- การ์ดเอา "เลขตอนล่าสุด" (`currentEpisode` เช่น Re:Zero ตอน 77 ที่นับต่อเนื่องข้ามซีซั่น) มาหารกับจำนวนตอนรวมของซีซั่น แทนที่จะเป็น "จำนวนตอนที่มีจริงบน YouTube" → แสดง `77/19`
+- เดิมเคยแพตช์ด้วย `progress-fix.js` (overlay ตอน runtime) แต่ `deploy-pages.yml` ไม่ได้ copy ไฟล์นี้เข้า `_site/` → บนเว็บจริงโหลด 404 ไม่เคยทำงาน
+- แก้ที่ต้นทาง: เพิ่ม `progress.js` (ฟังก์ชัน `episodeProgress()` = `min(availableEpisodes.length, episodes)`) เรียกใน `cardTemplate` ของ `app.js`, โหลดใน `index.html` และ copy ใน `deploy-pages.yml`, ลบ `progress-fix.js` + เทสเดิม, เพิ่ม `tools/progress.test.js`
+
+## โปสเตอร์ไม่ตรงชื่อเรื่อง — `polar-opposites-2` (Seihantai na Kimi to Boku S2)
+- เป็นบัคเดิมข้อ 1 ที่กลับมาอีก: ตอนนั้นบันทึกว่า "ล้างข้อมูล MAL" แต่จริง ๆ `malId: 54000` กับ `malUrl` ยังค้างอยู่ในไฟล์ → `update-jikan.js` จับคู่ด้วย `malId` ก่อน (findExisting) แล้วเขียนทับ `poster`/`studio`/`source`/`premiere` จากเรื่องผิด (Trapped in a Dating Sim) ทุกรอบ → การ์ดโชว์โปสเตอร์ 「乙女ゲー世界はモブに厳しい世界です」, สตูดิโอ ENGI
+- id 54000 เดียวกันนี้ยังทำให้ Jikan สร้าง entry ซ้ำ `seihantai-na-kimi-to-boku-2nd-season` (malId 63832 ที่ถูกต้อง แต่ไม่มีลิงก์ YouTube) → เรื่องเดียวโผล่ในแคตตาล็อกสองใบ
+- แก้: บน `polar-opposites-2` ตั้ง `malId` เป็น `63832` และแก้ `malUrl`/`poster`/`studio`/`source`/`genres`/`premiere` ให้ตรงกับ 63832 (เก็บข้อมูล YouTube/ตารางไทยไว้เหมือนเดิม), ลบ entry ซ้ำทิ้ง, regenerate `anime.js` ผ่าน `tools/write-data.js`
+- กันซ้ำในอนาคต: เพิ่ม `tools/anime-data.test.js` ตรวจทั้งไฟล์ว่า malUrl id ตรงกับ malId, slug ของ malUrl แชร์คำกับชื่อเรื่องอย่างน้อย 1 คำ (จับกรณี malId ชี้ผิดเรื่อง), malId/id ไม่ซ้ำกัน
