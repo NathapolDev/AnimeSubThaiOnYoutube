@@ -1,0 +1,18 @@
+{
+  "projectId": "46b3d925-2914-403c-bede-888e17ea5a20",
+  "pkg": "anime-tv-design-system",
+  "globalName": "AnimeTVDS",
+  "shape": "package",
+  "buildCmd": "npm run build",
+  "cssEntry": "dist/style.css",
+  "readmeHeader": ".design-sync/conventions.md",
+  "overrides": {
+    "AnimeGrid": { "cardMode": "column" },
+    "ResultLine": { "cardMode": "column" },
+    "EpisodeItem": { "cardMode": "column" },
+    "EpisodeList": { "cardMode": "column" },
+    "TodayPanel": { "cardMode": "column" },
+    "SiteHeader": { "cardMode": "column" },
+    "SearchBox": { "cardMode": "column" }
+  }
+}

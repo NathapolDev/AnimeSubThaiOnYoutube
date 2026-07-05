@@ -4,3 +4,9 @@
 node_modules/
 _site/
 *.log
+design-system/dist/
+.ds-sync/
+ds-bundle/
+.design-sync/.cache/
+.design-sync/learnings/
+.design-sync/node_modules

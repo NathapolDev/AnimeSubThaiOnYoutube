@@ -1,0 +1,29 @@
+/* Design tokens for the "editorial broadcast guide" (v2) theme. Apply .ds-theme-light on a wrapper to switch to the light variant. */
+:root {
+  color-scheme: dark;
+  --bg: #031525;
+  --bg2: #061d30;
+  --card: rgba(7, 30, 48, .88);
+  --card2: rgba(9, 39, 61, .94);
+  --line: rgba(205, 220, 218, .24);
+  --text: #f2eee3;
+  --muted: #9fb8c3;
+  --accent: #65c7d8;
+  --accent2: #f36f56;
+  --green: #4fd6b3;
+  --amber: #f6c451;
+  --shadow: 0 22px 60px rgba(0, 9, 18, .24);
+  --page-pad: clamp(18px, 3vw, 36px);
+  font-family: "Noto Sans Thai", "Leelawadee UI", Tahoma, ui-sans-serif, system-ui, sans-serif;
+}
+.ds-theme-light {
+  color-scheme: light;
+  --bg: #f2eee4;
+  --bg2: #e6dfd0;
+  --card: rgba(255, 253, 247, .86);
+  --card2: #fffdf7;
+  --line: rgba(3, 21, 37, .22);
+  --text: #071d30;
+  --muted: #536773;
+  --shadow: 0 18px 44px rgba(11, 30, 43, .1);
+}
