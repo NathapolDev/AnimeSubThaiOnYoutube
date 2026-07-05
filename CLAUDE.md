@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with th
 
 ## Project summary
 
-Static website tracking Thai-subtitled anime on YouTube and Crunchyroll. No build step — open `index.html` directly. Node.js 22 tools in `tools/` manage data updates.
+Static website tracking Thai-subtitled anime on YouTube, Crunchyroll, and Bilibili TV. No build step — open `index.html` directly. Node.js 22 tools in `tools/` manage data updates.
 
 ## Commands
 
@@ -22,8 +22,8 @@ node tools/update-youtube.js
 # Discover episodes from official Thai channel uploads
 node tools/discover-youtube.js
 
-# Sync Crunchyroll availability + episode lists from AniList (no key needed)
-node tools/update-crunchyroll.js
+# Sync Crunchyroll + Bilibili TV availability + episode lists from AniList (no key needed)
+node tools/update-streaming-platforms.js
 
 # Re-filter cached episodes, dropping non-episode clips (highlights, #Shorts, recaps)
 node tools/prune-non-episodes.js
@@ -44,13 +44,13 @@ The data pipeline writes two parallel files after every update:
 - `data/anime.json` — canonical source of truth (read/written by all tools), pretty-printed for reviewable diffs
 - `data/anime.js` — `window.ANIME_DATA = <same data, minified>` for `file://` use without a server
 
-Both files are written through `tools/write-data.js`; don't write them by hand from a tool. `tools/build-site-data.js` builds the GitHub Pages payload (`_site/data/`) with pipeline-only fields stripped — if `app.js` starts reading a new field, add it to `ITEM_FIELDS`/`EPISODE_FIELDS` (or `CR_FIELDS`/`CR_EPISODE_FIELDS` for the `crunchyroll` sub-object) there.
+Both files are written through `tools/write-data.js`; don't write them by hand from a tool. `tools/build-site-data.js` builds the GitHub Pages payload (`_site/data/`) with pipeline-only fields stripped — if `app.js` starts reading a new field, add it to `ITEM_FIELDS`/`EPISODE_FIELDS` (or `CR_FIELDS`/`CR_EPISODE_FIELDS` / `BILI_FIELDS`/`BILI_EPISODE_FIELDS` for the `crunchyroll`/`bilibili` sub-objects) there.
 
 **Tool chain (run in this order by the GitHub Actions workflow):**
 1. `tools/update-jikan.js` — fetches all TV anime for the current Bangkok year from Jikan API across all four seasons; near year-end (Oct–Dec) also imports the next year's Winter season so upcoming-season anime enter the catalog early. Enriches existing entries, inserts new ones, preserves YouTube data
 2. `tools/update-youtube.js` — for each anime with a `playlistId`, fetches every playlist page and rebuilds `availableEpisodes`; anime without a playlist get `updateStatus: 'no_playlist'`
 3. `tools/discover-youtube.js` — scans upload feeds from whitelisted Thai channels (`data/youtube-channels.json`), matches videos to anime by title substring, merges episodes; ambiguous multi-match results land in `data/youtube-candidates.json`
-4. `tools/update-crunchyroll.js` — queries AniList GraphQL by `malId` (batches of 50, throttled under the 30 req/min limit; no key or state file) and rebuilds the `crunchyroll` sub-object wholesale each run: series link from `externalLinks`, per-episode links from `streamingEpisodes`. AniList only carries per-episode links for a minority of titles, so when `streamingEpisodes` is empty the aired-episode count is estimated from the airing schedule (`nextAiringEpisode.episode - 1` while RELEASING, `episodes` when FINISHED) and recorded as `episodeSource: 'estimated_from_airing'` with an empty `availableEpisodes` — `app.js` then synthesizes numbered rows linking to the series page. Runs last on purpose — when Crunchyroll has episodes it sets `status: 'available'` (and `confidence: 'confirmed_from_crunchyroll'` for CR-only entries, reverted if the link later disappears). Never touches YouTube-owned fields. Sequel seasons with continuous absolute numbering (e.g. 25–48 for a 24-episode season) are shifted back to season numbering only when the season total confirms the offset (`numberingOffset`, raw kept in `rawNumber`)
+4. `tools/update-streaming-platforms.js` — queries AniList GraphQL by `malId` (batches of 50, throttled under the 30 req/min limit; no key or state file) and rebuilds the `crunchyroll` and `bilibili` sub-objects wholesale each run from a **single** AniList response per batch (`externalLinks`/`streamingEpisodes` already carry every site, so adding a platform costs no extra requests). Driven by a `PLATFORMS` config (`crunchyroll` matches AniList site `'Crunchyroll'`, `bilibili` matches `'Bilibili TV'` — the licensed Thai/SEA global service, deliberately never plain `'Bilibili'`/bilibili.com, the mainland user-upload site): series link from `externalLinks`, per-episode links from `streamingEpisodes`. AniList only carries per-episode links for a minority of Crunchyroll titles and essentially none for Bilibili TV today, so when `streamingEpisodes` is empty the aired-episode count is estimated from the airing schedule (`nextAiringEpisode.episode - 1` while RELEASING, `episodes` when FINISHED) and recorded as `episodeSource: 'estimated_from_airing'` with an empty `availableEpisodes` — `app.js` then synthesizes numbered rows linking to the series page. Runs last on purpose — when a platform has episodes it sets `status: 'available'` (and `confidence: 'confirmed_from_<platform>'` for entries backed only by that platform, reverted if the link later disappears). Priority is YouTube > Crunchyroll > Bilibili: each platform's `outranks` config list stops it from claiming `status`/`confidence` while a higher-priority source already backs the item (checked via `isOutrankedByHigherPlatform`), and platforms are applied to each item in `PLATFORMS` order so Crunchyroll's result is final before Bilibili's check runs. Never touches YouTube-owned fields. Sequel seasons with continuous absolute numbering (e.g. 25–48 for a 24-episode season) are shifted back to season numbering only when the season total confirms the offset (`numberingOffset`, raw kept in `rawNumber`)
 
 **Season window (`catalogYears` in `update-jikan.js`, shared source of truth):**
 - All year-scoped tools (`update-jikan`, `discover-youtube`, `scan-unmatched-channel-shows`) resolve the relevant catalog year(s) through `catalogYears()` instead of a bare `bangkokYear()`. The window widens symmetrically around the New Year so cross-boundary subbing is never missed: `[Y]` mid-year, `[Y, Y+1]` in Oct–Dec (upcoming Winter premieres uploaded in late December), `[Y-1, Y]` in Jan–Feb (prior cour still finishing).
@@ -63,7 +63,8 @@ Both files are written through `tools/write-data.js`; don't write them by hand f
 - `availableEpisodes` — sorted newest-first; each has `number`, `title`, `videoId`, `videoUrl`, `publishedAt`
 - `updateStatus` — `'ok'`, `'no_playlist'`, `'no_episode_found'`, `'error'`
 - `youtubeAliases` — extra title strings used for channel-upload matching
-- `crunchyroll` — optional sub-object (absent when the anime is not on Crunchyroll per AniList): `seriesUrl`, `availableEpisodes` (`number`, `rawNumber`, `title`, `url`; no `publishedAt` — AniList doesn't provide one), `episodeCount`, `latestEpisodeNumber`, `numberingOffset`, `episodeSource` (`'anilist_links'` real per-episode URLs, `'estimated_from_airing'` count-only estimate from the airing schedule), `lastCheckedAt`, `updateStatus`, `updateError`. AniList-sourced and rebuilt wholesale by `update-crunchyroll.js`; URLs are upgraded to https because `safe-url.js` rejects plain http
+- `crunchyroll` — optional sub-object (absent when the anime is not on Crunchyroll per AniList): `seriesUrl`, `availableEpisodes` (`number`, `rawNumber`, `title`, `url`; no `publishedAt` — AniList doesn't provide one), `episodeCount`, `latestEpisodeNumber`, `numberingOffset`, `episodeSource` (`'anilist_links'` real per-episode URLs, `'estimated_from_airing'` count-only estimate from the airing schedule), `lastCheckedAt`, `updateStatus`, `updateError`. AniList-sourced and rebuilt wholesale by `update-streaming-platforms.js`; URLs are upgraded to https because `safe-url.js` rejects plain http
+- `bilibili` — same shape as `crunchyroll`, sourced from AniList's `'Bilibili TV'` external link/streaming-episode data by the same tool in the same pass. In practice `episodeSource` is almost always `'estimated_from_airing'` since AniList rarely if ever carries per-episode Bilibili TV links today. Never claims `status`/`confidence` while the item already has a confirmed Crunchyroll entry (see the tool-chain note above)
 
 **Episode detection heuristics (in `update-youtube.js`):**
 - Title exclusion via `EXCLUDED` regex — drops trailers, PVs, OP/ED, promos, highlights (`ไฮไลท์`/`highlight`), `#Shorts`, and recap clips (`recap`, `สรุปใน N นาที`), in both Thai and English. `isEpisode` is shared with `discover-youtube.js`, so this single regex gates both the playlist and channel-uploads paths.

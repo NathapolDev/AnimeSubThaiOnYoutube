@@ -28,7 +28,24 @@ const MEDIA_QUERY = `query ($ids: [Int], $page: Int, $perPage: Int) {
   }
 }`;
 
-const CR_EPISODE_TITLE = /^Episode\s+([0-9]+(?:\.[0-9]+)?)\s*(?:-\s*(.*))?$/i;
+const EPISODE_TITLE_PATTERN = /^Episode\s+([0-9]+(?:\.[0-9]+)?)\s*(?:-\s*(.*))?$/i;
+
+// AniList's externalLinks/streamingEpisodes already carry every site for a
+// title in one response, so both platforms below come from a single fetch —
+// no extra AniList requests are needed to add a platform here.
+// Bilibili TV (bilibili.tv) is the licensed, Thai/SEA-facing global service;
+// plain "Bilibili" on AniList maps to bilibili.com, the mainland China site
+// with no Thai subtitles, and is intentionally never matched here.
+// Live sampling (Spring 2026 + top Chinese-origin titles) found Bilibili TV
+// series links are common in externalLinks, but streamingEpisodes tagged
+// "Bilibili TV" was empty in every sample — so Bilibili entries almost always
+// land on episodeSource: 'estimated_from_airing' rather than 'anilist_links'.
+// The per-episode path is still implemented generically for when AniList
+// populates it.
+const PLATFORMS = [
+  { key: 'crunchyroll', site: 'Crunchyroll', field: 'crunchyroll', confidence: 'confirmed_from_crunchyroll', outranks: [] },
+  { key: 'bilibili', site: 'Bilibili TV', field: 'bilibili', confidence: 'confirmed_from_bilibili', outranks: ['crunchyroll'] }
+];
 
 async function anilistRequest(query, variables, attempt = 1, fetcher = fetch) {
   const response = await fetcher(ANILIST_URL, {
@@ -58,19 +75,19 @@ function toHttps(url) {
   return String(url || '').replace(/^http:\/\//i, 'https://');
 }
 
-function crunchyrollLink(media) {
-  const links = (media?.externalLinks || []).filter(link => link?.site === 'Crunchyroll' && link.url);
+function platformLink(media, site) {
+  const links = (media?.externalLinks || []).filter(link => link?.site === site && link.url);
   const preferred = links.find(link => link.type === 'STREAMING') || links[0];
   return preferred ? toHttps(preferred.url) : '';
 }
 
-function parseCrEpisodeTitle(title) {
-  const match = String(title || '').match(CR_EPISODE_TITLE);
+function parseEpisodeTitle(title) {
+  const match = String(title || '').match(EPISODE_TITLE_PATTERN);
   if (!match) return { rawNumber: null, episodeTitle: String(title || '') };
   return { rawNumber: Number(match[1]), episodeTitle: (match[2] || '').trim() };
 }
 
-// Sequel seasons often carry Crunchyroll's absolute numbering (e.g. 25-48 for a
+// Sequel seasons often carry a platform's absolute numbering (e.g. 25-48 for a
 // 24-episode second season). Shift back to season numbering only when the season
 // total confirms the offset; never guess when the total is unknown ("?").
 function normalizeEpisodeNumbers(episodes, seasonTotal) {
@@ -95,15 +112,15 @@ function normalizeEpisodeNumbers(episodes, seasonTotal) {
   };
 }
 
-function buildCrEpisodeList(streamingEpisodes, seasonTotal) {
+function buildEpisodeList(streamingEpisodes, seasonTotal, site) {
   const unique = new Map();
   // Reuse the YouTube trailer/PV/recap filter: AniList's streamingEpisodes
   // sometimes tags a movie trailer onto a TV entry, which would otherwise
   // count as a "real" episode and skip the airing-schedule estimate.
-  for (const episode of (streamingEpisodes || []).filter(episode => episode?.site === 'Crunchyroll' && episode.url && isEpisode(episode.title))) {
+  for (const episode of (streamingEpisodes || []).filter(episode => episode?.site === site && episode.url && isEpisode(episode.title))) {
     const url = toHttps(episode.url);
     if (unique.has(url)) continue;
-    const { rawNumber, episodeTitle } = parseCrEpisodeTitle(episode.title);
+    const { rawNumber, episodeTitle } = parseEpisodeTitle(episode.title);
     unique.set(url, { rawNumber, title: episodeTitle, url });
   }
   const { episodes, offset } = normalizeEpisodeNumbers([...unique.values()], seasonTotal);
@@ -139,27 +156,38 @@ function hasYoutubeSignal(item) {
   return Boolean(item.playlistId || item.latestVideoUrl || (item.availableEpisodes || []).length);
 }
 
-// A CR-only item (no YouTube source) loses its 'available' status the moment
-// Crunchyroll no longer backs it up, whether the series link disappeared
-// entirely or the link remains but the episode count dropped to zero.
-function revertCrunchyrollOnlyStatus(item) {
-  if (item.confidence === 'confirmed_from_crunchyroll' && !hasYoutubeSignal(item)) {
+// Bilibili yields to a Crunchyroll confirmation (and both yield to YouTube via
+// hasYoutubeSignal), so a lower-priority platform never overwrites a
+// higher-priority one's claim on status/confidence within the same run.
+function isOutrankedByHigherPlatform(item, platform) {
+  return platform.outranks.some(key => {
+    const higher = PLATFORMS.find(candidate => candidate.key === key);
+    return Boolean(higher && item[higher.field]?.episodeCount > 0);
+  });
+}
+
+// A platform-only item (no YouTube source) loses its 'available' status the
+// moment that platform no longer backs it up, whether the series link
+// disappeared entirely or the link remains but the episode count dropped to
+// zero.
+function revertPlatformOnlyStatus(item, platform) {
+  if (item.confidence === platform.confidence && !hasYoutubeSignal(item)) {
     item.status = 'upcoming';
     item.confidence = 'imported_from_jikan';
   }
 }
 
-function applyCrunchyroll(item, media, now = () => new Date().toISOString()) {
-  const seriesUrl = crunchyrollLink(media);
+function applyPlatform(item, media, platform, now = () => new Date().toISOString()) {
+  const seriesUrl = platformLink(media, platform.site);
   if (!seriesUrl) {
-    revertCrunchyrollOnlyStatus(item);
-    delete item.crunchyroll;
+    revertPlatformOnlyStatus(item, platform);
+    delete item[platform.field];
     return;
   }
-  const { episodes, offset } = buildCrEpisodeList(media.streamingEpisodes, item.episodes);
+  const { episodes, offset } = buildEpisodeList(media.streamingEpisodes, item.episodes, platform.site);
   const aired = episodes.length ? 0 : airedEpisodeCount(media);
   const episodeCount = episodes.length || aired;
-  item.crunchyroll = {
+  item[platform.field] = {
     seriesUrl,
     anilistId: media.id,
     numberingOffset: offset,
@@ -172,14 +200,16 @@ function applyCrunchyroll(item, media, now = () => new Date().toISOString()) {
     updateError: ''
   };
   if (episodeCount) {
-    item.status = 'available';
-    if (!hasYoutubeSignal(item)) item.confidence = 'confirmed_from_crunchyroll';
+    if (!hasYoutubeSignal(item) && !isOutrankedByHigherPlatform(item, platform)) {
+      item.status = 'available';
+      item.confidence = platform.confidence;
+    }
   } else {
-    revertCrunchyrollOnlyStatus(item);
+    revertPlatformOnlyStatus(item, platform);
   }
 }
 
-async function fetchCrunchyrollMedia(malIds, requester = anilistRequest) {
+async function fetchAnilistMedia(malIds, requester = anilistRequest) {
   const found = new Map();
   const failedIds = new Set();
   const chunks = chunk(malIds, PAGE_SIZE);
@@ -204,59 +234,72 @@ async function fetchCrunchyrollMedia(malIds, requester = anilistRequest) {
   return { found, failedIds };
 }
 
-async function updateCrunchyrollItems(anime, years, requester = anilistRequest) {
+async function updateStreamingPlatformItems(anime, years, requester = anilistRequest) {
   const yearSet = new Set(Array.isArray(years) ? years : [years]);
   const targets = anime.filter(item => Number.isInteger(item.malId)
     && item.jikanType === 'TV'
     && yearSet.has(Number(item.catalogYear || item.year)));
-  const { found, failedIds } = await fetchCrunchyrollMedia(targets.map(item => item.malId), requester);
-  let onCrunchyroll = 0;
-  let withEpisodes = 0;
+  const { found, failedIds } = await fetchAnilistMedia(targets.map(item => item.malId), requester);
+  const byPlatform = Object.fromEntries(PLATFORMS.map(platform => [platform.key, { onPlatform: 0, withEpisodes: 0 }]));
   let errors = 0;
   for (const item of targets) {
     if (failedIds.has(item.malId)) {
       // Keep stale data but flag it, instead of silently pretending it is fresh.
-      if (item.crunchyroll) {
-        item.crunchyroll.updateStatus = 'error';
-        item.crunchyroll.updateError = 'AniList request failed';
-        errors += 1;
+      let flagged = false;
+      for (const platform of PLATFORMS) {
+        if (item[platform.field]) {
+          item[platform.field].updateStatus = 'error';
+          item[platform.field].updateError = 'AniList request failed';
+          flagged = true;
+        }
       }
+      if (flagged) errors += 1;
       continue;
     }
-    applyCrunchyroll(item, found.get(item.malId));
-    if (item.crunchyroll) {
-      onCrunchyroll += 1;
-      if (item.crunchyroll.episodeCount) withEpisodes += 1;
+    const media = found.get(item.malId);
+    for (const platform of PLATFORMS) {
+      applyPlatform(item, media, platform);
+      if (item[platform.field]) {
+        byPlatform[platform.key].onPlatform += 1;
+        if (item[platform.field].episodeCount) byPlatform[platform.key].withEpisodes += 1;
+      }
     }
   }
-  return { targets: targets.length, onCrunchyroll, withEpisodes, errors };
+  return { targets: targets.length, byPlatform, errors };
 }
 
 async function main() {
   const years = resolveYears();
   const anime = JSON.parse(await fs.readFile(JSON_PATH, 'utf8'));
-  const summary = await updateCrunchyrollItems(anime, years);
+  const summary = await updateStreamingPlatformItems(anime, years);
   await writeDataFiles(anime);
-  console.log(`Crunchyroll sync (years ${years.join(', ')}): ${summary.onCrunchyroll}/${summary.targets} on Crunchyroll, ${summary.withEpisodes} with episodes, ${summary.errors} stale after errors.`);
+  const platformSummaries = PLATFORMS.map(platform => {
+    const stats = summary.byPlatform[platform.key];
+    return `${platform.key} ${stats.onPlatform}/${summary.targets} (${stats.withEpisodes} w/ episodes)`;
+  }).join(', ');
+  console.log(`Streaming sync (years ${years.join(', ')}): ${platformSummaries}, ${summary.errors} stale after errors.`);
 }
 
 if (require.main === module) {
   main().catch(error => {
-    console.error(`Crunchyroll update failed: ${error.message}`);
+    console.error(`Streaming platform update failed: ${error.message}`);
     process.exitCode = 1;
   });
 }
 
 module.exports = {
+  PLATFORMS,
   airedEpisodeCount,
   anilistRequest,
-  applyCrunchyroll,
-  buildCrEpisodeList,
+  applyPlatform,
+  buildEpisodeList,
   chunk,
-  crunchyrollLink,
-  fetchCrunchyrollMedia,
+  fetchAnilistMedia,
+  isOutrankedByHigherPlatform,
   normalizeEpisodeNumbers,
-  parseCrEpisodeTitle,
+  parseEpisodeTitle,
+  platformLink,
+  revertPlatformOnlyStatus,
   toHttps,
-  updateCrunchyrollItems
+  updateStreamingPlatformItems
 };

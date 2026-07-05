@@ -178,6 +178,7 @@ body.light .search-box { background: rgba(255, 255, 255, .6) }
 .score-badge { color: var(--amber) }
 .channel-badge { max-width: 60% }
 .cr-badge { background: rgba(244, 117, 33, .85); border-color: transparent }
+.bili-badge { background: rgba(251, 114, 153, .85); border-color: transparent }
 .fav-btn {
   position: absolute; right: 8px; top: 44px; width: 38px; height: 38px;
   border: 1px solid rgba(255, 255, 255, .28); border-radius: 50%;
