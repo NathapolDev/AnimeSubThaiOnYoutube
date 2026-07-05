@@ -2,6 +2,7 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 
 const { resolveYears } = require('./discover-youtube');
+const { isEpisode } = require('./update-youtube');
 const { writeDataFiles } = require('./write-data');
 
 const ROOT = path.resolve(__dirname, '..');
@@ -96,7 +97,10 @@ function normalizeEpisodeNumbers(episodes, seasonTotal) {
 
 function buildCrEpisodeList(streamingEpisodes, seasonTotal) {
   const unique = new Map();
-  for (const episode of (streamingEpisodes || []).filter(episode => episode?.site === 'Crunchyroll' && episode.url)) {
+  // Reuse the YouTube trailer/PV/recap filter: AniList's streamingEpisodes
+  // sometimes tags a movie trailer onto a TV entry, which would otherwise
+  // count as a "real" episode and skip the airing-schedule estimate.
+  for (const episode of (streamingEpisodes || []).filter(episode => episode?.site === 'Crunchyroll' && episode.url && isEpisode(episode.title))) {
     const url = toHttps(episode.url);
     if (unique.has(url)) continue;
     const { rawNumber, episodeTitle } = parseCrEpisodeTitle(episode.title);

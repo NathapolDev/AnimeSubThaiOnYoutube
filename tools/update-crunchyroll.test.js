@@ -78,6 +78,22 @@ test('buildCrEpisodeList filters to Crunchyroll, dedupes by url, upgrades http, 
   assert.equal(episodes[0].title, 'B');
 });
 
+test('buildCrEpisodeList drops trailers and other non-episode entries', () => {
+  const { episodes } = buildCrEpisodeList([
+    { title: 'Episode  - Some Movie | Trailer', url: 'https://www.crunchyroll.com/watch/trailer', site: 'Crunchyroll' },
+    { title: 'Episode 5 - Real one', url: 'https://www.crunchyroll.com/watch/e5', site: 'Crunchyroll' }
+  ], '12');
+  assert.equal(episodes.length, 1);
+  assert.equal(episodes[0].url, 'https://www.crunchyroll.com/watch/e5');
+});
+
+test('buildCrEpisodeList returns nothing when the only Crunchyroll link is a trailer', () => {
+  const { episodes } = buildCrEpisodeList([
+    { title: 'Trailer', url: 'https://www.crunchyroll.com/watch/trailer-only', site: 'Crunchyroll' }
+  ], '12');
+  assert.equal(episodes.length, 0);
+});
+
 test('crunchyrollLink prefers STREAMING links and upgrades to https', () => {
   assert.equal(crunchyrollLink({ externalLinks: [
     { site: 'Crunchyroll', url: 'http://www.crunchyroll.com/old', type: 'INFO' },
@@ -160,6 +176,19 @@ test('applyCrunchyroll estimates episode count from the airing schedule when lin
   assert.equal(item.crunchyroll.updateStatus, 'ok');
   assert.equal(item.status, 'available');
   assert.equal(item.confidence, 'confirmed_from_crunchyroll');
+});
+
+test('applyCrunchyroll falls back to the airing estimate when the only Crunchyroll link is a trailer', () => {
+  const item = { id: 'trailer-only', malId: 16, episodes: '12', status: 'upcoming', availableEpisodes: [] };
+  const media = {
+    ...mediaWithEpisodes(16, 0),
+    streamingEpisodes: [{ title: 'Trailer', url: 'https://www.crunchyroll.com/watch/trailer', site: 'Crunchyroll' }],
+    status: 'RELEASING', episodes: 12, nextAiringEpisode: { episode: 2 }
+  };
+  applyCrunchyroll(item, media);
+  assert.equal(item.crunchyroll.episodeSource, 'estimated_from_airing');
+  assert.equal(item.crunchyroll.episodeCount, 1);
+  assert.deepEqual(item.crunchyroll.availableEpisodes, []);
 });
 
 test('applyCrunchyroll prefers real AniList episode links over the estimate', () => {
