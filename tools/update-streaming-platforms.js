@@ -200,8 +200,8 @@ function applyPlatform(item, media, platform, now = () => new Date().toISOString
     updateError: ''
   };
   if (episodeCount) {
+    item.status = 'available';
     if (!hasYoutubeSignal(item) && !isOutrankedByHigherPlatform(item, platform)) {
-      item.status = 'available';
       item.confidence = platform.confidence;
     }
   } else {

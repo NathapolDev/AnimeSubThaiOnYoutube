@@ -195,6 +195,23 @@ test('applyPlatform keeps YouTube-driven status/confidence when a YouTube source
   assert.ok(item.crunchyroll);
 });
 
+// Regression: a configured-but-empty YouTube playlist (playlistId set, zero
+// detected episodes) still counts as a YouTube signal, so hasYoutubeSignal is
+// true even though there is nothing to watch there yet. status must still
+// flip to 'available' on a platform's confirmed episodes in that case —
+// only the *confidence* attribution stays untouched (not claimed by this
+// platform) so a later real YouTube confirmation is not shadowed.
+test('applyPlatform flips status to available even when hasYoutubeSignal is only a configured-but-empty playlist', () => {
+  const item = {
+    id: 'empty-playlist', malId: 17, episodes: '12', status: 'upcoming', confidence: 'imported_from_jikan',
+    playlistId: 'PL9', availableEpisodes: []
+  };
+  applyPlatform(item, mediaWithEpisodes(17), CRUNCHYROLL);
+  assert.equal(item.status, 'available');
+  assert.equal(item.confidence, 'imported_from_jikan');
+  assert.ok(item.crunchyroll);
+});
+
 test('applyPlatform marks link without episodes as no_episode_found and does not flip status', () => {
   const item = { id: 'z', malId: 9, episodes: '12', status: 'upcoming', availableEpisodes: [] };
   applyPlatform(item, { ...mediaWithEpisodes(9, 0), streamingEpisodes: [], status: 'NOT_YET_RELEASED', episodes: 12 }, CRUNCHYROLL);
