@@ -73,7 +73,10 @@ function parseCrEpisodeTitle(title) {
 // 24-episode second season). Shift back to season numbering only when the season
 // total confirms the offset; never guess when the total is unknown ("?").
 function normalizeEpisodeNumbers(episodes, seasonTotal) {
-  const raws = episodes.map(episode => episode.rawNumber).filter(Number.isFinite).sort((a, b) => a - b);
+  // Decimal episode numbers (e.g. 12.5) mark specials tacked onto a season, not
+  // absolute cross-season numbering, so they never drive offset detection —
+  // only the whole-number episodes do. A detected offset still applies to them.
+  const raws = episodes.map(episode => episode.rawNumber).filter(Number.isInteger).sort((a, b) => a - b);
   if (!raws.length) return { episodes: episodes.map(episode => ({ ...episode, number: episode.rawNumber })), offset: 0 };
   const min = raws[0];
   const max = raws[raws.length - 1];
@@ -132,13 +135,20 @@ function hasYoutubeSignal(item) {
   return Boolean(item.playlistId || item.latestVideoUrl || (item.availableEpisodes || []).length);
 }
 
+// A CR-only item (no YouTube source) loses its 'available' status the moment
+// Crunchyroll no longer backs it up, whether the series link disappeared
+// entirely or the link remains but the episode count dropped to zero.
+function revertCrunchyrollOnlyStatus(item) {
+  if (item.confidence === 'confirmed_from_crunchyroll' && !hasYoutubeSignal(item)) {
+    item.status = 'upcoming';
+    item.confidence = 'imported_from_jikan';
+  }
+}
+
 function applyCrunchyroll(item, media, now = () => new Date().toISOString()) {
   const seriesUrl = crunchyrollLink(media);
   if (!seriesUrl) {
-    if (item.crunchyroll && item.confidence === 'confirmed_from_crunchyroll' && !hasYoutubeSignal(item)) {
-      item.status = 'upcoming';
-      item.confidence = 'imported_from_jikan';
-    }
+    revertCrunchyrollOnlyStatus(item);
     delete item.crunchyroll;
     return;
   }
@@ -160,6 +170,8 @@ function applyCrunchyroll(item, media, now = () => new Date().toISOString()) {
   if (episodeCount) {
     item.status = 'available';
     if (!hasYoutubeSignal(item)) item.confidence = 'confirmed_from_crunchyroll';
+  } else {
+    revertCrunchyrollOnlyStatus(item);
   }
 }
 

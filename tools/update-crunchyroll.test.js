@@ -43,6 +43,23 @@ test('normalizeEpisodeNumbers keeps raw numbers when it cannot be sure', () => {
   assert.equal(normalizeEpisodeNumbers(withinTotal, '12').offset, 0);
 });
 
+test('normalizeEpisodeNumbers keeps decimal specials out of offset detection', () => {
+  // a lone decimal special must never be mistaken for absolute sequel numbering
+  const soloSpecial = [{ rawNumber: 12.5 }];
+  const soloResult = normalizeEpisodeNumbers(soloSpecial, '12');
+  assert.equal(soloResult.offset, 0);
+  assert.equal(soloResult.episodes[0].number, 12.5);
+  // mixed with a real sequel sequence, the offset is still derived from
+  // integers only, and the decimal special shifts along with them
+  const mixed = [
+    ...Array.from({ length: 24 }, (_, i) => ({ rawNumber: 25 + i })),
+    { rawNumber: 24.5 }
+  ];
+  const mixedResult = normalizeEpisodeNumbers(mixed, '24');
+  assert.equal(mixedResult.offset, 24);
+  assert.equal(mixedResult.episodes.find(e => e.rawNumber === 24.5).number, 0.5);
+});
+
 test('buildCrEpisodeList filters to Crunchyroll, dedupes by url, upgrades http, sorts newest-first', () => {
   const { episodes, offset } = buildCrEpisodeList([
     { title: 'Episode 1 - A', url: 'http://www.crunchyroll.com/watch/a', site: 'Crunchyroll' },
@@ -152,6 +169,30 @@ test('applyCrunchyroll prefers real AniList episode links over the estimate', ()
   assert.equal(item.crunchyroll.episodeSource, 'anilist_links');
   assert.equal(item.crunchyroll.episodeCount, 2);
   assert.equal(item.crunchyroll.availableEpisodes.length, 2);
+});
+
+test('applyCrunchyroll reverts CR-only status when the link stays but episodes drop to zero', () => {
+  const item = {
+    id: 'zero', malId: 14, episodes: '12', status: 'available', confidence: 'confirmed_from_crunchyroll',
+    availableEpisodes: [], crunchyroll: { seriesUrl: 'https://www.crunchyroll.com/series/old', episodeCount: 3 }
+  };
+  const media = { ...mediaWithEpisodes(14, 0), streamingEpisodes: [], status: 'NOT_YET_RELEASED', episodes: 12 };
+  applyCrunchyroll(item, media);
+  assert.equal(item.crunchyroll.updateStatus, 'no_episode_found');
+  assert.equal(item.status, 'upcoming');
+  assert.equal(item.confidence, 'imported_from_jikan');
+});
+
+test('applyCrunchyroll does not revert status when a YouTube source backs the item even if Crunchyroll drops to zero episodes', () => {
+  const item = {
+    id: 'yt-backed', malId: 15, episodes: '12', status: 'available', confidence: 'confirmed_from_youtube_playlist',
+    playlistId: 'PL3', availableEpisodes: [{ number: 1 }], crunchyroll: { seriesUrl: 'https://www.crunchyroll.com/series/old' }
+  };
+  const media = { ...mediaWithEpisodes(15, 0), streamingEpisodes: [], status: 'NOT_YET_RELEASED', episodes: 12 };
+  applyCrunchyroll(item, media);
+  assert.equal(item.crunchyroll.updateStatus, 'no_episode_found');
+  assert.equal(item.status, 'available');
+  assert.equal(item.confidence, 'confirmed_from_youtube_playlist');
 });
 
 test('applyCrunchyroll removes the sub-object and reverts CR-driven status when the link disappears', () => {
