@@ -8,6 +8,8 @@ test('allows HTTPS links for supported external sites', () => {
   assert.equal(safeExternalUrl('https://myanimelist.net/anime/1'), 'https://myanimelist.net/anime/1');
   assert.equal(safeExternalUrl('https://www.crunchyroll.com/watch/GWDU7300N/x'), 'https://www.crunchyroll.com/watch/GWDU7300N/x');
   assert.equal(safeExternalUrl('https://crunchyroll.com/series/G3KHEVDJ7'), 'https://crunchyroll.com/series/G3KHEVDJ7');
+  assert.equal(safeExternalUrl('https://www.bilibili.tv/th/play/12345/67890'), 'https://www.bilibili.tv/th/play/12345/67890');
+  assert.equal(safeExternalUrl('https://bilibili.tv/en/media/12345'), 'https://bilibili.tv/en/media/12345');
 });
 
 test('rejects executable, insecure, and lookalike URLs', () => {
@@ -18,7 +20,10 @@ test('rejects executable, insecure, and lookalike URLs', () => {
     'https://youtube.com.evil.example/watch?v=abc',
     'https://evil.example/?next=youtube.com',
     'http://www.crunchyroll.com/watch/abc/x',
-    'https://crunchyroll.com.evil.example/watch/abc/x'
+    'https://crunchyroll.com.evil.example/watch/abc/x',
+    'http://www.bilibili.tv/th/play/12345/67890',
+    'https://bilibili.tv.evil.example/th/play/12345/67890',
+    'https://www.bilibili.com/video/BV1xx411c7mD'
   ]) assert.equal(safeExternalUrl(url), '#');
 });
 

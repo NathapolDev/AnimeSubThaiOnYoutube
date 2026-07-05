@@ -39,8 +39,8 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           BACKFILL: ${{ inputs.backfill || 'false' }}
         run: node tools/discover-youtube.js
-      - name: Update Crunchyroll availability from AniList
-        run: node tools/update-crunchyroll.js
+      - name: Update Crunchyroll + Bilibili TV availability from AniList
+        run: node tools/update-streaming-platforms.js
       - name: Validate updater behavior
         run: node --test tools/*.test.js
       - name: Commit changed data
