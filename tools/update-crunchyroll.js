@@ -2,6 +2,7 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 
 const { resolveYears } = require('./discover-youtube');
+const { isEpisode } = require('./update-youtube');
 const { writeDataFiles } = require('./write-data');
 
 const ROOT = path.resolve(__dirname, '..');
@@ -18,6 +19,9 @@ const MEDIA_QUERY = `query ($ids: [Int], $page: Int, $perPage: Int) {
     media(idMal_in: $ids, type: ANIME) {
       id
       idMal
+      status
+      episodes
+      nextAiringEpisode { episode }
       externalLinks { site url type }
       streamingEpisodes { title url site }
     }
@@ -70,7 +74,10 @@ function parseCrEpisodeTitle(title) {
 // 24-episode second season). Shift back to season numbering only when the season
 // total confirms the offset; never guess when the total is unknown ("?").
 function normalizeEpisodeNumbers(episodes, seasonTotal) {
-  const raws = episodes.map(episode => episode.rawNumber).filter(Number.isFinite).sort((a, b) => a - b);
+  // Decimal episode numbers (e.g. 12.5) mark specials tacked onto a season, not
+  // absolute cross-season numbering, so they never drive offset detection —
+  // only the whole-number episodes do. A detected offset still applies to them.
+  const raws = episodes.map(episode => episode.rawNumber).filter(Number.isInteger).sort((a, b) => a - b);
   if (!raws.length) return { episodes: episodes.map(episode => ({ ...episode, number: episode.rawNumber })), offset: 0 };
   const min = raws[0];
   const max = raws[raws.length - 1];
@@ -90,7 +97,10 @@ function normalizeEpisodeNumbers(episodes, seasonTotal) {
 
 function buildCrEpisodeList(streamingEpisodes, seasonTotal) {
   const unique = new Map();
-  for (const episode of (streamingEpisodes || []).filter(episode => episode?.site === 'Crunchyroll' && episode.url)) {
+  // Reuse the YouTube trailer/PV/recap filter: AniList's streamingEpisodes
+  // sometimes tags a movie trailer onto a TV entry, which would otherwise
+  // count as a "real" episode and skip the airing-schedule estimate.
+  for (const episode of (streamingEpisodes || []).filter(episode => episode?.site === 'Crunchyroll' && episode.url && isEpisode(episode.title))) {
     const url = toHttps(episode.url);
     if (unique.has(url)) continue;
     const { rawNumber, episodeTitle } = parseCrEpisodeTitle(episode.title);
@@ -114,35 +124,58 @@ function buildCrEpisodeList(streamingEpisodes, seasonTotal) {
   };
 }
 
+// AniList's streamingEpisodes only covers a fraction of titles, so when it is
+// empty the airing schedule tells us how many episodes are already out.
+// AniList numbering is per-season, so no cross-season offset applies here.
+function airedEpisodeCount(media) {
+  if (media?.status === 'RELEASING' && Number.isFinite(media.nextAiringEpisode?.episode)) {
+    return Math.max(0, media.nextAiringEpisode.episode - 1);
+  }
+  if (media?.status === 'FINISHED' && Number.isFinite(media.episodes)) return media.episodes;
+  return 0;
+}
+
 function hasYoutubeSignal(item) {
   return Boolean(item.playlistId || item.latestVideoUrl || (item.availableEpisodes || []).length);
+}
+
+// A CR-only item (no YouTube source) loses its 'available' status the moment
+// Crunchyroll no longer backs it up, whether the series link disappeared
+// entirely or the link remains but the episode count dropped to zero.
+function revertCrunchyrollOnlyStatus(item) {
+  if (item.confidence === 'confirmed_from_crunchyroll' && !hasYoutubeSignal(item)) {
+    item.status = 'upcoming';
+    item.confidence = 'imported_from_jikan';
+  }
 }
 
 function applyCrunchyroll(item, media, now = () => new Date().toISOString()) {
   const seriesUrl = crunchyrollLink(media);
   if (!seriesUrl) {
-    if (item.crunchyroll && item.confidence === 'confirmed_from_crunchyroll' && !hasYoutubeSignal(item)) {
-      item.status = 'upcoming';
-      item.confidence = 'imported_from_jikan';
-    }
+    revertCrunchyrollOnlyStatus(item);
     delete item.crunchyroll;
     return;
   }
   const { episodes, offset } = buildCrEpisodeList(media.streamingEpisodes, item.episodes);
+  const aired = episodes.length ? 0 : airedEpisodeCount(media);
+  const episodeCount = episodes.length || aired;
   item.crunchyroll = {
     seriesUrl,
     anilistId: media.id,
     numberingOffset: offset,
     availableEpisodes: episodes,
-    episodeCount: episodes.length,
-    latestEpisodeNumber: episodes[0]?.number ?? 0,
+    episodeCount,
+    latestEpisodeNumber: episodes.length ? episodes[0]?.number ?? 0 : aired,
+    episodeSource: episodes.length ? 'anilist_links' : (aired ? 'estimated_from_airing' : ''),
     lastCheckedAt: now(),
-    updateStatus: episodes.length ? 'ok' : 'no_episode_found',
+    updateStatus: episodeCount ? 'ok' : 'no_episode_found',
     updateError: ''
   };
-  if (episodes.length) {
+  if (episodeCount) {
     item.status = 'available';
     if (!hasYoutubeSignal(item)) item.confidence = 'confirmed_from_crunchyroll';
+  } else {
+    revertCrunchyrollOnlyStatus(item);
   }
 }
 
@@ -215,6 +248,7 @@ if (require.main === module) {
 }
 
 module.exports = {
+  airedEpisodeCount,
   anilistRequest,
   applyCrunchyroll,
   buildCrEpisodeList,
