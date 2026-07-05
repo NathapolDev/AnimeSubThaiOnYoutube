@@ -1,30 +1,43 @@
 :root {
   color-scheme: dark;
-  --bg: #0a0d1d;
-  --bg2: #141031;
+  --bg: #0e0f13;
+  --bg2: #171922;
   --card: rgba(255, 255, 255, .07);
   --card2: rgba(255, 255, 255, .11);
   --line: rgba(255, 255, 255, .16);
-  --text: #f8fbff;
-  --muted: #b8c5e6;
-  --accent: #6ee7ff;
-  --accent2: #ff8bd2;
-  --green: #74f2a4;
-  --amber: #ffd166;
+  --text: #f1f2f7;
+  --muted: #9aa0b2;
+  --accent: #8f81ff;
+  --accent2: #5b4ce0;
+  --green: #4ade80;
+  --amber: #f2b45a;
   --shadow: 0 18px 60px rgba(4, 8, 24, .4);
   --page-pad: clamp(16px, 3vw, 22px);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Thai", sans-serif;
+  --panel-radius: clamp(18px, 3vw, 22px);
+  /* Solid brand fill for controls with white text — kept theme-independent and
+     dark enough that #fff labels clear WCAG AA in both light and dark themes
+     (the accent tokens above swap per theme and the light one is too pale for white). */
+  --accent-grad: linear-gradient(135deg, #6d5cf0, #5b4ce0);
+  --font-display: "Space Grotesk", "IBM Plex Sans Thai", ui-sans-serif, system-ui, sans-serif;
+  font-family: "IBM Plex Sans Thai", Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 body.light {
   color-scheme: light;
-  --bg: #f7f7ff;
-  --bg2: #e5f0ff;
+  --bg: #f6f6f9;
+  --bg2: #ece9fd;
   --card: rgba(255, 255, 255, .72);
   --card2: rgba(255, 255, 255, .9);
   --line: rgba(31, 41, 55, .14);
-  --text: #12152a;
-  --muted: #56607c;
+  --text: #17181d;
+  --muted: #6b7180;
+  --accent: #5b4ce0;
+  --accent2: #8f81ff;
   --shadow: 0 16px 50px rgba(47, 60, 120, .16);
+}
+
+.brand, .today-heading h2, .today-time, .schedule-time, .eyebrow, .stat span,
+.toolbar h2, .section-heading h2, .data-note h2, .dialog-hero-copy h2, .schedule-day h3 {
+  font-family: var(--font-display);
 }
 
 * { box-sizing: border-box; min-width: 0 }
@@ -42,8 +55,8 @@ body::before {
   inset: 0;
   z-index: -1;
   background:
-    radial-gradient(60vw 40vh at 18% 0%, rgba(98, 184, 255, .22), transparent 70%),
-    radial-gradient(50vw 34vh at 85% 0%, rgba(255, 139, 210, .16), transparent 70%),
+    radial-gradient(60vw 40vh at 18% 0%, rgba(143, 129, 255, .22), transparent 70%),
+    radial-gradient(50vw 34vh at 85% 0%, rgba(91, 76, 224, .16), transparent 70%),
     linear-gradient(160deg, var(--bg), var(--bg2));
 }
 button, input, select { font: inherit }
@@ -51,7 +64,7 @@ button, a { -webkit-tap-highlight-color: transparent }
 a { color: inherit; text-decoration: none; overflow-wrap: anywhere }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px }
 
-.skip-link { position: absolute; left: -999px; top: 0; z-index: 100; background: var(--accent); color: #071224; padding: 10px 16px; border-radius: 0 0 12px 0; font-weight: 800 }
+.skip-link { position: absolute; left: -999px; top: 0; z-index: 100; background: var(--accent-grad); color: #fff; padding: 10px 16px; border-radius: 0 0 12px 0; font-weight: 800 }
 .skip-link:focus { left: 0 }
 
 /* ---------- nav ---------- */
@@ -65,7 +78,7 @@ a { color: inherit; text-decoration: none; overflow-wrap: anywhere }
 .brand-mark {
   flex: 0 0 auto; display: grid; place-items: center; width: 42px; height: 42px; border-radius: 14px;
   background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #08111f;
-  box-shadow: 0 0 30px rgba(110, 231, 255, .3);
+  box-shadow: 0 0 30px rgba(143, 129, 255, .35);
 }
 .nav-actions { display: flex; gap: 16px; align-items: center; color: var(--muted); font-size: 14px }
 .nav-actions a:hover { color: var(--text) }
@@ -80,7 +93,7 @@ a { color: inherit; text-decoration: none; overflow-wrap: anywhere }
 }
 .eyebrow { margin: 0 0 10px; color: var(--accent); font-size: clamp(11px, 1.5vw, 13px); text-transform: uppercase; letter-spacing: .16em; font-weight: 800 }
 .hero-panel {
-  border: 1px solid var(--line); border-radius: clamp(22px, 4vw, 30px);
+  border: 1px solid var(--line); border-radius: var(--panel-radius);
   padding: clamp(16px, 3vw, 24px);
   background: linear-gradient(180deg, var(--card2), var(--card));
   box-shadow: var(--shadow);
@@ -99,7 +112,7 @@ a { color: inherit; text-decoration: none; overflow-wrap: anywhere }
   transition: border-color .2s ease, background-color .2s ease;
 }
 .today-row:hover { border-color: var(--accent) }
-.today-thumb { position: relative; width: 46px; height: 56px; border-radius: 10px; overflow: hidden; background: linear-gradient(145deg, rgba(110, 231, 255, .15), rgba(255, 139, 210, .12)) }
+.today-thumb { position: relative; width: 46px; height: 56px; border-radius: 10px; overflow: hidden; background: linear-gradient(145deg, rgba(143, 129, 255, .15), rgba(91, 76, 224, .12)) }
 .today-thumb img { width: 100%; height: 100%; object-fit: cover; display: block }
 .today-thumb .poster-fallback { font-size: 0 }
 .today-time { color: var(--accent); font-size: 16px; font-weight: 950; font-variant-numeric: tabular-nums }
@@ -122,7 +135,7 @@ a { color: inherit; text-decoration: none; overflow-wrap: anywhere }
 /* ---------- toolbar ---------- */
 main { max-width: 1180px; margin: 0 auto; padding: 0 var(--page-pad) clamp(40px, 6vw, 54px) }
 .glass { border: 1px solid var(--line); background: linear-gradient(180deg, var(--card2), var(--card)); box-shadow: var(--shadow) }
-.toolbar { border-radius: clamp(22px, 4vw, 30px); padding: clamp(18px, 3vw, 24px); display: grid; gap: 16px }
+.toolbar { border-radius: var(--panel-radius); padding: clamp(18px, 3vw, 24px); display: grid; gap: 16px }
 .toolbar-head { display: grid; grid-template-columns: 1fr minmax(260px, 420px); gap: 18px; align-items: center }
 .toolbar h2, .section-heading h2, .data-note h2 { margin: 0; font-size: clamp(22px, 4vw, 28px) }
 .search-box { min-height: 52px; border: 1px solid var(--line); border-radius: 16px; display: flex; align-items: center; gap: 12px; padding: 0 16px; background: rgba(0, 0, 0, .12) }
@@ -135,7 +148,7 @@ body.light .search-box { background: rgba(255, 255, 255, .6) }
   transition: border-color .15s ease;
 }
 .chip:hover { border-color: var(--accent) }
-.chip.active { background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #071224; border-color: transparent }
+.chip.active { background: var(--accent-grad); color: #fff; border-color: transparent }
 .chip-fav.active { background: linear-gradient(135deg, var(--amber), var(--accent2)) }
 .catalog-scope { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; padding-bottom: 14px; border-bottom: 1px solid var(--line) }
 .year-picker, .sort-picker { min-height: 42px; display: flex; align-items: center; gap: 9px; border: 1px solid var(--line); border-radius: 999px; padding: 4px 8px 4px 14px; color: var(--muted); font-size: 13px; font-weight: 800 }
@@ -154,14 +167,14 @@ body.light .search-box { background: rgba(255, 255, 255, .6) }
 .amber { background: var(--amber); box-shadow: 0 0 14px var(--amber) }
 
 /* ---------- catalog grid ---------- */
-.anime-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(216px, 1fr)); gap: 18px }
+.anime-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 18px }
 .anime-card {
   position: relative; display: flex; flex-direction: column;
-  border: 1px solid var(--line); border-radius: 24px; overflow: hidden;
+  border: 1px solid var(--line); border-radius: 18px; overflow: hidden;
   background: var(--card); box-shadow: var(--shadow); cursor: pointer;
   transition: transform .22s ease, border-color .22s ease;
 }
-.poster-wrap { position: relative; width: 100%; aspect-ratio: 5/7; background: linear-gradient(145deg, rgba(110, 231, 255, .15), rgba(255, 139, 210, .12)); overflow: hidden }
+.poster-wrap { position: relative; width: 100%; aspect-ratio: 3/4; background: linear-gradient(145deg, rgba(143, 129, 255, .15), rgba(91, 76, 224, .12)); overflow: hidden }
 .poster { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .3s ease }
 .poster-fallback { display: none; position: absolute; inset: 0; place-items: center; color: var(--muted); font-weight: 800 }
 .is-missing .poster-fallback, .poster-fallback.is-shown { display: grid }
@@ -174,7 +187,7 @@ body.light .search-box { background: rgba(255, 255, 255, .6) }
   overflow: hidden; text-overflow: ellipsis;
 }
 .status-badge { display: inline-flex; align-items: center; gap: 6px }
-.new-badge { background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #071224; border-color: transparent }
+.new-badge { background: var(--accent-grad); color: #fff; border-color: transparent }
 .score-badge { color: var(--amber) }
 .channel-badge { max-width: 60% }
 .cr-badge { background: rgba(244, 117, 33, .85); border-color: transparent }
@@ -205,7 +218,7 @@ body.light .search-box { background: rgba(255, 255, 255, .6) }
 .watch-btn { min-height: 40px; display: inline-flex; align-items: center; border: 0; border-radius: 999px; padding: 8px 12px; background: #fff; color: #111827; font-weight: 950; font-size: 12px; text-align: center }
 .watch-btn.is-disabled { background: var(--card2); color: var(--muted); border: 1px solid var(--line); cursor: default }
 .detail-btn { color: var(--accent); font-weight: 900; font-size: 12px; white-space: nowrap }
-.data-note { border-radius: clamp(22px, 4vw, 30px); grid-column: 1/-1; padding: clamp(18px, 3vw, 24px); color: var(--muted); line-height: 1.8 }
+.data-note { border-radius: var(--panel-radius); grid-column: 1/-1; padding: clamp(18px, 3vw, 24px); color: var(--muted); line-height: 1.8 }
 .data-note h2 { color: var(--text) }
 .catalog-load-more {
   min-height: 48px; display: flex; align-items: center; justify-content: center; width: min(360px, 100%);
@@ -216,12 +229,12 @@ body.light .search-box { background: rgba(255, 255, 255, .6) }
 .catalog-load-more[hidden] { display: none }
 
 /* ---------- weekly schedule ---------- */
-.schedule { border-radius: clamp(22px, 4vw, 30px); margin-top: clamp(32px, 6vw, 46px); padding: clamp(18px, 3vw, 24px) }
+.schedule { border-radius: var(--panel-radius); margin-top: clamp(32px, 6vw, 46px); padding: clamp(18px, 3vw, 24px) }
 .schedule-week { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 18px }
 .schedule-day { border: 1px solid var(--line); border-radius: 20px; padding: 14px; background: var(--card) }
 .schedule-day.is-today { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset }
 .schedule-day h3 { margin: 0 0 10px; font-size: 16px; display: flex; align-items: center; gap: 8px }
-.today-tag { border-radius: 999px; background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #071224; font-size: 10px; font-weight: 900; padding: 3px 8px }
+.today-tag { border-radius: 999px; background: var(--accent-grad); color: #fff; font-size: 10px; font-weight: 900; padding: 3px 8px }
 .schedule-rows { display: grid; gap: 8px }
 .schedule-item {
   display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 12px; align-items: center;
@@ -238,66 +251,89 @@ body.light .search-box { background: rgba(255, 255, 255, .6) }
 
 /* ---------- dialog ---------- */
 .detail-dialog {
-  width: min(920px, calc(100% - 28px)); max-height: calc(100dvh - 28px);
-  border: 1px solid var(--line); border-radius: 28px; padding: 0;
-  background: linear-gradient(145deg, rgba(13, 18, 40, .99), rgba(34, 20, 56, .99)); color: #fff;
-  box-shadow: 0 40px 120px rgba(0, 0, 0, .65); overflow: auto; overscroll-behavior: contain;
+  width: min(680px, calc(100% - 28px)); max-height: calc(100dvh - 28px);
+  border: 1px solid var(--line); border-radius: 22px; padding: 0;
+  background: var(--bg2); color: var(--text);
+  box-shadow: 0 40px 120px rgba(0, 0, 0, .5); overflow: auto; overscroll-behavior: contain;
 }
 .detail-dialog::backdrop { background: rgba(2, 6, 23, .7) }
 .close-btn {
-  position: sticky; float: right; top: 14px; margin: 14px 14px -56px 0; width: 44px; height: 44px;
-  border: 1px solid rgba(255, 255, 255, .24); border-radius: 50%; background: rgba(20, 25, 48, .92);
-  color: #fff; font-size: 26px; cursor: pointer; z-index: 3;
+  position: absolute; top: 14px; right: 14px; width: 40px; height: 40px;
+  border: 1px solid rgba(255, 255, 255, .3); border-radius: 50%; background: rgba(20, 25, 48, .55);
+  backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+  color: #fff; font-size: 22px; cursor: pointer; z-index: 4;
 }
-.dialog-grid { display: grid; grid-template-columns: 300px minmax(0, 1fr); min-height: 100% }
-.dialog-poster { position: relative; min-height: 440px; background: linear-gradient(145deg, rgba(110, 231, 255, .15), rgba(255, 139, 210, .12)) }
-.dialog-poster img { width: 100%; height: 100%; object-fit: cover; display: block }
-.dialog-copy { padding: 30px; overflow-wrap: anywhere }
-.dialog-copy h2 { font-size: clamp(26px, 5vw, 34px); line-height: 1.12; margin: 0 0 10px }
-.dialog-copy .original { font-size: 13px; display: block; -webkit-line-clamp: unset }
+.dialog-hero {
+  position: relative; display: flex; align-items: center; gap: 20px;
+  padding: 22px 60px 22px 22px; overflow: hidden; color: #fff;
+  background: linear-gradient(160deg, rgba(20, 14, 40, .96), rgba(50, 30, 70, .9));
+}
+.dialog-hero::before {
+  content: ""; position: absolute; inset: -12px; z-index: 0;
+  background-image: var(--hero-img, none); background-size: cover; background-position: center 20%;
+  filter: blur(18px) saturate(1.15) brightness(.55);
+}
+.dialog-hero::after {
+  content: ""; position: absolute; inset: 0; z-index: 0;
+  background: linear-gradient(180deg, rgba(10, 8, 20, .15), rgba(10, 8, 20, .55));
+}
+.dialog-hero-poster {
+  position: relative; z-index: 1; flex: 0 0 auto; width: 104px; height: 150px;
+  border-radius: 12px; overflow: hidden; box-shadow: 0 10px 26px rgba(0, 0, 0, .5); border: 2px solid rgba(255, 255, 255, .25);
+  background: linear-gradient(145deg, rgba(143, 129, 255, .45), rgba(91, 76, 224, .55));
+}
+.dialog-hero-poster img { width: 100%; height: 100%; object-fit: cover; display: block }
+/* Hero sits on an always-dark banner, so keep the missing-poster fallback text
+   light regardless of theme (the base .poster-fallback uses theme --muted). */
+.dialog-hero-poster .poster-fallback { color: rgba(255, 255, 255, .85); font-size: 11px; text-align: center; padding: 6px }
+.dialog-hero-copy { position: relative; z-index: 1; min-width: 0 }
+.dialog-hero-copy .eyebrow { color: rgba(255, 255, 255, .8); margin: 0 0 6px }
+.dialog-hero-copy h2 { font-size: clamp(19px, 3.6vw, 25px); line-height: 1.2; margin: 0 0 4px; overflow-wrap: anywhere }
+.dialog-hero-copy .original { color: rgba(255, 255, 255, .72); font-size: 12px; margin: 0; display: block; -webkit-line-clamp: unset }
+.dialog-copy { padding: 24px 26px 28px; overflow-wrap: anywhere }
 .info-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 20px 0 }
-.info { border: 1px solid rgba(255, 255, 255, .16); border-radius: 14px; padding: 11px; background: rgba(255, 255, 255, .06); overflow-wrap: anywhere }
-.info small { display: block; color: #b8c5e6; margin-bottom: 4px; font-size: 11px }
+.info { border: 1px solid var(--line); border-radius: 14px; padding: 11px; background: var(--card); overflow-wrap: anywhere }
+.info small { display: block; color: var(--muted); margin-bottom: 4px; font-size: 11px }
 .dialog-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 20px }
 .primary-btn, .secondary-btn {
   min-height: 46px; display: inline-flex; align-items: center; justify-content: center;
   border-radius: 999px; padding: 11px 18px; font-weight: 800; text-align: center; cursor: pointer;
 }
-.primary-btn { background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #071224; border: 0 }
-.secondary-btn { border: 1px solid rgba(255, 255, 255, .22); background: rgba(255, 255, 255, .07); color: #fff }
+.primary-btn { background: var(--accent-grad); color: #fff; border: 0 }
+.secondary-btn { border: 1px solid var(--line); background: var(--card); color: var(--text) }
 .fav-toggle[aria-pressed="true"] { color: var(--amber); border-color: var(--amber) }
 .update-error-text { color: #ffb1bb; border: 1px solid rgba(255, 100, 120, .35); border-radius: 14px; padding: 10px; background: rgba(255, 50, 80, .08) }
 
-.episode-section { margin-top: 22px; padding-top: 20px; border-top: 1px solid rgba(255, 255, 255, .16) }
+.episode-section { margin-top: 22px; padding-top: 20px; border-top: 1px solid var(--line) }
 .episode-heading { display: flex; align-items: end; justify-content: space-between; gap: 14px; margin-bottom: 12px }
 .episode-heading .eyebrow { margin-bottom: 4px }
 .episode-heading h3 { margin: 0; font-size: 20px }
-.episode-heading > span { color: #b8c5e6; font-size: 13px; white-space: nowrap }
-.episode-note { margin: -6px 0 12px; color: #b8c5e6; font-size: 13px }
+.episode-heading > span { color: var(--muted); font-size: 13px; white-space: nowrap }
+.episode-note { margin: -6px 0 12px; color: var(--muted); font-size: 13px }
 .episode-list { display: grid; gap: 8px }
 .episode-item {
   display: grid; grid-template-columns: 70px minmax(0, 1fr) auto; align-items: center; gap: 12px;
-  padding: 10px 12px; border: 1px solid rgba(255, 255, 255, .14); border-radius: 14px; background: rgba(255, 255, 255, .055);
+  padding: 10px 12px; border: 1px solid var(--line); border-radius: 14px; background: var(--card);
 }
 .episode-number { color: var(--accent); font-size: 13px; font-weight: 900 }
 .episode-copy { display: grid; gap: 3px; overflow: hidden }
 .episode-copy strong { white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
-.episode-copy span { color: #b8c5e6; font-size: 11px }
+.episode-copy span { color: var(--muted); font-size: 11px }
 .episode-watch, .load-more-btn {
   min-height: 40px; display: inline-flex; align-items: center; justify-content: center;
-  border: 1px solid rgba(255, 255, 255, .2); border-radius: 999px; padding: 8px 13px; font-weight: 850;
+  border: 0; border-radius: 999px; padding: 8px 13px; font-weight: 850;
 }
-.episode-watch { background: #fff; color: #111827; font-size: 12px }
-.load-more-btn { width: 100%; margin-top: 10px; background: rgba(255, 255, 255, .08); color: #fff; cursor: pointer }
+.episode-watch { background: var(--accent-grad); color: #fff; font-size: 12px }
+.load-more-btn { width: 100%; margin-top: 10px; background: var(--card2); color: var(--text); border: 1px solid var(--line); cursor: pointer }
 .load-more-btn[hidden] { display: none }
-.episode-empty { margin: 0; padding: 16px; border: 1px dashed rgba(255, 255, 255, .2); border-radius: 14px; color: #b8c5e6; text-align: center }
+.episode-empty { margin: 0; padding: 16px; border: 1px dashed var(--line); border-radius: 14px; color: var(--muted); text-align: center }
 
 footer { text-align: center; color: var(--muted); font-size: 13px; padding: 30px max(var(--page-pad), env(safe-area-inset-right)) max(56px, calc(32px + env(safe-area-inset-bottom))) max(var(--page-pad), env(safe-area-inset-left)) }
 footer a { color: var(--accent) }
 
 /* ---------- hover ---------- */
 @media (hover:hover) and (pointer:fine) {
-  .anime-card:hover { transform: translateY(-6px); border-color: rgba(110, 231, 255, .6) }
+  .anime-card:hover { transform: translateY(-6px); border-color: rgba(143, 129, 255, .6) }
   .anime-card:hover .poster { transform: scale(1.04) }
 }
 
@@ -308,8 +344,6 @@ footer a { color: var(--accent) }
 @media (max-width:899px) {
   .toolbar-head { grid-template-columns: 1fr }
   .stats-bar { grid-template-columns: repeat(2, minmax(0, 1fr)) }
-  .dialog-grid { grid-template-columns: minmax(200px, 32%) minmax(0, 1fr) }
-  .dialog-copy { padding: 24px }
 }
 @media (max-width:599px) {
   :root { --page-pad: max(14px, env(safe-area-inset-left)) }
@@ -349,9 +383,9 @@ footer a { color: var(--accent) }
   .stats-bar { gap: 8px }
   .stat { padding: 10px 12px; border-radius: 14px }
   .detail-dialog { width: calc(100% - 16px); max-height: calc(100dvh - 16px); border-radius: 20px }
-  .close-btn { top: 8px; margin: 8px 8px -52px 0 }
-  .dialog-grid { grid-template-columns: 1fr }
-  .dialog-poster { min-height: 0; height: clamp(180px, 42vh, 300px) }
+  .close-btn { top: 8px; right: 8px }
+  .dialog-hero { padding: 16px 52px 16px 16px; gap: 12px }
+  .dialog-hero-poster { width: 76px; height: 110px }
   .dialog-copy { padding: 18px }
   .info-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px }
   .episode-heading { align-items: flex-start }

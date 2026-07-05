@@ -66,6 +66,11 @@ function formatDateOnly(value) {
   return Number.isNaN(date.getTime()) ? escapeHtml(value) : new Intl.DateTimeFormat('th-TH', { dateStyle: 'long', timeZone: 'Asia/Bangkok' }).format(date);
 }
 function posterThumb(url) { return String(url || '').replace(/l(\.(?:webp|jpe?g|png))$/i, '$1'); }
+// Build a CSS `url(...)` value safe to embed in an inline style attribute.
+// Percent-encode the characters that could break out of the url() token or
+// the attribute so no HTML-entity round-trip (escapeHtml -> browser decode)
+// can reopen a quote and invalidate the declaration.
+function cssUrl(url) { return `url("${String(url || '').replace(/["'()\\\s]/g, c => '%' + c.charCodeAt(0).toString(16).padStart(2, '0').toUpperCase())}")`; }
 function posterHtml(item, { thumb = true, eager = false } = {}) {
   if (!item.poster) return '<span class="poster-fallback is-shown" aria-hidden="true">ไม่มีรูป</span>';
   const src = thumb ? posterThumb(item.poster) : item.poster;
@@ -194,7 +199,7 @@ function cardTemplate(item, index) {
   const prog = episodeProgress(item);
   const isFav = favorites.has(item.id);
   return `<article class="anime-card" tabindex="0" role="button" aria-label="${escapeHtml(item.titleThai)}" data-id="${escapeHtml(item.id)}">
-    <div class="poster-wrap">${posterHtml(item, { eager: index < 4 })}
+    <div class="poster-wrap">${posterHtml(item, { eager: index < 5 })}
       <div class="badges-top">
         <span class="badge status-badge"><span class="dot ${st.dot}"></span>${st.label}</span>
         ${hasNewEpisode(item) ? '<span class="badge new-badge">ตอนใหม่</span>' : ''}
@@ -312,9 +317,15 @@ function showDetail(id, { updateHash = true } = {}) {
   const bili = bilibiliOf(item);
   const biliSeriesUrl = bili ? safeExternalUrl(bili.seriesUrl) : '#';
   const isFav = favorites.has(item.id);
-  dialogContent.innerHTML = `<div class="dialog-grid"><div class="dialog-poster">${posterHtml(item, { thumb: false })}</div><div class="dialog-copy">
-    <p class="eyebrow">${escapeHtml(item.channel)} • ${escapeHtml(platformNames(item).join(' / '))}</p><h2>${escapeHtml(item.titleThai)}</h2>
-    <p class="original">${escapeHtml(item.titleOriginal)}${item.altTitle ? `<br>${escapeHtml(item.altTitle)}` : ''}</p><p>${escapeHtml(item.summary)}</p>
+  const heroBg = item.poster ? `--hero-img:${cssUrl(item.poster)}` : '';
+  dialogContent.innerHTML = `<div class="dialog-hero" style="${escapeHtml(heroBg)}">
+    <div class="dialog-hero-poster">${posterHtml(item, { thumb: false })}</div>
+    <div class="dialog-hero-copy">
+      <p class="eyebrow">${escapeHtml(item.channel)} • ${escapeHtml(platformNames(item).join(' / '))}</p><h2>${escapeHtml(item.titleThai)}</h2>
+      <p class="original">${escapeHtml(item.titleOriginal)}${item.altTitle ? `<br>${escapeHtml(item.altTitle)}` : ''}</p>
+    </div>
+  </div><div class="dialog-copy">
+    <p>${escapeHtml(item.summary)}</p>
     <div class="meta">${(item.genres || []).map(g => `<span class="tag">${escapeHtml(g)}</span>`).join('')}</div>
     <div class="info-grid">
       <div class="info"><small>สถานะ</small><strong><span class="dot ${st.dot}"></span> ${st.label}</strong></div>
@@ -353,7 +364,7 @@ function showDetail(id, { updateHash = true } = {}) {
       <button class="secondary-btn fav-toggle" type="button" data-fav="${escapeHtml(item.id)}" aria-pressed="${isFav}">${isFav ? '★ อยู่ในรายการโปรด' : '☆ เพิ่มรายการโปรด'}</button>
       <button class="secondary-btn share-btn" type="button" data-share="${escapeHtml(item.id)}">🔗 คัดลอกลิงก์</button>
     </div>
-  </div></div>`;
+  </div>`;
   if (!dialog.open) dialog.showModal();
   dialog.scrollTop = 0;
   let ytLimit = 10;
