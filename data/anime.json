@@ -27,7 +27,7 @@
     "latestEpisodeTitle": "The Cat and the Dragon  ตอนที่ 2 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=OpDLemm9U5Q&list=PLYA5C3ueQ-1g",
     "latestPublishedAt": "2026-07-04T13:00:06Z",
-    "lastCheckedAt": "2026-07-05T08:20:55.801Z",
+    "lastCheckedAt": "2026-07-05T16:37:16.521Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 61048,
@@ -35,7 +35,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7.52,
+    "score": 7.59,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -76,8 +76,8 @@
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.544Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -108,7 +108,7 @@
     "latestEpisodeTitle": "THE WORLD IS DANCING - ตอนที่ 01 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=sGFz693H8Kw&list=PLIa05JMgYhhaMTMBupRCsNXAvD1l3PSNr",
     "latestPublishedAt": "2026-06-29T13:30:07Z",
-    "lastCheckedAt": "2026-07-05T08:20:55.961Z",
+    "lastCheckedAt": "2026-07-05T16:37:16.712Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63347,
@@ -170,7 +170,7 @@
     "latestEpisodeTitle": "Bungo Stray Dogs WAN! 2 ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=MQuFqeslReM&list=PLCR1_rvbIAHE",
     "latestPublishedAt": "2026-07-02T12:40:06Z",
-    "lastCheckedAt": "2026-07-05T08:20:56.076Z",
+    "lastCheckedAt": "2026-07-05T16:37:16.877Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62883,
@@ -178,7 +178,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7.07,
+    "score": 7.11,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -214,8 +214,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.544Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -246,7 +246,7 @@
     "latestEpisodeTitle": "BanG Dream! YUME∞MITA - ตอนที่ 03 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=9PBuMcx0VQM&list=PLEP6Ull2yaCo",
     "latestPublishedAt": "2026-07-02T15:00:06Z",
-    "lastCheckedAt": "2026-07-05T08:20:56.149Z",
+    "lastCheckedAt": "2026-07-05T16:37:16.967Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62430,
@@ -254,7 +254,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7.51,
+    "score": 7.53,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -302,8 +302,8 @@
       "latestEpisodeNumber": 3,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.544Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -334,7 +334,7 @@
     "latestEpisodeTitle": "เกิดใหม่เป็นอัศวินเกราะหนักผู้ถูกขับไล่แต่ใช้ความรู้จากเกมจนไร้เทียมทาน - ตอนที่ 01 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=dkqRpEJTIpk&list=PLIa05JMgYhhb4BS6WEyTjKyuwJtWF_2U7",
     "latestPublishedAt": "2026-07-02T15:56:06Z",
-    "lastCheckedAt": "2026-07-05T08:20:56.220Z",
+    "lastCheckedAt": "2026-07-05T16:37:17.102Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 59741,
@@ -342,7 +342,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7.09,
+    "score": 7.11,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -378,8 +378,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.544Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/media/2411725",
@@ -390,8 +390,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.544Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -422,7 +422,7 @@
     "latestEpisodeTitle": "Chainsmoker Cat  ตอนที่ 1  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=cAUTNr0Kia4&list=PLQ4xe_hu1gxw",
     "latestPublishedAt": "2026-07-02T16:00:06Z",
-    "lastCheckedAt": "2026-07-05T08:20:56.300Z",
+    "lastCheckedAt": "2026-07-05T16:37:17.177Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63403,
@@ -430,7 +430,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7.02,
+    "score": 7.04,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -494,7 +494,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "",
-    "score": 0,
+    "score": 7.33,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -537,8 +537,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.544Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -549,7 +549,7 @@
     "studio": "Studio Bind",
     "source": "Light novel",
     "episodes": "?",
-    "premiere": "2026-07-06T00:00:00+00:00",
+    "premiere": "2026-07-04T00:00:00+00:00",
     "airTimeThai": "อาทิตย์ 22:00 / สัปดาห์แรกเสาร์ 18:00",
     "channel": "Muse Thailand",
     "platform": "YouTube",
@@ -575,9 +575,9 @@
     "malId": 59193,
     "malUrl": "https://myanimelist.net/anime/59193/Mushoku_Tensei_III__Isekai_Ittara_Honki_Dasu",
     "jikanType": "TV",
-    "jikanStatus": "Not yet aired",
+    "jikanStatus": "Currently Airing",
     "rating": "R - 17+ (violence & profanity)",
-    "score": 0,
+    "score": 9.05,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -648,8 +648,8 @@
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.544Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/media/2411609",
@@ -660,8 +660,8 @@
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.544Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -693,14 +693,14 @@
     "latestEpisodeTitle": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=oHy-No_sVhE&list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
     "latestPublishedAt": "2026-05-03T08:30:06Z",
-    "lastCheckedAt": "2026-07-05T08:20:56.408Z",
+    "lastCheckedAt": "2026-07-05T16:37:17.276Z",
     "updateStatus": "ok",
     "updateError": "",
     "malUrl": "https://myanimelist.net/anime/63832/Seihantai_na_Kimi_to_Boku_2nd_Season",
     "jikanType": "TV",
-    "jikanStatus": "Not yet aired",
+    "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 0,
+    "score": 8.03,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -812,8 +812,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.544Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -850,7 +850,7 @@
     "malId": 62435,
     "malUrl": "https://myanimelist.net/anime/62435/Sekai_Saikyou_no_Kouei__Meikyuukoku_no_Shinjin_Tansakusha",
     "jikanType": "TV",
-    "jikanStatus": "Not yet aired",
+    "jikanStatus": "Currently Airing",
     "rating": "",
     "score": 0,
     "season": "summer",
@@ -890,8 +890,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.544Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -922,7 +922,7 @@
     "latestEpisodeTitle": "เคลวาเทส อสูรจอมราชัน ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=hlS1nS4qQEA&list=PL_YV8EWtbQXESnuuBlZrdFMaqcuK5jr3F",
     "latestPublishedAt": "2025-09-17T11:30:07Z",
-    "lastCheckedAt": "2026-07-05T08:20:56.506Z",
+    "lastCheckedAt": "2026-07-05T16:37:17.373Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62513,
@@ -1050,8 +1050,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -1126,8 +1126,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -1237,8 +1237,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -1278,7 +1278,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 8.51,
+    "score": 8.5,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -1300,8 +1300,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -1552,8 +1552,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -1564,7 +1564,7 @@
     "studio": "Aura Studio",
     "source": "Light novel",
     "episodes": "?",
-    "premiere": "2026-07-06T00:00:00+00:00",
+    "premiere": "2026-07-04T00:00:00+00:00",
     "airTimeThai": "จันทร์ 20:00",
     "channel": "Muse Thailand",
     "platform": "YouTube",
@@ -1591,9 +1591,9 @@
     "malId": 60522,
     "malUrl": "https://myanimelist.net/anime/60522/Gaikotsu_Kishi-sama_Tadaima_Isekai_e_Odekakechuu_II",
     "jikanType": "TV",
-    "jikanStatus": "Not yet aired",
+    "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 0,
+    "score": 7.18,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -1623,8 +1623,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/media/2411543",
@@ -1635,8 +1635,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -1697,8 +1697,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -1738,7 +1738,7 @@
     "malId": 62811,
     "malUrl": "https://myanimelist.net/anime/62811/Kimi_no_Koto_ga_Daidaidaidaidaisuki_na_100-nin_no_Kanojo_3rd_Season",
     "jikanType": "TV",
-    "jikanStatus": "Not yet aired",
+    "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
     "score": 0,
     "season": "summer",
@@ -1762,8 +1762,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -1855,7 +1855,7 @@
     "malUrl": "https://myanimelist.net/anime/58929/Koukaku_Kidoutai_TV",
     "jikanType": "TV",
     "jikanStatus": "Not yet aired",
-    "rating": "",
+    "rating": "R - 17+ (violence & profanity)",
     "score": 0,
     "season": "summer",
     "year": 2026,
@@ -1975,8 +1975,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -2064,7 +2064,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "",
-    "score": 0,
+    "score": 8.13,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -2084,8 +2084,8 @@
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -2126,7 +2126,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7.13,
+    "score": 7.22,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -2245,8 +2245,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -2309,8 +2309,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -2372,8 +2372,8 @@
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -2434,8 +2434,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -2472,7 +2472,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 6.69,
+    "score": 6.71,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -2494,8 +2494,8 @@
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -2532,9 +2532,9 @@
     "malId": 62876,
     "malUrl": "https://myanimelist.net/anime/62876/Saijo_no_Osewa__Takane_no_Hanadarake_na_Meimonkou_de_Gakuin_Ichi_no_Ojousama_Seikatsu_Nouryoku_Kaimu_wo_Kagenagara_Osewa_suru_Koto_ni_Narimashita",
     "jikanType": "TV",
-    "jikanStatus": "Not yet aired",
+    "jikanStatus": "Currently Airing",
     "rating": "",
-    "score": 0,
+    "score": 7.27,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -2556,8 +2556,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -2616,8 +2616,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -2657,7 +2657,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7.64,
+    "score": 7.67,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -2679,8 +2679,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/media/2411889",
@@ -2691,8 +2691,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -2753,8 +2753,8 @@
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -2909,8 +2909,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -2949,7 +2949,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 6.84,
+    "score": 6.87,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -2971,8 +2971,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -3030,8 +3030,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -3092,8 +3092,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -3151,8 +3151,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -3189,7 +3189,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7.04,
+    "score": 7.07,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -3211,8 +3211,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/media/2413170",
@@ -3223,8 +3223,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -3287,8 +3287,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -3298,7 +3298,7 @@
     "altTitle": "Onihana / 鬼の花嫁",
     "studio": "Colored Pencil Animation Japan",
     "source": "Novel",
-    "episodes": "?",
+    "episodes": "12",
     "premiere": "2026-07-05T00:00:00+00:00",
     "airTimeThai": "เสาร์ 22:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
@@ -3328,7 +3328,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "",
-    "score": 0,
+    "score": 6.96,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -3348,8 +3348,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -3466,8 +3466,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -3505,7 +3505,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 0,
+    "score": 7,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -3525,8 +3525,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -3564,7 +3564,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "",
-    "score": 0,
+    "score": 6.46,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -3586,8 +3586,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -3644,8 +3644,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -3803,8 +3803,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -3939,7 +3939,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 6.82,
+    "score": 6.97,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -3961,8 +3961,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -4001,7 +4001,7 @@
     "malId": 56613,
     "malUrl": "https://myanimelist.net/anime/56613/Azur_Lane__Bisoku_Zenshin_Ni",
     "jikanType": "TV",
-    "jikanStatus": "Not yet aired",
+    "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
     "score": 0,
     "season": "summer",
@@ -4023,8 +4023,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -4134,8 +4134,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -4174,7 +4174,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7.34,
+    "score": 7.39,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -4204,8 +4204,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -4289,7 +4289,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "",
-    "score": 0,
+    "score": 7.12,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -4309,8 +4309,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -4417,8 +4417,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -4521,7 +4521,7 @@
     "altTitle": "レッツゴー怪奇組",
     "studio": "C-Station",
     "source": "Web manga",
-    "episodes": "?",
+    "episodes": "12",
     "premiere": "2026-07-05T00:00:00+00:00",
     "airTimeThai": "อาทิตย์ 14:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
@@ -4548,9 +4548,9 @@
     "malId": 62683,
     "malUrl": "https://myanimelist.net/anime/62683/Lets_Go_Kaiki-gumi",
     "jikanType": "TV",
-    "jikanStatus": "Not yet aired",
+    "jikanStatus": "Currently Airing",
     "rating": "",
-    "score": 0,
+    "score": 6.29,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -4570,8 +4570,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -4610,7 +4610,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "R+ - Mild Nudity",
-    "score": 6.1,
+    "score": 6,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -4686,8 +4686,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -5861,9 +5861,9 @@
     "malId": 60552,
     "malUrl": "https://myanimelist.net/anime/60552/Kabushikigaisha_Magi-Lumière_2nd_Season",
     "jikanType": "TV",
-    "jikanStatus": "Not yet aired",
+    "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 0,
+    "score": 6.97,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -5915,7 +5915,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7,
+    "score": 7.04,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -5937,8 +5937,8 @@
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -6000,8 +6000,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -6230,8 +6230,8 @@
       "latestEpisodeNumber": 10,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/media/2287773",
@@ -6242,8 +6242,8 @@
       "latestEpisodeNumber": 10,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -6368,8 +6368,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2288197",
@@ -6380,8 +6380,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.545Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -6430,7 +6430,7 @@
     "jikanType": "TV",
     "jikanStatus": "Finished Airing",
     "rating": "R - 17+ (violence & profanity)",
-    "score": 8.17,
+    "score": 8.16,
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
@@ -6523,8 +6523,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "anilist_links",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -6583,8 +6583,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2288339",
@@ -6595,8 +6595,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -6656,8 +6656,8 @@
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2080019",
@@ -6668,8 +6668,8 @@
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -6729,8 +6729,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2288405",
@@ -6741,8 +6741,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -6840,8 +6840,8 @@
       "latestEpisodeNumber": 6,
       "episodeSource": "anilist_links",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -6979,8 +6979,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "anilist_links",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -7010,8 +7010,8 @@
     "currentEpisode": 3,
     "latestEpisodeTitle": "【ซับไทย】《เก่งรอบด้านแต่ไร้ทีเด็ด เลยถูกเฉดหัวจากปาร์ตี้ผู้กล้า》｜ตอนที่ 03｜TROPICS ENTERTAINMENT",
     "latestVideoUrl": "https://www.youtube.com/watch?v=XT9Itn2PneY",
-    "latestPublishedAt": "2026-04-10T02:53:00Z",
-    "lastCheckedAt": "2026-07-05T05:29:25.477Z",
+    "latestPublishedAt": "2026-07-05T13:00:06Z",
+    "lastCheckedAt": "2026-07-05T16:37:21.417Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -7020,14 +7020,14 @@
         "title": "【ซับไทย】《เก่งรอบด้านแต่ไร้ทีเด็ด เลยถูกเฉดหัวจากปาร์ตี้ผู้กล้า》｜ตอนที่ 03｜TROPICS ENTERTAINMENT",
         "videoId": "XT9Itn2PneY",
         "videoUrl": "https://www.youtube.com/watch?v=XT9Itn2PneY",
-        "publishedAt": "2026-04-10T02:53:00Z"
+        "publishedAt": "2026-07-05T13:00:06Z"
       },
       {
         "number": 3,
         "title": "【English Sub】《Jack-of-All-Trades, Party of None》｜Episode 03｜TROPICS ENTERTAINMENT",
         "videoId": "QNvXlkskMRQ",
         "videoUrl": "https://www.youtube.com/watch?v=QNvXlkskMRQ",
-        "publishedAt": "2026-04-09T03:28:34Z"
+        "publishedAt": "2026-07-05T13:00:06Z"
       },
       {
         "number": 2,
@@ -7084,8 +7084,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2289171",
@@ -7096,8 +7096,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -7155,8 +7155,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -7217,8 +7217,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -7277,8 +7277,8 @@
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -7339,8 +7339,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2289667",
@@ -7351,8 +7351,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -7398,7 +7398,7 @@
     "jikanType": "TV",
     "jikanStatus": "Finished Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7.82,
+    "score": 7.83,
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
@@ -7412,8 +7412,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2288932",
@@ -7424,8 +7424,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -7557,8 +7557,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "anilist_links",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -7619,8 +7619,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2290283",
@@ -7631,8 +7631,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -7691,8 +7691,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -7837,8 +7837,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2289875",
@@ -7849,8 +7849,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -7959,8 +7959,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2288556",
@@ -7971,8 +7971,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -8039,8 +8039,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -8265,8 +8265,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "anilist_links",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -8328,8 +8328,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -8388,8 +8388,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2290065",
@@ -8400,8 +8400,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -8462,8 +8462,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2290152",
@@ -8474,8 +8474,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -8534,8 +8534,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2289458",
@@ -8546,8 +8546,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -8607,8 +8607,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -8668,8 +8668,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -8730,8 +8730,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -8791,8 +8791,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -8901,8 +8901,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -9056,8 +9056,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2288703",
@@ -9068,8 +9068,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -9160,7 +9160,7 @@
     "jikanType": "TV",
     "jikanStatus": "Finished Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 6.6,
+    "score": 6.59,
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
@@ -9174,8 +9174,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -9233,8 +9233,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -9344,8 +9344,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -9404,8 +9404,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -9464,8 +9464,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -9524,8 +9524,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2289383",
@@ -9536,8 +9536,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -9767,8 +9767,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "anilist_links",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -9827,8 +9827,8 @@
       "latestEpisodeNumber": 24,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -9889,8 +9889,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -9950,8 +9950,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -10010,8 +10010,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -10070,8 +10070,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2289079",
@@ -10082,8 +10082,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -10192,8 +10192,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -10338,8 +10338,8 @@
       "latestEpisodeNumber": 14,
       "episodeSource": "anilist_links",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -10537,8 +10537,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -10595,8 +10595,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -10716,8 +10716,8 @@
       "latestEpisodeNumber": 23,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -10973,8 +10973,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "anilist_links",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -11435,7 +11435,7 @@
     "jikanType": "TV",
     "jikanStatus": "Finished Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 8.56,
+    "score": 8.55,
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
@@ -11449,8 +11449,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -11593,8 +11593,8 @@
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2342439",
@@ -11605,8 +11605,8 @@
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -11762,8 +11762,8 @@
       "latestEpisodeNumber": 16,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/media/2342498",
@@ -11774,8 +11774,8 @@
       "latestEpisodeNumber": 16,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -11903,7 +11903,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 8.09,
+    "score": 8.1,
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
@@ -11917,8 +11917,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2342192",
@@ -11929,8 +11929,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -11992,8 +11992,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2342276",
@@ -12004,8 +12004,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -12053,7 +12053,7 @@
     "jikanType": "TV",
     "jikanStatus": "Finished Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 8.22,
+    "score": 8.21,
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
@@ -12067,8 +12067,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2342649",
@@ -12079,8 +12079,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -12149,8 +12149,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2123789",
@@ -12161,8 +12161,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -12220,8 +12220,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2343630",
@@ -12232,8 +12232,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -12277,7 +12277,7 @@
     "jikanType": "TV",
     "jikanStatus": "Finished Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7.83,
+    "score": 7.82,
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
@@ -12291,8 +12291,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -12432,7 +12432,7 @@
     "jikanType": "TV",
     "jikanStatus": "Finished Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7.61,
+    "score": 7.6,
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
@@ -12454,8 +12454,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2342380",
@@ -12466,8 +12466,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -12514,7 +12514,7 @@
     "jikanType": "TV",
     "jikanStatus": "Finished Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7.5,
+    "score": 7.49,
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
@@ -12528,8 +12528,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -12684,8 +12684,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -12744,8 +12744,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -12804,8 +12804,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -12952,7 +12952,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 8.13,
+    "score": 8.12,
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
@@ -12966,8 +12966,8 @@
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2342582",
@@ -12978,8 +12978,8 @@
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -13038,8 +13038,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -13137,8 +13137,8 @@
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2342908",
@@ -13149,8 +13149,8 @@
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -13299,8 +13299,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2343522",
@@ -13311,8 +13311,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.547Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -13444,8 +13444,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "anilist_links",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2341767",
@@ -13456,8 +13456,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -13519,8 +13519,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -13630,8 +13630,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2343894",
@@ -13642,8 +13642,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -13845,8 +13845,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -13905,8 +13905,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -13966,8 +13966,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2361551",
@@ -13978,8 +13978,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -14040,8 +14040,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -14101,8 +14101,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -14163,8 +14163,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -14225,8 +14225,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2343133",
@@ -14237,8 +14237,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -14299,8 +14299,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -14581,8 +14581,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2343020",
@@ -14593,8 +14593,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -14639,7 +14639,7 @@
     "jikanType": "TV",
     "jikanStatus": "Finished Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7.45,
+    "score": 7.46,
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
@@ -14690,7 +14690,7 @@
     "jikanType": "TV",
     "jikanStatus": "Finished Airing",
     "rating": "R+ - Mild Nudity",
-    "score": 6.65,
+    "score": 6.64,
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
@@ -14753,8 +14753,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -14784,8 +14784,8 @@
     "currentEpisode": 12,
     "latestEpisodeTitle": "ยอดไก่นักสู้กู้โลก ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=ZsDwtzWkv8I",
-    "latestPublishedAt": "2026-06-26T02:42:44Z",
-    "lastCheckedAt": "2026-07-05T05:29:22.387Z",
+    "latestPublishedAt": "2026-07-05T16:00:06Z",
+    "lastCheckedAt": "2026-07-05T16:37:20.776Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -14794,7 +14794,7 @@
         "title": "ยอดไก่นักสู้กู้โลก ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
         "videoId": "ZsDwtzWkv8I",
         "videoUrl": "https://www.youtube.com/watch?v=ZsDwtzWkv8I",
-        "publishedAt": "2026-06-26T02:42:44Z"
+        "publishedAt": "2026-07-05T16:00:06Z"
       },
       {
         "number": 11,
@@ -14900,8 +14900,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2289611",
@@ -14912,8 +14912,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -14943,8 +14943,8 @@
     "currentEpisode": 13,
     "latestEpisodeTitle": "ห้องเรียนเวทมนตร์กับคุณแมวดำ ตอนที่ 13 [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=2hgQP9tfPTM",
-    "latestPublishedAt": "2026-07-03T10:52:57Z",
-    "lastCheckedAt": "2026-07-05T05:29:22.387Z",
+    "latestPublishedAt": "2026-07-05T15:00:06Z",
+    "lastCheckedAt": "2026-07-05T16:37:20.776Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -14953,7 +14953,7 @@
         "title": "ห้องเรียนเวทมนตร์กับคุณแมวดำ ตอนที่ 13 [ซับไทย] 【Ani-One Thailand】",
         "videoId": "2hgQP9tfPTM",
         "videoUrl": "https://www.youtube.com/watch?v=2hgQP9tfPTM",
-        "publishedAt": "2026-07-03T10:52:57Z"
+        "publishedAt": "2026-07-05T15:00:06Z"
       },
       {
         "number": 12,
@@ -15066,8 +15066,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -15216,7 +15216,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7,
+    "score": 6.99,
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
@@ -15238,8 +15238,8 @@
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -15387,8 +15387,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2344089",
@@ -15399,8 +15399,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -15525,8 +15525,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -15586,8 +15586,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -15645,8 +15645,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -15706,8 +15706,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -15847,7 +15847,7 @@
     "jikanType": "TV",
     "jikanStatus": "Finished Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 6.95,
+    "score": 6.94,
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
@@ -15861,8 +15861,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -15971,8 +15971,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -16039,8 +16039,8 @@
       "latestEpisodeNumber": 1,
       "episodeSource": "anilist_links",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -16098,8 +16098,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -16145,7 +16145,7 @@
     "jikanType": "TV",
     "jikanStatus": "Finished Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 6.23,
+    "score": 6.24,
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
@@ -16159,8 +16159,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -16306,8 +16306,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -16932,7 +16932,7 @@
     "jikanType": "TV",
     "jikanStatus": "Finished Airing",
     "rating": "R+ - Mild Nudity",
-    "score": 4.82,
+    "score": 4.83,
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
@@ -17082,8 +17082,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -17110,7 +17110,7 @@
     ],
     "summary": "Shizuku Kanzaki is the only son of world-renowned wine critic Yutaka Kanzaki. From a young age, Shizuku has been subjected to strange education from his father all for the sake of wine. From learning to gracefully decant a drink to intently remembering the smell of leather belts and pencils, the training causes him to grow resentful of everything related to wine. Discontent with his father, he leaves home to become an average sales representative for a beer company, refusing to ever touch wine again.\n\nWhen his father suddenly passes away, Shizuku finds himself being dragged back into the world he hates so much. As part of his father's will, the one who will inherit his prized wine collection and estate will be the person who can correctly identify the \"12 Apostles\" of wines as well as the legendary \"Drops of God.\" In order to inherit the assets, Shizuku has one year to complete the task, but he finds the proposition ridiculous when he is the only living relative of Yutaka.\n\nWhat Yutaka failed to tell his son before his death was that he had adopted Issei Tomine into the family a week prior to his passing. Issei is a famous veteran wine critic competing against Shizuku to claim the estate for himself. With no formal training in wine tasting, Shizuku stands no chance against \"The Prince of Wine\" and is at risk of losing everything in this competition. Will he be able to correctly identify the elusive \"Drops of God\" before he runs out of time?\n\n[Written by MAL Rewrite]",
     "note": "นำเข้าจาก Jikan spring 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
-    "poster": "https://cdn.myanimelist.net/images/anime/1045/155698l.webp",
+    "poster": "https://cdn.myanimelist.net/images/anime/1863/158831l.webp",
     "playlistId": "",
     "currentEpisode": 9,
     "latestEpisodeTitle": "【Subtitle Indonesia】《The Drops of God》｜Episode 09｜TROPICS ENTERTAINMENT",
@@ -17271,8 +17271,8 @@
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -17451,7 +17451,7 @@
     "jikanType": "TV",
     "jikanStatus": "Finished Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 5.41,
+    "score": 5.4,
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
@@ -17465,8 +17465,8 @@
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -17594,7 +17594,7 @@
     "jikanType": "TV",
     "jikanStatus": "Finished Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 5.34,
+    "score": 5.36,
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
@@ -17761,7 +17761,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG - Children",
-    "score": 6.29,
+    "score": 6.31,
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
@@ -17775,8 +17775,8 @@
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "ok",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -18043,7 +18043,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 6.47,
+    "score": 6.46,
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
@@ -18351,8 +18351,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -18461,8 +18461,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -18672,8 +18672,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -18830,8 +18830,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -18992,8 +18992,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -19519,8 +19519,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -19782,8 +19782,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -19890,8 +19890,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
@@ -21510,8 +21510,8 @@
       "latestEpisodeNumber": 0,
       "episodeSource": "",
       "lastCheckedAt": "2026-07-05T08:21:17.548Z",
-      "updateStatus": "no_episode_found",
-      "updateError": ""
+      "updateStatus": "error",
+      "updateError": "AniList request failed"
     }
   },
   {
