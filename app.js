@@ -485,7 +485,12 @@ function handleActivation(event) {
 }
 document.addEventListener('click', event => { handleActivation(event); });
 grid.addEventListener('keydown', event => {
-  if (event.key === 'Enter' && event.target.classList.contains('anime-card')) showDetail(event.target.dataset.id);
+  if (event.key === 'Enter' && event.target.classList.contains('anime-card')) {
+    // preventDefault: the dialog steals focus to its close button mid-keypress,
+    // and Enter's default activation would click it — opening then instantly closing.
+    event.preventDefault();
+    showDetail(event.target.dataset.id);
+  }
 });
 
 // ---------- dialog ----------

@@ -408,3 +408,26 @@ footer a { color: var(--accent) }
   html { scroll-behavior: auto }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important }
 }
+
+/* ---------- TV mode (Google TV / smart-TV browsers, toggled by tv.js) ----------
+   10-foot UI: overscan-safe margins, bigger type and hit targets, and a strong
+   always-on focus style because the D-pad remote is the only pointer. */
+body.tv-mode { font-size: 118%; padding: 12px 0 24px }
+body.tv-mode .nav, body.tv-mode .hero, body.tv-mode main { --page-pad: clamp(32px, 4vw, 56px) }
+body.tv-mode :focus { outline: 4px solid var(--accent); outline-offset: 3px; border-radius: 8px; box-shadow: 0 0 0 8px rgba(143, 129, 255, .25) }
+body.tv-mode .chip { min-height: 52px; padding: 10px 20px; font-size: 15px }
+body.tv-mode .ghost-btn, body.tv-mode .menu-toggle { min-height: 52px }
+body.tv-mode .nav-actions { font-size: 16px }
+body.tv-mode .search-box { min-height: 58px }
+body.tv-mode .anime-grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 24px }
+body.tv-mode .anime-card h3 { font-size: 19px }
+body.tv-mode .anime-card:focus { transform: scale(1.03); border-color: var(--accent); z-index: 1 }
+body.tv-mode .anime-card:focus .poster { transform: scale(1.04) }
+body.tv-mode .watch-btn, body.tv-mode .episode-watch { min-height: 48px; font-size: 14px }
+body.tv-mode .today-row, body.tv-mode .schedule-item { min-height: 80px }
+body.tv-mode .today-row:focus, body.tv-mode .schedule-item:focus, body.tv-mode .catalog-load-more:focus { border-color: var(--accent) }
+body.tv-mode .badge { font-size: 13px }
+body.tv-mode .primary-btn, body.tv-mode .secondary-btn, body.tv-mode .load-more-btn { min-height: 54px; font-size: 16px }
+body.tv-mode .detail-dialog { width: min(840px, calc(100% - 48px)) }
+body.tv-mode .episode-item { padding: 14px 16px }
+body.tv-mode .fav-btn { width: 46px; height: 46px; font-size: 20px }

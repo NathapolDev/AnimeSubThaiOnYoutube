@@ -40,6 +40,8 @@ node tools/import-youtube-research.js "path\to\youtube-research-queue.updated.js
 
 ## Architecture
 
+**Frontend TV mode (`tv.js`):** smart-TV support (Google TV etc.) is a `tv-mode` class on `<body>` — auto-enabled by user-agent sniff, forceable with `?tv=1`/`?tv=0` (persisted) or the 📺 nav toggle. `tv.js` also implements D-pad arrow-key spatial navigation and remote-Back-closes-dialog; all TV styling lives in the `body.tv-mode` block at the end of `styles.css`, so other devices render unchanged. New frontend files must be added to the `cp` line in `.github/workflows/deploy-pages.yml` or GitHub Pages won't ship them.
+
 The data pipeline writes two parallel files after every update:
 - `data/anime.json` — canonical source of truth (read/written by all tools), pretty-printed for reviewable diffs
 - `data/anime.js` — `window.ANIME_DATA = <same data, minified>` for `file://` use without a server
