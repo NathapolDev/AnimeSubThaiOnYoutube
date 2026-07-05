@@ -72,10 +72,11 @@
       "anilistId": 186863,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 2,
+      "latestEpisodeNumber": 2,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -209,10 +210,11 @@
       "anilistId": 201667,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 1,
+      "latestEpisodeNumber": 1,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -296,10 +298,11 @@
       "anilistId": 198376,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 3,
+      "latestEpisodeNumber": 3,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -371,10 +374,11 @@
       "anilistId": 180136,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 1,
+      "latestEpisodeNumber": 1,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -517,10 +521,11 @@
       "anilistId": 187538,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 1,
+      "latestEpisodeNumber": 1,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -606,10 +611,11 @@
       "anilistId": 178789,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 2,
+      "latestEpisodeNumber": 2,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -759,7 +765,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -836,7 +843,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -995,7 +1003,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -1070,7 +1079,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -1180,7 +1190,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -1242,7 +1253,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -1493,7 +1505,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -1561,10 +1574,11 @@
       "anilistId": 185542,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 1,
+      "latestEpisodeNumber": 1,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -1624,7 +1638,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -1688,7 +1703,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -1900,7 +1916,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -1967,8 +1984,8 @@
     "airTimeThai": "เสาร์ 21:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61483/Tenmaku_no_Jaadugar",
     "genres": [
       "Drama",
@@ -2006,10 +2023,11 @@
       "anilistId": 190569,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 2,
+      "latestEpisodeNumber": 2,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -2168,7 +2186,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -2231,7 +2250,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -2248,8 +2268,8 @@
     "airTimeThai": "พุธ 22:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/63508/Rakudai_Kenja_no_Gakuin_Musou__Nidome_no_Tensei_S-Rank_Cheat_Majutsushi_Boukenroku",
     "genres": [
       "Action",
@@ -2291,10 +2311,11 @@
       "anilistId": 208044,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 2,
+      "latestEpisodeNumber": 2,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -2354,7 +2375,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -2371,8 +2393,8 @@
     "airTimeThai": "พุธ 22:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/62322/Lv999_no_Murabito",
     "genres": [
       "Fantasy"
@@ -2411,10 +2433,11 @@
       "anilistId": 197715,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 2,
+      "latestEpisodeNumber": 2,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -2430,8 +2453,8 @@
     "airTimeThai": "อาทิตย์ 00:38",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/62876/Saijo_no_Osewa__Takane_no_Hanadarake_na_Meimonkou_de_Gakuin_Ichi_no_Ojousama_Seikatsu_Nouryoku_Kaimu_wo_Kagenagara_Osewa_suru_Koto_ni_Narimashita",
     "genres": [
       "Comedy",
@@ -2472,10 +2495,11 @@
       "anilistId": 201514,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 1,
+      "latestEpisodeNumber": 1,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -2533,7 +2557,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -2550,8 +2575,8 @@
     "airTimeThai": "พฤหัส 23:28",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/63150/Otome_Kaijuu_Caraméliser",
     "genres": [
       "Romance",
@@ -2593,10 +2618,11 @@
       "anilistId": 204466,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 1,
+      "latestEpisodeNumber": 1,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -2612,8 +2638,8 @@
     "airTimeThai": "พุธ 20:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61686/Heroine_Seijo_Iie_All_Works_Maid_desu_Hokori",
     "genres": [
       "Fantasy",
@@ -2654,10 +2680,11 @@
       "anilistId": 192800,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 2,
+      "latestEpisodeNumber": 2,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -2811,7 +2838,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -2828,8 +2856,8 @@
     "airTimeThai": "จันทร์ 20:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/62617/Koko_wa_Ore_ni_Makasete_Saki_ni_Ike_to_Itte_kara_10-nen_ga_Tattara_Densetsu_ni_Natteita",
     "genres": [
       "Action",
@@ -2870,10 +2898,11 @@
       "anilistId": 199748,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 1,
+      "latestEpisodeNumber": 1,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -2889,8 +2918,8 @@
     "airTimeThai": "อังคาร 20:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/62080/Mujikaku_Seijo_wa_Kyou_mo_Muishiki_ni_Chikara_wo_Tare_Nagasu",
     "genres": [
       "Fantasy",
@@ -2928,10 +2957,11 @@
       "anilistId": 196219,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 1,
+      "latestEpisodeNumber": 1,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -2991,7 +3021,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -3049,7 +3080,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -3066,8 +3098,8 @@
     "airTimeThai": "ศุกร์ 20:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/62078/Ryoumin_0-nin_Start_no_Henkyou_Ryoushu-sama",
     "genres": [
       "Fantasy"
@@ -3106,10 +3138,11 @@
       "anilistId": 196218,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 1,
+      "latestEpisodeNumber": 1,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -3171,7 +3204,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -3188,8 +3222,8 @@
     "airTimeThai": "เสาร์ 22:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61814/Oni_no_Hanayome",
     "genres": [
       "Fantasy",
@@ -3229,10 +3263,11 @@
       "anilistId": 194219,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 1,
+      "latestEpisodeNumber": 1,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -3348,7 +3383,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -3365,8 +3401,8 @@
     "airTimeThai": "เสาร์ 23:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/60637/Mahou_Shoujo_Lyrical_Nanoha_EXCEEDS__Gun_Blaze_Vengeance",
     "genres": [
       "Action",
@@ -3404,10 +3440,11 @@
       "anilistId": 185875,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 1,
+      "latestEpisodeNumber": 1,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -3423,8 +3460,8 @@
     "airTimeThai": "เสาร์ 23:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/63537/Kimi_wo_Aisuru_Ki_wa_Nai_to_Itta_Jiki_Koushaku-sama_ga_Nazeka_Dekiai_shitekimasu",
     "genres": [
       "Fantasy",
@@ -3464,10 +3501,11 @@
       "anilistId": 208225,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 1,
+      "latestEpisodeNumber": 1,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -3523,7 +3561,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -3637,8 +3676,8 @@
     "airTimeThai": "พฤหัส 19:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/63082/Reiwa_no_Dara-san",
     "genres": [
       "Comedy",
@@ -3679,10 +3718,11 @@
       "anilistId": 203880,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 1,
+      "latestEpisodeNumber": 1,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -3794,8 +3834,8 @@
     "airTimeThai": "ศุกร์ 22:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/63061/Uchi_no_Otouto-domo_ga_Sumimasen",
     "genres": [
       "Comedy",
@@ -3836,10 +3876,11 @@
       "anilistId": 203490,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 1,
+      "latestEpisodeNumber": 1,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -3899,7 +3940,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -3964,8 +4006,8 @@
     "airTimeThai": "เสาร์ 20:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/63324/Iwamoto-senpai_no_Suisen",
     "genres": [
       "Supernatural",
@@ -4007,10 +4049,11 @@
       "anilistId": 206249,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 1,
+      "latestEpisodeNumber": 1,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -4076,10 +4119,11 @@
       "anilistId": 188525,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 1,
+      "latestEpisodeNumber": 1,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -4142,8 +4186,8 @@
     "airTimeThai": "เสาร์ 22:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/62051/Grow_Up_Show__Himawari_no_Circus-dan",
     "genres": [
       "Performing Arts"
@@ -4180,10 +4224,11 @@
       "anilistId": 196017,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 1,
+      "latestEpisodeNumber": 1,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -4289,7 +4334,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -4441,7 +4487,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -4556,7 +4603,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -5760,8 +5808,8 @@
     "airTimeThai": "พุธ 22:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/63780/Hanazakari_no_Kimitachi_e_2nd_Season",
     "genres": [
       "Romance",
@@ -5804,10 +5852,11 @@
       "anilistId": 209669,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 2,
+      "latestEpisodeNumber": 2,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -5868,7 +5917,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -6095,10 +6145,11 @@
       "anilistId": 182255,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 10,
+      "latestEpisodeNumber": 10,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -6220,10 +6271,11 @@
       "anilistId": 172463,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.589Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.234Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -6364,7 +6416,8 @@
       ],
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "anilist_links",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
       "updateStatus": "ok",
       "updateError": ""
     }
@@ -6381,8 +6434,8 @@
     "airTimeThai": "พฤหัส 20:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/56009/Yuusha-kei_ni_Shosu__Choubatsu_Yuusha_9004-tai_Keimu_Kiroku",
     "genres": [
       "Action",
@@ -6421,10 +6474,11 @@
       "anilistId": 167152,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -6440,8 +6494,8 @@
     "airTimeThai": "พุธ 21:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/60058/Oshi_no_Ko_3rd_Season",
     "genres": [
       "Drama",
@@ -6481,10 +6535,11 @@
       "anilistId": 182587,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 11,
+      "latestEpisodeNumber": 11,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -6500,8 +6555,8 @@
     "airTimeThai": "อาทิตย์ 15:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/60371/Seihantai_na_Kimi_to_Boku",
     "genres": [
       "Comedy",
@@ -6541,10 +6596,11 @@
       "anilistId": 184951,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -6641,7 +6697,8 @@
       ],
       "episodeCount": 6,
       "latestEpisodeNumber": 6,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "anilist_links",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
       "updateStatus": "ok",
       "updateError": ""
     }
@@ -6779,7 +6836,8 @@
       ],
       "episodeCount": 13,
       "latestEpisodeNumber": 12,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "anilist_links",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
       "updateStatus": "ok",
       "updateError": ""
     }
@@ -6881,10 +6939,11 @@
       "anilistId": 187264,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -6900,8 +6959,8 @@
     "airTimeThai": "อาทิตย์ 21:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/58788/Ikoku_Nikki",
     "genres": [
       "Drama",
@@ -6939,10 +6998,11 @@
       "anilistId": 177385,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -7008,8 +7068,8 @@
     "airTimeThai": "พุธ 21:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/59711/Shibou_Yuugi_de_Meshi_wo_Kuu",
     "genres": [
       "Action",
@@ -7048,10 +7108,11 @@
       "anilistId": 180746,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 11,
+      "latestEpisodeNumber": 11,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -7067,8 +7128,8 @@
     "airTimeThai": "อังคาร 21:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61983/Yuusha_Party_ni_Kawaii_Ko_ga_Ita_node_Kokuhaku_shitemita",
     "genres": [
       "Comedy",
@@ -7109,10 +7170,11 @@
       "anilistId": 195515,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -7128,8 +7190,8 @@
     "airTimeThai": "เสาร์ 23:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/59047/Tamon-kun_Ima_Docchi",
     "genres": [
       "Comedy",
@@ -7169,10 +7231,11 @@
       "anilistId": 178005,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -7309,7 +7372,8 @@
       ],
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "anilist_links",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
       "updateStatus": "ok",
       "updateError": ""
     }
@@ -7326,8 +7390,8 @@
     "airTimeThai": "อังคาร 21:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61211/Mayonaka_Heart_Tune",
     "genres": [
       "Comedy",
@@ -7368,10 +7432,11 @@
       "anilistId": 187942,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -7387,8 +7452,8 @@
     "airTimeThai": "อาทิตย์ 14:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61663/Uruwashi_no_Yoi_no_Tsuki",
     "genres": [
       "Romance",
@@ -7427,10 +7492,11 @@
       "anilistId": 192507,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -7572,10 +7638,11 @@
       "anilistId": 185993,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -7641,8 +7708,8 @@
     "airTimeThai": "เสาร์ 20:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61549/Okiraku_Ryoushu_no_Tanoshii_Ryouchi_Bouei__Seisankei_Majutsu_de_Na_mo_Naki_Mura_wo_Saikyou_no_Jousai_Toshi_ni",
     "genres": [
       "Fantasy",
@@ -7681,10 +7748,11 @@
       "anilistId": 191205,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -7748,10 +7816,11 @@
       "anilistId": 186333,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -7975,7 +8044,8 @@
       ],
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "anilist_links",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
       "updateStatus": "ok",
       "updateError": ""
     }
@@ -7992,8 +8062,8 @@
     "airTimeThai": "จันทร์ 21:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/55772/Golden_Kamuy__Saishuushou",
     "genres": [
       "Action",
@@ -8035,10 +8105,11 @@
       "anilistId": 166521,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -8054,8 +8125,8 @@
     "airTimeThai": "พฤหัส 21:56",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/60151/Eris_no_Seihai",
     "genres": [
       "Mystery",
@@ -8094,10 +8165,11 @@
       "anilistId": 183270,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -8113,8 +8185,8 @@
     "airTimeThai": "พฤหัส 21:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/60395/Toumei_Otoko_to_Ningen_Onna__Sonouchi_Fuufu_ni_Naru_Futari",
     "genres": [
       "Fantasy",
@@ -8155,10 +8227,11 @@
       "anilistId": 185039,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -8174,8 +8247,8 @@
     "airTimeThai": "อาทิตย์ 15:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/60223/Kaya-chan_wa_Kowakunai",
     "genres": [
       "Horror",
@@ -8214,10 +8287,11 @@
       "anilistId": 183660,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -8233,8 +8307,8 @@
     "airTimeThai": "อังคาร 21:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/60226/Isekai_no_Sata_wa_Shachiku_Shidai",
     "genres": [
       "Boys Love",
@@ -8274,10 +8348,11 @@
       "anilistId": 183661,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -8293,8 +8368,8 @@
     "airTimeThai": "พฤหัส 22:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61587/Omae_Gotoki_ga_Maou_ni_Kateru_to_Omouna_to_Yuusha_Party_wo_Tsuihou_sareta_node_Outo_de_Kimama_ni_Kurashitai",
     "genres": [
       "Action",
@@ -8334,10 +8409,11 @@
       "anilistId": 191718,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -8353,8 +8429,8 @@
     "airTimeThai": "อาทิตย์ 21:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/62000/Akuyaku_Reijou_wa_Ringoku_no_Outaishi_ni_Dekiai_sareru",
     "genres": [
       "Fantasy",
@@ -8395,10 +8471,11 @@
       "anilistId": 195518,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -8414,8 +8491,8 @@
     "airTimeThai": "จันทร์ 22:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61359/Osananajimi_to_wa_Love_Comedy_ni_Naranai",
     "genres": [
       "Comedy",
@@ -8455,10 +8532,11 @@
       "anilistId": 189565,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -8524,8 +8602,8 @@
     "airTimeThai": "พุธ 20:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61884/Maou_no_Musume_wa_Yasashisugiru",
     "genres": [
       "Comedy",
@@ -8564,10 +8642,11 @@
       "anilistId": 194742,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -8718,10 +8797,11 @@
       "anilistId": 187901,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -8784,8 +8864,8 @@
     "airTimeThai": "พุธ 19:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61637/29-sai_Dokushin_Chuuken_Boukensha_no_Nichijou",
     "genres": [
       "Fantasy",
@@ -8823,10 +8903,11 @@
       "anilistId": 192261,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -8842,8 +8923,8 @@
     "airTimeThai": "จันทร์ 20:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61782/Kirei_ni_Shitemoraemasu_ka",
     "genres": [
       "Slice of Life",
@@ -8881,10 +8962,11 @@
       "anilistId": 194028,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -8949,8 +9031,8 @@
     "airTimeThai": "อาทิตย์ 19:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/58861/Hanazakari_no_Kimitachi_e",
     "genres": [
       "Romance",
@@ -8991,10 +9073,11 @@
       "anilistId": 177580,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -9010,8 +9093,8 @@
     "airTimeThai": "พฤหัส 23:58",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/60509/Champignon_no_Majo",
     "genres": [
       "Drama",
@@ -9050,10 +9133,11 @@
       "anilistId": 185514,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -9069,8 +9153,8 @@
     "airTimeThai": "พุธ 22:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/60071/Odayaka_Kizoku_no_Kyuuka_no_Susume",
     "genres": [
       "Fantasy",
@@ -9109,10 +9193,11 @@
       "anilistId": 182771,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -9128,8 +9213,8 @@
     "airTimeThai": "ศุกร์ 22:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/59853/Dark_Moon__Tsuki_no_Saidan",
     "genres": [
       "Fantasy",
@@ -9168,10 +9253,11 @@
       "anilistId": 181443,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -9400,7 +9486,8 @@
       ],
       "episodeCount": 12,
       "latestEpisodeNumber": 13,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "anilist_links",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
       "updateStatus": "ok",
       "updateError": ""
     }
@@ -9417,8 +9504,8 @@
     "airTimeThai": "เสาร์ 22:55",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61217/Yuusha_no_Kuzu",
     "genres": [
       "Action",
@@ -9457,10 +9544,11 @@
       "anilistId": 187989,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 24,
+      "latestEpisodeNumber": 24,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -9476,8 +9564,8 @@
     "airTimeThai": "เสาร์ 22:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/62432/Jingai_Kyoushitsu_no_Ningengirai_Kyoushi",
     "genres": [
       "Drama",
@@ -9518,10 +9606,11 @@
       "anilistId": 198374,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -9537,8 +9626,8 @@
     "airTimeThai": "จันทร์ 21:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/58524/Himesama_Goumon_no_Jikan_desu_2nd_Season",
     "genres": [
       "Comedy",
@@ -9578,10 +9667,11 @@
       "anilistId": 176370,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -9597,8 +9687,8 @@
     "airTimeThai": "อังคาร 23:29",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/60255/Arne_no_Jikenbo",
     "genres": [
       "Fantasy",
@@ -9637,10 +9727,11 @@
       "anilistId": 183984,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -9656,8 +9747,8 @@
     "airTimeThai": "อาทิตย์ 22:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61886/Goumon_Baito-kun_no_Nichijou",
     "genres": [
       "Comedy",
@@ -9696,10 +9787,11 @@
       "anilistId": 197731,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -9763,8 +9855,8 @@
     "airTimeThai": "พฤหัส 23:28",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61325/Douse_Koishite_Shimaunda_2nd_Season",
     "genres": [
       "Drama",
@@ -9805,10 +9897,11 @@
       "anilistId": 189137,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -9952,7 +10045,8 @@
       ],
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "anilist_links",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
       "updateStatus": "ok",
       "updateError": ""
     }
@@ -10107,8 +10201,8 @@
     "airTimeThai": "อังคาร 21:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61830/Yoroi_Shin_Den_Samurai_Troopers",
     "genres": [
       "Action",
@@ -10148,10 +10242,11 @@
       "anilistId": 194318,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -10167,8 +10262,8 @@
     "airTimeThai": "อาทิตย์ 21:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61084/Hikuidori__Ushuu_Boro_Tobi-gumi",
     "genres": [
       "Historical"
@@ -10205,10 +10300,11 @@
       "anilistId": 187062,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -10283,8 +10379,8 @@
     "airTimeThai": "อาทิตย์ 06:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/63042/Meitantei_Precure",
     "genres": [
       "Action",
@@ -10325,10 +10421,11 @@
       "anilistId": 202957,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 23,
+      "latestEpisodeNumber": 23,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -10583,7 +10680,8 @@
       ],
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "anilist_links",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
       "updateStatus": "ok",
       "updateError": ""
     }
@@ -11017,8 +11115,8 @@
     "airTimeThai": "จันทร์ 21:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/51553/Tongari_Boushi_no_Atelier",
     "genres": [
       "Fantasy",
@@ -11056,10 +11154,11 @@
       "anilistId": 147105,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -11199,10 +11298,11 @@
       "anilistId": 189046,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 11,
+      "latestEpisodeNumber": 11,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -11355,10 +11455,11 @@
       "anilistId": 180745,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 16,
+      "latestEpisodeNumber": 16,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -11506,7 +11607,8 @@
       ],
       "episodeCount": 1,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "anilist_links",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
       "updateStatus": "ok",
       "updateError": ""
     }
@@ -11523,8 +11625,8 @@
     "airTimeThai": "เสาร์ 21:30",
     "channel": "Muse Thailand",
     "platform": "YouTube",
-    "status": "upcoming",
-    "confidence": "confirmed_from_official_channel_uploads",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/62001/Yomi_no_Tsugai",
     "genres": [
       "Action",
@@ -11566,10 +11668,11 @@
       "anilistId": 195600,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -11585,8 +11688,8 @@
     "airTimeThai": "อาทิตย์ 14:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/59983/Tsue_to_Tsurugi_no_Wistoria_Season_2",
     "genres": [
       "Action",
@@ -11628,10 +11731,11 @@
       "anilistId": 182300,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -11647,8 +11751,8 @@
     "airTimeThai": "พฤหัส 20:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/62568/Dr_Stone__Science_Future_Part_3",
     "genres": [
       "Adventure",
@@ -11697,10 +11801,11 @@
       "anilistId": 199221,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -11716,8 +11821,8 @@
     "airTimeThai": "ศุกร์ 20:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/56876/Otonari_no_Tenshi-sama_ni_Itsunomanika_Dame_Ningen_ni_Sareteita_Ken_2",
     "genres": [
       "Romance",
@@ -11755,10 +11860,11 @@
       "anilistId": 170019,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -11774,8 +11880,8 @@
     "airTimeThai": "อังคาร 21:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/56734/Class_de_2-banme_ni_Kawaii_Onnanoko_to_Tomodachi_ni_Natta",
     "genres": [
       "Romance",
@@ -11813,10 +11919,11 @@
       "anilistId": 169580,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -11975,10 +12082,11 @@
       "anilistId": 199547,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -11994,8 +12102,8 @@
     "airTimeThai": "พุธ 21:45",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/62604/Otaku_ni_Yasashii_Gal_wa_Inai",
     "genres": [
       "Comedy",
@@ -12036,10 +12144,11 @@
       "anilistId": 199588,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -12150,8 +12259,8 @@
     "airTimeThai": "พฤหัส 19:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/60028/Himekishi_wa_Barbaroi_no_Yome",
     "genres": [
       "Comedy",
@@ -12191,10 +12300,11 @@
       "anilistId": 182483,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -12210,8 +12320,8 @@
     "airTimeThai": "อังคาร 21:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61839/Aishiteru_Game_wo_Owarasetai",
     "genres": [
       "Comedy",
@@ -12250,10 +12360,11 @@
       "anilistId": 194393,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -12459,10 +12570,11 @@
       "anilistId": 184492,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 14,
+      "latestEpisodeNumber": 14,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -12478,8 +12590,8 @@
     "airTimeThai": "เสาร์ 15:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/57466/Honzuki_no_Gekokujou__Shisho_ni_Naru_Tame_ni_wa_Shudan_wo_Erandeiraremasen_-_Ryoushu_no_Youjo",
     "genres": [
       "Fantasy",
@@ -12518,10 +12630,11 @@
       "anilistId": 171110,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -12616,10 +12729,11 @@
       "anilistId": 190143,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 14,
+      "latestEpisodeNumber": 14,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -12765,10 +12879,11 @@
       "anilistId": 190704,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -12899,7 +13014,8 @@
       ],
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "anilist_links",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
       "updateStatus": "ok",
       "updateError": ""
     }
@@ -12916,8 +13032,8 @@
     "airTimeThai": "จันทร์ 22:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/62331/Liar_Game",
     "genres": [
       "Drama",
@@ -12959,10 +13075,11 @@
       "anilistId": 197754,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -13069,10 +13186,11 @@
       "anilistId": 198113,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.235Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -13231,8 +13349,8 @@
     "airTimeThai": "เสาร์ 22:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/62913/Needy_Girl_Overdose",
     "genres": [
       "Avant Garde",
@@ -13271,10 +13389,11 @@
       "anilistId": 202102,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -13290,8 +13409,8 @@
     "airTimeThai": "พุธ 22:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/59551/Ganbare_Nakamura-kun",
     "genres": [
       "Boys Love",
@@ -13330,10 +13449,11 @@
       "anilistId": 180228,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -13349,8 +13469,8 @@
     "airTimeThai": "จันทร์ 21:24",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61425/Ponkotsu_Fuuki_Iin_to_Skirt-take_ga_Futekisetsu_na_JK_no_Hanashi",
     "genres": [
       "Comedy",
@@ -13390,10 +13510,11 @@
       "anilistId": 189987,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -13409,8 +13530,8 @@
     "airTimeThai": "จันทร์ 20:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61687/Jishou_Akuyaku_Reijou_na_Konyakusha_no_Kansatsu_Kiroku",
     "genres": [
       "Comedy",
@@ -13451,10 +13572,11 @@
       "anilistId": 192808,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -13470,8 +13592,8 @@
     "airTimeThai": "เสาร์ 20:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/62825/Saikyou_no_Shokugyou_wa_Yuusha_demo_Kenja_demo_Naku_Kanteishi_Kari_Rashii_desu_yo",
     "genres": [
       "Adventure",
@@ -13511,10 +13633,11 @@
       "anilistId": 200769,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -13580,8 +13703,8 @@
     "airTimeThai": "ศุกร์ 22:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61186/Kamiina_Botan_Yoeru_Sugata_wa_Yuri_no_Hana",
     "genres": [
       "Girls Love",
@@ -13622,10 +13745,11 @@
       "anilistId": 187869,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -13641,8 +13765,8 @@
     "airTimeThai": "ศุกร์ 23:53",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/62485/Kanojo_Okarishimasu_5th_Season",
     "genres": [
       "Comedy",
@@ -13683,10 +13807,11 @@
       "anilistId": 199029,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -13964,10 +14089,11 @@
       "anilistId": 201817,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -14082,8 +14208,8 @@
     "airTimeThai": "พฤหัส 23:28",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61943/Haibara-kun_no_Tsuyokute_Seishun_New_Game",
     "genres": [
       "Comedy",
@@ -14123,10 +14249,11 @@
       "anilistId": 195333,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -14269,10 +14396,11 @@
       "anilistId": 179813,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -14422,10 +14550,11 @@
       "anilistId": 196974,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -14730,10 +14859,11 @@
       "anilistId": 196029,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -14855,10 +14985,11 @@
       "anilistId": 206951,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -14874,8 +15005,8 @@
     "airTimeThai": "พุธ 20:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/62512/Jidou_Hanbaiki_ni_Umarekawatta_Ore_wa_Meikyuu_wo_Samayou_3rd_Season",
     "genres": [
       "Comedy",
@@ -14915,10 +15046,11 @@
       "anilistId": 198939,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -14934,8 +15066,8 @@
     "airTimeThai": "พฤหัส 23:58",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/62964/Mata_Korosarete_Shimatta_no_desu_ne_Tantei-sama",
     "genres": [
       "Mystery",
@@ -14973,10 +15105,11 @@
       "anilistId": 202381,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -14992,8 +15125,8 @@
     "airTimeThai": "อังคาร 21:30",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/61013/Replica_datte_Koi_wo_Suru",
     "genres": [
       "Drama",
@@ -15033,10 +15166,11 @@
       "anilistId": 186744,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -15187,10 +15321,11 @@
       "anilistId": 196144,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -15254,8 +15389,8 @@
     "airTimeThai": "อังคาร 23:29",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/63014/Tadaima_Ojamasaremasu",
     "genres": [
       "Comedy",
@@ -15296,10 +15431,11 @@
       "anilistId": 202985,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -15365,7 +15501,8 @@
       ],
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "anilist_links",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
       "updateStatus": "ok",
       "updateError": ""
     }
@@ -15382,8 +15519,8 @@
     "airTimeThai": "อาทิตย์ 20:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/62342/Maid-san_wa_Taberu_dake",
     "genres": [
       "Gourmet",
@@ -15421,10 +15558,11 @@
       "anilistId": 197868,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -15440,8 +15578,8 @@
     "airTimeThai": "อังคาร 22:00",
     "channel": "ยังไม่ประกาศช่องทางไทย",
     "platform": "ยังไม่ประกาศ",
-    "status": "upcoming",
-    "confidence": "imported_from_jikan",
+    "status": "available",
+    "confidence": "confirmed_from_crunchyroll",
     "link": "https://myanimelist.net/anime/53732/Hidarikiki_no_Eren",
     "genres": [
       "Drama",
@@ -15481,10 +15619,11 @@
       "anilistId": 158036,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -15627,10 +15766,11 @@
       "anilistId": 177501,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -16402,10 +16542,11 @@
       "anilistId": 177508,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -16590,10 +16731,11 @@
       "anilistId": 202508,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 13,
+      "latestEpisodeNumber": 13,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -16783,10 +16925,11 @@
       "anilistId": 201090,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 12,
+      "latestEpisodeNumber": 12,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -17092,10 +17235,11 @@
       "anilistId": 183231,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 0,
-      "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
-      "updateStatus": "no_episode_found",
+      "episodeCount": 14,
+      "latestEpisodeNumber": 14,
+      "episodeSource": "estimated_from_airing",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
+      "updateStatus": "ok",
       "updateError": ""
     }
   },
@@ -17669,7 +17813,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -17778,7 +17923,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -17988,7 +18134,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -18145,7 +18292,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -18306,7 +18454,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -18832,7 +18981,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -19094,7 +19244,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -19201,7 +19352,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -20820,7 +20972,8 @@
       "availableEpisodes": [],
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
-      "lastCheckedAt": "2026-07-04T18:57:59.590Z",
+      "episodeSource": "",
+      "lastCheckedAt": "2026-07-05T03:19:15.236Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }

@@ -18,6 +18,9 @@ const MEDIA_QUERY = `query ($ids: [Int], $page: Int, $perPage: Int) {
     media(idMal_in: $ids, type: ANIME) {
       id
       idMal
+      status
+      episodes
+      nextAiringEpisode { episode }
       externalLinks { site url type }
       streamingEpisodes { title url site }
     }
@@ -114,6 +117,17 @@ function buildCrEpisodeList(streamingEpisodes, seasonTotal) {
   };
 }
 
+// AniList's streamingEpisodes only covers a fraction of titles, so when it is
+// empty the airing schedule tells us how many episodes are already out.
+// AniList numbering is per-season, so no cross-season offset applies here.
+function airedEpisodeCount(media) {
+  if (media?.status === 'RELEASING' && Number.isFinite(media.nextAiringEpisode?.episode)) {
+    return Math.max(0, media.nextAiringEpisode.episode - 1);
+  }
+  if (media?.status === 'FINISHED' && Number.isFinite(media.episodes)) return media.episodes;
+  return 0;
+}
+
 function hasYoutubeSignal(item) {
   return Boolean(item.playlistId || item.latestVideoUrl || (item.availableEpisodes || []).length);
 }
@@ -129,18 +143,21 @@ function applyCrunchyroll(item, media, now = () => new Date().toISOString()) {
     return;
   }
   const { episodes, offset } = buildCrEpisodeList(media.streamingEpisodes, item.episodes);
+  const aired = episodes.length ? 0 : airedEpisodeCount(media);
+  const episodeCount = episodes.length || aired;
   item.crunchyroll = {
     seriesUrl,
     anilistId: media.id,
     numberingOffset: offset,
     availableEpisodes: episodes,
-    episodeCount: episodes.length,
-    latestEpisodeNumber: episodes[0]?.number ?? 0,
+    episodeCount,
+    latestEpisodeNumber: episodes.length ? episodes[0]?.number ?? 0 : aired,
+    episodeSource: episodes.length ? 'anilist_links' : (aired ? 'estimated_from_airing' : ''),
     lastCheckedAt: now(),
-    updateStatus: episodes.length ? 'ok' : 'no_episode_found',
+    updateStatus: episodeCount ? 'ok' : 'no_episode_found',
     updateError: ''
   };
-  if (episodes.length) {
+  if (episodeCount) {
     item.status = 'available';
     if (!hasYoutubeSignal(item)) item.confidence = 'confirmed_from_crunchyroll';
   }
@@ -215,6 +232,7 @@ if (require.main === module) {
 }
 
 module.exports = {
+  airedEpisodeCount,
   anilistRequest,
   applyCrunchyroll,
   buildCrEpisodeList,

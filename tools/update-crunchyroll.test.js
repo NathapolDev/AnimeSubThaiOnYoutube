@@ -1,6 +1,7 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
+  airedEpisodeCount,
   applyCrunchyroll,
   buildCrEpisodeList,
   chunk,
@@ -71,6 +72,16 @@ test('crunchyrollLink prefers STREAMING links and upgrades to https', () => {
   assert.equal(toHttps('http://a.example/x'), 'https://a.example/x');
 });
 
+test('airedEpisodeCount derives aired episodes from the AniList schedule', () => {
+  assert.equal(airedEpisodeCount({ status: 'RELEASING', nextAiringEpisode: { episode: 2 } }), 1);
+  assert.equal(airedEpisodeCount({ status: 'RELEASING', nextAiringEpisode: { episode: 1 } }), 0);
+  assert.equal(airedEpisodeCount({ status: 'RELEASING', nextAiringEpisode: null }), 0);
+  assert.equal(airedEpisodeCount({ status: 'FINISHED', episodes: 13 }), 13);
+  assert.equal(airedEpisodeCount({ status: 'FINISHED', episodes: null }), 0);
+  assert.equal(airedEpisodeCount({ status: 'NOT_YET_RELEASED', episodes: 12 }), 0);
+  assert.equal(airedEpisodeCount(undefined), 0);
+});
+
 const mediaWithEpisodes = (idMal, count = 2) => ({
   id: idMal * 10,
   idMal,
@@ -112,9 +123,35 @@ test('applyCrunchyroll keeps YouTube-driven status/confidence when a YouTube sou
 
 test('applyCrunchyroll marks link without episodes as no_episode_found and does not flip status', () => {
   const item = { id: 'z', malId: 9, episodes: '12', status: 'upcoming', availableEpisodes: [] };
-  applyCrunchyroll(item, { ...mediaWithEpisodes(9, 0), streamingEpisodes: [] });
+  applyCrunchyroll(item, { ...mediaWithEpisodes(9, 0), streamingEpisodes: [], status: 'NOT_YET_RELEASED', episodes: 12 });
   assert.equal(item.crunchyroll.updateStatus, 'no_episode_found');
+  assert.equal(item.crunchyroll.episodeSource, '');
   assert.equal(item.status, 'upcoming');
+});
+
+test('applyCrunchyroll estimates episode count from the airing schedule when links are missing', () => {
+  const item = { id: 'est', malId: 12, episodes: '12', status: 'upcoming', confidence: 'imported_from_jikan', availableEpisodes: [] };
+  const media = {
+    ...mediaWithEpisodes(12, 0), streamingEpisodes: [],
+    status: 'RELEASING', episodes: 12, nextAiringEpisode: { episode: 2 }
+  };
+  applyCrunchyroll(item, media, () => '2026-07-05T00:00:00.000Z');
+  assert.deepEqual(item.crunchyroll.availableEpisodes, []);
+  assert.equal(item.crunchyroll.episodeCount, 1);
+  assert.equal(item.crunchyroll.latestEpisodeNumber, 1);
+  assert.equal(item.crunchyroll.episodeSource, 'estimated_from_airing');
+  assert.equal(item.crunchyroll.updateStatus, 'ok');
+  assert.equal(item.status, 'available');
+  assert.equal(item.confidence, 'confirmed_from_crunchyroll');
+});
+
+test('applyCrunchyroll prefers real AniList episode links over the estimate', () => {
+  const item = { id: 'real', malId: 13, episodes: '12', status: 'upcoming', availableEpisodes: [] };
+  const media = { ...mediaWithEpisodes(13, 2), status: 'RELEASING', episodes: 12, nextAiringEpisode: { episode: 9 } };
+  applyCrunchyroll(item, media);
+  assert.equal(item.crunchyroll.episodeSource, 'anilist_links');
+  assert.equal(item.crunchyroll.episodeCount, 2);
+  assert.equal(item.crunchyroll.availableEpisodes.length, 2);
 });
 
 test('applyCrunchyroll removes the sub-object and reverts CR-driven status when the link disappears', () => {

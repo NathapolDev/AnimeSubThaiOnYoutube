@@ -79,6 +79,15 @@ function platformNames(item) {
   if (crunchyrollOf(item)) names.push('Crunchyroll');
   return names.length ? names : ['ยังไม่ประกาศ'];
 }
+// AniList rarely carries per-episode Crunchyroll links; when it doesn't, the
+// pipeline still knows how many episodes have aired, so synthesize numbered
+// rows that all open the series page.
+function crEpisodeRows(cr) {
+  const real = Array.isArray(cr.availableEpisodes) ? cr.availableEpisodes : [];
+  if (real.length) return real;
+  const count = Number(cr.episodeCount) || 0;
+  return Array.from({ length: count }, (_, index) => ({ number: count - index, title: 'รับชมได้บน Crunchyroll', url: cr.seriesUrl }));
+}
 function latestText(item) {
   if (Number(item.currentEpisode) > 0) return `ล่าสุด: ตอนที่ ${Number(item.currentEpisode)}`;
   if (!item.playlistId && !item.latestVideoUrl) {
@@ -311,7 +320,7 @@ function showDetail(id, { updateHash = true } = {}) {
     </section>
     ${cr ? `<section class="episode-section" aria-labelledby="episodeHeadingCr">
       <div class="episode-heading"><div><p class="eyebrow">Crunchyroll</p><h3 id="episodeHeadingCr">ตอนที่รับชมได้</h3></div><span>${Number(cr.episodeCount) || 0} ตอน</span></div>
-      <p class="episode-note">ตามข้อมูล Crunchyroll สากล — โปรดตรวจสอบซับไทยในแอป</p>
+      <p class="episode-note">ตามข้อมูล Crunchyroll สากล — ${(cr.availableEpisodes || []).length ? 'โปรดตรวจสอบซับไทยในแอป' : 'ลิงก์เปิดหน้าซีรีส์ โปรดตรวจสอบซับไทยในแอป'}</p>
       <div id="episodeListCr" class="episode-list"></div>
       <button id="loadMoreCr" class="load-more-btn" type="button" hidden>ดูตอนเก่ากว่า</button>
     </section>` : ''}
@@ -337,7 +346,7 @@ function showDetail(id, { updateHash = true } = {}) {
   document.querySelector('#loadMoreYt')?.addEventListener('click', () => { ytLimit += 10; renderYt(); });
   if (cr) {
     let crLimit = 10;
-    const crEpisodes = Array.isArray(cr.availableEpisodes) ? cr.availableEpisodes : [];
+    const crEpisodes = crEpisodeRows(cr);
     const renderCr = () => renderEpisodeSection({
       containerId: '#episodeListCr', loadMoreId: '#loadMoreCr', episodes: crEpisodes, limit: crLimit,
       emptyText: 'ยังไม่มีรายการตอนจาก Crunchyroll'
