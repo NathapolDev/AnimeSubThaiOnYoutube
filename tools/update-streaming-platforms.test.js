@@ -3,6 +3,7 @@ const assert = require('node:assert/strict');
 const {
   PLATFORMS,
   airedEpisodeCount,
+  applyAnilistTitles,
   applyPlatform,
   buildEpisodeList,
   chunk,
@@ -476,6 +477,36 @@ test('updateStreamingPlatformItems targets in-window TV entries and flags stale 
   assert.equal(anime[4].crunchyroll, undefined); // no CR link on AniList anymore -> removed
   assert.equal(anime[4].bilibili, undefined);
   assert.equal(anime[4].netflix, undefined);
+});
+
+test('applyAnilistTitles captures AniList title set and synonyms without touching YouTube fields', () => {
+  const item = { id: 'x', youtubeAliases: ['hand-curated'] };
+  applyAnilistTitles(item, {
+    title: { romaji: 'Sekai Saikyou no Kouei', english: "The World's Strongest Rearguard", native: '世界最強の後衛' },
+    synonyms: ['Novice Seeker', null]
+  });
+  assert.deepEqual(item.anilistTitles, {
+    romaji: 'Sekai Saikyou no Kouei',
+    english: "The World's Strongest Rearguard",
+    native: '世界最強の後衛',
+    synonyms: ['Novice Seeker'] // null filtered out
+  });
+  assert.deepEqual(item.youtubeAliases, ['hand-curated']); // human-curated field untouched
+});
+
+test('applyAnilistTitles removes the field when AniList returns no titles', () => {
+  const item = { id: 'x', anilistTitles: { romaji: 'stale', english: '', native: '', synonyms: [] } };
+  applyAnilistTitles(item, undefined); // media not found on AniList
+  assert.equal(item.anilistTitles, undefined);
+});
+
+test('updateStreamingPlatformItems populates anilistTitles from the media response', async () => {
+  const anime = [{ id: 'both', malId: 30, jikanType: 'TV', catalogYear: 2026, episodes: '12', availableEpisodes: [] }];
+  const requester = async () => ({ data: { Page: { pageInfo: { hasNextPage: false }, media: [{
+    ...mediaWithBothPlatforms(30, 2), title: { romaji: 'Show Romaji', english: 'Show EN', native: 'ショー' }, synonyms: ['Alt Name']
+  }] } } });
+  await updateStreamingPlatformItems(anime, [2026], requester);
+  assert.deepEqual(anime[0].anilistTitles, { romaji: 'Show Romaji', english: 'Show EN', native: 'ショー', synonyms: ['Alt Name'] });
 });
 
 test('updateStreamingPlatformItems fetches AniList once and populates all platforms from the same response', async () => {

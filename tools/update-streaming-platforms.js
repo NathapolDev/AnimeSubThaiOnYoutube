@@ -21,6 +21,8 @@ const MEDIA_QUERY = `query ($ids: [Int], $page: Int, $perPage: Int) {
       idMal
       status
       episodes
+      title { romaji english native }
+      synonyms
       nextAiringEpisode { episode }
       externalLinks { site url type }
       streamingEpisodes { title url site }
@@ -153,6 +155,24 @@ function airedEpisodeCount(media) {
   return 0;
 }
 
+// Capture AniList's own title set (native Japanese, romaji, English) plus its
+// synonym list into an AniList-owned field. discover-youtube.js folds these into
+// its alias pool so channel uploads titled with the Japanese/romaji name or a
+// listed synonym match without hand-curated youtubeAliases. Rebuilt wholesale
+// each run and never written into the human-curated youtubeAliases field.
+function applyAnilistTitles(item, media) {
+  const title = media?.title || {};
+  const synonyms = Array.isArray(media?.synonyms) ? media.synonyms.filter(Boolean) : [];
+  const romaji = title.romaji || '';
+  const english = title.english || '';
+  const native = title.native || '';
+  if (!romaji && !english && !native && !synonyms.length) {
+    delete item.anilistTitles;
+    return;
+  }
+  item.anilistTitles = { romaji, english, native, synonyms };
+}
+
 function hasYoutubeSignal(item) {
   return Boolean(item.playlistId || item.latestVideoUrl || (item.availableEpisodes || []).length);
 }
@@ -258,6 +278,7 @@ async function updateStreamingPlatformItems(anime, years, requester = anilistReq
       continue;
     }
     const media = found.get(item.malId);
+    applyAnilistTitles(item, media);
     for (const platform of PLATFORMS) {
       applyPlatform(item, media, platform);
       if (item[platform.field]) {
@@ -292,6 +313,7 @@ module.exports = {
   PLATFORMS,
   airedEpisodeCount,
   anilistRequest,
+  applyAnilistTitles,
   applyPlatform,
   buildEpisodeList,
   chunk,
