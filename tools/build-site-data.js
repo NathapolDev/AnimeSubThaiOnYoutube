@@ -14,12 +14,14 @@ const ITEM_FIELDS = [
   'premiere', 'airTimeThai'
 ];
 const EPISODE_FIELDS = ['number', 'title', 'videoUrl', 'publishedAt'];
-// Crunchyroll/Bilibili sub-objects get their own whitelists so pipeline
+// Crunchyroll/Bilibili/Netflix sub-objects get their own whitelists so pipeline
 // bookkeeping (anilistId, rawNumber, numberingOffset) never reaches the browser.
 const CR_FIELDS = ['seriesUrl', 'episodeCount', 'latestEpisodeNumber', 'lastCheckedAt', 'updateStatus'];
 const CR_EPISODE_FIELDS = ['number', 'title', 'url'];
 const BILI_FIELDS = ['seriesUrl', 'episodeCount', 'latestEpisodeNumber', 'lastCheckedAt', 'updateStatus'];
 const BILI_EPISODE_FIELDS = ['number', 'title', 'url'];
+const NETFLIX_FIELDS = ['seriesUrl', 'episodeCount', 'latestEpisodeNumber', 'lastCheckedAt', 'updateStatus'];
+const NETFLIX_EPISODE_FIELDS = ['number', 'title', 'url'];
 
 function pick(source, fields) {
   const out = {};
@@ -41,6 +43,12 @@ function slimItems(items) {
       bilibili: {
         ...pick(item.bilibili, BILI_FIELDS),
         availableEpisodes: (item.bilibili.availableEpisodes || []).map(episode => pick(episode, BILI_EPISODE_FIELDS))
+      }
+    } : {}),
+    ...(item.netflix ? {
+      netflix: {
+        ...pick(item.netflix, NETFLIX_FIELDS),
+        availableEpisodes: (item.netflix.availableEpisodes || []).map(episode => pick(episode, NETFLIX_EPISODE_FIELDS))
       }
     } : {})
   }));
