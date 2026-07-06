@@ -1,7 +1,12 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const { extractShowName, isEpisode } = require('./update-youtube');
+const { aliasesForAnime, normalizeTitle } = require('./discover-youtube');
 const { catalogYears } = require('./update-jikan');
+
+// Lower alias-length floor than the matcher's default (6): the "already known" filter
+// below should be deliberately more inclusive than discovery's auto-link matching.
+const KNOWN_ALIAS_MIN_LENGTH = 4;
 
 const ROOT = path.resolve(__dirname, '..');
 const JSON_PATH = path.join(ROOT, 'data', 'anime.json');
@@ -10,8 +15,6 @@ const OUTPUT_PATH = path.join(ROOT, 'data', 'thai-title-candidates.json');
 const API_ROOT = 'https://www.googleapis.com/youtube/v3';
 const RECENT_DAYS = 60;
 const MAX_EPISODES_PER_SHOW = 100;
-
-const normalizeTitle = value => String(value || '').toLowerCase().normalize('NFKC').replace(/[^\p{L}\p{N}]+/gu, ' ').replace(/\s+/g, ' ').trim();
 
 // Resolve the catalog-year window: automatic (current + adjacent season year near the New Year),
 // or an explicit override via --year 2027 / --years 2026,2027.
@@ -57,11 +60,6 @@ async function getAllUploads(uploadsPlaylistId, years, apiKey) {
   return videos;
 }
 
-function aliasesForAnime(item) {
-  return [item.titleThai, item.titleOriginal, ...(String(item.altTitle || '').split('/')), ...(item.youtubeAliases || [])]
-    .map(normalizeTitle).filter(alias => alias.length >= 4);
-}
-
 async function main() {
   const apiKey = process.env.YOUTUBE_API_KEY;
   if (!apiKey) throw new Error('Missing YOUTUBE_API_KEY. Set it before running this scan.');
@@ -75,7 +73,7 @@ async function main() {
 
   const unmatched = anime.filter(a => a.jikanType === 'TV' && yearSet.has(Number(a.catalogYear || a.year)) && !a.availableEpisodes?.length);
   const matchedAliases = new Set();
-  for (const item of anime) for (const alias of aliasesForAnime(item)) matchedAliases.add(alias);
+  for (const item of anime) for (const alias of aliasesForAnime(item, KNOWN_ALIAS_MIN_LENGTH)) matchedAliases.add(alias);
 
   const allVideos = [];
   for (const channel of channels) {

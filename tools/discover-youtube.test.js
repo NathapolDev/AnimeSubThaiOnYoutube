@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { aliasesForAnime, applyDiscoveries, diceSimilarity, matchVideoToAnime } = require('./discover-youtube');
+const { aliasesForAnime, applyDiscoveries, diceSimilarity, matchVideoToAnime, normalizeTitle } = require('./discover-youtube');
 
 const REAR = 'กองหลังที่แข็งแรงที่สุดในโลก'; // stored literal-translation Thai title
 
@@ -21,6 +21,24 @@ test('aliasesForAnime folds in anilistTitles and drops empty / short entries', (
   assert.ok(aliases.includes('世界最強の後衛'));
   assert.ok(aliases.includes('novice seeker'));
   assert.ok(!aliases.includes('x')); // below the >= 6 char floor
+});
+
+test('aliasesForAnime honors a lower length floor for the scan tool', () => {
+  const item = { titleThai: '', titleOriginal: 'Hero', altTitle: '', youtubeAliases: [] };
+  assert.ok(!aliasesForAnime(item).includes('hero'));    // default floor 6 excludes it
+  assert.ok(aliasesForAnime(item, 4).includes('hero'));  // scan's floor 4 keeps it
+});
+
+test('aliasesForAnime tolerates a malformed non-array synonyms value', () => {
+  const aliases = aliasesForAnime({
+    titleThai: '', titleOriginal: 'Real Title', altTitle: '', youtubeAliases: [],
+    anilistTitles: { romaji: '', english: '', native: '', synonyms: 42 }
+  });
+  assert.deepEqual(aliases, ['real title']); // no throw, bad synonyms ignored
+});
+
+test('normalizeTitle keeps Thai tone and vowel marks so distinct titles stay distinct', () => {
+  assert.notEqual(normalizeTitle('น้ำ'), normalizeTitle('นา'));
 });
 
 test('Tier 1 exact substring still wins and reports matchType "exact"', () => {
@@ -93,4 +111,21 @@ test('applyDiscoveries records a medium fuzzy match as a suggestion without touc
   assert.equal(candidates.length, 1);
   assert.equal(candidates[0].type, 'fuzzy_suggestion');
   assert.equal(candidates[0].matches[0].id, 'rear');
+  const similarity = candidates[0].matches[0].similarity;
+  assert.ok(similarity >= 0.5 && similarity < 0.72); // 0-1 Dice float, distinct from ambiguous_title's integer matchLength
+});
+
+test('a fuzzy-only incremental run never downgrades a stored strong match', () => {
+  const anime = [{
+    id: 'rear', jikanType: 'TV', playlistId: '', catalogYear: 2026, titleThai: REAR, youtubeAliases: [],
+    youtubeSourceType: 'channel_uploads', youtubeChannelId: 'muse',
+    youtubeMatchConfidence: 'strong_unique_title_match',
+    availableEpisodes: [{ number: 4, videoId: 'v4', publishedAt: '2026-06-28T00:00:00Z' }]
+  }];
+  const channel = { channelId: 'muse', channelTitle: 'Muse Thailand', label: 'Muse Thailand' };
+  applyDiscoveries(anime, channel, [
+    { videoId: 'v5', title: 'กองหลังที่แข็งแกร่งที่สุดในโลก ตอนที่ 5', publishedAt: '2026-07-05T00:00:00Z' } // fuzzy-only spelling variant
+  ], [], [2026]);
+  assert.equal(anime[0].currentEpisode, 5); // episode still merged in
+  assert.equal(anime[0].youtubeMatchConfidence, 'strong_unique_title_match'); // provenance not downgraded
 });
