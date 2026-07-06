@@ -1,14 +1,27 @@
 [
   {
     "type": "fuzzy_suggestion",
-    "videoId": "AfvvMC8O0TQ",
-    "title": "กองหลังที่แกร่งที่สุดในโลก -นักสำรวจหน้าใหม่ ณ แดนเขาวงกต- - ตอนที่ 01 [ซับไทย]",
+    "videoId": "mvkdht2wG_Y",
+    "title": "THE WORLD IS DANCING - ตอนที่ 02 [ซับไทย]",
     "channel": "Muse Thailand",
     "matches": [
       {
-        "id": "worlds-strongest-rearguard",
-        "alias": "กองหลังที่แข็งแกร่งที่สุดในโลก",
-        "similarity": 0.588
+        "id": "isekai-nonbiri-nouka-2",
+        "alias": "farming life in another world 2",
+        "similarity": 0.531
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "sGFz693H8Kw",
+    "title": "THE WORLD IS DANCING - ตอนที่ 01 [ซับไทย]",
+    "channel": "Muse Thailand",
+    "matches": [
+      {
+        "id": "isekai-nonbiri-nouka-2",
+        "alias": "farming life in another world 2",
+        "similarity": 0.531
       }
     ]
   },
@@ -1782,6 +1795,19 @@
   },
   {
     "type": "fuzzy_suggestion",
+    "videoId": "C_Zw12YVR7o",
+    "title": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง - ตอนที่ 12 [ซับไทย]",
+    "channel": "Muse Thailand",
+    "matches": [
+      {
+        "id": "okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-w",
+        "alias": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง เปลี่ยนเมืองไร้ชื่อให้กลายเป็นนครป้อมปราการด้วยเวทมนตร์การผลิต",
+        "similarity": 0.512
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
     "videoId": "o6bLOMBxTNg",
     "title": "Ace of Diamond - ตอนที่ 06 [ซับไทย]",
     "channel": "Muse Thailand",
@@ -1933,6 +1959,149 @@
         "id": "diamond-no-ace-act-ii-second-season",
         "alias": "ace of diamond act ii season 2",
         "similarity": 0.619
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "6cO94khtYL4",
+    "title": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง - ตอนที่ 11 [ซับไทย]",
+    "channel": "Muse Thailand",
+    "matches": [
+      {
+        "id": "okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-w",
+        "alias": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง เปลี่ยนเมืองไร้ชื่อให้กลายเป็นนครป้อมปราการด้วยเวทมนตร์การผลิต",
+        "similarity": 0.512
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "HXU9ZBp049I",
+    "title": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง - ตอนที่ 10 [ซับไทย]",
+    "channel": "Muse Thailand",
+    "matches": [
+      {
+        "id": "okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-w",
+        "alias": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง เปลี่ยนเมืองไร้ชื่อให้กลายเป็นนครป้อมปราการด้วยเวทมนตร์การผลิต",
+        "similarity": 0.512
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "e9bo6Iq-dxc",
+    "title": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง - ตอนที่ 09 [ซับไทย]",
+    "channel": "Muse Thailand",
+    "matches": [
+      {
+        "id": "okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-w",
+        "alias": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง เปลี่ยนเมืองไร้ชื่อให้กลายเป็นนครป้อมปราการด้วยเวทมนตร์การผลิต",
+        "similarity": 0.512
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "nVTj1WyQwZw",
+    "title": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง - ตอนที่ 08 [ซับไทย]",
+    "channel": "Muse Thailand",
+    "matches": [
+      {
+        "id": "okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-w",
+        "alias": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง เปลี่ยนเมืองไร้ชื่อให้กลายเป็นนครป้อมปราการด้วยเวทมนตร์การผลิต",
+        "similarity": 0.512
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "WNwJJPSfa-Q",
+    "title": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง - ตอนที่ 07 [ซับไทย]",
+    "channel": "Muse Thailand",
+    "matches": [
+      {
+        "id": "okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-w",
+        "alias": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง เปลี่ยนเมืองไร้ชื่อให้กลายเป็นนครป้อมปราการด้วยเวทมนตร์การผลิต",
+        "similarity": 0.512
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "LOrJxSq5jQo",
+    "title": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง - ตอนที่ 06 [ซับไทย]",
+    "channel": "Muse Thailand",
+    "matches": [
+      {
+        "id": "okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-w",
+        "alias": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง เปลี่ยนเมืองไร้ชื่อให้กลายเป็นนครป้อมปราการด้วยเวทมนตร์การผลิต",
+        "similarity": 0.512
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "uSNIPjif-Jo",
+    "title": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง - ตอนที่ 05 [ซับไทย]",
+    "channel": "Muse Thailand",
+    "matches": [
+      {
+        "id": "okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-w",
+        "alias": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง เปลี่ยนเมืองไร้ชื่อให้กลายเป็นนครป้อมปราการด้วยเวทมนตร์การผลิต",
+        "similarity": 0.512
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "_KjYCKdNhEQ",
+    "title": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง - ตอนที่ 04 [ซับไทย]",
+    "channel": "Muse Thailand",
+    "matches": [
+      {
+        "id": "okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-w",
+        "alias": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง เปลี่ยนเมืองไร้ชื่อให้กลายเป็นนครป้อมปราการด้วยเวทมนตร์การผลิต",
+        "similarity": 0.512
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "1-fADaXf-dw",
+    "title": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง - ตอนที่ 03 [ซับไทย]",
+    "channel": "Muse Thailand",
+    "matches": [
+      {
+        "id": "okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-w",
+        "alias": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง เปลี่ยนเมืองไร้ชื่อให้กลายเป็นนครป้อมปราการด้วยเวทมนตร์การผลิต",
+        "similarity": 0.512
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "CZxH0_8iS3Q",
+    "title": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง - ตอนที่ 02 [ซับไทย]",
+    "channel": "Muse Thailand",
+    "matches": [
+      {
+        "id": "okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-w",
+        "alias": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง เปลี่ยนเมืองไร้ชื่อให้กลายเป็นนครป้อมปราการด้วยเวทมนตร์การผลิต",
+        "similarity": 0.512
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "6FO0YAE6W0s",
+    "title": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง - ตอนที่ 01 [ซับไทย]",
+    "channel": "Muse Thailand",
+    "matches": [
+      {
+        "id": "okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-w",
+        "alias": "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง เปลี่ยนเมืองไร้ชื่อให้กลายเป็นนครป้อมปราการด้วยเวทมนตร์การผลิต",
+        "similarity": 0.512
       }
     ]
   },
@@ -1944,8 +2113,8 @@
     "matches": [
       {
         "id": "isekai-nonbiri-nouka-2",
-        "alias": "farming life in another world season 2",
-        "similarity": 0.533
+        "alias": "farming life in another world 2",
+        "similarity": 0.588
       }
     ]
   },
@@ -1957,8 +2126,8 @@
     "matches": [
       {
         "id": "isekai-nonbiri-nouka-2",
-        "alias": "farming life in another world season 2",
-        "similarity": 0.533
+        "alias": "farming life in another world 2",
+        "similarity": 0.588
       }
     ]
   },
@@ -1970,8 +2139,8 @@
     "matches": [
       {
         "id": "isekai-nonbiri-nouka-2",
-        "alias": "farming life in another world season 2",
-        "similarity": 0.533
+        "alias": "farming life in another world 2",
+        "similarity": 0.588
       }
     ]
   },
@@ -1983,8 +2152,26 @@
     "matches": [
       {
         "id": "isekai-nonbiri-nouka-2",
-        "alias": "farming life in another world season 2",
-        "similarity": 0.533
+        "alias": "farming life in another world 2",
+        "similarity": 0.588
+      }
+    ]
+  },
+  {
+    "type": "ambiguous_title",
+    "videoId": "zyHuHkq-Ntk",
+    "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】",
+    "channel": "Ani-One Thailand",
+    "matches": [
+      {
+        "id": "jigoku-sensei-nube-2025-part-2",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
+      },
+      {
+        "id": "yowayowa-sensei",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
       }
     ]
   },
@@ -1996,8 +2183,8 @@
     "matches": [
       {
         "id": "isekai-nonbiri-nouka-2",
-        "alias": "farming life in another world season 2",
-        "similarity": 0.533
+        "alias": "farming life in another world 2",
+        "similarity": 0.588
       }
     ]
   },
@@ -2009,8 +2196,8 @@
     "matches": [
       {
         "id": "isekai-nonbiri-nouka-2",
-        "alias": "farming life in another world season 2",
-        "similarity": 0.533
+        "alias": "farming life in another world 2",
+        "similarity": 0.588
       }
     ]
   },
@@ -2022,8 +2209,62 @@
     "matches": [
       {
         "id": "isekai-nonbiri-nouka-2",
-        "alias": "farming life in another world season 2",
-        "similarity": 0.533
+        "alias": "farming life in another world 2",
+        "similarity": 0.588
+      }
+    ]
+  },
+  {
+    "type": "ambiguous_title",
+    "videoId": "BwKor-tG6yQ",
+    "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่  11 [ซับไทย] 【Ani-One Thailand】",
+    "channel": "Ani-One Thailand",
+    "matches": [
+      {
+        "id": "jigoku-sensei-nube-2025-part-2",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
+      },
+      {
+        "id": "yowayowa-sensei",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
+      }
+    ]
+  },
+  {
+    "type": "ambiguous_title",
+    "videoId": "XsRfUrgw1hQ",
+    "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 10  [ซับไทย] 【Ani-One Thailand】",
+    "channel": "Ani-One Thailand",
+    "matches": [
+      {
+        "id": "jigoku-sensei-nube-2025-part-2",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
+      },
+      {
+        "id": "yowayowa-sensei",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
+      }
+    ]
+  },
+  {
+    "type": "ambiguous_title",
+    "videoId": "pFWbcqOsQ1Y",
+    "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 9  [ซับไทย] 【Ani-One Thailand】",
+    "channel": "Ani-One Thailand",
+    "matches": [
+      {
+        "id": "jigoku-sensei-nube-2025-part-2",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
+      },
+      {
+        "id": "yowayowa-sensei",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
       }
     ]
   },
@@ -2067,6 +2308,24 @@
     ]
   },
   {
+    "type": "ambiguous_title",
+    "videoId": "Ckt3Sp5wD2E",
+    "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 8  [ซับไทย] 【Ani-One Thailand】",
+    "channel": "Ani-One Thailand",
+    "matches": [
+      {
+        "id": "jigoku-sensei-nube-2025-part-2",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
+      },
+      {
+        "id": "yowayowa-sensei",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
+      }
+    ]
+  },
+  {
     "type": "fuzzy_suggestion",
     "videoId": "TZCEULlTb5s",
     "title": "MF GHOST ตอนที่ 9 [ซับไทย]【Ani-One Thailand】",
@@ -2102,6 +2361,24 @@
         "id": "mf-ghost-3rd-season",
         "alias": "mf ghost season 3",
         "similarity": 0.609
+      }
+    ]
+  },
+  {
+    "type": "ambiguous_title",
+    "videoId": "ViBk-W4GITQ",
+    "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 7  [ซับไทย] 【Ani-One Thailand】",
+    "channel": "Ani-One Thailand",
+    "matches": [
+      {
+        "id": "jigoku-sensei-nube-2025-part-2",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
+      },
+      {
+        "id": "yowayowa-sensei",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
       }
     ]
   },
@@ -2145,6 +2422,24 @@
     ]
   },
   {
+    "type": "ambiguous_title",
+    "videoId": "4uvtHh93DQY",
+    "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 6  [ซับไทย] 【Ani-One Thailand】",
+    "channel": "Ani-One Thailand",
+    "matches": [
+      {
+        "id": "jigoku-sensei-nube-2025-part-2",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
+      },
+      {
+        "id": "yowayowa-sensei",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
+      }
+    ]
+  },
+  {
     "type": "fuzzy_suggestion",
     "videoId": "W_PVv2cjpQY",
     "title": "MF GHOST ตอนที่ 3 [ซับไทย]【Ani-One Thailand】",
@@ -2184,6 +2479,24 @@
     ]
   },
   {
+    "type": "ambiguous_title",
+    "videoId": "pJfcWMcGc3U",
+    "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 5  [ซับไทย] 【Ani-One Thailand】",
+    "channel": "Ani-One Thailand",
+    "matches": [
+      {
+        "id": "jigoku-sensei-nube-2025-part-2",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
+      },
+      {
+        "id": "yowayowa-sensei",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
+      }
+    ]
+  },
+  {
     "type": "fuzzy_suggestion",
     "videoId": "HKlhQS0xIZs",
     "title": "TRIGUN STAMPEDE  ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】",
@@ -2191,8 +2504,8 @@
     "matches": [
       {
         "id": "trigun-stargaze",
-        "alias": "trigun stargaze",
-        "similarity": 0.643
+        "alias": "trigun stampede kanketsu hen",
+        "similarity": 0.683
       }
     ]
   },
@@ -2204,8 +2517,26 @@
     "matches": [
       {
         "id": "trigun-stargaze",
-        "alias": "trigun stargaze",
-        "similarity": 0.643
+        "alias": "trigun stampede kanketsu hen",
+        "similarity": 0.683
+      }
+    ]
+  },
+  {
+    "type": "ambiguous_title",
+    "videoId": "j4ST5MLkL2o",
+    "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 4  [ซับไทย] 【Ani-One Thailand】",
+    "channel": "Ani-One Thailand",
+    "matches": [
+      {
+        "id": "jigoku-sensei-nube-2025-part-2",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
+      },
+      {
+        "id": "yowayowa-sensei",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
       }
     ]
   },
@@ -2217,8 +2548,8 @@
     "matches": [
       {
         "id": "trigun-stargaze",
-        "alias": "trigun stargaze",
-        "similarity": 0.643
+        "alias": "trigun stampede kanketsu hen",
+        "similarity": 0.683
       }
     ]
   },
@@ -2230,8 +2561,8 @@
     "matches": [
       {
         "id": "trigun-stargaze",
-        "alias": "trigun stargaze",
-        "similarity": 0.643
+        "alias": "trigun stampede kanketsu hen",
+        "similarity": 0.683
       }
     ]
   },
@@ -2243,8 +2574,8 @@
     "matches": [
       {
         "id": "trigun-stargaze",
-        "alias": "trigun stargaze",
-        "similarity": 0.643
+        "alias": "trigun stampede kanketsu hen",
+        "similarity": 0.683
       }
     ]
   },
@@ -2256,8 +2587,8 @@
     "matches": [
       {
         "id": "trigun-stargaze",
-        "alias": "trigun stargaze",
-        "similarity": 0.643
+        "alias": "trigun stampede kanketsu hen",
+        "similarity": 0.683
       }
     ]
   },
@@ -2269,8 +2600,26 @@
     "matches": [
       {
         "id": "trigun-stargaze",
-        "alias": "trigun stargaze",
-        "similarity": 0.643
+        "alias": "trigun stampede kanketsu hen",
+        "similarity": 0.683
+      }
+    ]
+  },
+  {
+    "type": "ambiguous_title",
+    "videoId": "LFGb0H3_mVo",
+    "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 3  [ซับไทย] 【Ani-One Thailand】",
+    "channel": "Ani-One Thailand",
+    "matches": [
+      {
+        "id": "jigoku-sensei-nube-2025-part-2",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
+      },
+      {
+        "id": "yowayowa-sensei",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
       }
     ]
   },
@@ -2282,8 +2631,8 @@
     "matches": [
       {
         "id": "trigun-stargaze",
-        "alias": "trigun stargaze",
-        "similarity": 0.643
+        "alias": "trigun stampede kanketsu hen",
+        "similarity": 0.683
       }
     ]
   },
@@ -2295,8 +2644,8 @@
     "matches": [
       {
         "id": "trigun-stargaze",
-        "alias": "trigun stargaze",
-        "similarity": 0.643
+        "alias": "trigun stampede kanketsu hen",
+        "similarity": 0.683
       }
     ]
   },
@@ -2308,8 +2657,8 @@
     "matches": [
       {
         "id": "trigun-stargaze",
-        "alias": "trigun stargaze",
-        "similarity": 0.643
+        "alias": "trigun stampede kanketsu hen",
+        "similarity": 0.683
       }
     ]
   },
@@ -2321,8 +2670,8 @@
     "matches": [
       {
         "id": "trigun-stargaze",
-        "alias": "trigun stargaze",
-        "similarity": 0.643
+        "alias": "trigun stampede kanketsu hen",
+        "similarity": 0.683
       }
     ]
   },
@@ -2334,8 +2683,44 @@
     "matches": [
       {
         "id": "trigun-stargaze",
-        "alias": "trigun stargaze",
-        "similarity": 0.643
+        "alias": "trigun stampede kanketsu hen",
+        "similarity": 0.683
+      }
+    ]
+  },
+  {
+    "type": "ambiguous_title",
+    "videoId": "LmybAwLE14E",
+    "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 2  [ซับไทย] 【Ani-One Thailand】",
+    "channel": "Ani-One Thailand",
+    "matches": [
+      {
+        "id": "jigoku-sensei-nube-2025-part-2",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
+      },
+      {
+        "id": "yowayowa-sensei",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
+      }
+    ]
+  },
+  {
+    "type": "ambiguous_title",
+    "videoId": "g-83LOQirhY",
+    "title": "คุณครูมาดหลอน หัวใจอ่อนแอ ตอนที่ 1  [ซับไทย] 【Ani-One Thailand】",
+    "channel": "Ani-One Thailand",
+    "matches": [
+      {
+        "id": "jigoku-sensei-nube-2025-part-2",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
+      },
+      {
+        "id": "yowayowa-sensei",
+        "alias": "คุณครูมาดหลอน หัวใจอ่อนแอ",
+        "matchLength": 25
       }
     ]
   },
@@ -2479,6 +2864,58 @@
         "id": "isekai-nonbiri-nouka-2",
         "alias": "farming life in another world season 2",
         "similarity": 0.605
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "WRkPNsOLlhY",
+    "title": "TOUGEN ANKI | Mini Anime #24 | ENG-SUB | It's Anime",
+    "channel": "It's Anime powered by REMOW",
+    "matches": [
+      {
+        "id": "tougen-anki-nikko-kegon-no-taki-hen",
+        "alias": "tougen anki season 2",
+        "similarity": 0.55
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "sJsArLTSQa0",
+    "title": "TOUGEN ANKI | Mini Anime #23 | ENG-SUB | It's Anime",
+    "channel": "It's Anime powered by REMOW",
+    "matches": [
+      {
+        "id": "tougen-anki-nikko-kegon-no-taki-hen",
+        "alias": "tougen anki season 2",
+        "similarity": 0.55
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "T2OkQmMgOk0",
+    "title": "TOUGEN ANKI | Mini Anime #22 | ENG-SUB | It's Anime",
+    "channel": "It's Anime powered by REMOW",
+    "matches": [
+      {
+        "id": "tougen-anki-nikko-kegon-no-taki-hen",
+        "alias": "tougen anki season 2",
+        "similarity": 0.55
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "qBzUP_B8bJk",
+    "title": "TOUGEN ANKI | Mini Anime #21 | ENG-SUB | It's Anime",
+    "channel": "It's Anime powered by REMOW",
+    "matches": [
+      {
+        "id": "tougen-anki-nikko-kegon-no-taki-hen",
+        "alias": "tougen anki season 2",
+        "similarity": 0.55
       }
     ]
   }
