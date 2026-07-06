@@ -27,7 +27,7 @@
     "latestEpisodeTitle": "The Cat and the Dragon  ตอนที่ 2 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=OpDLemm9U5Q&list=PLYA5C3ueQ-1g",
     "latestPublishedAt": "2026-07-04T13:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:23.339Z",
+    "lastCheckedAt": "2026-07-06T17:47:13.431Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 61048,
@@ -75,7 +75,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.950Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -84,7 +84,8 @@
       "english": "The Cat and the Dragon",
       "native": "猫と竜",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "skipped_has_playlist"
   },
   {
     "id": "world-is-dancing",
@@ -114,7 +115,7 @@
     "latestEpisodeTitle": "THE WORLD IS DANCING - ตอนที่ 02 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=mvkdht2wG_Y&list=PLIa05JMgYhhaMTMBupRCsNXAvD1l3PSNr",
     "latestPublishedAt": "2026-07-06T13:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:23.472Z",
+    "lastCheckedAt": "2026-07-06T17:47:13.617Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63347,
@@ -159,7 +160,8 @@
       "english": "The World Is Dancing",
       "native": "ワールド イズ ダンシング",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "skipped_has_playlist"
   },
   {
     "id": "bungo-wan-2",
@@ -189,7 +191,7 @@
     "latestEpisodeTitle": "Bungo Stray Dogs WAN! 2 ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=MQuFqeslReM&list=PLCR1_rvbIAHE",
     "latestPublishedAt": "2026-07-02T12:40:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:23.592Z",
+    "lastCheckedAt": "2026-07-06T17:47:13.727Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62883,
@@ -197,7 +199,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7.11,
+    "score": 7.14,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -232,7 +234,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -243,7 +245,8 @@
       "synonyms": [
         "Bungo Stray Dogs WAN! TWO"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "skipped_has_playlist"
   },
   {
     "id": "bang-dream-yumemita",
@@ -273,7 +276,7 @@
     "latestEpisodeTitle": "BanG Dream! YUME∞MITA - ตอนที่ 03 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=9PBuMcx0VQM&list=PLEP6Ull2yaCo",
     "latestPublishedAt": "2026-07-02T15:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:23.655Z",
+    "lastCheckedAt": "2026-07-06T17:47:13.818Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62430,
@@ -328,7 +331,7 @@
       "episodeCount": 3,
       "latestEpisodeNumber": 3,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -339,7 +342,8 @@
       "synonyms": [
         "BanG Dream! Yumemita"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "skipped_has_playlist"
   },
   {
     "id": "exiled-heavy-knight",
@@ -369,7 +373,7 @@
     "latestEpisodeTitle": "เกิดใหม่เป็นอัศวินเกราะหนักผู้ถูกขับไล่แต่ใช้ความรู้จากเกมจนไร้เทียมทาน - ตอนที่ 01 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=dkqRpEJTIpk&list=PLIa05JMgYhhb4BS6WEyTjKyuwJtWF_2U7",
     "latestPublishedAt": "2026-07-02T15:56:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:23.730Z",
+    "lastCheckedAt": "2026-07-06T17:47:13.909Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 59741,
@@ -412,7 +416,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -424,7 +428,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -438,7 +442,8 @@
         "Kesatria Kelas Berat Tereinkarnasi yang Diasingkan Jadi Tanpa Tanding Dengan Pengetahuan Gimnya",
         "เกิดใหม่เป็นอัศวินเกราะหนักผู้ถูกขับไล่แต่ใช้ความรู้จากเกมจนไร้เทียมทาน"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "skipped_has_playlist"
   },
   {
     "id": "yani-neko",
@@ -468,7 +473,7 @@
     "latestEpisodeTitle": "Chainsmoker Cat  ตอนที่ 1  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=cAUTNr0Kia4&list=PLQ4xe_hu1gxw",
     "latestPublishedAt": "2026-07-02T16:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:23.766Z",
+    "lastCheckedAt": "2026-07-06T17:47:14.002Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63403,
@@ -511,7 +516,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -522,7 +527,8 @@
       "synonyms": [
         "แมวสาวอมควัน"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "skipped_has_playlist"
   },
   {
     "id": "black-torch",
@@ -552,7 +558,7 @@
     "latestEpisodeTitle": "BLACK TORCH - ตอนที่ 01 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=Z2RVXiP69Qs",
     "latestPublishedAt": "2026-07-04T13:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.873Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.329Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 61169,
@@ -602,7 +608,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -613,7 +619,13 @@
       "synonyms": [
         "ブラックトーチ"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "black torch",
+    "youtubeMatchedVideoTitle": "BLACK TORCH - ตอนที่ 01 [ซับไทย]",
+    "youtubeMatchedScore": 11,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.329Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "mushoku-tensei-iii",
@@ -643,7 +655,7 @@
     "latestEpisodeTitle": "เกิดชาตินี้พี่ต้องเทพ ซีซั่น 3 - ตอนที่ 02 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=_0su_IQjNzA",
     "latestPublishedAt": "2026-07-04T11:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.329Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 59193,
@@ -721,7 +733,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -733,7 +745,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -745,7 +757,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -759,7 +771,13 @@
         "Mushoku Tensei: Isekai Ittara Honki Dasu 3rd Season",
         "เกิดชาตินี้พี่ต้องเทพ ซีซั่น 3"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "เกิดชาตินี้พี่ต้องเทพ ซีซั่น 3",
+    "youtubeMatchedVideoTitle": "ความเร็วและอนุภาพไร้ที่ติ | เกิดชาตินี้พี่ต้องเทพ ซีซั่น 3 ตอนที่ 1",
+    "youtubeMatchedScore": 30,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.329Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "polar-opposites-2",
@@ -790,7 +808,7 @@
     "latestEpisodeTitle": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=oHy-No_sVhE&list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
     "latestPublishedAt": "2026-05-03T08:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:23.821Z",
+    "lastCheckedAt": "2026-07-06T17:47:14.096Z",
     "updateStatus": "ok",
     "updateError": "",
     "malUrl": "https://myanimelist.net/anime/63832/Seihantai_na_Kimi_to_Boku_2nd_Season",
@@ -908,7 +926,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -917,7 +935,8 @@
       "english": "You and I Are Polar Opposites Season 2",
       "native": "正反対な君と僕 第2期",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "skipped_has_playlist"
   },
   {
     "id": "worlds-strongest-rearguard",
@@ -947,7 +966,7 @@
     "latestEpisodeTitle": "กองหลังที่แกร่งที่สุดในโลก -นักสำรวจหน้าใหม่ ณ แดนเขาวงกต- - ตอนที่ 01 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=AfvvMC8O0TQ",
     "latestPublishedAt": "2026-07-05T13:00:07Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.329Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62435,
@@ -1003,7 +1022,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -1015,7 +1034,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -1024,7 +1043,13 @@
       "english": "The World's Strongest Rearguard",
       "native": "世界最強の後衛 ～迷宮国の新人探索者～",
       "synonyms": []
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "กองหลังที่แกร่งที่สุดในโลก",
+    "youtubeMatchedVideoTitle": "กองหลังที่แกร่งที่สุดในโลก -นักสำรวจหน้าใหม่ ณ แดนเขาวงกต- - ตอนที่ 01 [ซับไทย]",
+    "youtubeMatchedScore": 26,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.329Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "clevatess-ii",
@@ -1054,7 +1079,7 @@
     "latestEpisodeTitle": "เคลวาเทส อสูรจอมราชัน ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=hlS1nS4qQEA&list=PL_YV8EWtbQXESnuuBlZrdFMaqcuK5jr3F",
     "latestPublishedAt": "2025-09-17T11:30:07Z",
-    "lastCheckedAt": "2026-07-06T16:42:23.877Z",
+    "lastCheckedAt": "2026-07-06T17:47:14.262Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62513,
@@ -1181,7 +1206,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -1193,7 +1218,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -1205,7 +1230,8 @@
         "クレバテスⅡ-魔獣の王と偽りの勇者伝承- 第2期",
         "Clevatess II: Majuu no Ou to Akago to Kabane no Yuusha 2nd Season"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "skipped_has_playlist"
   },
   {
     "id": "tomb-raider-king",
@@ -1278,7 +1304,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -1290,7 +1316,8 @@
         "Toukutsuou",
         "盗掘王"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "cloudy-beach",
@@ -1398,7 +1425,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -1410,7 +1437,8 @@
         "Saga of Tanya the Evil II",
         "Youjo Senki 2"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "super-no-ura-de-yani-suu-futari",
@@ -1470,7 +1498,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -1484,7 +1512,8 @@
         "YaniSuu",
         "Paląc z tobą na tyłach sklepu"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "bleach-sennen-kessen-hen-kashin-tan",
@@ -1515,7 +1544,7 @@
     "latestEpisodeTitle": "บลีช เทพมรณะ สงครามเลือดพันปี ตอนที่ 40 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=gklhE1F7Sr8",
     "latestPublishedAt": "2026-06-15T11:00:32Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.042Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 60636,
@@ -1827,7 +1856,13 @@
         "BLEACH: Thousand-Year Blood War The Final Season",
         "BLEACH TYBW"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "บลีช เทพมรณะ สงครามเลือดพันปี การแยกจาก",
+    "youtubeMatchedVideoTitle": "บลีช เทพมรณะ สงครามเลือดพันปี – การแยกจาก ตอนที่ 25 [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 39,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "mahou-shoujo-madoka-magica-movie-4-walpurgis-no-kaiten",
@@ -1933,7 +1968,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -1945,7 +1980,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -1954,7 +1989,8 @@
       "english": "Grand Blue Dreaming Season 3",
       "native": "ぐらんぶる Season 3",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu-ii",
@@ -1985,7 +2021,7 @@
     "latestEpisodeTitle": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2 - ตอนที่ 01 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=AwdjenlPj5A",
     "latestPublishedAt": "2026-07-04T11:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.329Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 60522,
@@ -2022,7 +2058,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -2034,7 +2070,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -2046,7 +2082,13 @@
         "Kesatria Tengkorak Berkelana di Dunia Lain S2",
         "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก II"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2",
+    "youtubeMatchedVideoTitle": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2 - ตอนที่ 01 [ซับไทย]",
+    "youtubeMatchedScore": 51,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.329Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "kimi-ga-shinu-made-koi-wo-shitai",
@@ -2105,7 +2147,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -2118,7 +2160,8 @@
         "KimiShinu",
         "Je veux t'aimer jusqu'à ta mort"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season",
@@ -2180,7 +2223,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -2192,7 +2235,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -2203,7 +2246,8 @@
       "synonyms": [
         "Hyakkano 3"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "katainaka-no-ossan-kensei-ni-naru-ii",
@@ -2260,7 +2304,8 @@
       "synonyms": [
         "Katainaka no Ossan, Kensei ni Naru 2nd Season"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "koukaku-kidoutai-tv",
@@ -2324,7 +2369,8 @@
         "攻殻機動隊 (2026)",
         "GITS 2026"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "nijusseiki-denki-mokuroku-eureka-evrika",
@@ -2382,7 +2428,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -2397,7 +2443,8 @@
         "Destellos del mañana",
         "Étincelles de Demain"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "nige-jouzu-no-wakagimi-2nd-season",
@@ -2429,7 +2476,7 @@
     "latestEpisodeTitle": "👘จำกัดเวลา 1 เดือน👘 นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ - ตอนที่ 06 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=rdY_cbHBblw",
     "latestPublishedAt": "2026-07-06T11:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 60059,
@@ -2499,7 +2546,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -2513,7 +2560,13 @@
         "Héroe fugitivo",
         "Беглый самурай"
       ]
-    }
+    },
+    "youtubeMatchType": "fuzzy",
+    "youtubeMatchedAlias": "นายน้อยจอมโกยก้าวสู่เส้นทางแห่งวีรบุรุษ",
+    "youtubeMatchedVideoTitle": "👘จำกัดเวลา 1 เดือน👘 นายน้อยจอมโกย ก้าวสู่เส้นทางแห่งวีรบุรุษ - ตอนที่ 06 [ซับไทย]",
+    "youtubeMatchedScore": 0.771,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "shiguang-dailiren-iii",
@@ -2619,7 +2672,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -2628,9 +2681,11 @@
       "english": "Jaadugar: A Witch in Mongolia",
       "native": "天幕のジャードゥーガル",
       "synonyms": [
-        "A Witch's Life in Mongol"
+        "A Witch's Life in Mongol",
+        "Jaadugar, la légende de Fatima"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru-2nd-season",
@@ -2690,7 +2745,8 @@
       "synonyms": [
         "HELL MODE: The Hardcore Gamer Dominates in Another World with Garbage Balancing Season 2"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "sekiro-no-defeat",
@@ -2796,7 +2852,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -2808,7 +2864,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -2820,7 +2876,8 @@
         "Though I Am an Inept Villainess: Tale of the Butterfly-Rat Body Swap in the Maiden Court",
         "Futsutsuka"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tai-ari-deshita-ojousama-wa-kakutou-game-nante-shinai",
@@ -2881,7 +2938,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -2892,7 +2949,8 @@
       "synonyms": [
         "GGWP.: Young Ladies Don't Play Fighting Games"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "rakudai-kenja-no-gakuin-musou-nidome-no-tensei-s-rank-cheat-majutsushi-boukenrok",
@@ -2952,7 +3010,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -2964,7 +3022,8 @@
         "The Unsuccessful Yet Academically Unparalleled Sage: A Cheating S-Rank Sorcerer's Post-Rebirth Adventurer Log",
         "The Failed Sage's Academy Domination"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-ason",
@@ -3023,7 +3082,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3035,7 +3094,8 @@
         "Tenkosaki: The Neat and Pretty Girl at My New School Is a Childhood Friend of Mine Who I Thought Was a Boy",
         "Tenbin"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "lv999-no-murabito",
@@ -3092,7 +3152,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3101,7 +3161,8 @@
       "english": "The Villager of Level 999",
       "native": "LV999の村人",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seik",
@@ -3160,7 +3221,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3172,7 +3233,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3185,7 +3246,8 @@
         "才女的侍從 在滿是高嶺之花的貴族學校暗中照顧（毫無生活自理能力的）學院第一大小姐",
         "ผู้ดูแลเด็กสาว"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "toumei-na-yoru-ni-kakeru-kimi-to-me-ni-mienai-koi-wo-shita",
@@ -3242,7 +3304,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3254,7 +3316,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.489Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3264,9 +3326,11 @@
       "native": "透明な夜に駆ける君と、目に見えない恋をした。",
       "synonyms": [
         "かけ恋",
-        "Kakekoi"
+        "Kakekoi",
+        "Un amour invisible"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "otome-kaijuu-carame-liser",
@@ -3326,7 +3390,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3338,7 +3402,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3349,7 +3413,8 @@
       "synonyms": [
         "สาวน้อยไคจู คาราเมไลซ์"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "heroine-seijo-iie-all-works-maid-desu-hokori",
@@ -3408,7 +3473,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3417,7 +3482,8 @@
       "english": "Heroine? Saint? No, I’m an All-Works Maid (And Proud of It)!",
       "native": "ヒロイン？聖女？いいえ、オールワークスメイドです（誇）！",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "one-piece-heroines",
@@ -3570,7 +3636,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3582,7 +3648,8 @@
         "さよララ",
         "SayoLara"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-n",
@@ -3641,7 +3708,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3653,7 +3720,8 @@
         "KokoOre",
         "ここ俺"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu",
@@ -3709,7 +3777,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3720,7 +3788,8 @@
       "synonyms": [
         "The Oblivious Saint Can't Contain Her Power Glossary"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "saikyou-degarashi-ouji-no-anyaku-teii-arasoi",
@@ -3779,7 +3848,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3792,7 +3861,8 @@
         "出涸らし皇子",
         "Degarashi Ouji"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-ta",
@@ -3848,7 +3918,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3857,7 +3927,8 @@
       "english": "A Livid Lady’s Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires",
       "native": "ブチ切れ令嬢は報復を誓いました。　～魔導書の力で祖国を叩き潰します～",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "ryoumin-0-nin-start-no-henkyou-ryoushu-sama",
@@ -3914,7 +3985,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3926,7 +3997,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3940,7 +4011,8 @@
         "Penguasa Negeri Terluar Memulai dari 0 Rakyat",
         "ได้เป็นถึงท่านเจ้าครอบครองดินแดน แต่ดันมีพลเมืองเริ่มต้นจากศูนย์ซะงั้น"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "hanaori-san-wa-tensei-shitemo-kenka-ga-shitai",
@@ -4001,7 +4073,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -4013,7 +4085,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -4024,7 +4096,8 @@
       "synonyms": [
         "Hanaori-san Wants to Have A Fight Even If She Reincarnates"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "oni-no-hanayome",
@@ -4082,7 +4155,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4093,7 +4166,8 @@
       "synonyms": [
         "OniHana"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "the-ribbon-hero",
@@ -4208,7 +4282,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -4219,7 +4293,8 @@
       "synonyms": [
         "Anatolia Story"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance",
@@ -4256,7 +4331,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7,
+    "score": 7.02,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -4275,7 +4350,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4286,7 +4361,8 @@
       "synonyms": [
         "NANOHA EXGV"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "kimi-wo-aisuru-ki-wa-nai-to-itta-jiki-koushaku-sama-ga-nazeka-dekiai-shitekimasu",
@@ -4344,7 +4420,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4356,7 +4432,8 @@
         "きみ愛",
         "KimiAi"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tefuda-ga-oome-no-victoria",
@@ -4411,7 +4488,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -4420,7 +4497,8 @@
       "english": "Victoria of Many Faces",
       "native": "手札が多めのビクトリア",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "jiyi-guanli-ju-2026",
@@ -4499,7 +4577,7 @@
     "latestEpisodeTitle": "The Forsaken Saintess and Her Foodie Road Trip in Another World ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=qGYuhsrzOL0",
     "latestPublishedAt": "2026-07-06T14:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.042Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63752,
@@ -4534,7 +4612,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4543,7 +4621,13 @@
       "english": "The Forsaken Saintess and Her Foodie Roadtrip in Another World",
       "native": "捨てられ聖女の異世界ごはん旅 隠れスキルでキャンピングカーを召喚しました",
       "synonyms": []
-    }
+    },
+    "youtubeMatchType": "fuzzy",
+    "youtubeMatchedAlias": "the forsaken saintess and her foodie roadtrip in another world",
+    "youtubeMatchedVideoTitle": "The Forsaken Saintess and Her Foodie Road Trip in Another World ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 0.976,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "reiwa-no-dara-san",
@@ -4581,7 +4665,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "R+ - Mild Nudity",
-    "score": 6.61,
+    "score": 6.64,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -4602,7 +4686,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4611,7 +4695,8 @@
       "english": "Dara-san of the Reiwa Era",
       "native": "令和のダラさん",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "doko-yori-mo-tooi-basho-ni-iru-kimi-e",
@@ -4715,7 +4800,8 @@
       "synonyms": [
         "My mother-in-law and sister-in-law who don't bully me."
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "uchi-no-otouto-domo-ga-sumimasen",
@@ -4774,7 +4860,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4785,7 +4871,8 @@
       "synonyms": [
         "Sorry About My Little Brothers"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "azur-lane-bisoku-zenshin-ni",
@@ -4844,7 +4931,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4856,7 +4943,8 @@
         "AzurLane: Slow Ahead! Season 2",
         "Azur Lane: Bisoku Zenshin! 2nd Season"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "saishuu-gakushou-hibike-euphonium-kouhen",
@@ -4943,7 +5031,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "",
-    "score": 6.21,
+    "score": 6.17,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -4964,7 +5052,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4973,7 +5061,8 @@
       "english": "Recommendations from Iwamoto-Senpai",
       "native": "岩元先輩ノ推薦",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "kore-kaite-shine",
@@ -5003,7 +5092,7 @@
     "latestEpisodeTitle": "วาดเรื่องนี้ก่อนแล้วค่อยตาย - ตอนที่ 01 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=yupwq2ZucbM",
     "latestPublishedAt": "2026-07-03T15:35:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 61280,
@@ -5040,7 +5129,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -5052,7 +5141,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -5063,7 +5152,13 @@
       "synonyms": [
         "Gambar Ini, Lalu Mati Sana!"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "วาดเรื่องนี้ก่อนแล้วค่อยตาย",
+    "youtubeMatchedVideoTitle": "วาดเรื่องนี้ก่อนแล้วค่อยตาย - ตอนที่ 01 [ซับไทย]",
+    "youtubeMatchedScore": 27,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "sword-art-online-unanswered-butterfly",
@@ -5165,7 +5260,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -5174,7 +5269,8 @@
       "english": "Grow Up Show",
       "native": "グロウアップショウ ～ひまわりのサーカス団～",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "kimi-to-hanabi-to-yakusoku-to",
@@ -5258,7 +5354,7 @@
     "jikanType": "TV",
     "jikanStatus": "Currently Airing",
     "rating": "",
-    "score": 6.79,
+    "score": 6.93,
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
@@ -5279,7 +5375,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -5288,7 +5384,8 @@
       "english": "Iron Wok Jan!",
       "native": "鉄鍋のジャン！",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita",
@@ -5343,7 +5440,8 @@
       "synonyms": [
         "Saved By the Ice Cold Prince's Embrace"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "perfect-addiction",
@@ -5395,7 +5493,8 @@
       "english": "Perfect Addiction",
       "native": "パーフェクトアディクション",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "let-s-go-kaiki-gumi",
@@ -5452,7 +5551,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -5461,7 +5560,8 @@
       "english": "Let's go KAIKIGUMI",
       "native": "レッツゴー怪奇組",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "ushiro-no-shoumen-kamui-san",
@@ -5521,7 +5621,8 @@
         "從後面來的神威先生",
         "คุณคามุยลุยหลังผี"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "mebius-dust",
@@ -5584,7 +5685,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -5597,7 +5698,8 @@
         "Mobius Dust",
         "Möbius Dust"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "wareware-wa-uchuujin",
@@ -5866,7 +5968,7 @@
     "malId": 62031,
     "malUrl": "https://myanimelist.net/anime/62031/Honoo_no_Toukyuujo__Dodge_Danko",
     "jikanType": "TV",
-    "jikanStatus": "Not yet aired",
+    "jikanStatus": "Currently Airing",
     "rating": "",
     "score": 0,
     "season": "summer",
@@ -5887,7 +5989,8 @@
         "Hono no Tokyujo: Dodge Danko",
         "Dodgeball Girl Danko"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "hua-xianzi-mofa-xiang-dui-lun",
@@ -5990,7 +6093,8 @@
       "synonyms": [
         "Yamishibai: Japanese Ghost Stories Seventeenth Season"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "bai-ri-cheng-wang",
@@ -6281,7 +6385,8 @@
       "synonyms": [
         "Plannosaurus Seriously Extinct Creatures Club"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "wangu-zhizun-li-yunxiao-zhuan",
@@ -6574,7 +6679,8 @@
       "synonyms": [
         " Ahare! Meisaku-kun (2026)"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "pan-no-akachan-tv",
@@ -6632,7 +6738,8 @@
         "Hey! パンの赤ちゃん",
         "Hey! Pan no Akachan"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "shi-wangzhe-a-6th-season",
@@ -6835,7 +6942,8 @@
       "synonyms": [
         "Magilumiere Magical Girls Inc. Season 2"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "hanazakari-no-kimitachi-e-2nd-season",
@@ -6896,7 +7004,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.951Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -6908,7 +7016,8 @@
         "Hana-Kimi",
         "Hana-Kimi: For You in Full Blossom"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "yoroi-shin-den-samurai-troopers-part-2",
@@ -6968,7 +7077,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.952Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -6977,7 +7086,8 @@
       "english": "Yoroi-Shinden Samurai Troopers Cour 2",
       "native": "鎧真伝サムライトルーパー 第2クール",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "meitantei-precure-movie-fushigi-na-niwa-to-2-ri-no-himitsu",
@@ -7061,7 +7171,7 @@
     "malId": 64378,
     "malUrl": "https://myanimelist.net/anime/64378/Hokuto_no_Ken__Kenougun_Zako-tachi_no_Banka_Part_2",
     "jikanType": "TV",
-    "jikanStatus": "Not yet aired",
+    "jikanStatus": "Currently Airing",
     "rating": "PG-13 - Teens 13 or older",
     "score": 0,
     "season": "summer",
@@ -7079,7 +7189,8 @@
       "english": "",
       "native": "北斗の拳 拳王軍ザコたちの挽歌 第2クール",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "sousou-no-frieren-2nd-season",
@@ -7110,7 +7221,7 @@
     "latestEpisodeTitle": "คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 38(S2 ตอนที่ 10)[ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=0A_UwmSzCPI",
     "latestPublishedAt": "2026-03-27T15:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -7210,7 +7321,7 @@
       "episodeCount": 10,
       "latestEpisodeNumber": 10,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.952Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7222,7 +7333,7 @@
       "episodeCount": 10,
       "latestEpisodeNumber": 10,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.952Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7234,7 +7345,13 @@
         "Провожающая в последний путь Фрирен 2",
         "장송의 프리렌 2기"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "คําอธิษฐานในวันที่จากลา frieren",
+    "youtubeMatchedVideoTitle": "คำอธิษฐานในวันที่จากลา FRIEREN - ตอนที่ 38(S2 ตอนที่ 10)[ซับไทย]",
+    "youtubeMatchedScore": 31,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "jujutsu-kaisen-shimetsu-kaiyuu-zenpen",
@@ -7264,7 +7381,7 @@
     "latestEpisodeTitle": "มหาเวทย์ผนึกมาร จรดลล้างบาง พาร์ต 1 ตอนที่ 9 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=QOq0Pdyk2Xw",
     "latestPublishedAt": "2026-07-03T13:00:07Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -7357,7 +7474,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.952Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7369,7 +7486,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.490Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.952Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7383,7 +7500,13 @@
         "JJK3",
         "มหาเวทย์ผนึกมาร จรดลล้างบาง พาร์ต 1"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "มหาเวทย์ผนึกมาร จรดลล้างบาง พาร์ต 1",
+    "youtubeMatchedVideoTitle": "มหาเวทย์ผนึกมาร จรดลล้างบาง พาร์ต 1 ตอนที่ 9 [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 35,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "jigokuraku-2nd-season",
@@ -7523,7 +7646,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7536,7 +7659,8 @@
         "สุขาวดีอเวจี",
         "Адский рай"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "yuusha-kei-ni-shosu-choubatsu-yuusha-9004-tai-keimu-kiroku",
@@ -7593,7 +7717,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7605,7 +7729,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7617,7 +7741,8 @@
         "ผู้กล้าโทษประหาร : บันทึกการรับโทษของหน่วยผู้กล้าต้องโทษ 9004",
         "용사형에 처함"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "oshi-no-ko-3rd-season",
@@ -7675,7 +7800,7 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7687,7 +7812,7 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7699,7 +7824,7 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7710,7 +7835,8 @@
       "synonyms": [
         "[OSHI NO KO] Season 3"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "seihantai-na-kimi-to-boku",
@@ -7741,7 +7867,7 @@
     "latestEpisodeTitle": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=oHy-No_sVhE",
     "latestPublishedAt": "2026-05-03T08:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -7853,7 +7979,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7865,7 +7991,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7878,7 +8004,13 @@
         "정반대의 너와 나",
         "Cậu Và Tớ Là Hai Thái Cực Đối Lập"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ลุ้นรักฉบับคู่ต่างขั้ว",
+    "youtubeMatchedVideoTitle": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 22,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "enen-no-shouboutai-san-no-shou-part-2",
@@ -7974,7 +8106,7 @@
       "episodeCount": 6,
       "latestEpisodeNumber": 6,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7986,7 +8118,8 @@
         "Enen no Shouboutai 3rd Season Part 2",
         "หน่วยผจญคนไฟลุก ภาค 3"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "fate-strange-fake",
@@ -8122,7 +8255,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 12,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -8133,7 +8266,8 @@
       "synonyms": [
         "Судьба/Странная подделка"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "yuusha-party-wo-oidasareta-kiyoubinbou",
@@ -8163,7 +8297,7 @@
     "latestEpisodeTitle": "【ซับไทย】《เก่งรอบด้านแต่ไร้ทีเด็ด เลยถูกเฉดหัวจากปาร์ตี้ผู้กล้า》｜ตอนที่ 04｜TROPICS ENTERTAINMENT",
     "latestVideoUrl": "https://www.youtube.com/watch?v=1yQpRqutnBw",
     "latestPublishedAt": "2026-07-06T13:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:39.890Z",
+    "lastCheckedAt": "2026-07-06T17:47:37.735Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -8277,7 +8411,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -8289,7 +8423,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -8304,7 +8438,13 @@
         "용사 파티에서 쫓겨난 다재무능",
         "Si Serbabisa Terbuang Ini Akan Bangkit Jua!"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "เก่งรอบด้านแต่ไร้ทีเด็ด เลยถูกเฉดหัวจากปาร์ตี้ผู้กล้า",
+    "youtubeMatchedVideoTitle": "【ซับไทย】《เก่งรอบด้านแต่ไร้ทีเด็ด เลยถูกเฉดหัวจากปาร์ตี้ผู้กล้า》｜ตอนที่ 04｜TROPICS ENTERTAINMENT",
+    "youtubeMatchedScore": 53,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:37.735Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "ikoku-nikki",
@@ -8360,7 +8500,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -8377,7 +8517,8 @@
         "Entre les lignes",
         "위국일기"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "mato-seihei-no-slave-2",
@@ -8409,7 +8550,7 @@
     "latestEpisodeTitle": "ทาสสุดแกร่งแห่งหน่วยป้องกันอสูร ซีซั่น 2 - ตอนที่ 12 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=1Cg-X0POjmU",
     "latestPublishedAt": "2026-03-26T15:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -8521,7 +8662,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -8536,7 +8677,13 @@
         "ทาสสุดแกร่งแห่งหน่วยป้องกันอสูร ซีซั่น 2",
         "Demon Slave Temporada 2"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ทาสสุดแกร่งแห่งหน่วยป้องกันอสูร ซีซั่น 2",
+    "youtubeMatchedVideoTitle": "ทาสสุดแกร่งแห่งหน่วยป้องกันอสูร ซีซั่น 2 - ตอนที่ 12 [ซับไทย]",
+    "youtubeMatchedScore": 40,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "shibou-yuugi-de-meshi-wo-kuu",
@@ -8566,7 +8713,7 @@
     "latestEpisodeTitle": "ลิขิตชะตาเกมท้าตาย - ตอนที่ 11 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=NkhK8kwt8zE",
     "latestPublishedAt": "2026-03-18T15:30:26Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -8680,7 +8827,7 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -8692,7 +8839,7 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -8713,7 +8860,13 @@
         "사망 유희로 밥을 먹는다.",
         "Bermain Game Kematian untuk Sesuap Nasi."
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ลิขิตชะตาเกมท้าตาย",
+    "youtubeMatchedVideoTitle": "ลิขิตชะตาเกมท้าตาย - ตอนที่ 11 [ซับไทย]",
+    "youtubeMatchedScore": 18,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "yuusha-party-ni-kawaii-ko-ga-ita-node-kokuhaku-shitemita",
@@ -8745,7 +8898,7 @@
     "latestEpisodeTitle": "ในปาร์ตี้ผู้กล้ามีสาวน่ารักเลยลองสารภาพรักซะเลย ตอนที่ 13  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=jep91Q3bdQI",
     "latestPublishedAt": "2026-03-31T14:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -8878,7 +9031,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -8890,7 +9043,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -8903,7 +9056,13 @@
         "YuuKawa",
         "ゆうかわ"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ในปาร์ตี้ผู้กล้ามีสาวน่ารักเลยลองสารภาพรักซะเลย",
+    "youtubeMatchedVideoTitle": "ในปาร์ตี้ผู้กล้ามีสาวน่ารักเลยลองสารภาพรักซะเลย ตอนที่ 13  [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 47,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "tamon-kun-ima-docchi",
@@ -8934,7 +9093,7 @@
     "latestEpisodeTitle": "ทามอนคุง ตอนนี้อยู่โหมดไหน!? ตอนที่ 13 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=vHD-c_K-n_U",
     "latestPublishedAt": "2026-03-26T16:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -9046,7 +9205,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9058,7 +9217,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9071,7 +9230,13 @@
         "Which Face Does Tamon Have Now?",
         "ทามอนคุง ตอนนี้อยู่โหมดไหน!?"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ทามอนคุง ตอนนี้อยู่โหมดไหน",
+    "youtubeMatchedVideoTitle": "ทามอนคุง ตอนนี้อยู่โหมดไหน!? ตอนที่ 13 [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 26,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "vigilante-boku-no-hero-academia-illegals-2nd-season",
@@ -9101,7 +9266,7 @@
     "latestEpisodeTitle": "My Hero Academia Season 6 ตอนที่ 2 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=Tg_KVKEYPzI",
     "latestPublishedAt": "2026-07-05T11:00:07Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -9230,7 +9395,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 13,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9242,7 +9407,13 @@
         "MHA Vigilantes 2",
         "BNHA Vigilantes 2"
       ]
-    }
+    },
+    "youtubeMatchType": "fuzzy",
+    "youtubeMatchedAlias": "my hero academia vigilantes season 2",
+    "youtubeMatchedVideoTitle": "My Hero Academia Season 6 ตอนที่ 2 [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 0.78,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "mayonaka-heart-tune",
@@ -9301,7 +9472,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9313,7 +9484,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9325,7 +9496,8 @@
         "Mayochu",
         "จูนเสียงใจไปสุดฝัน"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "uruwashi-no-yoi-no-tsuki",
@@ -9382,7 +9554,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9393,7 +9565,8 @@
       "synonyms": [
         "เมื่อสาวหล่อขอมีรัก"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "kizoku-tensei-megumareta-umare-kara-saikyou-no-chikara-wo-eru",
@@ -9424,7 +9597,7 @@
     "latestEpisodeTitle": "【English Sub】《Noble Reincarnation -Born Blessed, So I’ll Obtain Ultimate Power-》｜Episode 12｜TROPICS",
     "latestVideoUrl": "https://www.youtube.com/watch?v=3ehTiMbhJ_0",
     "latestPublishedAt": "2026-05-13T13:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:39.890Z",
+    "lastCheckedAt": "2026-07-06T17:47:37.735Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -9620,7 +9793,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9632,7 +9805,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9643,7 +9816,13 @@
       "synonyms": [
         "เกิดใหม่มาเป็นผู้สูงศักดิ์ ~สุดแกร่งไร้เทียมทานแต่กำเนิด~"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "noble reincarnation born blessed so i ll obtain ultimate power",
+    "youtubeMatchedVideoTitle": "【English Sub】《Noble Reincarnation -Born Blessed, So I’ll Obtain Ultimate Power-》｜Episode 12｜TROPICS",
+    "youtubeMatchedScore": 62,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:37.735Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru",
@@ -9701,7 +9880,8 @@
       "synonyms": [
         "HELL MODE อยากเล่นโหด ขอโหมดนรก"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-w",
@@ -9758,7 +9938,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9770,7 +9950,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9782,7 +9962,8 @@
         "หนูน้อยเจ้าแคว้นกับแผนพิทักษ์เมือง เปลี่ยนเมืองไร้ชื่อให้กลายเป็นนครป้อมปราการด้วยเวทมนตร์การผลิต",
         "Pertahanan Wilayah Seru oleh Tuan Tanah Santai: Membuat Desa Tanpa Nama Menjadi Kota Benteng Terkuat dengan Sihir Produksi"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "needs_review"
   },
   {
     "id": "majutsushi-kunon-wa-mieteiru",
@@ -9810,7 +9991,7 @@
     "latestEpisodeTitle": "Kunon the Sorcerer Can See | Episode 1-3 | MULTI-SUB [#ItsAnime]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=XYxhLCXGcpI",
     "latestPublishedAt": "2026-01-31T02:00:28Z",
-    "lastCheckedAt": "2026-07-06T16:42:40.575Z",
+    "lastCheckedAt": "2026-07-06T17:47:38.791Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -9847,7 +10028,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9858,7 +10039,13 @@
       "synonyms": [
         "จอมเวทผู้มองเห็นทุกสิ่ง คุนอน"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "kunon the sorcerer can see",
+    "youtubeMatchedVideoTitle": "Kunon the Sorcerer Can See | Episode 1-3 | MULTI-SUB [#ItsAnime]",
+    "youtubeMatchedScore": 26,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:38.791Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "trigun-stargaze",
@@ -9890,7 +10077,7 @@
     "latestEpisodeTitle": "TRIGUN STARGAZE ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=0-RubGo7ZSQ",
     "latestPublishedAt": "2026-03-28T15:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -10081,7 +10268,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10094,7 +10281,13 @@
         "TRIGUN STAMPEDE: Kanketsu-hen",
         "トライガン スターゲイズ"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "trigun stargaze",
+    "youtubeMatchedVideoTitle": "TRIGUN STARGAZE ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 15,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "golden-kamuy-saishuushou",
@@ -10154,7 +10347,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10166,7 +10359,8 @@
         "Golden Kamuy Season 5",
         "Golden Kamuy: The Final Chapter"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "eris-no-seihai",
@@ -10223,7 +10417,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10235,7 +10429,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10246,7 +10440,8 @@
       "synonyms": [
         "ผีนางร้ายจับคู่สาวซื่อ รื้อคดีใหญ่"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "toumei-otoko-to-ningen-onna-sonouchi-fuufu-ni-naru-futari",
@@ -10305,7 +10500,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10317,7 +10512,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10328,7 +10523,8 @@
       "synonyms": [
         "รักใส ใจละมุน กับคุณที่มองไม่เห็น"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "kaya-chan-wa-kowakunai",
@@ -10358,7 +10554,7 @@
     "latestEpisodeTitle": "คายะจังไม่กลัวหรอกนะ ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=96bvqJU_J10",
     "latestPublishedAt": "2026-03-29T08:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -10470,7 +10666,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10482,7 +10678,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10496,7 +10692,13 @@
         "คายะจังไม่กลัวหรอกนะ",
         "카야는 무섭지 않아"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "คายะจังไม่กลัวหรอกนะ",
+    "youtubeMatchedVideoTitle": "คายะจังไม่กลัวหรอกนะ ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 20,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "isekai-no-sata-wa-shachiku-shidai",
@@ -10527,7 +10729,7 @@
     "latestEpisodeTitle": "หนุ่มบัญชีบ้างานกุมชะตาชาวต่างโลก - ตอนที่ 12 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=mzeKh2RjM_I",
     "latestPublishedAt": "2026-03-24T14:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -10648,7 +10850,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.491Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10660,7 +10862,13 @@
         "The Other World's Books Depend on the Bean Counter",
         "หนุ่มบัญชีบ้างานกุมชะตาชาวต่างโลก"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "หนุ่มบัญชีบ้างานกุมชะตาชาวต่างโลก",
+    "youtubeMatchedVideoTitle": "หนุ่มบัญชีบ้างานกุมชะตาชาวต่างโลก - ตอนที่ 12 [ซับไทย]",
+    "youtubeMatchedScore": 33,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "omae-gotoki-ga-maou-ni-kateru-to-omouna-to-yuusha-party-wo-tsuihou-sareta-node-o",
@@ -10718,7 +10926,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10731,7 +10939,8 @@
         "Omagoto",
         "กระจอกอย่างแกยังไงก็แพ้จอมมาร"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "akuyaku-reijou-wa-ringoku-no-outaishi-ni-dekiai-sareru",
@@ -10790,7 +10999,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10802,7 +11011,8 @@
         "The Villainess Is Being Doted on by the Crown Prince of the Neighboring Country",
         "ท่านหญิงนางร้ายถูกเจ้าชายรัชทายาท ของอาณาจักรข้างเคียงหลงรัก"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "osananajimi-to-wa-love-comedy-ni-naranai",
@@ -10860,7 +11070,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10872,7 +11082,8 @@
         "OsaLove",
         "幼ラブ"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tensei-shitara-dragon-no-tamago-datta",
@@ -10930,7 +11141,8 @@
       "synonyms": [
         "DoraTama"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "maou-no-musume-wa-yasashisugiru",
@@ -10974,7 +11186,7 @@
     "jikanType": "TV",
     "jikanStatus": "Finished Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 7.34,
+    "score": 7.33,
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
@@ -10987,7 +11199,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10999,7 +11211,8 @@
         "MaoMu",
         "ลูกสาวของจอมมารจิตใจดีเกินไป!!"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "dead-account",
@@ -11029,7 +11242,7 @@
     "latestEpisodeTitle": "เดดแอ็กเคานต์ พิฆาตบัญชีมรณะ ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=EmljTI3KHhU",
     "latestPublishedAt": "2026-03-28T15:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -11151,7 +11364,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11163,7 +11376,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11175,7 +11388,13 @@
         "デドアカ",
         "เดดแอ็กเคานต์ พิฆาตบัญชีมรณะ"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "เดดแอ็กเคานต์ พิฆาตบัญชีมรณะ",
+    "youtubeMatchedVideoTitle": "เดดแอ็กเคานต์ พิฆาตบัญชีมรณะ ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 28,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "darwin-jihen",
@@ -11232,7 +11451,8 @@
         "ดาร์วิน พันธุ์อุบัติใหม่",
         "El incidente Darwin"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "29-sai-dokushin-chuuken-boukensha-no-nichijou",
@@ -11288,7 +11508,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11302,7 +11522,8 @@
         "The Daily Life of a Single 29-Year-Old Adventurer",
         "ชีวิตประจำวันของนักผจญภัยโสดวัย 29"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "kirei-ni-shitemoraemasu-ka",
@@ -11358,7 +11579,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11372,7 +11593,8 @@
         "きにして",
         "KiniShite"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "medalist-2nd-season",
@@ -11427,7 +11649,8 @@
       "english": "Medalist Season 2",
       "native": "メダリスト 第2期",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "hanazakari-no-kimitachi-e",
@@ -11486,7 +11709,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11498,7 +11721,8 @@
         "Hana-Kimi: For You in Full Blossom",
         "สับขั้วมาลุ้นรัก"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "champignon-no-majo",
@@ -11555,7 +11779,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11566,7 +11790,8 @@
       "synonyms": [
         "Champignon's Witch"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "odayaka-kizoku-no-kyuuka-no-susume",
@@ -11623,7 +11848,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11634,7 +11859,8 @@
       "synonyms": [
         "A Mild Noble's Vacation Suggestion"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "dark-moon-tsuki-no-saidan",
@@ -11678,7 +11904,7 @@
     "jikanType": "TV",
     "jikanStatus": "Finished Airing",
     "rating": "PG-13 - Teens 13 or older",
-    "score": 6.37,
+    "score": 6.36,
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
@@ -11691,7 +11917,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11703,7 +11929,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11717,7 +11943,8 @@
         "DARK MOON: THE BLOOD ALTAR with ENHYPEN",
         "DARK MOON: แท่นบูชาพระจันทร์"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "mf-ghost-3rd-season",
@@ -11747,7 +11974,7 @@
     "latestEpisodeTitle": "MF GHOST 3rd Season ตอนที่ 13  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=cG3YiWtedZg",
     "latestPublishedAt": "2026-03-26T15:30:07Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -11959,7 +12186,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 13,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11968,7 +12195,13 @@
       "english": "MF GHOST Season 3",
       "native": "MFゴースト 3rd Season",
       "synonyms": []
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "mf ghost 3rd season",
+    "youtubeMatchedVideoTitle": "MF GHOST 3rd Season ตอนที่ 13  [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 19,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "yuusha-no-kuzu",
@@ -11998,7 +12231,7 @@
     "latestEpisodeTitle": "ผู้กล้าสวะ - ตอนที่ 24 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=ISbPnLKBVFQ",
     "latestPublishedAt": "2026-06-27T16:40:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -12194,7 +12427,7 @@
       "episodeCount": 24,
       "latestEpisodeNumber": 24,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -12206,7 +12439,13 @@
         "ผู้กล้าสวะ",
         "Pahlawan Sampah"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ผู้กล้าสวะ",
+    "youtubeMatchedVideoTitle": "ผู้กล้าสวะ - ตอนที่ 24 [ซับไทย]",
+    "youtubeMatchedScore": 10,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "jingai-kyoushitsu-no-ningengirai-kyoushi",
@@ -12265,7 +12504,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -12276,7 +12515,8 @@
       "synonyms": [
         "ห้องเรียนต่างสายพันธุ์ ของอาจารย์ผู้เกลียดมนุษย์"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "himesama-goumon-no-jikan-desu-2nd-season",
@@ -12307,7 +12547,7 @@
     "latestEpisodeTitle": "องค์หญิงได้เวลา \"ทรมาน\" แล้วค่ะ ซีซัน 2 ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=ZF0Z5TBlhsQ",
     "latestPublishedAt": "2026-03-30T16:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -12433,7 +12673,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -12446,7 +12686,13 @@
         "HimeGou 2",
         "องค์หญิงได้เวลา \"ทรมาน\" แล้วค่ะ ซีซัน 2"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "องค์หญิงได้เวลา ทรมาน แล้วค่ะ ซีซัน 2",
+    "youtubeMatchedVideoTitle": "องค์หญิงได้เวลา \"ทรมาน\" แล้วค่ะ ซีซัน 2 ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 37,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "arne-no-jikenbo",
@@ -12503,7 +12749,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.953Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -12512,7 +12758,8 @@
       "english": "The Case Book of Arne",
       "native": "アルネの事件簿",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "goumon-baito-kun-no-nichijou",
@@ -12542,7 +12789,7 @@
     "latestEpisodeTitle": "ชีวิตประจำวันของพนักงานพาร์ตไทม์รับจ้างทรมาน  ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=EuUlOjqeY2A",
     "latestPublishedAt": "2026-03-22T15:00:07Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -12654,7 +12901,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -12666,7 +12913,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -12677,7 +12924,13 @@
       "synonyms": [
         "ชีวิตประจำวันของพนักงานพาร์ตไทม์รับจ้างทรมาน"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ชีวิตประจําวันของพนักงานพาร์ตไทม์รับจ้างทรมาน",
+    "youtubeMatchedVideoTitle": "ชีวิตประจำวันของพนักงานพาร์ตไทม์รับจ้างทรมาน  ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 45,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "android-wa-keiken-ninzuu-ni-hairimasu-ka",
@@ -12736,7 +12989,8 @@
         "Hanisuka",
         "Nadeshiko. Programada para amar"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "douse-koishite-shimaunda-2nd-season",
@@ -12768,7 +13022,7 @@
     "latestEpisodeTitle": "ทำไงได้ ก็คนมันรักไปแล้ว ซีซัน 2 ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=VZsz2yX6HLk",
     "latestPublishedAt": "2026-03-26T17:00:07Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -12894,7 +13148,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -12907,7 +13161,13 @@
         "Koishima 2",
         "ทำไงได้ ก็คนมันรักไปแล้ว ซีซัน 2"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ทําไงได้ ก็คนมันรักไปแล้ว ซีซัน 2",
+    "youtubeMatchedVideoTitle": "ทำไงได้ ก็คนมันรักไปแล้ว ซีซัน 2 ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 33,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "ao-no-miburo-serizawa-ansatsu-hen",
@@ -13050,7 +13310,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -13061,7 +13321,8 @@
       "synonyms": [
         "Ao no Miburo Season 2"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "jigoku-sensei-nube-2025-part-2",
@@ -13205,7 +13466,8 @@
       "english": "Hell Teacher: Jigoku Sensei Nube (2025) Part 2",
       "native": "地獄先生ぬ～べ～ (2025) 第2クール",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "yoroi-shin-den-samurai-troopers",
@@ -13263,7 +13525,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -13274,7 +13536,8 @@
       "synonyms": [
         "ตำนานใหม่ ซามูไรทรูปเปอร์"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "hikuidori-ushuu-boro-tobi-gumi",
@@ -13302,7 +13565,7 @@
     "latestEpisodeTitle": "วิหคกินเพลิง: หน่วยพิทักษ์เพลิงแห่งเอโดะ ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=jhYBU4py17A",
     "latestPublishedAt": "2026-04-05T15:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13428,7 +13691,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -13439,7 +13702,13 @@
       "synonyms": [
         "วิหคกินเพลิง: หน่วยพิทักษ์เพลิงแห่งเอโดะ"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "วิหคกินเพลิง หน่วยพิทักษ์เพลิงแห่งเอโดะ",
+    "youtubeMatchedVideoTitle": "วิหคกินเพลิง: หน่วยพิทักษ์เพลิงแห่งเอโดะ ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 39,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "saioshi-no-gikei-wo-mederu-tame-nagaiki-shimasu",
@@ -13470,7 +13739,7 @@
     "latestEpisodeTitle": "I’ll Live a Long Life to Dote on My Favorite Stepbrother! EP1~4 | FULL EPISODE | ENG SUB [#ItsAnime]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=C9S6jyUgd44",
     "latestPublishedAt": "2026-05-27T02:00:02Z",
-    "lastCheckedAt": "2026-07-06T16:42:40.575Z",
+    "lastCheckedAt": "2026-07-06T17:47:38.791Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13506,7 +13775,13 @@
       "synonyms": [
         "I’ll Live A Long Life to Adore My Absolute Fave—Currently My Stepbrother"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "i ll live a long life to dote on my favorite stepbrother",
+    "youtubeMatchedVideoTitle": "I’ll Live a Long Life to Dote on My Favorite Stepbrother! EP1~4 | FULL EPISODE | ENG SUB [#ItsAnime]",
+    "youtubeMatchedScore": 56,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:38.792Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "meitantei-precure",
@@ -13565,7 +13840,7 @@
       "episodeCount": 23,
       "latestEpisodeNumber": 23,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -13576,7 +13851,8 @@
       "synonyms": [
         "TanPre (たんプリ)"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "high-school-kimengumi-2026",
@@ -13609,7 +13885,7 @@
     "latestEpisodeTitle": "High School! KIMENGUMI (2026) | Episode 1-3 | ENG-SUB [#ItsAnime]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=Lwr1_NmkyJ0",
     "latestPublishedAt": "2026-01-24T02:00:21Z",
-    "lastCheckedAt": "2026-07-06T16:42:40.575Z",
+    "lastCheckedAt": "2026-07-06T17:47:38.792Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13643,7 +13919,13 @@
       "english": "High School! Kimengumi (2026)",
       "native": "ハイスクール！奇面組 (2026)",
       "synonyms": []
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "high school kimengumi 2026",
+    "youtubeMatchedVideoTitle": "High School! KIMENGUMI (2026) | Episode 1-3 | ENG-SUB [#ItsAnime]",
+    "youtubeMatchedScore": 26,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:38.792Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "omae-wa-mada-gunma-wo-shiranai-reiwa-ban",
@@ -13672,7 +13954,7 @@
     "latestEpisodeTitle": "You Don't Know Gunma Yet～Reiwa Version～ EP1-2 | FULL EPISODE | ENG SUB [#ItsAnime]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=sqQFCj1ZmuE",
     "latestPublishedAt": "2026-05-20T02:00:38Z",
-    "lastCheckedAt": "2026-07-06T16:42:40.575Z",
+    "lastCheckedAt": "2026-07-06T17:47:38.792Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13706,7 +13988,13 @@
       "english": "You don't know Gunma yet.: Reiwa version",
       "native": "お前はまだグンマを知らない～令和版～",
       "synonyms": []
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "you don t know gunma yet reiwa version",
+    "youtubeMatchedVideoTitle": "You Don't Know Gunma Yet～Reiwa Version～ EP1-2 | FULL EPISODE | ENG SUB [#ItsAnime]",
+    "youtubeMatchedScore": 38,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:38.792Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "yami-shibai-16",
@@ -13842,7 +14130,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -13853,7 +14141,8 @@
       "synonyms": [
         "Yamishibai: Japanese Ghost Stories Sixteenth Season"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "hokuto-no-ken-kenougun-zako-tachi-no-banka",
@@ -13883,7 +14172,7 @@
     "latestEpisodeTitle": "Elegy for the Henchmen: Fist of the North Star ภาค 2 ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=6OK5ANUYANk",
     "latestPublishedAt": "2026-07-06T11:05:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13915,7 +14204,13 @@
       "english": "",
       "native": "北斗の拳 拳王軍ザコたちの挽歌",
       "synonyms": []
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "elegy for the henchmen fist of the north star",
+    "youtubeMatchedVideoTitle": "Elegy for the Henchmen: Fist of the North Star ภาค 2 ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 45,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "kanagawa-ni-sunderu-elf",
@@ -13944,7 +14239,7 @@
     "latestEpisodeTitle": "KANAGAWA ELVES EP1-4 | FULL EPISODE | ENG SUB [#ItsAnime]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=cIdiftM-yrU",
     "latestPublishedAt": "2026-06-17T02:00:30Z",
-    "lastCheckedAt": "2026-07-06T16:42:40.575Z",
+    "lastCheckedAt": "2026-07-06T17:47:38.792Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -13988,7 +14283,13 @@
       "english": "Kanagawa Elves",
       "native": "#神奈川に住んでるエルフ",
       "synonyms": []
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "kanagawa elves",
+    "youtubeMatchedVideoTitle": "KANAGAWA ELVES EP1-4 | FULL EPISODE | ENG SUB [#ItsAnime]",
+    "youtubeMatchedScore": 14,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:38.792Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "cardfight-vanguard-divinez-genma-seisen-hen",
@@ -14043,7 +14344,8 @@
       "synonyms": [
         "CARDFIGHT!! VANGUARD Divinez Parallactic Clash"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "hoppe-chan-sun-oukoku-to-kuro-hoppe-dan-no-himitsu",
@@ -14098,7 +14400,8 @@
       "synonyms": [
         "HOPPECHAN - Mystery of the Sun Kingdom and the Black-Cheek Team -"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "gelpiyo",
@@ -14151,7 +14454,8 @@
       "english": "",
       "native": "ゲルぴよ",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "metal-cardbot-w",
@@ -14205,7 +14509,8 @@
       "english": "",
       "native": "메탈카드봇W",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "xi-yangyang-yu-hui-tailang-gu-guguai-jie-you-guguai",
@@ -14267,7 +14572,8 @@
       "english": "",
       "native": "喜羊羊与灰太狼之古古怪界有古怪",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "xiong-chumo-xiongxiong-bang-bang-tuan-4",
@@ -14316,7 +14622,8 @@
     "season": "winter",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tongari-boushi-no-atelier",
@@ -14372,7 +14679,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -14384,7 +14691,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -14401,7 +14708,8 @@
         "Xưởng Phép Thuật",
         "Ателье колдовских колпаков"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "re-zero-kara-hajimeru-isekai-seikatsu-4th-season",
@@ -14434,7 +14742,7 @@
     "latestEpisodeTitle": "Re:ZERO -รีเซทชีวิต ฝ่าวิกฤตต่างโลก- ตอนที่ 77 (ซีซั่น 4 ตอนที่ 11) [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=CBePn6F5j1E",
     "latestPublishedAt": "2026-07-01T14:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -14542,7 +14850,7 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -14554,7 +14862,7 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -14566,7 +14874,13 @@
         "Re:ZERO รีเซทชีวิต ฝ่าวิกฤตต่างโลก ซีซั่น 4",
         "Re:ZERO – Жизнь с нуля в альтернативном мире 4"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "รีเซทชีวิต ฝ่าวิกฤตต่างโลก",
+    "youtubeMatchedVideoTitle": "Re:ZERO -รีเซทชีวิต ฝ่าวิกฤตต่างโลก- ตอนที่ 77 (ซีซั่น 4 ตอนที่ 11) [ซับไทย]",
+    "youtubeMatchedScore": 26,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-4th-season-2-nensei-hen-1-gakki",
@@ -14597,7 +14911,7 @@
     "latestEpisodeTitle": "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 - ตอนที่ 15 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=oCWjui7a8XQ",
     "latestPublishedAt": "2026-07-01T12:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -14720,7 +15034,7 @@
       "episodeCount": 16,
       "latestEpisodeNumber": 16,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -14732,7 +15046,7 @@
       "episodeCount": 16,
       "latestEpisodeNumber": 16,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -14752,7 +15066,13 @@
         "You-Zitsu",
         "Cote 4"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ขอต้อนรับสู่ห้องเรียนนิยม เฉพาะ ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
+    "youtubeMatchedVideoTitle": "ไม่กินแถมเล่นอีก|ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1 ตอนที่ 8",
+    "youtubeMatchedScore": 62,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "tensei-shitara-slime-datta-ken-4th-season",
@@ -14785,7 +15105,7 @@
     "latestEpisodeTitle": "เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4 - ตอนที่ 83 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=shZj-lt7Plg",
     "latestPublishedAt": "2026-07-03T15:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -14892,7 +15212,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -14904,7 +15224,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -14919,7 +15239,13 @@
         "О моём перерождении в слизь 4",
         "Aquella vez que me convertí en slime - Temporada 4"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4",
+    "youtubeMatchedVideoTitle": "เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4 - ตอนที่ 83 [ซับไทย]",
+    "youtubeMatchedScore": 42,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "yomi-no-tsugai",
@@ -14979,7 +15305,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -14991,7 +15317,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15007,7 +15333,8 @@
         "Daemons do Reino das Sombras",
         "Espíritus del Inframundo"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tsue-to-tsurugi-no-wistoria-season-2",
@@ -15038,7 +15365,7 @@
     "latestEpisodeTitle": "ตำนานดาบและคทาแห่งวิสตอเรีย - ตอนที่ 23 (ซีซั่น 2 ตอนที่ 11) [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=7KAs9bCvQyA",
     "latestPublishedAt": "2026-07-05T08:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -15145,7 +15472,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15157,7 +15484,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15169,7 +15496,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15181,7 +15508,13 @@
         "ตำนานดาบและคทาแห่งวิสตอเรีย ซีซั่น 2",
         "Tongkat Sihir dan Pedang Wistoria Season 2"
       ]
-    }
+    },
+    "youtubeMatchType": "fuzzy",
+    "youtubeMatchedAlias": "ตํานานดาบและคทาแห่งวิสตอเรีย ซีซั่น 2",
+    "youtubeMatchedVideoTitle": "ตำนานดาบและคทาแห่งวิสตอเรีย - ตอนที่ 23 (ซีซั่น 2 ตอนที่ 11) [ซับไทย]",
+    "youtubeMatchedScore": 0.857,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "dr-stone-science-future-part-3",
@@ -15248,7 +15581,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15260,7 +15593,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15272,7 +15605,8 @@
         "Dr.STONE Season 4 Part 3",
         "ドクターストーン"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-2",
@@ -15328,7 +15662,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15340,7 +15674,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15357,7 +15691,8 @@
         "關於我在無意間被隔壁的天使變成廢柴這件事",
         "Aku Dimanjakan Tetanggaku yang Seperti Malaikat"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta",
@@ -15413,7 +15748,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15426,7 +15761,8 @@
         "Kuranika",
         "クラにか"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "marriagetoxin",
@@ -15457,7 +15793,7 @@
     "latestEpisodeTitle": "วิวาห์แต้มพิษ - ตอนที่ 13 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=yYk0j2HLR_s",
     "latestPublishedAt": "2026-06-30T14:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -15586,7 +15922,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15598,7 +15934,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15610,7 +15946,13 @@
         "Marriage Toxin",
         "วิวาห์แต้มพิษ"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "วิวาห์แต้มพิษ",
+    "youtubeMatchedVideoTitle": "วิวาห์แต้มพิษ - ตอนที่ 13 [ซับไทย]",
+    "youtubeMatchedScore": 13,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "otaku-ni-yasashii-gal-wa-inai",
@@ -15669,7 +16011,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15682,7 +16024,8 @@
         "オタギャル",
         "OtaGyaru"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "koori-no-jouheki",
@@ -15739,7 +16082,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15752,7 +16095,8 @@
         "Стены изо льда",
         "ปราการน้ำแข็งแห่งหัวใจ"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "nippon-sangoku",
@@ -15812,7 +16156,8 @@
         "NIPPON SANGOKU: Kızıl Güneşin Üç Ulusu",
         "Nippon Sangoku: Las tres naciones del sol carmesí"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "himekishi-wa-barbaroi-no-yome",
@@ -15870,7 +16215,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15886,7 +16231,8 @@
         "BaruYome",
         "Принцесса-рыцарь — невеста варвара"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "aishiteru-game-wo-owarasetai",
@@ -15943,7 +16289,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15952,7 +16298,8 @@
       "english": "I Want to End this Love Game",
       "native": "愛してるゲームを終わらせたい",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "isekai-nonbiri-nouka-2",
@@ -16009,7 +16356,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16018,7 +16365,8 @@
       "english": "Farming Life in Another World 2",
       "native": "異世界のんびり農家２",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "needs_review"
   },
   {
     "id": "mairimashita-iruma-kun-4th-season",
@@ -16049,7 +16397,7 @@
     "latestEpisodeTitle": "อิรุมะคุง ผจญในแดนปีศาจ! ซีซั่น 4 - ตอนที่ 14 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=ejeb6tFDnAQ",
     "latestPublishedAt": "2026-07-04T10:55:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -16177,7 +16525,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16189,7 +16537,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16200,7 +16548,13 @@
       "synonyms": [
         "อิรุมะคุง ผจญในแดนปีศาจ ซีซั่น 4"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "อิรุมะคุง ผจญในแดนปีศาจ ซีซั่น 4",
+    "youtubeMatchedVideoTitle": "อิรุมะคุง ผจญในแดนปีศาจ! ซีซั่น 4 - ตอนที่ 14 [ซับไทย]",
+    "youtubeMatchedScore": 32,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoush",
@@ -16257,7 +16611,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16270,7 +16624,8 @@
         "本好きの下剋上 司書になるためには手段を選んでいられません 第4期",
         "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 4th Season"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "shunkashuutou-daikousha-haru-no-mai",
@@ -16301,7 +16656,7 @@
     "latestEpisodeTitle": "ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา - ตอนที่ 13  [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=SY81r1nEjaY",
     "latestPublishedAt": "2026-07-04T16:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -16366,7 +16721,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16378,7 +16733,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16393,7 +16748,13 @@
         "ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา",
         "Sứ giả bốn mùa: Vũ Điệu Mùa Xuân"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ลํานํารักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา",
+    "youtubeMatchedVideoTitle": "ลำนำรักผู้พิทักษ์ฤดูกาล ภาควสันตลีลา - ตอนที่ 13  [ซับไทย]",
+    "youtubeMatchedScore": 38,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "kanan-sama-wa-akumade-choroi",
@@ -16426,7 +16787,7 @@
     "latestEpisodeTitle": "ท่านคานัน ปีศาจต๊อง บ๊องไม่มีใครเกิน  ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=h8ipu2_xGmw",
     "latestPublishedAt": "2026-06-20T16:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -16540,7 +16901,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16552,7 +16913,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.492Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16568,7 +16929,13 @@
         "ท่านคานัน ปีศาจต๊อง บ๊องไม่มีใครเกิน",
         "Канан до чёртиков проста"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ท่านคานัน ปีศาจต๊อง บ๊องไม่มีใครเกิน",
+    "youtubeMatchedVideoTitle": "ท่านคานัน ปีศาจต๊อง บ๊องไม่มีใครเกิน  ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】",
+    "youtubeMatchedScore": 36,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-season-2",
@@ -16698,7 +17065,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16710,7 +17077,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16722,7 +17089,8 @@
         "TBATE S2",
         "Начало после конца 2"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "liar-game",
@@ -16782,7 +17150,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16794,7 +17162,8 @@
         " ライアーゲーム",
         "Игра лжецов"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "kill-ao",
@@ -16825,7 +17194,7 @@
     "latestEpisodeTitle": "KILL BLUE EP12 • Life Paths | MULTI-SUB [#ItsAnime]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=FbTz1RZpXFc",
     "latestPublishedAt": "2026-06-27T14:30:17Z",
-    "lastCheckedAt": "2026-07-06T16:42:40.575Z",
+    "lastCheckedAt": "2026-07-06T17:47:38.792Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -16902,7 +17271,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16914,7 +17283,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16926,7 +17295,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16938,7 +17307,13 @@
         "คิลบลู",
         "Убивая юность"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "kill blue",
+    "youtubeMatchedVideoTitle": "KILL BLUE EP12 • Life Paths | MULTI-SUB [#ItsAnime]",
+    "youtubeMatchedScore": 9,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:38.792Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "akane-banashi",
@@ -16968,7 +17343,7 @@
     "latestEpisodeTitle": "อาคาเนะ พลิกตำนานวงการราคุโกะ ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=tJ4AI9XMPXc",
     "latestPublishedAt": "2026-06-20T16:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -17090,7 +17465,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17103,7 +17478,13 @@
         "Сказание об Аканэ",
         "Chuyện Kể Akane"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "อาคาเนะ พลิกตํานานวงการราคุโกะ",
+    "youtubeMatchedVideoTitle": "อาคาเนะ พลิกตำนานวงการราคุโกะ ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】",
+    "youtubeMatchedScore": 30,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "needy-girl-overdose",
@@ -17160,7 +17541,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17173,7 +17554,8 @@
         "NEEDY STREAMER OVERLOAD",
         "NEEDY GIRL OVERDOSE -OVERTURE-"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "ganbare-nakamura-kun",
@@ -17230,7 +17612,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17241,7 +17623,8 @@
       "synonyms": [
         "Go For It, Nakamura!"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi",
@@ -17299,7 +17682,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17311,7 +17694,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.954Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17325,7 +17708,8 @@
         "ポンスカ",
         "Бесполезный дежурный и школьница со слишком короткой юбкой"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku",
@@ -17384,7 +17768,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17396,7 +17780,8 @@
         "Observation Records of My Fiancée: The Misadventures of a Self-Proclaimed Villainess",
         "บันทึกสังเกตการณ์คู่หมั้นผู้ประกาศตัวเป็นนางร้าย"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-y",
@@ -17454,7 +17839,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17466,7 +17851,8 @@
         "The Strongest Occupation Is Not a Hero or a Sage, but an Appraiser (Provisional)!",
         "Kanteishikari"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "reincarnation-no-kaben",
@@ -17498,7 +17884,7 @@
     "latestEpisodeTitle": "มหาศึกวีรชนข้ามภพ  ตอนที่ 13  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=VSKMD_eAgl8",
     "latestPublishedAt": "2026-06-25T16:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -17617,7 +18003,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17631,7 +18017,13 @@
         "輪迴的花瓣",
         "Cánh Hoa Luân Hồi"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "มหาศึกวีรชนข้ามภพ",
+    "youtubeMatchedVideoTitle": "มหาศึกวีรชนข้ามภพ  ตอนที่ 13  [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 17,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "kamiina-botan-yoeru-sugata-wa-yuri-no-hana",
@@ -17690,7 +18082,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17702,7 +18094,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17714,7 +18106,8 @@
         "โบตั๋น คามิอินะ งดงามดุจดอกลิลลี่ยามลอยละล่อง",
         "Kamiina Botan - Dáng Say Tựa Đoá Bách Hợp"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "kanojo-okarishimasu-5th-season",
@@ -17773,7 +18166,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17785,7 +18178,8 @@
         "かのかり 5",
         "KanoKari 5"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukus",
@@ -17816,7 +18210,7 @@
     "latestEpisodeTitle": "โศกนาฏกรรมของตัวร้ายสุดแกร่งอย่างราชินีลาสบอสจะขอถวายตัวเพื่อปวงชน ซีซั่น 2 - ตอนที่ 12  [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=FwkKkF3MPwI",
     "latestPublishedAt": "2026-06-23T13:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -17931,7 +18325,13 @@
         "ラス為 2",
         "โศกนาฏกรรมของตัวร้ายสุดแกร่งอย่างราชินีลาสบอสจะขอถวายตัวเพื่อปวงชน ซีซั่น 2"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "โศกนาฏกรรมของตัวร้ายสุดแกร่งอย่างราชินีลาสบอสจะขอถวายตัวเพื่อปวงชน ซีซั่น 2",
+    "youtubeMatchedVideoTitle": "โศกนาฏกรรมของตัวร้ายสุดแกร่งอย่างราชินีลาสบอสจะขอถวายตัวเพื่อปวงชน ซีซั่น 2 - ตอนที่ 12  [ซับไทย]",
+    "youtubeMatchedScore": 75,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "nigashita-sakana-wa-ookikatta-ga-tsuriageta-sakana-ga-ookisugita-ken",
@@ -17960,7 +18360,7 @@
     "latestEpisodeTitle": "ปล่อยปลาตัวใหญ่หลุดมือไปก็จริง แต่ไหงถึงได้ปลาตัวใหญ่กว่ามาแทนกันล่ะคะ - ตอนที่ 12 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=MFOUUg2kgHM",
     "latestPublishedAt": "2026-07-01T15:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -18074,7 +18474,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18086,7 +18486,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18104,7 +18504,13 @@
         "ปล่อยปลาตัวใหญ่หลุดมือไปก็จริง แต่ไหงถึงได้ปลาตัวใหญ่กว่ามาแทนกันล่ะคะ",
         "Để xổng mất là cá to, nhưng cá tôi câu được lại còn to hơn"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ปล่อยปลาตัวใหญ่หลุดมือไปก็จริง แต่ไหงถึงได้ปลาตัวใหญ่กว่ามาแทนกันล่ะคะ",
+    "youtubeMatchedVideoTitle": "ปล่อยปลาตัวใหญ่หลุดมือไปก็จริง แต่ไหงถึงได้ปลาตัวใหญ่กว่ามาแทนกันล่ะคะ - ตอนที่ 12 [ซับไทย]",
+    "youtubeMatchedScore": 70,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "yozakura-san-chi-no-daisakusen-2nd-season",
@@ -18158,7 +18564,8 @@
       "english": "Mission: Yozakura Family Season 2",
       "native": "夜桜さんちの大作戦 第2期",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "yowayowa-sensei",
@@ -18218,7 +18625,8 @@
         "YowaYowa Teacher",
         "คุณครูมาดหลอน หัวใจอ่อนแอ"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "needs_review"
   },
   {
     "id": "haibara-kun-no-tsuyokute-seishun-new-game",
@@ -18276,7 +18684,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18287,7 +18695,8 @@
       "synonyms": [
         "Haibara’s Teenage New Game+"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "niwatori-fighter",
@@ -18317,7 +18726,7 @@
     "latestEpisodeTitle": "ยอดไก่นักสู้กู้โลก ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=ZsDwtzWkv8I",
     "latestPublishedAt": "2026-07-05T16:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -18431,7 +18840,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18443,7 +18852,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18454,7 +18863,13 @@
       "synonyms": [
         "ยอดไก่นักสู้กู้โลก"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ยอดไก่นักสู้กู้โลก",
+    "youtubeMatchedVideoTitle": "ยอดไก่นักสู้กู้โลก ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 18,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "kuroneko-to-majo-no-kyoushitsu",
@@ -18484,7 +18899,7 @@
     "latestEpisodeTitle": "ห้องเรียนเวทมนตร์กับคุณแมวดำ ตอนที่ 13 [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=2hgQP9tfPTM",
     "latestPublishedAt": "2026-07-05T15:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -18605,7 +19020,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18617,7 +19032,13 @@
         "The Classroom of a Black Cat and a Witch",
         "Чёрная кошка и класс ведьм"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ห้องเรียนเวทมนตร์กับคุณแมวดํา",
+    "youtubeMatchedVideoTitle": "ห้องเรียนเวทมนตร์กับคุณแมวดำ ตอนที่ 13 [ซับไทย] 【Ani-One Thailand】",
+    "youtubeMatchedScore": 29,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "mao",
@@ -18650,7 +19071,7 @@
     "latestEpisodeTitle": "MAO หาญสู้พลิกชะตาอาถรรพณ์ ตอนที่ 14  [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=1rIfOnXhNz8",
     "latestPublishedAt": "2026-07-06T04:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -18786,7 +19207,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18798,7 +19219,13 @@
         "マオ",
         "MAO หาญสู้พลิกชะตาอาถรรพณ์"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "mao หาญสู้พลิกชะตาอาถรรพณ์",
+    "youtubeMatchedVideoTitle": "MAO หาญสู้พลิกชะตาอาถรรพณ์ ตอนที่ 14  [ซับไทย] 【Ani-One Thailand】",
+    "youtubeMatchedScore": 26,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "kami-no-niwatsuki-kusunoki-tei",
@@ -18830,7 +19257,7 @@
     "latestEpisodeTitle": "บ้านพักคุสึโนกิกับสวนเทพเจ้า ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=Kjc918fOFFI",
     "latestPublishedAt": "2026-06-20T16:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -18944,7 +19371,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18956,7 +19383,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18968,7 +19395,13 @@
         "บ้านพักคุสึโนกิกับสวนเทพเจ้า",
         "Божественный сад у поместья Кусуноки"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "บ้านพักคุสึโนกิกับสวนเทพเจ้า",
+    "youtubeMatchedVideoTitle": "บ้านพักคุสึโนกิกับสวนเทพเจ้า ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 28,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "megami-isekai-tensei-nani-ni-naritai-desu-ka-ore-yuusha-no-rokkotsu-de",
@@ -19000,7 +19433,7 @@
     "latestEpisodeTitle": "【English Sub】《My Ribdiculous Reincarnation》｜Episode 09｜TROPICS ENTERTAINMENT",
     "latestVideoUrl": "https://www.youtube.com/watch?v=7Mi8mnw7Wxo",
     "latestPublishedAt": "2026-07-01T12:00:07Z",
-    "lastCheckedAt": "2026-07-06T16:42:39.890Z",
+    "lastCheckedAt": "2026-07-06T17:47:37.735Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -19217,7 +19650,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -19232,7 +19665,13 @@
         "Reinkarnasiku... Ingin Jadi Tulang Rusuk Pahlawan!",
         "ท่านเทพธิดาจัดมา ผมก็จัดไป ขอเกิดใหม่เป็นซี่โครงผู้กล้าละกันครับ"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ท่านเทพธิดาจัดมา ผมก็จัดไป ขอเกิดใหม่เป็นซี่โครงผู้กล้าละกันครับ",
+    "youtubeMatchedVideoTitle": "【ซับไทย】《ท่านเทพธิดาจัดมา ผมก็จัดไป ขอเกิดใหม่เป็นซี่โครงผู้กล้าละกันครับ》｜ตอนที่ 09｜TROPICS",
+    "youtubeMatchedScore": 64,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:37.735Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-3rd-season",
@@ -19290,7 +19729,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -19303,7 +19742,8 @@
         "自販機 3",
         "Reborn as a Vending Machine, I Now Wander the Dungeon Season 3"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "mata-korosarete-shimatta-no-desu-ne-tantei-sama",
@@ -19359,7 +19799,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -19372,7 +19812,8 @@
         "Matakoro",
         "Killed Again, Mr. Detective?"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "replica-datte-koi-wo-suru",
@@ -19430,7 +19871,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -19442,7 +19883,8 @@
         "Даже копия способна влюбиться",
         "รักฉันเทียมเธอ"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "snowball-earth",
@@ -19473,7 +19915,7 @@
     "latestEpisodeTitle": "สโนว์บอลเอิร์ธ - ตอนที่ 13 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=aIJCMlRmqSs",
     "latestPublishedAt": "2026-06-29T07:15:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -19594,7 +20036,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -19606,7 +20048,13 @@
         "สโนว์บอลเอิร์ธ",
         "Земля-снежок"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "สโนว์บอลเอิร์ธ",
+    "youtubeMatchedVideoTitle": "สโนว์บอลเอิร์ธ - ตอนที่ 13 [ซับไทย]",
+    "youtubeMatchedScore": 14,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "marika-chan-no-koukando-wa-bukkowareteiru",
@@ -19660,7 +20108,8 @@
       "english": "Marika's Love Meter Malfunction",
       "native": "茉莉花ちゃんの好感度はぶっ壊れている",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tadaima-ojamasaremasu",
@@ -19719,7 +20168,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -19728,7 +20177,8 @@
       "english": "Pardon the Intrusion, I'm Home!",
       "native": "ただいま、おじゃまされます！",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "diamond-no-ace-act-ii-second-season",
@@ -19793,7 +20243,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -19804,7 +20254,8 @@
       "synonyms": [
         "Ace of the Diamond act II Season 2"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "needs_review"
   },
   {
     "id": "maid-san-wa-taberu-dake",
@@ -19860,7 +20311,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -19871,7 +20322,8 @@
       "synonyms": [
         "メイ食べ"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "hidarikiki-no-eren",
@@ -19929,7 +20381,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -19938,7 +20390,8 @@
       "english": "Eren the Southpaw",
       "native": "左ききのエレン",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "awajima-hyakkei",
@@ -19968,7 +20421,7 @@
     "latestEpisodeTitle": "หนึ่งร้อยทิวทัศน์แห่งอาวาจิมะ ตอนที่ 12   [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=DQXEpra0hmY",
     "latestPublishedAt": "2026-06-25T16:45:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -20082,7 +20535,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -20095,7 +20548,13 @@
         "หนึ่งร้อยทิวทัศน์แห่งอาวาจิมะ",
         "Сто видов Авадзимы"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "หนึ่งร้อยทิวทัศน์แห่งอาวาจิมะ",
+    "youtubeMatchedVideoTitle": "หนึ่งร้อยทิวทัศน์แห่งอาวาจิมะ ตอนที่ 12   [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 29,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "mamonogurai-no-boukensha-ore-dake-mamono-wo-kuratte-tsuyoku-naru",
@@ -20124,7 +20583,7 @@
     "latestEpisodeTitle": "ผู้กลืนกินมอนสเตอร์ ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=LRf77Cy2Sfs",
     "latestPublishedAt": "2026-07-02T17:15:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -20235,7 +20694,13 @@
       "english": "Monster Eater",
       "native": "魔物喰らいの冒険者 ~俺だけ魔物を喰らって強くなる~",
       "synonyms": []
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ผู้กลืนกินมอนสเตอร์",
+    "youtubeMatchedVideoTitle": "ผู้กลืนกินมอนสเตอร์ ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】",
+    "youtubeMatchedScore": 19,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "ichijouma-mankitsugurashi",
@@ -20265,7 +20730,7 @@
     "latestEpisodeTitle": "Ichijyoma Mankitsu Gurashi! EP11 • Manga Cafe Hedgehog | MULTI-SUB [#ItsAnime]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=DjcHcfIBs18",
     "latestPublishedAt": "2026-06-20T17:00:05Z",
-    "lastCheckedAt": "2026-07-06T16:42:40.575Z",
+    "lastCheckedAt": "2026-07-06T17:47:38.792Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -20367,7 +20832,13 @@
       "english": "Ichijyoma Mankitsu Gurashi!",
       "native": "一畳間まんきつ暮らし！",
       "synonyms": []
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ichijyoma mankitsu gurashi",
+    "youtubeMatchedVideoTitle": "Ichijyoma Mankitsu Gurashi! EP11 • Manga Cafe Hedgehog | MULTI-SUB [#ItsAnime]",
+    "youtubeMatchedScore": 26,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:38.792Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "kirio-fanclub",
@@ -20396,7 +20867,7 @@
     "latestEpisodeTitle": "คิริโอะแฟนคลับ ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=ISzVk113xYk",
     "latestPublishedAt": "2026-06-18T16:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -20510,7 +20981,13 @@
         "KirioFC",
         "คิริโอะแฟนคลับ"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "คิริโอะแฟนคลับ",
+    "youtubeMatchedVideoTitle": "คิริโอะแฟนคลับ ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】",
+    "youtubeMatchedScore": 14,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "hokuto-no-ken-fist-of-the-north-star",
@@ -20569,7 +21046,8 @@
       "synonyms": [
         "El puño de la Estrella del Norte: HOKUTO NO KEN"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "daikenja-riddle-no-jikan-gyakkou",
@@ -20599,7 +21077,7 @@
     "latestEpisodeTitle": "การย้อนเวลาของมหาปราชญ์ริดเดิล ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=9dVHDK-W51Q",
     "latestPublishedAt": "2026-07-04T12:55:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -20713,7 +21191,13 @@
         "The Great Sage Riddle's Time Reversal",
         "การย้อนเวลาของมหาปราชญ์ริดเดิล"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "การย้อนเวลาของมหาปราชญ์ริดเดิล",
+    "youtubeMatchedVideoTitle": "การย้อนเวลาของมหาปราชญ์ริดเดิล ตอนที่ 12  [ซับไทย] 【Ani-One Thailand】",
+    "youtubeMatchedScore": 30,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "ingoku-danchi",
@@ -20770,7 +21254,8 @@
         "Perverts' Apartment Complex ",
         "淫獄団地"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "kujima-utaeba-ie-hororo",
@@ -20801,7 +21286,7 @@
     "latestEpisodeTitle": "ยามเมื่อคุจิมะขับขาน ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=-SZgih6gJJk",
     "latestPublishedAt": "2026-06-25T14:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -20915,7 +21400,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -20926,7 +21411,13 @@
       "synonyms": [
         "ยามเมื่อคุจิมะขับขาน"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ยามเมื่อคุจิมะขับขาน",
+    "youtubeMatchedVideoTitle": "ยามเมื่อคุจิมะขับขาน ตอนที่ 12 [ซับไทย] 【Ani-One Thailand】",
+    "youtubeMatchedScore": 20,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "kami-no-shizuku",
@@ -20958,7 +21449,7 @@
     "latestEpisodeTitle": "【Subtitle Indonesia】《The Drops of God》｜Episode 09｜TROPICS ENTERTAINMENT",
     "latestVideoUrl": "https://www.youtube.com/watch?v=Yvgjx4MzEsM",
     "latestPublishedAt": "2026-07-03T12:00:07Z",
-    "lastCheckedAt": "2026-07-06T16:42:39.890Z",
+    "lastCheckedAt": "2026-07-06T17:47:37.735Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -21175,7 +21666,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -21188,7 +21679,13 @@
         "신의물방울",
         "สืบมรดกข้ามชาติ หยาดเทวะ"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "สืบมรดกข้ามชาติ หยาดเทวะ",
+    "youtubeMatchedVideoTitle": "【ซับไทย】《สืบมรดกข้ามชาติ หยาดเทวะ》｜ตอนที่ 09｜TROPICS ENTERTAINMENT",
+    "youtubeMatchedScore": 24,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:37.735Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "mahou-no-shimai-lulutto-lilly",
@@ -21243,7 +21740,8 @@
         "るるりり",
         "MSLL"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "ghost-concert-missing-songs",
@@ -21274,7 +21772,7 @@
     "latestEpisodeTitle": "โกสต์คอนเสิร์ต : บทเพลงที่หายไป ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=RGvOUY7mXfQ",
     "latestPublishedAt": "2026-06-21T15:30:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -21388,7 +21886,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -21399,7 +21897,13 @@
       "synonyms": [
         "โกสต์คอนเสิร์ต : บทเพลงที่หายไป"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "โกสต์คอนเสิร์ต บทเพลงที่หายไป",
+    "youtubeMatchedVideoTitle": "โกสต์คอนเสิร์ต : บทเพลงที่หายไป ตอนที่ 12  [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedScore": 29,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "hyakki-yakoushou",
@@ -21432,7 +21936,7 @@
     "latestEpisodeTitle": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล ตอนที่ 11  [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=mf5ofkc9S0Q",
     "latestPublishedAt": "2026-06-30T13:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:38.043Z",
+    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -21544,7 +22048,13 @@
         "La Corte dei Cento Demoni",
         "บันทึกขบวนร้อยอสูรแห่งรัตติกาล"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล",
+    "youtubeMatchedVideoTitle": "บันทึกขบวนร้อยอสูรแห่งรัตติกาล ตอนที่ 11  [ซับไทย] 【Ani-One Thailand】",
+    "youtubeMatchedScore": 30,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "rilakkuma",
@@ -21574,7 +22084,7 @@
     "latestEpisodeTitle": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 14 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=HN4C7Q8vsQM",
     "latestPublishedAt": "2026-07-04T01:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -21720,7 +22230,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -21737,7 +22247,13 @@
         "リラックマ てくてく世界旅行",
         "Rilakkuma: Tekuteku Sekai Ryokou"
       ]
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย",
+    "youtubeMatchedVideoTitle": "ริลัคคุมะ ทริปเดินทางในฝันสุดผ่อนคลายเที่ยวรอบโลกสุดผ่อนคลาย - ตอนที่ 14 [ซับไทย]",
+    "youtubeMatchedScore": 60,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "cheongchun-blossom-uliui-bom",
@@ -21792,7 +22308,8 @@
       "synonyms": [
         "Seasons of Blossom"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "komekami-girls",
@@ -21844,7 +22361,8 @@
       "synonyms": [
         "こめかみっ！ガールズ"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "onegai-aipri",
@@ -21897,7 +22415,8 @@
       "english": "",
       "native": "おねがいアイプリ",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "candy-caries",
@@ -21926,7 +22445,7 @@
     "latestEpisodeTitle": "CANDY CARIES - ตอนที่ 12 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=NnhNEVQ-1I0",
     "latestPublishedAt": "2026-07-01T16:00:26Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -22041,7 +22560,13 @@
       "english": "",
       "native": "キャンディーカリエス",
       "synonyms": []
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "candy caries",
+    "youtubeMatchedVideoTitle": "CANDY CARIES - ตอนที่ 12 [ซับไทย]",
+    "youtubeMatchedScore": 12,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "shou-3-ashibe-qq-goma-chan",
@@ -22095,7 +22620,8 @@
       "english": "",
       "native": "小3アシベ QQゴマちゃん",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "nezumi-kun-no-chokki-tv",
@@ -22151,7 +22677,8 @@
       "synonyms": [
         "Little Mouse's Red Vest"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "kumarba-season-3",
@@ -22203,7 +22730,8 @@
       "english": "",
       "native": "クマーバシーズン3",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "oshiri-tantei-10th-season",
@@ -22253,7 +22781,8 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "chibi-godzilla-no-gyakushuu-4th-season",
@@ -22300,7 +22829,8 @@
     "season": "spring",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "kusuriya-no-hitorigoto-3rd-season",
@@ -22358,7 +22888,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -22369,7 +22899,8 @@
       "synonyms": [
         "The Apothecary Diaries Season 3"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tensei-shitara-ken-deshita-2",
@@ -22431,7 +22962,8 @@
         "ซวยเหลือหลาย เกิดใหม่กลายเป็นดาบ ภาค 2",
         "TENKEN - Reincarnato in una spada"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "black-clover-2nd-season",
@@ -22488,7 +23020,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -22497,7 +23029,8 @@
       "english": "Black Clover Season 2",
       "native": "ブラッククローバー 第2期",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "ao-no-hako-season-2",
@@ -22557,7 +23090,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -22569,7 +23102,8 @@
         "Ao no Hako 2nd Season",
         "アオのハコ 第2期"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tantei-wa-mou-shindeiru-season-2",
@@ -22630,7 +23164,8 @@
         "นักสืบตายเเล้ว ภาค 2",
         "たんもし 2"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tokyo-revengers-santen-sensou-hen",
@@ -22689,7 +23224,8 @@
         "Tokyo Revengers (Sequel)",
         "Tokyo Revengers: War of the Three Titans Arc"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "kikansha-no-mahou-wa-tokubetsu-desu-2nd-season",
@@ -22747,7 +23283,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -22760,7 +23296,8 @@
         "Teukbyeolhaeya Hamnida",
         "귀환자의 마법은 특별해야 합니다"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tensei-kizoku-kantei-skill-de-nariagaru-3rd-season",
@@ -22815,7 +23352,8 @@
       "english": "",
       "native": "転生貴族、鑑定スキルで成り上がる 第3期",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "ao-ashi-season-2",
@@ -22869,7 +23407,8 @@
       "english": "",
       "native": "アオアシ 第2期",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "sasaki-to-pii-chan-season-2",
@@ -22927,7 +23466,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -22941,7 +23480,8 @@
         "ささピー 2",
         "SasaPii 2"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "dragon-ball-super-beerus",
@@ -22997,7 +23537,8 @@
       "english": "",
       "native": "ドラゴンボール超 ビルス",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "ranma-1-2-2024-3rd-season",
@@ -23059,7 +23600,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -23068,7 +23609,8 @@
       "english": "Ranma1/2 (2024) Season 3",
       "native": "らんま1/2 (2024) 第3期",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "hotaru-no-yomeiri",
@@ -23124,7 +23666,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -23133,7 +23675,8 @@
       "english": "Firefly Wedding",
       "native": "ホタルの嫁入り",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tougen-anki-nikko-kegon-no-taki-hen",
@@ -23191,7 +23734,8 @@
         "桃源暗鬼 2期",
         "Tougen Anki Season 2"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "needs_review"
   },
   {
     "id": "hyouken-no-majutsushi-ga-sekai-wo-suberu-ii",
@@ -23247,7 +23791,8 @@
       "synonyms": [
         "The Iceblade Sorcerer Shall Rule the World Season 2"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tensei-shita-daiseijo-wa-seijo-de-aru-koto-wo-hitakakusu",
@@ -23304,7 +23849,8 @@
       "synonyms": [
         "A Tale of the Secret Saint"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "magic-knight-rayearth-2026",
@@ -23371,7 +23917,8 @@
       "synonyms": [
         "Magical Knight Rayearth New Project"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "psyren",
@@ -23442,7 +23989,8 @@
       "english": "",
       "native": "PSYREN -サイレン-",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "mahou-shoujo-ikusei-keikaku-restart",
@@ -23503,7 +24051,8 @@
         "まほいく ",
         "MahoIku"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "yozakura-san-chi-no-daisakusen-2nd-season-part-2",
@@ -23557,7 +24106,8 @@
       "english": "Mission: Yozakura Family Season 2 Part 2",
       "native": "夜桜さんちの大作戦 第2期 第2クール",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "toaru-anbu-no-item",
@@ -23615,7 +24165,8 @@
       "synonyms": [
         "A Certain Dark Side's Item"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "kyouran-reijou-nia-liston-byoujaku-reijou-ni-tensei-shita-kamigoroshi-no-bujin-n",
@@ -23670,7 +24221,8 @@
       "synonyms": [
         "Nia Liston: The Merciless Maiden"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "mezametara-saikyou-soubi-to-uchuusenmochi-datta-node-ikkodate-mezashite-youhei-t",
@@ -23728,7 +24280,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -23740,7 +24292,8 @@
         "Saikyosoubi",
         "めざめざ"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu",
@@ -23797,7 +24350,8 @@
         "Hi, I'm a Witch, and My Crush Wants Me to Make a Love Potion",
         "I'm a witch who's crush requested a love potion"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "magical-explorer",
@@ -23864,7 +24418,8 @@
       "synonyms": [
         "Magical Explorer: Reborn as a Side Character in a Fantasy Dating Sim"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "shiotaiou-no-satou-san-ga-ore-ni-dake-amai",
@@ -23919,7 +24474,8 @@
       "synonyms": [
         "The Cold Sato-san is Only Sweet to Me"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "yowaki-max-reijou-nanoni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta",
@@ -23976,7 +24532,8 @@
       "synonyms": [
         "Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "shuiro-no-kamen",
@@ -24033,7 +24590,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.493Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -24042,7 +24599,8 @@
       "english": "The Vermilion Mask",
       "native": "朱色の仮面",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "hotel-inhumans-2nd-season",
@@ -24096,7 +24654,8 @@
       "english": "",
       "native": "ホテル・インヒューマンズ 第2期",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tempal-item-no-chikara",
@@ -24153,7 +24712,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.494Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -24164,7 +24723,8 @@
       "synonyms": [
         "템빨"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tank-chair",
@@ -24218,7 +24778,8 @@
       "english": "",
       "native": "TANK CHAIR-戦車椅子-",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "zombie-sagashitemasu",
@@ -24274,7 +24835,8 @@
       "synonyms": [
         "#I'm Looking for Zombie"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "diamond-no-ace-act-ii-second-season-part-2",
@@ -24305,7 +24867,7 @@
     "latestEpisodeTitle": "Ace of Diamond ซีซั่น 2 - ตอนที่ 34 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=KRdb8bpWQtA",
     "latestPublishedAt": "2026-07-06T11:00:06Z",
-    "lastCheckedAt": "2026-07-06T16:42:30.874Z",
+    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -24661,7 +25223,13 @@
       "english": "",
       "native": "ダイヤのA actⅡ -Second Season- 第2クール",
       "synonyms": []
-    }
+    },
+    "youtubeMatchType": "exact",
+    "youtubeMatchedAlias": "ace of diamond act 2 ซีซั่น 2",
+    "youtubeMatchedVideoTitle": "Ace of Diamond act 2 ซีซั่น 2 - ตอนที่ 13 [ซับไทย]",
+    "youtubeMatchedScore": 29,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ore-w",
@@ -24720,7 +25288,8 @@
         "チー付与",
         "The Laid-Off Cheat-Granting Mage Enjoys a New Life"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "gensou-suikoden",
@@ -24776,7 +25345,8 @@
       "synonyms": [
         "Suikoden: The Anime"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "sekai-saikyou-no-majo-hajimemashita",
@@ -24834,7 +25404,8 @@
         "Sekai Saikyou no Majo, Hajimemashita: Watashi dake \"Kouryaku Site\" wo Mireru Sekai de Jiyuu ni Ikimasu",
         "世界最強の魔女、始めました　～私だけ『攻略サイト』を見れる世界で自由に生きます～"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu",
@@ -24893,7 +25464,8 @@
         "Maryoku Revo",
         "魔力リボ"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "kizu-darake-seijo-yori-houfuku-wo-komete-season-2",
@@ -24922,7 +25494,7 @@
     "latestEpisodeTitle": "With Vengeance, Sincerely, Your Broken Saintess EP1-3 | FULL EPISODE | ENG SUB [#ItsAnime]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=hi1Bnwsq-Ec",
     "latestPublishedAt": "2026-07-01T02:00:03Z",
-    "lastCheckedAt": "2026-07-06T16:42:40.575Z",
+    "lastCheckedAt": "2026-07-06T17:47:38.792Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -24956,7 +25528,13 @@
       "english": "",
       "native": "傷だらけ聖女より報復をこめて Season2",
       "synonyms": []
-    }
+    },
+    "youtubeMatchType": "fuzzy",
+    "youtubeMatchedAlias": "with vengeance sincerely your broken saintess season 2",
+    "youtubeMatchedVideoTitle": "With Vengeance, Sincerely, Your Broken Saintess EP1-3 | FULL EPISODE | ENG SUB [#ItsAnime]",
+    "youtubeMatchedScore": 0.907,
+    "youtubeLastMatchedAt": "2026-07-06T17:47:38.792Z",
+    "youtubeDiscoveryStatus": "matched"
   },
   {
     "id": "choujun-choujou-senpai",
@@ -25014,7 +25592,8 @@
       "synonyms": [
         "Super Psychic Policeman Chojo"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "junket-bank",
@@ -25071,7 +25650,8 @@
       "english": "",
       "native": "ジャンケットバンク",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "vertex-force",
@@ -25124,7 +25704,8 @@
       "english": "",
       "native": "バーテックスフォース",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tensei-goblin-dakedo-shitsumon-aru",
@@ -25192,7 +25773,8 @@
         "เกิดใหม่เป็นก็อบลินแล้วไง มีคำถามอะไรไหม?",
         "Tengobu"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tetsuryou-meet-with-tetsudou-musume",
@@ -25248,7 +25830,8 @@
       "synonyms": [
         "TETSURYO! meet with Tetsudou Musume"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "shin-tennis-no-oujisama-u-17-world-cup-kesshou-member-ketteisen",
@@ -25304,7 +25887,8 @@
       "synonyms": [
         "The Prince of Tennis II U-17 WORLD CUP Final Member Selection Match "
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "keroro-gunsou",
@@ -25363,7 +25947,8 @@
       "https://th.wikipedia.org/wiki/เคโรโระ_ขบวนการอ๊บอ๊บป่วนโลก"
     ],
     "youtubeLastResearchedAt": "",
-    "youtubeOfficialChannelUrl": ""
+    "youtubeOfficialChannelUrl": "",
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "dark-summoner-to-dekiteiru",
@@ -25417,7 +26002,8 @@
       "english": "I'm Dating a Dark Summoner",
       "native": "ダークサモナーとデキている",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "ojisan-wa-kawaii-mono-ga-osuki",
@@ -25473,7 +26059,8 @@
         "Ojikawa",
         "おじかわ"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "kanojo-no-tomodachi",
@@ -25528,7 +26115,8 @@
       "synonyms": [
         "My Girlfriend's Friend"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "needs_review"
   },
   {
     "id": "kyoufu-collector",
@@ -25585,7 +26173,8 @@
       "synonyms": [
         "Horror Collector"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "marronnier-oukoku-no-shichinin-no-kishi",
@@ -25641,7 +26230,8 @@
       "synonyms": [
         "The Seven Knights of the Marronnier Kingdom"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "mahou-no-shimai-lulutto-lilly-part-2",
@@ -25697,7 +26287,8 @@
         "るるりり",
         "MSLL"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "battle-spirits-re-zekkai-no-kuu",
@@ -25744,7 +26335,8 @@
     "season": "fall",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "juuou-mujin-dandivine",
@@ -25799,7 +26391,8 @@
         "Gattaishin: Dandivine",
         "Gattaishin Series"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "cardfight-vanguard-divinez-unmei-seisen-hen",
@@ -25856,7 +26449,8 @@
       "https://www.anime-masters.com/cardfight-vanguard-divinez/"
     ],
     "youtubeLastResearchedAt": "",
-    "youtubeOfficialChannelUrl": ""
+    "youtubeOfficialChannelUrl": "",
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tanuki-to-kitsune-tv",
@@ -25903,7 +26497,8 @@
     "season": "fall",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "sirotan",
@@ -25956,7 +26551,8 @@
       "english": "",
       "native": "しろたん",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "yuruyuru-zukan",
@@ -26002,7 +26598,8 @@
     "season": "fall",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "koori-no-jouheki-2nd-season",
@@ -26056,7 +26653,8 @@
       "english": "The Ramparts of Ice Season 2",
       "native": "氷の城壁 第2期",
       "synonyms": []
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "thunder-3",
@@ -26105,7 +26703,8 @@
     "season": "summer",
     "year": 2026,
     "catalogYear": 2026,
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "tomica-to-tom-tv-season-2",
@@ -26162,7 +26761,8 @@
         "Tomica to Tom 2",
         "Tomica and Tom"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "otome-game-sekai-wa-mob-ni-kibishii-sekai-desu-2",
@@ -26223,7 +26823,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.494Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -26235,7 +26835,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-06T16:43:00.494Z",
+      "lastCheckedAt": "2026-07-06T17:47:56.955Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -26250,7 +26850,8 @@
         "Otomege 2",
         "モブせか 2"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "seitokai-ni-mo-ana-wa-aru",
@@ -26308,7 +26909,8 @@
         "生穴る",
         "NamaAnaru"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   },
   {
     "id": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku",
@@ -26365,6 +26967,7 @@
         "Full Clearing Another World under a Goddess with Zero Believers",
         "Clear the world like a game with the zero believer goddess"
       ]
-    }
+    },
+    "youtubeDiscoveryStatus": "not_found"
   }
 ]
