@@ -31,7 +31,7 @@ const MEDIA_QUERY = `query ($ids: [Int], $page: Int, $perPage: Int) {
 const EPISODE_TITLE_PATTERN = /^Episode\s+([0-9]+(?:\.[0-9]+)?)\s*(?:-\s*(.*))?$/i;
 
 // AniList's externalLinks/streamingEpisodes already carry every site for a
-// title in one response, so both platforms below come from a single fetch —
+// title in one response, so all platforms below come from a single fetch —
 // no extra AniList requests are needed to add a platform here.
 // Bilibili TV (bilibili.tv) is the licensed, Thai/SEA-facing global service;
 // plain "Bilibili" on AniList maps to bilibili.com, the mainland China site
@@ -44,7 +44,8 @@ const EPISODE_TITLE_PATTERN = /^Episode\s+([0-9]+(?:\.[0-9]+)?)\s*(?:-\s*(.*))?$
 // populates it.
 const PLATFORMS = [
   { key: 'crunchyroll', site: 'Crunchyroll', field: 'crunchyroll', confidence: 'confirmed_from_crunchyroll', outranks: [] },
-  { key: 'bilibili', site: 'Bilibili TV', field: 'bilibili', confidence: 'confirmed_from_bilibili', outranks: ['crunchyroll'] }
+  { key: 'bilibili', site: 'Bilibili TV', field: 'bilibili', confidence: 'confirmed_from_bilibili', outranks: ['crunchyroll'] },
+  { key: 'netflix', site: 'Netflix', field: 'netflix', confidence: 'confirmed_from_netflix', outranks: ['crunchyroll', 'bilibili'] }
 ];
 
 async function anilistRequest(query, variables, attempt = 1, fetcher = fetch) {
@@ -156,8 +157,8 @@ function hasYoutubeSignal(item) {
   return Boolean(item.playlistId || item.latestVideoUrl || (item.availableEpisodes || []).length);
 }
 
-// Bilibili yields to a Crunchyroll confirmation (and both yield to YouTube via
-// hasYoutubeSignal), so a lower-priority platform never overwrites a
+// Bilibili yields to Crunchyroll, Netflix yields to both, and every platform
+// yields to YouTube via hasYoutubeSignal, so a lower-priority platform never overwrites a
 // higher-priority one's claim on status/confidence within the same run.
 function isOutrankedByHigherPlatform(item, platform) {
   return platform.outranks.some(key => {

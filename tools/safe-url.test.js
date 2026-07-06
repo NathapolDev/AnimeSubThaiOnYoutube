@@ -10,6 +10,8 @@ test('allows HTTPS links for supported external sites', () => {
   assert.equal(safeExternalUrl('https://crunchyroll.com/series/G3KHEVDJ7'), 'https://crunchyroll.com/series/G3KHEVDJ7');
   assert.equal(safeExternalUrl('https://www.bilibili.tv/th/play/12345/67890'), 'https://www.bilibili.tv/th/play/12345/67890');
   assert.equal(safeExternalUrl('https://bilibili.tv/en/media/12345'), 'https://bilibili.tv/en/media/12345');
+  assert.equal(safeExternalUrl('https://www.netflix.com/title/81663323'), 'https://www.netflix.com/title/81663323');
+  assert.equal(safeExternalUrl('https://netflix.com/title/81663323'), 'https://netflix.com/title/81663323');
 });
 
 test('rejects executable, insecure, and lookalike URLs', () => {
@@ -23,7 +25,9 @@ test('rejects executable, insecure, and lookalike URLs', () => {
     'https://crunchyroll.com.evil.example/watch/abc/x',
     'http://www.bilibili.tv/th/play/12345/67890',
     'https://bilibili.tv.evil.example/th/play/12345/67890',
-    'https://www.bilibili.com/video/BV1xx411c7mD'
+    'https://www.bilibili.com/video/BV1xx411c7mD',
+    'http://www.netflix.com/title/1',
+    'https://netflix.com.evil.example/title/1'
   ]) assert.equal(safeExternalUrl(url), '#');
 });
 

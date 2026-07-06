@@ -1,6 +1,6 @@
 # Anime TV Catalog — Thai YouTube Tracker
 
-Static website สำหรับแสดงอนิเมะ TV ทั้งปีจาก Jikan พร้อมติดตามตอนจากช่อง YouTube ลิขสิทธิ์ไทย และช่องทางรับชมบน Crunchyroll และ Bilibili TV
+Static website สำหรับแสดงอนิเมะ TV ทั้งปีจาก Jikan พร้อมติดตามตอนจากช่อง YouTube ลิขสิทธิ์ไทย และช่องทางรับชมบน Crunchyroll, Bilibili TV และ Netflix
 
 ## วิธีเปิด
 
@@ -27,13 +27,13 @@ node tools/update-youtube.js
 node tools/discover-youtube.js
 ```
 
-อัปเดตช่องทางรับชม Crunchyroll และ Bilibili TV (ดึงจาก AniList API — ไม่ต้องใช้ key):
+อัปเดตช่องทางรับชม Crunchyroll, Bilibili TV และ Netflix (ดึงจาก AniList API — ไม่ต้องใช้ key):
 
 ```powershell
 node tools/update-streaming-platforms.js
 ```
 
-สคริปต์นี้ค้นด้วย `malId` ของแต่ละเรื่อง แล้วเขียน field `crunchyroll` และ `bilibili` (ลิงก์ซีรีส์ + รายการตอน) ลงข้อมูลจากการเรียก AniList เพียงครั้งเดียวต่อรายการ (ข้อมูล external link ของทุกแพลตฟอร์มมาในคำตอบเดียวกันอยู่แล้ว) เรื่องที่มีตอนบนแพลตฟอร์มใดแพลตฟอร์มหนึ่งจะถูกนับเป็น "ดูได้แล้ว" ตามลำดับความสำคัญ YouTube > Crunchyroll > Bilibili — หมายเหตุ: `Bilibili TV` (bilibili.tv) คือบริการสตรีมมิงลิขสิทธิ์สากล/เอเชียตะวันออกเฉียงใต้ที่มีซับไทย ซึ่งต่างจาก `bilibili.com` (เว็บจีนแผ่นดินใหญ่ที่มี user upload) ที่ระบบนี้จะไม่ดึงข้อมูลมาเด็ดขาด ข้อมูลทั้งสองแพลตฟอร์มสะท้อนการมีให้ดูในระดับสากลเท่านั้น โปรดตรวจสอบซับไทยในแอปอีกครั้ง
+สคริปต์นี้ค้นด้วย `malId` ของแต่ละเรื่อง แล้วเขียน field `crunchyroll`, `bilibili` และ `netflix` (ลิงก์ซีรีส์ + รายการตอน) ลงข้อมูลจากการเรียก AniList เพียงครั้งเดียวต่อรายการ (ข้อมูล external link ของทุกแพลตฟอร์มมาในคำตอบเดียวกันอยู่แล้ว) เรื่องที่มีตอนบนแพลตฟอร์มใดแพลตฟอร์มหนึ่งจะถูกนับเป็น "ดูได้แล้ว" ตามลำดับความสำคัญ YouTube > Crunchyroll > Bilibili > Netflix — หมายเหตุ: `Bilibili TV` (bilibili.tv) คือบริการสตรีมมิงลิขสิทธิ์สากล/เอเชียตะวันออกเฉียงใต้ที่มีซับไทย ซึ่งต่างจาก `bilibili.com` (เว็บจีนแผ่นดินใหญ่ที่มี user upload) ที่ระบบนี้จะไม่ดึงข้อมูลมาเด็ดขาด ข้อมูลแพลตฟอร์มสตรีมมิงสะท้อนการมีให้ดูในระดับสากลเท่านั้น โปรดตรวจสอบสิทธิ์รับชมในไทยและซับไทยในแอปอีกครั้ง
 
 สคริปต์จะอ่าน `data/anime.json` ตรวจทุกหน้าใน playlist แล้วเขียนทั้ง `data/anime.json` และ `data/anime.js` ใหม่ หากไม่มี key สคริปต์จะจบด้วยข้อความ error ที่ชัดเจน
 
