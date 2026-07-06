@@ -147,7 +147,10 @@ function aliasesForAnime(item, minLength = MIN_ALIAS_LENGTH) {
 //   Tier 2 (fuzzy): only when Tier 1 finds nothing. Dice-similarity of the extracted
 //     show name against each anime's aliases. A clear winner >= AUTO_THRESHOLD is applied;
 //     medium-confidence / ambiguous winners become review suggestions, never auto-linked.
-// Returns { match, matchType: 'exact'|'fuzzy'|null, score, candidates, suggestions }.
+// Returns { match, matchType: 'exact'|'fuzzy'|null, score, alias, extractedShowName,
+// candidates, suggestions } — alias is the winning normalized alias (empty when no
+// winner) and extractedShowName is the normalized Tier 2 input (empty on Tier 1 paths,
+// where it is never computed); both feed match diagnostics and the candidates log.
 function matchVideoToAnime(video, anime) {
   const normalizedVideo = normalizeTitle(video.title);
   const scored = [];
@@ -162,12 +165,12 @@ function matchVideoToAnime(video, anime) {
   if (scored.length) {
     const leaders = scored.filter(value => value.score === scored[0].score);
     return leaders.length === 1
-      ? { match: leaders[0].item, matchType: 'exact', score: leaders[0].score, candidates: leaders, suggestions: [] }
-      : { match: null, matchType: null, score: leaders[0].score, candidates: leaders, suggestions: [] };
+      ? { match: leaders[0].item, matchType: 'exact', score: leaders[0].score, alias: leaders[0].alias, extractedShowName: '', candidates: leaders, suggestions: [] }
+      : { match: null, matchType: null, score: leaders[0].score, alias: '', extractedShowName: '', candidates: leaders, suggestions: [] };
   }
 
   const showName = normalizeTitle(extractShowName(video.title));
-  if (showName.length < MIN_ALIAS_LENGTH) return { match: null, matchType: null, score: 0, candidates: [], suggestions: [] };
+  if (showName.length < MIN_ALIAS_LENGTH) return { match: null, matchType: null, score: 0, alias: '', extractedShowName: showName, candidates: [], suggestions: [] };
   const showGrams = bigrams(showName);
   const fuzzy = [];
   for (const item of anime) {
@@ -180,13 +183,13 @@ function matchVideoToAnime(video, anime) {
     if (best >= SUGGEST_THRESHOLD) fuzzy.push({ item, score: best, alias: bestAlias });
   }
   fuzzy.sort((a, b) => b.score - a.score);
-  if (!fuzzy.length) return { match: null, matchType: null, score: 0, candidates: [], suggestions: [] };
+  if (!fuzzy.length) return { match: null, matchType: null, score: 0, alias: '', extractedShowName: showName, candidates: [], suggestions: [] };
   const top = fuzzy[0];
   if (top.score >= AUTO_THRESHOLD && top.score - (fuzzy[1]?.score ?? 0) >= FUZZY_MARGIN) {
-    return { match: top.item, matchType: 'fuzzy', score: top.score, candidates: [], suggestions: [] };
+    return { match: top.item, matchType: 'fuzzy', score: top.score, alias: top.alias, extractedShowName: showName, candidates: [], suggestions: [] };
   }
   const suggestions = fuzzy.filter(value => value.score >= top.score - FUZZY_MARGIN);
-  return { match: null, matchType: null, score: top.score, candidates: [], suggestions };
+  return { match: null, matchType: null, score: top.score, alias: '', extractedShowName: showName, candidates: [], suggestions };
 }
 
 function mergeEpisodes(existing, additions) {
@@ -216,7 +219,9 @@ function applyDiscoveries(anime, channel, videos, candidatesLog, years = catalog
     && (item.youtubeSourceType !== 'channel_uploads' || item.youtubeChannelId === channel.channelId)
     && yearSet.has(Number(item.catalogYear || item.year) || minYear));
   const grouped = new Map();
-  const matchTypeById = new Map();
+  // Best-explaining match per anime this run: exact beats fuzzy, then higher score.
+  // Feeds the youtubeMatched* diagnostic fields written below.
+  const bestMatchById = new Map();
   for (const video of videos) {
     const number = episodeNumber(video.title);
     if (!video.videoId || number === null || !isEpisode(video.title)) continue;
@@ -224,17 +229,31 @@ function applyDiscoveries(anime, channel, videos, candidatesLog, years = catalog
     if (!result.match) {
       if (result.candidates.length) candidatesLog.push({
         type: 'ambiguous_title', videoId: video.videoId, title: video.title, channel: channel.channelTitle,
-        matches: result.candidates.map(value => ({ id: value.item.id, alias: value.alias, matchLength: value.score }))
+        publishedAt: video.publishedAt, episodeNumber: number,
+        matches: result.candidates.map(value => ({
+          id: value.item.id, titleThai: value.item.titleThai || '', titleOriginal: value.item.titleOriginal || '',
+          alias: value.alias, matchLength: value.score
+        }))
       });
-      for (const suggestion of result.suggestions) candidatesLog.push({
+      if (result.suggestions.length) candidatesLog.push({
         type: 'fuzzy_suggestion', videoId: video.videoId, title: video.title, channel: channel.channelTitle,
-        matches: [{ id: suggestion.item.id, alias: suggestion.alias, similarity: Number(suggestion.score.toFixed(3)) }]
+        publishedAt: video.publishedAt, episodeNumber: number, extractedShowName: result.extractedShowName,
+        matches: result.suggestions.map(suggestion => ({
+          id: suggestion.item.id, titleThai: suggestion.item.titleThai || '', titleOriginal: suggestion.item.titleOriginal || '',
+          alias: suggestion.alias, similarity: Number(suggestion.score.toFixed(3))
+        }))
       });
       continue;
     }
     // A show reached from a strong exact match keeps that provenance even if some of
     // its other episodes only matched fuzzily.
-    matchTypeById.set(result.match.id, matchTypeById.get(result.match.id) === 'exact' ? 'exact' : result.matchType);
+    const previousBest = bestMatchById.get(result.match.id);
+    const outranksPrevious = !previousBest
+      || (previousBest.matchType === 'fuzzy' && result.matchType === 'exact')
+      || (previousBest.matchType === result.matchType && result.score > previousBest.score);
+    if (outranksPrevious) {
+      bestMatchById.set(result.match.id, { matchType: result.matchType, alias: result.alias, videoTitle: video.title, score: result.score });
+    }
     const list = grouped.get(result.match.id) || [];
     const range = episodeRange(video.title);
     list.push({ number, ...(range || {}), title: video.title, videoId: video.videoId, videoUrl: `https://www.youtube.com/watch?v=${video.videoId}`, publishedAt: video.publishedAt });
@@ -254,14 +273,45 @@ function applyDiscoveries(anime, channel, videos, candidatesLog, years = catalog
     item.status = 'available'; item.updateStatus = 'ok'; item.updateError = '';
     item.confidence = 'confirmed_from_official_channel_uploads';
     // Incremental runs only see new uploads, so a fuzzy-only run must not downgrade a
-    // show whose identity an earlier run already confirmed with an exact title match.
-    item.youtubeMatchConfidence = matchTypeById.get(item.id) === 'fuzzy' && item.youtubeMatchConfidence !== 'strong_unique_title_match'
-      ? 'fuzzy_title_match'
-      : 'strong_unique_title_match';
+    // show whose identity an earlier run already confirmed with an exact title match —
+    // that guard covers the youtubeMatched* diagnostics too, so the stored explanation
+    // always describes the strongest evidence seen, not merely the latest.
+    const best = bestMatchById.get(item.id);
+    if (best.matchType === 'exact' || item.youtubeMatchConfidence !== 'strong_unique_title_match') {
+      item.youtubeMatchConfidence = best.matchType === 'exact' ? 'strong_unique_title_match' : 'fuzzy_title_match';
+      item.youtubeMatchType = best.matchType;
+      item.youtubeMatchedAlias = best.alias;
+      item.youtubeMatchedVideoTitle = best.videoTitle;
+      // Exact scores are the matched alias length (longer alias = more specific match);
+      // fuzzy scores are the 0-1 Dice similarity.
+      item.youtubeMatchedScore = best.matchType === 'exact' ? best.score : Number(best.score.toFixed(3));
+    }
+    item.youtubeLastMatchedAt = new Date().toISOString();
+    item.youtubeDiscoveryStatus = 'matched';
     item.youtubeSourceType = 'channel_uploads'; item.youtubeChannelId = channel.channelId; item.youtubeChannelTitle = channel.channelTitle;
     item.channel = channel.label; item.platform = 'YouTube';
   }
   return grouped.size;
+}
+
+// Cross-channel review status, finalized once per run after every channel has been
+// scanned (a single channel's pass can't tell "not found anywhere" from "found on a
+// later channel"). Values: matched | needs_review | not_found | skipped_has_playlist
+// | error. Precedence is strongest-first, and needs_review is sticky: incremental
+// runs only see new uploads, so a run with no fresh evidence must not flip an item
+// awaiting review to not_found.
+function updateDiscoveryStatuses(anime, { reviewIds = new Set(), erroredChannelIds = new Set(), years = catalogYears() } = {}) {
+  const yearList = toYearList(years);
+  const yearSet = new Set(yearList);
+  const minYear = Math.min(...yearList);
+  for (const item of anime) {
+    if (item.jikanType !== 'TV' || !yearSet.has(Number(item.catalogYear || item.year) || minYear)) continue;
+    if (item.playlistId) { item.youtubeDiscoveryStatus = 'skipped_has_playlist'; continue; }
+    if (item.youtubeSourceType === 'channel_uploads' && (item.availableEpisodes || []).length) { item.youtubeDiscoveryStatus = 'matched'; continue; }
+    if (reviewIds.has(item.id) || item.youtubeDiscoveryStatus === 'needs_review') { item.youtubeDiscoveryStatus = 'needs_review'; continue; }
+    if (item.youtubeChannelId && erroredChannelIds.has(item.youtubeChannelId)) { item.youtubeDiscoveryStatus = 'error'; continue; }
+    item.youtubeDiscoveryStatus = 'not_found';
+  }
 }
 
 async function main() {
@@ -275,21 +325,31 @@ async function main() {
   ]);
   if (state.year !== windowYear) { state.year = windowYear; state.channels = {}; }
   const candidates = [];
-  let matchedAnime = 0;
+  const erroredChannelIds = new Set();
+  let matchedAnime = 0, scannedChannels = 0;
   for (const config of configs) {
     try {
       const resolved = await resolveChannel(config, apiKey);
       const channel = { ...resolved, ...config };
       const result = await fetchChannelUploads(channel, state.channels[config.handle], years, backfill, apiKey);
       matchedAnime += applyDiscoveries(anime, channel, result.videos, candidates, years);
+      scannedChannels += 1;
       state.channels[config.handle] = {
         channelId: channel.channelId, uploadsPlaylistId: channel.uploadsPlaylistId,
         lastSeenVideoId: result.newestVideoId, lastCheckedAt: new Date().toISOString(), year: windowYear
       };
     } catch (error) {
       console.error(`[${config.handle}] ${error.message}`);
+      const channelId = state.channels[config.handle]?.channelId;
+      if (channelId) erroredChannelIds.add(channelId);
       state.channels[config.handle] = { ...(state.channels[config.handle] || {}), lastError: error.message };
     }
+  }
+  // A run where every channel errored produced no evidence at all — leave the stored
+  // statuses alone rather than mass-flipping the catalog to not_found.
+  if (scannedChannels > 0) {
+    const reviewIds = new Set(candidates.flatMap(entry => (entry.matches || []).map(match => match.id)));
+    updateDiscoveryStatuses(anime, { reviewIds, erroredChannelIds, years });
   }
   await writeDataFiles(anime);
   await fs.writeFile(STATE_PATH, `${JSON.stringify(state, null, 2)}\n`, 'utf8');
@@ -299,4 +359,4 @@ async function main() {
 
 if (require.main === module) main().catch(error => { console.error(`YouTube discovery failed: ${error.message}`); process.exitCode = 1; });
 
-module.exports = { aliasesForAnime, applyDiscoveries, diceSimilarity, fetchChannelUploads, matchVideoToAnime, mergeEpisodes, normalizeTitle, resolveChannel, resolveYears };
+module.exports = { CHANNELS_PATH, aliasesForAnime, applyDiscoveries, diceSimilarity, fetchChannelUploads, matchVideoToAnime, mergeEpisodes, normalizeTitle, resolveChannel, resolveYears, updateDiscoveryStatuses };
