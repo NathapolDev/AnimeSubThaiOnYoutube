@@ -285,6 +285,28 @@ test('updateDiscoveryStatuses marks items bound to a failed channel as error, no
   assert.equal(anime[0].youtubeDiscoveryStatus, 'error');
 });
 
+test('a partial-error run never assigns not_found but still records positive evidence', () => {
+  const anime = [
+    { id: 'playlisted', jikanType: 'TV', playlistId: 'PL1', catalogYear: 2026 },
+    { id: 'linked', jikanType: 'TV', playlistId: '', catalogYear: 2026, youtubeSourceType: 'channel_uploads', availableEpisodes: [{ videoId: 'v' }] },
+    { id: 'pending', jikanType: 'TV', playlistId: '', catalogYear: 2026 },
+    { id: 'bound', jikanType: 'TV', playlistId: '', catalogYear: 2026, youtubeChannelId: 'down', availableEpisodes: [] },
+    // Unbound and unmatched: might air on the channel that errored, so its stored
+    // status must survive the partial scan instead of flipping to not_found.
+    { id: 'was-found', jikanType: 'TV', playlistId: '', catalogYear: 2026, youtubeDiscoveryStatus: 'not_found' },
+    { id: 'brand-new', jikanType: 'TV', playlistId: '', catalogYear: 2026 }
+  ];
+  updateDiscoveryStatuses(anime, {
+    reviewIds: new Set(['pending']), erroredChannelIds: new Set(['down']), hadChannelErrors: true, years: [2026]
+  });
+  assert.equal(anime[0].youtubeDiscoveryStatus, 'skipped_has_playlist');
+  assert.equal(anime[1].youtubeDiscoveryStatus, 'matched');
+  assert.equal(anime[2].youtubeDiscoveryStatus, 'needs_review');
+  assert.equal(anime[3].youtubeDiscoveryStatus, 'error');
+  assert.equal(anime[4].youtubeDiscoveryStatus, 'not_found'); // kept, not reasserted
+  assert.equal(anime[5].youtubeDiscoveryStatus, undefined); // stays unknown until a clean scan
+});
+
 test('the official channel whitelist lives in data/youtube-channels.json, not in code', () => {
   assert.ok(CHANNELS_PATH.endsWith(path.join('data', 'youtube-channels.json')));
   const channels = JSON.parse(fs.readFileSync(CHANNELS_PATH, 'utf8'));
