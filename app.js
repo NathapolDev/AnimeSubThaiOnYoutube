@@ -78,12 +78,14 @@ function posterHtml(item, { thumb = true, eager = false } = {}) {
 }
 function crunchyrollOf(item) { return item.crunchyroll && item.crunchyroll.seriesUrl ? item.crunchyroll : null; }
 function bilibiliOf(item) { return item.bilibili && item.bilibili.seriesUrl ? item.bilibili : null; }
+function netflixOf(item) { return item.netflix && item.netflix.seriesUrl ? item.netflix : null; }
 function hasYoutubeSource(item) { return Boolean(item.playlistId || item.latestVideoUrl || (item.availableEpisodes || []).length); }
 function platformNames(item) {
   const names = [];
   if (hasYoutubeSource(item)) names.push('YouTube');
   if (crunchyrollOf(item)) names.push('Crunchyroll');
   if (bilibiliOf(item)) names.push('Bilibili');
+  if (netflixOf(item)) names.push('Netflix');
   return names.length ? names : ['ยังไม่ประกาศ'];
 }
 // AniList rarely carries per-episode links for these platforms; when it
@@ -102,6 +104,8 @@ function latestText(item) {
     if (cr && cr.episodeCount > 0) return `Crunchyroll: ตอนที่ ${cr.latestEpisodeNumber}`;
     const bili = bilibiliOf(item);
     if (bili && bili.episodeCount > 0) return `Bilibili: ตอนที่ ${bili.latestEpisodeNumber}`;
+    const netflix = netflixOf(item);
+    if (netflix && netflix.episodeCount > 0) return `Netflix: ตอนที่ ${netflix.latestEpisodeNumber}`;
     return 'รอยืนยันช่องทางซับไทย';
   }
   return item.status === 'upcoming' ? 'ยังไม่เริ่มฉาย' : 'รอตรวจสอบตอนล่าสุด';
@@ -131,6 +135,8 @@ function isMatch(item) {
     if (!crunchyrollOf(item)) return false;
   } else if (activeChannel === '__bilibili') {
     if (!bilibiliOf(item)) return false;
+  } else if (activeChannel === '__netflix') {
+    if (!netflixOf(item)) return false;
   } else if (activeChannel !== 'all' && item.channel !== activeChannel) return false;
   if (!query) return true;
   const haystack = normalize([item.titleThai, item.titleOriginal, item.altTitle, item.channel, item.studio, item.source, ...(item.genres || [])].join(' '));
@@ -184,16 +190,21 @@ function cardTemplate(item, index) {
   const update = updateMap[item.updateStatus] || updateMap.pending;
   const cr = crunchyrollOf(item);
   const bili = bilibiliOf(item);
+  const netflix = netflixOf(item);
   const ytIsWatch = Boolean(item.latestVideoUrl || item.playlistId);
   let watchUrl = safeExternalUrl(item.latestVideoUrl || item.link);
   let watchLabel = ytIsWatch ? 'ดูตอนล่าสุด' : 'ดูข้อมูลอนิเมะ';
-  // no YouTube source yet -> a Crunchyroll series link beats the MAL info link, then Bilibili
+  // No YouTube source yet: preserve the configured platform priority before
+  // falling back to the MAL information link.
   if (!ytIsWatch && cr && safeExternalUrl(cr.seriesUrl) !== '#') {
     watchUrl = safeExternalUrl(cr.seriesUrl);
     watchLabel = 'ดูบน Crunchyroll';
   } else if (!ytIsWatch && bili && safeExternalUrl(bili.seriesUrl) !== '#') {
     watchUrl = safeExternalUrl(bili.seriesUrl);
     watchLabel = 'ดูบน Bilibili';
+  } else if (!ytIsWatch && netflix && safeExternalUrl(netflix.seriesUrl) !== '#') {
+    watchUrl = safeExternalUrl(netflix.seriesUrl);
+    watchLabel = 'ดูบน Netflix';
   }
   const hasWatch = watchUrl !== '#';
   const prog = episodeProgress(item);
@@ -208,6 +219,7 @@ function cardTemplate(item, index) {
         <span class="badge channel-badge">${escapeHtml(channelShort(item.channel))}</span>
         ${cr ? '<span class="badge cr-badge">Crunchyroll</span>' : ''}
         ${bili ? '<span class="badge bili-badge">Bilibili</span>' : ''}
+        ${netflix ? '<span class="badge netflix-badge">Netflix</span>' : ''}
         ${Number(item.score) > 0 ? `<span class="badge score-badge">★ ${Number(item.score).toFixed(2)}</span>` : ''}
       </div>
       <button class="fav-btn ${isFav ? 'is-fav' : ''}" type="button" data-fav="${escapeHtml(item.id)}" aria-pressed="${isFav}" aria-label="รายการโปรด">${isFav ? '★' : '☆'}</button>
@@ -316,6 +328,8 @@ function showDetail(id, { updateHash = true } = {}) {
   const crSeriesUrl = cr ? safeExternalUrl(cr.seriesUrl) : '#';
   const bili = bilibiliOf(item);
   const biliSeriesUrl = bili ? safeExternalUrl(bili.seriesUrl) : '#';
+  const netflix = netflixOf(item);
+  const netflixSeriesUrl = netflix ? safeExternalUrl(netflix.seriesUrl) : '#';
   const isFav = favorites.has(item.id);
   const heroBg = item.poster ? `--hero-img:${cssUrl(item.poster)}` : '';
   dialogContent.innerHTML = `<div class="dialog-hero" style="${escapeHtml(heroBg)}">
@@ -354,11 +368,18 @@ function showDetail(id, { updateHash = true } = {}) {
       <div id="episodeListBili" class="episode-list"></div>
       <button id="loadMoreBili" class="load-more-btn" type="button" hidden>ดูตอนเก่ากว่า</button>
     </section>` : ''}
+    ${netflix ? `<section class="episode-section" aria-labelledby="episodeHeadingNetflix">
+      <div class="episode-heading"><div><p class="eyebrow">Netflix</p><h3 id="episodeHeadingNetflix">ตอนที่รับชมได้</h3></div><span>${Number(netflix.episodeCount) || 0} ตอน</span></div>
+      <p class="episode-note">ตามข้อมูล Netflix สากลจาก AniList — ${(netflix.availableEpisodes || []).length ? 'โปรดตรวจสอบสิทธิ์รับชมในไทยและซับไทยในแอป' : 'จำนวนตอนประเมินจากตารางฉาย ลิงก์เปิดหน้าซีรีส์ โปรดตรวจสอบสิทธิ์รับชมในไทยและซับไทยในแอป'}</p>
+      <div id="episodeListNetflix" class="episode-list"></div>
+      <button id="loadMoreNetflix" class="load-more-btn" type="button" hidden>ดูตอนเก่ากว่า</button>
+    </section>` : ''}
     <div class="dialog-actions">
       ${watchUrl !== '#' ? `<a class="primary-btn" href="${escapeHtml(watchUrl)}" target="_blank" rel="noopener">${item.latestVideoUrl || item.playlistId ? '▶ ดูตอนล่าสุด' : 'ดูข้อมูลอนิเมะ'}</a>` : ''}
       ${playlistUrl !== '#' ? `<a class="secondary-btn" href="${escapeHtml(playlistUrl)}" target="_blank" rel="noopener">Playlist ทั้งหมด</a>` : ''}
       ${crSeriesUrl !== '#' ? `<a class="secondary-btn" href="${escapeHtml(crSeriesUrl)}" target="_blank" rel="noopener">ดูบน Crunchyroll</a>` : ''}
       ${biliSeriesUrl !== '#' ? `<a class="secondary-btn" href="${escapeHtml(biliSeriesUrl)}" target="_blank" rel="noopener">ดูบน Bilibili</a>` : ''}
+      ${netflixSeriesUrl !== '#' ? `<a class="secondary-btn" href="${escapeHtml(netflixSeriesUrl)}" target="_blank" rel="noopener">ดูบน Netflix</a>` : ''}
       ${trailerUrl !== '#' ? `<a class="secondary-btn" href="${escapeHtml(trailerUrl)}" target="_blank" rel="noopener">ตัวอย่าง</a>` : ''}
       ${malUrl !== '#' ? `<a class="secondary-btn" href="${escapeHtml(malUrl)}" target="_blank" rel="noopener">MyAnimeList</a>` : ''}
       <button class="secondary-btn fav-toggle" type="button" data-fav="${escapeHtml(item.id)}" aria-pressed="${isFav}">${isFav ? '★ อยู่ในรายการโปรด' : '☆ เพิ่มรายการโปรด'}</button>
@@ -394,6 +415,16 @@ function showDetail(id, { updateHash = true } = {}) {
     });
     renderBili();
     document.querySelector('#loadMoreBili')?.addEventListener('click', () => { biliLimit += 10; renderBili(); });
+  }
+  if (netflix) {
+    let netflixLimit = 10;
+    const netflixEpisodes = platformEpisodeRows(netflix, 'Netflix');
+    const renderNetflix = () => renderEpisodeSection({
+      containerId: '#episodeListNetflix', loadMoreId: '#loadMoreNetflix', episodes: netflixEpisodes, limit: netflixLimit,
+      emptyText: 'ยังไม่มีรายการตอนจาก Netflix'
+    });
+    renderNetflix();
+    document.querySelector('#loadMoreNetflix')?.addEventListener('click', () => { netflixLimit += 10; renderNetflix(); });
   }
   if (updateHash) history.replaceState(null, '', `#a=${encodeURIComponent(item.id)}`);
 }
@@ -446,7 +477,8 @@ channelFilters.insertAdjacentHTML('beforeend',
   `<button class="chip active" type="button" data-channel="all">ทุกช่องทาง</button>` +
   channels.map(channel => `<button class="chip" type="button" data-channel="${escapeHtml(channel)}">${escapeHtml(channel)}</button>`).join('') +
   (data.some(item => item.jikanType === 'TV' && crunchyrollOf(item)) ? `<button class="chip" type="button" data-channel="__crunchyroll">Crunchyroll</button>` : '') +
-  (data.some(item => item.jikanType === 'TV' && bilibiliOf(item)) ? `<button class="chip" type="button" data-channel="__bilibili">Bilibili</button>` : ''));
+  (data.some(item => item.jikanType === 'TV' && bilibiliOf(item)) ? `<button class="chip" type="button" data-channel="__bilibili">Bilibili</button>` : '') +
+  (data.some(item => item.jikanType === 'TV' && netflixOf(item)) ? `<button class="chip" type="button" data-channel="__netflix">Netflix</button>` : ''));
 channelFilters.querySelectorAll('.chip').forEach(chip => chip.addEventListener('click', () => {
   channelFilters.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
   chip.classList.add('active'); activeChannel = chip.dataset.channel; catalogLimit = 48; render();

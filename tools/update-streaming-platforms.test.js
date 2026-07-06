@@ -18,6 +18,7 @@ const {
 
 const CRUNCHYROLL = PLATFORMS.find(platform => platform.key === 'crunchyroll');
 const BILIBILI = PLATFORMS.find(platform => platform.key === 'bilibili');
+const NETFLIX = PLATFORMS.find(platform => platform.key === 'netflix');
 
 test('parseEpisodeTitle handles dash, no-dash, decimal, and unparseable titles', () => {
   assert.deepEqual(parseEpisodeTitle('Episode 48 - The Beginning'), { rawNumber: 48, episodeTitle: 'The Beginning' });
@@ -148,12 +149,13 @@ const mediaWithEpisodes = (idMal, count = 2) => ({
   }))
 });
 
-const mediaWithBothPlatforms = (idMal, crCount = 2, biliCount = 0) => ({
+const mediaWithBothPlatforms = (idMal, crCount = 2, biliCount = 0, netflixCount = 0) => ({
   id: idMal * 10,
   idMal,
   externalLinks: [
     { site: 'Crunchyroll', url: `http://www.crunchyroll.com/series/G${idMal}`, type: 'STREAMING' },
-    { site: 'Bilibili TV', url: `http://www.bilibili.tv/en/media/${idMal}`, type: 'STREAMING' }
+    { site: 'Bilibili TV', url: `http://www.bilibili.tv/en/media/${idMal}`, type: 'STREAMING' },
+    { site: 'Netflix', url: `http://www.netflix.com/title/${idMal}`, type: 'STREAMING' }
   ],
   streamingEpisodes: [
     ...Array.from({ length: crCount }, (_, i) => ({
@@ -161,6 +163,9 @@ const mediaWithBothPlatforms = (idMal, crCount = 2, biliCount = 0) => ({
     })),
     ...Array.from({ length: biliCount }, (_, i) => ({
       title: `Episode ${i + 1} - T${i + 1}`, url: `https://www.bilibili.tv/en/play/${idMal}/${i + 1}`, site: 'Bilibili TV'
+    })),
+    ...Array.from({ length: netflixCount }, (_, i) => ({
+      title: `Episode ${i + 1} - T${i + 1}`, url: `https://www.netflix.com/watch/${idMal}-${i + 1}`, site: 'Netflix'
     }))
   ]
 });
@@ -340,6 +345,28 @@ test('applyPlatform estimates Bilibili episode count from the airing schedule (t
   assert.equal(item.confidence, 'confirmed_from_bilibili');
 });
 
+test('applyPlatform adds Netflix and estimates episodes when AniList has no episode links', () => {
+  const item = { id: 'netflix-est', malId: 26, episodes: '12', status: 'upcoming', confidence: 'imported_from_jikan', availableEpisodes: [] };
+  const media = { ...mediaWithBothPlatforms(26, 0, 0, 0), status: 'RELEASING', episodes: 12, nextAiringEpisode: { episode: 5 } };
+  applyPlatform(item, media, NETFLIX, () => '2026-07-06T00:00:00.000Z');
+  assert.equal(item.netflix.seriesUrl, 'https://www.netflix.com/title/26');
+  assert.equal(item.netflix.episodeSource, 'estimated_from_airing');
+  assert.equal(item.netflix.episodeCount, 4);
+  assert.equal(item.netflix.latestEpisodeNumber, 4);
+  assert.equal(item.status, 'available');
+  assert.equal(item.confidence, 'confirmed_from_netflix');
+});
+
+test('Netflix yields confidence to Crunchyroll and Bilibili', () => {
+  const item = { id: 'all-platforms', malId: 27, episodes: '12', status: 'upcoming', confidence: 'imported_from_jikan', availableEpisodes: [] };
+  const media = mediaWithBothPlatforms(27, 2, 3, 4);
+  applyPlatform(item, media, CRUNCHYROLL);
+  applyPlatform(item, media, BILIBILI);
+  applyPlatform(item, media, NETFLIX);
+  assert.equal(item.netflix.episodeCount, 4);
+  assert.equal(item.confidence, 'confirmed_from_crunchyroll');
+});
+
 test('applyPlatform reverts confirmed_from_bilibili when the Bilibili link disappears, but never reverts a YouTube-confirmed item', () => {
   const item = {
     id: 'bili-gone', malId: 24, episodes: '12', status: 'available', confidence: 'confirmed_from_bilibili',
@@ -364,6 +391,9 @@ test('isOutrankedByHigherPlatform reflects the outranks config', () => {
   assert.equal(isOutrankedByHigherPlatform({ crunchyroll: { episodeCount: 2 } }, BILIBILI), true);
   assert.equal(isOutrankedByHigherPlatform({ crunchyroll: { episodeCount: 0 } }, BILIBILI), false);
   assert.equal(isOutrankedByHigherPlatform({}, BILIBILI), false);
+  assert.equal(isOutrankedByHigherPlatform({ crunchyroll: { episodeCount: 2 } }, NETFLIX), true);
+  assert.equal(isOutrankedByHigherPlatform({ bilibili: { episodeCount: 2 } }, NETFLIX), true);
+  assert.equal(isOutrankedByHigherPlatform({ crunchyroll: { episodeCount: 0 }, bilibili: { episodeCount: 0 } }, NETFLIX), false);
 });
 
 test('revertPlatformOnlyStatus only reverts a match on that platform\'s own confidence tag', () => {
@@ -408,7 +438,8 @@ test('updateStreamingPlatformItems targets in-window TV entries and flags stale 
     {
       id: 'e', malId: 4, jikanType: 'TV', catalogYear: 2026, episodes: '12', availableEpisodes: [],
       crunchyroll: { seriesUrl: 'https://x', updateStatus: 'ok', updateError: '' },
-      bilibili: { seriesUrl: 'https://y', updateStatus: 'ok', updateError: '' }
+      bilibili: { seriesUrl: 'https://y', updateStatus: 'ok', updateError: '' },
+      netflix: { seriesUrl: 'https://z', updateStatus: 'ok', updateError: '' }
     }
   ];
   const requester = async (query, variables) => {
@@ -423,34 +454,40 @@ test('updateStreamingPlatformItems targets in-window TV entries and flags stale 
   assert.equal(summary.targets, 2);
   assert.equal(anime[0].crunchyroll, undefined); // failed chunk: nothing applied, nothing invented
   assert.equal(anime[0].bilibili, undefined);
+  assert.equal(anime[0].netflix, undefined);
   assert.equal(anime[4].crunchyroll.updateStatus, 'error');
   assert.equal(anime[4].crunchyroll.updateError, 'AniList request failed');
   assert.equal(anime[4].bilibili.updateStatus, 'error'); // both stale platform fields flagged from one failure
+  assert.equal(anime[4].netflix.updateStatus, 'error');
   assert.equal(anime[1].crunchyroll, undefined); // out of window: untouched
   assert.equal(anime[2].crunchyroll, undefined); // not TV: untouched
 
-  const okRequester = async () => ({ data: { Page: { pageInfo: { hasNextPage: false }, media: [mediaWithBothPlatforms(1, 2, 3)] } } });
+  const okRequester = async () => ({ data: { Page: { pageInfo: { hasNextPage: false }, media: [mediaWithBothPlatforms(1, 2, 3, 4)] } } });
   const okSummary = await updateStreamingPlatformItems(anime, [2026], okRequester);
   assert.equal(okSummary.byPlatform.crunchyroll.onPlatform, 1);
   assert.equal(okSummary.byPlatform.crunchyroll.withEpisodes, 1);
   assert.equal(okSummary.byPlatform.bilibili.onPlatform, 1);
   assert.equal(okSummary.byPlatform.bilibili.withEpisodes, 1);
+  assert.equal(okSummary.byPlatform.netflix.onPlatform, 1);
+  assert.equal(okSummary.byPlatform.netflix.withEpisodes, 1);
   assert.equal(anime[0].crunchyroll.updateStatus, 'ok');
   assert.equal(anime[0].status, 'available');
   assert.equal(anime[0].confidence, 'confirmed_from_crunchyroll'); // Bilibili has episodes too but Crunchyroll outranks it
   assert.equal(anime[4].crunchyroll, undefined); // no CR link on AniList anymore -> removed
   assert.equal(anime[4].bilibili, undefined);
+  assert.equal(anime[4].netflix, undefined);
 });
 
-test('updateStreamingPlatformItems fetches AniList once and populates both platforms from the same response', async () => {
+test('updateStreamingPlatformItems fetches AniList once and populates all platforms from the same response', async () => {
   const anime = [{ id: 'both', malId: 30, jikanType: 'TV', catalogYear: 2026, episodes: '12', status: 'upcoming', availableEpisodes: [] }];
   const calls = [];
   const requester = async (query, variables) => {
     calls.push(variables);
-    return { data: { Page: { pageInfo: { hasNextPage: false }, media: [mediaWithBothPlatforms(30, 2, 3)] } } };
+    return { data: { Page: { pageInfo: { hasNextPage: false }, media: [mediaWithBothPlatforms(30, 2, 3, 4)] } } };
   };
   await updateStreamingPlatformItems(anime, [2026], requester);
-  assert.equal(calls.length, 1); // one AniList request backs both platform sub-objects
+  assert.equal(calls.length, 1); // one AniList request backs every platform sub-object
   assert.ok(anime[0].crunchyroll);
   assert.ok(anime[0].bilibili);
+  assert.ok(anime[0].netflix);
 });

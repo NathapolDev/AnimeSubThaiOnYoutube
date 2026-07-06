@@ -180,7 +180,7 @@ body.light .search-box { background: rgba(255, 255, 255, .6) }
 .is-missing .poster-fallback, .poster-fallback.is-shown { display: grid }
 .badges-top, .badges-bottom { position: absolute; left: 10px; right: 10px; display: flex; gap: 6px; justify-content: space-between; pointer-events: none }
 .badges-top { top: 10px }
-.badges-bottom { bottom: 10px }
+.badges-bottom { bottom: 10px; justify-content: flex-start; flex-wrap: wrap; align-items: flex-end }
 .badge {
   border: 1px solid rgba(255, 255, 255, .28); background: rgba(2, 6, 23, .7); color: #fff;
   border-radius: 999px; padding: 6px 9px; font-size: 11px; font-weight: 900; white-space: nowrap;
@@ -188,10 +188,11 @@ body.light .search-box { background: rgba(255, 255, 255, .6) }
 }
 .status-badge { display: inline-flex; align-items: center; gap: 6px }
 .new-badge { background: var(--accent-grad); color: #fff; border-color: transparent }
-.score-badge { color: var(--amber) }
+.score-badge { color: var(--amber); margin-left: auto }
 .channel-badge { max-width: 60% }
 .cr-badge { background: rgba(244, 117, 33, .85); border-color: transparent }
 .bili-badge { background: rgba(251, 114, 153, .85); border-color: transparent }
+.netflix-badge { background: rgba(229, 9, 20, .88); border-color: transparent }
 .fav-btn {
   position: absolute; right: 8px; top: 44px; width: 38px; height: 38px;
   border: 1px solid rgba(255, 255, 255, .28); border-radius: 50%;
