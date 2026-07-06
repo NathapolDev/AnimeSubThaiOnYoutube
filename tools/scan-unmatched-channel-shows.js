@@ -1,6 +1,6 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
-const { isEpisode } = require('./update-youtube');
+const { extractShowName, isEpisode } = require('./update-youtube');
 const { catalogYears } = require('./update-jikan');
 
 const ROOT = path.resolve(__dirname, '..');
@@ -55,13 +55,6 @@ async function getAllUploads(uploadsPlaylistId, years, apiKey) {
     if (reachedBoundary) break;
   } while (pageToken);
   return videos;
-}
-
-function extractShowName(title) {
-  return title
-    .split(/ตอนที่|EP\.?\s*\d|Episode\s*\d|#\d+/i)[0]
-    .replace(/[\[【].*$/, '')
-    .trim();
 }
 
 function aliasesForAnime(item) {

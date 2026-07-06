@@ -64,6 +64,16 @@ function isEpisode(title) {
   return !/^(?:\[?(?:private|deleted) video\]?|วิดีโอส่วนตัว|วิดีโอถูกลบ)$/iu.test(title.trim());
 }
 
+// Strip the episode marker (ตอนที่ N / EP N / #N) and any trailing bracketed tag
+// so what remains is just the show name a channel puts in front of every episode.
+// Shared by discover-youtube.js (fuzzy matching) and scan-unmatched-channel-shows.js.
+function extractShowName(title) {
+  return String(title || '')
+    .split(/ตอนที่|EP\.?\s*\d|Episode\s*\d|#\d+/i)[0]
+    .replace(/[\[【].*$/, '')
+    .trim();
+}
+
 async function fetchPlaylist(playlistId, apiKey) {
   const items = [];
   let pageToken = '';
@@ -209,4 +219,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { buildEpisodeList, episodeNumber, episodeRange, fetchPlaylist, isEpisode, playlistIdFromLink, updateAnimeItem, updateAnimeItems, youtubeJson };
+module.exports = { buildEpisodeList, episodeNumber, episodeRange, extractShowName, fetchPlaylist, isEpisode, playlistIdFromLink, updateAnimeItem, updateAnimeItems, youtubeJson };
