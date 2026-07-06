@@ -299,8 +299,10 @@ function applyDiscoveries(anime, channel, videos, candidatesLog, years = catalog
 // later channel"). Values: matched | needs_review | not_found | skipped_has_playlist
 // | error. Precedence is strongest-first, and needs_review is sticky: incremental
 // runs only see new uploads, so a run with no fresh evidence must not flip an item
-// awaiting review to not_found.
-function updateDiscoveryStatuses(anime, { reviewIds = new Set(), erroredChannelIds = new Set(), years = catalogYears() } = {}) {
+// awaiting review to not_found. not_found is likewise only assigned when every
+// channel scanned cleanly (hadChannelErrors false) — a partial scan can prove
+// presence but never absence, so unmatched items keep their stored status.
+function updateDiscoveryStatuses(anime, { reviewIds = new Set(), erroredChannelIds = new Set(), hadChannelErrors = false, years = catalogYears() } = {}) {
   const yearList = toYearList(years);
   const yearSet = new Set(yearList);
   const minYear = Math.min(...yearList);
@@ -310,6 +312,7 @@ function updateDiscoveryStatuses(anime, { reviewIds = new Set(), erroredChannelI
     if (item.youtubeSourceType === 'channel_uploads' && (item.availableEpisodes || []).length) { item.youtubeDiscoveryStatus = 'matched'; continue; }
     if (reviewIds.has(item.id) || item.youtubeDiscoveryStatus === 'needs_review') { item.youtubeDiscoveryStatus = 'needs_review'; continue; }
     if (item.youtubeChannelId && erroredChannelIds.has(item.youtubeChannelId)) { item.youtubeDiscoveryStatus = 'error'; continue; }
+    if (hadChannelErrors) continue;
     item.youtubeDiscoveryStatus = 'not_found';
   }
 }
@@ -326,7 +329,7 @@ async function main() {
   if (state.year !== windowYear) { state.year = windowYear; state.channels = {}; }
   const candidates = [];
   const erroredChannelIds = new Set();
-  let matchedAnime = 0, scannedChannels = 0;
+  let matchedAnime = 0, scannedChannels = 0, failedChannels = 0;
   for (const config of configs) {
     try {
       const resolved = await resolveChannel(config, apiKey);
@@ -340,6 +343,9 @@ async function main() {
       };
     } catch (error) {
       console.error(`[${config.handle}] ${error.message}`);
+      // A first-ever failure has no stored channelId yet, so failedChannels (not
+      // erroredChannelIds.size) is what decides whether the scan was partial.
+      failedChannels += 1;
       const channelId = state.channels[config.handle]?.channelId;
       if (channelId) erroredChannelIds.add(channelId);
       state.channels[config.handle] = { ...(state.channels[config.handle] || {}), lastError: error.message };
@@ -349,7 +355,7 @@ async function main() {
   // statuses alone rather than mass-flipping the catalog to not_found.
   if (scannedChannels > 0) {
     const reviewIds = new Set(candidates.flatMap(entry => (entry.matches || []).map(match => match.id)));
-    updateDiscoveryStatuses(anime, { reviewIds, erroredChannelIds, years });
+    updateDiscoveryStatuses(anime, { reviewIds, erroredChannelIds, hadChannelErrors: failedChannels > 0, years });
   }
   await writeDataFiles(anime);
   await fs.writeFile(STATE_PATH, `${JSON.stringify(state, null, 2)}\n`, 'utf8');
