@@ -21,31 +21,37 @@ const AUTO_THRESHOLD = 0.72;    // >= this (and clearly ahead) auto-links the ep
 const SUGGEST_THRESHOLD = 0.5;  // >= this but below auto → review suggestion only
 const FUZZY_MARGIN = 0.08;      // top must beat the runner-up by this to be a clear winner
 
-const normalizeTitle = value => String(value || '').toLowerCase().normalize('NFKC').replace(/[^\p{L}\p{N}]+/gu, ' ').replace(/\s+/g, ' ').trim();
+// \p{M} keeps combining marks: Thai tone marks and sara vowels are Mn/Mc, and dropping
+// them collapses distinct Thai titles onto the same consonant skeleton, which would let
+// the fuzzy tier below auto-link the wrong show.
+const normalizeTitle = value => String(value || '').toLowerCase().normalize('NFKC').replace(/[^\p{L}\p{M}\p{N}]+/gu, ' ').replace(/\s+/g, ' ').trim();
 
-// Character-bigram multiset of a string, used for the Dice coefficient below.
+// Character-bigram multiset of a string plus its total count, used for the Dice
+// coefficient below.
 function bigrams(value) {
   const text = String(value || '');
   const grams = new Map();
+  let size = 0;
   for (let index = 0; index < text.length - 1; index += 1) {
     const gram = text.slice(index, index + 2);
     grams.set(gram, (grams.get(gram) || 0) + 1);
+    size += 1;
   }
-  return grams;
+  return { grams, size };
+}
+
+function diceFromBigrams(a, b) {
+  if (!a.size || !b.size) return 0;
+  let overlap = 0;
+  for (const [gram, count] of a.grams) if (b.grams.has(gram)) overlap += Math.min(count, b.grams.get(gram));
+  return (2 * overlap) / (a.size + b.size);
 }
 
 // Sørensen–Dice coefficient over character bigrams: 1 = identical, 0 = no shared
 // bigram. Character-level (not word-level) so it works for Thai, which normalizeTitle
 // cannot split into words. Callers pass already-normalized strings.
 function diceSimilarity(a, b) {
-  const gramsA = bigrams(a);
-  const gramsB = bigrams(b);
-  const sizeA = [...gramsA.values()].reduce((sum, count) => sum + count, 0);
-  const sizeB = [...gramsB.values()].reduce((sum, count) => sum + count, 0);
-  if (!sizeA || !sizeB) return 0;
-  let overlap = 0;
-  for (const [gram, count] of gramsA) if (gramsB.has(gram)) overlap += Math.min(count, gramsB.get(gram));
-  return (2 * overlap) / (sizeA + sizeB);
+  return diceFromBigrams(bigrams(a), bigrams(b));
 }
 
 // Accept a single year or a window array; always return a non-empty array of years.
@@ -110,12 +116,29 @@ async function fetchChannelUploads(channel, previousState, years, backfill, apiK
   return { videos, newestVideoId: videos[0]?.videoId || stopVideoId || '', pages, reachedBoundary };
 }
 
-function aliasesForAnime(item) {
-  const anilist = item.anilistTitles || {};
-  return [
-    item.titleThai, item.titleOriginal, ...(String(item.altTitle || '').split('/')), ...(item.youtubeAliases || []),
-    anilist.romaji, anilist.english, anilist.native, ...(anilist.synonyms || [])
-  ].map(normalizeTitle).filter(alias => alias.length >= 6);
+const MIN_ALIAS_LENGTH = 6;
+
+// Normalized alias pool with per-alias bigram data, memoized per item object — the
+// source fields never change within a run, so each item is computed once no matter
+// how many videos are scored against it.
+const aliasCache = new WeakMap();
+function aliasDataForAnime(item) {
+  let data = aliasCache.get(item);
+  if (!data) {
+    const anilist = item.anilistTitles || {};
+    data = [
+      item.titleThai, item.titleOriginal, ...(String(item.altTitle || '').split('/')), ...(item.youtubeAliases || []),
+      anilist.romaji, anilist.english, anilist.native, ...(Array.isArray(anilist.synonyms) ? anilist.synonyms : [])
+    ].map(normalizeTitle).filter(Boolean).map(alias => ({ alias, grams: bigrams(alias) }));
+    aliasCache.set(item, data);
+  }
+  return data;
+}
+
+// scan-unmatched-channel-shows.js passes a lower floor (4) so its "already known"
+// filter stays deliberately more inclusive than the matcher's.
+function aliasesForAnime(item, minLength = MIN_ALIAS_LENGTH) {
+  return aliasDataForAnime(item).filter(entry => entry.alias.length >= minLength).map(entry => entry.alias);
 }
 
 // Two-tier matcher:
@@ -129,7 +152,10 @@ function matchVideoToAnime(video, anime) {
   const normalizedVideo = normalizeTitle(video.title);
   const scored = [];
   for (const item of anime) {
-    const best = aliasesForAnime(item).filter(alias => normalizedVideo.includes(alias)).sort((a, b) => b.length - a.length)[0];
+    let best = '';
+    for (const { alias } of aliasDataForAnime(item)) {
+      if (alias.length >= MIN_ALIAS_LENGTH && alias.length > best.length && normalizedVideo.includes(alias)) best = alias;
+    }
     if (best) scored.push({ item, score: best.length, alias: best });
   }
   scored.sort((a, b) => b.score - a.score);
@@ -141,12 +167,14 @@ function matchVideoToAnime(video, anime) {
   }
 
   const showName = normalizeTitle(extractShowName(video.title));
-  if (showName.length < 6) return { match: null, matchType: null, score: 0, candidates: [], suggestions: [] };
+  if (showName.length < MIN_ALIAS_LENGTH) return { match: null, matchType: null, score: 0, candidates: [], suggestions: [] };
+  const showGrams = bigrams(showName);
   const fuzzy = [];
   for (const item of anime) {
     let best = 0, bestAlias = '';
-    for (const alias of aliasesForAnime(item)) {
-      const score = diceSimilarity(showName, alias);
+    for (const { alias, grams } of aliasDataForAnime(item)) {
+      if (alias.length < MIN_ALIAS_LENGTH) continue;
+      const score = diceFromBigrams(showGrams, grams);
       if (score > best) { best = score; bestAlias = alias; }
     }
     if (best >= SUGGEST_THRESHOLD) fuzzy.push({ item, score: best, alias: bestAlias });
@@ -154,11 +182,10 @@ function matchVideoToAnime(video, anime) {
   fuzzy.sort((a, b) => b.score - a.score);
   if (!fuzzy.length) return { match: null, matchType: null, score: 0, candidates: [], suggestions: [] };
   const top = fuzzy[0];
-  const clearWinner = top.score - (fuzzy[1]?.score ?? 0) >= FUZZY_MARGIN;
-  if (top.score >= AUTO_THRESHOLD && clearWinner) {
+  if (top.score >= AUTO_THRESHOLD && top.score - (fuzzy[1]?.score ?? 0) >= FUZZY_MARGIN) {
     return { match: top.item, matchType: 'fuzzy', score: top.score, candidates: [], suggestions: [] };
   }
-  const suggestions = clearWinner ? [top] : fuzzy.filter(value => value.score >= top.score - FUZZY_MARGIN);
+  const suggestions = fuzzy.filter(value => value.score >= top.score - FUZZY_MARGIN);
   return { match: null, matchType: null, score: top.score, candidates: [], suggestions };
 }
 
@@ -197,11 +224,11 @@ function applyDiscoveries(anime, channel, videos, candidatesLog, years = catalog
     if (!result.match) {
       if (result.candidates.length) candidatesLog.push({
         type: 'ambiguous_title', videoId: video.videoId, title: video.title, channel: channel.channelTitle,
-        matches: result.candidates.map(value => ({ id: value.item.id, alias: value.alias, score: value.score }))
+        matches: result.candidates.map(value => ({ id: value.item.id, alias: value.alias, matchLength: value.score }))
       });
       for (const suggestion of result.suggestions) candidatesLog.push({
         type: 'fuzzy_suggestion', videoId: video.videoId, title: video.title, channel: channel.channelTitle,
-        matches: [{ id: suggestion.item.id, alias: suggestion.alias, score: Number(suggestion.score.toFixed(3)) }]
+        matches: [{ id: suggestion.item.id, alias: suggestion.alias, similarity: Number(suggestion.score.toFixed(3)) }]
       });
       continue;
     }
@@ -226,7 +253,11 @@ function applyDiscoveries(anime, channel, videos, candidatesLog, years = catalog
     item.lastCheckedAt = new Date().toISOString();
     item.status = 'available'; item.updateStatus = 'ok'; item.updateError = '';
     item.confidence = 'confirmed_from_official_channel_uploads';
-    item.youtubeMatchConfidence = matchTypeById.get(item.id) === 'fuzzy' ? 'fuzzy_title_match' : 'strong_unique_title_match';
+    // Incremental runs only see new uploads, so a fuzzy-only run must not downgrade a
+    // show whose identity an earlier run already confirmed with an exact title match.
+    item.youtubeMatchConfidence = matchTypeById.get(item.id) === 'fuzzy' && item.youtubeMatchConfidence !== 'strong_unique_title_match'
+      ? 'fuzzy_title_match'
+      : 'strong_unique_title_match';
     item.youtubeSourceType = 'channel_uploads'; item.youtubeChannelId = channel.channelId; item.youtubeChannelTitle = channel.channelTitle;
     item.channel = channel.label; item.platform = 'YouTube';
   }

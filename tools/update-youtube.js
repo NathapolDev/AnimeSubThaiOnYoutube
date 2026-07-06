@@ -64,12 +64,15 @@ function isEpisode(title) {
   return !/^(?:\[?(?:private|deleted) video\]?|วิดีโอส่วนตัว|วิดีโอถูกลบ)$/iu.test(title.trim());
 }
 
-// Strip the episode marker (ตอนที่ N / EP N / #N) and any trailing bracketed tag
-// so what remains is just the show name a channel puts in front of every episode.
-// Shared by discover-youtube.js (fuzzy matching) and scan-unmatched-channel-shows.js.
+// Strip the episode marker and any trailing bracketed tag so what remains is just the
+// show name a channel puts in front of every episode. The marker alternatives mirror
+// EPISODE_PATTERNS above (bare "ตอน N", "EP - N"/"EP: N" separators, "# N") — a marker
+// episodeNumber accepts but this regex misses would leave noise in the show name and
+// drag the fuzzy-match score down. Shared by discover-youtube.js (fuzzy matching) and
+// scan-unmatched-channel-shows.js.
 function extractShowName(title) {
   return String(title || '')
-    .split(/ตอนที่|EP\.?\s*\d|Episode\s*\d|#\d+/i)[0]
+    .split(/ตอน(?:ที่)?\s*\d|ตอนที่|\bEP(?:ISODE)?\.?\s*[-:#]?\s*\d|#\s*\d/i)[0]
     .replace(/[\[【].*$/, '')
     .trim();
 }

@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { buildEpisodeList, episodeNumber, episodeRange, fetchPlaylist, isEpisode, updateAnimeItems } = require('./update-youtube');
+const { buildEpisodeList, episodeNumber, episodeRange, extractShowName, fetchPlaylist, isEpisode, updateAnimeItems } = require('./update-youtube');
 const { thaiBroadcastTime } = require('./update-jikan');
 
 function playlistItem(title, videoId, publishedAt = '2026-07-01T00:00:00Z') {
@@ -13,6 +13,17 @@ test('extracts Thai and English episode numbers', () => {
   assert.equal(episodeNumber('Series EP. 7'), 7);
   assert.equal(episodeNumber('Episode 9'), 9);
   assert.equal(episodeNumber('Series #4'), 4);
+});
+
+test('extractShowName strips every episode-marker form episodeNumber accepts', () => {
+  assert.equal(extractShowName('โจโจ้ ตอน 5'), 'โจโจ้');            // bare ตอน, no ที่
+  assert.equal(extractShowName('นารูโตะ EP - 12'), 'นารูโตะ');       // separator between EP and number
+  assert.equal(extractShowName('วันพีช EP: 5'), 'วันพีช');
+  assert.equal(extractShowName('โคนัน # 5'), 'โคนัน');               // space after #
+  assert.equal(extractShowName('My Show ตอนที่ 3 [ซับไทย]'), 'My Show');
+  assert.equal(extractShowName('Show Episode 7'), 'Show');
+  assert.equal(extractShowName('Show EP.4'), 'Show');
+  assert.equal(extractShowName('Show #12'), 'Show');
 });
 
 test('ignores year-like hashtag numbers', () => {
