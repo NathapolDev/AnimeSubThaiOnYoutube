@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert');
-const { applyEntryUpdate, entryHash } = require('./admin-server');
+const { applyEntryUpdate, applyEntryInsert, entryHash } = require('./admin-server');
 
 function sampleItems() {
   return [
@@ -41,6 +41,26 @@ test('rejects unknown target id', () => {
 test('rejects non-object and id-less entries', () => {
   for (const bad of [null, 'text', [1], { titleThai: 'ไม่มี id' }, { id: '  ' }]) {
     assert.throws(() => applyEntryUpdate(sampleItems(), 'a', bad), error => error.status === 400);
+  }
+});
+
+test('inserts a new entry at the end without mutating the input', () => {
+  const items = sampleItems();
+  const next = applyEntryInsert(items, { id: 'd', titleThai: 'เรื่องสี่' });
+  assert.deepStrictEqual(next.map(i => i.id), ['a', 'b', 'c', 'd']);
+  assert.strictEqual(items.length, 3, 'input array is not mutated');
+});
+
+test('rejects inserting a duplicate id', () => {
+  assert.throws(
+    () => applyEntryInsert(sampleItems(), { id: 'b', titleThai: 'ซ้ำ' }),
+    error => error.status === 409
+  );
+});
+
+test('rejects inserting non-object and id-less entries', () => {
+  for (const bad of [null, 'text', [1], { titleThai: 'ไม่มี id' }, { id: '  ' }]) {
+    assert.throws(() => applyEntryInsert(sampleItems(), bad), error => error.status === 400);
   }
 });
 

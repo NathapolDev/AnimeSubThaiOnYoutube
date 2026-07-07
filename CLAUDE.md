@@ -49,7 +49,7 @@ The data pipeline writes two parallel files after every update:
 
 Both files are written through `tools/write-data.js`; don't write them by hand from a tool.
 
-`tools/admin-server.js` serves a local-only editor UI (`admin/`) for hand-editing entries in `data/anime.json` — a grouped form for human-owned fields, a read-only view of pipeline-owned fields, and a raw-JSON mode for everything else. Saves replace one entry wholesale (guarded by a per-entry content hash, so a pipeline run between load and save is rejected with 409) and go through `write-data.js`. It binds to 127.0.0.1 only and is never deployed: `deploy-pages.yml` assembles `_site/` from an explicit file list that does not include `admin/`. Keep it that way when touching the workflow.
+`tools/admin-server.js` serves a local-only editor UI (`admin/`) for hand-editing entries in `data/anime.json` — a grouped form for human-owned fields, a read-only view of pipeline-owned fields, a raw-JSON mode for everything else, and a create mode for manually adding a new anime (appends the entry; duplicate ids are rejected). Saves replace one entry wholesale (guarded by a per-entry content hash, so a pipeline run between load and save is rejected with 409) and go through `write-data.js`. It binds to 127.0.0.1 only and is never deployed: `deploy-pages.yml` assembles `_site/` from an explicit file list that does not include `admin/`. Keep it that way when touching the workflow.
 
 `tools/build-site-data.js` builds the GitHub Pages payload (`_site/data/`) with pipeline-only fields stripped — if `app.js` starts reading a new field, add it to `ITEM_FIELDS`/`EPISODE_FIELDS` (or `CR_FIELDS`/`CR_EPISODE_FIELDS` / `BILI_FIELDS`/`BILI_EPISODE_FIELDS` for the `crunchyroll`/`bilibili` sub-objects) there.
 

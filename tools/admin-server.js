@@ -41,16 +41,20 @@ class UpdateError extends Error {
   }
 }
 
-// Replace the entry with the given id by `entry` (full replacement, so the UI
-// can also drop keys via its raw-JSON mode). Returns a new array; never
-// mutates `items`. Throws UpdateError with an HTTP status on bad input.
-function applyEntryUpdate(items, id, entry, baseHash) {
+function assertEntryShape(entry) {
   if (!entry || typeof entry !== 'object' || Array.isArray(entry)) {
     throw new UpdateError(400, 'entry must be a JSON object');
   }
   if (typeof entry.id !== 'string' || !entry.id.trim()) {
     throw new UpdateError(400, 'entry.id must be a non-empty string');
   }
+}
+
+// Replace the entry with the given id by `entry` (full replacement, so the UI
+// can also drop keys via its raw-JSON mode). Returns a new array; never
+// mutates `items`. Throws UpdateError with an HTTP status on bad input.
+function applyEntryUpdate(items, id, entry, baseHash) {
+  assertEntryShape(entry);
   const index = items.findIndex(item => item.id === id);
   if (index === -1) throw new UpdateError(404, `no anime with id "${id}"`);
   if (entry.id !== id && items.some(item => item.id === entry.id)) {
@@ -62,6 +66,16 @@ function applyEntryUpdate(items, id, entry, baseHash) {
   const next = items.slice();
   next[index] = entry;
   return next;
+}
+
+// Append a brand-new entry (manual add for anime the pipeline hasn't imported).
+// Returns a new array; never mutates `items`.
+function applyEntryInsert(items, entry) {
+  assertEntryShape(entry);
+  if (items.some(item => item.id === entry.id)) {
+    throw new UpdateError(409, `id "${entry.id}" is already used by another entry`);
+  }
+  return [...items, entry];
 }
 
 async function readItems() {
@@ -92,6 +106,15 @@ function readBody(req) {
   });
 }
 
+async function readJsonBody(req) {
+  try {
+    return JSON.parse(await readBody(req));
+  } catch (error) {
+    if (error instanceof UpdateError) throw error;
+    throw new UpdateError(400, `invalid JSON body: ${error.message}`);
+  }
+}
+
 async function handleApi(req, res, pathname) {
   if (req.method === 'GET' && pathname === '/api/anime') {
     const items = await readItems();
@@ -100,16 +123,18 @@ async function handleApi(req, res, pathname) {
     sendJson(res, 200, { items, hashes });
     return;
   }
+  if (req.method === 'POST' && pathname === '/api/anime') {
+    const payload = await readJsonBody(req);
+    const items = await readItems();
+    const next = applyEntryInsert(items, payload.entry);
+    await writeDataFiles(next);
+    sendJson(res, 200, { ok: true, hash: entryHash(payload.entry) });
+    return;
+  }
   const entryMatch = pathname.match(/^\/api\/anime\/([^/]+)$/);
   if (req.method === 'PUT' && entryMatch) {
     const id = decodeURIComponent(entryMatch[1]);
-    let payload;
-    try {
-      payload = JSON.parse(await readBody(req));
-    } catch (error) {
-      if (error instanceof UpdateError) throw error;
-      throw new UpdateError(400, `invalid JSON body: ${error.message}`);
-    }
+    const payload = await readJsonBody(req);
     const items = await readItems();
     const next = applyEntryUpdate(items, id, payload.entry, payload.baseHash);
     await writeDataFiles(next);
@@ -154,4 +179,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { applyEntryUpdate, entryHash, createServer };
+module.exports = { applyEntryUpdate, applyEntryInsert, entryHash, createServer };

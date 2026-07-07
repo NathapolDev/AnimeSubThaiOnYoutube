@@ -81,10 +81,41 @@
     'youtubeLastResearchedAt'
   ];
 
+  // Editable id field, only shown while creating a new entry (existing
+  // entries rename via the Raw JSON tab if ever needed).
+  const ID_FIELD = {
+    key: 'id', label: 'ID (ต้องไม่ซ้ำกับเรื่องอื่น)', type: 'text', wide: true,
+    hint: 'ตัวพิมพ์เล็กคั่นด้วยขีดกลาง เช่น neko-to-ryuu — ใช้อ้างอิงถาวร ตั้งแล้วไม่ควรเปลี่ยน'
+  };
+
+  // Skeleton for a manually added anime: every human-owned field present so the
+  // form renders empty inputs, pipeline-owned fields left blank for the next
+  // tool run to fill in.
+  function newEntryTemplate() {
+    const now = new Date();
+    const month = now.getMonth() + 1;
+    const season = month <= 3 ? 'winter' : month <= 6 ? 'spring' : month <= 9 ? 'summer' : 'fall';
+    return {
+      id: '',
+      titleThai: '', titleOriginal: '', altTitle: '',
+      studio: '', source: '', episodes: '?', premiere: '', airTimeThai: '',
+      channel: '', platform: 'YouTube', status: 'upcoming', confidence: '',
+      link: '', genres: [], summary: '', note: '', poster: '',
+      playlistId: '',
+      lastCheckedAt: '', updateStatus: '', updateError: '',
+      malId: null, malUrl: '', jikanType: 'TV', jikanStatus: '', rating: '',
+      score: null, season, year: now.getFullYear(), trailerUrl: '',
+      availableEpisodes: [],
+      youtubeAliases: [], youtubeSourceType: '', youtubeChannelId: '',
+      youtubeChannelTitle: '', youtubeMatchConfidence: ''
+    };
+  }
+
   // ---- state ---------------------------------------------------------------
   let items = [];
   let hashes = {};
   let currentId = null;
+  let draftEntry = null; // set while creating a new entry (currentId is null)
   let dirty = false;
   let activeTab = 'form';
 
@@ -109,6 +140,7 @@
   }
 
   function currentEntry() {
+    if (draftEntry) return draftEntry;
     return items.find(item => item.id === currentId) || null;
   }
 
@@ -207,8 +239,12 @@
       const img = document.createElement('img');
       img.className = 'poster-preview';
       img.alt = '';
-      img.src = entry[field.key] || '';
-      control.addEventListener('input', () => { img.src = control.value.trim(); });
+      const setPreview = url => {
+        img.hidden = !url;
+        if (url) img.src = url;
+      };
+      setPreview(entry[field.key] || '');
+      control.addEventListener('input', () => setPreview(control.value.trim()));
       row.append(control, img);
       wrap.append(row);
     } else {
@@ -295,6 +331,17 @@
 
   function renderForm(entry) {
     formEl.textContent = '';
+    if (draftEntry) {
+      const fieldset = document.createElement('fieldset');
+      const legend = document.createElement('legend');
+      legend.textContent = 'รายการใหม่';
+      fieldset.append(legend);
+      const grid = document.createElement('div');
+      grid.className = 'field-grid';
+      grid.append(makeField(ID_FIELD, entry));
+      fieldset.append(grid);
+      formEl.append(fieldset);
+    }
     for (const section of SECTIONS) {
       const fieldset = document.createElement('fieldset');
       const legend = document.createElement('legend');
@@ -338,8 +385,9 @@
 
   function entryFromForm() {
     const entry = JSON.parse(JSON.stringify(currentEntry()));
+    const allFields = [ID_FIELD, ...SECTIONS.flatMap(section => section.fields)];
     for (const control of formEl.querySelectorAll('[data-key]')) {
-      const field = SECTIONS.flatMap(section => section.fields).find(f => f.key === control.dataset.key);
+      const field = allFields.find(f => f.key === control.dataset.key);
       const next = convertValue(field, control.value);
       // Don't invent keys the entry never had just because the input is empty.
       const isEmpty = next === null || next === '' || (Array.isArray(next) && next.length === 0);
@@ -390,6 +438,7 @@
   // ---- selection / loading -------------------------------------------------
   function selectAnime(id, force) {
     if (!force && !confirmDiscard()) return;
+    draftEntry = null;
     currentId = id;
     const entry = currentEntry();
     setDirty(false);
@@ -401,6 +450,23 @@
     rawEl.value = `${JSON.stringify(entry, null, 2)}\n`;
     if (activeTab === 'raw') switchTab('form');
     renderList();
+  }
+
+  function startNewEntry() {
+    if (!confirmDiscard()) return;
+    draftEntry = newEntryTemplate();
+    currentId = null;
+    setDirty(true);
+    $('empty-state').hidden = true;
+    $('editor-body').hidden = false;
+    $('editor-title').textContent = 'เพิ่มเรื่องใหม่';
+    $('editor-id').textContent = 'ยังไม่บันทึก — ตั้ง id แล้วกดบันทึกเพื่อเพิ่มลง data/anime.json';
+    renderForm(draftEntry);
+    rawEl.value = `${JSON.stringify(draftEntry, null, 2)}\n`;
+    if (activeTab === 'raw') switchTab('form');
+    renderList();
+    const idInput = formEl.querySelector('[data-key="id"]');
+    if (idInput) idInput.focus();
   }
 
   async function loadCatalog(keepSelection) {
@@ -416,10 +482,14 @@
 
   // ---- saving ----------------------------------------------------------------
   async function save() {
-    if (!currentId) return;
+    const creating = Boolean(draftEntry);
+    if (!creating && !currentId) return;
     let entry;
     try {
       entry = editedEntry();
+      if (creating && (typeof entry.id !== 'string' || !entry.id.trim())) {
+        throw new Error('ต้องตั้ง id ก่อนบันทึกรายการใหม่');
+      }
     } catch (error) {
       toast(error.message, 'error');
       return;
@@ -427,20 +497,32 @@
     const saveBtn = $('save-btn');
     saveBtn.disabled = true;
     try {
-      const response = await fetch(`/api/anime/${encodeURIComponent(currentId)}`, {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ entry, baseHash: hashes[currentId] })
-      });
+      const response = creating
+        ? await fetch('/api/anime', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ entry })
+          })
+        : await fetch(`/api/anime/${encodeURIComponent(currentId)}`, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ entry, baseHash: hashes[currentId] })
+          });
       const result = await response.json();
       if (!response.ok) throw new Error(result.error || `HTTP ${response.status}`);
-      const index = items.findIndex(item => item.id === currentId);
-      items[index] = entry;
-      currentId = entry.id;
+      if (creating) {
+        items.push(entry);
+      } else {
+        const index = items.findIndex(item => item.id === currentId);
+        items[index] = entry;
+      }
       hashes[entry.id] = result.hash;
       setDirty(false);
       selectAnime(entry.id, true);
-      toast('บันทึกแล้ว — เขียน data/anime.json และ data/anime.js เรียบร้อย', 'ok');
+      $('catalog-meta').textContent = `${items.length} เรื่องใน data/anime.json`;
+      toast(creating
+        ? `เพิ่ม "${entry.titleThai || entry.id}" ลง data/anime.json และ data/anime.js แล้ว`
+        : 'บันทึกแล้ว — เขียน data/anime.json และ data/anime.js เรียบร้อย', 'ok');
     } catch (error) {
       toast(`บันทึกไม่สำเร็จ: ${error.message}`, 'error');
     } finally {
@@ -450,6 +532,7 @@
 
   // ---- wiring ----------------------------------------------------------------
   $('search').addEventListener('input', renderList);
+  $('new-btn').addEventListener('click', startNewEntry);
   $('save-btn').addEventListener('click', save);
   $('reload-btn').addEventListener('click', () => {
     if (!confirmDiscard()) return;
