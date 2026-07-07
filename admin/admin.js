@@ -329,6 +329,75 @@
     return fieldset;
   }
 
+  // MAL-ID prefill row shown only in create mode: fetches the anime from
+  // Jikan through the server and refills the whole draft with the same field
+  // mapping update-jikan.js uses, so the form starts validated/consistent.
+  function makePrefillRow(entry) {
+    const wrap = document.createElement('div');
+    wrap.className = 'field wide';
+
+    const label = document.createElement('label');
+    label.className = 'field-label';
+    const text = document.createElement('span');
+    text.textContent = 'เริ่มจาก MAL ID (แนะนำ)';
+    const key = document.createElement('code');
+    key.className = 'key';
+    key.textContent = 'malId';
+    label.append(text, key);
+
+    const row = document.createElement('div');
+    row.className = 'prefill-row';
+    const input = document.createElement('input');
+    input.type = 'text';
+    input.id = 'prefill-malid';
+    input.inputMode = 'numeric';
+    input.placeholder = 'เช่น 59741 (ตัวเลขท้าย URL ของหน้า MyAnimeList)';
+    input.value = entry.malId || '';
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'btn';
+    button.textContent = 'ดึงข้อมูลจาก MAL';
+
+    const fetchPrefill = async () => {
+      const malId = input.value.trim();
+      if (!/^\d+$/.test(malId)) {
+        toast('MAL ID ต้องเป็นตัวเลข', 'error');
+        return;
+      }
+      button.disabled = true;
+      button.textContent = 'กำลังดึงข้อมูล…';
+      try {
+        const response = await fetch(`/api/jikan/${malId}`);
+        const result = await response.json();
+        if (!response.ok) throw new Error(result.error || `HTTP ${response.status}`);
+        draftEntry = result.entry;
+        setDirty(true);
+        renderForm(draftEntry);
+        rawEl.value = `${JSON.stringify(draftEntry, null, 2)}\n`;
+        toast(`ดึงข้อมูล "${result.entry.titleThai}" มาเติมให้แล้ว — ตรวจสอบ/แก้ไขก่อนกดบันทึก`, 'ok');
+      } catch (error) {
+        toast(`ดึงข้อมูลไม่สำเร็จ: ${error.message}`, 'error');
+      } finally {
+        button.disabled = false;
+        button.textContent = 'ดึงข้อมูลจาก MAL';
+      }
+    };
+    button.addEventListener('click', fetchPrefill);
+    input.addEventListener('keydown', event => {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        fetchPrefill();
+      }
+    });
+
+    row.append(input, button);
+    const hint = document.createElement('span');
+    hint.className = 'field-hint';
+    hint.textContent = 'ดึงชื่อ โปสเตอร์ เรื่องย่อ สตูดิโอ ซีซัน ฯลฯ จาก Jikan มาเติมทุกช่องให้อัตโนมัติ (เขียนทับค่าที่กรอกไว้) — ถ้าเรื่องนี้มีในระบบแล้วจะเตือน';
+    wrap.append(label, row, hint);
+    return wrap;
+  }
+
   function renderForm(entry) {
     formEl.textContent = '';
     if (draftEntry) {
@@ -336,6 +405,7 @@
       const legend = document.createElement('legend');
       legend.textContent = 'รายการใหม่';
       fieldset.append(legend);
+      fieldset.append(makePrefillRow(entry));
       const grid = document.createElement('div');
       grid.className = 'field-grid';
       grid.append(makeField(ID_FIELD, entry));
@@ -465,8 +535,8 @@
     rawEl.value = `${JSON.stringify(draftEntry, null, 2)}\n`;
     if (activeTab === 'raw') switchTab('form');
     renderList();
-    const idInput = formEl.querySelector('[data-key="id"]');
-    if (idInput) idInput.focus();
+    const malInput = formEl.querySelector('#prefill-malid');
+    if (malInput) malInput.focus();
   }
 
   async function loadCatalog(keepSelection) {
