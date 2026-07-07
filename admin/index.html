@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Anime Data Editor — admin</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Anime Data Editor</h1>
+      <p class="topbar-note">เครื่องมือหลังบ้าน แก้ไข <code>data/anime.json</code> — รันในเครื่องเท่านั้น ไม่ถูก deploy ขึ้น GitHub Pages</p>
+    </div>
+    <div class="topbar-meta" id="catalog-meta"></div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <input type="search" id="search" placeholder="ค้นหา: ชื่อไทย / ชื่อญี่ปุ่น / id" autocomplete="off">
+      <div class="list-meta" id="list-meta"></div>
+      <ul class="anime-list" id="anime-list"></ul>
+    </aside>
+
+    <section class="editor" id="editor">
+      <div class="empty-state" id="empty-state">เลือกอนิเมะจากรายการด้านซ้ายเพื่อแก้ไข</div>
+
+      <div class="editor-body" id="editor-body" hidden>
+        <div class="editor-head">
+          <div class="editor-title">
+            <h2 id="editor-title"></h2>
+            <code id="editor-id"></code>
+          </div>
+          <div class="editor-actions">
+            <span class="dirty-flag" id="dirty-flag" hidden>ยังไม่บันทึก</span>
+            <button type="button" class="btn ghost" id="reload-btn" title="โหลดข้อมูลจากไฟล์ใหม่ (ทิ้งการแก้ไขที่ยังไม่บันทึก)">โหลดใหม่</button>
+            <button type="button" class="btn primary" id="save-btn">บันทึก (Ctrl+S)</button>
+          </div>
+        </div>
+
+        <nav class="tabs">
+          <button type="button" class="tab active" data-tab="form">ฟอร์ม</button>
+          <button type="button" class="tab" data-tab="raw">Raw JSON</button>
+        </nav>
+
+        <form id="entry-form" autocomplete="off"></form>
+
+        <div id="raw-panel" hidden>
+          <p class="raw-hint">แก้ไข JSON ของรายการนี้ทั้งก้อน (โหมดขั้นสูง — ลบ/เพิ่ม field ได้อิสระ)</p>
+          <textarea id="raw-json" spellcheck="false"></textarea>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" hidden></div>
+  <script src="admin.js"></script>
+</body>
+</html>
