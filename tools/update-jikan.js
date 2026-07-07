@@ -175,4 +175,4 @@ async function main() {
 
 if (require.main === module) main().catch(error => { console.error(`Jikan update failed: ${error.message}`); process.exitCode = 1; });
 
-module.exports = { UPCOMING_SEASON_FROM_MONTH, bangkokMonth, bangkokYear, catalogYears, fetchCatalog, fetchSeason, fetchYear, syncCatalog, thaiBroadcastTime };
+module.exports = { UPCOMING_SEASON_FROM_MONTH, bangkokMonth, bangkokYear, catalogYears, createItem, fetchCatalog, fetchSeason, fetchYear, requestJson, syncCatalog, thaiBroadcastTime };

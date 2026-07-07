@@ -164,6 +164,9 @@ fieldset legend {
 .field textarea.tall { min-height: 100px }
 .field input:focus, .field textarea:focus, .field select:focus { outline: 2px solid var(--accent2); outline-offset: -1px }
 .field-hint { font-size: .68rem; color: var(--muted) }
+.prefill-row { display: flex; gap: 8px }
+.prefill-row input { flex: 1 }
+.prefill-row .btn { flex: none; white-space: nowrap }
 .poster-row { display: flex; gap: 10px; align-items: flex-start }
 .poster-row input { flex: 1 }
 .poster-preview {

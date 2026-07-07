@@ -13,6 +13,7 @@ const http = require('node:http');
 const path = require('node:path');
 const crypto = require('node:crypto');
 const { writeDataFiles } = require('./write-data');
+const { bangkokYear, createItem, requestJson } = require('./update-jikan');
 
 const ROOT = path.resolve(__dirname, '..');
 const JSON_PATH = path.join(ROOT, 'data', 'anime.json');
@@ -68,6 +69,21 @@ function applyEntryUpdate(items, id, entry, baseHash) {
   return next;
 }
 
+// Build a prefilled new entry from a Jikan anime object, using the same
+// createItem mapping update-jikan.js uses so a manual add looks exactly like a
+// pipeline import. Throws 409 when the anime is already in the catalog.
+function prefillFromJikan(items, anime) {
+  const existing = items.find(item => item.malId === anime.mal_id);
+  if (existing) {
+    throw new UpdateError(409, `malId ${anime.mal_id} already exists as "${existing.titleThai}" (id: ${existing.id})`);
+  }
+  const premiereMonth = anime.aired?.from ? new Date(anime.aired.from).getMonth() + 1 : null;
+  const season = anime.season
+    || (premiereMonth ? ['winter', 'spring', 'summer', 'fall'][Math.floor((premiereMonth - 1) / 3)] : 'winter');
+  const year = anime.year || (anime.aired?.from ? new Date(anime.aired.from).getFullYear() : bangkokYear());
+  return createItem(anime, season, year, new Set(items.map(item => item.id)));
+}
+
 // Append a brand-new entry (manual add for anime the pipeline hasn't imported).
 // Returns a new array; never mutates `items`.
 function applyEntryInsert(items, entry) {
@@ -121,6 +137,24 @@ async function handleApi(req, res, pathname) {
     const hashes = {};
     for (const item of items) hashes[item.id] = entryHash(item);
     sendJson(res, 200, { items, hashes });
+    return;
+  }
+  const jikanMatch = pathname.match(/^\/api\/jikan\/(\d+)$/);
+  if (req.method === 'GET' && jikanMatch) {
+    const malId = Number(jikanMatch[1]);
+    const items = await readItems();
+    const existing = items.find(item => item.malId === malId);
+    if (existing) {
+      throw new UpdateError(409, `malId ${malId} already exists as "${existing.titleThai}" (id: ${existing.id})`);
+    }
+    let body;
+    try {
+      body = await requestJson(`https://api.jikan.moe/v4/anime/${malId}`);
+    } catch (error) {
+      if (/HTTP 404/.test(error.message)) throw new UpdateError(404, `Jikan has no anime with malId ${malId}`);
+      throw new UpdateError(502, `Jikan request failed: ${error.message}`);
+    }
+    sendJson(res, 200, { entry: prefillFromJikan(items, body.data) });
     return;
   }
   if (req.method === 'POST' && pathname === '/api/anime') {
@@ -179,4 +213,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { applyEntryUpdate, applyEntryInsert, entryHash, createServer };
+module.exports = { applyEntryUpdate, applyEntryInsert, prefillFromJikan, entryHash, createServer };
