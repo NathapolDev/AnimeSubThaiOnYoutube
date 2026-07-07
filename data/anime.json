@@ -792,8 +792,8 @@
     "channel": "Ani-One Thailand",
     "platform": "YouTube",
     "status": "available",
-    "confidence": "confirmed_from_youtube_playlist",
-    "link": "https://www.youtube.com/playlist?list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
+    "confidence": "confirmed_from_crunchyroll",
+    "link": "https://myanimelist.net/anime/63832/Seihantai_na_Kimi_to_Boku_2nd_Season",
     "genres": [
       "Comedy",
       "Romance",
@@ -801,15 +801,11 @@
       "Shounen"
     ],
     "summary": "คู่รักต่างนิสัยกลับมาเดินหน้าความสัมพันธ์ในบรรยากาศโรแมนติกคอเมดี้วัยเรียน",
-    "note": "ตารางระบุ Ani-One Thailand / TrueVision Now; ลิงก์จากผลค้นหา YouTube ของ Ani-One; แก้ malId 54000→63832 (54000 เป็นของ Trapped in a Dating Sim ทำให้ดึงโปสเตอร์/สตูดิโอผิด) และรวมกับ entry ซ้ำ seihantai-na-kimi-to-boku-2nd-season",
+    "note": "ตารางระบุ Ani-One Thailand / TrueVision Now; แก้ malId 54000→63832 (54000 เป็นของ Trapped in a Dating Sim ทำให้ดึงโปสเตอร์/สตูดิโอผิด) และรวมกับ entry ซ้ำ seihantai-na-kimi-to-boku-2nd-season; playlistId เดิมชี้ไปที่เพลย์ลิสต์ซีซั่น 1 โดยผิดพลาด รีเซ็ตรอ discover-youtube.js จับคู่ใหม่",
     "poster": "https://cdn.myanimelist.net/images/anime/1143/158409l.webp",
-    "playlistId": "PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
-    "currentEpisode": 12,
-    "latestEpisodeTitle": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=oHy-No_sVhE&list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
-    "latestPublishedAt": "2026-05-03T08:30:06Z",
-    "lastCheckedAt": "2026-07-07T08:46:43.979Z",
-    "updateStatus": "ok",
+    "playlistId": "",
+    "lastCheckedAt": "",
+    "updateStatus": "no_playlist",
     "updateError": "",
     "malUrl": "https://myanimelist.net/anime/63832/Seihantai_na_Kimi_to_Boku_2nd_Season",
     "jikanType": "TV",
@@ -819,99 +815,14 @@
     "season": "summer",
     "year": 2026,
     "trailerUrl": "",
-    "availableEpisodes": [
-      {
-        "number": 12,
-        "title": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
-        "videoId": "oHy-No_sVhE",
-        "videoUrl": "https://www.youtube.com/watch?v=oHy-No_sVhE&list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
-        "publishedAt": "2026-05-03T08:30:06Z"
-      },
-      {
-        "number": 11,
-        "title": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 11 [ซับไทย]【Ani-One Thailand】",
-        "videoId": "h8heqUQyQYw",
-        "videoUrl": "https://www.youtube.com/watch?v=h8heqUQyQYw&list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
-        "publishedAt": "2026-04-26T08:30:06Z"
-      },
-      {
-        "number": 10,
-        "title": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 10 [ซับไทย]【Ani-One Thailand】",
-        "videoId": "g2jKggvO-so",
-        "videoUrl": "https://www.youtube.com/watch?v=g2jKggvO-so&list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
-        "publishedAt": "2026-04-19T08:30:06Z"
-      },
-      {
-        "number": 9,
-        "title": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 9 [ซับไทย]【Ani-One Thailand】",
-        "videoId": "fmmiiEfJLAI",
-        "videoUrl": "https://www.youtube.com/watch?v=fmmiiEfJLAI&list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
-        "publishedAt": "2026-04-12T08:30:06Z"
-      },
-      {
-        "number": 8,
-        "title": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 8 [ซับไทย]【Ani-One Thailand】",
-        "videoId": "Z-cl_HIu7qI",
-        "videoUrl": "https://www.youtube.com/watch?v=Z-cl_HIu7qI&list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
-        "publishedAt": "2026-04-05T08:30:06Z"
-      },
-      {
-        "number": 7,
-        "title": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 7 [ซับไทย]【Ani-One Thailand】",
-        "videoId": "8l00t0G1PDI",
-        "videoUrl": "https://www.youtube.com/watch?v=8l00t0G1PDI&list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
-        "publishedAt": "2026-03-29T08:30:06Z"
-      },
-      {
-        "number": 6,
-        "title": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 6 [ซับไทย]【Ani-One Thailand】",
-        "videoId": "-_BjECQQKck",
-        "videoUrl": "https://www.youtube.com/watch?v=-_BjECQQKck&list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
-        "publishedAt": "2026-03-22T08:30:07Z"
-      },
-      {
-        "number": 5,
-        "title": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 5 [ซับไทย]【Ani-One Thailand】",
-        "videoId": "kHc157Ok7u8",
-        "videoUrl": "https://www.youtube.com/watch?v=kHc157Ok7u8&list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
-        "publishedAt": "2026-03-15T08:30:07Z"
-      },
-      {
-        "number": 4,
-        "title": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 4 [ซับไทย]【Ani-One Thailand】",
-        "videoId": "4OOf0WkIVvw",
-        "videoUrl": "https://www.youtube.com/watch?v=4OOf0WkIVvw&list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
-        "publishedAt": "2026-03-08T08:30:07Z"
-      },
-      {
-        "number": 3,
-        "title": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 3 [ซับไทย]【Ani-One Thailand】",
-        "videoId": "GixqSDoELVo",
-        "videoUrl": "https://www.youtube.com/watch?v=GixqSDoELVo&list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
-        "publishedAt": "2026-03-01T08:30:07Z"
-      },
-      {
-        "number": 2,
-        "title": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 2 [ซับไทย]【Ani-One Thailand】",
-        "videoId": "_mXsqP24cHo",
-        "videoUrl": "https://www.youtube.com/watch?v=_mXsqP24cHo&list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
-        "publishedAt": "2026-02-22T08:30:07Z"
-      },
-      {
-        "number": 1,
-        "title": "ลุ้นรักฉบับคู่ต่างขั้ว ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
-        "videoId": "LG0POnzbnjY",
-        "videoUrl": "https://www.youtube.com/watch?v=LG0POnzbnjY&list=PL_YV8EWtbQXFN-VSi8Px9p4Kj4_44xO9W",
-        "publishedAt": "2026-02-15T08:30:06Z"
-      }
-    ],
+    "availableEpisodes": [],
     "catalogYear": 2026,
     "youtubeAliases": [],
-    "youtubeSourceType": "playlist",
+    "youtubeSourceType": "",
     "youtubeChannelId": "",
     "youtubeChannelTitle": "",
-    "youtubeMatchConfidence": "confirmed_playlist",
-    "youtubeResearchStatus": "has_known_youtube_source",
+    "youtubeMatchConfidence": "",
+    "youtubeResearchStatus": "needs_research",
     "youtubeResearchConfidence": "",
     "youtubeResearchNotes": "",
     "youtubeResearchSourceUrls": [],
@@ -938,7 +849,7 @@
         "ลุ้นรักฉบับคู่ต่างขั้ว ซีซัน 2"
       ]
     },
-    "youtubeDiscoveryStatus": "skipped_has_playlist"
+    "youtubeDiscoveryStatus": ""
   },
   {
     "id": "worlds-strongest-rearguard",
