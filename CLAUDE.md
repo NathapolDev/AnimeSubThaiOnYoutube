@@ -12,6 +12,9 @@ Static website tracking Thai-subtitled anime on YouTube, Crunchyroll, and Bilibi
 # Run all unit tests
 node --test tools/*.test.js
 
+# Local admin editor for data/anime.json (http://127.0.0.1:4321, never deployed)
+node tools/admin-server.js
+
 # Sync current-year TV anime catalog from Jikan API (no key needed)
 node tools/update-jikan.js
 
@@ -44,7 +47,11 @@ The data pipeline writes two parallel files after every update:
 - `data/anime.json` — canonical source of truth (read/written by all tools), pretty-printed for reviewable diffs
 - `data/anime.js` — `window.ANIME_DATA = <same data, minified>` for `file://` use without a server
 
-Both files are written through `tools/write-data.js`; don't write them by hand from a tool. `tools/build-site-data.js` builds the GitHub Pages payload (`_site/data/`) with pipeline-only fields stripped — if `app.js` starts reading a new field, add it to `ITEM_FIELDS`/`EPISODE_FIELDS` (or `CR_FIELDS`/`CR_EPISODE_FIELDS` / `BILI_FIELDS`/`BILI_EPISODE_FIELDS` for the `crunchyroll`/`bilibili` sub-objects) there.
+Both files are written through `tools/write-data.js`; don't write them by hand from a tool.
+
+`tools/admin-server.js` serves a local-only editor UI (`admin/`) for hand-editing entries in `data/anime.json` — a grouped form for human-owned fields, a read-only view of pipeline-owned fields, and a raw-JSON mode for everything else. Saves replace one entry wholesale (guarded by a per-entry content hash, so a pipeline run between load and save is rejected with 409) and go through `write-data.js`. It binds to 127.0.0.1 only and is never deployed: `deploy-pages.yml` assembles `_site/` from an explicit file list that does not include `admin/`. Keep it that way when touching the workflow.
+
+`tools/build-site-data.js` builds the GitHub Pages payload (`_site/data/`) with pipeline-only fields stripped — if `app.js` starts reading a new field, add it to `ITEM_FIELDS`/`EPISODE_FIELDS` (or `CR_FIELDS`/`CR_EPISODE_FIELDS` / `BILI_FIELDS`/`BILI_EPISODE_FIELDS` for the `crunchyroll`/`bilibili` sub-objects) there.
 
 **Tool chain (run in this order by the GitHub Actions workflow):**
 1. `tools/update-jikan.js` — fetches all TV anime for the current Bangkok year from Jikan API across all four seasons; near year-end (Oct–Dec) also imports the next year's Winter season so upcoming-season anime enter the catalog early. Enriches existing entries, inserts new ones, preserves YouTube data
