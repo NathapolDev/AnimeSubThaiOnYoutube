@@ -1,6 +1,7 @@
 const test = require('node:test');
 const assert = require('node:assert');
-const { applyEntryUpdate, applyEntryInsert, prefillFromJikan, entryHash } = require('./admin-server');
+const { applyEntryUpdate, applyEntryInsert, blankEntryTemplate, prefillFromJikan, entryHash } = require('./admin-server');
+const { createItem } = require('./update-jikan');
 
 function sampleItems() {
   return [
@@ -104,6 +105,53 @@ test('prefillFromJikan derives season/year from aired date when missing', () => 
 test('prefillFromJikan rejects an anime already in the catalog', () => {
   const items = [...sampleItems(), { id: 'dup', titleThai: 'มีแล้ว', malId: 999 }];
   assert.throws(() => prefillFromJikan(items, sampleJikanAnime()), error => error.status === 409);
+});
+
+test('prefillFromJikan rejects an anime hand-added earlier without a malId (title match)', () => {
+  const items = [...sampleItems(), { id: 'hand-added', titleThai: 'เรื่องทดสอบ', titleOriginal: 'Tesuto no Anime', altTitle: '', confidence: '' }];
+  assert.throws(() => prefillFromJikan(items, sampleJikanAnime()), error => error.status === 409);
+});
+
+test('prefillFromJikan reads the aired date in UTC, not server-local time', () => {
+  // Midnight UTC on New Year's Day: local-time getters would flip this to
+  // fall of the previous year on any machine west of UTC.
+  const anime = { ...sampleJikanAnime(), mal_id: 1000, title: 'Utc Test Anime', title_english: '', titles: [], season: null, year: null, aired: { from: '2026-01-01T00:00:00+00:00' } };
+  const entry = prefillFromJikan(sampleItems(), anime);
+  assert.strictEqual(entry.season, 'winter');
+  assert.strictEqual(entry.year, 2026);
+});
+
+test('rejects inserting a malId already used by another entry', () => {
+  const items = [...sampleItems(), { id: 'owner', titleThai: 'เจ้าของ', malId: 500 }];
+  assert.throws(
+    () => applyEntryInsert(items, { id: 'new-entry', titleThai: 'ซ้ำ malId', malId: 500 }),
+    error => error.status === 409
+  );
+});
+
+test('rejects updating to a malId used elsewhere, but allows keeping your own', () => {
+  const items = [
+    { id: 'a', titleThai: 'หนึ่ง', malId: 1 },
+    { id: 'b', titleThai: 'สอง', malId: 2 }
+  ];
+  assert.throws(
+    () => applyEntryUpdate(items, 'a', { id: 'a', titleThai: 'หนึ่ง', malId: 2 }),
+    error => error.status === 409
+  );
+  const next = applyEntryUpdate(items, 'a', { id: 'a', titleThai: 'แก้แล้ว', malId: 1 });
+  assert.strictEqual(next[0].titleThai, 'แก้แล้ว');
+});
+
+test('blankEntryTemplate stays in shape-lockstep with createItem', () => {
+  const pipeline = createItem(sampleJikanAnime(), 'summer', 2026, new Set());
+  const templateKeys = new Set(Object.keys(blankEntryTemplate()));
+  const pipelineKeys = new Set(Object.keys(pipeline));
+  // malId is the single intentional difference: a manual add has no MAL link
+  // yet, and the key must be absent (not null) so tools that index by malId
+  // never see Number(null) === 0.
+  assert.ok(!templateKeys.has('malId'), 'template must not carry a malId key');
+  pipelineKeys.delete('malId');
+  assert.deepStrictEqual([...templateKeys].sort(), [...pipelineKeys].sort());
 });
 
 test('rejects a stale baseHash but accepts a current one', () => {
