@@ -28,7 +28,7 @@
         { key: 'premiere', label: 'วันฉายตอนแรก (ISO)', type: 'text', hint: 'เช่น 2026-07-03T00:00:00+00:00' },
         { key: 'airTimeThai', label: 'เวลาฉาย (ไทย)', type: 'text' },
         { key: 'season', label: 'ซีซัน', type: 'select', options: ['winter', 'spring', 'summer', 'fall'] },
-        { key: 'year', label: 'ปีฉาย', type: 'number' },
+        { key: 'year', label: 'ปีฉาย', type: 'number', required: true, hint: 'ห้ามเว้นว่าง — เว็บใช้จัดกลุ่มตามปี' },
         { key: 'catalogYear', label: 'ปีในแคตตาล็อก', type: 'number', hint: 'ปีที่เครื่องมือ discovery ใช้จับคู่' },
         { key: 'rating', label: 'เรตติ้งเนื้อหา', type: 'text' },
         { key: 'score', label: 'คะแนน MAL', type: 'number' },
@@ -88,34 +88,18 @@
     hint: 'ตัวพิมพ์เล็กคั่นด้วยขีดกลาง เช่น neko-to-ryuu — ใช้อ้างอิงถาวร ตั้งแล้วไม่ควรเปลี่ยน'
   };
 
-  // Skeleton for a manually added anime: every human-owned field present so the
-  // form renders empty inputs, pipeline-owned fields left blank for the next
-  // tool run to fill in.
-  function newEntryTemplate() {
-    const now = new Date();
-    const month = now.getMonth() + 1;
-    const season = month <= 3 ? 'winter' : month <= 6 ? 'spring' : month <= 9 ? 'summer' : 'fall';
-    return {
-      id: '',
-      titleThai: '', titleOriginal: '', altTitle: '',
-      studio: '', source: '', episodes: '?', premiere: '', airTimeThai: '',
-      channel: '', platform: 'YouTube', status: 'upcoming', confidence: '',
-      link: '', genres: [], summary: '', note: '', poster: '',
-      playlistId: '',
-      lastCheckedAt: '', updateStatus: '', updateError: '',
-      malId: null, malUrl: '', jikanType: 'TV', jikanStatus: '', rating: '',
-      score: null, season, year: now.getFullYear(), trailerUrl: '',
-      availableEpisodes: [],
-      youtubeAliases: [], youtubeSourceType: '', youtubeChannelId: '',
-      youtubeChannelTitle: '', youtubeMatchConfidence: ''
-    };
-  }
+  // Fast lookup for reading form controls back into an entry.
+  const FIELD_BY_KEY = new Map([ID_FIELD, ...SECTIONS.flatMap(section => section.fields)].map(field => [field.key, field]));
 
   // ---- state ---------------------------------------------------------------
   let items = [];
   let hashes = {};
   let currentId = null;
   let draftEntry = null; // set while creating a new entry (currentId is null)
+  // The exact object the form was last rendered from. Form read-back must use
+  // this (not the stored item) so edits made in the Raw JSON tab to fields
+  // without form controls survive a raw -> form tab switch.
+  let renderedEntry = null;
   let dirty = false;
   let activeTab = 'form';
 
@@ -144,6 +128,21 @@
     return items.find(item => item.id === currentId) || null;
   }
 
+  function setRaw(entry) {
+    rawEl.value = `${JSON.stringify(entry, null, 2)}\n`;
+  }
+
+  // Reads the body defensively: check the status first, and don't assume an
+  // error response is JSON (a crashed server or proxy may return HTML).
+  async function parseJsonResponse(response) {
+    const text = await response.text();
+    let data = null;
+    try { data = JSON.parse(text); } catch { /* non-JSON body */ }
+    if (!response.ok) throw new Error((data && data.error) || `HTTP ${response.status}`);
+    if (data === null) throw new Error('เซิร์ฟเวอร์ตอบกลับมาไม่ใช่ JSON');
+    return data;
+  }
+
   function confirmDiscard() {
     return !dirty || confirm('มีการแก้ไขที่ยังไม่บันทึก ต้องการทิ้งหรือไม่?');
   }
@@ -163,6 +162,7 @@
     listEl.textContent = '';
     for (const item of filtered) {
       const li = document.createElement('li');
+      li.dataset.id = item.id;
       if (item.id === currentId) li.className = 'active';
       const btn = document.createElement('button');
       btn.type = 'button';
@@ -183,6 +183,11 @@
       li.append(btn);
       listEl.append(li);
     }
+  }
+
+  // Moves the selection highlight without rebuilding the whole list.
+  function markActiveRow() {
+    for (const li of listEl.children) li.classList.toggle('active', li.dataset.id === currentId);
   }
 
   // ---- form rendering ------------------------------------------------------
@@ -244,7 +249,12 @@
         if (url) img.src = url;
       };
       setPreview(entry[field.key] || '');
-      control.addEventListener('input', () => setPreview(control.value.trim()));
+      // Debounced so typing a URL doesn't fire an image request per keystroke.
+      let previewTimer;
+      control.addEventListener('input', () => {
+        clearTimeout(previewTimer);
+        previewTimer = setTimeout(() => setPreview(control.value.trim()), 300);
+      });
       row.append(control, img);
       wrap.append(row);
     } else {
@@ -367,13 +377,11 @@
       button.disabled = true;
       button.textContent = 'กำลังดึงข้อมูล…';
       try {
-        const response = await fetch(`/api/jikan/${malId}`);
-        const result = await response.json();
-        if (!response.ok) throw new Error(result.error || `HTTP ${response.status}`);
+        const result = await parseJsonResponse(await fetch(`/api/jikan/${malId}`));
         draftEntry = result.entry;
         setDirty(true);
         renderForm(draftEntry);
-        rawEl.value = `${JSON.stringify(draftEntry, null, 2)}\n`;
+        setRaw(draftEntry);
         toast(`ดึงข้อมูล "${result.entry.titleThai}" มาเติมให้แล้ว — ตรวจสอบ/แก้ไขก่อนกดบันทึก`, 'ok');
       } catch (error) {
         toast(`ดึงข้อมูลไม่สำเร็จ: ${error.message}`, 'error');
@@ -399,6 +407,7 @@
   }
 
   function renderForm(entry) {
+    renderedEntry = entry;
     formEl.textContent = '';
     if (draftEntry) {
       const fieldset = document.createElement('fieldset');
@@ -433,34 +442,43 @@
   }
 
   // ---- form -> entry -------------------------------------------------------
+  // Returns the JSON value for a control, or undefined when an emptied field
+  // should be removed from the entry (a cleared number means "no value", and
+  // null would trip downstream tools that index by these fields).
   function convertValue(field, raw) {
     const value = raw.trim();
+    if (field.required && value === '') {
+      throw new Error(`"${field.label}" (${field.key}) ห้ามเว้นว่าง`);
+    }
     switch (field.type) {
       case 'number': {
-        if (value === '') return null;
+        if (value === '') return undefined;
         const num = Number(value);
-        if (Number.isNaN(num)) throw new Error(`"${field.label}" (${field.key}) ต้องเป็นตัวเลข`);
+        if (!Number.isFinite(num)) throw new Error(`"${field.label}" (${field.key}) ต้องเป็นตัวเลข`);
         return num;
       }
       case 'csv':
         return value === '' ? [] : value.split(',').map(part => part.trim()).filter(Boolean);
       case 'lines':
         return raw.split('\n').map(line => line.trim()).filter(Boolean);
-      case 'textarea':
-        return raw.trim();
       default:
         return value;
     }
   }
 
   function entryFromForm() {
-    const entry = JSON.parse(JSON.stringify(currentEntry()));
-    const allFields = [ID_FIELD, ...SECTIONS.flatMap(section => section.fields)];
+    // Base on what the form was rendered from, so raw-JSON edits to fields
+    // that have no form control are preserved instead of reverting.
+    const entry = JSON.parse(JSON.stringify(renderedEntry || currentEntry()));
     for (const control of formEl.querySelectorAll('[data-key]')) {
-      const field = allFields.find(f => f.key === control.dataset.key);
+      const field = FIELD_BY_KEY.get(control.dataset.key);
       const next = convertValue(field, control.value);
+      if (next === undefined) {
+        delete entry[field.key];
+        continue;
+      }
       // Don't invent keys the entry never had just because the input is empty.
-      const isEmpty = next === null || next === '' || (Array.isArray(next) && next.length === 0);
+      const isEmpty = next === '' || (Array.isArray(next) && next.length === 0);
       if (!(field.key in entry) && isEmpty) continue;
       entry[field.key] = next;
     }
@@ -492,7 +510,7 @@
       // re-renders the form from the parsed raw JSON.
       const entry = editedEntry();
       activeTab = tab;
-      if (tab === 'raw') rawEl.value = `${JSON.stringify(entry, null, 2)}\n`;
+      if (tab === 'raw') setRaw(entry);
       else renderForm(entry);
     } catch (error) {
       toast(error.message, 'error');
@@ -506,43 +524,55 @@
   }
 
   // ---- selection / loading -------------------------------------------------
+  function openEditor(entry, { title, subtitle, dirty: startDirty }) {
+    setDirty(startDirty);
+    $('empty-state').hidden = true;
+    $('editor-body').hidden = false;
+    $('editor-title').textContent = title;
+    $('editor-id').textContent = subtitle;
+    renderForm(entry);
+    setRaw(entry);
+    if (activeTab === 'raw') switchTab('form');
+    markActiveRow();
+  }
+
   function selectAnime(id, force) {
     if (!force && !confirmDiscard()) return;
     draftEntry = null;
     currentId = id;
     const entry = currentEntry();
-    setDirty(false);
-    $('empty-state').hidden = true;
-    $('editor-body').hidden = false;
-    $('editor-title').textContent = entry.titleThai || entry.titleOriginal || entry.id;
-    $('editor-id').textContent = `id: ${entry.id} · malId: ${entry.malId ?? '—'}`;
-    renderForm(entry);
-    rawEl.value = `${JSON.stringify(entry, null, 2)}\n`;
-    if (activeTab === 'raw') switchTab('form');
-    renderList();
+    openEditor(entry, {
+      title: entry.titleThai || entry.titleOriginal || entry.id,
+      subtitle: `id: ${entry.id} · malId: ${entry.malId ?? '—'}`,
+      dirty: false
+    });
   }
 
-  function startNewEntry() {
+  async function startNewEntry() {
     if (!confirmDiscard()) return;
-    draftEntry = newEntryTemplate();
+    let entry;
+    try {
+      // The blank draft comes from the server so its shape stays in lockstep
+      // with the pipeline's createItem (enforced by the admin-server tests).
+      const data = await parseJsonResponse(await fetch('/api/anime/new-template'));
+      entry = data.entry;
+    } catch (error) {
+      toast(`เตรียมรายการใหม่ไม่สำเร็จ: ${error.message}`, 'error');
+      return;
+    }
+    draftEntry = entry;
     currentId = null;
-    setDirty(true);
-    $('empty-state').hidden = true;
-    $('editor-body').hidden = false;
-    $('editor-title').textContent = 'เพิ่มเรื่องใหม่';
-    $('editor-id').textContent = 'ยังไม่บันทึก — ตั้ง id แล้วกดบันทึกเพื่อเพิ่มลง data/anime.json';
-    renderForm(draftEntry);
-    rawEl.value = `${JSON.stringify(draftEntry, null, 2)}\n`;
-    if (activeTab === 'raw') switchTab('form');
-    renderList();
+    openEditor(entry, {
+      title: 'เพิ่มเรื่องใหม่',
+      subtitle: 'ยังไม่บันทึก — ตั้ง id แล้วกดบันทึกเพื่อเพิ่มลง data/anime.json',
+      dirty: true
+    });
     const malInput = formEl.querySelector('#prefill-malid');
     if (malInput) malInput.focus();
   }
 
   async function loadCatalog(keepSelection) {
-    const response = await fetch('/api/anime');
-    if (!response.ok) throw new Error(`โหลดข้อมูลไม่สำเร็จ (HTTP ${response.status})`);
-    const data = await response.json();
+    const data = await parseJsonResponse(await fetch('/api/anime'));
     items = data.items;
     hashes = data.hashes;
     $('catalog-meta').textContent = `${items.length} เรื่องใน data/anime.json`;
@@ -578,8 +608,7 @@
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ entry, baseHash: hashes[currentId] })
           });
-      const result = await response.json();
-      if (!response.ok) throw new Error(result.error || `HTTP ${response.status}`);
+      const result = await parseJsonResponse(response);
       if (creating) {
         items.push(entry);
       } else {
@@ -589,6 +618,7 @@
       hashes[entry.id] = result.hash;
       setDirty(false);
       selectAnime(entry.id, true);
+      renderList(); // the saved title/status may have changed the row
       $('catalog-meta').textContent = `${items.length} เรื่องใน data/anime.json`;
       toast(creating
         ? `เพิ่ม "${entry.titleThai || entry.id}" ลง data/anime.json และ data/anime.js แล้ว`
@@ -601,7 +631,11 @@
   }
 
   // ---- wiring ----------------------------------------------------------------
-  $('search').addEventListener('input', renderList);
+  let searchTimer;
+  $('search').addEventListener('input', () => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(renderList, 150);
+  });
   $('new-btn').addEventListener('click', startNewEntry);
   $('save-btn').addEventListener('click', save);
   $('reload-btn').addEventListener('click', () => {

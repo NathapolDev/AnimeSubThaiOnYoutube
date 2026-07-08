@@ -7,6 +7,7 @@ const ROOT = path.resolve(__dirname, '..');
 const JSON_PATH = path.join(ROOT, 'data', 'anime.json');
 const API_ROOT = 'https://api.jikan.moe/v4';
 const SEASONS = ['winter', 'spring', 'summer', 'fall'];
+const seasonFromMonth = month => SEASONS[Math.floor((month - 1) / 3)];
 const UPCOMING_SEASON_FROM_MONTH = 10; // Oct: the upcoming Winter (next year) starts ramping up
 const wait = milliseconds => new Promise(resolve => setTimeout(resolve, milliseconds));
 const normalize = value => String(value || '').toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, ' ').trim();
@@ -175,4 +176,4 @@ async function main() {
 
 if (require.main === module) main().catch(error => { console.error(`Jikan update failed: ${error.message}`); process.exitCode = 1; });
 
-module.exports = { UPCOMING_SEASON_FROM_MONTH, bangkokMonth, bangkokYear, catalogYears, createItem, fetchCatalog, fetchSeason, fetchYear, requestJson, syncCatalog, thaiBroadcastTime };
+module.exports = { UPCOMING_SEASON_FROM_MONTH, bangkokMonth, bangkokYear, catalogYears, createItem, fetchCatalog, fetchSeason, fetchYear, findExisting, requestJson, seasonFromMonth, syncCatalog, thaiBroadcastTime };
