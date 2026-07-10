@@ -35,6 +35,7 @@ const dialog = document.querySelector('#detailDialog');
 const dialogContent = document.querySelector('#dialogContent');
 const menuToggle = document.querySelector('#menuToggle');
 const navMenu = document.querySelector('#navMenu');
+const goToTopButton = document.querySelector('#goToTop');
 const statusMap = { available: { label: 'ดูได้แล้ว', dot: 'green' }, upcoming: { label: 'รอเริ่มฉาย', dot: 'amber' } };
 const updateMap = {
   ok: ['อัปเดตล่าสุด', 'update-ok'], no_episode_found: ['ยังไม่พบตอน', 'update-waiting'],
@@ -556,7 +557,18 @@ navMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', clo
 document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
 window.addEventListener('resize', () => { if (window.innerWidth >= 600) closeMenu(); });
 
+// ---------- go to top ----------
+function updateGoToTopVisibility() {
+  goToTopButton.hidden = window.scrollY <= 1600;
+}
+goToTopButton.addEventListener('click', () => {
+  const behavior = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+  window.scrollTo({ top: 0, behavior });
+});
+window.addEventListener('scroll', updateGoToTopVisibility, { passive: true });
+
 // ---------- boot ----------
 renderCatalogViews();
+updateGoToTopVisibility();
 const deepLink = location.hash.match(/^#a=(.+)$/);
 if (deepLink) showDetail(decodeURIComponent(deepLink[1]), { updateHash: false });
