@@ -21,11 +21,26 @@
       <a class="brand" href="#top" aria-label="Anime TV Catalog home"><span class="brand-mark">夏</span><span id="brandTitle">Anime TV Catalog</span></a>
       <button id="menuToggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="navMenu">เมนู</button>
       <div id="navMenu" class="nav-actions">
+        <a href="#ranking">Season Top 10</a>
         <a href="#catalog">แคตตาล็อก</a>
         <a href="#schedule">ตารางฉาย</a>
         <button id="themeToggle" class="ghost-btn" type="button" aria-label="สลับธีมสี">🌙</button>
       </div>
     </nav>
+  </header>
+
+  <main>
+    <section id="ranking" class="season-ranking glass" aria-labelledby="seasonRankingHeading">
+      <div class="ranking-heading">
+        <div>
+          <p class="eyebrow">Season Top 10</p>
+          <h2 id="seasonRankingHeading">อนิเมะคะแนนสูงสุด</h2>
+          <p id="seasonRankingNote" class="ranking-note">คะแนนจาก MyAnimeList</p>
+        </div>
+        <a class="ranking-catalog-link" href="#catalog">ดูในแคตตาล็อก →</a>
+      </div>
+      <div id="seasonRanking" class="season-ranking-list" aria-live="polite"></div>
+    </section>
 
     <section id="top" class="hero">
       <div class="hero-panel today-panel" aria-labelledby="todayHeading">
@@ -39,9 +54,7 @@
       </div>
       <div id="statsBar" class="stats-bar" aria-label="สถิติแคตตาล็อก"></div>
     </section>
-  </header>
 
-  <main>
     <section class="toolbar glass" id="catalog">
       <div class="toolbar-head">
         <div>
@@ -101,6 +114,7 @@
       </div>
       <div id="scheduleList" class="schedule-week"></div>
     </section>
+
   </main>
 
   <footer>
