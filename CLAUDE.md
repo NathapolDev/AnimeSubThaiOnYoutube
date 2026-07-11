@@ -96,6 +96,8 @@ Both files are written through `tools/write-data.js`; don't write them by hand f
 
 `update-anime` workflow runs 3x/day at 06:17, 12:17, and 23:17 Bangkok time (23:17, 05:17, 16:17 UTC) — offset from the top of the hour to avoid GitHub Actions' high-load minute-zero scheduling window. Manual dispatch accepts a `backfill` boolean. On success it commits changed data files (rebasing and retrying if main moved during the run) then chains `deploy-pages.yml`, which assembles `_site/` with the slimmed data payload from `tools/build-site-data.js`.
 
+While assembling, `tools/stamp-asset-version.js` rewrites every same-origin `.js`/`.css` ref in `_site/index.html` to carry `?v=<short sha>`. Pages caches assets by filename, so without this a returning browser pairs the fresh `index.html` with a stale `app.js`/`styles.css` and the page renders broken. `index.html` in the repo stays unversioned so `file://` still works; only the deployed copy is stamped. A unit test asserts no local asset ref in `index.html` escapes stamping — keep new `<script>`/`<link>` tags same-origin and extensionless-free (`foo.js`, not `foo.js?x=1`) so they get picked up.
+
 Required secret: `YOUTUBE_API_KEY` (YouTube Data API v3). Never commit the key.
 
 ## Adding a new anime

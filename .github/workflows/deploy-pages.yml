@@ -48,6 +48,10 @@ jobs:
           cp index.html app.js safe-url.js progress.js styles.css _site/
           cp -R assets _site/assets
           node tools/build-site-data.js _site/data
+          # Pages caches assets by filename, so a returning browser would pair the
+          # fresh index.html with a stale app.js/styles.css. Version every local
+          # asset ref with the deployed commit so each deploy busts that cache.
+          node tools/stamp-asset-version.js _site/index.html "$(git rev-parse --short HEAD)"
           touch _site/.nojekyll
       - name: Configure GitHub Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
