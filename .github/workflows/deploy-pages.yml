@@ -48,6 +48,7 @@ jobs:
           cp index.html app.js safe-url.js progress.js styles.css _site/
           cp -R assets _site/assets
           node tools/build-site-data.js _site/data
+          node tools/build-og-pages.js _site
           # Pages caches assets by filename, so a returning browser would pair the
           # fresh index.html with a stale app.js/styles.css. Version every local
           # asset ref with the deployed commit so each deploy busts that cache.

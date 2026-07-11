@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+    body {
+      color: #20202a;
+      font-family: "IBM Plex Sans Thai", "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 73% 20%, rgba(117, 93, 255, .25), transparent 30%),
+        linear-gradient(135deg, #f9f8ff 0%, #f3f1ff 100%);
+    }
+    .canvas { position: relative; width: 1200px; height: 630px; overflow: hidden; }
+    .glow { position: absolute; width: 540px; height: 540px; right: -70px; bottom: -270px; border-radius: 50%; background: #d8d2ff; filter: blur(8px); opacity: .55; }
+    .copy { position: absolute; z-index: 3; left: 62px; top: 58px; width: 510px; }
+    .brand { display: flex; align-items: center; gap: 13px; font-family: "Space Grotesk", "Segoe UI", sans-serif; font-size: 20px; font-weight: 700; }
+    .brand-mark { display: block; width: 43px; height: 43px; overflow: hidden; border-radius: 50%; background: #0e0f13; box-shadow: 0 12px 24px rgba(105, 85, 235, .24); }
+    .brand-mark img { display: block; width: 100%; height: 100%; object-fit: cover; }
+    .eyebrow { margin: 42px 0 12px; color: #6552ed; font-family: "Space Grotesk", "Segoe UI", sans-serif; font-size: 14px; font-weight: 800; letter-spacing: .15em; }
+    h1 { margin: 0; max-width: 490px; font-size: 37px; line-height: 1.18; letter-spacing: -.03em; }
+    .description { margin: 17px 0 0; max-width: 500px; color: #656576; font-size: 18px; line-height: 1.55; }
+    .sources { display: flex; gap: 8px; margin-top: 22px; }
+    .source { padding: 7px 12px; border: 1px solid #ddd9f8; border-radius: 999px; background: rgba(255,255,255,.8); color: #5d54a8; font-family: "Space Grotesk", "Segoe UI", sans-serif; font-size: 12px; font-weight: 700; }
+    .shot { position: absolute; overflow: hidden; border: 7px solid rgba(255,255,255,.88); border-radius: 20px; background: #fff; box-shadow: 0 25px 45px rgba(66, 54, 138, .20); }
+    .shot img { display: block; width: 100%; height: 100%; object-fit: cover; }
+    .top { z-index: 2; top: 57px; right: 66px; width: 548px; height: 287px; transform: rotate(3deg); }
+    .top img { object-position: 50% 10%; }
+    .schedule { z-index: 1; right: 298px; bottom: 45px; width: 350px; height: 212px; transform: rotate(-5deg); }
+    .schedule img { object-position: 52% 48%; }
+    .catalog { z-index: 2; right: 41px; bottom: 35px; width: 355px; height: 212px; transform: rotate(4deg); }
+    .catalog img { object-position: 50% 65%; }
+    .caption { position: absolute; z-index: 4; right: 77px; bottom: 19px; color: #77738f; font-size: 11px; }
+  </style>
+</head>
+<body>
+  <main class="canvas">
+    <div class="glow"></div>
+    <section class="copy">
+      <div class="brand"><span class="brand-mark"><img src="../branding/catgirl-logo.png" alt="" width="1024" height="1024" /></span><span>Anime TV Catalog</span></div>
+      <p class="eyebrow">ANIME SUBTHAI TRACKER</p>
+      <h1>เช็กตารางฉาย &amp;<br />ช่องทางอนิเมะซับไทย</h1>
+      <p class="description">รวมอนิเมะลิขสิทธิ์แท้ ดูฟรีบน YouTube<br />ช่องทางสตรีมมิ่งไทย อัปเดตตารางฉายรายวันและเรตติงยอดนิยม</p>
+      <div class="sources"><span class="source">YouTube</span><span class="source">Crunchyroll</span><span class="source">Bilibili</span><span class="source">Netflix</span></div>
+    </section>
+    <figure class="shot top"><img src="sources/top-10.png" alt="" /></figure>
+    <figure class="shot schedule"><img src="sources/schedule.png" alt="" /></figure>
+    <figure class="shot catalog"><img src="sources/catalog.png" alt="" /></figure>
+    <div class="caption">ข้อมูลอนิเมะจาก MyAnimeList (Jikan API)</div>
+  </main>
+</body>
+</html>

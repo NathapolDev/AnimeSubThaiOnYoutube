@@ -460,7 +460,8 @@ function showDetail(id, { updateHash = true } = {}) {
   if (updateHash) history.replaceState(null, '', `#a=${encodeURIComponent(item.id)}`);
 }
 async function shareItem(id, button) {
-  const url = `${location.origin}${location.pathname}#a=${encodeURIComponent(id)}`;
+  const basePath = location.pathname.replace(/index\.html$/, '');
+  const url = `${location.origin}${basePath}a/${encodeURIComponent(id)}.html`;
   try {
     await navigator.clipboard.writeText(url);
     button.textContent = '✓ คัดลอกแล้ว';
