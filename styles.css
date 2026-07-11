@@ -35,7 +35,7 @@ body.light {
   --shadow: 0 16px 50px rgba(47, 60, 120, .16);
 }
 
-.brand, .today-heading h2, .today-time, .schedule-time, .eyebrow, .stat span,
+.brand, .today-heading h2, .today-time, .schedule-time, .eyebrow, .stat span, .ranking-number,
 .toolbar h2, .section-heading h2, .data-note h2, .dialog-hero-copy h2, .schedule-day h3 {
   font-family: var(--font-display);
 }
@@ -229,8 +229,51 @@ body.light .search-box { background: rgba(255, 255, 255, .6) }
 .catalog-load-more:hover { border-color: var(--accent) }
 .catalog-load-more[hidden] { display: none }
 
+/* ---------- current-season ranking ---------- */
+.season-ranking, .schedule { border-radius: var(--panel-radius); padding: clamp(18px, 3vw, 24px) }
+.season-ranking { margin-bottom: clamp(28px, 5vw, 40px) }
+.schedule { margin-top: clamp(32px, 6vw, 46px) }
+.ranking-heading { display: flex; align-items: end; justify-content: space-between; gap: 18px }
+.ranking-heading h2 { margin: 0; font-family: var(--font-display); font-size: clamp(24px, 4vw, 32px); line-height: 1.15 }
+.ranking-note { margin: 7px 0 0; color: var(--muted); font-size: 13px }
+.ranking-catalog-link { flex: 0 0 auto; min-height: 44px; display: inline-flex; align-items: center; color: var(--accent); font-size: 13px; font-weight: 900 }
+.season-ranking-list { margin-top: 18px }
+.ranking-featured { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; align-items: end; padding: 4px 0 20px }
+.ranking-item {
+  appearance: none; width: 100%; border: 0; background: transparent; color: var(--text); cursor: pointer;
+  text-align: left; min-height: 76px; padding: 8px; border-radius: 14px;
+}
+.ranking-item:focus-visible { outline-offset: 1px }
+.ranking-item.is-featured { display: grid; grid-template-columns: auto 104px minmax(0, 1fr); align-items: center; gap: 14px; min-height: 176px }
+.ranking-item.rank-1 { grid-column: 2; grid-row: 1; grid-template-columns: auto 128px minmax(0, 1fr); min-height: 206px }
+.ranking-item.rank-2 { grid-column: 1; grid-row: 1 }
+.ranking-item.rank-3 { grid-column: 3; grid-row: 1 }
+.ranking-number { color: var(--accent); font-size: clamp(52px, 7vw, 88px); line-height: .9; font-weight: 700; letter-spacing: -.08em; opacity: .88 }
+.rank-1 .ranking-number { color: #d4a928 }
+.rank-2 .ranking-number { color: #9da6bb }
+.rank-3 .ranking-number { color: #c98253 }
+.ranking-poster { display: block; width: 104px; aspect-ratio: 2 / 3; border-radius: 14px; overflow: hidden; background: var(--card); box-shadow: 0 12px 28px rgba(4, 8, 24, .22) }
+.rank-1 .ranking-poster { width: 128px }
+.ranking-poster img { display: block; width: 100%; height: 100%; object-fit: cover }
+.ranking-poster .poster-fallback { height: 100% }
+.ranking-copy { display: grid; gap: 7px; align-content: center; overflow: hidden }
+.ranking-copy strong { font-size: 14px; line-height: 1.35; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden }
+.ranking-score { color: var(--accent); font-family: var(--font-display); font-size: 13px; font-weight: 800; font-variant-numeric: tabular-nums }
+.ranking-rest { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); border-top: 1px solid var(--line); padding-top: 12px }
+.ranking-rest .ranking-item { display: grid; grid-template-columns: auto 46px minmax(0, 1fr); gap: 8px; align-items: center; border-radius: 0; border-right: 1px solid var(--line) }
+.ranking-rest .ranking-item:last-child { border-right: 0 }
+.ranking-rest .ranking-number { font-size: 20px; letter-spacing: -.04em }
+.ranking-rest .ranking-poster { width: 46px; border-radius: 9px; box-shadow: none }
+.ranking-rest .ranking-copy { gap: 3px }
+.ranking-rest .ranking-copy strong { font-size: 11px; -webkit-line-clamp: 2 }
+.ranking-rest .ranking-score { font-size: 11px }
+.ranking-empty { margin: 0; padding: 24px; border: 1px dashed var(--line); border-radius: 16px; color: var(--muted); text-align: center }
+@media (hover:hover) and (pointer:fine) {
+  .ranking-item { transition: background-color .18s ease, transform .18s ease }
+  .ranking-item:hover { background: var(--card); transform: translateY(-2px) }
+}
+
 /* ---------- weekly schedule ---------- */
-.schedule { border-radius: var(--panel-radius); margin-top: clamp(32px, 6vw, 46px); padding: clamp(18px, 3vw, 24px) }
 .schedule-week { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 18px }
 .schedule-day { border: 1px solid var(--line); border-radius: 20px; padding: 14px; background: var(--card) }
 .schedule-day.is-today { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset }
@@ -349,6 +392,15 @@ footer a { color: var(--accent) }
 
 /* ---------- responsive ---------- */
 @media (max-width:1199px) {
+  .ranking-featured { gap: 10px }
+  .ranking-item.is-featured { grid-template-columns: auto 84px minmax(0, 1fr); gap: 10px }
+  .ranking-item.rank-1 { grid-template-columns: auto 104px minmax(0, 1fr) }
+  .ranking-poster { width: 84px }
+  .rank-1 .ranking-poster { width: 104px }
+  .ranking-rest { grid-template-columns: repeat(4, minmax(0, 1fr)) }
+  .ranking-rest .ranking-item { border-bottom: 1px solid var(--line) }
+  .ranking-rest .ranking-item:nth-child(4n) { border-right: 0 }
+  .ranking-rest .ranking-item:nth-last-child(-n+3) { border-bottom: 0 }
   .schedule-week { grid-template-columns: 1fr }
 }
 @media (max-width:899px) {
@@ -377,6 +429,43 @@ footer a { color: var(--accent) }
   .year-picker { align-self: flex-start }
   .chip { padding: 8px 12px; font-size: 13px; min-height: 40px }
   .result-line { align-items: flex-start; flex-direction: column; margin-block: 16px; gap: 8px }
+  .season-ranking { margin-bottom: 22px }
+  .schedule { margin-top: 26px }
+  .season-ranking, .schedule { padding: 16px }
+  .ranking-heading { align-items: flex-start }
+  .ranking-heading h2 { font-size: 24px }
+  .ranking-catalog-link { display: none }
+  .ranking-featured { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch; gap: 10px; padding-bottom: 12px }
+  .ranking-item.is-featured, .ranking-item.rank-1 {
+    grid-column: auto; grid-row: auto; grid-template-columns: 42px 74px minmax(0, 1fr); min-height: 126px; gap: 9px; padding: 8px 4px;
+  }
+  .ranking-item.rank-1 {
+    grid-column: 1 / -1; grid-row: 1;
+    display: flex; flex-direction: column; align-items: center; text-align: center;
+    gap: 8px; min-height: auto; padding: 18px 14px;
+    background: linear-gradient(180deg, rgba(212, 169, 40, .12), var(--card));
+    border: 1px solid rgba(212, 169, 40, .28);
+  }
+  .ranking-item.rank-2, .ranking-item.rank-3 { grid-row: 2; grid-template-columns: 34px minmax(0, 1fr); grid-template-rows: auto auto; align-items: end }
+  .ranking-item.rank-2 { grid-column: 1 }
+  .ranking-item.rank-3 { grid-column: 2 }
+  .ranking-item.is-featured .ranking-number { font-size: 38px }
+  .ranking-item.rank-1 .ranking-number { font-size: 46px; line-height: 1 }
+  .ranking-item.is-featured .ranking-poster { width: 74px; border-radius: 10px }
+  .ranking-item.rank-1 .ranking-poster { width: 132px }
+  .ranking-item.rank-1 .ranking-copy { justify-items: center; align-content: start; gap: 6px }
+  .ranking-item.rank-1 .ranking-copy strong { -webkit-line-clamp: 2 }
+  .ranking-item.rank-2 .ranking-poster, .ranking-item.rank-3 .ranking-poster { grid-column: 2; grid-row: 1; width: 80px }
+  .ranking-item.rank-2 .ranking-number, .ranking-item.rank-3 .ranking-number { grid-column: 1; grid-row: 1 }
+  .ranking-item.rank-2 .ranking-copy, .ranking-item.rank-3 .ranking-copy { grid-column: 1 / -1; grid-row: 2; min-height: 54px; align-content: start }
+  .ranking-item.is-featured .ranking-copy strong { font-size: 12px; -webkit-line-clamp: 3 }
+  .ranking-rest { display: grid; grid-template-columns: 1fr; padding-top: 4px }
+  .ranking-rest .ranking-item { grid-template-columns: 28px 42px minmax(0, 1fr); min-height: 64px; border-right: 0; border-bottom: 1px solid var(--line); padding: 7px 4px }
+  .ranking-rest .ranking-item:last-child { border-bottom: 0 }
+  .ranking-rest .ranking-number { font-size: 18px; text-align: center }
+  .ranking-rest .ranking-poster { width: 42px; border-radius: 8px }
+  .ranking-rest .ranking-copy { grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 8px }
+  .ranking-rest .ranking-copy strong { font-size: 12px; -webkit-line-clamp: 2 }
   .legend { font-size: 12px }
   .anime-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px }
   .anime-card { border-radius: 18px }
@@ -412,6 +501,11 @@ footer a { color: var(--accent) }
   .brand span:last-child { display: none }
   .anime-grid { grid-template-columns: 1fr }
   .stats-bar { grid-template-columns: 1fr 1fr }
+  .ranking-featured { grid-template-columns: 1fr }
+  .ranking-item.rank-1, .ranking-item.rank-2, .ranking-item.rank-3 { grid-column: 1 }
+  .ranking-item.rank-1 { grid-row: 1 }
+  .ranking-item.rank-2 { grid-row: 2 }
+  .ranking-item.rank-3 { grid-row: 3 }
   .legend { white-space: normal }
   .dialog-actions { grid-template-columns: 1fr }
 }
