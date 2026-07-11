@@ -597,6 +597,36 @@ goToTopButton.addEventListener('click', () => {
 });
 window.addEventListener('scroll', updateGoToTopVisibility, { passive: true });
 
+// ---------- drag-to-scroll (today rail) ----------
+function enableDragScroll(el) {
+  if (!el) return;
+  let down = false, startX = 0, startScroll = 0, moved = false;
+  el.addEventListener('mousedown', event => {
+    if (event.button !== 0) return;
+    down = true; moved = false;
+    startX = event.pageX; startScroll = el.scrollLeft;
+    el.classList.add('is-dragging');
+  });
+  window.addEventListener('mousemove', event => {
+    if (!down) return;
+    // button released outside the window: end the drag instead of scrolling on
+    if (event.buttons === 0) { down = false; el.classList.remove('is-dragging'); return; }
+    const dx = event.pageX - startX;
+    if (Math.abs(dx) > 4) moved = true;
+    el.scrollLeft = startScroll - dx;
+    event.preventDefault();
+  });
+  window.addEventListener('mouseup', () => {
+    if (!down) return;
+    down = false; el.classList.remove('is-dragging');
+  });
+  // swallow the click that ends a drag so it doesn't open the detail dialog
+  el.addEventListener('click', event => {
+    if (moved) { event.preventDefault(); event.stopPropagation(); moved = false; }
+  }, true);
+}
+enableDragScroll(document.querySelector('#todaySchedule'));
+
 // ---------- boot ----------
 renderCatalogViews();
 updateGoToTopVisibility();
