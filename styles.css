@@ -334,7 +334,7 @@ footer a { color: var(--accent) }
 
 .go-to-top {
   position: fixed; right: max(18px, calc(env(safe-area-inset-right) + 12px)); bottom: max(18px, calc(env(safe-area-inset-bottom) + 12px));
-  z-index: 30; width: 52px; height: 52px; padding: 0;
+  z-index: 30; width: 72px; height: 72px; padding: 0;
   border: 0; background: transparent;
   cursor: pointer;
 }
@@ -406,7 +406,7 @@ footer a { color: var(--accent) }
   .episode-watch { grid-column: 2; grid-row: 1; min-width: 72px }
   .dialog-actions { display: grid; grid-template-columns: 1fr 1fr }
   .dialog-actions .primary-btn { grid-column: 1/-1 }
-  .go-to-top { width: 48px; height: 48px }
+  .go-to-top { width: 76px; height: 76px }
 }
 @media (max-width:359px) {
   .brand span:last-child { display: none }
