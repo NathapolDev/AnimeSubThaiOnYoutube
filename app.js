@@ -2,6 +2,7 @@
 const data = window.ANIME_DATA || [];
 const THAI_DAYS = ['อาทิตย์', 'จันทร์', 'อังคาร', 'พุธ', 'พฤหัส', 'ศุกร์', 'เสาร์'];
 const WEEKDAY_INDEX = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 };
+const SEASON_LABELS = { winter: 'Winter', spring: 'Spring', summer: 'Summer', fall: 'Fall' };
 const NEW_EPISODE_WINDOW_MS = 48 * 60 * 60 * 1000;
 
 // Bangkok "now" via formatToParts — parsing toLocaleString() output breaks on Safari
@@ -31,6 +32,7 @@ let catalogLimit = 48;
 const grid = document.querySelector('#grid');
 const resultText = document.querySelector('#resultText');
 const scheduleList = document.querySelector('#scheduleList');
+const seasonRanking = document.querySelector('#seasonRanking');
 const dialog = document.querySelector('#detailDialog');
 const dialogContent = document.querySelector('#dialogContent');
 const menuToggle = document.querySelector('#menuToggle');
@@ -169,6 +171,34 @@ function renderTodaySchedule() {
     <span class="today-time">${air.time}</span><span class="today-thumb">${posterHtml(item)}</span>
     <span class="today-copy"><strong>${escapeHtml(item.titleThai)}</strong><small>${escapeHtml(channelShort(item.channel))}${hasNewEpisode(item) ? ' • มีตอนใหม่' : ''}</small></span><span class="today-detail">รายละเอียด</span>
   </button>`).join('') : '<div class="today-empty"><strong>วันนี้ยังไม่มีรายการที่ระบุเวลา</strong><span>ดูตารางทั้งสัปดาห์ได้ด้านล่าง</span></div>';
+}
+
+// ---------- current season MAL ranking ----------
+function rankingItemTemplate(item, rank, featured = false) {
+  return `<button class="ranking-item rank-${rank}${featured ? ' is-featured' : ''}" type="button" data-id="${escapeHtml(item.id)}" aria-label="อันดับ ${rank} ${escapeHtml(item.titleThai)} คะแนน MAL ${Number(item.score).toFixed(2)}">
+    <span class="ranking-number" aria-hidden="true">${rank}</span>
+    <span class="ranking-poster">${posterHtml(item, { eager: rank <= 3 })}</span>
+    <span class="ranking-copy"><strong>${escapeHtml(item.titleThai)}</strong><span class="ranking-score">MAL ${Number(item.score).toFixed(2)}</span></span>
+  </button>`;
+}
+function renderSeasonRanking() {
+  const ranked = data
+    .filter(item => isCurrentSeasonTv(item) && Number(item.score) > 0)
+    .sort((a, b) => Number(b.score) - Number(a.score) || String(a.titleThai).localeCompare(String(b.titleThai), 'th'))
+    .slice(0, 10);
+  const seasonLabel = SEASON_LABELS[currentSeason] || currentSeason;
+  document.querySelector('#seasonRankingHeading').textContent = `อนิเมะคะแนนสูงสุด ${seasonLabel} ${currentYear}`;
+  document.querySelector('#seasonRankingNote').textContent = `คะแนนจาก MyAnimeList • อนิเมะ TV ฤดูกาลปัจจุบัน`;
+  if (!ranked.length) {
+    seasonRanking.innerHTML = '<p class="ranking-empty">ยังไม่มีคะแนน MyAnimeList สำหรับฤดูกาลนี้</p>';
+    return;
+  }
+  const topThree = [ranked[1], ranked[0], ranked[2]]
+    .filter(Boolean)
+    .map(item => rankingItemTemplate(item, ranked.indexOf(item) + 1, true))
+    .join('');
+  const remaining = ranked.slice(3).map((item, index) => rankingItemTemplate(item, index + 4)).join('');
+  seasonRanking.innerHTML = `<div class="ranking-featured">${topThree}</div>${remaining ? `<div class="ranking-rest">${remaining}</div>` : ''}`;
 }
 
 // ---------- stats ----------
@@ -445,7 +475,7 @@ function updatePageIdentity() {
   document.querySelector('#brandTitle').textContent = `Anime TV ${selectedYear}`;
   document.title = `Anime TV ${selectedYear} — Thai YouTube Tracker`;
 }
-function renderCatalogViews() { updatePageIdentity(); renderStats(); renderTodaySchedule(); render(); renderSchedule(); }
+function renderCatalogViews() { updatePageIdentity(); renderStats(); renderTodaySchedule(); renderSeasonRanking(); render(); renderSchedule(); }
 
 // ---------- filters / controls ----------
 const yearSelect = document.querySelector('#yearSelect');
