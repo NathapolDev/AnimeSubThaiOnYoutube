@@ -68,7 +68,10 @@ a { color: inherit; text-decoration: none; overflow-wrap: anywhere }
 .skip-link:focus { left: 0 }
 
 /* ---------- nav ---------- */
-.site-header, main, footer { position: relative; z-index: 1 }
+main, footer { position: relative; z-index: 1 }
+/* Above main/footer so the mobile nav dropdown can overlay page content —
+   its own z-index only competes inside this stacking context. */
+.site-header { position: relative; z-index: 10 }
 .nav {
   position: relative; max-width: 1180px; margin: 0 auto;
   padding: clamp(14px, 2vw, 22px) var(--page-pad);
