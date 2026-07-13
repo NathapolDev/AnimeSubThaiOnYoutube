@@ -27,7 +27,7 @@
     "latestEpisodeTitle": "The Cat and the Dragon  ตอนที่ 3 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=QOw480jFFdA&list=PLYA5C3ueQ-1g",
     "latestPublishedAt": "2026-07-11T14:54:54Z",
-    "lastCheckedAt": "2026-07-13T08:29:13.695Z",
+    "lastCheckedAt": "2026-07-13T18:12:21.292Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 61048,
@@ -82,7 +82,7 @@
       "episodeCount": 3,
       "latestEpisodeNumber": 3,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.420Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.018Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -118,11 +118,11 @@
     "note": "พบในตาราง Summer 2026 พร้อมลิงก์ Muse Thailand",
     "poster": "https://cdn.myanimelist.net/images/anime/1165/158709l.webp",
     "playlistId": "PLIa05JMgYhhaMTMBupRCsNXAvD1l3PSNr",
-    "currentEpisode": 2,
-    "latestEpisodeTitle": "THE WORLD IS DANCING - ตอนที่ 02 [ซับไทย]",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=mvkdht2wG_Y&list=PLIa05JMgYhhaMTMBupRCsNXAvD1l3PSNr",
-    "latestPublishedAt": "2026-07-06T13:30:06Z",
-    "lastCheckedAt": "2026-07-13T08:29:13.870Z",
+    "currentEpisode": 3,
+    "latestEpisodeTitle": "THE WORLD IS DANCING - ตอนที่ 03 [ซับไทย]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=eA4HPb_OuVI&list=PLIa05JMgYhhaMTMBupRCsNXAvD1l3PSNr",
+    "latestPublishedAt": "2026-07-13T13:30:06Z",
+    "lastCheckedAt": "2026-07-13T18:12:21.566Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63347,
@@ -135,6 +135,13 @@
     "year": 2026,
     "trailerUrl": "",
     "availableEpisodes": [
+      {
+        "number": 3,
+        "title": "THE WORLD IS DANCING - ตอนที่ 03 [ซับไทย]",
+        "videoId": "eA4HPb_OuVI",
+        "videoUrl": "https://www.youtube.com/watch?v=eA4HPb_OuVI&list=PLIa05JMgYhhaMTMBupRCsNXAvD1l3PSNr",
+        "publishedAt": "2026-07-13T13:30:06Z"
+      },
       {
         "number": 2,
         "title": "THE WORLD IS DANCING - ตอนที่ 02 [ซับไทย]",
@@ -198,7 +205,7 @@
     "latestEpisodeTitle": "Bungo Stray Dogs WAN! 2 ตอนที่ 2 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=P5kA7FnsGgI&list=PLCR1_rvbIAHE",
     "latestPublishedAt": "2026-07-09T12:40:06Z",
-    "lastCheckedAt": "2026-07-13T08:29:13.959Z",
+    "lastCheckedAt": "2026-07-13T18:12:21.648Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62883,
@@ -248,7 +255,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.420Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.018Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -290,7 +297,7 @@
     "latestEpisodeTitle": "BanG Dream! YUME∞MITA - ตอนที่ 04 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=pYaq4RAQ4HQ&list=PLEP6Ull2yaCo",
     "latestPublishedAt": "2026-07-09T14:00:06Z",
-    "lastCheckedAt": "2026-07-13T08:29:14.047Z",
+    "lastCheckedAt": "2026-07-13T18:12:21.747Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62430,
@@ -352,7 +359,7 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.420Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.018Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -394,7 +401,7 @@
     "latestEpisodeTitle": "เกิดใหม่เป็นอัศวินเกราะหนักผู้ถูกขับไล่แต่ใช้ความรู้จากเกมจนไร้เทียมทาน - ตอนที่ 02 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=8O2PjAIxRk8&list=PLIa05JMgYhhb4BS6WEyTjKyuwJtWF_2U7",
     "latestPublishedAt": "2026-07-09T17:56:06Z",
-    "lastCheckedAt": "2026-07-13T08:29:14.180Z",
+    "lastCheckedAt": "2026-07-13T18:12:21.842Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 59741,
@@ -444,7 +451,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.420Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.018Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -456,7 +463,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.420Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.018Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -501,7 +508,7 @@
     "latestEpisodeTitle": "Chainsmoker Cat  ตอนที่ 2 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=VSTaNbA6Mjw&list=PLQ4xe_hu1gxw",
     "latestPublishedAt": "2026-07-09T16:00:06Z",
-    "lastCheckedAt": "2026-07-13T08:29:14.285Z",
+    "lastCheckedAt": "2026-07-13T18:12:21.912Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63403,
@@ -551,7 +558,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.420Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.018Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -650,7 +657,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.420Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.018Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -782,7 +789,7 @@
       "episodeCount": 3,
       "latestEpisodeNumber": 3,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.420Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.018Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -794,7 +801,7 @@
       "episodeCount": 3,
       "latestEpisodeNumber": 3,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.420Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.018Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -806,7 +813,7 @@
       "episodeCount": 3,
       "latestEpisodeNumber": 3,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.420Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.018Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -886,7 +893,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.420Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.018Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -995,7 +1002,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -1007,7 +1014,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -1054,7 +1061,7 @@
     "latestEpisodeTitle": "เคลวาเทส อสูรจอมราชัน ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=hlS1nS4qQEA&list=PL_YV8EWtbQXESnuuBlZrdFMaqcuK5jr3F",
     "latestPublishedAt": "2025-09-17T11:30:07Z",
-    "lastCheckedAt": "2026-07-13T08:29:14.396Z",
+    "lastCheckedAt": "2026-07-13T18:12:22.014Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62513,
@@ -1181,7 +1188,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -1193,7 +1200,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -1288,7 +1295,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -1315,7 +1322,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     }
@@ -1434,7 +1441,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -1512,7 +1519,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -1537,7 +1544,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     }
@@ -1992,10 +1999,10 @@
       "anilistId": 199111,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 1,
-      "latestEpisodeNumber": 1,
+      "episodeCount": 2,
+      "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -2004,10 +2011,10 @@
       "anilistId": 199111,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 1,
-      "latestEpisodeNumber": 1,
+      "episodeCount": 2,
+      "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -2046,11 +2053,11 @@
     "note": "นำเข้าจาก Jikan Summer 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1544/157046l.webp",
     "playlistId": "",
-    "currentEpisode": 1,
-    "latestEpisodeTitle": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2 - ตอนที่ 01 [ซับไทย]",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=AwdjenlPj5A",
-    "latestPublishedAt": "2026-07-04T11:30:06Z",
-    "lastCheckedAt": "2026-07-06T17:47:26.329Z",
+    "currentEpisode": 2,
+    "latestEpisodeTitle": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2 - ตอนที่ 02 [ซับไทย]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=qPVnpH1ixZI",
+    "latestPublishedAt": "2026-07-13T13:00:06Z",
+    "lastCheckedAt": "2026-07-13T18:12:23.789Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 60522,
@@ -2063,6 +2070,13 @@
     "year": 2026,
     "trailerUrl": "",
     "availableEpisodes": [
+      {
+        "number": 2,
+        "title": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2 - ตอนที่ 02 [ซับไทย]",
+        "videoId": "qPVnpH1ixZI",
+        "videoUrl": "https://www.youtube.com/watch?v=qPVnpH1ixZI",
+        "publishedAt": "2026-07-13T13:00:06Z"
+      },
       {
         "number": 1,
         "title": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2 - ตอนที่ 01 [ซับไทย]",
@@ -2084,10 +2098,10 @@
       "anilistId": 185542,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 1,
-      "latestEpisodeNumber": 1,
+      "episodeCount": 2,
+      "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -2096,10 +2110,10 @@
       "anilistId": 185542,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 1,
-      "latestEpisodeNumber": 1,
+      "episodeCount": 2,
+      "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -2114,9 +2128,9 @@
     },
     "youtubeMatchType": "exact",
     "youtubeMatchedAlias": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2",
-    "youtubeMatchedVideoTitle": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2 - ตอนที่ 01 [ซับไทย]",
+    "youtubeMatchedVideoTitle": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2 - ตอนที่ 02 [ซับไทย]",
     "youtubeMatchedScore": 51,
-    "youtubeLastMatchedAt": "2026-07-06T17:47:26.329Z",
+    "youtubeLastMatchedAt": "2026-07-13T18:12:23.789Z",
     "youtubeDiscoveryStatus": "matched"
   },
   {
@@ -2176,7 +2190,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -2252,7 +2266,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -2264,7 +2278,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -2460,7 +2474,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -2621,7 +2635,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -2747,7 +2761,7 @@
       "episodeCount": 3,
       "latestEpisodeNumber": 3,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -2928,7 +2942,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -2940,7 +2954,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3014,7 +3028,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3086,7 +3100,7 @@
       "episodeCount": 3,
       "latestEpisodeNumber": 3,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3155,10 +3169,10 @@
       "anilistId": 169583,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 1,
-      "latestEpisodeNumber": 1,
+      "episodeCount": 2,
+      "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3228,7 +3242,7 @@
       "episodeCount": 3,
       "latestEpisodeNumber": 3,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3297,7 +3311,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3309,7 +3323,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3352,8 +3366,8 @@
     "currentEpisode": 2,
     "latestEpisodeTitle": "รักที่มองไม่เห็น ด้วยตา กับเธอในค่ำคืนที่แสนจะเลือนราง ตอนที่ 2  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=f6xB4SgH3ZY",
-    "latestPublishedAt": "2026-07-13T07:57:37Z",
-    "lastCheckedAt": "2026-07-13T08:29:18.382Z",
+    "latestPublishedAt": "2026-07-13T12:30:17Z",
+    "lastCheckedAt": "2026-07-13T18:12:25.190Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62936,
@@ -3371,7 +3385,7 @@
         "title": "รักที่มองไม่เห็น ด้วยตา กับเธอในค่ำคืนที่แสนจะเลือนราง ตอนที่ 2  [ซับไทย]【Ani-One Thailand】",
         "videoId": "f6xB4SgH3ZY",
         "videoUrl": "https://www.youtube.com/watch?v=f6xB4SgH3ZY",
-        "publishedAt": "2026-07-13T07:57:37Z"
+        "publishedAt": "2026-07-13T12:30:17Z"
       }
     ],
     "catalogYear": 2026,
@@ -3385,10 +3399,10 @@
       "anilistId": 202269,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 1,
-      "latestEpisodeNumber": 1,
+      "episodeCount": 2,
+      "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3397,10 +3411,10 @@
       "anilistId": 202269,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 1,
-      "latestEpisodeNumber": 1,
+      "episodeCount": 2,
+      "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3420,7 +3434,7 @@
     "youtubeMatchedAlias": "รักที่มองไม่เห็น ด้วยตา กับเธอในค่ําคืนที่แสนจะเลือนราง",
     "youtubeMatchedVideoTitle": "รักที่มองไม่เห็น ด้วยตา กับเธอในค่ำคืนที่แสนจะเลือนราง ตอนที่ 2  [ซับไทย]【Ani-One Thailand】",
     "youtubeMatchedScore": 55,
-    "youtubeLastMatchedAt": "2026-07-13T08:29:18.382Z"
+    "youtubeLastMatchedAt": "2026-07-13T18:12:25.190Z"
   },
   {
     "id": "otome-kaijuu-carame-liser",
@@ -3480,7 +3494,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3492,7 +3506,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3563,7 +3577,7 @@
       "episodeCount": 3,
       "latestEpisodeNumber": 3,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3726,7 +3740,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3798,7 +3812,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3867,7 +3881,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -3935,10 +3949,10 @@
       "anilistId": 169582,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 1,
-      "latestEpisodeNumber": 1,
+      "episodeCount": 2,
+      "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4005,10 +4019,10 @@
       "anilistId": 199408,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 1,
-      "latestEpisodeNumber": 1,
+      "episodeCount": 2,
+      "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4077,7 +4091,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4089,7 +4103,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4165,7 +4179,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4177,7 +4191,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4247,7 +4261,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4374,7 +4388,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4442,7 +4456,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4512,7 +4526,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4588,7 +4602,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4614,7 +4628,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     }
@@ -4692,11 +4706,11 @@
     "note": "นำเข้าจาก Jikan Summer 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1417/157798l.webp",
     "playlistId": "",
-    "currentEpisode": 1,
-    "latestEpisodeTitle": "The Forsaken Saintess and Her Foodie Road Trip in Another World ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=qGYuhsrzOL0",
-    "latestPublishedAt": "2026-07-06T14:30:06Z",
-    "lastCheckedAt": "2026-07-06T17:47:35.464Z",
+    "currentEpisode": 2,
+    "latestEpisodeTitle": "The Forsaken Saintess and Her Foodie Road Trip in Another World ตอนที่ 2 [ซับไทย]【Ani-One Thailand】",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=MVxQkV3oRrk",
+    "latestPublishedAt": "2026-07-13T14:30:06Z",
+    "lastCheckedAt": "2026-07-13T18:12:25.190Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63752,
@@ -4709,6 +4723,13 @@
     "year": 2026,
     "trailerUrl": "",
     "availableEpisodes": [
+      {
+        "number": 2,
+        "title": "The Forsaken Saintess and Her Foodie Road Trip in Another World ตอนที่ 2 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "MVxQkV3oRrk",
+        "videoUrl": "https://www.youtube.com/watch?v=MVxQkV3oRrk",
+        "publishedAt": "2026-07-13T14:30:06Z"
+      },
       {
         "number": 1,
         "title": "The Forsaken Saintess and Her Foodie Road Trip in Another World ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
@@ -4728,10 +4749,10 @@
       "anilistId": 209504,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 1,
-      "latestEpisodeNumber": 1,
+      "episodeCount": 2,
+      "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -4743,9 +4764,9 @@
     },
     "youtubeMatchType": "fuzzy",
     "youtubeMatchedAlias": "the forsaken saintess and her foodie roadtrip in another world",
-    "youtubeMatchedVideoTitle": "The Forsaken Saintess and Her Foodie Road Trip in Another World ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedVideoTitle": "The Forsaken Saintess and Her Foodie Road Trip in Another World ตอนที่ 2 [ซับไทย]【Ani-One Thailand】",
     "youtubeMatchedScore": 0.976,
-    "youtubeLastMatchedAt": "2026-07-06T17:47:35.464Z",
+    "youtubeLastMatchedAt": "2026-07-13T18:12:25.190Z",
     "youtubeDiscoveryStatus": "matched"
   },
   {
@@ -4805,7 +4826,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -5002,7 +5023,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -5073,7 +5094,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -5194,7 +5215,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -5278,7 +5299,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -5290,7 +5311,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -5410,7 +5431,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -5525,7 +5546,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -5719,7 +5740,7 @@
       "episodeCount": 2,
       "latestEpisodeNumber": 2,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -5853,7 +5874,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7172,7 +7193,7 @@
       "episodeCount": 3,
       "latestEpisodeNumber": 3,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7245,7 +7266,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7489,7 +7510,7 @@
       "episodeCount": 10,
       "latestEpisodeNumber": 10,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7501,7 +7522,7 @@
       "episodeCount": 10,
       "latestEpisodeNumber": 10,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7649,7 +7670,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7661,7 +7682,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.421Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.019Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7821,7 +7842,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7892,7 +7913,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7904,7 +7925,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7975,7 +7996,7 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7987,7 +8008,7 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -7999,7 +8020,7 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -8154,7 +8175,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -8166,7 +8187,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -8281,7 +8302,7 @@
       "episodeCount": 6,
       "latestEpisodeNumber": 6,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -8430,7 +8451,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 12,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -8468,14 +8489,35 @@
     "note": "นำเข้าจาก Jikan winter 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1486/153135l.webp",
     "playlistId": "",
-    "currentEpisode": 10,
-    "latestEpisodeTitle": "【Subtitle Indonesia】《Si Serbabisa Terbuang Ini Akan Bangkit Jua!》｜Episode 10｜TROPICS ENTERTAINMENT",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=OoHTssjBkJo",
-    "latestPublishedAt": "2026-07-12T13:00:11Z",
-    "lastCheckedAt": "2026-07-12T17:28:46.735Z",
+    "currentEpisode": 11,
+    "latestEpisodeTitle": "【Subtitle Indonesia】《Si Serbabisa Terbuang Ini Akan Bangkit Jua!》｜Episode 11｜TROPICS ENTERTAINMENT",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=lCJ5eO9DVUM",
+    "latestPublishedAt": "2026-07-13T13:00:07Z",
+    "lastCheckedAt": "2026-07-13T18:12:25.512Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
+      {
+        "number": 11,
+        "title": "【Subtitle Indonesia】《Si Serbabisa Terbuang Ini Akan Bangkit Jua!》｜Episode 11｜TROPICS ENTERTAINMENT",
+        "videoId": "lCJ5eO9DVUM",
+        "videoUrl": "https://www.youtube.com/watch?v=lCJ5eO9DVUM",
+        "publishedAt": "2026-07-13T13:00:07Z"
+      },
+      {
+        "number": 11,
+        "title": "【ซับไทย】《เก่งรอบด้านแต่ไร้ทีเด็ด เลยถูกเฉดหัวจากปาร์ตี้ผู้กล้า》｜ตอนที่ 11｜TROPICS ENTERTAINMENT",
+        "videoId": "MqqQJs_Jy9I",
+        "videoUrl": "https://www.youtube.com/watch?v=MqqQJs_Jy9I",
+        "publishedAt": "2026-07-13T13:00:06Z"
+      },
+      {
+        "number": 11,
+        "title": "【English Sub】《Jack-of-All-Trades, Party of None》｜Episode 11｜TROPICS ENTERTAINMENT",
+        "videoId": "jfst76k51s4",
+        "videoUrl": "https://www.youtube.com/watch?v=jfst76k51s4",
+        "publishedAt": "2026-07-13T13:00:06Z"
+      },
       {
         "number": 10,
         "title": "【Subtitle Indonesia】《Si Serbabisa Terbuang Ini Akan Bangkit Jua!》｜Episode 10｜TROPICS ENTERTAINMENT",
@@ -8712,7 +8754,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -8724,7 +8766,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -8742,9 +8784,9 @@
     },
     "youtubeMatchType": "exact",
     "youtubeMatchedAlias": "เก่งรอบด้านแต่ไร้ทีเด็ด เลยถูกเฉดหัวจากปาร์ตี้ผู้กล้า",
-    "youtubeMatchedVideoTitle": "【ซับไทย】《เก่งรอบด้านแต่ไร้ทีเด็ด เลยถูกเฉดหัวจากปาร์ตี้ผู้กล้า》｜ตอนที่ 10｜TROPICS ENTERTAINMENT",
+    "youtubeMatchedVideoTitle": "【ซับไทย】《เก่งรอบด้านแต่ไร้ทีเด็ด เลยถูกเฉดหัวจากปาร์ตี้ผู้กล้า》｜ตอนที่ 11｜TROPICS ENTERTAINMENT",
     "youtubeMatchedScore": 53,
-    "youtubeLastMatchedAt": "2026-07-12T17:28:46.735Z",
+    "youtubeLastMatchedAt": "2026-07-13T18:12:25.512Z",
     "youtubeDiscoveryStatus": "matched"
   },
   {
@@ -8801,7 +8843,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -8963,7 +9005,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9010,14 +9052,21 @@
     "note": "นำเข้าจาก Jikan winter 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1834/151169l.webp",
     "playlistId": "",
-    "currentEpisode": 11,
-    "latestEpisodeTitle": "ลิขิตชะตาเกมท้าตาย - ตอนที่ 11 [ซับไทย]",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=NkhK8kwt8zE",
-    "latestPublishedAt": "2026-03-18T15:30:26Z",
-    "lastCheckedAt": "2026-07-06T17:47:26.330Z",
+    "currentEpisode": 12,
+    "latestEpisodeTitle": "ลิขิตชะตาเกมท้าตาย - ตอนที่ 12 [ซับไทย]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=28umONTj7Mw",
+    "latestPublishedAt": "2026-07-13T14:00:06Z",
+    "lastCheckedAt": "2026-07-13T18:12:23.789Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
+      {
+        "number": 12,
+        "title": "ลิขิตชะตาเกมท้าตาย - ตอนที่ 12 [ซับไทย]",
+        "videoId": "28umONTj7Mw",
+        "videoUrl": "https://www.youtube.com/watch?v=28umONTj7Mw",
+        "publishedAt": "2026-07-13T14:00:06Z"
+      },
       {
         "number": 11,
         "title": "ลิขิตชะตาเกมท้าตาย - ตอนที่ 11 [ซับไทย]",
@@ -9128,7 +9177,7 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9140,7 +9189,7 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9164,9 +9213,9 @@
     },
     "youtubeMatchType": "exact",
     "youtubeMatchedAlias": "ลิขิตชะตาเกมท้าตาย",
-    "youtubeMatchedVideoTitle": "ลิขิตชะตาเกมท้าตาย - ตอนที่ 11 [ซับไทย]",
+    "youtubeMatchedVideoTitle": "ลิขิตชะตาเกมท้าตาย - ตอนที่ 12 [ซับไทย]",
     "youtubeMatchedScore": 18,
-    "youtubeLastMatchedAt": "2026-07-06T17:47:26.330Z",
+    "youtubeLastMatchedAt": "2026-07-13T18:12:23.789Z",
     "youtubeDiscoveryStatus": "matched"
   },
   {
@@ -9332,7 +9381,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9344,7 +9393,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9506,7 +9555,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9518,7 +9567,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9696,7 +9745,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 13,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9773,7 +9822,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9785,7 +9834,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -9855,7 +9904,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10094,7 +10143,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10106,7 +10155,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10239,7 +10288,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10251,7 +10300,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10329,7 +10378,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10569,7 +10618,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10648,7 +10697,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10718,7 +10767,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10730,7 +10779,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10801,7 +10850,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10813,7 +10862,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10967,7 +11016,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -10979,7 +11028,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11151,7 +11200,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11227,7 +11276,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11300,7 +11349,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11371,7 +11420,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11500,7 +11549,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11665,7 +11714,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11677,7 +11726,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11809,7 +11858,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -11880,7 +11929,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -12010,7 +12059,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -12080,7 +12129,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -12149,7 +12198,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -12218,7 +12267,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -12230,7 +12279,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -12494,7 +12543,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 13,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -12735,7 +12784,7 @@
       "episodeCount": 24,
       "latestEpisodeNumber": 24,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -12812,7 +12861,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -13002,7 +13051,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -13078,7 +13127,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -13230,7 +13279,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -13242,7 +13291,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -13477,7 +13526,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -13639,7 +13688,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -13854,7 +13903,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -14020,7 +14069,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -14169,7 +14218,7 @@
       "episodeCount": 24,
       "latestEpisodeNumber": 24,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -14460,7 +14509,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15009,7 +15058,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15021,7 +15070,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15180,7 +15229,7 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15192,7 +15241,7 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15371,7 +15420,7 @@
       "episodeCount": 16,
       "latestEpisodeNumber": 16,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15383,7 +15432,7 @@
       "episodeCount": 16,
       "latestEpisodeNumber": 16,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15556,7 +15605,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15568,7 +15617,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15649,7 +15698,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15661,7 +15710,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15823,7 +15872,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15835,7 +15884,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15847,7 +15896,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15932,7 +15981,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -15944,7 +15993,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.423Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16013,7 +16062,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16025,7 +16074,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16099,7 +16148,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16273,7 +16322,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16285,7 +16334,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16362,7 +16411,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16433,7 +16482,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.021Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16566,7 +16615,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16640,7 +16689,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16707,7 +16756,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16883,7 +16932,7 @@
       "episodeCount": 15,
       "latestEpisodeNumber": 15,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16895,7 +16944,7 @@
       "episodeCount": 15,
       "latestEpisodeNumber": 15,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -16969,7 +17018,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17086,7 +17135,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17098,7 +17147,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17266,7 +17315,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17278,7 +17327,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17430,7 +17479,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17442,7 +17491,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17512,10 +17561,10 @@
       "anilistId": 197754,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 14,
-      "latestEpisodeNumber": 14,
+      "episodeCount": 15,
+      "latestEpisodeNumber": 15,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17636,7 +17685,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17648,7 +17697,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17660,7 +17709,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17830,7 +17879,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17906,7 +17955,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -17977,7 +18026,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18047,7 +18096,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18059,7 +18108,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18133,7 +18182,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18204,7 +18253,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18368,7 +18417,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18447,7 +18496,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18459,7 +18508,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18531,7 +18580,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18839,7 +18888,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -18851,7 +18900,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -19049,7 +19098,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.022Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -19205,7 +19254,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -19217,7 +19266,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -19392,7 +19441,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -19579,7 +19628,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -19743,7 +19792,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -19755,7 +19804,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -20043,7 +20092,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -20122,7 +20171,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -20192,7 +20241,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -20264,7 +20313,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -20429,7 +20478,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -20561,7 +20610,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -20636,7 +20685,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -20704,7 +20753,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -20774,7 +20823,7 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -20928,7 +20977,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -21793,7 +21842,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -22080,7 +22129,7 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -22300,7 +22349,7 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -22658,7 +22707,7 @@
       "episodeCount": 15,
       "latestEpisodeNumber": 15,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -23323,7 +23372,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -23455,7 +23504,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -23525,7 +23574,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -23718,7 +23767,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -23901,7 +23950,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -24035,7 +24084,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -24101,7 +24150,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-13T08:29:38.424Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -24434,7 +24483,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-13T08:29:38.425Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     }
@@ -24727,7 +24776,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-13T08:29:38.425Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -25037,7 +25086,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-13T08:29:38.425Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -25159,7 +25208,7 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-07-13T08:29:38.425Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "no_episode_found",
       "updateError": ""
     },
@@ -25310,14 +25359,21 @@
     "note": "นำเข้าจาก Jikan fall 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1271/158770l.webp",
     "playlistId": "",
-    "currentEpisode": 40,
-    "latestEpisodeTitle": "Ace of Diamond ซีซั่น 2 - ตอนที่ 40 [ซับไทย]",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=_i6_xO8OsFw",
-    "latestPublishedAt": "2026-07-12T11:00:26Z",
-    "lastCheckedAt": "2026-07-12T17:28:44.475Z",
+    "currentEpisode": 41,
+    "latestEpisodeTitle": "Ace of Diamond ซีซั่น 2 - ตอนที่ 41 [ซับไทย]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=0ymlUDd3f1g",
+    "latestPublishedAt": "2026-07-13T11:00:06Z",
+    "lastCheckedAt": "2026-07-13T18:12:23.789Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
+      {
+        "number": 41,
+        "title": "Ace of Diamond ซีซั่น 2 - ตอนที่ 41 [ซับไทย]",
+        "videoId": "0ymlUDd3f1g",
+        "videoUrl": "https://www.youtube.com/watch?v=0ymlUDd3f1g",
+        "publishedAt": "2026-07-13T11:00:06Z"
+      },
       {
         "number": 40,
         "title": "Ace of Diamond ซีซั่น 2 - ตอนที่ 40 [ซับไทย]",
@@ -25717,7 +25773,7 @@
     "youtubeMatchedAlias": "ace of diamond act 2 ซีซั่น 2",
     "youtubeMatchedVideoTitle": "Ace of Diamond act 2 ซีซั่น 2 - ตอนที่ 13 [ซับไทย]",
     "youtubeMatchedScore": 29,
-    "youtubeLastMatchedAt": "2026-07-12T17:28:44.475Z",
+    "youtubeLastMatchedAt": "2026-07-13T18:12:23.789Z",
     "youtubeDiscoveryStatus": "matched"
   },
   {
@@ -27312,7 +27368,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.425Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
@@ -27324,7 +27380,7 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-07-13T08:29:38.425Z",
+      "lastCheckedAt": "2026-07-13T18:12:45.023Z",
       "updateStatus": "ok",
       "updateError": ""
     },
