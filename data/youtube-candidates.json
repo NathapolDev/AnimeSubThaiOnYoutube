@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "ixV0lq2opcI",
+    "title": "The Great Sage Ryddel and the Hands of Time EP1-3 | FULL EPISODE | ENG SUB [#ItsAnime]",
+    "channel": "It's Anime powered by REMOW",
+    "publishedAt": "2026-07-18T02:00:26Z",
+    "episodeNumber": 3,
+    "extractedShowName": "the great sage ryddel and the hands of time",
+    "matches": [
+      {
+        "id": "tensei-shita-daiseijo-wa-seijo-de-aru-koto-wo-hitakakusu",
+        "titleThai": "A Tale of the Secret Saint",
+        "titleOriginal": "Tensei shita Daiseijo wa, Seijo de Aru Koto wo Hitakakusu",
+        "alias": "a tale of the great saint",
+        "similarity": 0.515
+      }
+    ]
+  }
+]
