@@ -1,61 +1,65 @@
 'use strict';
+
 const data = window.ANIME_DATA || [];
 const THAI_DAYS = ['อาทิตย์', 'จันทร์', 'อังคาร', 'พุธ', 'พฤหัส', 'ศุกร์', 'เสาร์'];
 const WEEKDAY_INDEX = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 };
 const SEASON_LABELS = { winter: 'Winter', spring: 'Spring', summer: 'Summer', fall: 'Fall' };
 const NEW_EPISODE_WINDOW_MS = 48 * 60 * 60 * 1000;
+const CATALOG_PAGE_SIZE = 48;
 
-// Bangkok "now" via formatToParts — parsing toLocaleString() output breaks on Safari
 function bangkokNow() {
   const now = new Date();
-  const parts = new Intl.DateTimeFormat('en-US', {
-    timeZone: 'Asia/Bangkok', year: 'numeric', month: 'numeric', hour: 'numeric', minute: 'numeric', weekday: 'short', hourCycle: 'h23'
-  }).formatToParts(now);
+  const parts = new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Bangkok', year: 'numeric', month: 'numeric', hour: 'numeric', minute: 'numeric', weekday: 'short', hourCycle: 'h23' }).formatToParts(now);
   const get = type => parts.find(part => part.type === type)?.value || '';
-  return {
-    year: Number(get('year')),
-    month: Number(get('month')),
-    dayIndex: WEEKDAY_INDEX[get('weekday')] ?? now.getDay(),
-    minutes: Number(get('hour')) * 60 + Number(get('minute'))
-  };
+  return { year: Number(get('year')), month: Number(get('month')), dayIndex: WEEKDAY_INDEX[get('weekday')] ?? now.getDay(), minutes: Number(get('hour')) * 60 + Number(get('minute')) };
 }
+
 const NOW = bangkokNow();
 const currentYear = NOW.year;
 const currentSeason = ['winter', 'spring', 'summer', 'fall'][Math.floor((NOW.month - 1) / 3)];
-
 const tvYears = [...new Set(data.filter(item => item.jikanType === 'TV').map(item => Number(item.catalogYear || item.year)).filter(Boolean))].sort((a, b) => b - a);
 let selectedYear = tvYears.includes(currentYear) ? currentYear : (tvYears[0] || currentYear);
 let activeSeason = currentSeason;
-let activeFilter = 'all', activeChannel = 'all', query = '', sortBy = 'updated', favoritesOnly = false;
-let catalogLimit = 48;
+let activeFilter = 'all';
+let activeChannel = 'all';
+let query = '';
+let sortBy = 'updated';
+let favoritesOnly = false;
+let catalogLimit = CATALOG_PAGE_SIZE;
+let pendingMobileTab = null;
 
-const grid = document.querySelector('#grid');
-const resultText = document.querySelector('#resultText');
-const scheduleList = document.querySelector('#scheduleList');
-const seasonRanking = document.querySelector('#seasonRanking');
-const dialog = document.querySelector('#detailDialog');
-const dialogContent = document.querySelector('#dialogContent');
-const menuToggle = document.querySelector('#menuToggle');
-const navMenu = document.querySelector('#navMenu');
-const goToTopButton = document.querySelector('#goToTop');
+const $ = selector => document.querySelector(selector);
+const grid = $('#grid');
+const resultText = $('#resultText');
+const scheduleList = $('#scheduleList');
+const rankingList = $('#seasonRanking');
+const detailDialog = $('#detailDialog');
+const filterDialog = $('#filterDialog');
+const sheetControllers = new WeakMap();
+const dialogContent = $('#dialogContent');
+
+function setActiveMobileTab(target) {
+  document.querySelectorAll('[data-mobile-tab]').forEach(tab => {
+    const active = tab.dataset.mobileTab === target;
+    tab.classList.toggle('active', active);
+    if (active) tab.setAttribute('aria-current', 'page');
+    else tab.removeAttribute('aria-current');
+  });
+}
+const goToTopButton = $('#goToTop');
 const statusMap = { available: { label: 'ดูได้แล้ว', dot: 'green' }, upcoming: { label: 'รอเริ่มฉาย', dot: 'amber' } };
-const updateMap = {
-  ok: ['อัปเดตล่าสุด', 'update-ok'], no_episode_found: ['ยังไม่พบตอน', 'update-waiting'],
-  no_playlist: ['ไม่มี Playlist', 'update-muted'], error: ['ตรวจสอบผิดพลาด', 'update-error'], pending: ['รอตรวจสอบ', 'update-muted']
-};
 
-// ---------- persistence ----------
 const store = {
   get(key, fallback) { try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; } },
   set(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* private mode */ } }
 };
 const favorites = new Set(store.get('astyt:favorites', []));
+
 function toggleFavorite(id) {
   favorites.has(id) ? favorites.delete(id) : favorites.add(id);
   store.set('astyt:favorites', [...favorites]);
 }
-
-// ---------- helpers ----------
+function icon(name) { return `<svg aria-hidden="true"><use href="#i-${name}"/></svg>`; }
 function normalize(value) { return (value || '').toString().toLowerCase().normalize('NFKC'); }
 function escapeHtml(value) { return String(value ?? '').replace(/[&<>'"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[c]); }
 function formatDate(value) {
@@ -69,19 +73,13 @@ function formatDateOnly(value) {
   return Number.isNaN(date.getTime()) ? escapeHtml(value) : new Intl.DateTimeFormat('th-TH', { dateStyle: 'long', timeZone: 'Asia/Bangkok' }).format(date);
 }
 function posterThumb(url) { return String(url || '').replace(/l(\.(?:webp|jpe?g|png))$/i, '$1'); }
-// Build a CSS `url(...)` value safe to embed in an inline style attribute.
-// Percent-encode the characters that could break out of the url() token or
-// the attribute so no HTML-entity round-trip (escapeHtml -> browser decode)
-// can reopen a quote and invalidate the declaration.
-function cssUrl(url) { return `url("${String(url || '').replace(/["'()\\\s]/g, c => '%' + c.charCodeAt(0).toString(16).padStart(2, '0').toUpperCase())}")`; }
 function posterHtml(item, { thumb = true, eager = false } = {}) {
   if (!item.poster) return '<span class="poster-fallback is-shown" aria-hidden="true">ไม่มีรูป</span>';
-  const src = thumb ? posterThumb(item.poster) : item.poster;
-  return `<img class="poster" src="${escapeHtml(src)}" alt="" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async" onerror="this.hidden=true;this.parentElement.classList.add('is-missing')" /><span class="poster-fallback" aria-hidden="true">ไม่มีรูป</span>`;
+  return `<img class="poster" src="${escapeHtml(thumb ? posterThumb(item.poster) : item.poster)}" alt="" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async" onerror="this.hidden=true;this.parentElement.classList.add('is-missing')" /><span class="poster-fallback" aria-hidden="true">ไม่มีรูป</span>`;
 }
-function crunchyrollOf(item) { return item.crunchyroll && item.crunchyroll.seriesUrl ? item.crunchyroll : null; }
-function bilibiliOf(item) { return item.bilibili && item.bilibili.seriesUrl ? item.bilibili : null; }
-function netflixOf(item) { return item.netflix && item.netflix.seriesUrl ? item.netflix : null; }
+function crunchyrollOf(item) { return item.crunchyroll?.seriesUrl ? item.crunchyroll : null; }
+function bilibiliOf(item) { return item.bilibili?.seriesUrl ? item.bilibili : null; }
+function netflixOf(item) { return item.netflix?.seriesUrl ? item.netflix : null; }
 function hasYoutubeSource(item) { return Boolean(item.playlistId || item.latestVideoUrl || (item.availableEpisodes || []).length); }
 function platformNames(item) {
   const names = [];
@@ -91,27 +89,11 @@ function platformNames(item) {
   if (netflixOf(item)) names.push('Netflix');
   return names.length ? names : ['ยังไม่ประกาศ'];
 }
-// AniList rarely carries per-episode links for these platforms; when it
-// doesn't, the pipeline still knows how many episodes have aired, so
-// synthesize numbered rows that all open the series page.
 function platformEpisodeRows(platform, label) {
   const real = Array.isArray(platform.availableEpisodes) ? platform.availableEpisodes : [];
   if (real.length) return real;
   const count = Number(platform.episodeCount) || 0;
   return Array.from({ length: count }, (_, index) => ({ number: count - index, title: `รับชมได้บน ${label}`, url: platform.seriesUrl }));
-}
-function latestText(item) {
-  if (Number(item.currentEpisode) > 0) return `ล่าสุด: ตอนที่ ${Number(item.currentEpisode)}`;
-  if (!item.playlistId && !item.latestVideoUrl) {
-    const cr = crunchyrollOf(item);
-    if (cr && cr.episodeCount > 0) return `Crunchyroll: ตอนที่ ${cr.latestEpisodeNumber}`;
-    const bili = bilibiliOf(item);
-    if (bili && bili.episodeCount > 0) return `Bilibili: ตอนที่ ${bili.latestEpisodeNumber}`;
-    const netflix = netflixOf(item);
-    if (netflix && netflix.episodeCount > 0) return `Netflix: ตอนที่ ${netflix.latestEpisodeNumber}`;
-    return 'รอยืนยันช่องทางซับไทย';
-  }
-  return item.status === 'upcoming' ? 'ยังไม่เริ่มฉาย' : 'รอตรวจสอบตอนล่าสุด';
 }
 function channelShort(channel) {
   const value = String(channel || '');
@@ -120,35 +102,32 @@ function channelShort(channel) {
   if (value.includes('Tropics')) return 'Tropics';
   return value && !value.includes('ยังไม่') ? value : 'รอช่องทางไทย';
 }
-function hasNewEpisode(item) {
-  const published = Date.parse(item.latestPublishedAt || '');
-  return Number.isFinite(published) && Date.now() - published < NEW_EPISODE_WINDOW_MS;
+function latestText(item) {
+  if (Number(item.currentEpisode) > 0) return `ตอนที่ ${Number(item.currentEpisode)}`;
+  for (const [platform, label] of [[crunchyrollOf(item), 'Crunchyroll'], [bilibiliOf(item), 'Bilibili'], [netflixOf(item), 'Netflix']]) {
+    if (platform && Number(platform.episodeCount) > 0) return `${label} ${Number(platform.latestEpisodeNumber) || Number(platform.episodeCount)} ตอน`;
+  }
+  return item.status === 'upcoming' ? 'ยังไม่เริ่มฉาย' : 'รอตรวจสอบตอนล่าสุด';
 }
+function hasNewEpisode(item) { const published = Date.parse(item.latestPublishedAt || ''); return Number.isFinite(published) && Date.now() - published < NEW_EPISODE_WINDOW_MS; }
 function itemYear(item) { return Number(item.catalogYear || item.year || 0); }
 function isTvInYear(item) { return item.jikanType === 'TV' && itemYear(item) === selectedYear; }
-function isCurrentlyAiring(item) { return item.jikanStatus !== 'Finished Airing'; }
 function isCurrentSeasonTv(item) { return item.jikanType === 'TV' && itemYear(item) === currentYear && item.season === currentSeason; }
+function isCurrentlyAiring(item) { return item.jikanStatus !== 'Finished Airing'; }
 function hasPremiered(item) { return !item.premiere || Date.parse(item.premiere) <= Date.now(); }
 function isInCatalogScope(item) { return isTvInYear(item) && (activeSeason === 'all' || item.season === activeSeason); }
 function isMatch(item) {
-  if (!isInCatalogScope(item)) return false;
-  if (favoritesOnly && !favorites.has(item.id)) return false;
-  if (activeFilter !== 'all' && item.status !== activeFilter) return false;
-  if (activeChannel === '__crunchyroll') {
-    if (!crunchyrollOf(item)) return false;
-  } else if (activeChannel === '__bilibili') {
-    if (!bilibiliOf(item)) return false;
-  } else if (activeChannel === '__netflix') {
-    if (!netflixOf(item)) return false;
-  } else if (activeChannel !== 'all' && item.channel !== activeChannel) return false;
+  if (!isInCatalogScope(item) || (favoritesOnly && !favorites.has(item.id)) || (activeFilter !== 'all' && item.status !== activeFilter)) return false;
+  if (activeChannel === '__crunchyroll' && !crunchyrollOf(item)) return false;
+  if (activeChannel === '__bilibili' && !bilibiliOf(item)) return false;
+  if (activeChannel === '__netflix' && !netflixOf(item)) return false;
+  if (!activeChannel.startsWith('__') && activeChannel !== 'all' && item.channel !== activeChannel) return false;
   if (!query) return true;
-  const haystack = normalize([item.titleThai, item.titleOriginal, item.altTitle, item.channel, item.studio, item.source, ...(item.genres || [])].join(' '));
-  return haystack.includes(normalize(query));
+  return normalize([item.titleThai, item.titleOriginal, item.altTitle, item.channel, item.studio, item.source, ...(item.genres || [])].join(' ')).includes(normalize(query));
 }
 function parseAirTime(item) {
   const match = String(item.airTimeThai || '').match(/^(อาทิตย์|จันทร์|อังคาร|พุธ|พฤหัส|ศุกร์|เสาร์)\s+(\d{1,2}):(\d{2})/);
-  if (!match) return null;
-  return { dayIndex: THAI_DAYS.indexOf(match[1]), minutes: Number(match[2]) * 60 + Number(match[3]), time: `${match[2].padStart(2, '0')}:${match[3]}` };
+  return match ? { dayIndex: THAI_DAYS.indexOf(match[1]), minutes: Number(match[2]) * 60 + Number(match[3]), time: `${match[2].padStart(2, '0')}:${match[3]}` } : null;
 }
 const sorters = {
   updated: (a, b) => (Date.parse(b.latestPublishedAt || '') || 0) - (Date.parse(a.latestPublishedAt || '') || 0),
@@ -157,127 +136,69 @@ const sorters = {
   title: (a, b) => String(a.titleThai || '').localeCompare(String(b.titleThai || ''), 'th')
 };
 
-// ---------- today panel ----------
 function renderTodaySchedule() {
   const todayIndex = bangkokNow().dayIndex;
-  const items = data
-    .filter(item => isCurrentSeasonTv(item) && isCurrentlyAiring(item) && hasPremiered(item))
-    .map(item => ({ item, air: parseAirTime(item) }))
-    .filter(entry => entry.air && entry.air.dayIndex === todayIndex)
-    .sort((a, b) => a.air.minutes - b.air.minutes);
-  document.querySelector('#todayDate').textContent = new Intl.DateTimeFormat('th-TH', { dateStyle: 'full', timeZone: 'Asia/Bangkok' }).format(new Date());
-  document.querySelector('#todayCount').textContent = `${items.length} เรื่อง`;
-  document.querySelector('#todaySchedule').innerHTML = items.length ? items.map(({ item, air }) => `<button class="today-row" type="button" data-id="${escapeHtml(item.id)}">
-    <span class="today-time">${air.time}</span><span class="today-thumb">${posterHtml(item)}</span>
-    <span class="today-copy"><strong>${escapeHtml(item.titleThai)}</strong><small>${escapeHtml(channelShort(item.channel))}${hasNewEpisode(item) ? ' • มีตอนใหม่' : ''}</small></span><span class="today-detail">รายละเอียด</span>
-  </button>`).join('') : '<div class="today-empty"><strong>วันนี้ยังไม่มีรายการที่ระบุเวลา</strong><span>ดูตารางทั้งสัปดาห์ได้ด้านล่าง</span></div>';
+  const items = data.filter(item => isCurrentSeasonTv(item) && isCurrentlyAiring(item) && hasPremiered(item)).map(item => ({ item, air: parseAirTime(item) })).filter(entry => entry.air?.dayIndex === todayIndex).sort((a, b) => a.air.minutes - b.air.minutes);
+  $('#todayDate').textContent = new Intl.DateTimeFormat('th-TH', { dateStyle: 'full', timeZone: 'Asia/Bangkok' }).format(new Date());
+  $('#todayCount').textContent = `${items.length} เรื่อง`;
+  $('#todaySchedule').innerHTML = items.length ? items.map(({ item, air }, index) => `<button class="today-card" type="button" data-id="${escapeHtml(item.id)}"><span class="today-poster">${posterHtml(item, { eager: index < 5 })}<span class="today-time">${air.time}</span></span><strong>${escapeHtml(item.titleThai)}</strong><small>${escapeHtml(channelShort(item.channel))}${hasNewEpisode(item) ? ' • ตอนใหม่' : ''}</small></button>`).join('') : '<div class="today-empty"><strong>วันนี้ยังไม่มีรายการที่ระบุเวลา</strong><span>ดูตารางทั้งสัปดาห์ได้ด้านล่าง</span></div>';
 }
 
-// ---------- current season MAL ranking ----------
 function rankingItemTemplate(item, rank, featured = false) {
-  return `<button class="ranking-item rank-${rank}${featured ? ' is-featured' : ''}" type="button" data-id="${escapeHtml(item.id)}" aria-label="อันดับ ${rank} ${escapeHtml(item.titleThai)} คะแนน MAL ${Number(item.score).toFixed(2)}">
-    <span class="ranking-number" aria-hidden="true">${rank}</span>
-    <span class="ranking-poster">${posterHtml(item, { eager: rank <= 3 })}</span>
-    <span class="ranking-copy"><strong>${escapeHtml(item.titleThai)}</strong><span class="ranking-score">MAL ${Number(item.score).toFixed(2)}</span></span>
-  </button>`;
+  return `<button class="ranking-item rank-${rank}${featured ? ' is-featured' : ''}" type="button" data-id="${escapeHtml(item.id)}" aria-label="อันดับ ${rank} ${escapeHtml(item.titleThai)} คะแนน MAL ${Number(item.score).toFixed(2)}"><span class="ranking-number" aria-hidden="true">${rank}</span><span class="ranking-poster">${posterHtml(item, { eager: rank <= 3 })}</span><span class="ranking-copy"><strong>${escapeHtml(item.titleThai)}</strong><span class="ranking-score">MAL ${Number(item.score).toFixed(2)}</span></span></button>`;
 }
 function renderSeasonRanking() {
-  const ranked = data
-    .filter(item => isCurrentSeasonTv(item) && Number(item.score) > 0)
-    .sort((a, b) => Number(b.score) - Number(a.score) || String(a.titleThai).localeCompare(String(b.titleThai), 'th'))
-    .slice(0, 10);
+  const ranked = data.filter(item => isCurrentSeasonTv(item) && Number(item.score) > 0).sort((a, b) => Number(b.score) - Number(a.score) || String(a.titleThai).localeCompare(String(b.titleThai), 'th')).slice(0, 10);
   const seasonLabel = SEASON_LABELS[currentSeason] || currentSeason;
-  document.querySelector('#seasonRankingHeading').textContent = `อนิเมะคะแนนสูงสุด ${seasonLabel} ${currentYear}`;
-  document.querySelector('#seasonRankingNote').textContent = `คะแนนจาก MyAnimeList • อนิเมะ TV ฤดูกาลปัจจุบัน`;
-  if (!ranked.length) {
-    seasonRanking.innerHTML = '<p class="ranking-empty">ยังไม่มีคะแนน MyAnimeList สำหรับฤดูกาลนี้</p>';
-    return;
-  }
-  const topThree = [ranked[1], ranked[0], ranked[2]]
-    .filter(Boolean)
-    .map(item => rankingItemTemplate(item, ranked.indexOf(item) + 1, true))
-    .join('');
+  $('#seasonRankingHeading').textContent = `อนิเมะคะแนนสูงสุด ${seasonLabel} ${currentYear}`;
+  $('#seasonRankingNote').textContent = 'คะแนนจาก MyAnimeList • อนิเมะ TV ฤดูกาลปัจจุบัน';
+  if (!ranked.length) { rankingList.innerHTML = '<p class="ranking-empty">ยังไม่มีคะแนน MyAnimeList สำหรับฤดูกาลนี้</p>'; return; }
+  const topThree = [ranked[1], ranked[0], ranked[2]].filter(Boolean).map(item => rankingItemTemplate(item, ranked.indexOf(item) + 1, true)).join('');
   const remaining = ranked.slice(3).map((item, index) => rankingItemTemplate(item, index + 4)).join('');
-  seasonRanking.innerHTML = `<div class="ranking-featured">${topThree}</div>${remaining ? `<div class="ranking-rest">${remaining}</div>` : ''}`;
+  rankingList.innerHTML = `<div class="ranking-featured">${topThree}</div>${remaining ? `<div class="ranking-rest">${remaining}</div>` : ''}`;
 }
 
-// ---------- stats ----------
 function renderStats() {
   const scope = data.filter(item => item.jikanType === 'TV' && itemYear(item) === selectedYear);
   const available = scope.filter(item => item.status === 'available');
-  const episodes = scope.reduce((sum, item) => sum + availableEpisodeCount(item.availableEpisodes), 0);
-  const newToday = scope.filter(hasNewEpisode).length;
-  document.querySelector('#statsBar').innerHTML = [
-    [scope.length, `อนิเมะ TV ปี ${selectedYear}`],
-    [available.length, 'มีซับไทยให้ดู'],
-    [episodes, 'ตอนที่รับชมได้'],
-    [newToday, 'อัปเดตใน 48 ชม.']
-  ].map(([value, label]) => `<div class="stat"><span>${value}</span><small>${label}</small></div>`).join('');
+  const stats = [[scope.length, `อนิเมะ TV ปี ${selectedYear}`], [available.length, 'มีช่องทางรับชม'], [scope.reduce((sum, item) => sum + availableEpisodeCount(item.availableEpisodes), 0), 'ตอนที่รับชมได้'], [scope.filter(hasNewEpisode).length, 'อัปเดตใน 48 ชม.']];
+  $('#statsBar').innerHTML = stats.map(([value, label]) => `<div class="stat"><span>${value.toLocaleString('th-TH')}</span><small>${label}</small></div>`).join('');
 }
 
-// ---------- catalog grid ----------
+function preferredWatch(item) {
+  const youtubeSource = item.latestVideoUrl
+    || item.availableEpisodes?.[0]?.videoUrl
+    || (item.playlistId ? `https://www.youtube.com/playlist?list=${encodeURIComponent(item.playlistId)}` : '')
+    || (item.platform === 'YouTube' ? item.link : '');
+  const youtube = safeExternalUrl(youtubeSource);
+  if (youtube !== '#') return { url: youtube, label: 'รับชม' };
+  for (const [platform, label] of [[crunchyrollOf(item), 'Crunchyroll'], [bilibiliOf(item), 'Bilibili'], [netflixOf(item), 'Netflix']]) {
+    const url = safeExternalUrl(platform?.seriesUrl);
+    if (url !== '#') return { url, label };
+  }
+  const info = safeExternalUrl(item.link);
+  if (info !== '#') return { url: info, label: 'ข้อมูล' };
+  return { url: '#', label: 'รอลิงก์' };
+}
 function cardTemplate(item, index) {
   const st = statusMap[item.status] || statusMap.upcoming;
-  const update = updateMap[item.updateStatus] || updateMap.pending;
-  const cr = crunchyrollOf(item);
-  const bili = bilibiliOf(item);
-  const netflix = netflixOf(item);
-  const ytIsWatch = Boolean(item.latestVideoUrl || item.playlistId);
-  let watchUrl = safeExternalUrl(item.latestVideoUrl || item.link);
-  let watchLabel = ytIsWatch ? 'ดูตอนล่าสุด' : 'ดูข้อมูลอนิเมะ';
-  // No YouTube source yet: preserve the configured platform priority before
-  // falling back to the MAL information link.
-  if (!ytIsWatch && cr && safeExternalUrl(cr.seriesUrl) !== '#') {
-    watchUrl = safeExternalUrl(cr.seriesUrl);
-    watchLabel = 'ดูบน Crunchyroll';
-  } else if (!ytIsWatch && bili && safeExternalUrl(bili.seriesUrl) !== '#') {
-    watchUrl = safeExternalUrl(bili.seriesUrl);
-    watchLabel = 'ดูบน Bilibili';
-  } else if (!ytIsWatch && netflix && safeExternalUrl(netflix.seriesUrl) !== '#') {
-    watchUrl = safeExternalUrl(netflix.seriesUrl);
-    watchLabel = 'ดูบน Netflix';
-  }
-  const hasWatch = watchUrl !== '#';
-  const prog = episodeProgress(item);
+  const watch = preferredWatch(item);
+  const names = platformNames(item).filter(name => name !== 'ยังไม่ประกาศ');
   const isFav = favorites.has(item.id);
-  return `<article class="anime-card" tabindex="0" role="button" aria-label="${escapeHtml(item.titleThai)}" data-id="${escapeHtml(item.id)}">
-    <div class="poster-wrap">${posterHtml(item, { eager: index < 5 })}
-      <div class="badges-top">
-        <span class="badge status-badge"><span class="dot ${st.dot}"></span>${st.label}</span>
-        ${hasNewEpisode(item) ? '<span class="badge new-badge">ตอนใหม่</span>' : ''}
-      </div>
-      <div class="badges-bottom">
-        <span class="badge channel-badge">${escapeHtml(channelShort(item.channel))}</span>
-        ${cr ? '<span class="badge cr-badge">Crunchyroll</span>' : ''}
-        ${bili ? '<span class="badge bili-badge">Bilibili</span>' : ''}
-        ${netflix ? '<span class="badge netflix-badge">Netflix</span>' : ''}
-        ${Number(item.score) > 0 ? `<span class="badge score-badge">★ ${Number(item.score).toFixed(2)}</span>` : ''}
-      </div>
-      <button class="fav-btn ${isFav ? 'is-fav' : ''}" type="button" data-fav="${escapeHtml(item.id)}" aria-pressed="${isFav}" aria-label="รายการโปรด">${isFav ? '★' : '☆'}</button>
-    </div>
-    <div class="card-body">
-      <h3>${escapeHtml(item.titleThai)}</h3><p class="original">${escapeHtml(item.titleOriginal)}</p>
-      <div class="episode-row"><strong>${latestText(item)}</strong><span class="update-badge ${update[1]}">${update[0]}</span></div>
-      ${prog.show ? `<div class="progress" role="img" aria-label="พบตอนจาก YouTube ${prog.current} จาก ${prog.total} ตอน"><i style="width:${prog.percent}%"></i><span>${prog.current}/${prog.total}</span></div>` : ''}
-      <div class="meta">${(item.genres || []).slice(0, 3).map(g => `<span class="tag">${escapeHtml(g)}</span>`).join('')}</div>
-      <div class="card-footer">
-        ${hasWatch ? `<a class="watch-btn" href="${escapeHtml(watchUrl)}" target="_blank" rel="noopener">▶ ${watchLabel}</a>` : '<span class="watch-btn is-disabled">รอลิงก์รับชม</span>'}
-        <span class="detail-btn">รายละเอียด →</span>
-      </div>
-    </div></article>`;
+  return `<article class="anime-card" tabindex="0" role="button" aria-label="${escapeHtml(item.titleThai)}" data-id="${escapeHtml(item.id)}"><div class="poster-wrap">${posterHtml(item, { eager: index < 6 })}<span class="card-status"><i class="dot ${st.dot}"></i>${st.label}${hasNewEpisode(item) ? ' • ตอนใหม่' : ''}</span><button class="fav-btn${isFav ? ' is-fav' : ''}" type="button" data-fav="${escapeHtml(item.id)}" aria-pressed="${isFav}" aria-label="${isFav ? 'นำออกจาก' : 'เพิ่มใน'}รายการโปรด">${icon('heart')}</button><div class="platform-strip">${names.slice(0, 2).map(name => `<span class="platform-badge" data-platform="${escapeHtml(name)}">${escapeHtml(name)}</span>`).join('')}${Number(item.score) > 0 ? `<span class="score-badge">★ ${Number(item.score).toFixed(1)}</span>` : ''}</div></div><div class="card-body"><h3>${escapeHtml(item.titleThai)}</h3><p class="original">${escapeHtml(item.titleOriginal)}</p><div class="card-meta"><span>${escapeHtml(latestText(item))}</span><span>${escapeHtml(channelShort(item.channel))}</span></div><div class="card-actions">${watch.url !== '#' ? `<a class="watch-btn" href="${escapeHtml(watch.url)}" target="_blank" rel="noopener">${icon('play')}${escapeHtml(watch.label)}</a>` : '<span class="watch-btn is-disabled">รอลิงก์รับชม</span>'}<span class="detail-link">รายละเอียด</span></div></div></article>`;
 }
-function render() {
+function renderCatalog() {
   const items = data.filter(isMatch).sort(sorters[sortBy] || sorters.updated);
+  const visible = items.slice(0, catalogLimit);
+  grid.innerHTML = visible.map(cardTemplate).join('') || '<div class="data-note"><h2>ไม่พบรายการ</h2><p>ลองเปลี่ยนคำค้นหรือล้างตัวกรอง</p></div>';
   const scopeTotal = data.filter(isInCatalogScope).length;
-  const visibleItems = items.slice(0, catalogLimit);
-  grid.innerHTML = visibleItems.map(cardTemplate).join('') || `<div class="glass data-note"><h2>ไม่พบรายการ</h2><p>ลองเปลี่ยนคำค้นหรือเลือกตัวกรอง “ทั้งหมด”</p></div>`;
   resultText.textContent = favoritesOnly ? `รายการโปรด ${items.length} เรื่อง` : `พบ ${items.length} จาก ${scopeTotal} รายการ`;
-  const loadMore = document.querySelector('#loadMoreCatalog');
-  loadMore.hidden = visibleItems.length >= items.length;
-  loadMore.textContent = `แสดงรายการเพิ่ม (เหลืออีก ${items.length - visibleItems.length} รายการ)`;
+  const loadMore = $('#loadMoreCatalog');
+  loadMore.hidden = visible.length >= items.length;
+  loadMore.textContent = `แสดงเพิ่มอีก ${Math.min(CATALOG_PAGE_SIZE, items.length - visible.length)} เรื่อง`;
+  updateControlState();
 }
 
-// ---------- weekly schedule ----------
 function renderSchedule() {
   const todayIndex = bangkokNow().dayIndex;
   const airing = data.filter(item => isInCatalogScope(item) && isCurrentlyAiring(item) && hasPremiered(item));
@@ -285,351 +206,279 @@ function renderSchedule() {
   const unscheduled = [];
   for (const item of airing) {
     const air = parseAirTime(item);
-    if (air) {
-      const list = byDay.get(air.dayIndex) || [];
-      list.push({ item, air });
-      byDay.set(air.dayIndex, list);
-    } else {
-      unscheduled.push(item);
-    }
+    if (!air) { unscheduled.push(item); continue; }
+    const list = byDay.get(air.dayIndex) || [];
+    list.push({ item, air }); byDay.set(air.dayIndex, list);
   }
-  const dayOrder = Array.from({ length: 7 }, (_, offset) => (todayIndex + offset) % 7);
-  const sections = dayOrder
-    .filter(dayIndex => byDay.has(dayIndex))
-    .map(dayIndex => {
-      const rows = byDay.get(dayIndex).sort((a, b) => a.air.minutes - b.air.minutes)
-        .map(({ item, air }) => `<button class="schedule-item" type="button" data-id="${escapeHtml(item.id)}">
-          <span class="schedule-time">${air.time}</span>
-          <span class="schedule-copy"><strong>${escapeHtml(item.titleThai)}</strong><span>${escapeHtml(channelShort(item.channel))} • ${latestText(item)}</span></span>
-        </button>`).join('');
-      return `<section class="schedule-day ${dayIndex === todayIndex ? 'is-today' : ''}">
-        <h3>วัน${THAI_DAYS[dayIndex]}${dayIndex === todayIndex ? ' <span class="today-tag">วันนี้</span>' : ''}</h3>
-        <div class="schedule-rows">${rows}</div>
-      </section>`;
-    });
-  if (unscheduled.length) {
-    sections.push(`<section class="schedule-day is-unscheduled"><h3>รอประกาศเวลาไทย</h3><div class="schedule-rows">${unscheduled
-      .sort((a, b) => String(a.titleThai).localeCompare(String(b.titleThai), 'th'))
-      .map(item => `<button class="schedule-item" type="button" data-id="${escapeHtml(item.id)}">
-        <span class="schedule-time">—</span>
-        <span class="schedule-copy"><strong>${escapeHtml(item.titleThai)}</strong><span>${escapeHtml(channelShort(item.channel))} • ${latestText(item)}</span></span>
-      </button>`).join('')}</div></section>`);
-  }
+  const sections = Array.from({ length: 7 }, (_, offset) => (todayIndex + offset) % 7).filter(day => byDay.has(day)).map(day => `<section class="schedule-day${day === todayIndex ? ' is-today' : ''}"><h3>วัน${THAI_DAYS[day]}${day === todayIndex ? '<span class="today-tag">วันนี้</span>' : ''}</h3><div>${byDay.get(day).sort((a, b) => a.air.minutes - b.air.minutes).map(({ item, air }) => `<button class="schedule-item" type="button" data-id="${escapeHtml(item.id)}"><span class="schedule-time">${air.time}</span><span class="schedule-copy"><strong>${escapeHtml(item.titleThai)}</strong><span>${escapeHtml(channelShort(item.channel))} • ${escapeHtml(latestText(item))}</span></span></button>`).join('')}</div></section>`);
+  if (unscheduled.length) sections.push(`<section class="schedule-day"><h3>รอประกาศเวลาไทย</h3>${unscheduled.sort((a, b) => String(a.titleThai).localeCompare(String(b.titleThai), 'th')).map(item => `<button class="schedule-item" type="button" data-id="${escapeHtml(item.id)}"><span class="schedule-time">—</span><span class="schedule-copy"><strong>${escapeHtml(item.titleThai)}</strong><span>${escapeHtml(channelShort(item.channel))}</span></span></button>`).join('')}</section>`);
   scheduleList.innerHTML = sections.join('') || '<p class="schedule-empty">ไม่มีรายการออกอากาศในขอบเขตที่เลือก</p>';
 }
 
-// ---------- detail dialog ----------
+const channels = [...new Set(data.filter(item => item.jikanType === 'TV' && item.channel && !item.channel.includes('ยังไม่')).map(item => item.channel))].sort();
+const channelOptions = [{ value: 'all', label: 'ทุกช่องทาง' }, ...channels.map(value => ({ value, label: channelShort(value) }))];
+if (data.some(item => item.jikanType === 'TV' && crunchyrollOf(item))) channelOptions.push({ value: '__crunchyroll', label: 'Crunchyroll' });
+if (data.some(item => item.jikanType === 'TV' && bilibiliOf(item))) channelOptions.push({ value: '__bilibili', label: 'Bilibili' });
+if (data.some(item => item.jikanType === 'TV' && netflixOf(item))) channelOptions.push({ value: '__netflix', label: 'Netflix' });
+
+function filterSurfaceTemplate() {
+  const chips = (name, options) => `<div class="filter-block"><span class="filter-label">${name}</span><div class="filter-options">${options.map(([value, label]) => `<button class="filter-chip" type="button" data-filter-key="${name === 'ฤดูกาล' ? 'season' : name === 'สถานะ' ? 'status' : 'channel'}" data-filter-value="${escapeHtml(value)}">${escapeHtml(label)}</button>`).join('')}</div></div>`;
+  return `<div class="filter-block"><label class="filter-label" for="year-filter">ปี</label><select id="year-filter" class="select-control" data-select-key="year">${tvYears.map(year => `<option value="${year}">${year}</option>`).join('')}</select></div>${chips('ฤดูกาล', [['winter','Winter'],['spring','Spring'],['summer','Summer'],['fall','Fall'],['all','ทั้งปี']])}${chips('สถานะ', [['all','ทั้งหมด'],['available','ดูได้แล้ว'],['upcoming','รอเริ่มฉาย'],['favorites','รายการโปรด']])}${chips('ช่องทาง', channelOptions.map(option => [option.value, option.label]))}<div class="filter-block"><label class="filter-label" for="sort-filter">เรียงตาม</label><select id="sort-filter" class="select-control" data-select-key="sort"><option value="updated">อัปเดตล่าสุด</option><option value="score">คะแนน MAL</option><option value="premiere">วันเริ่มฉาย</option><option value="title">ชื่อเรื่อง (ก-ฮ)</option></select></div>`;
+}
+$('#mobileFilters').innerHTML = filterSurfaceTemplate();
+
+function updateControlState() {
+  document.querySelectorAll('[data-select-key="year"]').forEach(select => { select.value = String(selectedYear); });
+  document.querySelectorAll('[data-select-key="sort"]').forEach(select => { select.value = sortBy; });
+  document.querySelectorAll('[data-filter-key="season"]').forEach(button => button.classList.toggle('active', button.dataset.filterValue === activeSeason));
+  document.querySelectorAll('[data-filter-key="status"]').forEach(button => button.classList.toggle('active', button.dataset.filterValue === (favoritesOnly ? 'favorites' : activeFilter)));
+  document.querySelectorAll('[data-filter-key="channel"]').forEach(button => button.classList.toggle('active', button.dataset.filterValue === activeChannel));
+  const count = Number(activeSeason !== currentSeason) + Number(activeFilter !== 'all') + Number(activeChannel !== 'all') + Number(sortBy !== 'updated') + Number(favoritesOnly) + Number(selectedYear !== (tvYears.includes(currentYear) ? currentYear : tvYears[0]));
+  const countBadge = $('#filterCount'); countBadge.hidden = count === 0; countBadge.textContent = count;
+  $('#activeFilterSummary').textContent = [SEASON_LABELS[activeSeason] || 'ทั้งปี', activeFilter !== 'all' ? statusMap[activeFilter]?.label : '', activeChannel !== 'all' ? channelOptions.find(option => option.value === activeChannel)?.label : '', favoritesOnly ? 'รายการโปรด' : ''].filter(Boolean).join(' • ');
+  const favoriteTab = document.querySelector('[data-mobile-tab="favorites"]');
+  if (favoritesOnly) setActiveMobileTab('favorites');
+  else if (favoriteTab?.classList.contains('active')) {
+    favoriteTab?.classList.remove('active');
+    favoriteTab?.removeAttribute('aria-current');
+    syncMobileTabToViewport();
+  }
+}
+function resetFilters() {
+  selectedYear = tvYears.includes(currentYear) ? currentYear : (tvYears[0] || currentYear);
+  activeSeason = currentSeason; activeFilter = 'all'; activeChannel = 'all'; sortBy = 'updated'; favoritesOnly = false; catalogLimit = CATALOG_PAGE_SIZE;
+  renderCatalogViews();
+}
+
 function episodeRowsTemplate(episodes) {
   return episodes.map(episode => {
     const url = safeExternalUrl(episode.videoUrl || episode.url);
-    const episodeLabel = episode.startNumber !== undefined && episode.endNumber !== undefined
-      ? `ตอนที่ ${escapeHtml(episode.startNumber)}–${escapeHtml(episode.endNumber)}`
-      : episode.number !== null && episode.number !== undefined ? `ตอนที่ ${escapeHtml(episode.number)}` : 'ตอนพิเศษ';
-    return `<article class="episode-item">
-    <div class="episode-number">${episodeLabel}</div>
-    <div class="episode-copy"><strong>${escapeHtml(episode.title || 'ไม่มีชื่อตอน')}</strong>${episode.publishedAt ? `<span>${formatDate(episode.publishedAt)}</span>` : ''}</div>
-    ${url !== '#' ? `<a class="episode-watch" href="${escapeHtml(url)}" target="_blank" rel="noopener">รับชม</a>` : ''}
-  </article>`;
+    const label = episode.startNumber !== undefined && episode.endNumber !== undefined ? `ตอนที่ ${escapeHtml(episode.startNumber)}–${escapeHtml(episode.endNumber)}` : episode.number !== null && episode.number !== undefined ? `ตอนที่ ${escapeHtml(episode.number)}` : 'ตอนพิเศษ';
+    return `<article class="episode-item"><div class="episode-number">${label}</div><div class="episode-copy"><strong>${escapeHtml(episode.title || 'ไม่มีชื่อตอน')}</strong>${episode.publishedAt ? `<span>${formatDate(episode.publishedAt)}</span>` : ''}</div>${url !== '#' ? `<a class="episode-watch" href="${escapeHtml(url)}" target="_blank" rel="noopener">รับชม</a>` : ''}</article>`;
   }).join('');
 }
-function renderEpisodeSection({ containerId, loadMoreId, episodes, limit, emptyText }) {
-  const container = document.querySelector(containerId);
-  const loadMore = document.querySelector(loadMoreId);
-  if (!container) return;
-  if (!episodes.length) {
-    container.innerHTML = `<p class="episode-empty">${emptyText}</p>`;
-    if (loadMore) loadMore.hidden = true;
-    return;
-  }
-  container.innerHTML = episodeRowsTemplate(episodes.slice(0, limit));
-  if (loadMore) {
-    loadMore.hidden = limit >= episodes.length;
-    loadMore.textContent = `ดูตอนเก่ากว่า (${episodes.length - Math.min(limit, episodes.length)} ตอน)`;
-  }
+function renderActivePlatform(key, platforms, limits) {
+  document.querySelectorAll('[data-platform-tab]').forEach(tab => { const active = tab.dataset.platformTab === key; tab.classList.toggle('active', active); tab.setAttribute('aria-selected', String(active)); });
+  const panel = $('#platformPanel');
+  const platform = platforms.find(entry => entry.key === key);
+  if (!platform) return;
+  const visible = platform.episodes.slice(0, limits[key]);
+  panel.innerHTML = `<div class="episode-heading"><h3>${escapeHtml(platform.title)}</h3><span>${platform.episodes.length} ตอน</span></div>${platform.note ? `<p class="episode-note">${escapeHtml(platform.note)}</p>` : ''}<div class="episode-list">${visible.length ? episodeRowsTemplate(visible) : '<p class="episode-empty">ยังไม่มีรายการตอน</p>'}</div><button class="load-more-btn" type="button" data-platform-more="${key}" ${visible.length >= platform.episodes.length ? 'hidden' : ''}>ดูตอนเก่ากว่า (${platform.episodes.length - visible.length} ตอน)</button>`;
 }
 function showDetail(id, { updateHash = true } = {}) {
-  const item = data.find(x => x.id === id);
-  if (!item) return;
+  const item = data.find(entry => entry.id === id); if (!item) return;
   const st = statusMap[item.status] || statusMap.upcoming;
-  const watchUrl = safeExternalUrl(item.latestVideoUrl || item.link);
-  const malUrl = safeExternalUrl(item.malUrl);
-  const trailerUrl = safeExternalUrl(item.trailerUrl);
-  const playlistUrl = item.playlistId ? safeExternalUrl(`https://www.youtube.com/playlist?list=${item.playlistId}`) : '#';
-  const cr = crunchyrollOf(item);
-  const crSeriesUrl = cr ? safeExternalUrl(cr.seriesUrl) : '#';
-  const bili = bilibiliOf(item);
-  const biliSeriesUrl = bili ? safeExternalUrl(bili.seriesUrl) : '#';
-  const netflix = netflixOf(item);
-  const netflixSeriesUrl = netflix ? safeExternalUrl(netflix.seriesUrl) : '#';
+  const cr = crunchyrollOf(item), bili = bilibiliOf(item), netflix = netflixOf(item);
+  const youtubeEpisodes = Array.isArray(item.availableEpisodes) ? item.availableEpisodes : [];
+  const platforms = [];
+  if (hasYoutubeSource(item)) platforms.push({ key: 'youtube', label: 'YouTube', title: 'ตอนที่รับชมได้บน YouTube', episodes: youtubeEpisodes, url: safeExternalUrl(item.latestVideoUrl || item.link) });
+  if (cr) platforms.push({ key: 'crunchyroll', label: 'Crunchyroll', title: 'ตอนบน Crunchyroll', episodes: platformEpisodeRows(cr, 'Crunchyroll'), url: safeExternalUrl(cr.seriesUrl), note: 'โปรดตรวจสอบสิทธิ์และภาษาซับไทยในแอป' });
+  if (bili) platforms.push({ key: 'bilibili', label: 'Bilibili', title: 'ตอนบน Bilibili TV', episodes: platformEpisodeRows(bili, 'Bilibili TV'), url: safeExternalUrl(bili.seriesUrl), note: 'โปรดตรวจสอบสิทธิ์และภาษาซับไทยในแอป' });
+  if (netflix) platforms.push({ key: 'netflix', label: 'Netflix', title: 'ตอนบน Netflix', episodes: platformEpisodeRows(netflix, 'Netflix'), url: safeExternalUrl(netflix.seriesUrl), note: 'โปรดตรวจสอบสิทธิ์รับชมในไทยและภาษาซับในแอป' });
+  const activePlatform = platforms[0];
+  const watch = preferredWatch(item);
   const isFav = favorites.has(item.id);
-  const heroBg = item.poster ? `--hero-img:${cssUrl(item.poster)}` : '';
-  dialogContent.innerHTML = `<div class="dialog-hero" style="${escapeHtml(heroBg)}">
-    <div class="dialog-hero-poster">${posterHtml(item, { thumb: false })}</div>
-    <div class="dialog-hero-copy">
-      <p class="eyebrow">${escapeHtml(item.channel)} • ${escapeHtml(platformNames(item).join(' / '))}</p><h2>${escapeHtml(item.titleThai)}</h2>
-      <p class="original">${escapeHtml(item.titleOriginal)}${item.altTitle ? `<br>${escapeHtml(item.altTitle)}` : ''}</p>
-    </div>
-  </div><div class="dialog-copy">
-    <p>${escapeHtml(item.summary)}</p>
-    <div class="meta">${(item.genres || []).map(g => `<span class="tag">${escapeHtml(g)}</span>`).join('')}</div>
-    <div class="info-grid">
-      <div class="info"><small>สถานะ</small><strong><span class="dot ${st.dot}"></span> ${st.label}</strong></div>
-      <div class="info"><small>ตอนล่าสุด</small><strong>${Number(item.currentEpisode) > 0 ? `ตอนที่ ${Number(item.currentEpisode)}${Number(item.episodes) > 0 ? ` / ${Number(item.episodes)}` : ''}` : '—'}</strong></div>
-      <div class="info"><small>เริ่มฉาย</small><strong>${formatDateOnly(item.premiere)}</strong></div>
-      <div class="info"><small>เวลาฉาย (ไทย)</small><strong>${escapeHtml(item.airTimeThai || '—')}</strong></div>
-      <div class="info"><small>สตูดิโอ</small><strong>${escapeHtml(item.studio || '—')}</strong></div>
-      <div class="info"><small>คะแนน MAL</small><strong>${Number(item.score) > 0 ? `★ ${Number(item.score).toFixed(2)}` : '—'}</strong></div>
-      <div class="info"><small>เผยแพร่ตอนล่าสุด</small><strong>${formatDate(item.latestPublishedAt)}</strong></div>
-      <div class="info"><small>ตรวจสอบล่าสุด</small><strong>${formatDate(item.lastCheckedAt)}</strong></div>
-    </div>${item.updateError ? `<p class="update-error-text">${escapeHtml(item.updateError)}</p>` : ''}
-    <section class="episode-section" aria-labelledby="episodeHeadingYt">
-      <div class="episode-heading"><div><p class="eyebrow">YouTube</p><h3 id="episodeHeadingYt">ตอนที่รับชมได้</h3></div><span>${availableEpisodeCount(item.availableEpisodes)} ตอน</span></div>
-      <div id="episodeListYt" class="episode-list"></div>
-      <button id="loadMoreYt" class="load-more-btn" type="button" hidden>ดูตอนเก่ากว่า</button>
-    </section>
-    ${cr ? `<section class="episode-section" aria-labelledby="episodeHeadingCr">
-      <div class="episode-heading"><div><p class="eyebrow">Crunchyroll</p><h3 id="episodeHeadingCr">ตอนที่รับชมได้</h3></div><span>${Number(cr.episodeCount) || 0} ตอน</span></div>
-      <p class="episode-note">ตามข้อมูล Crunchyroll สากล — ${(cr.availableEpisodes || []).length ? 'โปรดตรวจสอบซับไทยในแอป' : 'ลิงก์เปิดหน้าซีรีส์ โปรดตรวจสอบซับไทยในแอป'}</p>
-      <div id="episodeListCr" class="episode-list"></div>
-      <button id="loadMoreCr" class="load-more-btn" type="button" hidden>ดูตอนเก่ากว่า</button>
-    </section>` : ''}
-    ${bili ? `<section class="episode-section" aria-labelledby="episodeHeadingBili">
-      <div class="episode-heading"><div><p class="eyebrow">Bilibili</p><h3 id="episodeHeadingBili">ตอนที่รับชมได้</h3></div><span>${Number(bili.episodeCount) || 0} ตอน</span></div>
-      <p class="episode-note">ตามข้อมูล Bilibili TV สากล — ${(bili.availableEpisodes || []).length ? 'โปรดตรวจสอบซับไทยในแอป' : 'ลิงก์เปิดหน้าซีรีส์ โปรดตรวจสอบซับไทยในแอป'}</p>
-      <div id="episodeListBili" class="episode-list"></div>
-      <button id="loadMoreBili" class="load-more-btn" type="button" hidden>ดูตอนเก่ากว่า</button>
-    </section>` : ''}
-    ${netflix ? `<section class="episode-section" aria-labelledby="episodeHeadingNetflix">
-      <div class="episode-heading"><div><p class="eyebrow">Netflix</p><h3 id="episodeHeadingNetflix">ตอนที่รับชมได้</h3></div><span>${Number(netflix.episodeCount) || 0} ตอน</span></div>
-      <p class="episode-note">ตามข้อมูล Netflix สากลจาก AniList — ${(netflix.availableEpisodes || []).length ? 'โปรดตรวจสอบสิทธิ์รับชมในไทยและซับไทยในแอป' : 'จำนวนตอนประเมินจากตารางฉาย ลิงก์เปิดหน้าซีรีส์ โปรดตรวจสอบสิทธิ์รับชมในไทยและซับไทยในแอป'}</p>
-      <div id="episodeListNetflix" class="episode-list"></div>
-      <button id="loadMoreNetflix" class="load-more-btn" type="button" hidden>ดูตอนเก่ากว่า</button>
-    </section>` : ''}
-    <div class="dialog-actions">
-      ${watchUrl !== '#' ? `<a class="primary-btn" href="${escapeHtml(watchUrl)}" target="_blank" rel="noopener">${item.latestVideoUrl || item.playlistId ? '▶ ดูตอนล่าสุด' : 'ดูข้อมูลอนิเมะ'}</a>` : ''}
-      ${playlistUrl !== '#' ? `<a class="secondary-btn" href="${escapeHtml(playlistUrl)}" target="_blank" rel="noopener">Playlist ทั้งหมด</a>` : ''}
-      ${crSeriesUrl !== '#' ? `<a class="secondary-btn" href="${escapeHtml(crSeriesUrl)}" target="_blank" rel="noopener">ดูบน Crunchyroll</a>` : ''}
-      ${biliSeriesUrl !== '#' ? `<a class="secondary-btn" href="${escapeHtml(biliSeriesUrl)}" target="_blank" rel="noopener">ดูบน Bilibili</a>` : ''}
-      ${netflixSeriesUrl !== '#' ? `<a class="secondary-btn" href="${escapeHtml(netflixSeriesUrl)}" target="_blank" rel="noopener">ดูบน Netflix</a>` : ''}
-      ${trailerUrl !== '#' ? `<a class="secondary-btn" href="${escapeHtml(trailerUrl)}" target="_blank" rel="noopener">ตัวอย่าง</a>` : ''}
-      ${malUrl !== '#' ? `<a class="secondary-btn" href="${escapeHtml(malUrl)}" target="_blank" rel="noopener">MyAnimeList</a>` : ''}
-      <button class="secondary-btn fav-toggle" type="button" data-fav="${escapeHtml(item.id)}" aria-pressed="${isFav}">${isFav ? '★ อยู่ในรายการโปรด' : '☆ เพิ่มรายการโปรด'}</button>
-      <button class="secondary-btn share-btn" type="button" data-share="${escapeHtml(item.id)}">🔗 คัดลอกลิงก์</button>
-    </div>
-  </div>`;
-  if (!dialog.open) dialog.showModal();
-  dialog.scrollTop = 0;
-  let ytLimit = 10;
-  const ytEpisodes = Array.isArray(item.availableEpisodes) ? item.availableEpisodes : [];
-  const renderYt = () => renderEpisodeSection({
-    containerId: '#episodeListYt', loadMoreId: '#loadMoreYt', episodes: ytEpisodes, limit: ytLimit,
-    emptyText: 'ยังไม่มีรายการตอนจาก YouTube'
-  });
-  renderYt();
-  document.querySelector('#loadMoreYt')?.addEventListener('click', () => { ytLimit += 10; renderYt(); });
-  if (cr) {
-    let crLimit = 10;
-    const crEpisodes = platformEpisodeRows(cr, 'Crunchyroll');
-    const renderCr = () => renderEpisodeSection({
-      containerId: '#episodeListCr', loadMoreId: '#loadMoreCr', episodes: crEpisodes, limit: crLimit,
-      emptyText: 'ยังไม่มีรายการตอนจาก Crunchyroll'
-    });
-    renderCr();
-    document.querySelector('#loadMoreCr')?.addEventListener('click', () => { crLimit += 10; renderCr(); });
-  }
-  if (bili) {
-    let biliLimit = 10;
-    const biliEpisodes = platformEpisodeRows(bili, 'Bilibili TV');
-    const renderBili = () => renderEpisodeSection({
-      containerId: '#episodeListBili', loadMoreId: '#loadMoreBili', episodes: biliEpisodes, limit: biliLimit,
-      emptyText: 'ยังไม่มีรายการตอนจาก Bilibili'
-    });
-    renderBili();
-    document.querySelector('#loadMoreBili')?.addEventListener('click', () => { biliLimit += 10; renderBili(); });
-  }
-  if (netflix) {
-    let netflixLimit = 10;
-    const netflixEpisodes = platformEpisodeRows(netflix, 'Netflix');
-    const renderNetflix = () => renderEpisodeSection({
-      containerId: '#episodeListNetflix', loadMoreId: '#loadMoreNetflix', episodes: netflixEpisodes, limit: netflixLimit,
-      emptyText: 'ยังไม่มีรายการตอนจาก Netflix'
-    });
-    renderNetflix();
-    document.querySelector('#loadMoreNetflix')?.addEventListener('click', () => { netflixLimit += 10; renderNetflix(); });
-  }
+  const playlistUrl = item.playlistId ? safeExternalUrl(`https://www.youtube.com/playlist?list=${item.playlistId}`) : '#';
+  const trailerUrl = safeExternalUrl(item.trailerUrl), malUrl = safeExternalUrl(item.malUrl);
+  const actionLinks = [['Playlist', playlistUrl], ...platforms.filter(p => p.key !== 'youtube').map(p => [p.label, p.url]), ['ตัวอย่าง', trailerUrl], ['MyAnimeList', malUrl]].filter(([, url]) => url !== '#');
+  dialogContent.innerHTML = `<div class="detail-hero"><div class="detail-poster">${posterHtml(item, { thumb: false, eager: true })}</div><div class="detail-title"><span class="detail-status"><i class="dot ${st.dot}"></i>${st.label} • ${escapeHtml(platformNames(item).join(' / '))}</span><h2>${escapeHtml(item.titleThai)}</h2><p class="original">${escapeHtml(item.titleOriginal)}${item.altTitle ? `<br>${escapeHtml(item.altTitle)}` : ''}</p><div class="detail-primary-actions">${watch.url !== '#' ? `<a class="primary-button" href="${escapeHtml(watch.url)}" target="_blank" rel="noopener">${icon('play')} รับชม</a>` : ''}<button class="secondary-button${isFav ? ' is-fav' : ''}" type="button" data-fav="${escapeHtml(item.id)}" aria-pressed="${isFav}" aria-label="รายการโปรด">${icon('heart')}</button><button class="secondary-button" type="button" data-share="${escapeHtml(item.id)}" aria-label="แชร์">${icon('share')}</button></div></div></div><div class="detail-body"><p class="summary">${escapeHtml(item.summary || 'ยังไม่มีเรื่องย่อ')}</p><div class="meta">${(item.genres || []).map(genre => `<span class="tag">${escapeHtml(genre)}</span>`).join('')}</div><dl class="definition-list"><div class="definition-row"><dt>ตอนล่าสุด</dt><dd>${escapeHtml(latestText(item))}${Number(item.episodes) > 0 ? ` / ${Number(item.episodes)} ตอน` : ''}</dd></div><div class="definition-row"><dt>เริ่มฉาย</dt><dd>${formatDateOnly(item.premiere)}</dd></div><div class="definition-row"><dt>เวลาฉาย (ไทย)</dt><dd>${escapeHtml(item.airTimeThai || '—')}</dd></div><div class="definition-row"><dt>สตูดิโอ</dt><dd>${escapeHtml(item.studio || '—')}</dd></div><div class="definition-row"><dt>คะแนน MAL</dt><dd>${Number(item.score) > 0 ? `★ ${Number(item.score).toFixed(2)}` : '—'}</dd></div><div class="definition-row"><dt>ตรวจสอบล่าสุด</dt><dd>${formatDate(item.lastCheckedAt)}</dd></div></dl>${platforms.length ? `<div class="platform-tabs" role="tablist" aria-label="ช่องทางรับชม">${platforms.map((platform, index) => `<button class="platform-tab${index === 0 ? ' active' : ''}" type="button" role="tab" data-platform-tab="${platform.key}" aria-selected="${index === 0}">${escapeHtml(platform.label)}</button>`).join('')}</div><section id="platformPanel" class="platform-panel"></section>` : '<p class="episode-empty">ยังไม่มีช่องทางรับชมที่ยืนยันแล้ว</p>'}<div class="action-rail">${actionLinks.map(([label, url]) => `<a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`).join('')}</div></div>`;
+  openSheet(detailDialog);
+  detailDialog.querySelector('.detail-panel').scrollTop = 0;
+  const limits = Object.fromEntries(platforms.map(platform => [platform.key, 10]));
+  if (activePlatform) renderActivePlatform(activePlatform.key, platforms, limits);
+  dialogContent.onclick = event => {
+    const tab = event.target.closest('[data-platform-tab]'); if (tab) renderActivePlatform(tab.dataset.platformTab, platforms, limits);
+    const more = event.target.closest('[data-platform-more]'); if (more) { limits[more.dataset.platformMore] += 10; renderActivePlatform(more.dataset.platformMore, platforms, limits); }
+  };
   if (updateHash) history.replaceState(null, '', `#a=${encodeURIComponent(item.id)}`);
 }
+
 async function shareItem(id, button) {
   const basePath = location.pathname.replace(/index\.html$/, '');
   const url = `${location.origin}${basePath}a/${encodeURIComponent(id)}.html`;
-  try {
-    await navigator.clipboard.writeText(url);
-    button.textContent = '✓ คัดลอกแล้ว';
-    setTimeout(() => { button.textContent = '🔗 คัดลอกลิงก์'; }, 1600);
-  } catch {
-    window.prompt('คัดลอกลิงก์นี้', url);
+  try { if (navigator.share && matchMedia('(max-width:767px)').matches) await navigator.share({ title: data.find(item => item.id === id)?.titleThai, url }); else { await navigator.clipboard.writeText(url); button.setAttribute('aria-label', 'คัดลอกลิงก์แล้ว'); } }
+  catch (error) { if (error?.name !== 'AbortError') window.prompt('คัดลอกลิงก์นี้', url); }
+}
+
+function updatePageIdentity() { $('#brandTitle').textContent = `Anime TV ${selectedYear}`; document.title = `Anime TV ${selectedYear} — Thai YouTube Tracker`; }
+function renderCatalogViews() { updatePageIdentity(); renderStats(); renderTodaySchedule(); renderSeasonRanking(); renderCatalog(); renderSchedule(); }
+
+document.addEventListener('change', event => {
+  const select = event.target.closest('[data-select-key]'); if (!select) return;
+  if (select.dataset.selectKey === 'year') selectedYear = Number(select.value); else sortBy = select.value;
+  catalogLimit = CATALOG_PAGE_SIZE; renderCatalogViews();
+});
+document.addEventListener('click', event => {
+  const filter = event.target.closest('[data-filter-key]');
+  if (filter) {
+    const { filterKey: key, filterValue: value } = filter.dataset;
+    if (key === 'season') activeSeason = value;
+    if (key === 'status') { favoritesOnly = value === 'favorites'; activeFilter = favoritesOnly ? 'all' : value; }
+    if (key === 'channel') activeChannel = value;
+    catalogLimit = CATALOG_PAGE_SIZE; renderCatalogViews(); return;
   }
-}
-
-// ---------- page identity + orchestration ----------
-function updatePageIdentity() {
-  document.querySelector('#brandTitle').textContent = `Anime TV ${selectedYear}`;
-  document.title = `Anime TV ${selectedYear} — Thai YouTube Tracker`;
-}
-function renderCatalogViews() { updatePageIdentity(); renderStats(); renderTodaySchedule(); renderSeasonRanking(); render(); renderSchedule(); }
-
-// ---------- filters / controls ----------
-const yearSelect = document.querySelector('#yearSelect');
-yearSelect.innerHTML = tvYears.map(year => `<option value="${year}"${year === selectedYear ? ' selected' : ''}>${year}</option>`).join('');
-yearSelect.addEventListener('change', event => { selectedYear = Number(event.target.value); catalogLimit = 48; renderCatalogViews(); });
-
-document.querySelectorAll('[data-season]').forEach(chip => {
-  chip.classList.toggle('active', chip.dataset.season === activeSeason);
-  chip.addEventListener('click', () => {
-    document.querySelectorAll('[data-season]').forEach(value => value.classList.remove('active'));
-    chip.classList.add('active'); activeSeason = chip.dataset.season; catalogLimit = 48; renderCatalogViews();
-  });
+  const favorite = event.target.closest('[data-fav]');
+  if (favorite) { event.preventDefault(); event.stopPropagation(); toggleFavorite(favorite.dataset.fav); if (detailDialog.open) showDetail(favorite.dataset.fav, { updateHash: false }); else renderCatalog(); return; }
+  const share = event.target.closest('[data-share]'); if (share) { shareItem(share.dataset.share, share); return; }
+  if (event.target.closest('a')) return;
+  const item = event.target.closest('[data-id]'); if (item) showDetail(item.dataset.id);
 });
-document.querySelectorAll('.status-filters .chip[data-filter]').forEach(chip => chip.addEventListener('click', () => {
-  document.querySelectorAll('.status-filters .chip[data-filter]').forEach(c => c.classList.remove('active'));
-  chip.classList.add('active'); activeFilter = chip.dataset.filter; catalogLimit = 48; render();
-}));
-const favFilter = document.querySelector('#favFilter');
-favFilter.addEventListener('click', () => {
-  favoritesOnly = !favoritesOnly;
-  favFilter.classList.toggle('active', favoritesOnly);
-  favFilter.setAttribute('aria-pressed', String(favoritesOnly));
-  catalogLimit = 48; render();
-});
-
-// channel chips generated from the data instead of a hardcoded list
-const channelFilters = document.querySelector('.channel-filters');
-const channels = [...new Set(data.filter(item => item.jikanType === 'TV' && item.channel && !item.channel.includes('ยังไม่')).map(item => item.channel))].sort();
-channelFilters.insertAdjacentHTML('beforeend',
-  `<button class="chip active" type="button" data-channel="all">ทุกช่องทาง</button>` +
-  channels.map(channel => `<button class="chip" type="button" data-channel="${escapeHtml(channel)}">${escapeHtml(channel)}</button>`).join('') +
-  (data.some(item => item.jikanType === 'TV' && crunchyrollOf(item)) ? `<button class="chip" type="button" data-channel="__crunchyroll">Crunchyroll</button>` : '') +
-  (data.some(item => item.jikanType === 'TV' && bilibiliOf(item)) ? `<button class="chip" type="button" data-channel="__bilibili">Bilibili</button>` : '') +
-  (data.some(item => item.jikanType === 'TV' && netflixOf(item)) ? `<button class="chip" type="button" data-channel="__netflix">Netflix</button>` : ''));
-channelFilters.querySelectorAll('.chip').forEach(chip => chip.addEventListener('click', () => {
-  channelFilters.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-  chip.classList.add('active'); activeChannel = chip.dataset.channel; catalogLimit = 48; render();
-}));
-
-document.querySelector('#sortSelect').addEventListener('change', event => { sortBy = event.target.value; catalogLimit = 48; render(); });
+grid.addEventListener('keydown', event => { if ((event.key === 'Enter' || event.key === ' ') && event.target.classList.contains('anime-card')) { event.preventDefault(); showDetail(event.target.dataset.id); } });
 
 let searchTimer = 0;
-document.querySelector('#searchInput').addEventListener('input', event => {
-  clearTimeout(searchTimer);
-  searchTimer = setTimeout(() => { query = event.target.value; catalogLimit = 48; render(); }, 150);
+$('#searchInput').addEventListener('input', event => { clearTimeout(searchTimer); searchTimer = setTimeout(() => { query = event.target.value; catalogLimit = CATALOG_PAGE_SIZE; renderCatalog(); }, 120); });
+$('#headerSearch').addEventListener('click', () => { $('#catalog').scrollIntoView(); setTimeout(() => $('#searchInput').focus(), 350); });
+$('#loadMoreCatalog').addEventListener('click', () => { catalogLimit += CATALOG_PAGE_SIZE; renderCatalog(); });
+$('#openFilters').addEventListener('click', () => openSheet(filterDialog));
+$('#closeFilters').addEventListener('click', () => closeSheet(filterDialog));
+$('#resetFilters').addEventListener('click', resetFilters);
+$('#closeDialog').addEventListener('click', () => closeSheet(detailDialog));
+[filterDialog, detailDialog].forEach(dialog => {
+  dialog.addEventListener('click', event => { if (event.target === dialog) closeSheet(dialog); });
+  dialog.addEventListener('cancel', event => { event.preventDefault(); closeSheet(dialog); });
 });
-document.querySelector('#loadMoreCatalog').addEventListener('click', () => { catalogLimit += 48; render(); });
+detailDialog.addEventListener('close', () => { if (location.hash.startsWith('#a=')) history.replaceState(null, '', location.pathname + location.search); });
 
-// ---------- event delegation ----------
-function handleActivation(event) {
-  const favButton = event.target.closest('[data-fav]');
-  if (favButton) {
-    const id = favButton.dataset.fav;
-    toggleFavorite(id);
-    const isFav = favorites.has(id);
-    document.querySelectorAll(`[data-fav="${CSS.escape(id)}"]`).forEach(button => {
-      button.setAttribute('aria-pressed', String(isFav));
-      if (button.classList.contains('fav-btn')) { button.classList.toggle('is-fav', isFav); button.textContent = isFav ? '★' : '☆'; }
-      else button.textContent = isFav ? '★ อยู่ในรายการโปรด' : '☆ เพิ่มรายการโปรด';
-    });
-    if (favoritesOnly) render();
-    return true;
-  }
-  const shareButton = event.target.closest('[data-share]');
-  if (shareButton) { shareItem(shareButton.dataset.share, shareButton); return true; }
-  if (event.target.closest('a')) return true;
-  const card = event.target.closest('[data-id]');
-  if (card) { showDetail(card.dataset.id); return true; }
-  return false;
-}
-document.addEventListener('click', event => { handleActivation(event); });
-grid.addEventListener('keydown', event => {
-  if (event.key === 'Enter' && event.target.classList.contains('anime-card')) showDetail(event.target.dataset.id);
-});
-
-// ---------- dialog ----------
-document.querySelector('#closeDialog').addEventListener('click', () => dialog.close());
-dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
-dialog.addEventListener('close', () => {
-  if (location.hash.startsWith('#a=')) history.replaceState(null, '', location.pathname + location.search);
-});
-
-// ---------- theme (persisted; follows system preference by default) ----------
-const themeToggle = document.querySelector('#themeToggle');
+const themeToggle = $('#themeToggle');
 function applyTheme(theme) {
-  document.body.classList.toggle('light', theme === 'light');
-  themeToggle.textContent = theme === 'light' ? '☀️' : '🌙';
-  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'light' ? '#f7f7ff' : '#0a0d1d');
+  document.body.classList.toggle('dark', theme === 'dark');
+  themeToggle.innerHTML = icon(theme === 'dark' ? 'sun' : 'moon');
+  themeToggle.setAttribute('aria-label', theme === 'dark' ? 'ใช้ธีมสว่าง' : 'ใช้ธีมมืด');
+  $('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#000000' : '#f5f5f7');
 }
 const storedTheme = store.get('astyt:theme', null);
-applyTheme(storedTheme || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'));
-themeToggle.addEventListener('click', () => {
-  const next = document.body.classList.contains('light') ? 'dark' : 'light';
-  applyTheme(next);
-  store.set('astyt:theme', next);
-});
+applyTheme(storedTheme || (matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light'));
+themeToggle.addEventListener('click', () => { const next = document.body.classList.contains('dark') ? 'light' : 'dark'; applyTheme(next); store.set('astyt:theme', next); });
 
-// ---------- mobile menu ----------
-function closeMenu() {
-  menuToggle.setAttribute('aria-expanded', 'false');
-  navMenu.classList.remove('is-open');
+document.querySelectorAll('[data-mobile-tab]').forEach(tab => tab.addEventListener('click', () => {
+  const target = tab.dataset.mobileTab;
+  setActiveMobileTab(target);
+  if (target === 'favorites') {
+    pendingMobileTab = null;
+    favoritesOnly = true;
+    activeFilter = 'all';
+    catalogLimit = CATALOG_PAGE_SIZE;
+    renderCatalog();
+    setActiveMobileTab('favorites');
+    $('#catalog').scrollIntoView();
+    return;
+  }
+  pendingMobileTab = target;
+  if (favoritesOnly) {
+    favoritesOnly = false;
+    catalogLimit = CATALOG_PAGE_SIZE;
+    renderCatalog();
+  }
+  setActiveMobileTab(target);
+  document.querySelector(`#${target}`)?.scrollIntoView();
+}));
+if ('IntersectionObserver' in window) {
+  const navObserver = new IntersectionObserver(entries => {
+    const visible = entries.filter(entry => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+    if (!visible || favoritesOnly) return;
+    if (pendingMobileTab && visible.target.id !== pendingMobileTab) return;
+    pendingMobileTab = null;
+    setActiveMobileTab(visible.target.id);
+  }, { rootMargin: '-20% 0px -65% 0px', threshold: [0, .15, .5] });
+  ['top', 'ranking', 'catalog', 'schedule'].forEach(id => navObserver.observe(document.getElementById(id)));
 }
-menuToggle.addEventListener('click', () => {
-  const isOpen = menuToggle.getAttribute('aria-expanded') === 'true';
-  menuToggle.setAttribute('aria-expanded', String(!isOpen));
-  navMenu.classList.toggle('is-open', !isOpen);
-});
-navMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
-document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
-window.addEventListener('resize', () => { if (window.innerWidth >= 600) closeMenu(); });
 
-// ---------- go to top ----------
-function updateGoToTopVisibility() {
-  goToTopButton.hidden = window.scrollY <= 1600;
+function syncMobileTabToViewport() {
+  if (favoritesOnly || !matchMedia('(max-width:767px)').matches) return;
+  pendingMobileTab = null;
+  const anchorY = window.innerHeight * .28;
+  const visibleSection = ['top', 'ranking', 'catalog', 'schedule']
+    .map(id => document.getElementById(id))
+    .find(section => {
+      const rect = section.getBoundingClientRect();
+      return rect.top <= anchorY && rect.bottom >= anchorY;
+    });
+  if (visibleSection) setActiveMobileTab(visibleSection.id);
 }
-goToTopButton.addEventListener('click', () => {
-  const behavior = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
-  window.scrollTo({ top: 0, behavior });
-});
+
+let mobileNavScrollTimer = 0;
+window.addEventListener('scroll', () => {
+  clearTimeout(mobileNavScrollTimer);
+  mobileNavScrollTimer = setTimeout(syncMobileTabToViewport, 120);
+}, { passive: true });
+
+function updateGoToTopVisibility() { goToTopButton.hidden = window.scrollY < 900; }
+goToTopButton.addEventListener('click', () => window.scrollTo({ top: 0, behavior: matchMedia('(prefers-reduced-motion:reduce)').matches ? 'auto' : 'smooth' }));
 window.addEventListener('scroll', updateGoToTopVisibility, { passive: true });
 
-// ---------- drag-to-scroll (today rail) ----------
-function enableDragScroll(el) {
+function enableRailDrag(el) {
   if (!el) return;
-  let down = false, startX = 0, startScroll = 0, moved = false;
-  el.addEventListener('mousedown', event => {
-    if (event.button !== 0) return;
-    down = true; moved = false;
-    startX = event.pageX; startScroll = el.scrollLeft;
-    el.classList.add('is-dragging');
+  let startX = 0, startScroll = 0, dragging = false, suppressClick = false, pointerId = null;
+  el.addEventListener('dragstart', event => event.preventDefault());
+  el.addEventListener('pointerdown', event => {
+    if (event.pointerType !== 'mouse' || event.button !== 0) return;
+    pointerId = event.pointerId;
+    startX = event.clientX;
+    startScroll = el.scrollLeft;
+    dragging = false;
+    suppressClick = false;
   });
-  window.addEventListener('mousemove', event => {
-    if (!down) return;
-    // button released outside the window: end the drag instead of scrolling on
-    if (event.buttons === 0) { down = false; el.classList.remove('is-dragging'); return; }
-    const dx = event.pageX - startX;
-    if (Math.abs(dx) > 4) moved = true;
-    el.scrollLeft = startScroll - dx;
+  el.addEventListener('pointermove', event => {
+    if (event.pointerId !== pointerId) return;
+    const delta = event.clientX - startX;
+    if (!dragging && Math.abs(delta) < 10) return;
+    if (!dragging) {
+      dragging = true;
+      el.setPointerCapture(pointerId);
+      el.classList.add('is-dragging');
+    }
     event.preventDefault();
+    el.scrollLeft = startScroll - delta;
   });
-  window.addEventListener('mouseup', () => {
-    if (!down) return;
-    down = false; el.classList.remove('is-dragging');
-  });
-  // swallow the click that ends a drag so it doesn't open the detail dialog
-  el.addEventListener('click', event => {
-    if (moved) { event.preventDefault(); event.stopPropagation(); moved = false; }
-  }, true);
+  const finish = event => {
+    if (event.pointerId !== pointerId) return;
+    suppressClick = event.type === 'pointerup' && dragging;
+    if (suppressClick) requestAnimationFrame(() => { suppressClick = false; });
+    dragging = false;
+    pointerId = null;
+    el.classList.remove('is-dragging');
+  };
+  window.addEventListener('pointerup', finish); window.addEventListener('pointercancel', finish);
+  el.addEventListener('click', event => { if (suppressClick) { event.preventDefault(); event.stopPropagation(); suppressClick = false; } }, true);
 }
-enableDragScroll(document.querySelector('#todaySchedule'));
+enableRailDrag($('#todaySchedule'));
 
-// ---------- boot ----------
-renderCatalogViews();
-updateGoToTopVisibility();
-const deepLink = location.hash.match(/^#a=(.+)$/);
-if (deepLink) showDetail(decodeURIComponent(deepLink[1]), { updateHash: false });
+function enableSheetDrag(dialog) {
+  const panel = dialog.querySelector('.sheet-panel'); const handle = dialog.querySelector('[data-sheet-handle]'); if (!panel || !handle) return;
+  let pointerId = null, startY = 0, lastY = 0, lastTime = 0, velocity = 0, closeTimer = 0;
+  const isMobile = () => matchMedia('(max-width:767px)').matches;
+  const reduced = () => matchMedia('(prefers-reduced-motion:reduce)').matches;
+  const currentTranslateY = () => {
+    const values = getComputedStyle(panel).transform.match(/matrix.*\((.+)\)/)?.[1].split(',').map(Number) || [];
+    return values.length === 16 ? values[13] : (values[5] || 0);
+  };
+  const open = () => {
+    clearTimeout(closeTimer); if (dialog.open) return;
+    if (!isMobile() || reduced()) { dialog.showModal(); return; }
+    dialog.classList.add('is-dragging'); panel.style.setProperty('--sheet-y', `${window.innerHeight}px`); dialog.showModal();
+    requestAnimationFrame(() => requestAnimationFrame(() => { dialog.classList.remove('is-dragging'); panel.style.removeProperty('--sheet-y'); }));
+  };
+  const close = () => {
+    clearTimeout(closeTimer); if (!dialog.open) return;
+    if (!isMobile() || reduced()) { dialog.close(); return; }
+    dialog.classList.remove('is-dragging'); panel.style.setProperty('--sheet-y', `${panel.offsetHeight}px`);
+    closeTimer = window.setTimeout(() => { if (dialog.open) dialog.close(); }, 420);
+  };
+  sheetControllers.set(dialog, { open, close });
+  handle.addEventListener('pointerdown', event => {
+    if (!isMobile()) return;
+    event.preventDefault();
+    clearTimeout(closeTimer); const currentY = Math.max(0, currentTranslateY()); dialog.classList.add('is-dragging'); panel.style.setProperty('--sheet-y', `${currentY}px`);
+    pointerId = event.pointerId; startY = event.clientY - currentY; lastY = event.clientY; lastTime = performance.now(); velocity = 0; handle.setPointerCapture(pointerId);
+  });
+  handle.addEventListener('pointermove', event => { if (event.pointerId !== pointerId) return; event.preventDefault(); const now = performance.now(); const delta = Math.max(0, event.clientY - startY); velocity = (event.clientY - lastY) / Math.max(1, now - lastTime); lastY = event.clientY; lastTime = now; panel.style.setProperty('--sheet-y', `${delta}px`); });
+  const finish = event => { if (event.pointerId !== pointerId) return; const delta = Math.max(0, event.clientY - startY); pointerId = null; dialog.classList.remove('is-dragging'); if (delta + velocity * 180 > Math.min(220, panel.offsetHeight * .28)) close(); else panel.style.removeProperty('--sheet-y'); };
+  handle.addEventListener('pointerup', finish); handle.addEventListener('pointercancel', finish);
+  dialog.addEventListener('close', () => panel.style.removeProperty('--sheet-y'));
+}
+function openSheet(dialog) { const controller = sheetControllers.get(dialog); if (controller) controller.open(); else dialog.showModal(); }
+function closeSheet(dialog) { const controller = sheetControllers.get(dialog); if (controller) controller.close(); else dialog.close(); }
+enableSheetDrag(filterDialog); enableSheetDrag(detailDialog);
+
+renderCatalogViews(); updateGoToTopVisibility();
+const deepLink = location.hash.match(/^#a=(.+)$/); if (deepLink) showDetail(decodeURIComponent(deepLink[1]), { updateHash: false });
