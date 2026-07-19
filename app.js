@@ -27,6 +27,13 @@ let sortBy = 'updated';
 let favoritesOnly = false;
 let catalogLimit = CATALOG_PAGE_SIZE;
 let pendingMobileTab = null;
+// The deployed data payload is split: the core file sets ANIME_DETAILS_URL and
+// the summaries/episode lists arrive via that second script, injected only
+// after the first render. On file:// the repo data file is unsplit and sets no
+// URL, so details are ready from the start and the lazy path never runs.
+let detailsReady = !window.ANIME_DETAILS_URL;
+let pendingDetailId = null;
+let detailsScript = null;
 
 const $ = selector => document.querySelector(selector);
 const grid = $('#grid');
@@ -80,7 +87,7 @@ function posterHtml(item, { thumb = true, eager = false } = {}) {
 function crunchyrollOf(item) { return item.crunchyroll?.seriesUrl ? item.crunchyroll : null; }
 function bilibiliOf(item) { return item.bilibili?.seriesUrl ? item.bilibili : null; }
 function netflixOf(item) { return item.netflix?.seriesUrl ? item.netflix : null; }
-function hasYoutubeSource(item) { return Boolean(item.playlistId || item.latestVideoUrl || (item.availableEpisodes || []).length); }
+function hasYoutubeSource(item) { return Boolean(item.playlistId || item.latestVideoUrl || (item.availableEpisodes || []).length || Number(item.availableEpisodeCount) > 0); }
 function platformNames(item) {
   const names = [];
   if (hasYoutubeSource(item)) names.push('YouTube');
@@ -161,7 +168,7 @@ function renderSeasonRanking() {
 function renderStats() {
   const scope = data.filter(item => item.jikanType === 'TV' && itemYear(item) === selectedYear);
   const available = scope.filter(item => item.status === 'available');
-  const stats = [[scope.length, `อนิเมะ TV ปี ${selectedYear}`], [available.length, 'มีช่องทางรับชม'], [scope.reduce((sum, item) => sum + availableEpisodeCount(item.availableEpisodes), 0), 'ตอนที่รับชมได้'], [scope.filter(hasNewEpisode).length, 'อัปเดตใน 48 ชม.']];
+  const stats = [[scope.length, `อนิเมะ TV ปี ${selectedYear}`], [available.length, 'มีช่องทางรับชม'], [scope.reduce((sum, item) => sum + (item.availableEpisodes ? availableEpisodeCount(item.availableEpisodes) : (Number(item.availableEpisodeCount) || 0)), 0), 'ตอนที่รับชมได้'], [scope.filter(hasNewEpisode).length, 'อัปเดตใน 48 ชม.']];
   $('#statsBar').innerHTML = stats.map(([value, label]) => `<div class="stat"><span>${value.toLocaleString('th-TH')}</span><small>${label}</small></div>`).join('');
 }
 
@@ -263,10 +270,33 @@ function renderActivePlatform(key, platforms, limits) {
   const platform = platforms.find(entry => entry.key === key);
   if (!platform) return;
   const visible = platform.episodes.slice(0, limits[key]);
-  panel.innerHTML = `<div class="episode-heading"><h3>${escapeHtml(platform.title)}</h3><span>${platform.episodes.length} ตอน</span></div>${platform.note ? `<p class="episode-note">${escapeHtml(platform.note)}</p>` : ''}<div class="episode-list">${visible.length ? episodeRowsTemplate(visible) : '<p class="episode-empty">ยังไม่มีรายการตอน</p>'}</div><button class="load-more-btn" type="button" data-platform-more="${key}" ${visible.length >= platform.episodes.length ? 'hidden' : ''}>ดูตอนเก่ากว่า (${platform.episodes.length - visible.length} ตอน)</button>`;
+  panel.innerHTML = `<div class="episode-heading"><h3>${escapeHtml(platform.title)}</h3><span>${platform.episodes.length} ตอน</span></div>${platform.note ? `<p class="episode-note">${escapeHtml(platform.note)}</p>` : ''}<div class="episode-list">${visible.length ? episodeRowsTemplate(visible) : `<p class="episode-empty">${detailsReady ? 'ยังไม่มีรายการตอน' : 'กำลังโหลดตอน...'}</p>`}</div><button class="load-more-btn" type="button" data-platform-more="${key}" ${visible.length >= platform.episodes.length ? 'hidden' : ''}>ดูตอนเก่ากว่า (${platform.episodes.length - visible.length} ตอน)</button>`;
+}
+function applyDetails(map) {
+  for (const item of data) {
+    const detail = map[item.id];
+    if (!detail) continue;
+    if (detail.summary) item.summary = detail.summary;
+    if (detail.availableEpisodes) item.availableEpisodes = detail.availableEpisodes;
+    for (const key of ['crunchyroll', 'bilibili', 'netflix']) {
+      if (detail[key]?.availableEpisodes && item[key]) item[key].availableEpisodes = detail[key].availableEpisodes;
+    }
+  }
+  detailsReady = true;
+  if (pendingDetailId && detailDialog.open) showDetail(pendingDetailId, { updateHash: false });
+  pendingDetailId = null;
+}
+function loadDetails() {
+  if (detailsReady || detailsScript) return;
+  detailsScript = document.createElement('script');
+  detailsScript.src = window.ANIME_DETAILS_URL;
+  detailsScript.onload = () => applyDetails(window.ANIME_DETAILS || {});
+  detailsScript.onerror = () => { detailsScript.remove(); detailsScript = null; };
+  document.head.appendChild(detailsScript);
 }
 function showDetail(id, { updateHash = true } = {}) {
   const item = data.find(entry => entry.id === id); if (!item) return;
+  if (!detailsReady) { pendingDetailId = id; loadDetails(); }
   const st = statusMap[item.status] || statusMap.upcoming;
   const cr = crunchyrollOf(item), bili = bilibiliOf(item), netflix = netflixOf(item);
   const youtubeEpisodes = Array.isArray(item.availableEpisodes) ? item.availableEpisodes : [];
@@ -281,7 +311,7 @@ function showDetail(id, { updateHash = true } = {}) {
   const playlistUrl = item.playlistId ? safeExternalUrl(`https://www.youtube.com/playlist?list=${item.playlistId}`) : '#';
   const trailerUrl = safeExternalUrl(item.trailerUrl), malUrl = safeExternalUrl(item.malUrl);
   const actionLinks = [['Playlist', playlistUrl], ...platforms.filter(p => p.key !== 'youtube').map(p => [p.label, p.url]), ['ตัวอย่าง', trailerUrl], ['MyAnimeList', malUrl]].filter(([, url]) => url !== '#');
-  dialogContent.innerHTML = `<div class="detail-hero"><div class="detail-poster">${posterHtml(item, { thumb: false, eager: true })}</div><div class="detail-title"><span class="detail-status"><i class="dot ${st.dot}"></i>${st.label} • ${escapeHtml(platformNames(item).join(' / '))}</span><h2>${escapeHtml(item.titleThai)}</h2><p class="original">${escapeHtml(item.titleOriginal)}${item.altTitle ? `<br>${escapeHtml(item.altTitle)}` : ''}</p><div class="detail-primary-actions">${watch.url !== '#' ? `<a class="primary-button" href="${escapeHtml(watch.url)}" target="_blank" rel="noopener">${icon('play')} รับชม</a>` : ''}<button class="secondary-button${isFav ? ' is-fav' : ''}" type="button" data-fav="${escapeHtml(item.id)}" aria-pressed="${isFav}" aria-label="รายการโปรด">${icon('heart')}</button><button class="secondary-button" type="button" data-share="${escapeHtml(item.id)}" aria-label="แชร์">${icon('share')}</button></div></div></div><div class="detail-body"><p class="summary">${escapeHtml(item.summary || 'ยังไม่มีเรื่องย่อ')}</p><div class="meta">${(item.genres || []).map(genre => `<span class="tag">${escapeHtml(genre)}</span>`).join('')}</div><dl class="definition-list"><div class="definition-row"><dt>ตอนล่าสุด</dt><dd>${escapeHtml(latestText(item))}${Number(item.episodes) > 0 ? ` / ${Number(item.episodes)} ตอน` : ''}</dd></div><div class="definition-row"><dt>เริ่มฉาย</dt><dd>${formatDateOnly(item.premiere)}</dd></div><div class="definition-row"><dt>เวลาฉาย (ไทย)</dt><dd>${escapeHtml(item.airTimeThai || '—')}</dd></div><div class="definition-row"><dt>สตูดิโอ</dt><dd>${escapeHtml(item.studio || '—')}</dd></div><div class="definition-row"><dt>คะแนน MAL</dt><dd>${Number(item.score) > 0 ? `★ ${Number(item.score).toFixed(2)}` : '—'}</dd></div><div class="definition-row"><dt>ตรวจสอบล่าสุด</dt><dd>${formatDate(item.lastCheckedAt)}</dd></div></dl>${platforms.length ? `<div class="platform-tabs" role="tablist" aria-label="ช่องทางรับชม">${platforms.map((platform, index) => `<button class="platform-tab${index === 0 ? ' active' : ''}" type="button" role="tab" data-platform-tab="${platform.key}" aria-selected="${index === 0}">${escapeHtml(platform.label)}</button>`).join('')}</div><section id="platformPanel" class="platform-panel"></section>` : '<p class="episode-empty">ยังไม่มีช่องทางรับชมที่ยืนยันแล้ว</p>'}<div class="action-rail">${actionLinks.map(([label, url]) => `<a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`).join('')}</div></div>`;
+  dialogContent.innerHTML = `<div class="detail-hero"><div class="detail-poster">${posterHtml(item, { thumb: false, eager: true })}</div><div class="detail-title"><span class="detail-status"><i class="dot ${st.dot}"></i>${st.label} • ${escapeHtml(platformNames(item).join(' / '))}</span><h2>${escapeHtml(item.titleThai)}</h2><p class="original">${escapeHtml(item.titleOriginal)}${item.altTitle ? `<br>${escapeHtml(item.altTitle)}` : ''}</p><div class="detail-primary-actions">${watch.url !== '#' ? `<a class="primary-button" href="${escapeHtml(watch.url)}" target="_blank" rel="noopener">${icon('play')} รับชม</a>` : ''}<button class="secondary-button${isFav ? ' is-fav' : ''}" type="button" data-fav="${escapeHtml(item.id)}" aria-pressed="${isFav}" aria-label="รายการโปรด">${icon('heart')}</button><button class="secondary-button" type="button" data-share="${escapeHtml(item.id)}" aria-label="แชร์">${icon('share')}</button></div></div></div><div class="detail-body"><p class="summary">${escapeHtml(item.summary || (detailsReady ? 'ยังไม่มีเรื่องย่อ' : 'กำลังโหลดเรื่องย่อ...'))}</p><div class="meta">${(item.genres || []).map(genre => `<span class="tag">${escapeHtml(genre)}</span>`).join('')}</div><dl class="definition-list"><div class="definition-row"><dt>ตอนล่าสุด</dt><dd>${escapeHtml(latestText(item))}${Number(item.episodes) > 0 ? ` / ${Number(item.episodes)} ตอน` : ''}</dd></div><div class="definition-row"><dt>เริ่มฉาย</dt><dd>${formatDateOnly(item.premiere)}</dd></div><div class="definition-row"><dt>เวลาฉาย (ไทย)</dt><dd>${escapeHtml(item.airTimeThai || '—')}</dd></div><div class="definition-row"><dt>สตูดิโอ</dt><dd>${escapeHtml(item.studio || '—')}</dd></div><div class="definition-row"><dt>คะแนน MAL</dt><dd>${Number(item.score) > 0 ? `★ ${Number(item.score).toFixed(2)}` : '—'}</dd></div><div class="definition-row"><dt>ตรวจสอบล่าสุด</dt><dd>${formatDate(item.lastCheckedAt)}</dd></div></dl>${platforms.length ? `<div class="platform-tabs" role="tablist" aria-label="ช่องทางรับชม">${platforms.map((platform, index) => `<button class="platform-tab${index === 0 ? ' active' : ''}" type="button" role="tab" data-platform-tab="${platform.key}" aria-selected="${index === 0}">${escapeHtml(platform.label)}</button>`).join('')}</div><section id="platformPanel" class="platform-panel"></section>` : '<p class="episode-empty">ยังไม่มีช่องทางรับชมที่ยืนยันแล้ว</p>'}<div class="action-rail">${actionLinks.map(([label, url]) => `<a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`).join('')}</div></div>`;
   openSheet(detailDialog);
   detailDialog.querySelector('.detail-panel').scrollTop = 0;
   const limits = Object.fromEntries(platforms.map(platform => [platform.key, 10]));
@@ -482,3 +512,4 @@ enableSheetDrag(filterDialog); enableSheetDrag(detailDialog);
 
 renderCatalogViews(); updateGoToTopVisibility();
 const deepLink = location.hash.match(/^#a=(.+)$/); if (deepLink) showDetail(decodeURIComponent(deepLink[1]), { updateHash: false });
+loadDetails();
