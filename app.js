@@ -151,14 +151,25 @@ function renderTodaySchedule() {
   $('#todaySchedule').innerHTML = items.length ? items.map(({ item, air }, index) => `<button class="today-card" type="button" data-id="${escapeHtml(item.id)}"><span class="today-poster">${posterHtml(item, { eager: index < 5 })}<span class="today-time">${air.time}</span></span><strong>${escapeHtml(item.titleThai)}</strong><small>${escapeHtml(channelShort(item.channel))}${hasNewEpisode(item) ? ' • ตอนใหม่' : ''}</small></button>`).join('') : '<div class="today-empty"><strong>วันนี้ยังไม่มีรายการที่ระบุเวลา</strong><span>ดูตารางทั้งสัปดาห์ได้ด้านล่าง</span></div>';
 }
 
+// The pipeline stores yesterday's closing rank per anime; the list itself is still
+// sorted here from score, so the arrow only ever describes movement, never order.
+function rankDelta(item, rank) {
+  const previous = Number(item.seasonRankPrevious) || 0;
+  if (!previous) return { className: 'is-new', label: 'ใหม่', speech: 'เข้าอันดับใหม่' };
+  const move = previous - rank;
+  if (move > 0) return { className: 'is-up', label: `↑${move}`, speech: `ขึ้น ${move} อันดับจากเมื่อวาน` };
+  if (move < 0) return { className: 'is-down', label: `↓${-move}`, speech: `ลง ${-move} อันดับจากเมื่อวาน` };
+  return { className: 'is-flat', label: '–', speech: 'อันดับเท่าเมื่อวาน' };
+}
 function rankingItemTemplate(item, rank, featured = false) {
-  return `<button class="ranking-item rank-${rank}${featured ? ' is-featured' : ''}" type="button" data-id="${escapeHtml(item.id)}" aria-label="อันดับ ${rank} ${escapeHtml(item.titleThai)} คะแนน MAL ${Number(item.score).toFixed(2)}"><span class="ranking-number" aria-hidden="true">${rank}</span><span class="ranking-poster">${posterHtml(item, { eager: rank <= 3 })}</span><span class="ranking-copy"><strong>${escapeHtml(item.titleThai)}</strong><span class="ranking-score">MAL ${Number(item.score).toFixed(2)}</span></span></button>`;
+  const delta = rankDelta(item, rank);
+  return `<button class="ranking-item rank-${rank}${featured ? ' is-featured' : ''}" type="button" data-id="${escapeHtml(item.id)}" aria-label="อันดับ ${rank} ${escapeHtml(item.titleThai)} คะแนน MAL ${Number(item.score).toFixed(2)} ${delta.speech}"><span class="ranking-number" aria-hidden="true">${rank}</span><span class="ranking-poster">${posterHtml(item, { eager: rank <= 3 })}</span><span class="ranking-copy"><strong>${escapeHtml(item.titleThai)}</strong><span class="ranking-score">MAL ${Number(item.score).toFixed(2)}<span class="ranking-delta ${delta.className}" aria-hidden="true">${delta.label}</span></span></span></button>`;
 }
 function renderSeasonRanking() {
   const ranked = data.filter(item => isCurrentSeasonTv(item) && Number(item.score) > 0).sort((a, b) => Number(b.score) - Number(a.score) || String(a.titleThai).localeCompare(String(b.titleThai), 'th')).slice(0, 10);
   const seasonLabel = SEASON_LABELS[currentSeason] || currentSeason;
   $('#seasonRankingHeading').textContent = `อนิเมะคะแนนสูงสุด ${seasonLabel} ${currentYear}`;
-  $('#seasonRankingNote').textContent = 'คะแนนจาก MyAnimeList • อนิเมะ TV ฤดูกาลปัจจุบัน';
+  $('#seasonRankingNote').textContent = 'คะแนนจาก MyAnimeList • เทียบอันดับกับเมื่อวาน';
   if (!ranked.length) { rankingList.innerHTML = '<p class="ranking-empty">ยังไม่มีคะแนน MyAnimeList สำหรับฤดูกาลนี้</p>'; return; }
   const topThree = [ranked[1], ranked[0], ranked[2]].filter(Boolean).map(item => rankingItemTemplate(item, ranked.indexOf(item) + 1, true)).join('');
   const remaining = ranked.slice(3).map((item, index) => rankingItemTemplate(item, index + 4)).join('');

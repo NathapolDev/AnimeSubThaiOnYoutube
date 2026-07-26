@@ -2,7 +2,7 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
-const { bangkokYear, catalogYears, fetchCatalog, fetchYear, syncCatalog } = require('./update-jikan');
+const { bangkokYear, catalogYears, fetchCatalog, fetchYear, refreshScores, syncCatalog } = require('./update-jikan');
 const { applyDiscoveries, fetchChannelUploads, matchVideoToAnime, mergeEpisodes, resolveYears } = require('./discover-youtube');
 
 test('official channels are scanned in source-priority order', () => {
@@ -77,6 +77,69 @@ test('catalog sync enriches current entries and preserves archived records', asy
   assert.equal(items.length, 2);
   assert.equal(items[0].availableEpisodes[0].videoId, 'old');
   assert.equal(items[1].catalogYear, 2026);
+});
+
+test('score refresh replaces the cached season score with the live per-anime value', async () => {
+  const items = [
+    { id: 'airing', malId: 10, jikanType: 'TV', catalogYear: 2026, season: 'summer', jikanStatus: 'Currently Airing', score: 8.98, episodes: '?' },
+    { id: 'other-season-finished', malId: 11, jikanType: 'TV', catalogYear: 2026, season: 'winter', jikanStatus: 'Finished Airing', score: 7.5 },
+    { id: 'movie', malId: 12, jikanType: 'Movie', catalogYear: 2026, season: 'summer', jikanStatus: 'Currently Airing', score: 8 },
+    { id: 'old-year', malId: 13, jikanType: 'TV', catalogYear: 2024, season: 'summer', jikanStatus: 'Currently Airing', score: 6 }
+  ];
+  const urls = [];
+  const result = await refreshScores(items, {
+    date: bkk('2026-07-26'), delay: 0,
+    requester: async url => { urls.push(url); return { data: { score: 8.83, status: 'Currently Airing', episodes: 24 } }; }
+  });
+  assert.deepEqual(urls, ['https://api.jikan.moe/v4/anime/10']);
+  assert.deepEqual(result, { targets: 1, refreshed: 1, failed: 0, stopped: '' });
+  assert.equal(items[0].score, 8.83);
+  assert.equal(items[0].episodes, '24');
+  assert.equal(items[1].score, 7.5);
+});
+
+test('score refresh works the highest scores first and stops once its time budget is spent', async () => {
+  const items = [6.1, 8.9, 7.4].map((score, index) => ({ id: `a${index}`, malId: 20 + index, jikanType: 'TV', catalogYear: 2026, season: 'summer', jikanStatus: 'Currently Airing', score }));
+  const urls = [];
+  let clock = 0;
+  const result = await refreshScores(items, {
+    date: bkk('2026-07-26'), delay: 0, budgetMs: 100, now: () => clock,
+    requester: async url => { urls.push(url); clock += 60; return { data: { score: 9, status: 'Currently Airing' } }; }
+  });
+  assert.deepEqual(urls, ['https://api.jikan.moe/v4/anime/21', 'https://api.jikan.moe/v4/anime/22']);
+  assert.equal(result.stopped, 'time budget');
+  assert.equal(items[0].score, 6.1); // lowest-scoring anime was the one left behind
+});
+
+test('score refresh gives up once Jikan has failed a long run of requests', async () => {
+  const items = Array.from({ length: 60 }, (_, index) => ({ id: `a${index}`, malId: 40 + index, jikanType: 'TV', catalogYear: 2026, season: 'summer', jikanStatus: 'Currently Airing', score: 8 }));
+  let calls = 0;
+  const result = await refreshScores(items, {
+    date: bkk('2026-07-26'), delay: 0,
+    requester: async () => { calls += 1; throw new Error('Jikan API returned HTTP 429'); }
+  });
+  assert.equal(calls, 25);
+  assert.equal(result.stopped, 'repeated request failures');
+});
+
+test('score refresh treats an error envelope with no anime payload as a failure', async () => {
+  const items = [{ id: 'a', malId: 10, jikanType: 'TV', catalogYear: 2026, season: 'summer', jikanStatus: 'Currently Airing', score: 8.2 }];
+  const result = await refreshScores(items, {
+    date: bkk('2026-07-26'), delay: 0,
+    requester: async () => ({ status: 504, type: 'BadResponseException' })
+  });
+  assert.deepEqual(result, { targets: 1, refreshed: 0, failed: 1, stopped: '' });
+  assert.equal(items[0].score, 8.2);
+});
+
+test('score refresh keeps the stored score when the per-anime request fails', async () => {
+  const items = [{ id: 'airing', malId: 10, jikanType: 'TV', catalogYear: 2026, season: 'summer', jikanStatus: 'Currently Airing', score: 8.4 }];
+  const result = await refreshScores(items, {
+    date: bkk('2026-07-26'), delay: 0,
+    requester: async () => { throw new Error('Jikan API returned HTTP 504'); }
+  });
+  assert.deepEqual(result, { targets: 1, refreshed: 0, failed: 1, stopped: '' });
+  assert.equal(items[0].score, 8.4); // a zeroed score would drop it out of the Top 10
 });
 
 test('matches a unique normalized alias and rejects equal-score ambiguity', () => {

@@ -41,13 +41,15 @@ jobs:
         run: node tools/discover-youtube.js
       - name: Update Crunchyroll + Bilibili TV + Netflix availability from AniList
         run: node tools/update-streaming-platforms.js
+      - name: Snapshot season Top 10 ranks
+        run: node tools/update-ranking-snapshot.js
       - name: Validate updater behavior
         run: node --test tools/*.test.js
       - name: Commit changed data
         run: |
           git config user.name "anime-update-bot"
           git config user.email "anime-update-bot@users.noreply.github.com"
-          git add data/anime.json data/anime.js data/youtube-discovery-state.json data/youtube-candidates.json
+          git add data/anime.json data/anime.js data/ranking-snapshot.json data/youtube-discovery-state.json data/youtube-candidates.json
           if git diff --cached --quiet; then
             echo "No data changes to commit."
             exit 0
