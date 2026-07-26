@@ -2,7 +2,7 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
-const { bangkokYear, catalogYears, fetchCatalog, fetchYear, refreshScores, syncCatalog } = require('./update-jikan');
+const { bangkokYear, catalogYears, fetchAnimeById, fetchCatalog, fetchYear, refreshScores, requestJson, syncCatalog } = require('./update-jikan');
 const { applyDiscoveries, fetchChannelUploads, matchVideoToAnime, mergeEpisodes, resolveYears } = require('./discover-youtube');
 
 test('official channels are scanned in source-priority order', () => {
@@ -96,6 +96,24 @@ test('score refresh replaces the cached season score with the live per-anime val
   assert.equal(items[0].score, 8.83);
   assert.equal(items[0].episodes, '24');
   assert.equal(items[1].score, 7.5);
+});
+
+// Losing one /seasons page costs a whole season for the run (fetchYear swallows the
+// throw), while losing one /anime lookup costs one score that the next run retries.
+test('catalog pages keep the patient 5xx retry budget that score lookups give up on', async () => {
+  const originalFetch = global.fetch;
+  const calls = [];
+  global.fetch = async url => { calls.push(String(url)); return { ok: false, status: 503, text: async () => 'unavailable' }; };
+  try {
+    await assert.rejects(() => requestJson('https://api.jikan.moe/v4/seasons/2026/summer?page=2'));
+    const catalogAttempts = calls.length;
+    calls.length = 0;
+    await assert.rejects(() => fetchAnimeById(10));
+    assert.equal(catalogAttempts, 5);
+    assert.equal(calls.length, 2);
+  } finally {
+    global.fetch = originalFetch;
+  }
 });
 
 test('score refresh works the highest scores first and stops once its time budget is spent', async () => {
