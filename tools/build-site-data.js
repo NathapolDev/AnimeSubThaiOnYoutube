@@ -13,7 +13,7 @@ const ITEM_FIELDS = [
   'channel', 'platform', 'status', 'updateStatus', 'updateError', 'link', 'playlistId',
   'currentEpisode', 'episodes', 'latestVideoUrl', 'latestPublishedAt', 'lastCheckedAt',
   'malUrl', 'trailerUrl', 'score', 'season', 'year', 'catalogYear', 'jikanType', 'jikanStatus',
-  'premiere', 'airTimeThai'
+  'premiere', 'airTimeThai', 'seasonRank', 'seasonRankPrevious'
 ];
 const EPISODE_FIELDS = ['number', 'title', 'videoUrl', 'publishedAt'];
 // Crunchyroll/Bilibili/Netflix sub-objects get their own whitelists so pipeline

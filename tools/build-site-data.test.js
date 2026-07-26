@@ -15,6 +15,7 @@ const PIPELINE_ONLY_ITEM_FIELDS = [
 test('slimItems strips pipeline-only fields from the site payload', () => {
   const item = {
     id: 'demo', titleThai: 'ชื่อไทย', titleOriginal: 'Demo', status: 'available',
+    seasonRank: 3, seasonRankPrevious: 5,
     malId: 123,
     anilistTitles: { romaji: 'Demo', english: 'Demo', native: 'デモ', synonyms: [] },
     youtubeAliases: ['alias'],
@@ -38,6 +39,8 @@ test('slimItems strips pipeline-only fields from the site payload', () => {
   assert.equal(slim.id, 'demo');
   assert.equal(slim.titleThai, 'ชื่อไทย');
   assert.equal(slim.status, 'available');
+  assert.equal(slim.seasonRank, 3);         // the Top 10 arrows need both rank fields
+  assert.equal(slim.seasonRankPrevious, 5);
   assert.equal(slim.availableEpisodes.length, 1);
   assert.equal(slim.availableEpisodes[0].videoUrl, 'https://www.youtube.com/watch?v=v1');
   assert.ok(!('videoId' in slim.availableEpisodes[0]), 'episode-level videoId leaked into the site payload');
