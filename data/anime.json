@@ -933,8 +933,7 @@
     "youtubeMatchedScore": 30,
     "youtubeLastMatchedAt": "2026-07-19T17:51:01.886Z",
     "youtubeDiscoveryStatus": "matched",
-    "seasonRank": 1,
-    "seasonRankPrevious": 0
+    "seasonRank": 1
   },
   {
     "id": "polar-opposites-2",
@@ -1011,8 +1010,7 @@
     "latestEpisodeTitle": "",
     "latestVideoUrl": "",
     "latestPublishedAt": "",
-    "seasonRank": 6,
-    "seasonRankPrevious": 0
+    "seasonRank": 6
   },
   {
     "id": "worlds-strongest-rearguard",
@@ -1598,8 +1596,7 @@
     "youtubeMatchedVideoTitle": "Saga of Tanya Evil II ตอนที่ 3  [ซับไทย]【Ani-One Thailand】",
     "youtubeMatchedScore": 0.909,
     "youtubeLastMatchedAt": "2026-07-22T17:44:39.428Z",
-    "seasonRank": 2,
-    "seasonRankPrevious": 0
+    "seasonRank": 2
   },
   {
     "id": "super-no-ura-de-yani-suu-futari",
@@ -1688,8 +1685,7 @@
       "updateStatus": "ok",
       "updateError": ""
     },
-    "seasonRank": 3,
-    "seasonRankPrevious": 0
+    "seasonRank": 3
   },
   {
     "id": "bleach-sennen-kessen-hen-kashin-tan",
@@ -2169,8 +2165,7 @@
       ]
     },
     "youtubeDiscoveryStatus": "not_found",
-    "seasonRank": 4,
-    "seasonRankPrevious": 0
+    "seasonRank": 4
   },
   {
     "id": "gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu-ii",
@@ -2356,8 +2351,7 @@
       ]
     },
     "youtubeDiscoveryStatus": "not_found",
-    "seasonRank": 10,
-    "seasonRankPrevious": 0
+    "seasonRank": 10
   },
   {
     "id": "kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season",
@@ -2458,8 +2452,7 @@
     "youtubeMatchedVideoTitle": "รักรักรักรักรักเธอหมดหัวใจจากแฟนสาว 100 คน - ตอนที่ 25 (S3 ตอนที่ 01)  [ซับไทย]",
     "youtubeMatchedScore": 0.901,
     "youtubeLastMatchedAt": "2026-07-21T17:48:21.694Z",
-    "seasonRank": 7,
-    "seasonRankPrevious": 0
+    "seasonRank": 7
   },
   {
     "id": "katainaka-no-ossan-kensei-ni-naru-ii",
@@ -2585,8 +2578,7 @@
       ]
     },
     "youtubeDiscoveryStatus": "not_found",
-    "seasonRank": 8,
-    "seasonRankPrevious": 0
+    "seasonRank": 8
   },
   {
     "id": "nijusseiki-denki-mokuroku-eureka-evrika",
@@ -2947,8 +2939,7 @@
       ]
     },
     "youtubeDiscoveryStatus": "not_found",
-    "seasonRank": 5,
-    "seasonRankPrevious": 0
+    "seasonRank": 5
   },
   {
     "id": "hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru-2nd-season",
@@ -3636,8 +3627,7 @@
     "youtubeMatchedVideoTitle": "รักที่มองไม่เห็น ด้วยตา กับเธอในค่ำคืนที่แสนจะเลือนราง ตอนที่ 3  [ซับไทย]【Ani-One Thailand】",
     "youtubeMatchedScore": 55,
     "youtubeLastMatchedAt": "2026-07-20T18:23:25.569Z",
-    "seasonRank": 9,
-    "seasonRankPrevious": 0
+    "seasonRank": 9
   },
   {
     "id": "otome-kaijuu-carame-liser",

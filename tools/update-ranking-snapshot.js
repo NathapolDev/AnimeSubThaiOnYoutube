@@ -30,6 +30,14 @@ function emptySnapshot() {
   return { year: 0, season: '', date: '', ranks: {}, previous: { date: '', ranks: {} } };
 }
 
+// A baseline is only usable with both halves present, so a hand-edited or half-written
+// state file degrades to "no baseline" instead of throwing mid-run.
+function baseline(value) {
+  const ranks = value && typeof value.ranks === 'object' && value.ranks ? value.ranks : {};
+  const date = value && value.date ? String(value.date) : '';
+  return date ? { date, ranks } : { date: '', ranks: {} };
+}
+
 // The pipeline runs three times a day, so the comparison baseline only rolls over
 // when the Bangkok date changes — `previous` then holds yesterday's closing ranks
 // and stays put for the rest of today. A new season starts from a clean slate
@@ -39,8 +47,8 @@ function applySnapshot(items, stored, now = new Date()) {
   const base = stored && typeof stored === 'object' ? stored : emptySnapshot();
   const sameSeason = base.year === year && base.season === season;
   const previous = !sameSeason ? { date: '', ranks: {} }
-    : base.date === date ? (base.previous || { date: '', ranks: {} })
-      : { date: base.date, ranks: base.ranks || {} };
+    : base.date === date ? baseline(base.previous)
+      : baseline({ date: base.date, ranks: base.ranks });
 
   const ranks = {};
   rankSeason(items, { year, season }).forEach((item, index) => { ranks[item.id] = index + 1; });
@@ -48,7 +56,11 @@ function applySnapshot(items, stored, now = new Date()) {
     const rank = ranks[item.id];
     if (!rank) { delete item.seasonRank; delete item.seasonRankPrevious; continue; }
     item.seasonRank = rank;
-    item.seasonRankPrevious = Number(previous.ranks[item.id]) || 0;
+    // With no baseline (first run, or the first day of a season) there is nothing to
+    // compare against: leaving the field off tells app.js to draw no arrow at all,
+    // rather than badging all ten as brand-new entries.
+    if (previous.date) item.seasonRankPrevious = Number(previous.ranks[item.id]) || 0;
+    else delete item.seasonRankPrevious;
   }
   return { year, season, date, ranks, previous };
 }

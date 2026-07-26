@@ -45,25 +45,25 @@ function thaiBroadcastTime(broadcast = {}) {
 }
 
 // Node's fetch has no default timeout, so a connection the proxy never closes would
-// hang the whole run; 429 is worth waiting out, but a 504 means Jikan itself could not
-// reach MyAnimeList (routine for brand-new entries) and rarely recovers within seconds.
+// hang the whole run. Catalog pages keep the patient retry budget: losing one page of
+// /seasons costs that whole season for the run, since fetchYear swallows the throw.
 const REQUEST_TIMEOUT_MS = 20000;
 const RATE_LIMIT_ATTEMPTS = 5;
-const SERVER_ERROR_ATTEMPTS = 3;
+const SERVER_ERROR_ATTEMPTS = 5;
 
-async function requestJson(url, attempt = 1) {
+async function requestJson(url, attempt = 1, serverErrorAttempts = SERVER_ERROR_ATTEMPTS) {
   let response;
   try {
     response = await fetch(url, { headers: { 'User-Agent': 'anime-year-youtube-tracker/2.0' }, signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
   } catch (error) {
-    if (attempt >= SERVER_ERROR_ATTEMPTS) throw new Error(`Jikan API request failed: ${error.message}`);
+    if (attempt >= serverErrorAttempts) throw new Error(`Jikan API request failed: ${error.message}`);
     await wait(1000 * attempt);
-    return requestJson(url, attempt + 1);
+    return requestJson(url, attempt + 1, serverErrorAttempts);
   }
-  const retryLimit = response.status === 429 ? RATE_LIMIT_ATTEMPTS : SERVER_ERROR_ATTEMPTS;
+  const retryLimit = response.status === 429 ? RATE_LIMIT_ATTEMPTS : serverErrorAttempts;
   if ((response.status === 429 || response.status >= 500) && attempt < retryLimit) {
     await wait(1000 * attempt);
-    return requestJson(url, attempt + 1);
+    return requestJson(url, attempt + 1, serverErrorAttempts);
   }
   if (!response.ok) throw new Error(`Jikan API returned HTTP ${response.status}: ${await response.text()}`);
   return response.json();
@@ -179,6 +179,10 @@ function createItem(anime, season, year, usedIds) {
 const SCORE_REFRESH_DELAY_MS = 1100;              // Jikan allows 60 requests/minute
 const SCORE_REFRESH_BUDGET_MS = 8 * 60 * 1000;    // one slow pass must not eat the workflow's 30-minute budget
 const SCORE_REFRESH_MAX_FAILURES = 25;            // Jikan 504s come in bursts; this many in a row means MyAnimeList is simply down
+// Unlike a catalog page, a 504 here costs one anime's score and comes round again on the
+// next of the three daily runs, so these lookups give up fast rather than stall the pass.
+const SCORE_LOOKUP_ATTEMPTS = 2;
+const requestAnimeJson = url => requestJson(url, 1, SCORE_LOOKUP_ATTEMPTS);
 
 function needsScoreRefresh(item, years, season) {
   return item.jikanType === 'TV' && Boolean(item.malId)
@@ -186,13 +190,13 @@ function needsScoreRefresh(item, years, season) {
     && (item.season === season || item.jikanStatus !== 'Finished Airing');
 }
 
-async function fetchAnimeById(malId, requester = requestJson) {
+async function fetchAnimeById(malId, requester = requestAnimeJson) {
   return (await requester(`${API_ROOT}/anime/${malId}`)).data;
 }
 
 // Highest scores first so a pass cut short by the budget or the failure breaker
 // has still refreshed everything that can plausibly land in the season Top 10.
-async function refreshScores(items, { date = new Date(), requester = requestJson, delay = SCORE_REFRESH_DELAY_MS, budgetMs = SCORE_REFRESH_BUDGET_MS, now = () => Date.now() } = {}) {
+async function refreshScores(items, { date = new Date(), requester = requestAnimeJson, delay = SCORE_REFRESH_DELAY_MS, budgetMs = SCORE_REFRESH_BUDGET_MS, now = () => Date.now() } = {}) {
   const years = catalogYears(date);
   const season = seasonFromMonth(bangkokMonth(date));
   const targets = items.filter(item => needsScoreRefresh(item, years, season)).sort((a, b) => (Number(b.score) || 0) - (Number(a.score) || 0));

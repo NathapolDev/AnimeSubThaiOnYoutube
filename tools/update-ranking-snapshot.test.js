@@ -21,12 +21,23 @@ test('ranking keeps only scored current-season TV and breaks ties on the Thai ti
   assert.deepEqual(ranked.map(item => item.id), ['alpha', 'beta']);
 });
 
-test('the first snapshot marks every ranked anime as new', () => {
+test('the first snapshot ranks anime but leaves them without a comparison baseline', () => {
   const items = [summer('a', 8.9), summer('b', 8.5)];
   const snapshot = applySnapshot(items, null, bkk('2026-07-26'));
   assert.deepEqual(snapshot.ranks, { a: 1, b: 2 });
   assert.equal(snapshot.date, '2026-07-26');
-  assert.deepEqual(items.map(item => [item.seasonRank, item.seasonRankPrevious]), [[1, 0], [2, 0]]);
+  assert.deepEqual(items.map(item => item.seasonRank), [1, 2]);
+  // Absent, not 0: with nothing to compare against, app.js must draw no arrow rather
+  // than badge all ten as new entries.
+  assert.equal(items.every(item => !('seasonRankPrevious' in item)), true);
+});
+
+test('a baseline missing its ranks map degrades to no baseline instead of throwing', () => {
+  const stored = { year: 2026, season: 'summer', date: '2026-07-26', ranks: { a: 1 }, previous: { date: '2026-07-25' } };
+  const items = [summer('a', 8.9)];
+  const snapshot = applySnapshot(items, stored, bkk('2026-07-26'));
+  assert.deepEqual(snapshot.previous, { date: '2026-07-25', ranks: {} });
+  assert.equal(items[0].seasonRankPrevious, 0);
 });
 
 test('a same-day rerun refreshes ranks but keeps the comparison baseline fixed', () => {
@@ -51,7 +62,15 @@ test('a new season starts from an empty baseline', () => {
   const items = [summer('a', 8.4)];
   const snapshot = applySnapshot(items, stored, bkk('2026-07-26'));
   assert.deepEqual(snapshot.previous, { date: '', ranks: {} });
-  assert.equal(items[0].seasonRankPrevious, 0);
+  assert.equal('seasonRankPrevious' in items[0], false);
+});
+
+test('a stale rank baseline is cleared when the season rolls over', () => {
+  const stored = { year: 2026, season: 'spring', date: '2026-06-30', ranks: { a: 4 }, previous: { date: '2026-06-29', ranks: { a: 3 } } };
+  const items = [{ ...summer('a', 8.4), seasonRank: 4, seasonRankPrevious: 3 }];
+  applySnapshot(items, stored, bkk('2026-07-26'));
+  assert.equal(items[0].seasonRank, 1);
+  assert.equal('seasonRankPrevious' in items[0], false);
 });
 
 test('anime that fall out of the Top 10 lose their stored rank fields', () => {

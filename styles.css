@@ -126,9 +126,9 @@ h2 { font-size: clamp(26px, 2.5vw, 38px); }
 .ranking-copy strong { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; font-size: 14px; line-height: 1.35; }
 .ranking-score { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; margin-top: 7px; color: var(--blue); font-size: 13px; font-weight: 700; }
 .ranking-delta { flex: 0 0 auto; padding: 1px 6px; border-radius: 999px; background: var(--surface-soft); color: var(--secondary); font-size: 11px; font-weight: 700; line-height: 1.5; }
-.ranking-delta.is-up { background: rgba(22,163,74,.12); color: #16a34a; }
-.ranking-delta.is-down { background: rgba(220,38,38,.12); color: #dc2626; }
-.ranking-delta.is-new { background: rgba(37,99,235,.12); color: var(--blue); }
+.ranking-delta.is-up { background: color-mix(in srgb, var(--green) 14%, transparent); color: var(--green); }
+.ranking-delta.is-down { background: color-mix(in srgb, var(--red) 14%, transparent); color: var(--red); }
+.ranking-delta.is-new { background: color-mix(in srgb, var(--blue) 14%, transparent); color: var(--blue); }
 .ranking-rest { display: grid; grid-template-columns: repeat(7,minmax(0,1fr)); border-top: 1px solid var(--line); padding-top: 12px; }
 .ranking-rest .ranking-item { grid-template-columns: auto 46px minmax(0,1fr); min-height: 76px; gap: 8px; border-radius: 0; border-right: 1px solid var(--line); box-shadow: none; }
 .ranking-rest .ranking-item:last-child { border-right: 0; }.ranking-rest .ranking-number { font-size: 20px; letter-spacing: -.04em; }.ranking-rest .ranking-poster { width: 46px; border-radius: 9px; box-shadow: none; }.ranking-rest .ranking-copy strong { font-size: 11px; -webkit-line-clamp: 2; }.ranking-rest .ranking-score { margin-top: 3px; font-size: 11px; }.ranking-rest .ranking-delta { padding: 0 5px; font-size: 10px; }
