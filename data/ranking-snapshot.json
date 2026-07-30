@@ -1,21 +1,21 @@
 {
   "year": 2026,
   "season": "summer",
-  "date": "2026-07-30",
+  "date": "2026-07-31",
   "ranks": {
     "mushoku-tensei-iii": 1,
-    "youjo-senki-ii": 2,
-    "super-no-ura-de-yani-suu-futari": 3,
-    "grand-blue-season-3": 4,
-    "tenmaku-no-jaadugar": 5,
-    "polar-opposites-2": 6,
+    "grand-blue-season-3": 2,
+    "polar-opposites-2": 3,
+    "tenmaku-no-jaadugar": 4,
+    "super-no-ura-de-yani-suu-futari": 5,
+    "youjo-senki-ii": 6,
     "kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season": 7,
     "koukaku-kidoutai-tv": 8,
     "toumei-na-yoru-ni-kakeru-kimi-to-me-ni-mienai-koi-wo-shita": 9,
     "kimi-ga-shinu-made-koi-wo-shitai": 10
   },
   "previous": {
-    "date": "2026-07-29",
+    "date": "2026-07-30",
     "ranks": {
       "mushoku-tensei-iii": 1,
       "youjo-senki-ii": 2,
