@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "WxBBnTYLwxg",
+    "title": "THE WORLD IS DANCING - ตอนที่ 06 [ซับไทย]",
+    "channel": "Muse Thailand",
+    "publishedAt": "2026-08-03T07:37:42Z",
+    "episodeNumber": 6,
+    "extractedShowName": "the world is dancing",
+    "matches": [
+      {
+        "id": "isekai-nonbiri-nouka-2",
+        "titleThai": "Farming Life in Another World Season 2",
+        "titleOriginal": "Isekai Nonbiri Nouka 2",
+        "alias": "farming life in another world 2",
+        "similarity": 0.531
+      }
+    ]
+  }
+]
