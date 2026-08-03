@@ -27,7 +27,7 @@
     "latestEpisodeTitle": "The Cat and the Dragon  ตอนที่ 6 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=8N5UUWECVP4&list=PLYA5C3ueQ-1g",
     "latestPublishedAt": "2026-08-01T13:00:06Z",
-    "lastCheckedAt": "2026-08-02T17:30:26.133Z",
+    "lastCheckedAt": "2026-08-03T00:15:59.487Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 61048,
@@ -103,9 +103,9 @@
       "episodeCount": 6,
       "latestEpisodeNumber": 6,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.896Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Neko to Ryuu",
@@ -143,7 +143,7 @@
     "latestEpisodeTitle": "THE WORLD IS DANCING - ตอนที่ 05 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=6VKO4rNZWmQ&list=PLIa05JMgYhhaMTMBupRCsNXAvD1l3PSNr",
     "latestPublishedAt": "2026-07-27T13:30:06Z",
-    "lastCheckedAt": "2026-08-02T17:30:26.322Z",
+    "lastCheckedAt": "2026-08-03T00:15:59.698Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63347,
@@ -240,7 +240,7 @@
     "latestEpisodeTitle": "Bungo Stray Dogs WAN! 2 ตอนที่ 5 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=fo3ttOSctmM&list=PLCR1_rvbIAHE",
     "latestPublishedAt": "2026-07-30T12:40:07Z",
-    "lastCheckedAt": "2026-08-02T17:30:26.475Z",
+    "lastCheckedAt": "2026-08-03T00:15:59.859Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62883,
@@ -311,9 +311,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.896Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Bungou Stray Dogs Wan! 2",
@@ -353,7 +353,7 @@
     "latestEpisodeTitle": "BanG Dream! YUME∞MITA - ตอนที่ 07 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=jxI_nAvg5c0&list=PLEP6Ull2yaCo",
     "latestPublishedAt": "2026-07-30T14:00:06Z",
-    "lastCheckedAt": "2026-08-02T17:30:26.539Z",
+    "lastCheckedAt": "2026-08-03T00:15:59.958Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62430,
@@ -436,9 +436,9 @@
       "episodeCount": 7,
       "latestEpisodeNumber": 7,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.896Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "BanG Dream! Yume∞Mita",
@@ -478,7 +478,7 @@
     "latestEpisodeTitle": "เกิดใหม่เป็นอัศวินเกราะหนักผู้ถูกขับไล่แต่ใช้ความรู้จากเกมจนไร้เทียมทาน - ตอนที่ 05 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=z_9Yp2VmUlg&list=PLIa05JMgYhhb4BS6WEyTjKyuwJtWF_2U7",
     "latestPublishedAt": "2026-07-30T15:56:06Z",
-    "lastCheckedAt": "2026-08-02T17:30:26.624Z",
+    "lastCheckedAt": "2026-08-03T00:16:00.124Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 59741,
@@ -549,9 +549,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.896Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/media/2411725",
@@ -561,9 +561,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.896Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Tsuihou Sareta Tensei Juukishi wa Game Chishiki de Musou Suru",
@@ -606,7 +606,7 @@
     "latestEpisodeTitle": "Chainsmoker Cat  ตอนที่ 5 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=3rcMa3AImtI&list=PLQ4xe_hu1gxw",
     "latestPublishedAt": "2026-07-30T16:00:06Z",
-    "lastCheckedAt": "2026-08-02T17:30:26.706Z",
+    "lastCheckedAt": "2026-08-03T00:16:00.217Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63403,
@@ -677,9 +677,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.896Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Yani Neko",
@@ -798,9 +798,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.896Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "BLACK TORCH",
@@ -949,36 +949,36 @@
       "anilistId": 178789,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 5,
-      "latestEpisodeNumber": 5,
+      "episodeCount": 6,
+      "latestEpisodeNumber": 6,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.896Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/media/2411609",
       "anilistId": 178789,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 5,
-      "latestEpisodeNumber": 5,
+      "episodeCount": 6,
+      "latestEpisodeNumber": 6,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.896Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "netflix": {
       "seriesUrl": "https://www.netflix.com/title/80987039",
       "anilistId": 178789,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 5,
-      "latestEpisodeNumber": 5,
+      "episodeCount": 6,
+      "latestEpisodeNumber": 6,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.896Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Mushoku Tensei III: Isekai Ittara Honki Dasu",
@@ -1055,12 +1055,12 @@
       "anilistId": 210031,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 4,
-      "latestEpisodeNumber": 4,
+      "episodeCount": 5,
+      "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.896Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Seihantai na Kimi to Boku 2nd Season",
@@ -1187,24 +1187,24 @@
       "anilistId": 198409,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 4,
-      "latestEpisodeNumber": 4,
+      "episodeCount": 5,
+      "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.896Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2411817",
       "anilistId": 198409,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 4,
-      "latestEpisodeNumber": 4,
+      "episodeCount": 5,
+      "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.896Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Sekai Saikyou no Kouei: Meikyuukoku no Shinjin Tansakusha",
@@ -1249,7 +1249,7 @@
     "latestEpisodeTitle": "เคลวาเทส อสูรจอมราชัน ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=hlS1nS4qQEA&list=PL_YV8EWtbQXESnuuBlZrdFMaqcuK5jr3F",
     "latestPublishedAt": "2025-09-17T11:30:07Z",
-    "lastCheckedAt": "2026-08-02T17:30:26.844Z",
+    "lastCheckedAt": "2026-08-03T00:16:00.364Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62513,
@@ -1376,9 +1376,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.896Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2413934",
@@ -1388,9 +1388,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.896Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Clevatess II: Majuu no Ou to Itsuwari no Yuusha Denshou",
@@ -1504,9 +1504,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.896Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Dogul Wang",
@@ -1531,9 +1531,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.896Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     }
   },
   {
@@ -1671,9 +1671,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.896Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Youjo Senki II",
@@ -1751,9 +1751,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Super no Ura de Yani Suu Futari",
@@ -1776,9 +1776,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "seasonRank": 5,
     "seasonRankPrevious": 5
@@ -2236,9 +2236,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2414407",
@@ -2248,9 +2248,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Grand Blue Season 3",
@@ -2351,9 +2351,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/media/2411543",
@@ -2363,9 +2363,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu II",
@@ -2440,9 +2440,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Kimi ga Shinu made Koi wo Shitai",
@@ -2537,24 +2537,24 @@
       "anilistId": 200637,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 4,
-      "latestEpisodeNumber": 4,
+      "episodeCount": 5,
+      "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2091388",
       "anilistId": 200637,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 4,
-      "latestEpisodeNumber": 4,
+      "episodeCount": 5,
+      "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.480Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Kimi no Koto ga Dai Dai Dai Dai Daisuki na 100-nin no Kanojo 3rd Season",
@@ -2754,12 +2754,12 @@
       "anilistId": 103303,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 4,
-      "latestEpisodeNumber": 4,
+      "episodeCount": 5,
+      "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Nijusseiki Denki Mokuroku: Eureka Evrika",
@@ -2918,9 +2918,9 @@
       "episodeCount": 3,
       "latestEpisodeNumber": 3,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Nige Jouzu no Wakagimi 2nd Season",
@@ -3046,9 +3046,9 @@
       "episodeCount": 6,
       "latestEpisodeNumber": 6,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Tenmaku no Jaadugar",
@@ -3226,24 +3226,24 @@
       "anilistId": 188139,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 3,
-      "latestEpisodeNumber": 3,
+      "episodeCount": 4,
+      "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2414053",
       "anilistId": 188139,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 3,
-      "latestEpisodeNumber": 3,
+      "episodeCount": 4,
+      "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Futsutsuka na Akujo de wa Gozaimasu ga: Suuguu Chouso Torikae Den",
@@ -3261,12 +3261,12 @@
       "anilistId": 188139,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 3,
-      "latestEpisodeNumber": 3,
+      "episodeCount": 4,
+      "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     }
   },
   {
@@ -3328,9 +3328,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Tai-Ari deshita.: Ojou-sama wa Kakutou Game nante Shinai",
@@ -3400,9 +3400,9 @@
       "episodeCount": 6,
       "latestEpisodeNumber": 6,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Rakudai Kenja no Gakuin Musou: Nidome no Tensei, S-Rank Cheat Majutsushi Bouken-roku",
@@ -3472,9 +3472,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Tenkousaki no Seiso Karen na Bishoujo ga, Mukashi Danshi to Omotte Issho ni Asonda Osananajimi datta Ken",
@@ -3542,9 +3542,9 @@
       "episodeCount": 6,
       "latestEpisodeNumber": 6,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "LV999 no Murabito",
@@ -3611,9 +3611,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2414293",
@@ -3623,9 +3623,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Saijo no Osewa: Takane no Hanadarake na Meimonkou de, Gakuin Ichi no Ojou-sama (Seikatsu Nouryoku Kaimu) wo Kagenagara Osewa suru Koto ni Narimashita",
@@ -3716,9 +3716,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2413250",
@@ -3728,9 +3728,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Toumei na Yoru ni Kakeru Kimi to, Me ni Mienai Koi wo Shita.",
@@ -3832,9 +3832,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/media/2411889",
@@ -3844,9 +3844,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Otome Kaijuu Caraméliser",
@@ -3920,9 +3920,9 @@
       "episodeCount": 6,
       "latestEpisodeNumber": 6,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Heroine? Seijo? Iie, All Works Maid desu (Ko)!",
@@ -4080,12 +4080,12 @@
       "anilistId": 177637,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 4,
-      "latestEpisodeNumber": 4,
+      "episodeCount": 5,
+      "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Sayonara Lara",
@@ -4155,9 +4155,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Koko wa Ore ni Makasete Saki ni Ike to Ittekara 10-nen ga Tattara Densetsu ni Natteita.",
@@ -4224,9 +4224,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Mujikaku Seijo wa Kyou mo Muishiki ni Chikara wo Tare Nagasu",
@@ -4295,9 +4295,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Saikyou Degarashi Ouji no Anyaku Teii Arasoi: Munou wo Enjiru SS Rank Ouji wa Koui Keishou-sen wo Kage kara Shihai suru",
@@ -4365,9 +4365,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Buchigire Reijou wa Houfuku wo Chikaimashita.: Madousho no Chikara de Sokoku wo Tataki Tsubushimasu",
@@ -4456,9 +4456,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/media/2413170",
@@ -4468,9 +4468,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Ryoumin 0-Nin Start no Henkyou Ryoushu-sama",
@@ -4549,9 +4549,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2413807",
@@ -4561,9 +4561,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Hanaori-san wa Tensei Shite mo Kenka ga Shitai",
@@ -4632,9 +4632,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Oni no Hanayome",
@@ -4760,9 +4760,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Sora wa Akai Kawa no Hotori",
@@ -4828,9 +4828,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Mahou Shoujo Lyrical Nanoha EXCEEDS Gun Blaze Vengeance",
@@ -4898,9 +4898,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "\"Kimi wo Aisuru Ki wa nai\" to Itta Jiki Koushaku-sama ga Naze ka Dekiai Shitekimasu",
@@ -4995,9 +4995,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Tefuda ga Oome no Victoria",
@@ -5021,9 +5021,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     }
   },
   {
@@ -5159,9 +5159,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Suterare Seijo no Isekai Gohantabi: Kakure Skill de Camping Car wo Shoukan Shimashita",
@@ -5235,9 +5235,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Reiwa no Dara-san",
@@ -5502,9 +5502,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Uchi no Otouto-domo ga Sumimasen",
@@ -5570,12 +5570,12 @@
       "anilistId": 169080,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 4,
-      "latestEpisodeNumber": 4,
+      "episodeCount": 5,
+      "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Azur Lane: Bisoku Zenshin! Ni!!",
@@ -5694,9 +5694,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Iwamoto-senpai no Suisen",
@@ -5799,9 +5799,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "netflix": {
       "seriesUrl": "https://www.netflix.com/title/81787975",
@@ -5811,9 +5811,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Kore Kaite Shine",
@@ -5931,9 +5931,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Grow Up Show: Himawari no Circus-dan",
@@ -6045,12 +6045,12 @@
       "anilistId": 204060,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 4,
-      "latestEpisodeNumber": 4,
+      "episodeCount": 5,
+      "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Tetsunabe no Jan!",
@@ -6297,9 +6297,9 @@
       "episodeCount": 5,
       "latestEpisodeNumber": 5,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Let's Go Kaikigumi",
@@ -6433,9 +6433,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Mebius Dust",
@@ -7752,9 +7752,9 @@
       "episodeCount": 6,
       "latestEpisodeNumber": 6,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Hanazakari no Kimitachi e 2nd Season",
@@ -7825,9 +7825,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Yoroi Shinden Samurai Troopers Part 2",
@@ -8069,9 +8069,9 @@
       "episodeCount": 10,
       "latestEpisodeNumber": 10,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/media/2287773",
@@ -8081,9 +8081,9 @@
       "episodeCount": 10,
       "latestEpisodeNumber": 10,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Sousou no Frieren 2nd Season",
@@ -8243,9 +8243,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2288197",
@@ -8255,9 +8255,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.897Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.481Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Jujutsu Kaisen: Shimetsu Kaiyuu - Zenpen",
@@ -8415,9 +8415,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Jigokuraku 2nd Season",
@@ -8486,9 +8486,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2288339",
@@ -8498,9 +8498,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Yuusha Kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku",
@@ -8569,9 +8569,9 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2080019",
@@ -8581,9 +8581,9 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "netflix": {
       "seriesUrl": "https://www.netflix.com/title/81684733",
@@ -8593,9 +8593,9 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "[Oshi no Ko] 3rd Season",
@@ -8749,9 +8749,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2288405",
@@ -8761,9 +8761,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Seihantai na Kimi to Boku",
@@ -8876,9 +8876,9 @@
       "episodeCount": 6,
       "latestEpisodeNumber": 6,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Enen no Shouboutai: San no Shou Part 2",
@@ -9025,9 +9025,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 12,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Fate/strange Fake",
@@ -9349,9 +9349,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2289171",
@@ -9361,9 +9361,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Yuusha Party wo Oidasareta Kiyou Binbou",
@@ -9438,9 +9438,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Ikoku Nikki",
@@ -9600,9 +9600,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Mato Seihei no Slave 2",
@@ -9772,9 +9772,9 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "netflix": {
       "seriesUrl": "https://www.netflix.com/us/title/82047155",
@@ -9784,9 +9784,9 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Shibou Yuugi de Meshi wo Kuu.",
@@ -9976,9 +9976,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2289667",
@@ -9988,9 +9988,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Yuusha Party ni Kawaii Ko ga Ita no de, Kokuhaku Shitemita.",
@@ -10150,9 +10150,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2288932",
@@ -10162,9 +10162,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Tamon-kun Ima Docchi!?",
@@ -10340,9 +10340,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 13,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Vigilante: Boku no Hero Academia ILLEGALS 2nd Season",
@@ -10417,9 +10417,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2290283",
@@ -10429,9 +10429,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Mayonaka Heart Tune",
@@ -10499,9 +10499,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Uruwashi no Yoi no Tsuki",
@@ -10739,9 +10739,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2289875",
@@ -10751,9 +10751,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Kizoku Tensei: Megumareta Umare kara Saikyou no Chikara wo Eru",
@@ -10884,9 +10884,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2288556",
@@ -10896,9 +10896,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Okiraku Ryoushu no Tanoshii Ryouchi Bouei: Seisan-kei Majutsu de Na mo na Kimura wo Saikyou no Jousai Toshi ni",
@@ -10974,9 +10974,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.482Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Majutsushi Kunon wa Mieteiru",
@@ -11214,9 +11214,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "TRIGUN STARGAZE",
@@ -11293,9 +11293,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Golden Kamuy: Saishuushou",
@@ -11363,9 +11363,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2290065",
@@ -11375,9 +11375,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Eris no Seihai",
@@ -11446,9 +11446,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2290152",
@@ -11458,9 +11458,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Toumei Otoko to Ningen Onna: Sonouchi Fuufu ni Naru Futari",
@@ -11612,9 +11612,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2289458",
@@ -11624,9 +11624,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Kaya-chan wa Kowakunai",
@@ -11796,9 +11796,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Isekai no Sata wa Shachiku Shidai",
@@ -11872,9 +11872,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "\"Omae Gotoki ga Maou ni Kateru to Omou na\" to Yuusha Party wo Tsuihou Sareta node, Outo de Kimama ni Kurashitai",
@@ -11945,9 +11945,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai Sareru",
@@ -12016,9 +12016,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Osananajimi to wa Love Comedy ni Naranai",
@@ -12145,9 +12145,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Maou no Musume wa Yasashi Sugiru!!",
@@ -12310,9 +12310,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2288703",
@@ -12322,9 +12322,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Dead Account",
@@ -12454,9 +12454,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "29-sai Dokushin Chuuken Boukensha no Nichijou",
@@ -12525,9 +12525,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Kirei ni Shitemoraemasu ka.",
@@ -12655,9 +12655,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Hanazakari no Kimitachi e",
@@ -12725,9 +12725,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Champignon no Majo",
@@ -12794,9 +12794,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Odayaka Kizoku no Kyuuka no Susume.",
@@ -12863,9 +12863,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2289383",
@@ -12875,9 +12875,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "DARK MOON: Kuro no Tsuki - Tsuki no Saidan",
@@ -13195,9 +13195,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 13,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "MF Ghost 3rd Season",
@@ -13436,9 +13436,9 @@
       "episodeCount": 24,
       "latestEpisodeNumber": 24,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Yuusha no Kuzu",
@@ -13513,9 +13513,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Jingai Kyoushitsu no Ningengirai Kyoushi",
@@ -13766,9 +13766,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Hime-sama, \"Goumon\" no Jikan desu 2nd Season",
@@ -13842,9 +13842,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Arne no Jikenbo",
@@ -13994,9 +13994,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2289079",
@@ -14006,9 +14006,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Goumon Baito-kun no Nichijou",
@@ -14241,9 +14241,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Douse, Koishite Shimaunda. Season 2",
@@ -14403,9 +14403,9 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Ao no Miburo: Serizawa Ansatsu-hen",
@@ -14618,9 +14618,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Yoroi Shinden Samurai Troopers",
@@ -14784,9 +14784,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Hikuidori",
@@ -14937,9 +14937,9 @@
       "episodeCount": 27,
       "latestEpisodeNumber": 27,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Meitantei Precure!",
@@ -15228,9 +15228,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Yami Shibai 16",
@@ -15777,9 +15777,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "netflix": {
       "seriesUrl": "https://www.netflix.com/title/82741721",
@@ -15789,9 +15789,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Tongari Boushi no Atelier",
@@ -15948,9 +15948,9 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2342439",
@@ -15960,9 +15960,9 @@
       "episodeCount": 11,
       "latestEpisodeNumber": 11,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
@@ -16139,9 +16139,9 @@
       "episodeCount": 16,
       "latestEpisodeNumber": 16,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/media/2342498",
@@ -16151,9 +16151,9 @@
       "episodeCount": 16,
       "latestEpisodeNumber": 16,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 4th Season 2-nensei-hen Ichi Gakki",
@@ -16345,9 +16345,9 @@
       "episodeCount": 16,
       "latestEpisodeNumber": 16,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2342192",
@@ -16357,9 +16357,9 @@
       "episodeCount": 16,
       "latestEpisodeNumber": 16,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Tensei Shitara Slime Datta Ken 4th Season",
@@ -16388,9 +16388,9 @@
       "episodeCount": 16,
       "latestEpisodeNumber": 16,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     }
   },
   {
@@ -16451,9 +16451,9 @@
       "episodeCount": 17,
       "latestEpisodeNumber": 17,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2342276",
@@ -16463,9 +16463,9 @@
       "episodeCount": 17,
       "latestEpisodeNumber": 17,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Yomi no Tsugai",
@@ -16626,9 +16626,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2342649",
@@ -16638,9 +16638,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "netflix": {
       "seriesUrl": "https://www.netflix.com/title/81900358",
@@ -16650,9 +16650,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Tsue to Tsurugi no Wistoria Season 2",
@@ -16735,9 +16735,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2123789",
@@ -16747,9 +16747,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Dr. STONE: SCIENCE FUTURE Part 3",
@@ -16816,9 +16816,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2343630",
@@ -16828,9 +16828,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2nd Season",
@@ -16902,9 +16902,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta",
@@ -17077,9 +17077,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2342380",
@@ -17089,9 +17089,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "MARRIAGETOXIN",
@@ -17167,9 +17167,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.898Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Otaku ni Yasashii Gal wa Inai!?",
@@ -17238,9 +17238,9 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Koori no Jouheki",
@@ -17371,9 +17371,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Hime Kishi wa Barbaroi no Yome",
@@ -17445,9 +17445,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Aishiteru Game wo Owarasetai",
@@ -17512,9 +17512,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Isekai Nonbiri Nouka 2",
@@ -17709,9 +17709,9 @@
       "episodeCount": 18,
       "latestEpisodeNumber": 18,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2342582",
@@ -17721,9 +17721,9 @@
       "episodeCount": 18,
       "latestEpisodeNumber": 18,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Mairimashita! Iruma-kun 4",
@@ -17795,9 +17795,9 @@
       "episodeCount": 16,
       "latestEpisodeNumber": 16,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Honzuki no Gekokujou: Ryoushu no Youjo",
@@ -17912,9 +17912,9 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2342908",
@@ -17924,9 +17924,9 @@
       "episodeCount": 14,
       "latestEpisodeNumber": 14,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Shunkashuutou Daikousha: Haru no Mai",
@@ -18093,9 +18093,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2343522",
@@ -18105,9 +18105,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.483Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Kanan-sama wa Akumade Choroi",
@@ -18257,9 +18257,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2341767",
@@ -18269,9 +18269,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru? 2nd Season",
@@ -18342,9 +18342,9 @@
       "episodeCount": 17,
       "latestEpisodeNumber": 17,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "LIAR GAME",
@@ -18481,9 +18481,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2343894",
@@ -18493,9 +18493,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "netflix": {
       "seriesUrl": "https://www.netflix.com/title/82757009",
@@ -18505,9 +18505,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Kill Ao",
@@ -18675,9 +18675,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Akane-banashi",
@@ -18752,9 +18752,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "NEEDY GIRL OVERDOSE",
@@ -18823,9 +18823,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Ganbare! Nakamura-kun!!",
@@ -18893,9 +18893,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2361551",
@@ -18905,9 +18905,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Ponkotsu Fuuki Iin to Skirt take ga Futekisetsu na JK no Hanashi",
@@ -18979,9 +18979,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku.",
@@ -19050,9 +19050,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo?",
@@ -19214,9 +19214,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Reincarnation no Kaben",
@@ -19293,9 +19293,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2343133",
@@ -19305,9 +19305,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Kamiina Botan, Yoeru Sugata wa Yuri no Hana",
@@ -19379,9 +19379,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Kanojo, Okarishimasu 5th Season",
@@ -19687,9 +19687,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2343020",
@@ -19699,9 +19699,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Nigashita Sakana wa Ookikatta ga Tsuriageta Sakana ga Ookisugita Ken",
@@ -19897,9 +19897,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Haibara-kun no Tsuyokute Seishun New Game",
@@ -20054,9 +20054,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2289611",
@@ -20066,9 +20066,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Niwatori Fighter",
@@ -20259,12 +20259,12 @@
       "anilistId": 196974,
       "numberingOffset": 0,
       "availableEpisodes": [],
-      "episodeCount": 16,
-      "latestEpisodeNumber": 16,
+      "episodeCount": 17,
+      "latestEpisodeNumber": 17,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Kuroneko to Majo no Kyoushitsu",
@@ -20470,9 +20470,9 @@
       "episodeCount": 18,
       "latestEpisodeNumber": 18,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "MAO",
@@ -20634,9 +20634,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2344089",
@@ -20646,9 +20646,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Kami no Niwatsuki Kusunoki-tei",
@@ -20976,9 +20976,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Megami \"Isekai Tensei Nani ni Naritai Desu ka\" Ore \"Yuusha no Rokkotsu de\"",
@@ -21056,9 +21056,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou 3rd Season",
@@ -21126,9 +21126,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Mata Korosarete Shimatta no desu ne, Tantei-sama",
@@ -21198,9 +21198,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Replica Datte, Koi wo Suru.",
@@ -21363,9 +21363,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Snowball Earth",
@@ -21495,9 +21495,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Tadaima, Ojamasaremasu!",
@@ -21570,9 +21570,9 @@
       "episodeCount": 1,
       "latestEpisodeNumber": 1,
       "episodeSource": "anilist_links",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Diamond no Ace act II: Second Season",
@@ -21638,9 +21638,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Maid-san wa Taberu dake",
@@ -21709,9 +21709,9 @@
       "episodeCount": 13,
       "latestEpisodeNumber": 13,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Hidarikiki no Eren",
@@ -21863,9 +21863,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Awajima Hyakkei",
@@ -22728,9 +22728,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Kujima Utaeba Ie Hororo",
@@ -23078,9 +23078,9 @@
       "episodeCount": 17,
       "latestEpisodeNumber": 17,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Kami no Shizuku",
@@ -23298,9 +23298,9 @@
       "episodeCount": 12,
       "latestEpisodeNumber": 12,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Ghost Concert: missing Songs",
@@ -23677,9 +23677,9 @@
       "episodeCount": 18,
       "latestEpisodeNumber": 18,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Rilakkuma",
@@ -24363,9 +24363,9 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Kusuriya no Hitorigoto 3rd Season",
@@ -24495,9 +24495,9 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Black Clover 2nd Season",
@@ -24565,9 +24565,9 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Ao no Hako Season 2",
@@ -24758,9 +24758,9 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Kikansha no Mahou wa Tokubetsu desu 2nd Season",
@@ -24941,9 +24941,9 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Sasaki to Pii-chan Season 2",
@@ -25075,9 +25075,9 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Ranma 1/2 (2024) 3rd Season",
@@ -25141,9 +25141,9 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Hotaru no Yomeiri",
@@ -25276,9 +25276,9 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
     }
   },
   {
@@ -25486,9 +25486,9 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
     }
   },
   {
@@ -25779,9 +25779,9 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Mezametara Saikyou Soubi to Uchuusen-mochi datta node, Ikkodate Mezashite Youhei to shite Jiyuu ni Ikitai",
@@ -26089,9 +26089,9 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Shuiro no Kamen",
@@ -26211,9 +26211,9 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Temppal: Item no Chikara",
@@ -26895,9 +26895,9 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-08-02T07:46:15.899Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
     }
   },
   {
@@ -27678,9 +27678,9 @@
       "episodeCount": 0,
       "latestEpisodeNumber": 0,
       "episodeSource": "",
-      "lastCheckedAt": "2026-08-02T07:46:15.900Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.484Z",
+      "updateStatus": "no_episode_found",
+      "updateError": ""
     }
   },
   {
@@ -28346,9 +28346,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.900Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.485Z",
+      "updateStatus": "ok",
+      "updateError": ""
     }
   },
   {
@@ -28468,9 +28468,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.900Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.485Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "bilibili": {
       "seriesUrl": "https://www.bilibili.tv/en/media/2413722",
@@ -28480,9 +28480,9 @@
       "episodeCount": 4,
       "latestEpisodeNumber": 4,
       "episodeSource": "estimated_from_airing",
-      "lastCheckedAt": "2026-08-02T07:46:15.900Z",
-      "updateStatus": "error",
-      "updateError": "AniList request failed"
+      "lastCheckedAt": "2026-08-03T00:16:22.485Z",
+      "updateStatus": "ok",
+      "updateError": ""
     },
     "anilistTitles": {
       "romaji": "Otomege Sekai wa Mob ni Kibishii Sekai desu 2",
