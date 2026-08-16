@@ -82,8 +82,17 @@ function formatDateOnly(value) {
 function posterThumb(url) { return String(url || '').replace(/l(\.(?:webp|jpe?g|png))$/i, '$1'); }
 function posterHtml(item, { thumb = true, eager = false } = {}) {
   if (!item.poster) return '<span class="poster-fallback is-shown" aria-hidden="true">ไม่มีรูป</span>';
-  return `<img class="poster" src="${escapeHtml(thumb ? posterThumb(item.poster) : item.poster)}" alt="" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async" onerror="this.hidden=true;this.parentElement.classList.add('is-missing')" /><span class="poster-fallback" aria-hidden="true">ไม่มีรูป</span>`;
+  return `<img class="poster" src="${escapeHtml(thumb ? posterThumb(item.poster) : item.poster)}" alt="" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async" /><span class="poster-fallback" aria-hidden="true">ไม่มีรูป</span>`;
 }
+// Posters used to carry an inline onerror=, which CSP script-src 'self' blocks. One document-level
+// listener replaces it: capture phase because error doesn't bubble, and delegation means the
+// innerHTML re-renders throughout this file never need to rebind anything.
+document.addEventListener('error', event => {
+  const img = event.target;
+  if (!(img instanceof HTMLImageElement) || !img.classList.contains('poster')) return;
+  img.hidden = true;
+  img.parentElement?.classList.add('is-missing');
+}, true);
 function crunchyrollOf(item) { return item.crunchyroll?.seriesUrl ? item.crunchyroll : null; }
 function bilibiliOf(item) { return item.bilibili?.seriesUrl ? item.bilibili : null; }
 function netflixOf(item) { return item.netflix?.seriesUrl ? item.netflix : null; }

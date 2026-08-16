@@ -31,6 +31,12 @@ function ogImageUrl(poster) {
   return /^https:\/\/cdn\.myanimelist\.net\//.test(url) ? url.replace(/\.webp$/, '.jpg') : url;
 }
 
+// GitHub Pages can't set response headers, so each stub carries its own policy. A stub loads
+// exactly one thing — the poster — and redirects declaratively, so script is denied outright.
+// That is why the redirect below is a meta refresh and not the location.replace() this page used
+// to inline: no script means no per-page CSP hash across ~300 generated pages.
+const STUB_CSP = "default-src 'none'; script-src 'none'; img-src https://cdn.myanimelist.net; base-uri 'none'; form-action 'none'";
+
 function buildOgPage(item) {
   const title = item.titleOriginal && item.titleOriginal !== item.titleThai
     ? `${item.titleThai} (${item.titleOriginal})`
@@ -47,8 +53,12 @@ function buildOgPage(item) {
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="${STUB_CSP}" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
   <title>${safeTitle}</title>
   <meta name="robots" content="noindex, follow" />
+  <!-- A zero-delay refresh navigates with history handling "replace", so Back returns the
+       visitor to wherever they came from rather than bouncing off this stub again. -->
   <meta http-equiv="refresh" content="0; url=${redirectTarget}" />
   <meta property="og:type" content="video.tv_show" />
   <meta property="og:site_name" content="Anime TV Catalog — Thai YouTube Tracker" />
@@ -61,7 +71,6 @@ function buildOgPage(item) {
   <meta name="twitter:title" content="${safeTitle}" />
   <meta name="twitter:description" content="${description}" />
   <meta name="twitter:image" content="${shareImage}" />
-  <script>location.replace(${JSON.stringify(redirectTarget)});</script>
 </head>
 <body>
   <img src="${image}" alt="${safeTitle}" />
@@ -85,4 +94,4 @@ async function main() {
 
 if (require.main === module) main().catch(error => { console.error(`OG page build failed: ${error.message}`); process.exitCode = 1; });
 
-module.exports = { buildOgPage, escapeHtml, truncate, ogImageUrl, BASE_URL };
+module.exports = { buildOgPage, escapeHtml, truncate, ogImageUrl, BASE_URL, STUB_CSP };

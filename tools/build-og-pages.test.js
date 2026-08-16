@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { buildOgPage, escapeHtml, truncate, ogImageUrl, BASE_URL } = require('./build-og-pages');
+const { buildOgPage, escapeHtml, truncate, ogImageUrl, BASE_URL, STUB_CSP } = require('./build-og-pages');
 
 const SAMPLE = {
   id: 'neko-to-ryuu',
@@ -48,8 +48,19 @@ test('buildOgPage marks the stub page noindex', () => {
 test('buildOgPage redirects to the SPA deep link', () => {
   const html = buildOgPage(SAMPLE);
   assert.match(html, /<meta http-equiv="refresh" content="0; url=\.\.\/index\.html#a=neko-to-ryuu" \/>/);
-  assert.match(html, /location\.replace\("\.\.\/index\.html#a=neko-to-ryuu"\)/);
   assert.match(html, /<a href="\.\.\/index\.html#a=neko-to-ryuu">/);
+});
+
+test('the stub carries a CSP, and no script for that CSP to have to allow', () => {
+  const html = buildOgPage(SAMPLE);
+  assert.match(html, new RegExp(`<meta http-equiv="Content-Security-Policy" content="${STUB_CSP.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}" />`));
+  // The redirect is declarative, so these pages can deny script outright — no inline script to
+  // hash across ~300 generated pages, and no external one to fetch either.
+  assert.doesNotMatch(html, /<script/);
+  assert.doesNotMatch(html, /\son[a-z]+\s*=\s*["']/);
+  assert.match(STUB_CSP, /script-src 'none'/);
+  // The stub's only load of any kind is the poster, so the policy has to name that host.
+  assert.match(STUB_CSP, /img-src [^;]*https:\/\/cdn\.myanimelist\.net/);
 });
 
 test('escapeHtml escapes HTML-special characters', () => {

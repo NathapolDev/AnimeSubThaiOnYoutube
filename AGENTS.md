@@ -103,6 +103,17 @@ Both files are written through `tools/write-data.js`; don't write them by hand f
 
 Required secret: `YOUTUBE_API_KEY` (YouTube Data API v3). Never commit the key.
 
+## Security headers
+
+GitHub Pages cannot set response headers, so the Content-Security-Policy ships as a `<meta http-equiv>` in `index.html` — it must stay **above the first resource-loading tag**, since a meta CSP only governs fetches initiated after it is parsed. Generated share stubs carry a stricter `STUB_CSP` from `tools/build-og-pages.js`. `_headers` holds what a meta tag cannot express (`frame-ancestors`, `upgrade-insecure-requests`, `X-Frame-Options`, `X-Content-Type-Options`, `Permissions-Policy`); `deploy-pages.yml` copies it into `_site/` so a Cloudflare Pages or Netlify deploy of the same artifact picks the headers up. It is inert on Pages.
+
+The policy is strict — `script-src 'self'`, no `'unsafe-inline'`/`'unsafe-eval'`:
+
+- **No inline event handlers anywhere.** Broken posters are handled by one delegated `document.addEventListener('error', …, true)` in `app.js` (capture phase, because `error` does not bubble), registered above the bootstrap render. `img.hidden = true` only hides because of `[hidden] { display: none !important; }` in `styles.css`.
+- **A new external host must be added to all three** of `index.html`'s meta CSP, `_headers`, and `STUB_CSP`, or `tools/csp.test.js` fails. That test also checks every `poster` host in `data/anime.json` against `img-src`.
+
+`Permissions-Policy` deliberately omits `clipboard-write`/`web-share`: both default to `self`, so naming them would disable the share button.
+
 ## Adding a new anime
 
 Add an object to `data/anime.json` with a unique `id`. Set `link` to the playlist URL (the `list=` param is extracted automatically) or set `playlistId` directly. Run `update-youtube.js` to populate episodes and sync `anime.js`.

@@ -6,6 +6,8 @@ Static website สำหรับแสดงอนิเมะ TV ทั้ง�
 
 เปิดไฟล์ `index.html` ได้เลย ไม่ต้องติดตั้ง Node.js หรือแพ็กเกจใด ๆ
 
+หน้าเว็บมี Content-Security-Policy แบบ `<meta>` ติดมาด้วย ซึ่งทดสอบแล้วว่าเปิดผ่าน `file://` ได้ปกติบน Chrome/Edge ถ้าเบราว์เซอร์ตัวอื่นบล็อกสคริปต์ ให้เสิร์ฟผ่าน static server แทน เช่น `python3 -m http.server 8000` แล้วเปิด http://localhost:8000/
+
 ## โครงสร้าง
 
 - `index.html` — หน้าเว็บหลัก

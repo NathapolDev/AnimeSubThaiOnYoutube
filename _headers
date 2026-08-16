@@ -1,0 +1,31 @@
+# Response headers for hosts that support them (Cloudflare Pages, Netlify).
+#
+# GitHub Pages — where this site is deployed today — cannot set response headers at all, and
+# serves this file as an inert static asset. The policy that actually protects the live site is
+# the <meta http-equiv="Content-Security-Policy"> in index.html, which browsers enforce the same
+# way. This file exists so that pointing Cloudflare Pages at the repo is the only step needed to
+# also get the four headers a meta tag physically cannot express: frame-ancestors (ignored in
+# meta CSP), X-Frame-Options, X-Content-Type-Options, and Permissions-Policy.
+#
+# Keep the CSP here in sync with index.html's meta tag — tools/csp.test.js enforces it. The only
+# intended differences are frame-ancestors and upgrade-insecure-requests, both meta-ignored.
+# When a new external host is added to one, add it to the other and to STUB_CSP.
+
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://cdn.myanimelist.net; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), encrypted-media=(), fullscreen=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=(), xr-spatial-tracking=()
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  Cross-Origin-Opener-Policy: same-origin
+
+# Permissions-Policy deliberately does not name clipboard-write or web-share: both default to an
+# allowlist of self, and listing them at all would disable the share button in app.js shareItem().
+#
+# Strict-Transport-Security is a no-op on a github.io/pages.dev subdomain, which is already
+# preloaded. Revisit includeSubDomains before pointing an apex domain you own at this — it commits
+# every subdomain of that apex to HTTPS for the full max-age.
+#
+# Deliberately no Cross-Origin-Resource-Policy: the OG banner and per-anime posters are meant to
+# be rendered by other origins when a link unfurls, which same-origin CORP would block.

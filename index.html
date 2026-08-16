@@ -21,6 +21,14 @@
   <meta name="twitter:image" content="https://nathapoldev.github.io/AnimeSubThaiOnYoutube/assets/og/banner.png" />
   <meta name="twitter:image:alt" content="Anime TV Catalog พร้อมตารางฉาย Top 10 และแคตตาล็อกอนิเมะ" />
   <meta name="theme-color" content="#f5f5f7" />
+  <!-- GitHub Pages can't set response headers, so the policy ships as a meta tag. It must stay
+       above the first resource-loading tag below to cover them. frame-ancestors/report-uri are
+       silently ignored in meta CSP — those live in _headers, for a host that can serve them.
+       upgrade-insecure-requests is header-only too, deliberately: nothing here is fetched over
+       http, and in a meta tag it would break serving the site over plain http on a LAN address
+       for mobile testing (localhost is exempt from the upgrade, a LAN IP is not). -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://cdn.myanimelist.net; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
   <link rel="icon" href="assets/branding/catgirl-logo.png" type="image/png" />
   <link rel="preconnect" href="https://cdn.myanimelist.net" crossorigin />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
