@@ -43,18 +43,10 @@ jobs:
             gh api -X DELETE "repos/${{ github.repository }}/actions/artifacts/$id"
           done
       - name: Assemble static site
-        run: |
-          mkdir -p _site/data
-          cp index.html app.js safe-url.js progress.js styles.css _site/
-          cp -R assets _site/assets
-          node tools/build-site-data.js _site/data
-          node tools/build-og-pages.js _site
-          # Pages caches assets by filename, so a returning browser would pair the
-          # fresh index.html with a stale app.js/styles.css. Version every local
-          # asset ref with its own content hash: changed files bust the cache,
-          # unchanged files keep stable URLs and revalidate to 304s.
-          node tools/stamp-asset-version.js _site/index.html
-          touch _site/.nojekyll
+        # Shared with deploy-cloudflare.yml so the two targets ship the same tree.
+        # SITE_BASE_URL is left unset here: the script defaults to the GitHub
+        # Pages URL, which is the right canonical for this deploy.
+        run: bash tools/build-site.sh
       - name: Configure GitHub Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
       - name: Upload GitHub Pages artifact

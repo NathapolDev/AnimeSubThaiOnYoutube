@@ -3,7 +3,11 @@ const path = require('node:path');
 
 const ROOT = path.resolve(__dirname, '..');
 const JSON_PATH = path.join(ROOT, 'data', 'anime.json');
-const BASE_URL = 'https://nathapoldev.github.io/AnimeSubThaiOnYoutube/';
+// The canonical origin the share stubs advertise. Overridable because the site
+// deploys to two hosts with different paths (GitHub Pages serves it under a
+// /<repo>/ subpath, Cloudflare Pages at the root); a trailing slash is forced
+// since buildOgPage concatenates onto it directly.
+const BASE_URL = `${(process.env.SITE_BASE_URL || 'https://nathapoldev.github.io/AnimeSubThaiOnYoutube').replace(/\/+$/, '')}/`;
 const SUMMARY_LIMIT = 200;
 
 // These pages exist only so a link crawler (LINE/Facebook/Twitter) sees a
@@ -49,6 +53,10 @@ function buildOgPage(item) {
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>${safeTitle}</title>
   <meta name="robots" content="noindex, follow" />
+  <!-- Redirect is meta-refresh only, deliberately: a per-page inline script tag
+       would need a per-page CSP hash, which a static _headers file cannot
+       express. A zero-second refresh replaces the history entry, so back
+       still leaves the site rather than bouncing through this stub. -->
   <meta http-equiv="refresh" content="0; url=${redirectTarget}" />
   <meta property="og:type" content="video.tv_show" />
   <meta property="og:site_name" content="Anime TV Catalog — Thai YouTube Tracker" />
@@ -61,7 +69,6 @@ function buildOgPage(item) {
   <meta name="twitter:title" content="${safeTitle}" />
   <meta name="twitter:description" content="${description}" />
   <meta name="twitter:image" content="${shareImage}" />
-  <script>location.replace(${JSON.stringify(redirectTarget)});</script>
 </head>
 <body>
   <img src="${image}" alt="${safeTitle}" />

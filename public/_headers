@@ -1,0 +1,50 @@
+# Security headers. Applied to every response; the Cache-Control rules below are
+# separate path rules and Cloudflare Pages merges the headers from every rule that
+# matches, so the two sets coexist rather than override one another.
+#
+# The CSP is strict on purpose — no 'unsafe-inline' anywhere. That is only possible
+# because the site carries no inline script, no inline style attribute, no eval, no
+# form and no iframe; the two inline handlers it used to have were removed for this
+# (app.js posterHtml, tools/build-og-pages.js). Keep it that way, or this header
+# starts silently breaking the page.
+#
+# Origins allowed, and why:
+#   fonts.googleapis.com  the webfont stylesheet linked from index.html
+#   fonts.gstatic.com     the font files that stylesheet pulls in
+#   cdn.myanimelist.net   every poster image (verified: the only host in anime.json)
+# img-src is deliberately not the broad `https:` — a poster host appearing from a
+# new pipeline source should fail loudly rather than slip in unnoticed.
+#
+# HSTS carries no `preload`: pages.dev is on the Public Suffix List, so this host
+# cannot be submitted to the preload list anyway.
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: accelerometer=(), autoplay=(), browsing-topics=(), camera=(), display-capture=(), encrypted-media=(), geolocation=(), gyroscope=(), interest-cohort=(), magnetometer=(), microphone=(), midi=(), payment=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), usb=(), xr-spatial-tracking=()
+  Content-Security-Policy: default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://cdn.myanimelist.net; connect-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests
+
+# Cloudflare Pages cache policy. GitHub Pages ignores this file.
+#
+# stamp-asset-version.js rewrites every same-origin .js/.css ref in index.html to
+# carry ?v=<content hash>, and Cloudflare keys its cache on the full URL including
+# the query string — so a changed file lands on a new URL and immutable is safe.
+/*.js
+  Cache-Control: public, max-age=31536000, immutable
+/*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+# The data payload carries no version stamp (app.js fetches it by bare path) and
+# the pipeline overwrites it three times a day, so it must revalidate quickly.
+/data/*
+  Cache-Control: public, max-age=300, must-revalidate
+
+# HTML must always revalidate: it is what pairs the page with the current asset
+# hashes, and the OG stubs change whenever an anime's title/poster changes.
+/
+  Cache-Control: public, max-age=0, must-revalidate
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+/a/*
+  Cache-Control: public, max-age=0, must-revalidate

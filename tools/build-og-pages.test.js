@@ -48,7 +48,6 @@ test('buildOgPage marks the stub page noindex', () => {
 test('buildOgPage redirects to the SPA deep link', () => {
   const html = buildOgPage(SAMPLE);
   assert.match(html, /<meta http-equiv="refresh" content="0; url=\.\.\/index\.html#a=neko-to-ryuu" \/>/);
-  assert.match(html, /location\.replace\("\.\.\/index\.html#a=neko-to-ryuu"\)/);
   assert.match(html, /<a href="\.\.\/index\.html#a=neko-to-ryuu">/);
 });
 
@@ -69,4 +68,12 @@ test('truncate keeps short text unchanged and clamps long text with an ellipsis'
   const truncated = truncate(long, 200);
   assert.equal(truncated.length, 200);
   assert.ok(truncated.endsWith('…'));
+});
+
+test('buildOgPage emits no inline script, so a strict script-src CSP still redirects', () => {
+  const html = buildOgPage(SAMPLE);
+  assert.doesNotMatch(html, /<script/i);
+  assert.doesNotMatch(html, /\son[a-z]+=/i);
+  // The meta refresh is what actually performs the redirect now.
+  assert.match(html, /<meta http-equiv="refresh" content="0; url=\.\.\/index\.html#a=neko-to-ryuu" \/>/);
 });
