@@ -74,3 +74,14 @@ jobs:
       pages: write
       id-token: write
     uses: ./.github/workflows/deploy-pages.yml
+
+  # Runs in parallel with the GitHub Pages deploy, not after it: the two hosts
+  # are independent, so a Cloudflare failure must not hold back the fallback
+  # (or vice versa). secrets: inherit is required — a reusable workflow cannot
+  # see repo secrets on its own, and this job needs CLOUDFLARE_API_TOKEN.
+  deploy-cloudflare:
+    needs: update
+    permissions:
+      contents: read
+    secrets: inherit
+    uses: ./.github/workflows/deploy-cloudflare.yml

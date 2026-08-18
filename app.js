@@ -82,7 +82,7 @@ function formatDateOnly(value) {
 function posterThumb(url) { return String(url || '').replace(/l(\.(?:webp|jpe?g|png))$/i, '$1'); }
 function posterHtml(item, { thumb = true, eager = false } = {}) {
   if (!item.poster) return '<span class="poster-fallback is-shown" aria-hidden="true">ไม่มีรูป</span>';
-  return `<img class="poster" src="${escapeHtml(thumb ? posterThumb(item.poster) : item.poster)}" alt="" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async" onerror="this.hidden=true;this.parentElement.classList.add('is-missing')" /><span class="poster-fallback" aria-hidden="true">ไม่มีรูป</span>`;
+  return `<img class="poster" src="${escapeHtml(thumb ? posterThumb(item.poster) : item.poster)}" alt="" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async" /><span class="poster-fallback" aria-hidden="true">ไม่มีรูป</span>`;
 }
 function crunchyrollOf(item) { return item.crunchyroll?.seriesUrl ? item.crunchyroll : null; }
 function bilibiliOf(item) { return item.bilibili?.seriesUrl ? item.bilibili : null; }
@@ -354,6 +354,15 @@ document.addEventListener('change', event => {
   if (select.dataset.selectKey === 'year') selectedYear = Number(select.value); else sortBy = select.value;
   catalogLimit = CATALOG_PAGE_SIZE; renderCatalogViews();
 });
+// Posters used to carry an inline onerror attribute, which CSP's script-src 'self'
+// blocks. One delegated listener does the same job for every poster; it has to run
+// on the capture phase because an <img> error event does not bubble.
+document.addEventListener('error', event => {
+  const img = event.target;
+  if (!(img instanceof HTMLImageElement) || !img.classList.contains('poster')) return;
+  img.hidden = true;
+  img.parentElement?.classList.add('is-missing');
+}, true);
 document.addEventListener('click', event => {
   const filter = event.target.closest('[data-filter-key]');
   if (filter) {
