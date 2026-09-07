@@ -27,7 +27,7 @@
     "latestEpisodeTitle": "The Cat and the Dragon  ตอนที่ 11 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=mTXC5xnyHts&list=PLYA5C3ueQ-1g",
     "latestPublishedAt": "2026-09-05T13:00:06Z",
-    "lastCheckedAt": "2026-09-07T01:05:11.315Z",
+    "lastCheckedAt": "2026-09-07T10:32:03.850Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 61048,
@@ -174,11 +174,11 @@
     "note": "พบในตาราง Summer 2026 พร้อมลิงก์ Muse Thailand",
     "poster": "https://cdn.myanimelist.net/images/anime/1165/158709l.webp",
     "playlistId": "PLIa05JMgYhhaMTMBupRCsNXAvD1l3PSNr",
-    "currentEpisode": 10,
-    "latestEpisodeTitle": "THE WORLD IS DANCING - ตอนที่ 10 [ซับไทย]",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=b6b5I5L6lcA&list=PLIa05JMgYhhaMTMBupRCsNXAvD1l3PSNr",
-    "latestPublishedAt": "2026-08-31T13:30:06Z",
-    "lastCheckedAt": "2026-09-07T01:05:11.549Z",
+    "currentEpisode": 11,
+    "latestEpisodeTitle": "THE WORLD IS DANCING - ตอนที่ 11 [ซับไทย]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=wivaHKWohb0&list=PLIa05JMgYhhaMTMBupRCsNXAvD1l3PSNr",
+    "latestPublishedAt": "2026-09-07T04:01:25Z",
+    "lastCheckedAt": "2026-09-07T10:32:04.108Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63347,
@@ -191,6 +191,13 @@
     "year": 2026,
     "trailerUrl": "",
     "availableEpisodes": [
+      {
+        "number": 11,
+        "title": "THE WORLD IS DANCING - ตอนที่ 11 [ซับไทย]",
+        "videoId": "wivaHKWohb0",
+        "videoUrl": "https://www.youtube.com/watch?v=wivaHKWohb0&list=PLIa05JMgYhhaMTMBupRCsNXAvD1l3PSNr",
+        "publishedAt": "2026-09-07T04:01:25Z"
+      },
       {
         "number": 10,
         "title": "THE WORLD IS DANCING - ตอนที่ 10 [ซับไทย]",
@@ -310,7 +317,7 @@
     "latestEpisodeTitle": "คณะประพันธกรจรจัด โฮ่ง! 2 ตอนที่ 10 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=YCEB3Yft8CY&list=PLCR1_rvbIAHE",
     "latestPublishedAt": "2026-09-03T12:40:06Z",
-    "lastCheckedAt": "2026-09-07T01:05:11.756Z",
+    "lastCheckedAt": "2026-09-07T10:32:04.298Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62883,
@@ -459,7 +466,7 @@
     "latestEpisodeTitle": "BanG Dream! YUME∞MITA - ตอนที่ 12 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=b1LuJaA4HtI&list=PLEP6Ull2yaCo",
     "latestPublishedAt": "2026-09-03T14:00:06Z",
-    "lastCheckedAt": "2026-09-07T01:05:11.952Z",
+    "lastCheckedAt": "2026-09-07T10:32:04.459Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62430,
@@ -619,7 +626,7 @@
     "latestEpisodeTitle": "เกิดใหม่เป็นอัศวินเกราะหนักผู้ถูกขับไล่แต่ใช้ความรู้จากเกมจนไร้เทียมทาน - ตอนที่ 10 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=nD1ITCrHk4Q&list=PLIa05JMgYhhb4BS6WEyTjKyuwJtWF_2U7",
     "latestPublishedAt": "2026-09-03T16:01:06Z",
-    "lastCheckedAt": "2026-09-07T01:05:12.083Z",
+    "lastCheckedAt": "2026-09-07T10:32:04.564Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 59741,
@@ -782,7 +789,7 @@
     "latestEpisodeTitle": "ยัยแมวยานิ  ตอนที่ 7 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=llOZTcD2ABg&list=PLQ4xe_hu1gxw",
     "latestPublishedAt": "2026-08-13T16:00:06Z",
-    "lastCheckedAt": "2026-09-07T01:05:12.215Z",
+    "lastCheckedAt": "2026-09-07T10:32:04.682Z",
     "updateStatus": "error",
     "updateError": "The playlist identified with the request's <code>playlistId</code> parameter cannot be found.",
     "malId": 63403,
@@ -1543,7 +1550,7 @@
     "latestEpisodeTitle": "เคลวาเทส อสูรจอมราชัน ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=hlS1nS4qQEA&list=PL_YV8EWtbQXESnuuBlZrdFMaqcuK5jr3F",
     "latestPublishedAt": "2025-09-17T11:30:07Z",
-    "lastCheckedAt": "2026-09-07T01:05:12.287Z",
+    "lastCheckedAt": "2026-09-07T10:32:04.778Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62513,
@@ -2722,11 +2729,11 @@
     "note": "นำเข้าจาก Jikan Summer 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1544/157046l.webp",
     "playlistId": "",
-    "currentEpisode": 9,
-    "latestEpisodeTitle": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2 - ตอนที่ 09 [ซับไทย]",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=9BnRNbVuYW8",
-    "latestPublishedAt": "2026-08-31T13:00:06Z",
-    "lastCheckedAt": "2026-08-31T21:34:45.002Z",
+    "currentEpisode": 10,
+    "latestEpisodeTitle": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2 - ตอนที่ 10 [ซับไทย]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=hTcABG5yTTY",
+    "latestPublishedAt": "2026-09-07T02:18:10Z",
+    "lastCheckedAt": "2026-09-07T10:32:07.529Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 60522,
@@ -2739,6 +2746,13 @@
     "year": 2026,
     "trailerUrl": "",
     "availableEpisodes": [
+      {
+        "number": 10,
+        "title": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2 - ตอนที่ 10 [ซับไทย]",
+        "videoId": "hTcABG5yTTY",
+        "videoUrl": "https://www.youtube.com/watch?v=hTcABG5yTTY",
+        "publishedAt": "2026-09-07T02:18:10Z"
+      },
       {
         "number": 9,
         "title": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2 - ตอนที่ 09 [ซับไทย]",
@@ -2846,9 +2860,9 @@
     },
     "youtubeMatchType": "exact",
     "youtubeMatchedAlias": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2",
-    "youtubeMatchedVideoTitle": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2 - ตอนที่ 09 [ซับไทย]",
+    "youtubeMatchedVideoTitle": "บันทึกการเดินทางต่างโลกของท่านอัศวินกระดูก ซีซั่น 2 - ตอนที่ 10 [ซับไทย]",
     "youtubeMatchedScore": 51,
-    "youtubeLastMatchedAt": "2026-08-31T21:34:45.002Z",
+    "youtubeLastMatchedAt": "2026-09-07T10:32:07.529Z",
     "youtubeDiscoveryStatus": "matched"
   },
   {
@@ -4168,11 +4182,11 @@
     "note": "นำเข้าจาก Jikan Summer 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1145/158339l.webp",
     "playlistId": "",
-    "currentEpisode": 9,
-    "latestEpisodeTitle": "รักที่มองไม่เห็น ด้วยตา กับเธอในค่ำคืนที่แสนจะเลือนราง ตอนที่ 9  [ซับไทย]【Ani-One Thailand】",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=gpPiLVfHpXE",
-    "latestPublishedAt": "2026-08-31T12:30:06Z",
-    "lastCheckedAt": "2026-08-31T21:34:46.408Z",
+    "currentEpisode": 10,
+    "latestEpisodeTitle": "รักที่มองไม่เห็น ด้วยตา กับเธอในค่ำคืนที่แสนจะเลือนราง ตอนที่ 10 [ซับไทย]【Ani-One Thailand】",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=hXB22cqPqeU",
+    "latestPublishedAt": "2026-09-07T03:35:12Z",
+    "lastCheckedAt": "2026-09-07T10:32:08.477Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62936,
@@ -4185,6 +4199,13 @@
     "year": 2026,
     "trailerUrl": "",
     "availableEpisodes": [
+      {
+        "number": 10,
+        "title": "รักที่มองไม่เห็น ด้วยตา กับเธอในค่ำคืนที่แสนจะเลือนราง ตอนที่ 10 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "hXB22cqPqeU",
+        "videoUrl": "https://www.youtube.com/watch?v=hXB22cqPqeU",
+        "publishedAt": "2026-09-07T03:35:12Z"
+      },
       {
         "number": 9,
         "title": "รักที่มองไม่เห็น ด้วยตา กับเธอในค่ำคืนที่แสนจะเลือนราง ตอนที่ 9  [ซับไทย]【Ani-One Thailand】",
@@ -4293,9 +4314,9 @@
     "youtubeDiscoveryStatus": "matched",
     "youtubeMatchType": "exact",
     "youtubeMatchedAlias": "รักที่มองไม่เห็น ด้วยตา กับเธอในค่ําคืนที่แสนจะเลือนราง",
-    "youtubeMatchedVideoTitle": "รักที่มองไม่เห็น ด้วยตา กับเธอในค่ำคืนที่แสนจะเลือนราง ตอนที่ 9  [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedVideoTitle": "รักที่มองไม่เห็น ด้วยตา กับเธอในค่ำคืนที่แสนจะเลือนราง ตอนที่ 10 [ซับไทย]【Ani-One Thailand】",
     "youtubeMatchedScore": 55,
-    "youtubeLastMatchedAt": "2026-08-31T21:34:46.408Z",
+    "youtubeLastMatchedAt": "2026-09-07T10:32:08.477Z",
     "seasonRank": 9,
     "seasonRankPrevious": 9
   },
@@ -17728,14 +17749,21 @@
     "note": "นำเข้าจาก Jikan spring 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1773/155779l.webp",
     "playlistId": "",
-    "currentEpisode": 21,
-    "latestEpisodeTitle": "Dr. STONE Season 3 (Part2) ตอนที่ 21 [ซับไทย]【Ani-One Thailand】",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=eGHvqvUKrMo",
-    "latestPublishedAt": "2026-09-06T07:00:06Z",
-    "lastCheckedAt": "2026-09-06T09:35:09.944Z",
+    "currentEpisode": 22,
+    "latestEpisodeTitle": "Dr. STONE Season 3 (Part2) ตอนที่ 22 [ซับไทย]【Ani-One Thailand】",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=96SH3ypM68Y",
+    "latestPublishedAt": "2026-09-07T07:00:06Z",
+    "lastCheckedAt": "2026-09-07T10:32:08.477Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
+      {
+        "number": 22,
+        "title": "Dr. STONE Season 3 (Part2) ตอนที่ 22 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "96SH3ypM68Y",
+        "videoUrl": "https://www.youtube.com/watch?v=96SH3ypM68Y",
+        "publishedAt": "2026-09-07T07:00:06Z"
+      },
       {
         "number": 21,
         "title": "Dr. STONE Season 3 (Part2) ตอนที่ 21 [ซับไทย]【Ani-One Thailand】",
@@ -17924,9 +17952,9 @@
     "youtubeDiscoveryStatus": "matched",
     "youtubeMatchType": "fuzzy",
     "youtubeMatchedAlias": "dr stone season 4 part 3",
-    "youtubeMatchedVideoTitle": "Dr. STONE Season 3 (Part2) ตอนที่ 21 [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedVideoTitle": "Dr. STONE Season 3 (Part2) ตอนที่ 22 [ซับไทย]【Ani-One Thailand】",
     "youtubeMatchedScore": 0.889,
-    "youtubeLastMatchedAt": "2026-09-06T09:35:09.944Z"
+    "youtubeLastMatchedAt": "2026-09-07T10:32:08.477Z"
   },
   {
     "id": "otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-2",
@@ -21534,8 +21562,8 @@
     "currentEpisode": 23,
     "latestEpisodeTitle": "MAO หาญสู้พลิกชะตาอาถรรพณ์ ตอนที่ 23  [ซับไทย] 【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=zdFmaiotUsQ",
-    "latestPublishedAt": "2026-09-04T10:27:11Z",
-    "lastCheckedAt": "2026-09-04T19:05:04.628Z",
+    "latestPublishedAt": "2026-09-07T04:00:06Z",
+    "lastCheckedAt": "2026-09-07T10:32:08.477Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -21544,7 +21572,7 @@
         "title": "MAO หาญสู้พลิกชะตาอาถรรพณ์ ตอนที่ 23  [ซับไทย] 【Ani-One Thailand】",
         "videoId": "zdFmaiotUsQ",
         "videoUrl": "https://www.youtube.com/watch?v=zdFmaiotUsQ",
-        "publishedAt": "2026-09-04T10:27:11Z"
+        "publishedAt": "2026-09-07T04:00:06Z"
       },
       {
         "number": 22,
@@ -21751,7 +21779,7 @@
     "youtubeMatchedAlias": "mao หาญสู้พลิกชะตาอาถรรพณ์",
     "youtubeMatchedVideoTitle": "MAO หาญสู้พลิกชะตาอาถรรพณ์ ตอนที่ 23  [ซับไทย] 【Ani-One Thailand】",
     "youtubeMatchedScore": 26,
-    "youtubeLastMatchedAt": "2026-09-04T19:05:04.628Z",
+    "youtubeLastMatchedAt": "2026-09-07T10:32:08.477Z",
     "youtubeDiscoveryStatus": "matched"
   },
   {
