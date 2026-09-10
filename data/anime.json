@@ -27,7 +27,7 @@
     "latestEpisodeTitle": "The Cat and the Dragon  ตอนที่ 11 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=mTXC5xnyHts&list=PLYA5C3ueQ-1g",
     "latestPublishedAt": "2026-09-05T13:00:06Z",
-    "lastCheckedAt": "2026-09-10T09:54:15.620Z",
+    "lastCheckedAt": "2026-09-10T19:13:32.262Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 61048,
@@ -178,7 +178,7 @@
     "latestEpisodeTitle": "THE WORLD IS DANCING - ตอนที่ 11 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=wivaHKWohb0&list=PLIa05JMgYhhaMTMBupRCsNXAvD1l3PSNr",
     "latestPublishedAt": "2026-09-07T13:30:06Z",
-    "lastCheckedAt": "2026-09-10T09:54:15.883Z",
+    "lastCheckedAt": "2026-09-10T19:13:32.650Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63347,
@@ -313,11 +313,11 @@
     "note": "พบในตาราง Summer 2026 พร้อมลิงก์ Ani-One Thailand",
     "poster": "https://cdn.myanimelist.net/images/anime/1591/157071l.webp",
     "playlistId": "PLCR1_rvbIAHE",
-    "currentEpisode": 10,
-    "latestEpisodeTitle": "คณะประพันธกรจรจัด โฮ่ง! 2 ตอนที่ 10 [ซับไทย]【Ani-One Thailand】",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=YCEB3Yft8CY&list=PLCR1_rvbIAHE",
-    "latestPublishedAt": "2026-09-03T12:40:06Z",
-    "lastCheckedAt": "2026-09-10T09:54:16.061Z",
+    "currentEpisode": 11,
+    "latestEpisodeTitle": "คณะประพันธกรจรจัด โฮ่ง! 2 ตอนที่ 11 [ซับไทย]【Ani-One Thailand】",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=mQnZtAifoh8&list=PLCR1_rvbIAHE",
+    "latestPublishedAt": "2026-09-10T12:40:16Z",
+    "lastCheckedAt": "2026-09-10T19:13:32.877Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62883,
@@ -330,6 +330,13 @@
     "year": 2026,
     "trailerUrl": "",
     "availableEpisodes": [
+      {
+        "number": 11,
+        "title": "คณะประพันธกรจรจัด โฮ่ง! 2 ตอนที่ 11 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "mQnZtAifoh8",
+        "videoUrl": "https://www.youtube.com/watch?v=mQnZtAifoh8&list=PLCR1_rvbIAHE",
+        "publishedAt": "2026-09-10T12:40:16Z"
+      },
       {
         "number": 10,
         "title": "คณะประพันธกรจรจัด โฮ่ง! 2 ตอนที่ 10 [ซับไทย]【Ani-One Thailand】",
@@ -465,8 +472,8 @@
     "currentEpisode": 13,
     "latestEpisodeTitle": "BanG Dream! YUME∞MITA - ตอนที่ 13 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=Zw_seuTDBY8&list=PLEP6Ull2yaCo",
-    "latestPublishedAt": "2026-09-08T07:40:14Z",
-    "lastCheckedAt": "2026-09-10T09:54:16.238Z",
+    "latestPublishedAt": "2026-09-10T14:00:06Z",
+    "lastCheckedAt": "2026-09-10T19:13:32.992Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62430,
@@ -484,7 +491,7 @@
         "title": "BanG Dream! YUME∞MITA - ตอนที่ 13 [ซับไทย]",
         "videoId": "Zw_seuTDBY8",
         "videoUrl": "https://www.youtube.com/watch?v=Zw_seuTDBY8&list=PLEP6Ull2yaCo",
-        "publishedAt": "2026-09-08T07:40:14Z"
+        "publishedAt": "2026-09-10T14:00:06Z"
       },
       {
         "number": 12,
@@ -632,8 +639,8 @@
     "currentEpisode": 11,
     "latestEpisodeTitle": "เกิดใหม่เป็นอัศวินเกราะหนักผู้ถูกขับไล่แต่ใช้ความรู้จากเกมจนไร้เทียมทาน - ตอนที่ 11 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=7AzZUmB5nUM&list=PLIa05JMgYhhb4BS6WEyTjKyuwJtWF_2U7",
-    "latestPublishedAt": "2026-09-10T08:19:01Z",
-    "lastCheckedAt": "2026-09-10T09:54:16.382Z",
+    "latestPublishedAt": "2026-09-10T16:01:06Z",
+    "lastCheckedAt": "2026-09-10T19:13:33.177Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 59741,
@@ -651,7 +658,7 @@
         "title": "เกิดใหม่เป็นอัศวินเกราะหนักผู้ถูกขับไล่แต่ใช้ความรู้จากเกมจนไร้เทียมทาน - ตอนที่ 11 [ซับไทย]",
         "videoId": "7AzZUmB5nUM",
         "videoUrl": "https://www.youtube.com/watch?v=7AzZUmB5nUM&list=PLIa05JMgYhhb4BS6WEyTjKyuwJtWF_2U7",
-        "publishedAt": "2026-09-10T08:19:01Z"
+        "publishedAt": "2026-09-10T16:01:06Z"
       },
       {
         "number": 10,
@@ -803,7 +810,7 @@
     "latestEpisodeTitle": "ยัยแมวยานิ  ตอนที่ 7 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=llOZTcD2ABg&list=PLQ4xe_hu1gxw",
     "latestPublishedAt": "2026-08-13T16:00:06Z",
-    "lastCheckedAt": "2026-09-10T09:54:16.467Z",
+    "lastCheckedAt": "2026-09-10T19:13:33.307Z",
     "updateStatus": "error",
     "updateError": "The playlist identified with the request's <code>playlistId</code> parameter cannot be found.",
     "malId": 63403,
@@ -1564,7 +1571,7 @@
     "latestEpisodeTitle": "เคลวาเทส อสูรจอมราชัน ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=hlS1nS4qQEA&list=PL_YV8EWtbQXESnuuBlZrdFMaqcuK5jr3F",
     "latestPublishedAt": "2025-09-17T11:30:07Z",
-    "lastCheckedAt": "2026-09-10T09:54:16.549Z",
+    "lastCheckedAt": "2026-09-10T19:13:33.417Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62513,
@@ -4380,11 +4387,11 @@
     "note": "นำเข้าจาก Jikan Summer 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1981/156340l.webp",
     "playlistId": "",
-    "currentEpisode": 8,
-    "latestEpisodeTitle": "สาวน้อยไคจูคาราเมไลซ์ - ตอนที่ 08 [ซับไทย]",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=Z1qB85udDo4",
-    "latestPublishedAt": "2026-09-03T17:28:06Z",
-    "lastCheckedAt": "2026-09-03T19:24:00.161Z",
+    "currentEpisode": 9,
+    "latestEpisodeTitle": "สาวน้อยไคจูคาราเมไลซ์ - ตอนที่ 09 [ซับไทย]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=Gl2Y4v9VnJk",
+    "latestPublishedAt": "2026-09-10T17:28:06Z",
+    "lastCheckedAt": "2026-09-10T19:13:35.759Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63150,
@@ -4397,6 +4404,13 @@
     "year": 2026,
     "trailerUrl": "",
     "availableEpisodes": [
+      {
+        "number": 9,
+        "title": "สาวน้อยไคจูคาราเมไลซ์ - ตอนที่ 09 [ซับไทย]",
+        "videoId": "Gl2Y4v9VnJk",
+        "videoUrl": "https://www.youtube.com/watch?v=Gl2Y4v9VnJk",
+        "publishedAt": "2026-09-10T17:28:06Z"
+      },
       {
         "number": 8,
         "title": "สาวน้อยไคจูคาราเมไลซ์ - ตอนที่ 08 [ซับไทย]",
@@ -4497,9 +4511,9 @@
     "youtubeDiscoveryStatus": "matched",
     "youtubeMatchType": "fuzzy",
     "youtubeMatchedAlias": "สาวน้อยไคจู คาราเมไลซ์",
-    "youtubeMatchedVideoTitle": "สาวน้อยไคจูคาราเมไลซ์ - ตอนที่ 08 [ซับไทย]",
+    "youtubeMatchedVideoTitle": "สาวน้อยไคจูคาราเมไลซ์ - ตอนที่ 09 [ซับไทย]",
     "youtubeMatchedScore": 0.927,
-    "youtubeLastMatchedAt": "2026-09-03T19:24:00.161Z"
+    "youtubeLastMatchedAt": "2026-09-10T19:13:35.759Z"
   },
   {
     "id": "heroine-seijo-iie-all-works-maid-desu-hokori",
