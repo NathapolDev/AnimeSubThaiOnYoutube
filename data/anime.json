@@ -23,11 +23,11 @@
     "note": "พบในตาราง Summer 2026 พร้อมลิงก์ Ani-One Thailand",
     "poster": "https://cdn.myanimelist.net/images/anime/1878/157796l.webp",
     "playlistId": "PLYA5C3ueQ-1g",
-    "currentEpisode": 11,
-    "latestEpisodeTitle": "The Cat and the Dragon  ตอนที่ 11 [ซับไทย]【Ani-One Thailand】",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=mTXC5xnyHts&list=PLYA5C3ueQ-1g",
-    "latestPublishedAt": "2026-09-05T13:00:06Z",
-    "lastCheckedAt": "2026-09-11T09:53:23.939Z",
+    "currentEpisode": 12,
+    "latestEpisodeTitle": "The Cat and the Dragon  ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=OjEw1ldFL1Q&list=PLYA5C3ueQ-1g",
+    "latestPublishedAt": "2026-09-11T12:33:51Z",
+    "lastCheckedAt": "2026-09-11T19:15:51.614Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 61048,
@@ -40,6 +40,13 @@
     "year": 2026,
     "trailerUrl": "",
     "availableEpisodes": [
+      {
+        "number": 12,
+        "title": "The Cat and the Dragon  ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
+        "videoId": "OjEw1ldFL1Q",
+        "videoUrl": "https://www.youtube.com/watch?v=OjEw1ldFL1Q&list=PLYA5C3ueQ-1g",
+        "publishedAt": "2026-09-11T12:33:51Z"
+      },
       {
         "number": 11,
         "title": "The Cat and the Dragon  ตอนที่ 11 [ซับไทย]【Ani-One Thailand】",
@@ -178,7 +185,7 @@
     "latestEpisodeTitle": "THE WORLD IS DANCING - ตอนที่ 11 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=wivaHKWohb0&list=PLIa05JMgYhhaMTMBupRCsNXAvD1l3PSNr",
     "latestPublishedAt": "2026-09-07T13:30:06Z",
-    "lastCheckedAt": "2026-09-11T09:53:24.170Z",
+    "lastCheckedAt": "2026-09-11T19:15:51.823Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 63347,
@@ -317,7 +324,7 @@
     "latestEpisodeTitle": "คณะประพันธกรจรจัด โฮ่ง! 2 ตอนที่ 11 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=mQnZtAifoh8&list=PLCR1_rvbIAHE",
     "latestPublishedAt": "2026-09-10T12:40:16Z",
-    "lastCheckedAt": "2026-09-11T09:53:24.370Z",
+    "lastCheckedAt": "2026-09-11T19:15:52.018Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62883,
@@ -473,7 +480,7 @@
     "latestEpisodeTitle": "BanG Dream! YUME∞MITA - ตอนที่ 13 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=Zw_seuTDBY8&list=PLEP6Ull2yaCo",
     "latestPublishedAt": "2026-09-10T14:00:06Z",
-    "lastCheckedAt": "2026-09-11T09:53:24.480Z",
+    "lastCheckedAt": "2026-09-11T19:15:52.124Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62430,
@@ -640,7 +647,7 @@
     "latestEpisodeTitle": "เกิดใหม่เป็นอัศวินเกราะหนักผู้ถูกขับไล่แต่ใช้ความรู้จากเกมจนไร้เทียมทาน - ตอนที่ 11 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=7AzZUmB5nUM&list=PLIa05JMgYhhb4BS6WEyTjKyuwJtWF_2U7",
     "latestPublishedAt": "2026-09-10T16:01:06Z",
-    "lastCheckedAt": "2026-09-11T09:53:24.591Z",
+    "lastCheckedAt": "2026-09-11T19:15:52.278Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 59741,
@@ -810,7 +817,7 @@
     "latestEpisodeTitle": "ยัยแมวยานิ  ตอนที่ 7 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=llOZTcD2ABg&list=PLQ4xe_hu1gxw",
     "latestPublishedAt": "2026-08-13T16:00:06Z",
-    "lastCheckedAt": "2026-09-11T09:53:24.724Z",
+    "lastCheckedAt": "2026-09-11T19:15:52.369Z",
     "updateStatus": "error",
     "updateError": "The playlist identified with the request's <code>playlistId</code> parameter cannot be found.",
     "malId": 63403,
@@ -1571,7 +1578,7 @@
     "latestEpisodeTitle": "เคลวาเทส อสูรจอมราชัน ตอนที่ 12 [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=hlS1nS4qQEA&list=PL_YV8EWtbQXESnuuBlZrdFMaqcuK5jr3F",
     "latestPublishedAt": "2025-09-17T11:30:07Z",
-    "lastCheckedAt": "2026-09-11T09:53:24.836Z",
+    "lastCheckedAt": "2026-09-11T19:15:52.440Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62513,
@@ -5053,11 +5060,11 @@
     "note": "นำเข้าจาก Jikan Summer 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1891/158566l.webp",
     "playlistId": "",
-    "currentEpisode": 6,
-    "latestEpisodeTitle": "【ซับไทย】《ได้เป็นถึงท่านเจ้าครอบครองดินแดน แต่ดันมีพลเมืองเริ่มต้นจากศูนย์ซะงั้น》｜ตอนที่ 06｜TROPICS",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=K7iKocXliYg",
-    "latestPublishedAt": "2026-09-04T12:30:22Z",
-    "lastCheckedAt": "2026-09-04T19:05:05.144Z",
+    "currentEpisode": 7,
+    "latestEpisodeTitle": "【ซับไทย】《ได้เป็นถึงท่านเจ้าครอบครองดินแดน แต่ดันมีพลเมืองเริ่มต้นจากศูนย์ซะงั้น》｜ตอนที่ 07｜TROPICS",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=-ICPvocMo38",
+    "latestPublishedAt": "2026-09-11T12:30:06Z",
+    "lastCheckedAt": "2026-09-11T19:15:55.931Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 62078,
@@ -5070,6 +5077,27 @@
     "year": 2026,
     "trailerUrl": "",
     "availableEpisodes": [
+      {
+        "number": 7,
+        "title": "【ซับไทย】《ได้เป็นถึงท่านเจ้าครอบครองดินแดน แต่ดันมีพลเมืองเริ่มต้นจากศูนย์ซะงั้น》｜ตอนที่ 07｜TROPICS",
+        "videoId": "-ICPvocMo38",
+        "videoUrl": "https://www.youtube.com/watch?v=-ICPvocMo38",
+        "publishedAt": "2026-09-11T12:30:06Z"
+      },
+      {
+        "number": 7,
+        "title": "【English Sub】《The Frontier Lord Begins with Zero Subjects》｜Episode 07｜TROPICS ENTERTAINMENT",
+        "videoId": "95rr-oHP304",
+        "videoUrl": "https://www.youtube.com/watch?v=95rr-oHP304",
+        "publishedAt": "2026-09-11T12:30:06Z"
+      },
+      {
+        "number": 7,
+        "title": "【Subtitle Indonesia】《Penguasa Negeri Terluar Memulai dari 0 Rakyat》｜Episode 07｜TROPICS ENTERTAINMENT",
+        "videoId": "NZTqd-MmbPs",
+        "videoUrl": "https://www.youtube.com/watch?v=NZTqd-MmbPs",
+        "publishedAt": "2026-09-11T12:30:06Z"
+      },
       {
         "number": 6,
         "title": "【ซับไทย】《ได้เป็นถึงท่านเจ้าครอบครองดินแดน แต่ดันมีพลเมืองเริ่มต้นจากศูนย์ซะงั้น》｜ตอนที่ 06｜TROPICS",
@@ -5243,9 +5271,9 @@
     "youtubeDiscoveryStatus": "matched",
     "youtubeMatchType": "exact",
     "youtubeMatchedAlias": "ได้เป็นถึงท่านเจ้าครอบครองดินแดน แต่ดันมีพลเมืองเริ่มต้นจากศูนย์ซะงั้น",
-    "youtubeMatchedVideoTitle": "【ซับไทย】《ได้เป็นถึงท่านเจ้าครอบครองดินแดน แต่ดันมีพลเมืองเริ่มต้นจากศูนย์ซะงั้น》｜ตอนที่ 06｜TROPICS",
+    "youtubeMatchedVideoTitle": "【ซับไทย】《ได้เป็นถึงท่านเจ้าครอบครองดินแดน แต่ดันมีพลเมืองเริ่มต้นจากศูนย์ซะงั้น》｜ตอนที่ 07｜TROPICS",
     "youtubeMatchedScore": 70,
-    "youtubeLastMatchedAt": "2026-09-04T19:05:05.144Z"
+    "youtubeLastMatchedAt": "2026-09-11T19:15:55.931Z"
   },
   {
     "id": "hanaori-san-wa-tensei-shitemo-kenka-ga-shitai",
@@ -6660,8 +6688,8 @@
     "currentEpisode": 10,
     "latestEpisodeTitle": "วาดเรื่องนี้ก่อนแล้วค่อยตาย - ตอนที่ 10 [ซับไทย]",
     "latestVideoUrl": "https://www.youtube.com/watch?v=_UfGjjvhjX8",
-    "latestPublishedAt": "2026-09-11T04:49:08Z",
-    "lastCheckedAt": "2026-09-11T09:53:27.561Z",
+    "latestPublishedAt": "2026-09-11T15:30:06Z",
+    "lastCheckedAt": "2026-09-11T19:15:54.644Z",
     "updateStatus": "ok",
     "updateError": "",
     "malId": 61280,
@@ -6679,7 +6707,7 @@
         "title": "วาดเรื่องนี้ก่อนแล้วค่อยตาย - ตอนที่ 10 [ซับไทย]",
         "videoId": "_UfGjjvhjX8",
         "videoUrl": "https://www.youtube.com/watch?v=_UfGjjvhjX8",
-        "publishedAt": "2026-09-11T04:49:08Z"
+        "publishedAt": "2026-09-11T15:30:06Z"
       },
       {
         "number": 9,
@@ -6791,7 +6819,7 @@
     "youtubeMatchedAlias": "วาดเรื่องนี้ก่อนแล้วค่อยตาย",
     "youtubeMatchedVideoTitle": "วาดเรื่องนี้ก่อนแล้วค่อยตาย - ตอนที่ 10 [ซับไทย]",
     "youtubeMatchedScore": 27,
-    "youtubeLastMatchedAt": "2026-09-11T09:53:27.561Z",
+    "youtubeLastMatchedAt": "2026-09-11T19:15:54.644Z",
     "youtubeDiscoveryStatus": "matched"
   },
   {
@@ -14003,7 +14031,7 @@
     "latestEpisodeTitle": "MF GHOST 3rd Season ตอนที่ 13  [ซับไทย]【Ani-One Thailand】",
     "latestVideoUrl": "https://www.youtube.com/watch?v=cG3YiWtedZg",
     "latestPublishedAt": "2026-03-26T15:30:07Z",
-    "lastCheckedAt": "2026-08-13T06:55:09.811Z",
+    "lastCheckedAt": "2026-09-11T19:15:55.539Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
@@ -14170,6 +14198,13 @@
       },
       {
         "number": 1,
+        "title": "ความจริงของนักแข่งแรลลี่ผู้โชคร้าย l MF GHOST 3rd Season ตอนที่ 1",
+        "videoId": "HU5mnh_zntc",
+        "videoUrl": "https://www.youtube.com/watch?v=HU5mnh_zntc",
+        "publishedAt": "2026-09-11T12:00:01Z"
+      },
+      {
+        "number": 1,
         "title": "MF GHOST 2nd Season ตอนที่ 1 [ซับไทย] 【Ani-One Thailand】",
         "videoId": "Ilf_ZKySZoE",
         "videoUrl": "https://www.youtube.com/watch?v=Ilf_ZKySZoE",
@@ -14297,9 +14332,9 @@
     },
     "youtubeMatchType": "exact",
     "youtubeMatchedAlias": "mf ghost 3rd season",
-    "youtubeMatchedVideoTitle": "MF GHOST 3rd Season ตอนที่ 13  [ซับไทย]【Ani-One Thailand】",
+    "youtubeMatchedVideoTitle": "ความจริงของนักแข่งแรลลี่ผู้โชคร้าย l MF GHOST 3rd Season ตอนที่ 1",
     "youtubeMatchedScore": 19,
-    "youtubeLastMatchedAt": "2026-08-13T06:55:09.811Z",
+    "youtubeLastMatchedAt": "2026-09-11T19:15:55.539Z",
     "youtubeDiscoveryStatus": "matched"
   },
   {
@@ -17317,14 +17352,21 @@
     "note": "นำเข้าจาก Jikan spring 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1695/156389l.webp",
     "playlistId": "",
-    "currentEpisode": 91,
-    "latestEpisodeTitle": "เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4 - ตอนที่ 91 [ซับไทย]",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=Hp-fs4zG7ZM",
-    "latestPublishedAt": "2026-09-04T15:00:06Z",
-    "lastCheckedAt": "2026-09-04T19:05:03.186Z",
+    "currentEpisode": 92,
+    "latestEpisodeTitle": "เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4 - ตอนที่ 92 [ซับไทย]",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=60nYzz_v8No",
+    "latestPublishedAt": "2026-09-11T15:00:06Z",
+    "lastCheckedAt": "2026-09-11T19:15:54.645Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
+      {
+        "number": 92,
+        "title": "เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4 - ตอนที่ 92 [ซับไทย]",
+        "videoId": "60nYzz_v8No",
+        "videoUrl": "https://www.youtube.com/watch?v=60nYzz_v8No",
+        "publishedAt": "2026-09-11T15:00:06Z"
+      },
       {
         "number": 91,
         "title": "เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4 - ตอนที่ 91 [ซับไทย]",
@@ -17515,9 +17557,9 @@
     },
     "youtubeMatchType": "exact",
     "youtubeMatchedAlias": "เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4",
-    "youtubeMatchedVideoTitle": "เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4 - ตอนที่ 91 [ซับไทย]",
+    "youtubeMatchedVideoTitle": "เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4 - ตอนที่ 92 [ซับไทย]",
     "youtubeMatchedScore": 42,
-    "youtubeLastMatchedAt": "2026-09-04T19:05:03.186Z",
+    "youtubeLastMatchedAt": "2026-09-11T19:15:54.645Z",
     "youtubeDiscoveryStatus": "matched",
     "netflix": {
       "seriesUrl": "https://www.netflix.com/title/81028712",
@@ -24163,14 +24205,35 @@
     "note": "นำเข้าจาก Jikan spring 2026; ยังไม่ได้ยืนยันช่องทางรับชมซับไทยบน YouTube",
     "poster": "https://cdn.myanimelist.net/images/anime/1863/158831l.webp",
     "playlistId": "",
-    "currentEpisode": 18,
-    "latestEpisodeTitle": "【Subtitle Indonesia】《The Drops of God》｜Episode 18｜TROPICS ENTERTAINMENT",
-    "latestVideoUrl": "https://www.youtube.com/watch?v=8WZim06lHN8",
-    "latestPublishedAt": "2026-09-04T12:00:06Z",
-    "lastCheckedAt": "2026-09-04T19:05:05.145Z",
+    "currentEpisode": 19,
+    "latestEpisodeTitle": "【Subtitle Indonesia】《The Drops of God》｜Episode 19｜TROPICS ENTERTAINMENT",
+    "latestVideoUrl": "https://www.youtube.com/watch?v=1zP6giEqbOc",
+    "latestPublishedAt": "2026-09-11T12:00:06Z",
+    "lastCheckedAt": "2026-09-11T19:15:55.931Z",
     "updateStatus": "ok",
     "updateError": "",
     "availableEpisodes": [
+      {
+        "number": 19,
+        "title": "【Subtitle Indonesia】《The Drops of God》｜Episode 19｜TROPICS ENTERTAINMENT",
+        "videoId": "1zP6giEqbOc",
+        "videoUrl": "https://www.youtube.com/watch?v=1zP6giEqbOc",
+        "publishedAt": "2026-09-11T12:00:06Z"
+      },
+      {
+        "number": 19,
+        "title": "【English Sub】《The Drops of God》｜Episode 19｜TROPICS ENTERTAINMENT",
+        "videoId": "6ZOw1CbUBp4",
+        "videoUrl": "https://www.youtube.com/watch?v=6ZOw1CbUBp4",
+        "publishedAt": "2026-09-11T12:00:06Z"
+      },
+      {
+        "number": 19,
+        "title": "【ซับไทย】《สืบมรดกข้ามชาติ หยาดเทวะ》｜ตอนที่ 19｜TROPICS ENTERTAINMENT",
+        "videoId": "P4quH981124",
+        "videoUrl": "https://www.youtube.com/watch?v=P4quH981124",
+        "publishedAt": "2026-09-11T12:00:06Z"
+      },
       {
         "number": 18,
         "title": "【Subtitle Indonesia】《The Drops of God》｜Episode 18｜TROPICS ENTERTAINMENT",
@@ -24589,9 +24652,9 @@
     },
     "youtubeMatchType": "exact",
     "youtubeMatchedAlias": "สืบมรดกข้ามชาติ หยาดเทวะ",
-    "youtubeMatchedVideoTitle": "【ซับไทย】《สืบมรดกข้ามชาติ หยาดเทวะ》｜ตอนที่ 18｜TROPICS ENTERTAINMENT",
+    "youtubeMatchedVideoTitle": "【ซับไทย】《สืบมรดกข้ามชาติ หยาดเทวะ》｜ตอนที่ 19｜TROPICS ENTERTAINMENT",
     "youtubeMatchedScore": 24,
-    "youtubeLastMatchedAt": "2026-09-04T19:05:05.145Z",
+    "youtubeLastMatchedAt": "2026-09-11T19:15:55.931Z",
     "youtubeDiscoveryStatus": "matched"
   },
   {
