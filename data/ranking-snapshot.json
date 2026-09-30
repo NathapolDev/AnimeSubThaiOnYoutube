@@ -1,32 +1,10 @@
 {
   "year": 2026,
-  "season": "summer",
-  "date": "2026-09-30",
-  "ranks": {
-    "mushoku-tensei-iii": 1,
-    "grand-blue-season-3": 2,
-    "polar-opposites-2": 3,
-    "tenmaku-no-jaadugar": 4,
-    "super-no-ura-de-yani-suu-futari": 5,
-    "youjo-senki-ii": 6,
-    "kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season": 7,
-    "koukaku-kidoutai-tv": 8,
-    "toumei-na-yoru-ni-kakeru-kimi-to-me-ni-mienai-koi-wo-shita": 9,
-    "kimi-ga-shinu-made-koi-wo-shitai": 10
-  },
+  "season": "fall",
+  "date": "2026-10-01",
+  "ranks": {},
   "previous": {
-    "date": "2026-09-29",
-    "ranks": {
-      "mushoku-tensei-iii": 1,
-      "grand-blue-season-3": 2,
-      "polar-opposites-2": 3,
-      "tenmaku-no-jaadugar": 4,
-      "super-no-ura-de-yani-suu-futari": 5,
-      "youjo-senki-ii": 6,
-      "kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season": 7,
-      "koukaku-kidoutai-tv": 8,
-      "toumei-na-yoru-ni-kakeru-kimi-to-me-ni-mienai-koi-wo-shita": 9,
-      "kimi-ga-shinu-made-koi-wo-shitai": 10
-    }
+    "date": "",
+    "ranks": {}
   }
 }
