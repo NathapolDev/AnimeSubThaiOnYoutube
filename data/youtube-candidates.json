@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "tgFV1mFJyjo",
+    "title": "นักสืบตายแล้ว ซีซั่น 2 - ตอนที่ 01 [ซับไทย]",
+    "channel": "Muse Thailand",
+    "publishedAt": "2026-10-07T09:39:50Z",
+    "episodeNumber": 1,
+    "extractedShowName": "นักสืบตายแล้ว ซีซั่น 2",
+    "matches": [
+      {
+        "id": "tantei-wa-mou-shindeiru-season-2",
+        "titleThai": "The Detective Is Already Dead Season 2",
+        "titleOriginal": "Tantei wa Mou, Shindeiru. Season 2",
+        "alias": "นักสืบตายเเล้ว ภาค 2",
+        "similarity": 0.6
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "pEmW0fU89yE",
+    "title": "เรย์เอิร์ธ ตอนที่ 1 [ซับไทย]【Ani-One Thailand】",
+    "channel": "Ani-One Thailand",
+    "publishedAt": "2026-10-07T04:26:19Z",
+    "episodeNumber": 1,
+    "extractedShowName": "เรย์เอิร์ธ",
+    "matches": [
+      {
+        "id": "magic-knight-rayearth-2026",
+        "titleThai": "Magic Knight Rayearth (2026)",
+        "titleOriginal": "Magic Knight Rayearth (2026)",
+        "alias": "เมจิกไนท์ เรย์เอิร์ธ",
+        "similarity": 0.643
+      }
+    ]
+  }
+]
