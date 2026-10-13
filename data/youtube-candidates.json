@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "jH3OG1y2VZo",
+    "title": "DARK MACHINE THE ANIMATION ตอนที่ 1  [ซับไทย]【Ani-One Thailand】",
+    "channel": "Ani-One Thailand",
+    "publishedAt": "2026-10-13T18:15:06Z",
+    "episodeNumber": 1,
+    "extractedShowName": "dark machine the animation",
+    "matches": [
+      {
+        "id": "dark-moon-tsuki-no-saidan",
+        "titleThai": "Dark Moon: The Blood Altar",
+        "titleOriginal": "Dark Moon: Tsuki no Saidan",
+        "alias": "dark moon the blood altar animation with enhypen",
+        "similarity": 0.5
+      }
+    ]
+  }
+]
