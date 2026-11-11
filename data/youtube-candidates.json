@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "VeaAeccwH7Y",
+    "title": "นักสืบตายแล้ว ซีซั่น 2 - ตอนที่ 06 [ซับไทย]",
+    "channel": "Muse Thailand",
+    "publishedAt": "2026-11-11T05:45:50Z",
+    "episodeNumber": 6,
+    "extractedShowName": "นักสืบตายแล้ว ซีซั่น 2",
+    "matches": [
+      {
+        "id": "tantei-wa-mou-shindeiru-season-2",
+        "titleThai": "The Detective Is Already Dead Season 2",
+        "titleOriginal": "Tantei wa Mou, Shindeiru. Season 2",
+        "alias": "นักสืบตายเเล้ว ภาค 2",
+        "similarity": 0.6
+      }
+    ]
+  }
+]
