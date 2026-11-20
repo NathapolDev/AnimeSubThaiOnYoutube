@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "iHqHVIJOrFY",
+    "title": "TOUGEN ANKI | Mini Anime #28 | ENG-SUB",
+    "channel": "It's Anime powered by REMOW",
+    "publishedAt": "2026-11-20T20:00:20Z",
+    "episodeNumber": 28,
+    "extractedShowName": "tougen anki mini anime",
+    "matches": [
+      {
+        "id": "tougen-anki-nikko-kegon-no-taki-hen",
+        "titleThai": "Tougen Anki: Nikko Kegon Falls Arc",
+        "titleOriginal": "Tougen Anki: Nikko Kegon no Taki-hen",
+        "alias": "tougen anki season 2",
+        "similarity": 0.55
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "TA1rHG2GdSY",
+    "title": "TOUGEN ANKI | Mini Anime #27 | ENG-SUB",
+    "channel": "It's Anime powered by REMOW",
+    "publishedAt": "2026-11-20T19:00:33Z",
+    "episodeNumber": 27,
+    "extractedShowName": "tougen anki mini anime",
+    "matches": [
+      {
+        "id": "tougen-anki-nikko-kegon-no-taki-hen",
+        "titleThai": "Tougen Anki: Nikko Kegon Falls Arc",
+        "titleOriginal": "Tougen Anki: Nikko Kegon no Taki-hen",
+        "alias": "tougen anki season 2",
+        "similarity": 0.55
+      }
+    ]
+  },
+  {
+    "type": "fuzzy_suggestion",
+    "videoId": "TlVAL6mcbS0",
+    "title": "TOUGEN ANKI | Mini Anime #26 | ENG-SUB",
+    "channel": "It's Anime powered by REMOW",
+    "publishedAt": "2026-11-20T18:00:09Z",
+    "episodeNumber": 26,
+    "extractedShowName": "tougen anki mini anime",
+    "matches": [
+      {
+        "id": "tougen-anki-nikko-kegon-no-taki-hen",
+        "titleThai": "Tougen Anki: Nikko Kegon Falls Arc",
+        "titleOriginal": "Tougen Anki: Nikko Kegon no Taki-hen",
+        "alias": "tougen anki season 2",
+        "similarity": 0.55
+      }
+    ]
+  }
+]
